@@ -10,6 +10,7 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 FIELDS = {
+    "identity.official_website": ("identity", "official_website"),
     "visual.color_primary": ("visual", "color_primary"),
     "culture.founded_year": ("culture", "founded_year"),
     "culture.motto": ("culture", "motto"),
@@ -67,6 +68,24 @@ def main():
         lines.append("| %s | %d | %d | %d | %d | %d |" % (
             label, counts["unresearched"], counts["found_auto"],
             counts["found_human"], counts["not_found"], counts["conflict"]))
+    discovery_path = ROOT / "data/review/official-page-discovery-2026.csv"
+    if discovery_path.exists():
+        with discovery_path.open(encoding="utf-8-sig", newline="") as handle:
+            discoveries = list(csv.DictReader(handle))
+        discovery_statuses = collections.Counter(r["status"] for r in discoveries)
+        lines += ["", "## 官网页面发现", "",
+                  "从候选网址访问公开首页；标题包含教育部校名且域名通过筛选才记为 `title_matched`。此步骤是自动判断。", "",
+                  f"- 已处理学校：{len(discoveries)}",
+                  f"- 无候选网址：{discovery_statuses['no_candidate']}",
+                  f"- 首页标题匹配：{discovery_statuses['title_matched']}",
+                  f"- 标题匹配但站点归属待核对：{discovery_statuses['site_unverified']}",
+                  f"- 找到概况页候选：{sum(bool(r['overview_url']) for r in discoveries)}",
+                  f"- 访问或识别未完成：{len(discoveries) - discovery_statuses['title_matched']}"]
+        excerpt_path = ROOT / "data/review/official-excerpts-2026.csv"
+        if excerpt_path.exists():
+            with excerpt_path.open(encoding="utf-8-sig", newline="") as handle:
+                excerpts = list(csv.DictReader(handle))
+            lines += [f"- 官网短证据候选：{sum(r['status'] == 'candidate' for r in excerpts)}（含需要排除的误匹配，不等于已录事实）"]
     candidate_path = ROOT / "data/review/wikidata-candidates-2026.csv"
     if candidate_path.exists():
         with candidate_path.open(encoding="utf-8-sig", newline="") as handle:

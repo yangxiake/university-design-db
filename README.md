@@ -2,7 +2,7 @@
 
 为个人和 AI 助手制作高校主题 PPT 整理可追溯的学校事实、视觉线索与官方资源入口。
 
-**状态：资料整理与人工复核中，尚未正式发布。** 2026 年范围表覆盖 933 所，当前只有 4 所建有待人工复核的示例档案。请先查看 [覆盖率报告](docs/coverage-2026.md)，不要把范围数量当成资料完成数量，也不要将自动提取字段当作人工确认事实。
+**状态：资料整理与人工复核中，尚未正式发布。** 2026 年范围表覆盖 933 所，单校档案正在从官网补充，准确进度见[覆盖率报告](docs/coverage-2026.md)。不要把范围数量当成资料完成数量，也不要将自动提取字段当作人工确认事实。
 
 ## 找学校
 
@@ -30,14 +30,13 @@ scripts/                         重建、渲染、校验脚本
 
 省级分组取自教育部原表；标识码仅作为身份键，不从前几位反推当前省份。教育部空备注不等于“公办”。筛选类别只说明纳入规则，详情见 [需求](docs/requirements.md)。
 
-## 重建与校验
+## 本地生成与校验
 
-需 Python 3.11+。在仓库根目录运行：
+需 Python 3.9+。在仓库根目录运行：
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python scripts/ingest/build_2026.py
 .venv/bin/python scripts/ingest/render_official.py
 .venv/bin/python scripts/ingest/build_indexes.py
 .venv/bin/python scripts/validate/report_coverage.py
@@ -48,12 +47,29 @@ python3 -m venv .venv
 .venv/bin/python -m unittest discover -s scripts/validate -p 'test_*.py'
 ```
 
-重建脚本校验教育部附件哈希；也支持 `--moe-xls` 与 `--double-first-pdf` 传入本地附件。开始调查新学校时可用 `seed_profiles.py --school-code <标识码>` 建立单校草稿，不覆盖已有档案。正式发布时还须运行 `validate_profiles.py --release`，其人工复核门槛目前预期不会通过。
+更新范围和逐校资料时，另运行以下联网采集流程；官网访问结果会随时间变化，不能替代上面的本地校验：
+
+```bash
+.venv/bin/python scripts/ingest/build_2026.py
+.venv/bin/python scripts/validate/build_review_queue.py
+.venv/bin/python scripts/ingest/discover_official_pages.py --priority 2 --resume
+.venv/bin/python scripts/ingest/extract_official_excerpts.py
+.venv/bin/python scripts/ingest/import_confirmed_homepages.py
+.venv/bin/python scripts/ingest/import_curated_founding.py
+.venv/bin/python scripts/ingest/import_direct_founding.py
+.venv/bin/python scripts/ingest/import_explicit_mottos.py
+.venv/bin/python scripts/ingest/render_official.py
+.venv/bin/python scripts/ingest/build_indexes.py
+.venv/bin/python scripts/validate/report_coverage.py
+.venv/bin/python scripts/validate/build_review_queue.py
+```
+
+范围脚本校验教育部附件哈希；也支持 `--moe-xls` 与 `--double-first-pdf` 传入本地附件。开始调查新学校时可用 `seed_profiles.py --school-code <标识码>` 建立单校草稿，不覆盖已有档案。正式发布时还须运行 `validate_profiles.py --release`，其人工复核门槛目前预期不会通过。
 
 ## 来源与使用范围
 
-教育部原始名单及双一流附件的链接、哈希见 [来源清单](data/source-manifest.yaml)。[逐校复核队列](data/review/review-queue-2026.csv) 把 933 所范围、档案状态和候选线索排在一起，双一流 144 所优先。[Wikidata 候选表](data/review/wikidata-candidates-2026.csv) 仅帮助定位资料，不作为单校事实直接使用。
+教育部原始名单及双一流附件的链接、哈希见 [来源清单](data/source-manifest.yaml)。[逐校复核队列](data/review/review-queue-2026.csv) 把 933 所范围、档案状态和候选线索排在一起，双一流 144 所优先。[Wikidata 候选表](data/review/wikidata-candidates-2026.csv) 仅帮助定位资料，不作为单校事实直接使用。[官网入口补充表](data/review/official-site-overrides-2026.csv) 记录搜索到的学校站点和证据入口；自动标题匹配仍需人工检查。
 
 原创脚本按 [MIT](LICENSE)；本仓库原创的数据整理、分类与简短说明按 [CC BY 4.0](LICENSE-DATA.md)。学校发布的文字、校名校徽、模板、照片、字体和链接目标遵循各权利人的规则；本仓库的许可不会替学校授权这些材料。
 
-修订资料请读 [贡献指南](CONTRIBUTING.md)；PPT 与 AI 助手使用请读 [数据指南](docs/data-guide.md)。
+采集与核查边界见[官网资料采集说明](docs/source-collection.md)。修订资料请读 [贡献指南](CONTRIBUTING.md)；PPT 与 AI 助手使用请读 [数据指南](docs/data-guide.md)。

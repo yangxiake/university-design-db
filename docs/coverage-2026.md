@@ -3,8 +3,8 @@
 自动生成报告。933 是纳入范围数量，不是调查完成数或档案数。
 
 - 范围学校：933
-- 已建单校档案：4
-- 尚未建档：929
+- 已建单校档案：582
+- 尚未建档：351
 - 已人工签核档案：0
 - 主色和建校年均已人工确认的档案：0
 
@@ -12,20 +12,33 @@
 
 | 状态 | 学校数 |
 | --- | ---: |
-| unresearched | 929 |
+| unresearched | 351 |
 | in_progress | 0 |
-| needs_review | 4 |
+| needs_review | 582 |
 | reviewed | 0 |
 
 ## 关键字段
 
 | 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
 | --- | ---: | ---: | ---: | ---: | ---: |
+| identity.official_website | 352 | 581 | 0 | 0 | 0 |
 | visual.color_primary | 931 | 1 | 0 | 0 | 1 |
-| culture.founded_year | 930 | 3 | 0 | 0 | 0 |
-| culture.motto | 931 | 2 | 0 | 0 | 0 |
-| resources.official_templates_url | 931 | 2 | 0 | 0 | 0 |
-| resources.official_template_terms | 932 | 1 | 0 | 0 | 0 |
+| culture.founded_year | 819 | 114 | 0 | 0 | 0 |
+| culture.motto | 660 | 273 | 0 | 0 | 0 |
+| resources.official_templates_url | 927 | 6 | 0 | 0 | 0 |
+| resources.official_template_terms | 930 | 3 | 0 | 0 | 0 |
+
+## 官网页面发现
+
+从候选网址访问公开首页；标题包含教育部校名且域名通过筛选才记为 `title_matched`。此步骤是自动判断。
+
+- 已处理学校：933
+- 无候选网址：51
+- 首页标题匹配：578
+- 标题匹配但站点归属待核对：11
+- 找到概况页候选：539
+- 访问或识别未完成：355
+- 官网短证据候选：851（含需要排除的误匹配，不等于已录事实）
 
 ## 自动检索候选（仅供复核）
 

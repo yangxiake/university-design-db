@@ -4,6 +4,7 @@
 import csv
 import pathlib
 import unittest
+from urllib.parse import urlparse
 
 import yaml
 
@@ -48,8 +49,27 @@ class DataRulesTest(unittest.TestCase):
         self.assertEqual({r["school_code"] for r in queue},
                          {r["school_code"] for r in self.scope})
         self.assertEqual(sum(r["priority"] == "1" for r in queue), 144)
-        self.assertEqual(sum(r["research_status"] == "needs_review" for r in queue), 4)
-        self.assertEqual(sum(bool(r["profile_path"]) for r in queue), 4)
+        actual_profiles = list((ROOT / "universities").glob("*/*/profile.yaml"))
+        self.assertEqual(sum(bool(r["profile_path"]) for r in queue), len(actual_profiles))
+        reviewed_state = sum(yaml.safe_load(path.read_text(encoding="utf-8"))["research"]["status"]
+                             == "needs_review" for path in actual_profiles)
+        self.assertEqual(sum(r["research_status"] == "needs_review" for r in queue), reviewed_state)
+
+    def test_matched_sites_are_unique_and_third_party_leads_stay_out(self):
+        with (ROOT / "data/review/official-page-discovery-2026.csv").open(
+                encoding="utf-8-sig", newline="") as handle:
+            rows = list(csv.DictReader(handle))
+        self.assertEqual({r["school_code"] for r in rows},
+                         {r["school_code"] for r in self.scope})
+        matched = [r for r in rows if r["status"] == "title_matched"]
+        hosts = [urlparse(r["homepage_url"]).hostname for r in matched]
+        self.assertEqual(len(hosts), len(set(hosts)))
+        self.assertNotIn("www.at0086.com", hosts)
+        for path in (ROOT / "universities").glob("*/*/profile.yaml"):
+            profile = yaml.safe_load(path.read_text(encoding="utf-8"))
+            website = profile["identity"]["official_website"]
+            if website["availability"] == "found":
+                self.assertNotEqual(urlparse(website["value"]).hostname, "www.at0086.com")
 
 
 if __name__ == "__main__":
