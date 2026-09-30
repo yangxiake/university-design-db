@@ -42,6 +42,15 @@ class DataRulesTest(unittest.TestCase):
         profile = yaml.safe_load(path.read_text(encoding="utf-8"))
         self.assertEqual(profile["research"]["status"], "needs_review")
 
+    def test_review_queue_covers_scope_without_asserting_candidates(self):
+        with (ROOT / "data/review/review-queue-2026.csv").open(encoding="utf-8-sig", newline="") as handle:
+            queue = list(csv.DictReader(handle))
+        self.assertEqual({r["school_code"] for r in queue},
+                         {r["school_code"] for r in self.scope})
+        self.assertEqual(sum(r["priority"] == "1" for r in queue), 144)
+        self.assertEqual(sum(r["research_status"] == "needs_review" for r in queue), 2)
+        self.assertEqual(sum(bool(r["profile_path"]) for r in queue), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

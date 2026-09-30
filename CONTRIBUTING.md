@@ -12,6 +12,7 @@
 .venv/bin/python scripts/ingest/render_official.py
 .venv/bin/python scripts/ingest/build_indexes.py
 .venv/bin/python scripts/validate/report_coverage.py
+.venv/bin/python scripts/validate/build_review_queue.py
 .venv/bin/python scripts/validate/validate_profiles.py
 .venv/bin/python scripts/ingest/build_indexes.py --check
 .venv/bin/python scripts/ingest/render_official.py --check

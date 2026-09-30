@@ -41,6 +41,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/render_official.py
 .venv/bin/python scripts/ingest/build_indexes.py
 .venv/bin/python scripts/validate/report_coverage.py
+.venv/bin/python scripts/validate/build_review_queue.py
 .venv/bin/python scripts/validate/validate_profiles.py
 .venv/bin/python scripts/ingest/build_indexes.py --check
 .venv/bin/python scripts/ingest/render_official.py --check
@@ -51,7 +52,7 @@ python3 -m venv .venv
 
 ## 来源与使用范围
 
-教育部原始名单及双一流附件的链接、哈希见 [来源清单](data/source-manifest.yaml)。[Wikidata 候选表](data/review/wikidata-candidates-2026.csv) 仅帮助定位资料，不作为单校事实直接使用。
+教育部原始名单及双一流附件的链接、哈希见 [来源清单](data/source-manifest.yaml)。[逐校复核队列](data/review/review-queue-2026.csv) 把 933 所范围、档案状态和候选线索排在一起，双一流 144 所优先。[Wikidata 候选表](data/review/wikidata-candidates-2026.csv) 仅帮助定位资料，不作为单校事实直接使用。
 
 原创脚本按 [MIT](LICENSE)；本仓库原创的数据整理、分类与简短说明按 [CC BY 4.0](LICENSE-DATA.md)。学校发布的文字、校名校徽、模板、照片、字体和链接目标遵循各权利人的规则；本仓库的许可不会替学校授权这些材料。
 

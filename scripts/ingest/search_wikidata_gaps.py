@@ -4,11 +4,13 @@
 Results are candidate IDs only. A search hit is never a verified school match.
 """
 
+import argparse
 import concurrent.futures
 import csv
 import datetime as dt
 import json
 import pathlib
+import time
 import urllib.parse
 import urllib.request
 
@@ -40,12 +42,27 @@ def search(row):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--retry-errors", action="store_true", help="Retry only failed searches from the output CSV")
+    args = parser.parse_args()
     with (ROOT / "data/review/wikidata-candidates-2026.csv").open(encoding="utf-8-sig", newline="") as handle:
         rows = [row for row in csv.DictReader(handle)
                 if row["match_status"] in {"no_exact_match", "exact_ambiguous"}]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-        results = list(pool.map(search, rows))
     output = ROOT / "data/review/wikidata-search-gaps-2026.csv"
+    if args.retry_errors and output.exists():
+        with output.open(encoding="utf-8-sig", newline="") as handle:
+            previous = {row["school_code"]: row for row in csv.DictReader(handle)}
+        results = []
+        for row in rows:
+            old = previous.get(row["school_code"])
+            if old and not old["status"].startswith("request_error"):
+                results.append(old)
+                continue
+            time.sleep(0.6)
+            results.append(search(row))
+    else:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+            results = list(pool.map(search, rows))
     with output.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(results[0]))
         writer.writeheader()
