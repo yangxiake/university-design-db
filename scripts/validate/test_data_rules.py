@@ -48,8 +48,8 @@ class DataRulesTest(unittest.TestCase):
         self.assertEqual({r["school_code"] for r in queue},
                          {r["school_code"] for r in self.scope})
         self.assertEqual(sum(r["priority"] == "1" for r in queue), 144)
-        self.assertEqual(sum(r["research_status"] == "needs_review" for r in queue), 2)
-        self.assertEqual(sum(bool(r["profile_path"]) for r in queue), 2)
+        self.assertEqual(sum(r["research_status"] == "needs_review" for r in queue), 4)
+        self.assertEqual(sum(bool(r["profile_path"]) for r in queue), 4)
 
 
 if __name__ == "__main__":

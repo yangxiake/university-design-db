@@ -3,8 +3,8 @@
 自动生成报告。933 是纳入范围与档案目录数量，不是调查完成数。
 
 - 范围学校：933
-- 已建单校档案：2
-- 尚未建档：931
+- 已建单校档案：4
+- 尚未建档：929
 - 已人工签核档案：0
 - 主色和建校年均已人工确认的档案：0
 
@@ -12,9 +12,9 @@
 
 | 状态 | 学校数 |
 | --- | ---: |
-| unresearched | 931 |
+| unresearched | 929 |
 | in_progress | 0 |
-| needs_review | 2 |
+| needs_review | 4 |
 | reviewed | 0 |
 
 ## 关键字段
@@ -22,8 +22,8 @@
 | 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | visual.color_primary | 931 | 1 | 0 | 0 | 1 |
-| culture.founded_year | 931 | 2 | 0 | 0 | 0 |
-| culture.motto | 932 | 1 | 0 | 0 | 0 |
+| culture.founded_year | 930 | 3 | 0 | 0 | 0 |
+| culture.motto | 931 | 2 | 0 | 0 | 0 |
 | resources.official_templates_url | 931 | 2 | 0 | 0 | 0 |
 | resources.official_template_terms | 932 | 1 | 0 | 0 | 0 |
 
