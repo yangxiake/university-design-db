@@ -50,7 +50,7 @@ def main():
             ready += 1
     out = ROOT / "docs/coverage-2026.md"
     lines = ["# 2026 年资料覆盖率", "",
-             "自动生成报告。933 是纳入范围与档案目录数量，不是调查完成数。", "",
+             "自动生成报告。933 是纳入范围数量，不是调查完成数或档案数。", "",
              f"- 范围学校：{len(scope)}",
              f"- 已建单校档案：{profile_count}",
              f"- 尚未建档：{len(scope) - profile_count}",
