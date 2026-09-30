@@ -1,0 +1,28 @@
+schema_version: 1
+dataset_as_of: 2026-06-17
+assembled_at: 2026-09-30
+sources:
+  ordinary_schools_2026:
+    publisher: 中华人民共和国教育部
+    landing_page: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/t20260618_1441074.html
+    attachment: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    sha256: 29c40f083b639888e429cf40b68f9a75782d1ce81131c99aabca65b65b36eaea
+    expected_records: 2952
+  double_first_class_2022:
+    publisher: 教育部、财政部、国家发展改革委
+    landing_page: https://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html
+    attachment: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
+    sha256: 305f73ed08c091984a75e3c29289c166fbaf6778b87fb9802afa176104c1f7ac
+    expected_records: 147
+selection_inputs:
+  benke_candidates:
+    path: data/selection-source/benke-candidates-2026.csv
+    sha256: 16172f88d6dffa69e1868d2e6a164f5d929b05b0d4dd19dc3a43b8c6f1cd8319
+  selected_non_double_first:
+    path: data/selection-source/scope-selected-2026.csv
+    sha256: ac58e8a542ea67178fb652c33bafd9b37fbd03982417b5ab82384c9b910d30a1
+    expected_records: 789
+scope:
+  selected_ministry_schools: 933
+  selected_double_first_class_ministry_schools: 144
+  excluded_military_schools: 3
