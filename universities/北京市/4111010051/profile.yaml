@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4111010051'
   name_zh: 北京舞蹈学院
@@ -22,6 +22,42 @@ identity:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  short_name_en:
+    value: BDA
+    availability: found
+    search_sources: []
+    source: https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_directory
+    upstream_repository: CakeAL/beijing-univs-vis
+    upstream_commit: 9d61ae50d24885331c70fdabf796d9bcfcac6e7b
+    upstream_record_name: 北京舞蹈学院
+    upstream_license: null
+    source_as_of: '2024-11-15'
+    note: 社区数据原值；没有认定为校方现行声明。
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -71,6 +107,40 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
+  logo_assets: []
+  color_palette:
+  - value: '#C7782E'
+    rgb:
+    - 199
+    - 120
+    - 46
+    cmyk: null
+    pantone: null
+    role: primary
+    method: manual_derived
+    official: false
+    source: https://www.bda.edu.cn/images/logo.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    source_field: visual.color_primary
+  vi_resources:
+  - title: 文化标识
+    url: https://www.bda.edu.cn/xygk/whbs/index.htm
+    kinds: 校徽，校名，配色等
+    formats:
+    - jpg
+    access_requirement: 否/
+    campus_district: 海淀
+    source: https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md
+    repository: CakeAL/beijing-univs-vis
+    commit: 9d61ae50d24885331c70fdabf796d9bcfcac6e7b
+    official: false
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
 culture:
   founded_year:
     value: 1954
@@ -143,3 +213,182 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  english_website:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  nature:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  country:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  languages_of_instruction:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  groups:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments: []
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries: []
+admissions:
+  cutoffs: []
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots: []

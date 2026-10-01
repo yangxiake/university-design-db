@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4143010549'
   name_zh: 湖南文理学院
@@ -22,6 +22,55 @@ identity:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  short_name_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value:
+    - hunan-university-of-arts-and-science
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 湖南文理学院
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  external_identifiers:
+  - namespace: damitheswitch/china-universities-dataset
+    value: hunan-arts
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 湖南文理学院
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -72,6 +121,51 @@ visual:
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
+  logo_assets:
+  - asset_id: 72f18008012fe54e
+    title: 湖南文理学院校徽资源
+    kind: badge
+    url: https://www.shanghairanking.cn/_uni/logo/18418928.png
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    file_name: 18418928.png
+    upstream_path: Chinese_Universities.json
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 湖南文理学院
+    format: png
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: indexed_not_fetched
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  color_palette:
+  - value: '#BF1908'
+    rgb:
+    - 191
+    - 25
+    - 8
+    cmyk: null
+    pantone: null
+    role: primary
+    method: manual_derived
+    official: false
+    source: https://www.huas.edu.cn/images/logo.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    source_field: visual.color_primary
+  vi_resources: []
 culture:
   founded_year:
     value: null
@@ -158,3 +252,277 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  english_website:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: 综合
+    availability: found
+    search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 湖南文理学院
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  nature:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  country:
+    value: China
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 湖南文理学院
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  languages_of_instruction:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  groups:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments: []
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries:
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2021
+    scope: 中国大学主榜
+    rank: 395
+    score: 105.9
+    indicators:
+      school_level: null
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 湖南文理学院
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2026
+    scope: 中国大学主榜
+    rank: 455
+    score: 120.6
+    indicators: {}
+    upstream_url: https://www.shanghairanking.cn/institution/hunan-university-of-arts-and-science
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 湖南文理学院
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+admissions:
+  cutoffs: []
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots:
+  - repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
+    school_code: '4143010549'
+    upstream_record_name: 湖南文理学院
+    upstream_fields:
+    - link
+    - location
+    - logo
+    - name
+    - name_eng
+    - note
+    - rank
+    - school_level
+    - total_score
+    - type
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    license: MIT
+    data_as_of: '2021'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: damitheswitch/china-universities-dataset
+    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
+    school_code: '4143010549'
+    upstream_record_name: 湖南文理学院
+    upstream_fields:
+    - category
+    - city
+    - country
+    - languages_of_instruction
+    - logo_url
+    - name
+    - name_zh
+    - province
+    - shanghairanking
+    - slug
+    - slug_aliases
+    - uni_type
+    - website
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    license: MIT
+    data_as_of: '2026'
+    verified: auto
+    checked_at: '2026-10-01'

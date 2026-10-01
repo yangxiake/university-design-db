@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4123010214'
   name_zh: 哈尔滨理工大学
@@ -29,6 +29,69 @@ identity:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: 哈理工
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  short_name_en:
+    value: HRBUST
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value:
+    - harbin-university-of-science-and-technology
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  external_identifiers:
+  - namespace: damitheswitch/china-universities-dataset
+    value: harbin
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -77,6 +140,281 @@ visual:
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
+  logo_assets:
+  - asset_id: 8ebbc9eb074c14f8
+    title: 哈尔滨理工大学校徽资源
+    kind: badge
+    url: https://www.shanghairanking.cn/_uni/logo/37722595.png
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    file_name: 37722595.png
+    upstream_path: Chinese_Universities.json
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 哈尔滨理工大学
+    format: png
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: indexed_not_fetched
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 9368de1016c05812
+    title: 哈尔滨理工大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%93%88%E5%B0%94%E6%BB%A8%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%20HRBUST.svg
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%93%88%E5%B0%94%E6%BB%A8%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%20HRBUST.svg
+    file_name: '%E5%93%88%E5%B0%94%E6%BB%A8%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%20HRBUST.svg'
+    upstream_path: assets/logos-new/哈尔滨理工大学 HRBUST.svg
+    publisher: Magicdover
+    official: false
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 哈尔滨理工大学
+    format: svg
+    width: 785.0
+    height: 785.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 377177d81de759066caab9d34efdbec56cc88cdda032694abac48c914b00ed76
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 42969
+    representation: vector
+    view_box: 0 0 785 785
+    resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%93%88%E5%B0%94%E6%BB%A8%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%20HRBUST.svg
+    inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%93%88%E5%B0%94%E6%BB%A8%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%20HRBUST.svg
+    attempts: []
+  - asset_id: a6b9d539724c6516
+    title: 哈尔滨理工大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    file_name: logo_blue_800x800.png
+    upstream_path: Harbin_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 哈尔滨理工大学
+    format: png
+    width: 800
+    height: 800
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 2e7b389f0ad10a77e65cc0393de51b2c62b8f11a4418f715fc60e37abe956773
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: blue
+    dimensions_in_filename:
+    - 800
+    - 800
+    byte_size: 191782
+    representation: raster
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    attempts: []
+  - asset_id: aeafea8d5aae3022
+    title: 哈尔滨理工大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/svg/logo_blue.svg
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/svg/logo_blue.svg
+    file_name: logo_blue.svg
+    upstream_path: Harbin_University_of_Science_and_Technology/svg/logo_blue.svg
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 哈尔滨理工大学
+    format: svg
+    width: null
+    height: null
+    vector: false
+    has_alpha: null
+    transparent_background: null
+    sha256: 85e33918a71dd2c48e2f87ee1c809e6a01de2b1444989e5b164b6c20cfa38c13
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: blue
+    dimensions_in_filename: null
+    attempts: []
+    byte_size: 1102173
+    representation: svg_with_raster
+    view_box: 0 0 800 800
+    encoding: utf-8-sig
+    intrinsic_width: null
+    intrinsic_height: null
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/svg/logo_blue.svg
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/svg/logo_blue.svg
+  color_palette:
+  - value: '#005BAC'
+    rgb:
+    - 0
+    - 91
+    - 172
+    cmyk: null
+    pantone: null
+    role: primary
+    method: official_vi
+    official: true
+    source: https://syl.hrbust.edu.cn/info/1094/1074.htm
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: found
+    basis: 学校章程说明徽志主颜色为科技蓝，蓝色色值 RGB R0 G91 B172，换算为 HEX
+    source_field: visual.color_primary
+  - value: '#00A0E9'
+    rgb:
+    - 0
+    - 160
+    - 233
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%93%88%E5%B0%94%E6%BB%A8%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%20HRBUST.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    asset_id: 9368de1016c05812
+  - value: '#0080F8'
+    rgb:
+    - 0
+    - 128
+    - 248
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: a6b9d539724c6516
+  - value: '#0078F8'
+    rgb:
+    - 0
+    - 120
+    - 248
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: a6b9d539724c6516
+  - value: '#0088F8'
+    rgb:
+    - 0
+    - 136
+    - 248
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: a6b9d539724c6516
+  - value: '#0080F8'
+    rgb:
+    - 0
+    - 128
+    - 248
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/svg/logo_blue.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG内嵌位图取样；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: aeafea8d5aae3022
+  - value: '#0078F8'
+    rgb:
+    - 0
+    - 120
+    - 248
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/svg/logo_blue.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG内嵌位图取样；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: aeafea8d5aae3022
+  - value: '#0088F8'
+    rgb:
+    - 0
+    - 136
+    - 248
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_University_of_Science_and_Technology/svg/logo_blue.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG内嵌位图取样；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: aeafea8d5aae3022
+  vi_resources: []
 culture:
   founded_year:
     value: 1950
@@ -149,3 +487,343 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  english_website:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: 理工
+    availability: found
+    search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  nature:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  country:
+    value: China
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  languages_of_instruction:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  groups:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value:
+      longitude: 126.555
+      latitude: 45.701
+      crs: unspecified
+      precision: approximate
+      location_kind: community_map_point
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments: []
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries:
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2021
+    scope: 中国大学主榜
+    rank: 196
+    score: 165.5
+    indicators:
+      school_level: null
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2026
+    scope: 中国大学主榜
+    rank: 214
+    score: 185
+    indicators: {}
+    upstream_url: https://www.shanghairanking.cn/institution/harbin-university-of-science-and-technology
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+admissions:
+  cutoffs:
+  - year: 2025
+    region: 重庆市
+    curriculum: 物理类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 505
+    minimum_rank: 63000
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 哈尔滨理工大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots:
+  - repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
+    school_code: '4123010214'
+    upstream_record_name: 哈尔滨理工大学
+    upstream_fields:
+    - link
+    - location
+    - logo
+    - name
+    - name_eng
+    - note
+    - rank
+    - school_level
+    - total_score
+    - type
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    license: MIT
+    data_as_of: '2021'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: damitheswitch/china-universities-dataset
+    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
+    school_code: '4123010214'
+    upstream_record_name: 哈尔滨理工大学
+    upstream_fields:
+    - category
+    - city
+    - country
+    - languages_of_instruction
+    - logo_url
+    - name
+    - name_zh
+    - province
+    - shanghairanking
+    - slug
+    - slug_aliases
+    - uni_type
+    - website
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    license: MIT
+    data_as_of: '2026'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
+    school_code: '4123010214'
+    upstream_record_name: 哈尔滨理工大学
+    upstream_fields:
+    - a
+    - abbr
+    - admin
+    - aminus
+    - aplus
+    - city
+    - emp
+    - en
+    - enAbbr
+    - firstClass
+    - founded
+    - id
+    - intro
+    - lat
+    - lng
+    - name
+    - province
+    - score
+    - tags
+    - tier
+    - type
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'

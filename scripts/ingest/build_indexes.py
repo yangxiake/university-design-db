@@ -56,6 +56,9 @@ def main():
             year_status = profile["culture"]["founded_year"]["availability"]
             template_status = profile["resources"]["official_templates_url"]["availability"]
             entries = profile["resources"].get("community_resources", [])
+            logo_count=len(profile['visual'].get('logo_assets',[]))
+            palette_count=len(profile['visual'].get('color_palette',[]))
+            schema_version=profile['schema_version']
             for entry in entries:
                 resource_index.append(dict(school_code=row['school_code'], name_zh=row['name_zh'],
                                            kind=entry['kind'],title=entry['title'],url=entry['url'],
@@ -64,6 +67,8 @@ def main():
         else:
             research_status = color_status = year_status = template_status = "unresearched"
             entries = []
+            logo_count=palette_count=0
+            schema_version=''
         tags = row["scope_tags"].split("|")
         catalog.append({
             "school_code": row["school_code"],
@@ -79,6 +84,11 @@ def main():
             "template_status": template_status,
             "community_resource_count": len(entries),
             "community_path": (profile_path.parent / "COMMUNITY.md").as_posix() if entries else "",
+            "schema_version": schema_version,
+            "logo_asset_count": logo_count,
+            "palette_count": palette_count,
+            "profile_view_path": (profile_path.parent / "PROFILE.md").as_posix() if schema_version==3 else "",
+            "visual_path": (profile_path.parent / "VISUAL.md").as_posix() if schema_version==3 else "",
             "profile_path": profile_path.as_posix() if absolute.exists() else "",
         })
         province_count[row["province"]] += 1

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4111010003'
   name_zh: 清华大学
@@ -22,6 +22,69 @@ identity:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: 清华
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  short_name_en:
+    value: THU
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value:
+    - tsinghua-university
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  external_identifiers:
+  - namespace: damitheswitch/china-universities-dataset
+    value: tsinghua
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -69,6 +132,277 @@ visual:
     availability: found
     search_sources: []
   landmarks: []
+  logo_assets:
+  - asset_id: 822406277ce7b3cf
+    title: 清华大学校徽资源
+    kind: badge
+    url: https://www.shanghairanking.cn/_uni/logo/27532357.png
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    file_name: 27532357.png
+    upstream_path: Chinese_Universities.json
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 清华大学
+    format: png
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: indexed_not_fetched
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 450446aadc8e1836
+    title: 清华大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg
+    file_name: '%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg'
+    upstream_path: assets/logos-new/清华大学 THU.svg
+    publisher: Magicdover
+    official: false
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 清华大学
+    format: svg
+    width: 283.993
+    height: 284.081
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 02406c7e7efb7bf00037b259bfff1915a0e450137e44045a643a9e1de08389db
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 422833
+    representation: vector
+    view_box: 0 0 283.993 284.081
+    resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg
+    inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg
+    attempts: []
+  - asset_id: 3c77e21da1484171
+    title: 清华大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU.svg
+    file_name: THU.svg
+    upstream_path: static/library/school/THU.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 清华大学
+    format: svg
+    width: 128.0
+    height: 137.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 4e77cb9939d181729e194f350070c29d39e368e61ffe424709e1eef2fcbbdca5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 100529
+    representation: vector
+    view_box: null
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU.svg
+    attempts: []
+  - asset_id: 94666547e10b09f7
+    title: 清华大学校名文字资源
+    kind: wordmark
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU_wordmark.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU_wordmark.svg
+    file_name: THU_wordmark.svg
+    upstream_path: static/library/school/THU_wordmark.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 清华大学
+    format: svg
+    width: 128.0
+    height: 128.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 1555afae170969be7cbcd84ccb5140ba59c5610ecc441636ace7c86e353aa9c9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 109566
+    representation: vector
+    view_box: null
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU_wordmark.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU_wordmark.svg
+    attempts: []
+  color_palette:
+  - value: '#660874'
+    rgb:
+    - 102
+    - 8
+    - 116
+    cmyk: null
+    pantone: null
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: found
+    basis: 现有附来源颜色字段。
+    source_field: visual.color_primary
+  - value: '#743481'
+    rgb:
+    - 116
+    - 52
+    - 129
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_theme
+    official: false
+    source: https://github.com/tuna/THU-Beamer-Theme/blob/061f088d1c7e4b2d2f1f581f3745945ecbb63f25/Tsinghua.sty
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 主题rgb(0.455,0.204,0.506)四舍五入换算；代码注释另写#82318E，保留主题内部差异；不能认定校方标准色。
+    repository: tuna
+    commit: 061f088d1c7e4b2d2f1f581f3745945ecbb63f25
+  - value: '#82318E'
+    rgb:
+    - 130
+    - 49
+    - 142
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_theme
+    official: false
+    source: https://github.com/tuna/THU-Beamer-Theme/blob/061f088d1c7e4b2d2f1f581f3745945ecbb63f25/Tsinghua.sty
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 主题源码注释给出的色值，与同处rgb不一致。
+    repository: tuna
+    commit: 061f088d1c7e4b2d2f1f581f3745945ecbb63f25
+  - value: '#F6BB60'
+    rgb:
+    - 246
+    - 187
+    - 96
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    asset_id: 450446aadc8e1836
+  - value: '#920783'
+    rgb:
+    - 146
+    - 7
+    - 131
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    asset_id: 450446aadc8e1836
+  - value: '#7C2E9A'
+    rgb:
+    - 124
+    - 46
+    - 154
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/THU.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    asset_id: 3c77e21da1484171
+  vi_resources:
+  - title: 视觉形象识别系统
+    url: https://vi.tsinghua.edu.cn/
+    kinds: 校徽，校名，配色等
+    formats: []
+    access_requirement: 是，需要校园 VPN
+    campus_district: 海淀
+    source: https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md
+    repository: CakeAL/beijing-univs-vis
+    commit: 9d61ae50d24885331c70fdabf796d9bcfcac6e7b
+    official: false
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
+  - title: 视觉形象识别手册
+    url: https://www.env.tsinghua.edu.cn/info/1344/7679.htm
+    kinds: 校徽，校名，配色等
+    formats: []
+    access_requirement: 是，需要校园 VPN
+    campus_district: 海淀
+    source: https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md
+    repository: CakeAL/beijing-univs-vis
+    commit: 9d61ae50d24885331c70fdabf796d9bcfcac6e7b
+    official: false
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
+  - title: 110 周年校庆视觉形象识别手册
+    url: https://2021.tsinghua.edu.cn/info/1014/2154.htm
+    kinds: 校徽，校名，配色等
+    formats: []
+    access_requirement: 是，需要校园 VPN
+    campus_district: 海淀
+    source: https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md
+    repository: CakeAL/beijing-univs-vis
+    commit: 9d61ae50d24885331c70fdabf796d9bcfcac6e7b
+    official: false
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
 culture:
   founded_year:
     value: 1911
@@ -193,3 +527,871 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: http://career.tsinghua.edu.cn/
+    availability: found
+    search_sources: []
+    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: PotoYang/UniversityCareerWebPage
+    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2019-10-21'
+    note: 社区数据原值；没有认定为校方现行声明。
+  english_website:
+    value: https://www.tsinghua.edu.cn/en/
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: 综合
+    availability: found
+    search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  nature:
+    value: 公办
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  country:
+    value: China
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  languages_of_instruction:
+    value:
+    - Chinese
+    - English
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  groups:
+    value:
+    - 双一流
+    - '985'
+    - '211'
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value:
+      longitude: 116.326
+      latitude: 40.003
+      crs: unspecified
+      precision: approximate
+      location_kind: community_map_point
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments:
+  - subject: 马克思主义理论
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 信息与通信工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 控制科学与工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 计算机科学与技术
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 软件工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 环境科学与工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 建筑学
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 土木工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 机械工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 电气工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 动力工程及工程热物理
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 管理科学与工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 工商管理
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 设计学
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 数学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 物理学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 化学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 力学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 材料科学与工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 水利工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 核科学与技术
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 仪器科学与技术
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 生物学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 法学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 新闻传播学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 公共管理
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries:
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2021
+    scope: 中国大学主榜
+    rank: 1
+    score: 969.2
+    indicators:
+      school_level: 37.9
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2026
+    scope: 中国大学主榜
+    rank: 1
+    score: 1087.1
+    indicators:
+      faculty: 56.5
+      research: 116.2
+      resources: 48.1
+      discipline: 85
+      top_talent: 146.4
+      school_level: 36.2
+      international: 127.4
+      major_projects: 101.3
+      social_service: 37.1
+      talent_training: 333
+    upstream_url: https://www.shanghairanking.cn/institution/tsinghua-university
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+admissions:
+  cutoffs:
+  - year: 2025
+    region: 重庆市
+    curriculum: 物理类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 695
+    minimum_rank: 80
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  - year: 2025
+    region: 重庆市
+    curriculum: 历史类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 660
+    minimum_rank: 120
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 清华大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots:
+  - repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
+    school_code: '4111010003'
+    upstream_record_name: 清华大学
+    upstream_fields:
+    - link
+    - location
+    - logo
+    - name
+    - name_eng
+    - note
+    - rank
+    - school_level
+    - total_score
+    - type
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    license: MIT
+    data_as_of: '2021'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: damitheswitch/china-universities-dataset
+    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
+    school_code: '4111010003'
+    upstream_record_name: 清华大学
+    upstream_fields:
+    - category
+    - city
+    - country
+    - languages_of_instruction
+    - logo_url
+    - name
+    - name_zh
+    - province
+    - shanghairanking
+    - slug
+    - slug_aliases
+    - uni_type
+    - website
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    license: MIT
+    data_as_of: '2026'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
+    school_code: '4111010003'
+    upstream_record_name: 清华大学
+    upstream_fields:
+    - a
+    - abbr
+    - admin
+    - aminus
+    - aplus
+    - city
+    - emp
+    - en
+    - enAbbr
+    - firstClass
+    - founded
+    - id
+    - intro
+    - lat
+    - lng
+    - name
+    - province
+    - score
+    - tags
+    - tier
+    - type
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
+    school_code: '4111010003'
+    upstream_record_name: 清华大学
+    upstream_fields:
+    - file
+    - title
+    - url
+    - wordmark
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
+    license: MIT
+    data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'

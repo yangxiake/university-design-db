@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4112010056'
   name_zh: 天津大学
@@ -23,6 +23,69 @@ identity:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: 天大
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  short_name_en:
+    value: TJU
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value:
+    - tianjin-university
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  external_identifiers:
+  - namespace: damitheswitch/china-universities-dataset
+    value: tju
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -69,6 +132,293 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
+  logo_assets:
+  - asset_id: 268f4d611b54638a
+    title: 天津大学校徽资源
+    kind: badge
+    url: https://www.shanghairanking.cn/_uni/logo/74813674.png
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    file_name: 74813674.png
+    upstream_path: Chinese_Universities.json
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 天津大学
+    format: png
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: indexed_not_fetched
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 53fa62a864fc6635
+    title: 天津大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6%20TJU.svg
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6%20TJU.svg
+    file_name: '%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6%20TJU.svg'
+    upstream_path: assets/logos-new/天津大学 TJU.svg
+    publisher: Magicdover
+    official: false
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 天津大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 89fb72f77fce97f10a2604e3988914cb2df7b52d12d69edcc0eebae3a23c2eda
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 70327
+    representation: vector
+    view_box: 0 0 252 252
+    resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6%20TJU.svg
+    inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%A4%A9%E6%B4%A5%E5%A4%A7%E5%AD%A6%20TJU.svg
+    attempts: []
+  - asset_id: 1f5176ca2940a491
+    title: 天津大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU.svg
+    file_name: TJU.svg
+    upstream_path: static/library/school/TJU.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 天津大学
+    format: svg
+    width: 128.0
+    height: 137.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 95f28ea4f42d87fe3eccf1b8cd5c6e338651f84ce6fe100775d34c2f6cf12fe0
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 41464
+    representation: vector
+    view_box: null
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU.svg
+    attempts: []
+  - asset_id: a427d61739e5db95
+    title: 天津大学校名文字资源
+    kind: wordmark
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU_wordmark.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU_wordmark.svg
+    file_name: TJU_wordmark.svg
+    upstream_path: static/library/school/TJU_wordmark.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 天津大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 6c206f7bf1b1d3cb2de78411d3e2ca00dc1e7085d3872e604b6f19d27fb64d93
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 15130
+    representation: vector
+    view_box: 0 0 128 40.9
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU_wordmark.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU_wordmark.svg
+    attempts: []
+  - asset_id: ca694e3c01d121ce
+    title: 天津大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/png/logo_blue_800x800.png
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/png/logo_blue_800x800.png
+    file_name: logo_blue_800x800.png
+    upstream_path: Tianjin_University/png/logo_blue_800x800.png
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 天津大学
+    format: png
+    width: 800
+    height: 800
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: a9dc7ccb10771e1d4e1ea423e6e0e4fb957aaac57366a90b36190f3ea9b05787
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: blue
+    dimensions_in_filename:
+    - 800
+    - 800
+    byte_size: 84605
+    representation: raster
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/png/logo_blue_800x800.png
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/png/logo_blue_800x800.png
+    attempts: []
+  - asset_id: 9b02e6ac217e4383
+    title: 天津大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/svg/logo_blue.svg
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/svg/logo_blue.svg
+    file_name: logo_blue.svg
+    upstream_path: Tianjin_University/svg/logo_blue.svg
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 天津大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 10ef33884d224ac68aa6fa159787726d457bdd176d6c0728200e001e49c4802e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: blue
+    dimensions_in_filename: null
+    attempts: []
+    byte_size: 466088
+    representation: vector
+    view_box: 0 0 800 800
+    encoding: utf-8-sig
+    intrinsic_width: null
+    intrinsic_height: null
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/svg/logo_blue.svg
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/svg/logo_blue.svg
+  color_palette:
+  - value: '#E60013'
+    rgb:
+    - 230
+    - 0
+    - 19
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/TJU.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    asset_id: 1f5176ca2940a491
+  - value: '#004078'
+    rgb:
+    - 0
+    - 64
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: ca694e3c01d121ce
+  - value: '#003878'
+    rgb:
+    - 0
+    - 56
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: ca694e3c01d121ce
+  - value: '#003870'
+    rgb:
+    - 0
+    - 56
+    - 112
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: ca694e3c01d121ce
+  - value: '#00407B'
+    rgb:
+    - 0
+    - 64
+    - 123
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Tianjin_University/svg/logo_blue.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 9b02e6ac217e4383
+  vi_resources: []
 culture:
   founded_year:
     value: 1895
@@ -153,3 +503,642 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: http://job.twtstudio.com/main
+    availability: found
+    search_sources: []
+    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: PotoYang/UniversityCareerWebPage
+    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2019-10-21'
+    note: 社区数据原值；没有认定为校方现行声明。
+  english_website:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: 理工
+    availability: found
+    search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  nature:
+    value: 公办
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  country:
+    value: China
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  languages_of_instruction:
+    value:
+    - Chinese
+    - English
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  groups:
+    value:
+    - 双一流
+    - '985'
+    - '211'
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value:
+      longitude: 117.176
+      latitude: 39.108
+      crs: unspecified
+      precision: approximate
+      location_kind: community_map_point
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value:
+    - 化学工程与技术
+    - 仪器科学与技术
+    - 建筑学
+    - 管理科学与工程
+    - 土木工程
+    - 水利工程
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    list_year: 2022
+    completeness: upstream_selection
+    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments:
+  - subject: 化学工程与技术
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 仪器科学与技术
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 建筑学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 材料科学与工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 管理科学与工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 软件工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 力学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 机械工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 光学工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 动力工程及工程热物理
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 土木工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 环境科学与工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries:
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2021
+    scope: 中国大学主榜
+    rank: 22
+    score: 444.3
+    indicators:
+      school_level: 32.7
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2026
+    scope: 中国大学主榜
+    rank: 20
+    score: 544.2
+    indicators:
+      faculty: 51.5
+      research: 51.5
+      resources: 10.1
+      discipline: 35.3
+      top_talent: 38.6
+      school_level: 33.4
+      international: 28.5
+      major_projects: 27.4
+      social_service: 18
+      talent_training: 250.1
+    upstream_url: https://www.shanghairanking.cn/institution/tianjin-university
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+admissions:
+  cutoffs:
+  - year: 2025
+    region: 重庆市
+    curriculum: 物理类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 648
+    minimum_rank: 4000
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  - year: 2025
+    region: 重庆市
+    curriculum: 历史类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 625
+    minimum_rank: 1300
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 天津大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots:
+  - repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
+    school_code: '4112010056'
+    upstream_record_name: 天津大学
+    upstream_fields:
+    - link
+    - location
+    - logo
+    - name
+    - name_eng
+    - note
+    - rank
+    - school_level
+    - total_score
+    - type
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    license: MIT
+    data_as_of: '2021'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: damitheswitch/china-universities-dataset
+    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
+    school_code: '4112010056'
+    upstream_record_name: 天津大学
+    upstream_fields:
+    - category
+    - city
+    - country
+    - languages_of_instruction
+    - logo_url
+    - name
+    - name_zh
+    - province
+    - shanghairanking
+    - slug
+    - slug_aliases
+    - uni_type
+    - website
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    license: MIT
+    data_as_of: '2026'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
+    school_code: '4112010056'
+    upstream_record_name: 天津大学
+    upstream_fields:
+    - a
+    - abbr
+    - admin
+    - aminus
+    - aplus
+    - city
+    - emp
+    - en
+    - enAbbr
+    - firstClass
+    - founded
+    - id
+    - intro
+    - lat
+    - lng
+    - name
+    - province
+    - score
+    - tags
+    - tier
+    - type
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
+    school_code: '4112010056'
+    upstream_record_name: 天津大学
+    upstream_fields:
+    - file
+    - title
+    - url
+    - wordmark
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
+    license: MIT
+    data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'

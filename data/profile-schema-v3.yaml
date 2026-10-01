@@ -1,0 +1,256 @@
+schema_version: 3
+facts:
+  identity.short_name_zh:
+    type: text
+    description: 中文简称
+  identity.short_name_en:
+    type: text
+    description: 英文简称
+  identity.aliases:
+    type: text_list
+    description: 学校别名及曾用名，需保留时期说明
+  identity.slug_aliases:
+    type: text_list
+    description: 社区检索标识，不能当作正式校名
+  institution.school_type:
+    type: text
+    description: 综合、理工、师范等院校类型
+  institution.nature:
+    type: text
+    description: 公办、民办等办学性质，不从空备注推断
+  institution.country:
+    type: text
+    description: 所在国家或地区
+  institution.languages_of_instruction:
+    type: text_list
+    description: 授课语言，社区资料不等于全部专业语言
+  institution.groups:
+    type: text_list
+    description: 院校群与历史项目标签，非排名
+  location.address:
+    type: text
+    description: 通讯地址，不能代替全部校区地址
+  location.postal_code:
+    type: text
+    description: 邮政编码
+  location.coordinates:
+    type: coordinates
+    description: 经纬度及坐标系、位置精度
+  overview.summary_zh:
+    type: text
+    description: 中文简介，短摘要
+  overview.summary_en:
+    type: text
+    description: 英文简介，短摘要
+  statistics.student_count:
+    type: number
+    description: 学生人数，需统计日期和口径
+  statistics.faculty_count:
+    type: number
+    description: 教职工人数，需统计日期和口径
+  statistics.campus_area_hectares:
+    type: number
+    description: 校园面积，公顷，需日期和口径
+  academics.double_first_class_disciplines:
+    type: text_list
+    description: 双一流建设学科，注明名单年份及是否节选
+  academics.degree_authorizations:
+    type: text_list
+    description: 学位授权，需年份与层次口径
+  employment.summary:
+    type: text
+    description: 就业概况，需对应毕业届次
+  employment.report_url:
+    type: url
+    description: 就业质量报告入口
+  resources.admissions_url:
+    type: url
+    description: 招生入口
+  resources.career_url:
+    type: url
+    description: 就业入口
+  resources.english_website:
+    type: url
+    description: 英文网站入口
+  resources.information_disclosure_url:
+    type: url
+    description: 信息公开入口
+  contacts.phone:
+    type: text
+    description: 公开办公或招生电话
+  contacts.email:
+    type: text
+    description: 公开办公邮箱
+collections:
+  identity.external_identifiers: 外部平台标识及命名空间
+  location.campuses: 校区名称、地址和坐标
+  visual.logo_assets: 逐文件校徽、校名文字及组合标识资源
+  visual.color_palette: 结构化调色板，区分官方标准与设计参考
+  visual.vi_resources: VI下载页、资源类型、格式与访问限制
+  academics.subject_assessments: 按评估轮次、学科、等级保存
+  rankings.entries: 按发布方、榜单、年份、范围保存名次和指标
+  admissions.cutoffs: 地区、年份、科类、批次、分数、位次、招生类型
+  admissions.major_cutoffs: 专业或专业组录取数据，保留选科要求
+  admissions.plans: 专业、计划数、学费、学制、选科要求及年份
+  employment.outcomes: 毕业届次、统计口径与就业/升学指标
+  community.snapshots: 可再分发上游数据子集的引用，保留未采用字段
+entry_fields:
+  identity.external_identifiers:
+  - namespace
+  - value
+  location.campuses:
+  - name
+  - address
+  - coordinates
+  visual.logo_assets:
+  - asset_id
+  - kind
+  - title
+  - url
+  - source
+  - file_name
+  - upstream_path
+  - publisher
+  - official
+  - repository
+  - commit
+  - repository_license
+  - asset_license
+  - rights_holder
+  - format
+  - width
+  - height
+  - vector
+  - representation
+  - view_box
+  - encoding
+  - intrinsic_width
+  - intrinsic_height
+  - has_alpha
+  - transparent_background
+  - sha256
+  - byte_size
+  - access_status
+  - availability
+  - verified
+  - checked_at
+  - usage_note
+  - variant
+  - dimensions_in_filename
+  visual.color_palette:
+  - value
+  - rgb
+  - cmyk
+  - pantone
+  - role
+  - method
+  - official
+  - basis
+  - source
+  - verified
+  - checked_at
+  - availability
+  - repository
+  - commit
+  - asset_id
+  visual.vi_resources:
+  - title
+  - url
+  - kinds
+  - formats
+  - access_requirement
+  - campus_district
+  - source
+  - repository
+  - commit
+  - official
+  - verified
+  - checked_at
+  - availability
+  - note
+  academics.subject_assessments:
+  - subject
+  - grade
+  - availability
+  - candidates
+  - round
+  - assessment_year
+  - publisher
+  - completeness
+  rankings.entries:
+  - publisher
+  - ranking_name
+  - year
+  - scope
+  - rank
+  - score
+  - indicators
+  - upstream_url
+  admissions.cutoffs:
+  - year
+  - region
+  - curriculum
+  - batch
+  - enrollment_type
+  - minimum_score
+  - minimum_rank
+  - major_group
+  - score_difference
+  - enrolled_count
+  - reference_only
+  admissions.major_cutoffs:
+  - year
+  - region
+  - curriculum
+  - batch
+  - enrollment_type
+  - major_name
+  - major_code
+  - major_group
+  - subject_requirements
+  - minimum_score
+  - minimum_rank
+  - score_difference
+  - reference_only
+  admissions.plans:
+  - year
+  - region
+  - curriculum
+  - batch
+  - enrollment_type
+  - major_name
+  - major_code
+  - planned_count
+  - tuition
+  - duration_years
+  - subject_requirements
+  - major_group
+  employment.outcomes:
+  - graduation_year
+  - metric
+  - value
+  - unit
+  - basis
+  community.snapshots:
+  - repository
+  - commit
+  - data_path
+  - school_code
+  - upstream_record_name
+  - upstream_fields
+  - source
+  - license
+  - data_as_of
+  - verified
+  - checked_at
+provenance_fields:
+- source
+- verified
+- checked_at
+- source_type
+- upstream_repository
+- upstream_commit
+- upstream_record_name
+- upstream_license
+- source_as_of
+- note

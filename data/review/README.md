@@ -10,6 +10,8 @@
 | AI判读 | `*-decisions-*.yaml`、`priority-official-facts-*` | 逐字段导入依据，保留自动状态，人工核验可后续进行 |
 | 差异记录 | `retracted-claims-*`、`research-claim-differences-*` | 撤回误匹配与已有资料差异 |
 | 复核工作表 | `review-queue-*`、`school-research-status-*`、`field-research-status-*`、`page-visits-*` | 按校和字段定位来源、缺项、冲突及下一步 |
+| GitHub字段并集 | `github-field-union-*` | 本轮实际读取字段、身份匹配和排除/仅保留快照的原因 |
+| v3覆盖 | `enriched-coverage-*` | 逐文件校徽、配色、学科、排名、招生及新增事实字段的当前计数 |
 
 `official-color-decisions-*` 是校方公布的数字色值判读；`sampled-color-decisions-*` 是标注用途的PPT建议色。两者不混用。图片临时预览不随仓库分发，可按图片来源重新读取并比对哈希。
 

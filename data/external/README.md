@@ -1,11 +1,15 @@
 # 第三方资料与来源层级
 
-本目录收匹配数据子集、版本记录和许可。单校当前事实以profile.yaml为准，下载检查过的完整上游源文件只存在忽略的tmp中。
+本目录收匹配数据子集、版本记录和独立许可。单校当前资料以profile.yaml为准；完整上游仓库与读取图形仅用于本地检查，不纳入本库再分发。
 
-| 来源 | 使用方式 | 许可 | 资源匹配学校 |
+| 来源 | 使用方式 | 仓库许可 | 匹配学校 |
 | --- | --- | --- | ---: |
-| [xioajiumi/Chinese_Universities](https://github.com/xioajiumi/Chinese_Universities) | MIT匹配子集 | MIT | 0 |
-| [damitheswitch/china-universities-dataset](https://github.com/damitheswitch/china-universities-dataset) | MIT匹配子集 | MIT | 0 |
+| [xioajiumi/Chinese_Universities](https://github.com/xioajiumi/Chinese_Universities) | v3字段并集/逐文件资料 | MIT | 556 |
+| [damitheswitch/china-universities-dataset](https://github.com/damitheswitch/china-universities-dataset) | v3字段并集/逐文件资料 | MIT | 569 |
+| [Magicdover/China-Universities-2026](https://github.com/Magicdover/China-Universities-2026) | v3字段并集/逐文件资料 | MIT | 184 |
+| [HeyHuazi/SVGLOGO](https://github.com/HeyHuazi/SVGLOGO) | v3字段并集/逐文件资料 | MIT | 115 |
+| [CakeAL/beijing-univs-vis](https://github.com/CakeAL/beijing-univs-vis) | v3字段并集/逐文件资料 | not_declared | 45 |
+| [RoboMaster/university_logos](https://github.com/RoboMaster/university_logos) | v3字段并集/逐文件资料 | not_declared | 85 |
 | [tuna/THU-Beamer-Theme](https://github.com/tuna/THU-Beamer-Theme) | 社区资源入口 | LPPL-1.3c | 1 |
 | [CouesF/marp-theme-zju](https://github.com/CouesF/marp-theme-zju) | 社区资源入口 | not_declared | 1 |
 | [weijianwen/SJTU-logo-banner](https://github.com/weijianwen/SJTU-logo-banner) | 社区资源入口 | not_declared | 1 |
@@ -22,16 +26,18 @@
 | [jtchen2k/hcu](https://github.com/jtchen2k/hcu) | 社区资源入口 | GPL-3.0 | 137 |
 | [DiamonWoo/Laosheng.top](https://github.com/DiamonWoo/Laosheng.top) | 仅网址线索 | CC-BY-NC-ND-3.0 | 0 |
 
-## 采用及排除规则
+字段并集模式的匹配数是数据/文件/VI目录匹配学校数；资源入口模式是该仓库关联学校数。同校可由多个仓库提供资料，不能相加当作唯一学校覆盖。
 
-- 两份582校数据集按完整中文校名匹配，仅补英文名与网址候选。匹配子集附原MIT许可和SOURCE.yaml。2021版与声称2026版不能当作两份独立的校方证据。
-- 就业目录保留MIT匹配子集，推导首页只作候选，访问后再核对。
-- FitchCode目录未声明许可；Laosheng.top使用CC-BY-NC-ND等站点条款。仅读取用于定位的网址事实及出处，不镜像其文章或完整目录，不将其内容重许可为CC BY。
-- 其余主题、校徽及校史项目只记录入口、适用学校、提交和许可；不镜像校徽、字体、主题代码或校史正文。
-- damitheswitch数据的部分logo_url指向Pexels图库照片，未作为校徽导入。hcu的英文缩写、占位描述和年份未直接导入校方事实。
-- lovefc校徽索引LICENSE为Apache-2.0，页面另有保留作者及禁止倒卖说明，记录条款差异；不分发其字体。
-- 未声明许可的资源仅链接。学校标识及模板的使用仍看学校与上游权利人的规则。
+## 导入规则
 
-锁定的上游提交及导入参数见[repositories.yaml](repositories.yaml)；检查和排除记录见[来源评估表](../review/public-repository-assessment-2026.csv)。
+- xioajiumi的582校2021数据：英文名、学校类型、2021排名/指标、校徽具体链接及完整字段匹配快照。
+- damitheswitch的582校2026数据：英文名、类型/性质、国家/语言、检索标识、2026排名/指标与完整快照。其logo_url实际为Pexels照片，本库排除；不能将其README的“校徽”说明当作已验证事实。
+- Magicdover的188校全景数据：简称、近似坐标、学科与招生历史参考、校徽链接。主观梯队、宣传简介、就业评论仅保留MIT快照。
+- HeyHuazi读取学校YAML元数据并识别具体校徽/校名文件。RoboMaster按唯一完整英文名匹配后收具体文件链接；两者图形不镜像。
+- CakeAL的北京VI目录只保存有来源的资源链接、格式和校园认证条件，不复制完整无许可目录。
+- 就业目录保留MIT匹配子集，就业门户作为带历史版本的社区链接，不推出当前校园主页。
+- FitchCode没有许可；Laosheng.top采用CC-BY-NC-ND等站点条款，仅作官网网址线索，不镜像原数据。
+- lovefc校徽字体LICENSE为Apache-2.0，README另有保留作者与禁止倒卖说明，字体不镜像。jtchen2k校史项目只提供版本与参考入口，不导入占位描述。
+- hewguo/gaokao2025只参考README的数据字段结构，没有获得现成数据子集；未执行爬虫或复制代码。无许可Gist中学生/教职工/面积/双语简介字段仅参考结构，不导入内容。
 
-本轮不需要人工签核，所有采集结果标为auto，不将社区项目改称校方发布。
+每个再分发的MIT子集保留LICENSE及SOURCE.yaml/FIELDS-SOURCE.yaml。profiles.jsonl与其他派生视图不改变社区数据原许可。仓库代码/数据许可不是校徽图形或学校商标的许可。逐字段落点及有效覆盖见[字段并集报告](../../docs/github-field-union-2026.md)。

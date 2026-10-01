@@ -15,6 +15,7 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts/ingest"))
 from render_official import render as render_official  # noqa: E402
+from profile_extensions import FACTS as EXTENDED_FACTS, COLLECTIONS, rgb  # noqa: E402
 SCOPE = ROOT / "data/universities-scope-2026.csv"
 FIELDS = {
     "identity": {"name_en", "official_website"},
@@ -51,7 +52,7 @@ def is_date(value):
     return parsed <= dt.date.today()
 
 
-def check_fact(fact, key, label, errors, release=False):
+def check_fact(fact, key, label, errors, release=False, value_type=None):
     required = {"value", "source", "verified", "checked_at", "availability", "search_sources"}
     if not isinstance(fact, dict) or not required <= set(fact):
         errors.append(label + ": missing fact metadata")
@@ -116,7 +117,26 @@ def check_fact(fact, key, label, errors, release=False):
         for metadata in ('upstream_repository','upstream_record_name','upstream_license','source_as_of'):
             if not fact.get(metadata):
                 errors.append(label+': community fact missing '+metadata)
-    if key in URL_VALUE_FIELDS and not is_url(value):
+    if value_type == 'text_list':
+        if not isinstance(value, list) or not value or any(not isinstance(item,str) or not item.strip() or len(item)>200 for item in value):
+            errors.append(label+': value must be a nonempty short-text list')
+    elif value_type == 'coordinates':
+        if not isinstance(value,dict):
+            errors.append(label+': coordinates must be an object')
+        else:
+            for field, limit in [('latitude',90),('longitude',180)]:
+                item=value.get(field)
+                if type(item) not in {int,float} or not -limit<=item<=limit:
+                    errors.append(label+': invalid '+field)
+            if value.get('crs') not in {'WGS84','GCJ02','BD09','unspecified'} or not value.get('precision') or not value.get('location_kind'):
+                errors.append(label+': coordinates need declared system, precision and location kind')
+    elif value_type == 'number':
+        import math
+        if type(value) not in {int,float} or not math.isfinite(value) or value<0:
+            errors.append(label+': value must be a nonnegative finite number')
+        if not fact.get('source_as_of') or not fact.get('basis'):
+            errors.append(label+': statistics need a date and counting basis')
+    elif (key in URL_VALUE_FIELDS or value_type == 'url') and not is_url(value):
         errors.append(label + ": value must be a webpage URL")
     elif key in COLOR_FIELDS:
         if not isinstance(value, str) or not re.fullmatch(r"#[0-9A-Fa-f]{6}", value):
@@ -168,8 +188,8 @@ def validate_profile(path, row, release=False):
         profile = yaml.safe_load(path.read_text(encoding="utf-8"))
     except (OSError, yaml.YAMLError) as exc:
         return [str(path) + ": " + str(exc)], 0, False
-    if not isinstance(profile, dict) or profile.get("schema_version") != 2:
-        return [str(path) + ": schema_version must be 2"], 0, False
+    if not isinstance(profile, dict) or profile.get("schema_version") not in {2,3}:
+        return [str(path) + ": schema_version must be 2 or 3"], 0, False
     identity = profile.get("identity")
     if not isinstance(identity, dict):
         return [str(path) + ": identity object missing"], 0, False
@@ -223,6 +243,19 @@ def validate_profile(path, row, release=False):
         for key in fields:
             populated += int(check_fact(value[key], key, str(path) + "." + group + "." + key,
                                         errors, release))
+    if profile.get('schema_version') == 3:
+        for dotted, (value_type, description) in EXTENDED_FACTS.items():
+            group,key=dotted.split('.')
+            populated += int(check_fact(profile.get(group,{}).get(key),key,str(path)+'.'+dotted,
+                                        errors,release,value_type=value_type))
+        for dotted in COLLECTIONS:
+            group,key=dotted.split('.')
+            items=profile.get(group,{}).get(key)
+            if not isinstance(items,list):
+                errors.append(str(path)+': '+dotted+' must be a list')
+                continue
+            for index,item in enumerate(items):
+                check_extended_entry(dotted,item,str(path)+'.'+dotted+'[%d]'%index,errors,release)
     resources = profile.get('resources', {}).get('community_resources', [])
     if not isinstance(resources, list):
         errors.append(str(path)+': community_resources must be a list')
@@ -276,6 +309,88 @@ def validate_profile(path, row, release=False):
     return errors, populated, ready
 
 
+def check_extended_entry(dotted, item, label, errors, release=False):
+    if not isinstance(item,dict):
+        errors.append(label+': collection entry must be an object')
+        return
+    if not is_url(item.get('source')) or not is_date(item.get('checked_at')) or item.get('verified') not in {'auto','human'}:
+        errors.append(label+': source URL, date and extraction status required')
+    if release and item.get('verified')!='human':
+        errors.append(label+': release requires human verification')
+    commit=item.get('commit') or item.get('upstream_commit')
+    if commit is not None and not re.fullmatch(r'[0-9a-f]{40}',str(commit)):
+        errors.append(label+': invalid pinned commit')
+    if dotted=='visual.logo_assets':
+        for key in ('asset_id','kind','title','publisher','rights_holder','usage_note'):
+            if not isinstance(item.get(key),str) or not item[key]:
+                errors.append(label+': missing '+key)
+        if not is_url(item.get('url')) or item.get('kind') not in {'badge','wordmark','combination','anniversary'}:
+            errors.append(label+': logo needs a concrete URL and asset kind')
+        if item.get('repository') and (item.get('official') is not False or not commit):
+            errors.append(label+': community logo must stay nonofficial and pinned')
+        if item.get('access_status') not in {'indexed_not_fetched','content_inspected','inspection_failed'}:
+            errors.append(label+': invalid asset access status')
+        if item.get('access_status')=='content_inspected':
+            if not re.fullmatch('[0-9a-f]{64}',str(item.get('sha256',''))) or not item.get('byte_size'):
+                errors.append(label+': inspected asset needs content hash and byte size')
+        for key in ('width','height'):
+            if item.get(key) is not None and (type(item[key]) not in {int,float} or item[key]<=0):
+                errors.append(label+': invalid '+key)
+        if item.get('asset_license') is not None and not isinstance(item['asset_license'],str):
+            errors.append(label+': invalid asset license')
+    elif dotted=='visual.color_palette':
+        value=item.get('value')
+        if not re.fullmatch(r'#[0-9A-Fa-f]{6}',str(value)):
+            errors.append(label+': six-digit HEX required')
+        elif item.get('rgb')!=rgb(value):
+            errors.append(label+': RGB does not match HEX')
+        method=item.get('method')
+        if method not in {'official_vi','badge_sample','manual_derived','community_theme','community_logo_sample'}:
+            errors.append(label+': invalid color method')
+        if item.get('official') is not (method=='official_vi'):
+            errors.append(label+': official flag must follow color evidence method')
+        if not item.get('basis') or item.get('role') not in {'primary','secondary','reference','accent'}:
+            errors.append(label+': color role and extraction basis required')
+    elif dotted=='visual.vi_resources':
+        if not is_url(item.get('url')) or not isinstance(item.get('formats'),list) or not item.get('access_requirement'):
+            errors.append(label+': VI resource needs URL, formats and access requirement')
+        if item.get('repository') and item.get('official') is not False:
+            errors.append(label+': a community directory is not an official publisher')
+    elif dotted=='rankings.entries':
+        if type(item.get('year')) is not int or not 1900<=item['year']<=dt.date.today().year:
+            errors.append(label+': ranking edition year required')
+        if not item.get('publisher') or not item.get('ranking_name') or not item.get('scope'):
+            errors.append(label+': ranking publisher, name and scope required')
+        if type(item.get('rank')) is not int or item['rank']<=0:
+            errors.append(label+': rank must be a positive integer')
+    elif dotted=='academics.subject_assessments':
+        if not item.get('subject') or not item.get('publisher') or type(item.get('round')) is not int or not item.get('completeness'):
+            errors.append(label+': assessment subject, publisher, round and selection basis required')
+        if item.get('availability','found')=='conflict':
+            candidates=item.get('candidates',[])
+            if item.get('grade') is not None or len(candidates)<2 or any(c.get('grade') not in {'A+','A','A-','B+','B','B-','C+','C','C-'} or not is_url(c.get('source')) for c in candidates):
+                errors.append(label+': assessment conflict must preserve sourced grades without choosing')
+        elif item.get('grade') not in {'A+','A','A-','B+','B','B-','C+','C','C-'}:
+            errors.append(label+': invalid assessment grade')
+    elif dotted.startswith('admissions.'):
+        if type(item.get('year')) is not int or not 1900<=item['year']<=dt.date.today().year:
+            errors.append(label+': admission year required')
+        for key in ('region','curriculum','batch','enrollment_type'):
+            if not item.get(key):errors.append(label+': admission missing '+key)
+        for key in ('minimum_score','minimum_rank','enrolled_count','tuition','duration_years','planned_count'):
+            if item.get(key) is not None and (type(item[key]) not in {int,float} or item[key]<0):
+                errors.append(label+': invalid admission '+key)
+    elif dotted=='community.snapshots':
+        target=item.get('data_path')
+        if not isinstance(target,str) or not target.startswith('data/external/') or '..' in pathlib.PurePosixPath(target).parts or not (ROOT/target).is_file():
+            errors.append(label+': snapshot must reference a local licensed data subset')
+        if not item.get('license') or not item.get('data_as_of') or not isinstance(item.get('upstream_fields'),list):
+            errors.append(label+': snapshot license, date and field list required')
+    elif dotted=='identity.external_identifiers':
+        if not item.get('namespace') or not item.get('value'):
+            errors.append(label+': external identifier needs namespace and value')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--release", action="store_true", help="Optional audited-edition gate: require human review")
@@ -294,6 +409,8 @@ def main():
     populated = ready_count = 0
     for path in paths:
         code = path.parent.name
+        if args.automatic_draft and yaml.safe_load(path.read_text()).get('schema_version')!=3:
+            errors.append(str(path)+': automatic edition requires schema_version 3')
         if code in found_codes or code not in by_code:
             errors.append(str(path) + ": duplicate or out-of-scope school code")
             continue

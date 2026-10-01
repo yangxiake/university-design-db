@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4137010425'
   name_zh: 中国石油大学(华东)
@@ -29,6 +29,61 @@ identity:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: 石大(华东)
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  short_name_en:
+    value: UPC
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  external_identifiers:
+  - namespace: damitheswitch/china-universities-dataset
+    value: huadong
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -74,14 +129,327 @@ visual:
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
+  logo_assets:
+  - asset_id: ba7d9b8a3890019d
+    title: 中国石油大学（华东）校徽资源
+    kind: badge
+    url: https://www.shanghairanking.cn/_uni/logo/92620812.png
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    file_name: 92620812.png
+    upstream_path: Chinese_Universities.json
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 中国石油大学（华东）
+    format: png
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: indexed_not_fetched
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 3559421082b65edb
+    title: 中国石油大学（华东）校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos/%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%8D%8E%E4%B8%9C%EF%BC%89%20UPC.svg
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos/%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%8D%8E%E4%B8%9C%EF%BC%89%20UPC.svg
+    file_name: '%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%8D%8E%E4%B8%9C%EF%BC%89%20UPC.svg'
+    upstream_path: assets/logos/中国石油大学（华东） UPC.svg
+    publisher: Magicdover
+    official: false
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 中国石油大学（华东）
+    format: svg
+    width: 154.0
+    height: 157.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: ed9a253147f579657c49a0979aedc197524630fd5fe668d8d9098bf7306764aa
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 21813
+    representation: vector
+    view_box: 0 0 154 157
+    resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos/%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%8D%8E%E4%B8%9C%EF%BC%89%20UPC.svg
+    inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos/%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%8D%8E%E4%B8%9C%EF%BC%89%20UPC.svg
+    attempts: []
+  - asset_id: b1a43e46d5770e6b
+    title: 中国石油大学（华东）校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC.svg
+    file_name: UPC.svg
+    upstream_path: static/library/school/UPC.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 中国石油大学（华东）
+    format: svg
+    width: 128.0
+    height: 128.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 31bdc8784b82b12cac9d6f394fb7db4ab821c0c1ef06581b82ccffcec2212ee3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 49632
+    representation: vector
+    view_box: null
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC.svg
+    attempts: []
+  - asset_id: 71406a02b86f7902
+    title: 中国石油大学（华东）校名文字资源
+    kind: wordmark
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC_wordmark.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC_wordmark.svg
+    file_name: UPC_wordmark.svg
+    upstream_path: static/library/school/UPC_wordmark.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 中国石油大学（华东）
+    format: svg
+    width: 701.0
+    height: 175.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 0c1c2e2c52c79b4dc93f35df8583c3a85e81d4a3512b4bc3dd8a6370e6ff8064
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 47132
+    representation: vector
+    view_box: null
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC_wordmark.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC_wordmark.svg
+    attempts: []
+  - asset_id: 797b4afe0ee8855d
+    title: 中国石油大学(华东)校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/png/logo_blue_800x800.png
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/png/logo_blue_800x800.png
+    file_name: logo_blue_800x800.png
+    upstream_path: China_University_of_Petroleum_(Huadong)/png/logo_blue_800x800.png
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国石油大学(华东)
+    format: png
+    width: 800
+    height: 800
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: bf0b99bd4a84b7feaf300160141bebefd6837a50bc148070fbe06776cb673191
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: blue
+    dimensions_in_filename:
+    - 800
+    - 800
+    byte_size: 65408
+    representation: raster
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/png/logo_blue_800x800.png
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/png/logo_blue_800x800.png
+    attempts: []
+  - asset_id: a41085399e800b7d
+    title: 中国石油大学(华东)校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/svg/logo_blue.svg
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/svg/logo_blue.svg
+    file_name: logo_blue.svg
+    upstream_path: China_University_of_Petroleum_(Huadong)/svg/logo_blue.svg
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国石油大学(华东)
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 4966d8d066ce714ddf67854f180389b8586624ecda52e9f64ef61a4c8b9a1efd
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: blue
+    dimensions_in_filename: null
+    attempts: []
+    byte_size: 490026
+    representation: vector
+    view_box: 0 0 800 800
+    encoding: utf-8-sig
+    intrinsic_width: null
+    intrinsic_height: null
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/svg/logo_blue.svg
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/svg/logo_blue.svg
+  color_palette:
+  - value: '#E62129'
+    rgb:
+    - 230
+    - 33
+    - 41
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos/%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%8D%8E%E4%B8%9C%EF%BC%89%20UPC.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    asset_id: 3559421082b65edb
+  - value: '#274563'
+    rgb:
+    - 39
+    - 69
+    - 99
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/UPC.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    asset_id: b1a43e46d5770e6b
+  - value: '#003078'
+    rgb:
+    - 0
+    - 48
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 797b4afe0ee8855d
+  - value: '#003878'
+    rgb:
+    - 0
+    - 56
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 797b4afe0ee8855d
+  - value: '#003070'
+    rgb:
+    - 0
+    - 48
+    - 112
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 797b4afe0ee8855d
+  - value: '#003778'
+    rgb:
+    - 0
+    - 55
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/China_University_of_Petroleum_%28Huadong%29/svg/logo_blue.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: a41085399e800b7d
+  vi_resources: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1953
+    availability: found
     search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。
   motto:
     value: null
     source: null
@@ -145,3 +513,405 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  english_website:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: 理工
+    availability: found
+    search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  nature:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  country:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  languages_of_instruction:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  groups:
+    value:
+    - '211'
+    - 双一流
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value:
+      longitude: 120.13
+      latitude: 36.0
+      crs: unspecified
+      precision: approximate
+      location_kind: community_map_point
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value:
+    - 石油与天然气工程
+    - 地质资源与地质工程
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    list_year: 2022
+    completeness: upstream_selection
+    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments:
+  - subject: 石油与天然气工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 地质资源与地质工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 化学工程与技术
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries:
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2021
+    scope: 中国大学主榜
+    rank: 67
+    score: 287.4
+    indicators:
+      school_level: 27.6
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+admissions:
+  cutoffs:
+  - year: 2025
+    region: 重庆市
+    curriculum: 物理类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 575
+    minimum_rank: 29000
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 中国石油大学（华东）
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots:
+  - repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
+    school_code: '4137010425'
+    upstream_record_name: 中国石油大学（华东）
+    upstream_fields:
+    - link
+    - location
+    - logo
+    - name
+    - name_eng
+    - note
+    - rank
+    - school_level
+    - total_score
+    - type
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    license: MIT
+    data_as_of: '2021'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: damitheswitch/china-universities-dataset
+    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
+    school_code: '4137010425'
+    upstream_record_name: 中国石油大学（华东）
+    upstream_fields:
+    - category
+    - city
+    - country
+    - languages_of_instruction
+    - logo_url
+    - name
+    - name_zh
+    - province
+    - shanghairanking
+    - slug
+    - slug_aliases
+    - uni_type
+    - website
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    license: MIT
+    data_as_of: '2026'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
+    school_code: '4137010425'
+    upstream_record_name: 中国石油大学（华东）
+    upstream_fields:
+    - a
+    - abbr
+    - admin
+    - aminus
+    - aplus
+    - city
+    - emp
+    - en
+    - enAbbr
+    - firstClass
+    - founded
+    - id
+    - intro
+    - lat
+    - lng
+    - name
+    - province
+    - score
+    - tags
+    - tier
+    - type
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
+    school_code: '4137010425'
+    upstream_record_name: 中国石油大学（华东）
+    upstream_fields:
+    - file
+    - title
+    - url
+    - wordmark
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
+    license: MIT
+    data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'

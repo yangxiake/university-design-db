@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4162010730'
   name_zh: 兰州大学
@@ -23,6 +23,69 @@ identity:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: 兰大
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  short_name_en:
+    value: LZU
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value:
+    - lanzhou-university
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  external_identifiers:
+  - namespace: damitheswitch/china-universities-dataset
+    value: lzu
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -69,6 +132,311 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
+  logo_assets:
+  - asset_id: f586843a0d14ffa0
+    title: 兰州大学校徽资源
+    kind: badge
+    url: https://www.shanghairanking.cn/_uni/logo/84317715.png
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    file_name: 84317715.png
+    upstream_path: Chinese_Universities.json
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 兰州大学
+    format: png
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: indexed_not_fetched
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: ace0b1ba93afa480
+    title: 兰州大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%20LZU.svg
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%20LZU.svg
+    file_name: '%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%20LZU.svg'
+    upstream_path: assets/logos-new/兰州大学 LZU.svg
+    publisher: Magicdover
+    official: false
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 兰州大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 9601b5cea9efec41468ee1415d4baba33dd8036d478955445f9766b0dce40250
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 37738
+    representation: vector
+    view_box: 0 0 80 80
+    resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%20LZU.svg
+    inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%20LZU.svg
+    attempts: []
+  - asset_id: 11698a0ffa31c9e9
+    title: 兰州大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU.svg
+    file_name: LZU.svg
+    upstream_path: static/library/school/LZU.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 兰州大学
+    format: svg
+    width: 128.0
+    height: 137.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 5ba2adf8b6d1df972d29c8a03a3a7427e9102ae9719b64b30f57c293d03d8efa
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 24263
+    representation: vector
+    view_box: null
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU.svg
+    attempts: []
+  - asset_id: 077d2387e6bdcc91
+    title: 兰州大学校名文字资源
+    kind: wordmark
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU_wordmark.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU_wordmark.svg
+    file_name: LZU_wordmark.svg
+    upstream_path: static/library/school/LZU_wordmark.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 兰州大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 1cca355751b8c908940074cebfaae4befb34905f514fc575b6f9f7f0676f282e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 16352
+    representation: vector
+    view_box: 0 0 128 44.9
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU_wordmark.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU_wordmark.svg
+    attempts: []
+  - asset_id: 8864876d286ba54b
+    title: 兰州大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/png/logo_blue_800x800.png
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/png/logo_blue_800x800.png
+    file_name: logo_blue_800x800.png
+    upstream_path: Lanzhou_University/png/logo_blue_800x800.png
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 兰州大学
+    format: png
+    width: 800
+    height: 800
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: a734d9f83a8375b9e19d0de2eb09374a1ef1edacf0e5da6593807ff0c1d338c8
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: blue
+    dimensions_in_filename:
+    - 800
+    - 800
+    byte_size: 49769
+    representation: raster
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/png/logo_blue_800x800.png
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/png/logo_blue_800x800.png
+    attempts: []
+  - asset_id: e79e8ad45be01925
+    title: 兰州大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/svg/logo_blue.svg
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/svg/logo_blue.svg
+    file_name: logo_blue.svg
+    upstream_path: Lanzhou_University/svg/logo_blue.svg
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 兰州大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 73c7931c70e2347c70fc8354e2120ad936d5012be030eb4e49ad2e9a976bc8f7
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: blue
+    dimensions_in_filename: null
+    attempts: []
+    byte_size: 495193
+    representation: vector
+    view_box: 0 0 800 800
+    encoding: utf-8-sig
+    intrinsic_width: null
+    intrinsic_height: null
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/svg/logo_blue.svg
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/svg/logo_blue.svg
+  color_palette:
+  - value: '#25506B'
+    rgb:
+    - 37
+    - 80
+    - 107
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%20LZU.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    asset_id: ace0b1ba93afa480
+  - value: '#0067A5'
+    rgb:
+    - 0
+    - 103
+    - 165
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/LZU.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    asset_id: 11698a0ffa31c9e9
+  - value: '#184888'
+    rgb:
+    - 24
+    - 72
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 8864876d286ba54b
+  - value: '#185090'
+    rgb:
+    - 24
+    - 80
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 8864876d286ba54b
+  - value: '#184890'
+    rgb:
+    - 24
+    - 72
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/png/logo_blue_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 8864876d286ba54b
+  - value: '#1C4C8A'
+    rgb:
+    - 28
+    - 76
+    - 138
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Lanzhou_University/svg/logo_blue.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: e79e8ad45be01925
+  vi_resources: []
 culture:
   founded_year:
     value: 1909
@@ -152,3 +520,557 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: https://job.lzu.edu.cn/
+    availability: found
+    search_sources: []
+    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: PotoYang/UniversityCareerWebPage
+    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2019-10-21'
+    note: 社区数据原值；没有认定为校方现行声明。
+  english_website:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: 综合
+    availability: found
+    search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  nature:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  country:
+    value: China
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  languages_of_instruction:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  groups:
+    value:
+    - 双一流
+    - '985'
+    - '211'
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value:
+      longitude: 103.862
+      latitude: 36.046
+      crs: unspecified
+      precision: approximate
+      location_kind: community_map_point
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value:
+    - 化学
+    - 大气科学
+    - 生态学
+    - 草学
+    - 物理学
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    list_year: 2022
+    completeness: upstream_selection
+    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments:
+  - subject: 草学
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 化学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 大气科学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 生态学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 数学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 物理学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 地理学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 民族学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries:
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2021
+    scope: 中国大学主榜
+    rank: 39
+    score: 353.4
+    indicators:
+      school_level: 30.6
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2026
+    scope: 中国大学主榜
+    rank: 40
+    score: 388.4
+    indicators:
+      faculty: 46.5
+      research: 42.4
+      resources: 9.5
+      discipline: 28
+      top_talent: 19.4
+      school_level: 32.2
+      international: 14.9
+      major_projects: 6.9
+      social_service: 4.7
+      talent_training: 183.8
+    upstream_url: https://www.shanghairanking.cn/institution/lanzhou-university
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+admissions:
+  cutoffs:
+  - year: 2025
+    region: 重庆市
+    curriculum: 物理类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 595
+    minimum_rank: 20000
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  - year: 2025
+    region: 重庆市
+    curriculum: 历史类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 590
+    minimum_rank: 4000
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 兰州大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots:
+  - repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
+    school_code: '4162010730'
+    upstream_record_name: 兰州大学
+    upstream_fields:
+    - link
+    - location
+    - logo
+    - name
+    - name_eng
+    - note
+    - rank
+    - school_level
+    - total_score
+    - type
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    license: MIT
+    data_as_of: '2021'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: damitheswitch/china-universities-dataset
+    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
+    school_code: '4162010730'
+    upstream_record_name: 兰州大学
+    upstream_fields:
+    - category
+    - city
+    - country
+    - languages_of_instruction
+    - logo_url
+    - name
+    - name_zh
+    - province
+    - shanghairanking
+    - slug
+    - slug_aliases
+    - uni_type
+    - website
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    license: MIT
+    data_as_of: '2026'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
+    school_code: '4162010730'
+    upstream_record_name: 兰州大学
+    upstream_fields:
+    - a
+    - abbr
+    - admin
+    - aminus
+    - aplus
+    - city
+    - emp
+    - en
+    - enAbbr
+    - firstClass
+    - founded
+    - id
+    - intro
+    - lat
+    - lng
+    - name
+    - province
+    - score
+    - tags
+    - tier
+    - type
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
+    school_code: '4162010730'
+    upstream_record_name: 兰州大学
+    upstream_fields:
+    - file
+    - title
+    - url
+    - wordmark
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
+    license: MIT
+    data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'

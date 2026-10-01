@@ -1,6 +1,6 @@
 ﻿repository,commit,license,mode,matched_resource_schools,notes
-xioajiumi/Chinese_Universities,e088fddc329a6f0148ca72fd3b4d0fe069f13e3a,MIT,MIT匹配子集,0,仅补英文名及网站候选；不导入排名、办学性质或未经身份辨认的图片链接。
-damitheswitch/china-universities-dataset,5eaa2a93f86ac322d53a36da9977d9a4c80f1f56,MIT,MIT匹配子集,0,仅补英文名及网站候选；不导入排名、办学性质或未经身份辨认的图片链接。
+xioajiumi/Chinese_Universities,e088fddc329a6f0148ca72fd3b4d0fe069f13e3a,MIT,v3字段并集/逐文件资料,556,基础导入补英文名/网站候选；字段扩展导入类型、2021排名及逐文件校徽链接，保留历史社区口径。
+damitheswitch/china-universities-dataset,5eaa2a93f86ac322d53a36da9977d9a4c80f1f56,MIT,v3字段并集/逐文件资料,569,补英文名/网站候选，并导入类型、性质、授课语言、检索标识及2026排名社区记录；Pexels照片不当作校徽。
 tuna/THU-Beamer-Theme,061f088d1c7e4b2d2f1f581f3745945ecbb63f25,LPPL-1.3c,社区资源入口,1,非学校官方发布。仓库只收社区入口和提取依据；未声明许可时不镜像或再分发上游文件。
 CouesF/marp-theme-zju,5c5f362b78ac2c899b982af8a110172bacb4265e,not_declared,社区资源入口,1,非学校官方发布。仓库只收社区入口和提取依据；未声明许可时不镜像或再分发上游文件。
 weijianwen/SJTU-logo-banner,e3e3378806ae5b6af33cfa4cb0db542efddae798,not_declared,社区资源入口,1,非学校官方发布。仓库只收社区入口和提取依据；未声明许可时不镜像或再分发上游文件。
@@ -18,3 +18,8 @@ jtchen2k/hcu,8aeab521eb07d38a273318b8123caabf332e66e4,GPL-3.0,社区资源入口
 DiamonWoo/Laosheng.top,aa2ff8054746491526a11b6fb2d9115f07386bbc,CC-BY-NC-ND-3.0,仅网址线索,0,作者大萌的2026目录。只作网址定位、记录链接事实，不镜像正文及完整目录，不将其内容重许可为CC BY。
 csuvc/UniversitySipder,,not_imported,排除,0,无许可，目录主要为部门域名，不能以学校全称可靠匹配；未纳入
 XanCafe/cn-universitysrv,,not_imported,排除,0,检索结果只提供名称和地区；教育部身份表已有，未导入
+Magicdover/China-Universities-2026,419bdc7ce6956fc88c2b70b3979f170b6666f111,MIT,v3字段并集/逐文件资料,184,静态数据字面量解析，不执行上游JS。校徽仅逐文件链接；学科及招生数值保留社区、年份与参考口径。
+HeyHuazi/SVGLOGO,142498f527ac2dd3116cc1feccb9670879839f74,MIT,v3字段并集/逐文件资料,115,读取school/_meta.yaml匹配校名，保存校徽与校名文字的具体文件及内容元数据；不镜像图形、不以代码许可替代图形授权。
+CakeAL/beijing-univs-vis,9d61ae50d24885331c70fdabf796d9bcfcac6e7b,not_declared,v3字段并集/逐文件资料,45,无许可声明，仅提取官方资源链接、格式和访问条件事实；不镜像完整目录或原文。
+RoboMaster/university_logos,3d645fc89869707bd7df8dba0f7e4bbcc4a60e14,not_declared,v3字段并集/逐文件资料,85,英文全名与本库唯一匹配后逐文件收录链接和元数据；版权归相应大学，没有图形再分发授权。
+hewguo/gaokao2025,49145d9da9b9f36e6a419d63a5851fb053aad656,not_declared,字段结构参考,0,只读README中的高校/录取/专业/计划字段结构；没有原数据库与许可，未复制代码或原数据。

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4131010248'
   name_zh: 上海交通大学
@@ -23,6 +23,69 @@ identity:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: 上交
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  short_name_en:
+    value: SJTU
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value:
+    - shanghai-jiao-tong-university
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  external_identifiers:
+  - namespace: damitheswitch/china-universities-dataset
+    value: sjtu
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -68,6 +131,290 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
+  logo_assets:
+  - asset_id: 46d111b106f0caa9
+    title: 上海交通大学校徽资源
+    kind: badge
+    url: https://www.shanghairanking.cn/_uni/logo/27403919.png
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    file_name: 27403919.png
+    upstream_path: Chinese_Universities.json
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 上海交通大学
+    format: png
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: indexed_not_fetched
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: e478969b4514b53a
+    title: 上海交通大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%20SJTU.svg
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%20SJTU.svg
+    file_name: '%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%20SJTU.svg'
+    upstream_path: assets/logos-new/上海交通大学 SJTU.svg
+    publisher: Magicdover
+    official: false
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 上海交通大学
+    format: svg
+    width: 88.0
+    height: 88.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: cd474795af5c2cea5ec498eeee2fba708aca8b6cd7089cc51963be0000f9d322
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 61416
+    representation: vector
+    view_box: 0 0 88 88
+    resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%20SJTU.svg
+    inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%20SJTU.svg
+    attempts: []
+  - asset_id: e94eaf880696e6ce
+    title: 上海交通大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU.svg
+    file_name: SJTU.svg
+    upstream_path: static/library/school/SJTU.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 上海交通大学
+    format: svg
+    width: 128.0
+    height: 137.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 6719d2256596a84dd46e9d58f348ea42625454117fc8b30b3f48921fd2065f95
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 33900
+    representation: vector
+    view_box: null
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU.svg
+    attempts: []
+  - asset_id: 26cc94723556b324
+    title: 上海交通大学校名文字资源
+    kind: wordmark
+    url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU_wordmark.svg
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU_wordmark.svg
+    file_name: SJTU_wordmark.svg
+    upstream_path: static/library/school/SJTU_wordmark.svg
+    publisher: HeyHuazi
+    official: false
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 上海交通大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 69d9d7263050f73b5829eef3f45650f653c2119a06261c971a5706fd90ac86b3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    byte_size: 20733
+    representation: vector
+    view_box: 0 0 128 40.9
+    resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU_wordmark.svg
+    inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU_wordmark.svg
+    attempts: []
+  - asset_id: 1f3d313be4a71df9
+    title: 上海交通大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
+    file_name: logo_red_800x800.png
+    upstream_path: Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
+    publisher: RoboMaster
+    official: false
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海交通大学
+    format: png
+    width: 800
+    height: 800
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 2108c6eb2772caafc67cba0a4d2d18b0e33e5d348c6ed8a31ed1292e3df62508
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。
+    variant: red
+    dimensions_in_filename:
+    - 800
+    - 800
+    byte_size: 359298
+    representation: raster
+    resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
+    inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
+    attempts: []
+  color_palette:
+  - value: '#A72038'
+    rgb:
+    - 167
+    - 32
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_theme
+    official: false
+    source: https://github.com/sjtug/SJTUBeamer/blob/72a76138446137c1090070ba0cf66cbe56b3bd80/sjtuvi.sty
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: sjtuRedPrimary，红色主题主色，RGB(167,32,56)；社区主题源码参考，不认定为校方VI标准色。
+    repository: sjtug
+    commit: 72a76138446137c1090070ba0cf66cbe56b3bd80
+  - value: '#004098'
+    rgb:
+    - 0
+    - 64
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_theme
+    official: false
+    source: https://github.com/sjtug/SJTUBeamer/blob/72a76138446137c1090070ba0cf66cbe56b3bd80/sjtuvi.sty
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: sjtuBluePrimary，蓝色主题主色，RGB(0,64,152)；社区主题源码参考，不认定为校方VI标准色。
+    repository: sjtug
+    commit: 72a76138446137c1090070ba0cf66cbe56b3bd80
+  - value: '#B62537'
+    rgb:
+    - 182
+    - 37
+    - 55
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%20SJTU.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    asset_id: e478969b4514b53a
+  - value: '#B62537'
+    rgb:
+    - 182
+    - 37
+    - 55
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SJTU.svg
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。
+    repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    asset_id: e94eaf880696e6ce
+  - value: '#B01830'
+    rgb:
+    - 176
+    - 24
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 1f3d313be4a71df9
+  - value: '#A81830'
+    rgb:
+    - 168
+    - 24
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 1f3d313be4a71df9
+  - value: '#A81030'
+    rgb:
+    - 168
+    - 16
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: RoboMaster/university_logos
+    commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
+    asset_id: 1f3d313be4a71df9
+  vi_resources: []
 culture:
   founded_year:
     value: 1896
@@ -184,3 +531,744 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: http://www.job.sjtu.edu.cn/
+    availability: found
+    search_sources: []
+    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: PotoYang/UniversityCareerWebPage
+    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2019-10-21'
+    note: 社区数据原值；没有认定为校方现行声明。
+  english_website:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: 综合
+    availability: found
+    search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  nature:
+    value: 公办
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  country:
+    value: China
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  languages_of_instruction:
+    value:
+    - Chinese
+    - English
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+  groups:
+    value:
+    - 双一流
+    - '985'
+    - '211'
+    availability: found
+    search_sources: []
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value:
+      longitude: 121.434
+      latitude: 31.025
+      crs: unspecified
+      precision: approximate
+      location_kind: community_map_point
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value:
+    - 机械工程
+    - 船舶与海洋工程
+    - 生物医学工程
+    - 临床医学
+    - 计算机科学与技术
+    - 工商管理
+    availability: found
+    search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    list_year: 2022
+    completeness: upstream_selection
+    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments:
+  - subject: 船舶与海洋工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 生物学
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 机械工程
+    grade: A+
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 数学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 材料科学与工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 信息与通信工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 控制科学与工程
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 计算机科学与技术
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 临床医学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 口腔医学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 工商管理
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 药学
+    grade: A
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 电气工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 土木工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 环境科学与工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 生物医学工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 管理科学与工程
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - subject: 基础医学
+    grade: A-
+    round: 4
+    assessment_year: 2017
+    publisher: 教育部学位与研究生教育发展中心
+    completeness: upstream_selection
+    availability: found
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries:
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2021
+    scope: 中国大学主榜
+    rank: 4
+    score: 723.4
+    indicators:
+      school_level: 35.5
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 社区数据原值；没有认定为校方现行声明。
+  - publisher: ShanghaiRanking
+    ranking_name: 软科中国大学排名
+    year: 2026
+    scope: 中国大学主榜
+    rank: 4
+    score: 894.2
+    indicators:
+      faculty: 54.5
+      research: 132.9
+      resources: 31.6
+      discipline: 71
+      top_talent: 102.3
+      school_level: 35.7
+      international: 68.5
+      major_projects: 92.1
+      social_service: 22.1
+      talent_training: 283.6
+    upstream_url: https://www.shanghairanking.cn/institution/shanghai-jiao-tong-university
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: damitheswitch/china-universities-dataset
+    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026'
+    note: 社区数据原值；没有认定为校方现行声明。
+admissions:
+  cutoffs:
+  - year: 2025
+    region: 重庆市
+    curriculum: 物理类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 686
+    minimum_rank: 230
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  - year: 2025
+    region: 重庆市
+    curriculum: 历史类
+    batch: 普通类本科批
+    enrollment_type: 上游参考整理
+    minimum_score: 648
+    minimum_rank: 260
+    major_group: null
+    score_difference: null
+    enrolled_count: null
+    reference_only: true
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: Magicdover/China-Universities-2026
+    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots:
+  - repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
+    school_code: '4131010248'
+    upstream_record_name: 上海交通大学
+    upstream_fields:
+    - link
+    - location
+    - logo
+    - name
+    - name_eng
+    - note
+    - rank
+    - school_level
+    - total_score
+    - type
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    license: MIT
+    data_as_of: '2021'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: damitheswitch/china-universities-dataset
+    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
+    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
+    school_code: '4131010248'
+    upstream_record_name: 上海交通大学
+    upstream_fields:
+    - category
+    - city
+    - country
+    - languages_of_instruction
+    - logo_url
+    - name
+    - name_zh
+    - province
+    - shanghairanking
+    - slug
+    - slug_aliases
+    - uni_type
+    - website
+    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
+    license: MIT
+    data_as_of: '2026'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Magicdover/China-Universities-2026
+    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
+    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
+    school_code: '4131010248'
+    upstream_record_name: 上海交通大学
+    upstream_fields:
+    - a
+    - abbr
+    - admin
+    - aminus
+    - aplus
+    - city
+    - emp
+    - en
+    - enAbbr
+    - firstClass
+    - founded
+    - id
+    - intro
+    - lat
+    - lng
+    - name
+    - province
+    - score
+    - tags
+    - tier
+    - type
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: HeyHuazi/SVGLOGO
+    commit: 142498f527ac2dd3116cc1feccb9670879839f74
+    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
+    school_code: '4131010248'
+    upstream_record_name: 上海交通大学
+    upstream_fields:
+    - file
+    - title
+    - url
+    - wordmark
+    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
+    license: MIT
+    data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'

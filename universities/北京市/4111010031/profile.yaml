@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 identity:
   school_code: '4111010031'
   name_zh: 北京第二外国语学院
@@ -22,6 +22,42 @@ identity:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
+  short_name_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  short_name_en:
+    value: BISU
+    availability: found
+    search_sources: []
+    source: https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_directory
+    upstream_repository: CakeAL/beijing-univs-vis
+    upstream_commit: 9d61ae50d24885331c70fdabf796d9bcfcac6e7b
+    upstream_record_name: 北京第二外国语学院
+    upstream_license: null
+    source_as_of: '2024-11-15'
+    note: 社区数据原值；没有认定为校方现行声明。
+  aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  slug_aliases:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -65,6 +101,24 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
+  logo_assets: []
+  color_palette: []
+  vi_resources:
+  - title: VI 系统
+    url: https://www.bisu.edu.cn/art/2016/3/22/art_7861_97186.html
+    kinds: 校徽，校名，配色
+    formats:
+    - jpg
+    access_requirement: 否
+    campus_district: 朝阳
+    source: https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md
+    repository: CakeAL/beijing-univs-vis
+    commit: 9d61ae50d24885331c70fdabf796d9bcfcac6e7b
+    official: false
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
 culture:
   founded_year:
     value: null
@@ -124,3 +178,182 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
+  admissions_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  career_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  english_website:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  information_disclosure_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+institution:
+  school_type:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  nature:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  country:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  languages_of_instruction:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  groups:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+location:
+  address:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  postal_code:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  coordinates:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campuses: []
+overview:
+  summary_zh:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  summary_en:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+statistics:
+  student_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  faculty_count:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  campus_area_hectares:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+academics:
+  double_first_class_disciplines:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  degree_authorizations:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  subject_assessments: []
+employment:
+  summary:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  report_url:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  outcomes: []
+contacts:
+  phone:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  email:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+rankings:
+  entries: []
+admissions:
+  cutoffs: []
+  major_cutoffs: []
+  plans: []
+community:
+  snapshots: []

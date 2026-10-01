@@ -54,3 +54,40 @@ GitHub 数据填充的事实增加 `source_type: community_dataset`、`upstream_
 `research.status: auto_collected` 表示已采集到部分资料，须有采集日期；不代表逐字段完备。本轮无需 `reviewed_by` 或 `verified: human`。原来的 `needs_review` 状态兼容保留，人工审定规则仍供未来选用。
 
 `research.website_candidates`可保存尚未确认官网时的附来源入口，状态为`unverified_candidate`，不会自动变成`identity.official_website`。`website_candidates_updated_at`记录线索同步日期。
+
+## v3字段并集
+
+当前`schema_version: 3`。新增字段全部列于[data/profile-schema-v3.yaml](../data/profile-schema-v3.yaml)；旧v2档案可由`expand_repository_fields.py`无损增加空字段，已有事实和人工选择保留。当前全量交付要求1412份v3档案；校验器仍能读取v2历史档案。
+
+新增事实保留既有`value/source/verified/checked_at/availability/search_sources`封装；`value`按字段定义为短文本、文本列表、数字或坐标对象。不能把未知数值写成0或空字符串。
+
+| 分组 | 新增内容 |
+| --- | --- |
+| identity | 中英文简称、别名、检索slug、带命名空间的外部标识 |
+| institution | 类型、性质、国家、授课语言、院校群与历史项目标签 |
+| location | 地址、邮编、校区、坐标（latitude/longitude/crs/precision/location_kind） |
+| overview | 中英文短简介；社区评论保留在快照，不转成客观事实 |
+| statistics | 学生、教职工人数、校园面积；必须有统计日期source_as_of与basis |
+| academics | 双一流学科、学位授权、按subject/round/grade保存的评估节选 |
+| rankings | publisher/ranking_name/year/scope/rank/score/indicators/upstream_url |
+| admissions | cutoffs、major_cutoffs、plans，按地区、年份、科类、批次及招生类型区分 |
+| employment | 概况、报告入口、按毕业届次与统计口径保存的outcomes |
+| resources/contacts | 招生、就业、英文、信息公开入口与公开办公电话/邮箱 |
+| visual | logo_assets、color_palette、vi_resources |
+| community | snapshots，引用本库保留许可的上游匹配记录子集 |
+
+`admissions.cutoffs`含`minimum_score/minimum_rank/score_difference/enrolled_count/major_group/reference_only`；`major_cutoffs`另含`major_name/major_code/major_group/subject_requirements`；`plans`含`major_name/major_code/planned_count/tuition/duration_years/subject_requirements`。三者共同包含`year/region/curriculum/batch/enrollment_type`及来源元数据。缺项不能从学校最低分或上游未注明的专业组推断。`location.campuses`逐条包含`name/address/coordinates`及来源；`employment.outcomes`包含`graduation_year/metric/value/unit/basis`及来源。
+
+### 逐文件视觉资源
+
+`visual.logo_assets`包含`asset_id/kind/title/url/source/file_name/upstream_path/publisher/official/repository/commit/repository_license/asset_license/rights_holder/format/width/height/vector/representation/has_alpha/transparent_background/sha256/byte_size/access_status/availability/verified/checked_at/usage_note`。`kind`区分`badge/wordmark/combination/anniversary`；学校全称或唯一英文全名匹配后才归档。`variant/dimensions_in_filename`只是文件名提示，不代替实测尺寸或HEX。
+
+`access_status`为`indexed_not_fetched/content_inspected/inspection_failed`。实测格式来自文件内容，不相信扩展名；`representation`区分纯矢量、SVG内嵌位图和普通位图。`vector: false`的SVG可以是内嵌位图。SVG透明背景无法仅凭填充属性确认时保持null；viewBox不等于像素尺寸；mm等尺寸保留在intrinsic_width/intrinsic_height而不假称像素。只在读取成功后记sha256/byte_size。检查失败保留实际尝试的网址及原因，可继续从其他来源取得同校文件。
+
+`visual.color_palette`逐条含HEX`value`、`rgb`、`cmyk/pantone`、`role`、`method`、`official`、`source`、`verified/checked_at/availability/basis`和可选上游版本/asset_id。方法增加`community_theme/community_logo_sample`；只有`official_vi`允许`official: true`。取样值属于建议，不覆盖已有官方主色或冲突结论。RGB由HEX精确转换；CMYK/Pantone必须另有标准来源，不做无依据换算。
+
+`visual.vi_resources`记录学校资源链接、提供的资源种类、格式、校园认证要求和社区依据；社区目录指向官方页面不等于资源由该社区官方发布。
+
+### 上游快照与差异
+
+MIT上游匹配数据存于`data/external/<仓库>/matched-fields.jsonl`，保留原始字段、学校标识码、来源及独立LICENSE。`community.snapshots`保存`repository/commit/data_path/school_code/upstream_record_name/upstream_fields/source/license/data_as_of/verified/checked_at`；原字段有主观评价、旧数据、占位文字或错误链接时仍可从快照追溯，但不自动成为本库采纳的学校事实。没有兼容数据许可的仓库只提取资源链接事实，不再分发完整原数据。

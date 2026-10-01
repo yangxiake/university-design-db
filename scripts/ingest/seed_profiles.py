@@ -28,7 +28,8 @@ def empty_fact():
 
 
 def profile_for(row):
-    return {
+    from profile_extensions import migrate
+    return migrate({
         "schema_version": 2,
         "identity": {
             "school_code": row["school_code"],
@@ -68,7 +69,7 @@ def profile_for(row):
             "official_template_publisher": empty_fact(),
             "official_template_terms": empty_fact(),
         },
-    }
+    })
 
 
 def main():

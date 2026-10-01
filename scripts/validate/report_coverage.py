@@ -137,6 +137,17 @@ def main():
               f"- 其中Beamer主题：{community['beamer_theme']}；Marp主题：{community['marp_theme']}；校徽参考：{community['logo_reference']}；校史参考：{community['history_reference']}",
               f"- 社区数据补充的事实：{community['dataset_facts']}（已计入关键字段，非校方现行声明）", '',
               '资源索引见indexes/community-resources.csv。社区配色不计入学校主题色统计。']
+    enriched_path=ROOT/'data/review/enriched-coverage-2026.json'
+    if enriched_path.exists():
+        import json
+        enriched=json.loads(enriched_path.read_text())['counts']
+        lines += ['', '## v3字段并集与视觉文件', '',
+                  f"- 逐文件校徽/校名资源：{enriched['logo_schools']}所、{enriched['logo_entries']}条",
+                  f"- 结构化配色：{enriched['palette_schools']}所、{enriched['palette_entries']}条（包含建议色，不等于官方标准覆盖）",
+                  f"- 历史排名：{enriched['ranking_schools']}所、{enriched['ranking_entries']}条",
+                  f"- 学科评估节选：{enriched['subject_schools']}所、{enriched['subject_entries']}条",
+                  f"- 重庆2025社区录取参考：{enriched['admission_schools']}所、{enriched['admission_entries']}条",
+                  '', '新增27个事实字段和12个集合的逐项填充及上游字段落点见[字段并集报告](github-field-union-2026.md)。']
     overrides_path=ROOT/'data/review/official-site-overrides-2026.csv'
     if overrides_path.exists():
         with overrides_path.open(encoding='utf-8-sig',newline='') as handle:
