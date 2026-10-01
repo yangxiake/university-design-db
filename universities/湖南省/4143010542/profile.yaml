@@ -37,10 +37,19 @@ visual:
   color_primary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: conflict
     search_sources: []
+    candidates:
+    - value: '#C8161E'
+      source: https://www.hunnu.edu.cn/xxgk1/xxbs1.htm
+      basis: 官网 RGB R200 G22 B30 换算为 HEX
+    - value: '#C8161D'
+      source: https://www.hunnu.edu.cn/xxgk1/xxbs1.htm
+      basis: 官网直接列出的 WEB 色值
+    label: 麓山枫红
+    note: 官网同页的 RGB R200 G22 B30 与 WEB C8161D 相差一个 HEX 单位
   color_secondary:
     value: null
     source: null
@@ -49,11 +58,11 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hunnu.edu.cn/xxgk1/xxbs1.htm
+    source: https://www.hunnu.edu.cn/xxgk1/xxbs1.htm
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: found
     search_sources: []
   badge_description:
     value: null

@@ -36,10 +36,12 @@ visual:
   color_primary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: not_found
+    search_sources:
+    - https://www.jlau.edu.cn/xxgk/dxzc.htm
+    note: 章程原文为 R43 G126 B137XXX，含未解释的 XXX 占位字符，暂不确认可用官方 HEX；需复核原始 VI 或有效章程。
   color_secondary:
     value: null
     source: null
@@ -48,11 +50,11 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.jlau.edu.cn/xxgk/xxbs.htm
+    source: https://www.jlau.edu.cn/xxgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: found
     search_sources: []
   badge_description:
     value: null

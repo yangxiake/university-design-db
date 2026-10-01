@@ -1,0 +1,186 @@
+# 官网页面明确给出 RGB 或 HEX 后由 AI 整理；不是人工签核。
+# 多个并列标准色按来源出现顺序放入 primary/secondary，role_note 明示其关系。
+- school_code: '4111010019'
+  name_zh: 中国农业大学
+  source: https://www.cau.edu.cn/xxgk/whbz/sjsbxt/index.htm
+  vi_url: https://www.cau.edu.cn/xxgk/whbz/sjsbxt/index.htm
+  color_primary: {value: '#00873C', label: 生命绿, basis: '官网标准色 RGB R0 G135 B60，换算为 HEX'}
+- school_code: '4111010004'
+  name_zh: 北京交通大学
+  source: https://www.bjtu.edu.cn/xxgk/xxbz/index.htm
+  vi_url: https://www.bjtu.edu.cn/xxgk/xxbz/index.htm
+  color_primary: {value: '#003690', label: 交大蓝, basis: '官网学校标识页标准色 RGB R0 G54 B144，换算为 HEX'}
+- school_code: '4131010271'
+  name_zh: 上海外国语大学
+  source: https://shisu.edu.cn/about/identity-guidelines/index.html
+  vi_url: https://shisu.edu.cn/about/identity-guidelines/index.html
+  color_primary: {value: '#0062AC', label: 上外蓝, basis: '官网直接列出网页 HEX #0062AC'}
+- school_code: '4132010291'
+  name_zh: 南京工业大学
+  source: https://xxgk.njtech.edu.cn/info/1004/1290.htm
+  color_primary: {value: '#0093DD', label: 标识蓝, basis: '学校章程规定标识标准色 RGB R0 G147 B221，换算为 HEX'}
+- school_code: '4132010292'
+  name_zh: 常州大学
+  source: https://www.cczu.edu.cn/2016/0115/c10291a130708/page.htm
+  vi_url: https://www.cczu.edu.cn/2016/0115/c10291a130708/page.htm
+  color_primary: {value: '#AD3C31', label: 标准红, basis: '官网校标页标准色 RGB R173 G60 B49，换算为 HEX'}
+- school_code: '4132016403'
+  name_zh: 西交利物浦大学
+  source: https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity
+  vi_url: https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity
+  color_primary_conflict:
+    label: 西浦蓝
+    reason: '官网同页的 RGB 0,0,66 与 HEX #010544 不一致，待校方确认数字设计用色'
+    candidates:
+      - {value: '#000042', basis: '官网 RGB 0,0,66 换算为 HEX'}
+      - {value: '#010544', basis: '官网直接列出的 HEX'}
+  color_secondary: {value: '#CE57C1', label: 西浦紫, basis: '官网 RGB 206,87,193 与 HEX #CE57C1 一致'}
+- school_code: '4142010486'
+  name_zh: 武汉大学
+  source: https://www.whu.edu.cn/xxgk/wdbs.htm
+  vi_url: https://www.whu.edu.cn/xxgk/wdbs.htm
+  color_primary: {value: '#002554', label: 珞珈蓝, basis: '官网并列标准色 RGB R0 G37 B84，换算为 HEX', role_note: '与珞珈绿并列为学校标准色'}
+  color_secondary: {value: '#115740', label: 珞珈绿, basis: '官网并列标准色 RGB R17 G87 B64，换算为 HEX', role_note: '与珞珈蓝并列为学校标准色'}
+- school_code: '4143010542'
+  name_zh: 湖南师范大学
+  source: https://www.hunnu.edu.cn/xxgk1/xxbs1.htm
+  vi_url: https://www.hunnu.edu.cn/xxgk1/xxbs1.htm
+  color_primary_conflict:
+    label: 麓山枫红
+    reason: '官网同页的 RGB R200 G22 B30 与 WEB C8161D 相差一个 HEX 单位'
+    candidates:
+      - {value: '#C8161E', basis: '官网 RGB R200 G22 B30 换算为 HEX'}
+      - {value: '#C8161D', basis: '官网直接列出的 WEB 色值'}
+- school_code: '4145010594'
+  name_zh: 广西科技大学
+  source: https://www.gxust.edu.cn/xxgkuang/VISxt.htm
+  vi_url: https://www.gxust.edu.cn/xxgkuang/VISxt.htm
+  color_primary: {value: '#2178AA', label: 科大蓝, basis: '官网 VIS 页标准色 RGB R33 G120 B170，换算为 HEX'}
+- school_code: '4151010613'
+  name_zh: 西南交通大学
+  source: https://www.swjtu.edu.cn/
+  vi_url: https://www.swjtu.edu.cn/
+  color_primary: {value: '#0079BA', label: 交大蓝, basis: '官网并列标准色 RGB R0 G121 B186，换算为 HEX', role_note: '与交大红并列为学校标准色'}
+  color_secondary: {value: '#C62C30', label: 交大红, basis: '官网并列标准色 RGB R198 G44 B48，换算为 HEX', role_note: '与交大蓝并列为学校标准色'}
+- school_code: '4153010673'
+  name_zh: 云南大学
+  source: https://www.ynu.edu.cn/info/1174/27962.htm
+  color_primary: {value: '#211E6E', label: 云大蓝, basis: '学校章程规定标识系统主要色彩 RGB R33 G30 B110，换算为 HEX', role_note: '与云大绿并列为标识主要色彩'}
+  color_secondary: {value: '#1A4B27', label: 云大绿, basis: '学校章程规定标识系统主要色彩 RGB R26 G75 B39，换算为 HEX', role_note: '与云大蓝并列为标识主要色彩'}
+- school_code: '4150010650'
+  name_zh: 四川外国语大学
+  source: https://www.sisu.edu.cn/xxgk/xxbz/index.htm
+  vi_url: https://www.sisu.edu.cn/xxgk/xxbz/index.htm
+  color_primary: {value: '#3D6A9F', label: 校徽蓝, basis: '官网学校标识页给出校徽色值 RGB 61,106,159，换算为 HEX；仅作为校徽色'}
+- school_code: '4123010214'
+  name_zh: 哈尔滨理工大学
+  source: https://syl.hrbust.edu.cn/info/1094/1074.htm
+  color_primary: {value: '#005BAC', label: 科技蓝, basis: '学校章程说明徽志主颜色为科技蓝，蓝色色值 RGB R0 G91 B172，换算为 HEX'}
+- school_code: '4133010336'
+  name_zh: 杭州电子科技大学
+  source: https://www.hdu.edu.cn/_upload/article/files/b7/db/2cf6e5fe45638547b298779cf9ae/1c0332a8-d71e-49dc-a3c5-0a835c299a4b.pdf
+  color_primary: {value: '#163479', label: 杭电蓝, basis: '学校章程明确标准色 RGB R22 G52 B121，换算为 HEX'}
+- school_code: '4143012034'
+  name_zh: 湖南第一师范学院
+  source: https://www.hnfnu.edu.cn/sysc2.pdf
+  vi_url: https://www.hnfnu.edu.cn/sysc2.pdf
+  color_primary: {value: '#9F2925', label: 师红, basis: '官网 VI 手册列明学校标准色 RGB R159 G41 B37，换算为 HEX'}
+  color_secondary: {value: '#30438B', label: 辅助蓝, basis: '官网 VI 手册列明首个辅助色 RGB R48 G67 B139，换算为 HEX', role_note: '辅助色，并非第二标准色'}
+- school_code: '4150010635'
+  name_zh: 西南大学
+  source: https://www.swu.edu.cn/bs/Abufen-xinandaxueVISshouceban.pdf
+  vi_url: https://www.swu.edu.cn/bs/Abufen-xinandaxueVISshouceban.pdf
+  color_primary: {value: '#003D83', label: 西大蓝, basis: '官网 VI 手册规定标准校色 RGB R0 G61 B131，换算为 HEX'}
+- school_code: '4131011458'
+  name_zh: 上海电机学院
+  source: https://www.sdju.edu.cn/xxzc/list.htm
+  color_primary: {value: '#5C0D12', label: 电机红, basis: '学校章程规定校徽标识色 RGB R92 G13 B18，换算为 HEX；仅作为校徽色'}
+- school_code: '4121010157'
+  name_zh: 沈阳农业大学
+  source: https://www.syau.edu.cn/xxgk/snbs.htm
+  vi_url: https://www.syau.edu.cn/xxgk/snbs.htm
+  color_primary: {value: '#006537', label: 国槐绿, basis: '官网沈农标识页规定标准色 RGB R0 G101 B55，换算为 HEX'}
+- school_code: '4111010052'
+  name_zh: 中央民族大学
+  source: https://www.muc.edu.cn/zhongyangminzudaxueshijueshibiexitongshouce.pdf
+  vi_url: https://www.muc.edu.cn/zhongyangminzudaxueshijueshibiexitongshouce.pdf
+  color_primary: {value: '#A20000', label: 民大红, basis: '官网 VI 手册标志标准色 RGB R162 G0 B0，换算为 HEX'}
+- school_code: '4131010255'
+  name_zh: 东华大学
+  source: https://www.dhu.edu.cn/_upload/article/files/d2/8c/2137ec0c44238fd6fbd3ee28ff07/5b021eb4-4f50-4e51-871c-7a17d191a581.pdf
+  vi_url: https://www.dhu.edu.cn/xxbs/list.htm
+  color_primary: {value: '#A0021F', label: 锦缎红, basis: '官网 VI 手册规定标准色 RGB R160 G2 B31，换算为 HEX'}
+- school_code: '4151010651'
+  name_zh: 西南财经大学
+  source: https://www.swufe.edu.cn/xywh.htm
+  vi_url: https://www.swufe.edu.cn/xywh.htm
+  color_primary: {value: '#0068B7', label: 海蓝, basis: '官网校园文化页规定主校色 RGB 0,104,183 与 HEX #0068B7 一致'}
+  color_secondary: {value: '#FFFFFF', label: 白色, basis: '官网校园文化页规定辅助校色 RGB 255,255,255 与 HEX #FFFFFF 一致', role_note: '校色中的白色，仅用于适合的背景或文字'}
+- school_code: '4133013021'
+  name_zh: 浙大城市学院
+  source: https://www.hzcu.edu.cn/fj/zyys.pdf
+  vi_url: https://www.hzcu.edu.cn/fj/zyys.pdf
+  color_primary: {value: '#0A5AA5', label: 标准蓝, basis: '官网 VI 手册标准色页蓝色 RGB 10,90,165，换算为 HEX'}
+- school_code: '4122010193'
+  name_zh: 吉林农业大学
+  source: https://www.jlau.edu.cn/xxgk/dxzc.htm
+  color_primary_not_found:
+    search_sources: ['https://www.jlau.edu.cn/xxgk/dxzc.htm']
+    note: '章程原文为 R43 G126 B137XXX，含未解释的 XXX 占位字符，暂不确认可用官方 HEX；需复核原始 VI 或有效章程。'
+- school_code: '4112010058'
+  name_zh: 天津工业大学
+  source: https://fgc.tiangong.edu.cn/2024/0321/c434a92641/page.htm
+  color_primary: {value: '#74256A', label: 天工紫, basis: '2023 年核准的学校章程规定校色 RGB R116 G37 B106，换算为 HEX'}
+- school_code: '4132010288'
+  name_zh: 南京理工大学
+  source: https://zs.njust.edu.cn/_upload/article/files/3b/d8/07e54d3a46048e73bc3f7ffbe7f7/86336d12-b0c5-4301-9bed-e7bff1c77d1d.pdf
+  vi_url: https://zs.njust.edu.cn/_upload/article/files/3b/d8/07e54d3a46048e73bc3f7ffbe7f7/86336d12-b0c5-4301-9bed-e7bff1c77d1d.pdf
+  color_primary: {value: '#990099', label: 学校标准紫, basis: '官网 VI 手册 A2_1 学校标准色 RGB R153 G0 B153 与 HEX #990099 一致'}
+- school_code: '4111010013'
+  name_zh: 北京邮电大学
+  source: https://vi.bupt.edu.cn/images/p6.jpg
+  vi_url: https://vi.bupt.edu.cn/jcxt/xhgf.htm
+  color_primary: {value: '#003399', label: 北邮蓝, basis: '官网 VI 图 A1-02 标准色及色阶，文字 HEX #003399 与 RGB R0 G51 B153 一致；读取图中标注，未从图像取样'}
+  color_secondary: {value: '#C82910', label: 中国红, source: 'https://vi.bupt.edu.cn/images/p7.jpg', basis: '官网 VI 图 A1-03 辅助色及渐变色，HEX #C82910 与 RGB R200 G41 B16 一致', role_note: '中国红是辅助色之一；另有邮电绿和信息蓝，不代表第二标准色'}
+- school_code: '4133011646'
+  name_zh: 宁波大学
+  source: https://vi.nbu.edu.cn/jcbf/xxbz/scgf.htm
+  vi_url: https://vi.nbu.edu.cn/jcbf/xxbz/scgf.htm
+  color_primary: {value: '#D12920', label: 银朱, source: 'https://vi.nbu.edu.cn/__local/0/40/94/22548843A6EDFADC06001D73CF3_A93BE60E_181C9F.jpg', basis: '官网 VI 图 A3_01.1 标准色规范标注 RGB 209/41/32，换算为 HEX；读取图中标注，未从图像取样', role_note: '银朱与墨黑分列标准色规范'}
+  color_secondary: {value: '#231815', label: 墨黑, source: 'https://vi.nbu.edu.cn/__local/B/0E/D7/19CF0AE9746A0B6EA309DC86D44_6CA57AA8_25971.jpg', basis: '官网 VI 图 A3_01.2 标准色规范标注 RGB 35/24/21，换算为 HEX', role_note: '是官网另一组标准色；不从黑色图块或 CMYK 推算屏幕 HEX'}
+- school_code: '4146010589'
+  name_zh: 海南大学
+  source: https://www.hainanu.edu.cn/xywh/hdVI.htm
+  color_primary_not_found:
+    search_sources: ['https://www.hainanu.edu.cn/xywh/hdVI.htm']
+    note: '官网标识页明确称校色为海大蓝，但页面及官网定向检索暂未找到可核对的 RGB/HEX 标准；不从校徽图片或网站 CSS 取样。'
+- school_code: '4133010335'
+  name_zh: 浙江大学
+  source: https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp
+  vi_url: https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp
+  color_primary: {value: '#003F88', label: 求是蓝, basis: '官网英文 Logo 页标注 signature color truth-seeking blue RGB 0,63,136，换算为 HEX'}
+  color_secondary: {value: '#B01F24', label: 创新红, basis: '同一官网页标注支持色 innovation red RGB 176,31,36，换算为 HEX', role_note: '是支持色，不与求是蓝等同为主色'}
+- school_code: '4122010184'
+  name_zh: 延边大学
+  source: https://xxgk.ybu.edu.cn/__local/9/3C/2A/44E82AF5DFBDB79AE82A4E896D8_D56138AA_7873D.pdf
+  color_primary: {value: '#387D39', label: 苹果绿, basis: '官网视觉形象识别系统管理办法修订版第七条直接给出标准色六位色号 387D39', role_note: '与延大米白并列标准色'}
+  color_secondary: {value: '#EAE4D1', label: 延大米白, basis: '同一办法第七条直接给出标准色六位色号 EAE4D1', role_note: '与苹果绿并列标准色，另有五种辅助色'}
+- school_code: '4144010564'
+  name_zh: 华南农业大学
+  source: https://www.scau.edu.cn/_upload/article/files/80/d6/cf7f2fd04977a519a060ea0c0b3b/9723c6b7-bb7f-4720-84a4-e5991fe0b410.pdf
+  color_primary: {value: '#007A49', label: 校徽标准绿, basis: '官网 VI 手册 PDF 第27页 A3-01 标准色彩规范，RGB R0 G122 B73 与 HEX #007A49 一致', role_note: '应用范围为标志图形和中英文字'}
+  color_secondary: {value: '#A53E78', label: 粉白紫荆色, basis: '同页 A3-01 标注 RGB R165 G62 B120 与 HEX #A53E78 一致', role_note: '标准色规范列出的配色，应用范围为配色；不替代校徽标准绿'}
+- school_code: '4132010284'
+  name_zh: 南京大学
+  source: https://120.nju.edu.cn/DFS/file/2022/03/17/20220317171613872bmrwev.pdf
+  vi_url: https://120.nju.edu.cn/DFS/file/2022/03/17/20220317171613872bmrwev.pdf
+  color_primary_not_found:
+    search_sources: ['https://120.nju.edu.cn/DFS/file/2022/03/17/20220317171613872bmrwev.pdf', 'https://innovation-entrepreneurship.nju.edu.cn/35/f9/c34553a472569/pagem.htm']
+    note: '官方规范确认标准色为紫色，列印刷 CMYK 50/100/0/40；查阅来源暂未发现官方 RGB/HEX，不把无色彩配置的 CMYK 直接换算成官方屏幕色。'
+- school_code: '4151010610'
+  name_zh: 四川大学
+  source: https://www.scu.edu.cn/xxgk/cdbs.htm
+  vi_url: https://www.scu.edu.cn/xxgk/cdbs.htm
+  color_primary_not_found:
+    search_sources: ['https://www.scu.edu.cn/xxgk/cdbs.htm']
+    note: '官网标识页列锦绣红 CMYK 12/92/95/20 和优雅灰 CMYK 47/37/37/0，未找到对应官方 RGB/HEX；校旗中国红是衍生色，不作为同一主色。'

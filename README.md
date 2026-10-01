@@ -58,6 +58,10 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/import_curated_founding.py
 .venv/bin/python scripts/ingest/import_direct_founding.py
 .venv/bin/python scripts/ingest/import_explicit_mottos.py
+.venv/bin/python scripts/ingest/import_curated_priority.py
+.venv/bin/python scripts/ingest/extract_visual_color_leads.py
+.venv/bin/python scripts/ingest/import_visual_entries.py
+.venv/bin/python scripts/ingest/import_curated_visual.py
 .venv/bin/python scripts/ingest/render_official.py
 .venv/bin/python scripts/ingest/build_indexes.py
 .venv/bin/python scripts/validate/report_coverage.py
@@ -69,6 +73,10 @@ python3 -m venv .venv
 ## 来源与使用范围
 
 教育部原始名单及双一流附件的链接、哈希见 [来源清单](data/source-manifest.yaml)。[逐校复核队列](data/review/review-queue-2026.csv) 把 933 所范围、档案状态和候选线索排在一起，双一流 144 所优先。[Wikidata 候选表](data/review/wikidata-candidates-2026.csv) 仅帮助定位资料，不作为单校事实直接使用。[官网入口补充表](data/review/official-site-overrides-2026.csv) 记录搜索到的学校站点和证据入口；自动标题匹配仍需人工检查。
+
+[视觉色值线索表](data/review/visual-color-leads-2026.csv) 只保存页面中的数字候选，不直接认定为学校标准色。[逐校色值判读](data/review/official-color-decisions-2026.yaml) 记录官网或校方 VI 手册、原 RGB/HEX 与用途口径；同一官网内的数值冲突留在单校档案的 `candidates` 中。数字颜色仅占少数学校，其余不可从校徽图片或网页 CSS 猜测为官方主题色。
+
+[首批官网事实判读](data/review/priority-official-facts-2026.yaml) 为此前缺档的双一流高校补充官网入口、校训、部分建校年和标识入口，逐字段保留原页；南京师范大学目前仅定位官网首页，校训仍待本校页面核对。
 
 原创脚本按 [MIT](LICENSE)；本仓库原创的数据整理、分类与简短说明按 [CC BY 4.0](LICENSE-DATA.md)。学校发布的文字、校名校徽、模板、照片、字体和链接目标遵循各权利人的规则；本仓库的许可不会替学校授权这些材料。
 

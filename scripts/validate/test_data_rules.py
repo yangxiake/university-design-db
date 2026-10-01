@@ -3,6 +3,8 @@
 
 import csv
 import pathlib
+import sys
+import tempfile
 import unittest
 from urllib.parse import urlparse
 
@@ -12,6 +14,8 @@ from validate_profiles import check_fact, validate_profile
 
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts/ingest"))
+from discover_official_pages import save_results
 
 
 class DataRulesTest(unittest.TestCase):
@@ -33,6 +37,18 @@ class DataRulesTest(unittest.TestCase):
                     "search_sources": [], "method": "official_vi"},
                    "color_primary", "test", errors)
         self.assertTrue(any("source URL" in item for item in errors))
+
+    def test_partial_discovery_resume_keeps_other_schools(self):
+        scope = [{"school_code": "first"}, {"school_code": "other"}]
+        results = {"other": {"school_code": "other", "status": "fetch_error"}}
+        results["first"] = {"school_code": "first", "status": "title_matched"}
+        with tempfile.TemporaryDirectory() as directory:
+            output = pathlib.Path(directory) / "discovery.csv"
+            save_results(output, scope, results)
+            with output.open(encoding="utf-8-sig", newline="") as handle:
+                rows = list(csv.DictReader(handle))
+        self.assertEqual([row["school_code"] for row in rows], ["first", "other"])
+        self.assertEqual(rows[1]["status"], "fetch_error")
 
     def test_auto_example_cannot_pass_release(self):
         row = next(r for r in self.scope if r["name_zh"] == "清华大学")

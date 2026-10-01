@@ -36,23 +36,35 @@ visual:
   color_primary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: conflict
     search_sources: []
+    candidates:
+    - value: '#000042'
+      source: https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity
+      basis: 官网 RGB 0,0,66 换算为 HEX
+    - value: '#010544'
+      source: https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity
+      basis: 官网直接列出的 HEX
+    label: 西浦蓝
+    note: '官网同页的 RGB 0,0,66 与 HEX #010544 不一致，待校方确认数字设计用色'
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#CE57C1'
+    source: https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: found
     search_sources: []
+    method: official_vi
+    label: 西浦紫
+    basis: '官网 RGB 206,87,193 与 HEX #CE57C1 一致'
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity
+    source: https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: found
     search_sources: []
   badge_description:
     value: null

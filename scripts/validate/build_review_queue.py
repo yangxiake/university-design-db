@@ -29,8 +29,10 @@ def main():
         gap = gaps.get(code, {})
         path = pathlib.Path("universities") / school["province"] / code / "profile.yaml"
         exists = (ROOT / path).exists()
-        status = (yaml.safe_load((ROOT / path).read_text(encoding="utf-8"))["research"]["status"]
-                  if exists else "unresearched")
+        profile = yaml.safe_load((ROOT / path).read_text(encoding="utf-8")) if exists else None
+        status = profile["research"]["status"] if profile else "unresearched"
+        color_status = profile["visual"]["color_primary"]["availability"] if profile else "unresearched"
+        vi_status = profile["visual"]["vi_url"]["availability"] if profile else "unresearched"
         rows.append({
             "priority": 1 if "double_first" in school["scope_tags"].split("|") else 2,
             "school_code": code,
@@ -38,6 +40,8 @@ def main():
             "province": school["province"],
             "scope_category": school["scope_category"],
             "research_status": status,
+            "color_primary_status": color_status,
+            "vi_url_status": vi_status,
             "profile_path": path.as_posix() if exists else "",
             "candidate_match_status": candidate["match_status"],
             "candidate_websites_unverified": candidate["candidate_websites"],
@@ -45,7 +49,8 @@ def main():
             "candidate_wikidata_items_unverified": candidate["wikidata_items"],
             "additional_search_status": gap.get("status", ""),
             "additional_search_ids_unverified": gap.get("candidate_ids", ""),
-            "next_step": "人工核对已有档案来源" if status == "needs_review" else
+            "next_step": "核对官网色值冲突" if color_status == "conflict" else
+                         "人工核对已有档案来源" if status == "needs_review" else
                          "查官方来源并建立档案" if status == "unresearched" else
                          "继续核查资料" if status == "in_progress" else "定期复核",
         })

@@ -10,11 +10,19 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 FIELDS = {
+    "identity.name_en": ("identity", "name_en"),
     "identity.official_website": ("identity", "official_website"),
     "visual.color_primary": ("visual", "color_primary"),
+    "visual.color_secondary": ("visual", "color_secondary"),
+    "visual.vi_url": ("visual", "vi_url"),
+    "visual.badge_description": ("visual", "badge_description"),
     "culture.founded_year": ("culture", "founded_year"),
     "culture.motto": ("culture", "motto"),
+    "culture.flower": ("culture", "flower"),
+    "culture.mascot": ("culture", "mascot"),
+    "culture.anthem": ("culture", "anthem"),
     "resources.official_templates_url": ("resources", "official_templates_url"),
+    "resources.official_template_publisher": ("resources", "official_template_publisher"),
     "resources.official_template_terms": ("resources", "official_template_terms"),
 }
 
@@ -24,17 +32,26 @@ def main():
         scope = list(csv.DictReader(handle))
     statuses = collections.Counter()
     fields = {key: collections.Counter() for key in FIELDS}
+    priority_fields = {key: collections.Counter() for key in FIELDS}
+    priority_profiles = 0
+    priority_count = 0
     reviewer_count = 0
     ready = 0
     profile_count = 0
     for row in scope:
+        is_priority = "double_first" in row["scope_tags"].split("|")
+        priority_count += is_priority
         path = ROOT / "universities" / row["province"] / row["school_code"] / "profile.yaml"
         if not path.exists():
             statuses["unresearched"] += 1
             for counts in fields.values():
                 counts["unresearched"] += 1
+            if is_priority:
+                for counts in priority_fields.values():
+                    counts["unresearched"] += 1
             continue
         profile_count += 1
+        priority_profiles += is_priority
         profile = yaml.safe_load(path.read_text(encoding="utf-8"))
         statuses[profile["research"]["status"]] += 1
         if profile["research"]["status"] == "reviewed":
@@ -44,6 +61,10 @@ def main():
             fields[label][fact["availability"]] += 1
             if fact["availability"] == "found":
                 fields[label]["found_" + fact["verified"]] += 1
+            if is_priority:
+                priority_fields[label][fact["availability"]] += 1
+                if fact["availability"] == "found":
+                    priority_fields[label]["found_" + fact["verified"]] += 1
         color = profile["visual"]["color_primary"]
         year = profile["culture"]["founded_year"]
         if (color["availability"] == year["availability"] == "found"
@@ -65,6 +86,14 @@ def main():
               "| 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |",
               "| --- | ---: | ---: | ---: | ---: | ---: |"]
     for label, counts in fields.items():
+        lines.append("| %s | %d | %d | %d | %d | %d |" % (
+            label, counts["unresearched"], counts["found_auto"],
+            counts["found_human"], counts["not_found"], counts["conflict"]))
+    lines += ["", "## 首批双一流档案", "",
+              f"剔除三所军校后共 {priority_count} 所；已开始建档 {priority_profiles} 所。建档不表示单校资料齐全。", "",
+              "| 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |",
+              "| --- | ---: | ---: | ---: | ---: | ---: |"]
+    for label, counts in priority_fields.items():
         lines.append("| %s | %d | %d | %d | %d | %d |" % (
             label, counts["unresearched"], counts["found_auto"],
             counts["found_human"], counts["not_found"], counts["conflict"]))

@@ -222,6 +222,20 @@ def discover(row, overrides):
     return base
 
 
+def save_results(output, scope_rows, results_by_code):
+    """Keep previously collected schools when resuming a selected batch."""
+    ordered = [results_by_code[row["school_code"]] for row in scope_rows
+               if row["school_code"] in results_by_code]
+    if not ordered:
+        return
+    temporary = output.with_suffix(output.suffix + ".tmp")
+    with temporary.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(ordered[0]))
+        writer.writeheader()
+        writer.writerows(ordered)
+    temporary.replace(output)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--priority", type=int, choices=[1, 2], default=1)
@@ -230,7 +244,8 @@ def main():
     parser.add_argument("--resume", action="store_true", help="Keep accepted homepage matches and retry gaps")
     args = parser.parse_args()
     with QUEUE.open(encoding="utf-8-sig", newline="") as handle:
-        rows = [row for row in csv.DictReader(handle) if int(row["priority"]) <= args.priority]
+        scope_rows = list(csv.DictReader(handle))
+    rows = [row for row in scope_rows if int(row["priority"]) <= args.priority]
     overrides = {}
     if OVERRIDES.exists():
         with OVERRIDES.open(encoding="utf-8-sig", newline="") as handle:
@@ -238,19 +253,21 @@ def main():
                 overrides.setdefault(row["school_code"], []).append(row["candidate_url"])
     if args.limit:
         rows = rows[:args.limit]
+    selected_codes = {row["school_code"] for row in rows}
     prior = {}
     if args.resume and OUTPUT.exists():
         with OUTPUT.open(encoding="utf-8-sig", newline="") as handle:
             prior = {row["school_code"]: row for row in csv.DictReader(handle)}
         for code, item in prior.items():
+            if code not in selected_codes:
+                continue
             if item["status"] == "title_matched" and not trusted_host(
                     item["homepage_url"], overrides.get(code, [])):
                 item["status"] = "site_unverified"
             elif item["status"] == "site_unverified" and trusted_host(
                     item["homepage_url"], overrides.get(code, [])):
                 item["status"] = "title_matched"
-    results_by_code = {code: item for code, item in prior.items()
-                       if code in {row["school_code"] for row in rows}}
+    results_by_code = dict(prior)
     pending = [row for row in rows if row["school_code"] not in results_by_code or
                results_by_code[row["school_code"]]["status"] not in {
                    "title_matched", "robots_disallowed"} and
@@ -258,12 +275,7 @@ def main():
                 row["school_code"] in overrides)]
 
     def save():
-        ordered = [results_by_code[row["school_code"]] for row in rows
-                   if row["school_code"] in results_by_code]
-        with OUTPUT.open("w", encoding="utf-8-sig", newline="") as handle:
-            writer = csv.DictWriter(handle, fieldnames=list(ordered[0]))
-            writer.writeheader()
-            writer.writerows(ordered)
+        save_results(OUTPUT, scope_rows, results_by_code)
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
         futures = {pool.submit(discover, row, overrides): row["school_code"] for row in pending}

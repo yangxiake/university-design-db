@@ -16,6 +16,14 @@
 
 `import_confirmed_homepages.py` 把标题匹配的首页写入 `identity.official_website`；`import_curated_founding.py` 只导入 `founding-decisions-2026.yaml` 中由 AI 逐条判读官网短证据并写明历史口径的年份；`import_direct_founding.py` 只导入学校概况页直接以“学校”或校名为主语、明确称“始建、创建、创办、建校于某年”的单一年份，并保存官网用词作为口径；`import_explicit_mottos.py` 只导入官网语句中明确以引号标作“校训”、且同校无不同候选值的短语。所有导入一律写 `verified: auto`，且不覆盖已有值或人工签核内容。
 
+`import_curated_priority.py` 导入首批学校的逐字段官网证据，填充校训、清楚标注历史口径的年份、校徽简述及官网/标识/官方模板入口。未查到模板使用条款时保留 `not_found` 和查阅页面。它不会把没有直接证据的字段补成猜测值，也不把仅有官网入口的档案算作资料齐全。
+
+`extract_visual_color_leads.py` 访问已发现的视觉页面，将可见文字中的 RGB/HEX 数字写入候选表；它不认定数字的作用。`import_visual_entries.py` 只把页面标题明确指向学校标识、VI、校徽、校标或校旗的页面写为视觉入口。`import_curated_visual.py` 导入 AI 逐校判读过的官网或校方 VI 手册色值决定，保留原 RGB/HEX 和换算依据；字段仍标为 `auto`，等待人工复核者签核。标准色、并列标准色、辅助色与仅用于校徽的颜色须在 `basis` 或 `role_note` 区分。网页 CSS、校徽图片取样、院系标识、校庆专用色都不能自动当作学校主题色。官网同一页面的 RGB 与 HEX 不一致时，记录为 `conflict` 并保留两个候选值。
+
+官网 VI 图片上明确印出的 RGB/HEX 可按原标注转录，来源保存到该图片及其入口；这与对图片像素取色不同。只有颜色名称、只有印刷 CMYK，或者 RGB 后带有未解释的占位字符时，暂不填官方屏幕色值，保存 `not_found`、检索页和原因。“未找到”描述当前查阅范围，不表示学校没有标准色。
+
+`discover_official_pages.py --resume` 保留本次优先级或数量筛选以外的既有记录，并原子替换检索表；仅更新所选批次。所有 933 所记录仍在同一检索表中。
+
 学校页面上的模板链接只有在确认为官方 PPT 模板页并读过适用对象、使用规则后才写入 `resources`；直接 ZIP、泛泛的“下载专区”和第三方售卖页都不是足够证据。仓库不分发模板、校徽、图片或字体。
 
 ## 人工复核

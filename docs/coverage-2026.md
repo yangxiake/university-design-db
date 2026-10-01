@@ -3,8 +3,8 @@
 自动生成报告。933 是纳入范围数量，不是调查完成数或档案数。
 
 - 范围学校：933
-- 已建单校档案：582
-- 尚未建档：351
+- 已建单校档案：601
+- 尚未建档：332
 - 已人工签核档案：0
 - 主色和建校年均已人工确认的档案：0
 
@@ -12,21 +12,50 @@
 
 | 状态 | 学校数 |
 | --- | ---: |
-| unresearched | 351 |
+| unresearched | 332 |
 | in_progress | 0 |
-| needs_review | 582 |
+| needs_review | 601 |
 | reviewed | 0 |
 
 ## 关键字段
 
 | 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| identity.official_website | 352 | 581 | 0 | 0 | 0 |
-| visual.color_primary | 931 | 1 | 0 | 0 | 1 |
-| culture.founded_year | 819 | 114 | 0 | 0 | 0 |
-| culture.motto | 660 | 273 | 0 | 0 | 0 |
-| resources.official_templates_url | 927 | 6 | 0 | 0 | 0 |
-| resources.official_template_terms | 930 | 3 | 0 | 0 | 0 |
+| identity.name_en | 933 | 0 | 0 | 0 | 0 |
+| identity.official_website | 336 | 597 | 0 | 0 | 0 |
+| visual.color_primary | 898 | 28 | 0 | 4 | 3 |
+| visual.color_secondary | 922 | 11 | 0 | 0 | 0 |
+| visual.vi_url | 762 | 171 | 0 | 0 | 0 |
+| visual.badge_description | 927 | 6 | 0 | 0 | 0 |
+| culture.founded_year | 814 | 119 | 0 | 0 | 0 |
+| culture.motto | 645 | 288 | 0 | 0 | 0 |
+| culture.flower | 931 | 2 | 0 | 0 | 0 |
+| culture.mascot | 931 | 2 | 0 | 0 | 0 |
+| culture.anthem | 932 | 1 | 0 | 0 | 0 |
+| resources.official_templates_url | 925 | 8 | 0 | 0 | 0 |
+| resources.official_template_publisher | 925 | 8 | 0 | 0 | 0 |
+| resources.official_template_terms | 928 | 4 | 0 | 1 | 0 |
+
+## 首批双一流档案
+
+剔除三所军校后共 144 所；已开始建档 144 所。建档不表示单校资料齐全。
+
+| 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| identity.name_en | 144 | 0 | 0 | 0 | 0 |
+| identity.official_website | 1 | 143 | 0 | 0 | 0 |
+| visual.color_primary | 121 | 18 | 0 | 3 | 2 |
+| visual.color_secondary | 135 | 9 | 0 | 0 | 0 |
+| visual.vi_url | 90 | 54 | 0 | 0 | 0 |
+| visual.badge_description | 138 | 6 | 0 | 0 | 0 |
+| culture.founded_year | 98 | 46 | 0 | 0 | 0 |
+| culture.motto | 80 | 64 | 0 | 0 | 0 |
+| culture.flower | 143 | 1 | 0 | 0 | 0 |
+| culture.mascot | 143 | 1 | 0 | 0 | 0 |
+| culture.anthem | 143 | 1 | 0 | 0 | 0 |
+| resources.official_templates_url | 137 | 7 | 0 | 0 | 0 |
+| resources.official_template_publisher | 137 | 7 | 0 | 0 | 0 |
+| resources.official_template_terms | 140 | 3 | 0 | 1 | 0 |
 
 ## 官网页面发现
 
@@ -34,10 +63,10 @@
 
 - 已处理学校：933
 - 无候选网址：51
-- 首页标题匹配：578
+- 首页标题匹配：579
 - 标题匹配但站点归属待核对：11
-- 找到概况页候选：539
-- 访问或识别未完成：355
+- 找到概况页候选：540
+- 访问或识别未完成：354
 - 官网短证据候选：851（含需要排除的误匹配，不等于已录事实）
 
 ## 自动检索候选（仅供复核）
