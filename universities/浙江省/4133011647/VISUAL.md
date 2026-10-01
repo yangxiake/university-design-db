@@ -8,6 +8,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | [文件](https://www.cuz.edu.cn/images24/logo_foot.png) · [来源](https://www.cuz.edu.cn/) | png | 286 × 48 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.cuz.edu.cn/images24/logo.png) · [来源](https://www.cuz.edu.cn/) | png | 326 × 57 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/浙江传媒学院.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 230 × 39 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -20,6 +21,9 @@
 |  | `#F8F098` | 248,240,152 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.cuz.edu.cn/images24/logo_foot.png) |
 |  | `#F81840` | 248,24,64 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.cuz.edu.cn/images24/logo.png) |
 |  | `#F81848` | 248,24,72 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.cuz.edu.cn/images24/logo.png) |
+|  | `#E84048` | 232,64,72 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#E84848` | 232,72,72 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#E84040` | 232,64,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

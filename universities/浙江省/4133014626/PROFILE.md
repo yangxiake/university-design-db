@@ -6,21 +6,35 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Westlake University | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 英文名称资料时间 | 2026-06-09 | | | |
 | 创办年份 | 2018 | official_or_curated | 2026-09-30 | [来源](https://zh-ugadmissions.westlake.edu.cn/AdmissionsConsultation/FAQS/) |
 | 创办年份口径 | 西湖大学正式获教育部批准设立年份；前身浙江西湖高等研究院更早成立 | | | |
 | 中文简称 | 西湖大 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | WLU | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 综合、理工、师范等院校类型 | 理工 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
 | 公办、民办等办学性质，不从空备注推断 | 民办 | official_registry | 2026-10-01 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
 | 公办、民办等办学性质，不从空备注推断口径 | 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。 | | | |
+| 公办、民办等办学性质，不从空备注推断资料时间 | 2026-06-17 | | | |
 | 院校群与历史项目标签，非排名 | ["新型研究型"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 院校群与历史项目标签，非排名资料时间 | 2026-06-09 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 30.302, "location_kind": "community_map_point", "longitude": 120.103, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 双一流建设学科，注明名单年份及是否节选 | ["生物、物理、化学等前沿研究"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
+| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

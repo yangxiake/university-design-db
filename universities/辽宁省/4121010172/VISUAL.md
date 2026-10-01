@@ -8,6 +8,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | [文件](https://www.dlufl.edu.cn/static/picture/logo.png) · [来源](https://www.dlufl.edu.cn) | png | 240 × 100 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.dlufl.edu.cn/static/picture/logo-n.png) · [来源](https://www.dlufl.edu.cn) | png | 519 × 120 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/大连外国语大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 573 × 573 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -20,6 +21,9 @@
 |  | `#D8C0A0` | 216,192,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.dlufl.edu.cn/static/picture/logo.png) |
 |  | `#D8C8A0` | 216,200,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.dlufl.edu.cn/static/picture/logo-n.png) |
 |  | `#D8C0A0` | 216,192,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.dlufl.edu.cn/static/picture/logo-n.png) |
+|  | `#003880` | 0,56,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#003878` | 0,56,120 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#003078` | 0,48,120 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

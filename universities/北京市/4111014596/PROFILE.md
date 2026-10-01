@@ -6,13 +6,20 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | University of Chinese Academy of Social Sciences | official_or_curated | 2026-10-01 | [来源](https://skdzs.ucass.edu.cn/bkzs1/zsxx/zszc.htm) |
 | 创办年份 | 2017 | official_or_curated | 2026-10-01 | [来源](https://bs.ucass.edu.cn/info/1256/5099.htm) |
 | 创办年份口径 | 现大学设立年；研究生院前身为1978年 | | | |
 | 校训 | 笃学、慎思、明辨、尚行 | official_or_curated | 2026-10-01 | [来源](https://bs.ucass.edu.cn/info/1256/5099.htm) |
 | 英文简称 | UCASS | community_directory | 2026-10-01 | [来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md) |
+| 英文简称资料时间 | 2024-11-15 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

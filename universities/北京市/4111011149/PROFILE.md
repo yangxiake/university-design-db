@@ -6,14 +6,15 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | CHINA WOMEN’S UNIVERSITY | official_or_curated | 2026-10-01 | [来源](https://www.cwu.edu.cn/xxgk1/xxzc_2024nhzg_.htm) |
 | 官网 | https://www.cwu.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.cwu.edu.cn/) |
 | 创办年份 | 1949 | official_or_curated | 2026-10-01 | [来源](https://www.cwu.edu.cn/xxgk1/xxzc_2024nhzg_.htm) |
 | 创办年份口径 | 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份 | | | |
 | 校训 | 崇德、至爱、博学、尚美 | official_or_curated | 2026-09-30 | [来源](https://www.cwu.edu.cn/xxgk1.htm) |
 | 英文简称 | CWU | community_directory | 2026-10-01 | [来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md) |
+| 英文简称资料时间 | 2024-11-15 | | | |
 | 通讯地址，不能代替全部校区地址 | 北京市朝阳区育慧东路1号(100101) | official_website | 2026-10-01 | [来源](https://www.cwu.edu.cn/) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 招生入口 | http://zhaosheng.cwu.edu.cn | official_website | 2026-10-01 | [来源](https://www.cwu.edu.cn/) |
@@ -24,6 +25,12 @@
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | http://www.cwu.edu.cn/xxgk/index.htm | official_website | 2026-10-01 | [来源](https://www.cwu.edu.cn/) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

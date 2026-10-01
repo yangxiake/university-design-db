@@ -337,15 +337,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 汾阳校区
+    address: null
+    coordinates: null
+    source: https://www.sxum.edu.cn/info/1016/19317.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 孝义校区
+    address: null
+    coordinates: null
+    source: https://www.sxum.edu.cn/info/1016/19317.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 山西医药学院位于山西省吕梁市，主管部门为山西省。官网列示全日制在校生10396人（统计日期未注明）。官网列示专任教师980人（统计日期未注明）。官网列示学校占地面积1114亩（统计日期未注明）。简介列出汾阳校区、孝义校区。
+    availability: found
     search_sources: []
+    source: https://www.sxum.edu.cn/info/1016/19317.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -355,26 +373,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 10396
+    availability: found
     search_sources: []
+    source: https://www.sxum.edu.cn/info/1016/19317.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；原标注：全日制在校生10396人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 全日制在校生10396人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 980
+    availability: found
     search_sources: []
+    source: https://www.sxum.edu.cn/info/1016/19317.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师980人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 专任教师980人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 74.266667
+    availability: found
     search_sources: []
+    source: https://www.sxum.edu.cn/info/1016/19317.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 学校占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：学校占地面积1114亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 学校占地面积1114亩
 academics:
   double_first_class_disciplines:
     value: null

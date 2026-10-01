@@ -329,12 +329,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 唐山工业职业技术大学位于河北省唐山市，主管部门为河北省。官网列示在校生1.5万人（统计日期未注明）。官网列示专任教师825人（统计日期未注明）。官网列示占地面积1644亩（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.tsgzy.edu.cn/col/1384827017093/index.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -344,26 +348,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 15000
+    availability: found
     search_sources: []
+    source: https://www.tsgzy.edu.cn/col/1384827017093/index.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 在校生；原标注：在校生1.5万人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 在校生1.5万人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 825
+    availability: found
     search_sources: []
+    source: https://www.tsgzy.edu.cn/col/1384827017093/index.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师825人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 专任教师825人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 109.6
+    availability: found
     search_sources: []
+    source: https://www.tsgzy.edu.cn/col/1384827017093/index.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积1644亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 占地面积1644亩
 academics:
   double_first_class_disciplines:
     value: null

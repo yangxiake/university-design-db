@@ -395,12 +395,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 四川工商学院位于四川省成都市，主管部门为四川省教育厅。官网列示在校生30000余人（统计日期未注明）。官网列示占地面积2000余亩（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.stbu.edu.cn/html/jieshao/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -410,12 +414,19 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 30000
+    availability: found
     search_sources: []
+    source: https://www.stbu.edu.cn/html/jieshao/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 在校生；近似/下界数，保留原标注：在校生30000余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 在校生30000余人
   faculty_count:
     value: null
     source: null
@@ -424,12 +435,19 @@ statistics:
     availability: unresearched
     search_sources: []
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 133.333333
+    availability: found
     search_sources: []
+    source: https://www.stbu.edu.cn/html/jieshao/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地面积2000余亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 占地面积2000余亩
 academics:
   double_first_class_disciplines:
     value: null

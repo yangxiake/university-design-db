@@ -294,15 +294,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 美兰校区
+    address: null
+    coordinates: null
+    source: https://www.hvust.edu.cn/about/introduction
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 云龙校区
+    address: null
+    coordinates: null
+    source: https://www.hvust.edu.cn/about/introduction
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 海南科技职业大学位于海南省海口市，主管部门为海南省教育厅。官网列示全日制在校生近3万人（统计日期未注明）。官网列示教职工1986人（统计日期未注明）。官网列示总占地面积3000余亩（统计日期未注明）。简介列出美兰校区、云龙校区。
+    availability: found
     search_sources: []
+    source: https://www.hvust.edu.cn/about/introduction
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -312,26 +330,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 30000
+    availability: found
     search_sources: []
+    source: https://www.hvust.edu.cn/about/introduction
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生近3万人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 全日制在校生近3万人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1986
+    availability: found
     search_sources: []
+    source: https://www.hvust.edu.cn/about/introduction
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；原标注：教职工1986人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 教职工1986人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 200.0
+    availability: found
     search_sources: []
+    source: https://www.hvust.edu.cn/about/introduction
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：总占地面积3000余亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 总占地面积3000余亩
 academics:
   double_first_class_disciplines:
     value: null

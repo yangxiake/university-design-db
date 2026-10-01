@@ -10,6 +10,7 @@
 | 校徽 | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8D%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6%20NUAA.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8D%97%E4%BA%AC%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E5%A4%A7%E5%AD%A6%20NUAA.svg) | svg | 未声明 | content_inspected | 未独立声明 |
 | 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Nanjing_University_of_Aeronautics_and_Astronautics/png/logo_purple_800x800.png) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Nanjing_University_of_Aeronautics_and_Astronautics/png/logo_purple_800x800.png) | png | 800 × 800 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.nuaa.edu.cn/_upload/tpl/05/f7/1527/template1527/images/logo.png) · [来源](https://www.nuaa.edu.cn) | png | 330 × 92 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/南京航空航天大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | jpeg | 501 × 501 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -22,6 +23,9 @@
 |  | `#080078` | 8,0,120 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Nanjing_University_of_Aeronautics_and_Astronautics/png/logo_purple_800x800.png) |
 |  | `#100078` | 16,0,120 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Nanjing_University_of_Aeronautics_and_Astronautics/png/logo_purple_800x800.png) |
 |  | `#B0A8D0` | 176,168,208 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Nanjing_University_of_Aeronautics_and_Astronautics/png/logo_purple_800x800.png) |
+|  | `#181880` | 24,24,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#202088` | 32,32,136 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#101080` | 16,16,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

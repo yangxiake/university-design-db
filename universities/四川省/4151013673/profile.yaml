@@ -322,15 +322,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 成都校区
+    address: null
+    coordinates: null
+    source: https://www.cdisu.edu.cn/pages-view/intro/
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 宜宾校区
+    address: null
+    coordinates: null
+    source: https://www.cdisu.edu.cn/pages-view/intro/
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 成都外国语学院位于四川省成都市，主管部门为四川省教育厅。官网列示在校生24000余人（统计日期未注明）。官网列示占地面积1400多亩（统计日期未注明）。简介列出成都校区、宜宾校区。
+    availability: found
     search_sources: []
+    source: https://www.cdisu.edu.cn/pages-view/intro/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -340,12 +358,19 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 24000
+    availability: found
     search_sources: []
+    source: https://www.cdisu.edu.cn/pages-view/intro/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 在校生；近似/下界数，保留原标注：在校生24000余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 在校生24000余人
   faculty_count:
     value: null
     source: null
@@ -354,12 +379,19 @@ statistics:
     availability: unresearched
     search_sources: []
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 93.333333
+    availability: found
     search_sources: []
+    source: https://www.cdisu.edu.cn/pages-view/intro/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地面积1400多亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 占地面积1400多亩
 academics:
   double_first_class_disciplines:
     value: null

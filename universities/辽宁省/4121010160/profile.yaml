@@ -132,7 +132,94 @@ visual:
     byte_size: 13610
     representation: raster
     resolved_url: https://www.jzmu.edu.cn/images/logo001.png
-  color_palette: []
+  - asset_id: 3e5b33a81e7d5d33
+    title: 锦州医科大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    file_name: 锦州医科大学.png
+    upstream_path: logo.zip!/img2/锦州医科大学.png
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 锦州医科大学
+    format: png
+    width: 230
+    height: 230
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 2a45890911ca892c4d6b5c7257278e75a4e69ed70627da1ff9098290f65fd247
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 来自固定版本logo.zip中的独立PNG文件；须下载压缩包并按archive_member选择文件，URL不是PNG直链。历史社区校徽，不认定为现行VI，图形授权归学校。
+    download_kind: archive_member
+    archive_url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    archive_member: img2/锦州医科大学.png
+    archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
+    source_as_of: unspecified
+    byte_size: 67504
+    representation: raster
+  color_palette:
+  - value: '#0008E8'
+    rgb:
+    - 0
+    - 8
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 3e5b33a81e7d5d33
+  - value: '#0008F0'
+    rgb:
+    - 0
+    - 8
+    - 240
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 3e5b33a81e7d5d33
+  - value: '#0000F0'
+    rgb:
+    - 0
+    - 0
+    - 240
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 3e5b33a81e7d5d33
   vi_resources: []
 culture:
   founded_year:
@@ -305,12 +392,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 锦州医科大学位于辽宁省锦州市，主管部门为辽宁省。官网列示本科生8540人（统计日期未注明）。官网列示专任教师918人（统计日期未注明）。官网列示校园占地面积184.69万平方米（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.jzmu.edu.cn/introduction/introduction.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -320,26 +411,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 8540
+    availability: found
     search_sources: []
+    source: https://www.jzmu.edu.cn/introduction/introduction.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 本科生；原标注：本科生8540人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 本科生8540人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 918
+    availability: found
     search_sources: []
+    source: https://www.jzmu.edu.cn/introduction/introduction.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师918人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 专任教师918人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 184.69
+    availability: found
     search_sources: []
+    source: https://www.jzmu.edu.cn/introduction/introduction.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 校园占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：校园占地面积184.69万平方米；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 校园占地面积184.69万平方米
 academics:
   double_first_class_disciplines:
     value: null

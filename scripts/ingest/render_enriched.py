@@ -40,7 +40,8 @@ def render_visual(profile):
            '## 逐文件校徽与校名资源','','| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |','| --- | --- | --- | --- | --- | --- |']
     for asset in visual['logo_assets']:
         dimensions=('%s × %s'%(asset['width'],asset['height'])) if asset.get('width') and asset.get('height') else '未声明'
-        lines.append('| %s | [文件](%s) · [来源](%s) | %s | %s | %s | %s |'%(KINDS[asset['kind']],asset['url'],asset['source'],asset.get('format') or '未知',dimensions,asset['access_status'],asset.get('asset_license') or '未独立声明'))
+        link=('[压缩包](%s) 内 `%s`'%(asset['archive_url'],cell(asset['archive_member']))) if asset.get('download_kind')=='archive_member' else '[文件](%s)'%asset['url']
+        lines.append('| %s | %s · [来源](%s) | %s | %s | %s | %s |'%(KINDS[asset['kind']],link,asset['source'],asset.get('format') or '未知',dimensions,asset['access_status'],asset.get('asset_license') or '未独立声明'))
     if not visual['logo_assets']:
         lines+=['','尚无逐文件校徽记录；可继续查官方VI入口或社区资源。']
     lines+=['','仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。','',
@@ -69,7 +70,7 @@ def render_profile(profile):
     lines=['# '+identity['name_zh']+'：资料档案','',
            '学校标识码：`'+identity['school_code']+'`；'+identity['province']+' / '+identity['city']+'；'+identity['level']+'；主管部门：'+identity['authority']+'。','',
            '逐字段资料来自官方或标注的社区来源。自动采集状态不表示全部字段完整，历史记录不等于现行数据。','',
-           '## 有来源的信息','','| 字段 | 值 | 来源类型 | 日期 | 来源 |','| --- | --- | --- | --- | --- | --- |']
+           '## 有来源的信息','','| 字段 | 值 | 来源类型 | 采集日期 | 来源 |','| --- | --- | --- | --- | --- |']
     missing=[]
     for dotted,label in labels.items():
         group,key=dotted.split('.');fact=profile[group][key]
@@ -77,8 +78,14 @@ def render_profile(profile):
             lines.append('| %s | %s | %s | %s | [来源](%s) |'%(cell(label),cell(fact['value']),fact.get('source_type','official_or_curated'),fact['checked_at'],fact['source']))
             if fact.get('basis'):
                 lines.append('| %s口径 | %s | | | |'%(cell(label),cell(fact['basis'])))
+            if fact.get('source_as_of'):
+                lines.append('| %s资料时间 | %s | | | |'%(cell(label),'统计日期未标注' if fact['source_as_of']=='undated' else cell(fact['source_as_of'])))
         else:
             missing.append('%s：%s'%(label,STATUS[fact['availability']]))
+    lines+=['','## 官网列示校区','','| 校区 | 地址 | 来源 |','| --- | --- | --- |']
+    for campus in profile['location']['campuses']:
+        lines.append('| %s | %s | [来源](%s) |'%(cell(campus['name']),cell(campus.get('address') or '尚未确认'),campus['source']))
+    if not profile['location']['campuses']:lines.append('| 尚未取得明确校区列表 | | |')
     lines+=['','## 视觉资料','','- [校徽、校名文件与调色板](VISUAL.md)','- [官方PPT入口](OFFICIAL.md)']
     if profile['resources'].get('community_resources'):lines+=['- [社区主题与参考资料](COMMUNITY.md)']
     lines+=['','## 排名历史','','| 发布方/榜单 | 年份 | 范围 | 名次 | 分数 | 来源 |','| --- | --- | --- | --- | --- | --- |']
@@ -110,7 +117,7 @@ def save(path,expected,check):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
-    indexes={key:[] for key in ('logo-assets','color-palettes','color-conflicts','extended-facts','rankings','admission-cutoffs','subject-assessments')}
+    indexes={key:[] for key in ('logo-assets','color-palettes','color-conflicts','extended-facts','rankings','admission-cutoffs','subject-assessments','campuses')}
     enriched=[];exports=[]
     for path in sorted((ROOT/'universities').glob('*/*/profile.yaml')):
         p=yaml.safe_load(path.read_text(encoding='utf-8'));i=p['identity'];base=dict(school_code=i['school_code'],name_zh=i['name_zh'])
@@ -119,7 +126,9 @@ def main():
         exports.append(json.dumps(p,ensure_ascii=False,sort_keys=True)+'\n')
         for asset in p['visual']['logo_assets']:
             indexes['logo-assets'].append(dict(base,**{key:asset.get(key) for key in (
-                'asset_id','kind','url','source','file_name','upstream_path','official','format','width','height','intrinsic_width','intrinsic_height','vector','representation','has_alpha','transparent_background','access_status','repository_license','asset_license','rights_holder','repository','commit','sha256','byte_size','source_type','resolved_url')}))
+                'asset_id','kind','url','source','file_name','upstream_path','official','format','width','height','intrinsic_width','intrinsic_height','vector','representation','has_alpha','transparent_background','access_status','repository_license','asset_license','rights_holder','repository','commit','sha256','byte_size','source_type','resolved_url','download_kind','archive_url','archive_member','archive_sha256')}))
+        for campus in p['location']['campuses']:
+            indexes['campuses'].append(dict(base,**{key:cell(campus.get(key)) for key in ('name','address','coordinates','basis','source','checked_at')}))
         for entry in p['visual']['color_palette']:
             indexes['color-palettes'].append(dict(base,**{key:cell(entry.get(key)) for key in (
                 'value','rgb','label','role','method','official','current','basis','source','cmyk','pantone')}))
@@ -133,7 +142,7 @@ def main():
         for dotted,(value_type,label) in FACTS.items():
             group,key=dotted.split('.');fact=p[group][key];found+=fact['availability']=='found'
             if fact['availability']=='found':
-                indexes['extended-facts'].append(dict(base,field=dotted,value=json.dumps(fact['value'],ensure_ascii=False),source=fact['source'],source_type=fact.get('source_type','official_or_curated'),source_as_of=fact.get('source_as_of',''),basis=fact.get('basis',''),verified=fact['verified'],checked_at=fact['checked_at']))
+                indexes['extended-facts'].append(dict(base,field=dotted,value=json.dumps(fact['value'],ensure_ascii=False),source=fact['source'],source_type=fact.get('source_type','official_or_curated'),source_as_of=fact.get('source_as_of',''),basis=fact.get('basis',''),original_notation=fact.get('original_notation',''),approximate=fact.get('approximate',''),date_basis=fact.get('date_basis',''),verified=fact['verified'],checked_at=fact['checked_at']))
         for name,group,key,columns in [
             ('rankings','rankings','entries',('publisher','ranking_name','year','scope','rank','score','indicators','source','source_as_of')),
             ('admission-cutoffs','admissions','cutoffs',('year','region','curriculum','batch','enrollment_type','minimum_score','minimum_rank','reference_only','source')),

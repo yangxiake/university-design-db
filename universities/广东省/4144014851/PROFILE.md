@@ -6,27 +6,39 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | City University of Hong Kong (Dongguan) | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文名称资料时间 | 2026-06-09 | | | |
 | 官网 | https://www.cityu-dg.edu.cn/zh/home.html | official_or_curated | 2026-10-01 | [来源](https://www.cityu-dg.edu.cn/zh/home.html) |
 | 创办年份 | 2024 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
 | 创办年份口径 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | | |
+| 创办年份资料时间 | 2026-06-09 | | | |
 | 中文简称 | 港城东莞 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | CITYUDG | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
 | 通讯地址，不能代替全部校区地址 | 广东省东莞市松山湖高新技术产业开发区高雄路8号 | official_website | 2026-10-01 | [来源](https://www.cityu-dg.edu.cn/zh/home.html) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 邮政编码 | 523808 | official_website | 2026-10-01 | [来源](https://www.cityu-dg.edu.cn/zh/home.html) |
 | 邮政编码口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 23.021, "location_kind": "community_map_point", "longitude": 113.751, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 招生入口 | https://uga.cityu-dg.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.cityu-dg.edu.cn/zh/home.html) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://www.cityu-dg.edu.cn/zh/information-disclosure.html | official_website | 2026-10-01 | [来源](https://www.cityu-dg.edu.cn/zh/home.html) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 公开办公或招生电话 | 联系电话: 0769-21183000 | official_website | 2026-10-01 | [来源](https://www.cityu-dg.edu.cn/zh/home.html) |
 | 公开办公或招生电话口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

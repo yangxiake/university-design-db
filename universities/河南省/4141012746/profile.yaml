@@ -305,15 +305,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 二七校区
+    address: null
+    coordinates: null
+    source: https://www.zit.edu.cn/xygk/xyjj.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 万山湖校区
+    address: null
+    coordinates: null
+    source: https://www.zit.edu.cn/xygk/xyjj.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 郑州科技学院位于河南省郑州市，主管部门为河南省教育厅。官网列示在校生28738人（统计日期未注明）。官网列示专任教师1870人（统计日期未注明）。官网列示总占地面积4800余亩（统计日期未注明）。简介列出二七校区、万山湖校区。
+    availability: found
     search_sources: []
+    source: https://www.zit.edu.cn/xygk/xyjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -323,26 +341,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 28738
+    availability: found
     search_sources: []
+    source: https://www.zit.edu.cn/xygk/xyjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 在校生；原标注：在校生28738人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 在校生28738人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1870
+    availability: found
     search_sources: []
+    source: https://www.zit.edu.cn/xygk/xyjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师1870人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 专任教师1870人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 320.0
+    availability: found
     search_sources: []
+    source: https://www.zit.edu.cn/xygk/xyjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：总占地面积4800余亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 总占地面积4800余亩
 academics:
   double_first_class_disciplines:
     value: null

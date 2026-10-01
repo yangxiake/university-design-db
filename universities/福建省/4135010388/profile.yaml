@@ -507,15 +507,40 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 旗山校区
+    address: null
+    coordinates: null
+    source: https://www.fjut.edu.cn/2023/1130/c403a225856/page.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 鼓山校区
+    address: null
+    coordinates: null
+    source: https://www.fjut.edu.cn/2023/1130/c403a225856/page.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 铜盘校区
+    address: null
+    coordinates: null
+    source: https://www.fjut.edu.cn/2023/1130/c403a225856/page.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 福建理工大学位于福建省福州市，主管部门为福建省。官网列示全日制在校生24315人（统计日期未注明）。官网列示专任教师1349人（统计日期未注明）。简介列出旗山校区、鼓山校区、铜盘校区。
+    availability: found
     search_sources: []
+    source: https://www.fjut.edu.cn/2023/1130/c403a225856/page.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -525,19 +550,33 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 24315
+    availability: found
     search_sources: []
+    source: https://www.fjut.edu.cn/2023/1130/c403a225856/page.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；原标注：全日制在校生24315人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 全日制在校生24315人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1349
+    availability: found
     search_sources: []
+    source: https://www.fjut.edu.cn/2023/1130/c403a225856/page.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师1349人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 专任教师1349人
   campus_area_hectares:
     value: null
     source: null

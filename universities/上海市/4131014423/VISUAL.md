@@ -12,6 +12,7 @@
 | 校名文字 | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/shanghaikejidaxue_wordmark.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/shanghaikejidaxue_wordmark.svg) | svg | 173.0 × 46.0 | content_inspected | 未独立声明 |
 | 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/ShanghaiTech_University/png/logo_red_800x800.png) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/ShanghaiTech_University/png/logo_red_800x800.png) | png | 800 × 800 | content_inspected | 未独立声明 |
 | 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/ShanghaiTech_University/svg/logo_red.svg) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/ShanghaiTech_University/svg/logo_red.svg) | svg | 未声明 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/上海科技大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 268 × 268 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -25,6 +26,9 @@
 |  | `#A80000` | 168,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/ShanghaiTech_University/png/logo_red_800x800.png) |
 |  | `#B00000` | 176,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/ShanghaiTech_University/png/logo_red_800x800.png) |
 |  | `#A40007` | 164,0,7 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/ShanghaiTech_University/svg/logo_red.svg) |
+|  | `#A00000` | 160,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#A80000` | 168,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#A80008` | 168,0,8 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

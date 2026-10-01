@@ -347,15 +347,40 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 临桂校区
+    address: null
+    coordinates: null
+    source: https://www.glmu.edu.cn/gygk/xxjs.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 东城校区
+    address: null
+    coordinates: null
+    source: https://www.glmu.edu.cn/gygk/xxjs.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 乐群校区
+    address: null
+    coordinates: null
+    source: https://www.glmu.edu.cn/gygk/xxjs.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 桂林医科大学位于广西壮族自治区桂林市，主管部门为广西壮族自治区。简介列出临桂校区、东城校区、乐群校区。
+    availability: found
     search_sources: []
+    source: https://www.glmu.edu.cn/gygk/xxjs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -394,12 +419,18 @@ academics:
     availability: unresearched
     search_sources: []
   degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 博士专业学位授权点：1个；统计时间undated
+    - 一级学科硕士学位授权点：5个；统计时间undated
+    - 硕士专业学位授权点：8个；统计时间undated
+    availability: found
     search_sources: []
+    source: https://www.glmu.edu.cn/gygk/xxjs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
   subject_assessments: []
 employment:
   summary:

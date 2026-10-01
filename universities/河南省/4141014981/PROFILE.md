@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Henan College of Classical Chinese Medicine | official_or_curated | 2026-10-01 | [来源](https://www.hcccm.edu.cn/648/list.htm) |
 | 官网 | https://www.hcccm.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.hcccm.edu.cn/) |
 | 创办年份 | 1985 | official_or_curated | 2026-10-01 | [来源](https://www.hcccm.edu.cn/648/list.htm) |
@@ -17,6 +17,12 @@
 | 邮政编码口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 招生入口 | http://zsxx.hcccm.edu.cn/main.htm | official_website | 2026-10-01 | [来源](https://www.hcccm.edu.cn/) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

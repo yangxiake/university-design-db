@@ -6,9 +6,15 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Shanxi Police College | official_or_curated | 2026-10-01 | [来源](https://gaokao.chsi.com.cn/zsgs/zhangcheng/listVerifedZszc--infoId-7635033977%2Cmethod-view%2CschId-987.dhtml) |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

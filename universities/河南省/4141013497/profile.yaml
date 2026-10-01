@@ -298,15 +298,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 惠济校区
+    address: null
+    coordinates: null
+    source: https://www.zzife.edu.cn/html/965/
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 航空港校区
+    address: null
+    coordinates: null
+    source: https://www.zzife.edu.cn/html/965/
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 郑州财经学院位于河南省郑州市，主管部门为河南省教育厅。官网列示学校总占地面积1854亩（统计日期未注明）。简介列出惠济校区、航空港校区。
+    availability: found
     search_sources: []
+    source: https://www.zzife.edu.cn/html/965/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -330,12 +348,19 @@ statistics:
     availability: unresearched
     search_sources: []
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 123.6
+    availability: found
     search_sources: []
+    source: https://www.zzife.edu.cn/html/965/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 学校总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：学校总占地面积1854亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 学校总占地面积1854亩
 academics:
   double_first_class_disciplines:
     value: null

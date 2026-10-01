@@ -6,12 +6,19 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | China Institute of Industrial Relations | official_or_curated | 2026-10-01 | [来源](http://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201702/t20170207_295845.html) |
 | 创办年份 | 1949 | official_or_curated | 2026-10-01 | [来源](http://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201702/t20170207_295845.html) |
 | 创办年份口径 | 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份 | | | |
 | 英文简称 | CULR | community_directory | 2026-10-01 | [来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md) |
+| 英文简称资料时间 | 2024-11-15 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

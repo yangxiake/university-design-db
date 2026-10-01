@@ -305,12 +305,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 茅台学院位于贵州省遵义市，主管部门为贵州省教育厅。官网列示教职工513人（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.mtxy.edu.cn/xxgk/xxjj//
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -327,12 +331,19 @@ statistics:
     availability: unresearched
     search_sources: []
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 513
+    availability: found
     search_sources: []
+    source: https://www.mtxy.edu.cn/xxgk/xxjj//
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；原标注：教职工513人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 教职工513人
   campus_area_hectares:
     value: null
     source: null

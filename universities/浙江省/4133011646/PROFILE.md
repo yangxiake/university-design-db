@@ -6,9 +6,10 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Ningbo University | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 英文名称资料时间 | 2021 | | | |
 | 官网 | https://www.nbu.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.nbu.edu.cn/xxgk/ndjj.htm) |
 | 创办年份 | 1986 | official_or_curated | 2026-09-30 | [来源](https://www.nbu.edu.cn/xxgk/ndjj.htm) |
 | 创办年份口径 | 官网称宁波大学于1986年由包玉刚先生捐资创立 | | | |
@@ -16,16 +17,31 @@
 | 官方PPT入口 | https://vi.nbu.edu.cn/yybf1/mbyzy/mbyzy.htm | official_or_curated | 2026-10-01 | [来源](https://vi.nbu.edu.cn/yybf1/mbyzy/mbyzy.htm) |
 | 官方资源发布方 | 宁波大学党委宣传部视觉形象识别系统 | official_or_curated | 2026-10-01 | [来源](https://vi.nbu.edu.cn/yybf1/mbyzy/mbyzy.htm) |
 | 中文简称 | 宁大 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | NBU | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 社区检索标识，不能当作正式校名 | ["ningbo-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 院校群与历史项目标签，非排名 | ["双一流"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 院校群与历史项目标签，非排名资料时间 | 2026 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 29.797, "location_kind": "community_map_point", "longitude": 121.567, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 双一流建设学科，注明名单年份及是否节选 | ["力学"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
 | 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
+| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
 | 就业入口 | http://ndjy.nbu.edu.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -61,6 +77,8 @@
 - [damitheswitch/china-universities-dataset](../../../data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl)：`5eaa2a93f86a`；资料年份/版本 2026，保留原字段及许可。
 - [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
 - [HeyHuazi/SVGLOGO](../../../data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl)：`142498f527ac`；资料年份/版本 2026-08-27，保留原字段及许可。
+- [realJerryKing/university-insight](../../../data/external/realJerryKing__university-insight/matched-fields.jsonl)：`ea2eb0a4a83d`；资料年份/版本 2026-06-09，保留原字段及许可。
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

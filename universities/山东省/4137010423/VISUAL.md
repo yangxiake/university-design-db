@@ -11,6 +11,7 @@
 | 校徽 | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/OUC.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/OUC.svg) | svg | 128.0 × 137.0 | content_inspected | 未独立声明 |
 | 校名文字 | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/OUC_wordmark.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/OUC_wordmark.svg) | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](http://www.ouc.edu.cn/_upload/tpl/0c/00/3072/template3072/images/logo.svg) · [来源](http://www.ouc.edu.cn/) | svg | 342.812 × 87.779 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/中国海洋大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 235 × 236 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -24,6 +25,9 @@
 |  | `#004098` | 0,64,152 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/OUC.svg) |
 |  | `#00A7EA` | 0,167,234 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/OUC.svg) |
 |  | `#E60012` | 230,0,18 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/OUC.svg) |
+|  | `#0098E8` | 0,152,232 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#182088` | 24,32,136 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#182080` | 24,32,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

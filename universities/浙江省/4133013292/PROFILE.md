@@ -6,18 +6,25 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.ldxk.edu.cn | official_or_curated | 2026-10-01 | [来源](https://www.ldxk.edu.cn) |
 | 校训 | 知物明理、知行合一 | official_or_curated | 2026-10-01 | [来源](https://www.ldxk.edu.cn/35/list.htm) |
 | 公办、民办等办学性质，不从空备注推断 | 民办 | official_registry | 2026-10-01 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
 | 公办、民办等办学性质，不从空备注推断口径 | 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。 | | | |
+| 公办、民办等办学性质，不从空备注推断资料时间 | 2026-06-17 | | | |
 | 招生入口 | https://www.ldxk.edu.cn/6/list.htm | official_website | 2026-10-01 | [来源](https://www.ldxk.edu.cn) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 英文网站入口 | https://www.ldxk.edu.cn/English/list.htm | official_website | 2026-10-01 | [来源](https://www.ldxk.edu.cn) |
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://www.ldxk.edu.cn/xxgk/list.htm | official_website | 2026-10-01 | [来源](https://www.ldxk.edu.cn) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

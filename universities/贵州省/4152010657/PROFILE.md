@@ -6,31 +6,60 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Guizhou University | official_or_curated | 2026-10-01 | [来源](https://www.gzu.edu.cn/_upload/article/files/5c/ad/b3ed42ae4fc89063a59e37706359/662e301c-a9aa-4b90-a552-2c41b2b3be06.pdf) |
 | 官网 | https://www.gzu.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.gzu.edu.cn/) |
 | 创办年份 | 1902 | official_or_curated | 2026-09-30 | [来源](https://www.gzu.edu.cn/6/list.htm) |
 | 创办年份口径 | 官网学校简介将1902年记为学校创建年份 | | | |
 | 中文简称 | 贵大 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | GZU | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 社区检索标识，不能当作正式校名 | ["guizhou-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 院校群与历史项目标签，非排名 | ["双一流", "211"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 院校群与历史项目标签，非排名资料时间 | 2026 | | | |
 | 邮政编码 | 550025 | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/) |
 | 邮政编码口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 26.452, "location_kind": "community_map_point", "longitude": 106.667, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
+| 中文简介，短摘要 | 贵州大学位于贵州省贵阳市，主管部门为贵州省。官网列示全日制本科生34000余人（统计日期未注明）。官网列示专任教师2803人（统计日期未注明）。官网列示学校占地面积4645.83亩（统计日期未注明）。 | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/6/list.htm) |
+| 中文简介，短摘要口径 | 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文 | | | |
+| 中文简介，短摘要资料时间 | mixed | | | |
+| 学生人数，需统计日期和口径 | 34000 | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/6/list.htm) |
+| 学生人数，需统计日期和口径口径 | 全日制本科生；近似/下界数，保留原标注：全日制本科生34000余人；页面未标注此项统计日期；采集日不等于统计日 | | | |
+| 学生人数，需统计日期和口径资料时间 | 统计日期未标注 | | | |
+| 教职工人数，需统计日期和口径 | 2803 | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/6/list.htm) |
+| 教职工人数，需统计日期和口径口径 | 专任教师；原标注：专任教师2803人；页面未标注此项统计日期；采集日不等于统计日 | | | |
+| 教职工人数，需统计日期和口径资料时间 | 统计日期未标注 | | | |
+| 校园面积，公顷，需日期和口径 | 309.722 | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/6/list.htm) |
+| 校园面积，公顷，需日期和口径口径 | 学校占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：学校占地面积4645.83亩；页面未标注此项统计日期；采集日不等于统计日 | | | |
+| 校园面积，公顷，需日期和口径资料时间 | 统计日期未标注 | | | |
 | 双一流建设学科，注明名单年份及是否节选 | ["植物保护"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
 | 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
+| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
+| 学位授权，需年份与层次口径 | ["一级学科博士学位授权点：22个；统计时间undated", "专业博士学位授权点：4个；统计时间undated", "一级学科硕士学位授权点：50个；统计时间undated", "专业硕士学位授权点：28个；统计时间undated"] | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/6/list.htm) |
+| 学位授权，需年份与层次口径口径 | 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated | | | |
 | 招生入口 | https://www.gzu.edu.cn/70/list.htm | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 就业入口 | http://aoff.gzu.edu.cn/gzujobs/client/index | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
 | 英文网站入口 | https://www.gzu.edu.cn/en/ | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/) |
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | http://www.gzu.edu.cn/18093/list.htm | official_website | 2026-10-01 | [来源](https://www.gzu.edu.cn/) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -66,9 +95,11 @@
 - [damitheswitch/china-universities-dataset](../../../data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl)：`5eaa2a93f86a`；资料年份/版本 2026，保留原字段及许可。
 - [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
 - [HeyHuazi/SVGLOGO](../../../data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl)：`142498f527ac`；资料年份/版本 2026-08-27，保留原字段及许可。
+- [realJerryKing/university-insight](../../../data/external/realJerryKing__university-insight/matched-fields.jsonl)：`ea2eb0a4a83d`；资料年份/版本 2026-06-09，保留原字段及许可。
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 
-校训：来源存在差异、校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、中文简介，短摘要：尚未采集、英文简介，短摘要：尚未采集、学生人数，需统计日期和口径：尚未采集、教职工人数，需统计日期和口径：尚未采集、校园面积，公顷，需日期和口径：尚未采集、学位授权，需年份与层次口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
+校训：来源存在差异、校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、英文简介，短摘要：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
 
 完整字段与出处见[profile.yaml](profile.yaml)。

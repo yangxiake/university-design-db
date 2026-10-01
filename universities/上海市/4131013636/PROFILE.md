@@ -6,12 +6,13 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.xdsisu.edu.cn/main.htm | official_or_curated | 2026-10-01 | [来源](https://www.xdsisu.edu.cn/main.htm) |
 | 校训 | 贤者惟德、达者善事 | official_or_curated | 2026-10-01 | [来源](https://www.xdsisu.edu.cn/388/list.htm) |
 | 公办、民办等办学性质，不从空备注推断 | 民办 | official_registry | 2026-10-01 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
 | 公办、民办等办学性质，不从空备注推断口径 | 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。 | | | |
+| 公办、民办等办学性质，不从空备注推断资料时间 | 2026-06-17 | | | |
 | 招生入口 | http://zhaoban.xdsisu.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.xdsisu.edu.cn/main.htm) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 就业入口 | http://job.xdsisu.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.xdsisu.edu.cn/main.htm) |
@@ -22,6 +23,12 @@
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 公开办公邮箱 | xiaozhang@xdsisu.edu.cn | official_website | 2026-10-01 | [来源](https://www.xdsisu.edu.cn/main.htm) |
 | 公开办公邮箱口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

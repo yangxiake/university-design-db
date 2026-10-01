@@ -6,22 +6,28 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | BNU-HKBU United International College | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文名称资料时间 | 2026-06-09 | | | |
 | 官网 | https://www.bnbu.edu.cn/index.htm | official_or_curated | 2026-09-30 | [来源](https://www.bnbu.edu.cn/index.htm) |
 | 创办年份 | 2005 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
 | 创办年份口径 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | | |
+| 创办年份资料时间 | 2026-06-09 | | | |
 | 校训 | 博文雅志，真知笃行 | official_or_curated | 2026-10-01 | [来源](https://www.bnbu.edu.cn/about_us/overview/motto_and_anthema.htm) |
 | 中文简称 | 北师港浸大 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | UIC | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
 | 通讯地址，不能代替全部校区地址 | 广东省珠海市唐家湾金同路2000号 | official_website | 2026-10-01 | [来源](https://www.bnbu.edu.cn/index.htm) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 邮政编码 | 519087 | official_website | 2026-10-01 | [来源](https://www.bnbu.edu.cn/index.htm) |
 | 邮政编码口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 22.361, "location_kind": "community_map_point", "longitude": 113.592, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 招生入口 | https://www.bnbu.edu.cn/admissions_and_placement.htm | official_website | 2026-10-01 | [来源](https://www.bnbu.edu.cn/index.htm) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 英文网站入口 | http://www.bnbu.edu.cn/en | official_website | 2026-10-01 | [来源](https://www.bnbu.edu.cn/index.htm) |
@@ -32,6 +38,12 @@
 | 公开办公或招生电话口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 公开办公邮箱 | fbm@bnbu.edu.cn；fhss@bnbu.edu.cn；fst@bnbu.edu.cn；scc@bnbu.edu.cn | official_website | 2026-10-01 | [来源](https://www.bnbu.edu.cn/about_us/contact_us.htm) |
 | 公开办公邮箱口径 | 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

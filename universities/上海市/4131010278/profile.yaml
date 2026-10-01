@@ -441,12 +441,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 上海音乐学院位于上海市，主管部门为上海市。官网列示教职工638人（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.shcmusic.edu.cn/syjj/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -463,12 +467,19 @@ statistics:
     availability: unresearched
     search_sources: []
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 638
+    availability: found
     search_sources: []
+    source: https://www.shcmusic.edu.cn/syjj/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；原标注：教职工638人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 教职工638人
   campus_area_hectares:
     value: null
     source: null
@@ -587,6 +598,22 @@ community:
     - tier
     - type
     source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: realJerryKing/university-insight
+    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
+    school_code: '4131010278'
+    upstream_record_name: 上海音乐学院
+    upstream_fields:
+    - 一流学科
+    - 城市
+    - 层次
+    - 类型
+    - 网址
+    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
     license: MIT
     data_as_of: '2026-06-09'
     verified: auto

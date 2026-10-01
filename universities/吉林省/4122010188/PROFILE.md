@@ -6,15 +6,24 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Northeast Electric Power University | official_or_curated | 2026-10-01 | [来源](https://dzbgs.neepu.edu.cn/dbdldxzc.pdf) |
 | 创办年份 | 1949 | official_or_curated | 2026-10-01 | [来源](https://www.neepu.edu.cn/xqzl.htm) |
 | 创办年份口径 | 学校所述办学起点，前身沈阳电机高级职业学校 | | | |
 | 校训 | 勤奋、严谨、求实、创新 | official_or_curated | 2026-10-01 | [来源](https://www.neepu.edu.cn/info/1109/63515.htm) |
 | 社区检索标识，不能当作正式校名 | ["northeast-electric-power-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 理工 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

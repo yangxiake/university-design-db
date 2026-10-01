@@ -497,12 +497,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 中央音乐学院位于北京市，主管部门为教育部。官网列示全日制在校生2208人（统计时间2024-12）。官网列示专任教师468人（统计时间2024-12）。官网列示占地面积79423平方米（统计时间2024-12）。
+    availability: found
     search_sources: []
+    source: https://www.ccom.edu.cn/ljxx/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -512,26 +516,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2208
+    availability: found
     search_sources: []
+    source: https://www.ccom.edu.cn/ljxx/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；原标注：全日制在校生2208人；截至2024年12月
+    source_as_of: 2024-12
+    date_basis: 截至2024年12月
+    approximate: false
+    original_notation: 全日制在校生2208人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 468
+    availability: found
     search_sources: []
+    source: https://www.ccom.edu.cn/ljxx/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师468人；截至2024年12月
+    source_as_of: 2024-12
+    date_basis: 截至2024年12月
+    approximate: false
+    original_notation: 专任教师468人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 7.9423
+    availability: found
     search_sources: []
+    source: https://www.ccom.edu.cn/ljxx/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积79423平方米；截至2024年12月
+    source_as_of: 2024-12
+    date_basis: 截至2024年12月
+    approximate: false
+    original_notation: 占地面积79423平方米
 academics:
   double_first_class_disciplines:
     value:
@@ -660,5 +685,21 @@ community:
     source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
     license: MIT
     data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: realJerryKing/university-insight
+    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
+    school_code: '4111010045'
+    upstream_record_name: 中央音乐学院
+    upstream_fields:
+    - 一流学科
+    - 城市
+    - 层次
+    - 类型
+    - 网址
+    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
+    license: MIT
+    data_as_of: '2026-06-09'
     verified: auto
     checked_at: '2026-10-01'

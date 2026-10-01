@@ -325,15 +325,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 天纬路校区
+    address: null
+    coordinates: null
+    source: https://www.tjarts.edu.cn/xxgk1/xxjj.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 志成路校区
+    address: null
+    coordinates: null
+    source: https://www.tjarts.edu.cn/xxgk1/xxjj.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 天津美术学院位于天津市，主管部门为天津市。官网列示全日制在校生4781人（统计日期未注明）。官网列示教职工580人（统计日期未注明）。官网列示校园占地面积12.9万平方米（统计日期未注明）。简介列出天纬路校区、志成路校区。
+    availability: found
     search_sources: []
+    source: https://www.tjarts.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -343,26 +361,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 4781
+    availability: found
     search_sources: []
+    source: https://www.tjarts.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；原标注：全日制在校生4781人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 全日制在校生4781人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 580
+    availability: found
     search_sources: []
+    source: https://www.tjarts.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；原标注：教职工580人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 教职工580人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 12.9
+    availability: found
     search_sources: []
+    source: https://www.tjarts.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 校园占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：校园占地面积12.9万平方米；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 校园占地面积12.9万平方米
 academics:
   double_first_class_disciplines:
     value: null
@@ -417,4 +456,21 @@ admissions:
   major_cutoffs: []
   plans: []
 community:
-  snapshots: []
+  snapshots:
+  - repository: Hipo/university-domains-list
+    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
+    school_code: '4112010073'
+    upstream_record_name: Tianjin Academy of Fine Art
+    upstream_fields:
+    - alpha_two_code
+    - country
+    - domains
+    - name
+    - state-province
+    - web_pages
+    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
+    license: MIT
+    data_as_of: '2026-09-26'
+    verified: auto
+    checked_at: '2026-10-01'

@@ -52,12 +52,22 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
   aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 药大
+    - CPU
+    availability: found
     search_sources: []
+    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/skills/%E9%AB%98%E6%A0%A1%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/references/aliases.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: realJerryKing/university-insight
+    upstream_commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+    upstream_record_name: 中国药科大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 社区检索别名；不是学校正式中文简称或全部历史校名
   slug_aliases:
     value: null
     source: null
@@ -179,6 +189,39 @@ visual:
     byte_size: 16233
     representation: raster
     resolved_url: http://www.cpu.edu.cn/_upload/tpl/03/26/806/template806/images/logo.png
+  - asset_id: dbaa0fa3d9e43ec0
+    title: 中国药科大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    file_name: 中国药科大学.png
+    upstream_path: logo.zip!/img2/中国药科大学.png
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 中国药科大学
+    format: png
+    width: 236
+    height: 236
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c8e4656d69c35e036e2944b65637ab3a529ea65c81dad6ce2c9aef21ae939a53
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 来自固定版本logo.zip中的独立PNG文件；须下载压缩包并按archive_member选择文件，URL不是PNG直链。历史社区校徽，不认定为现行VI，图形授权归学校。
+    download_kind: archive_member
+    archive_url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    archive_member: img2/中国药科大学.png
+    archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
+    source_as_of: unspecified
+    byte_size: 15019
+    representation: raster
   color_palette:
   - value: '#263C92'
     rgb:
@@ -198,6 +241,60 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 9b3fadc266bf71bd
+  - value: '#E00010'
+    rgb:
+    - 224
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: dbaa0fa3d9e43ec0
+  - value: '#E80010'
+    rgb:
+    - 232
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: dbaa0fa3d9e43ec0
+  - value: '#F00010'
+    rgb:
+    - 240
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: dbaa0fa3d9e43ec0
   vi_resources: []
 culture:
   founded_year:
@@ -417,15 +514,33 @@ location:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
+  campuses:
+  - name: 玄武门校区
+    address: null
+    coordinates: null
+    source: http://www.cpu.edu.cn/11459/list.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 江宁校区
+    address: null
+    coordinates: null
+    source: http://www.cpu.edu.cn/11459/list.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 中国药科大学位于江苏省南京市，主管部门为教育部。官网列示全日制在校生20756人（统计日期未注明）。官网列示在职教职工2083人（统计日期未注明）。简介列出玄武门校区、江宁校区。
+    availability: found
     search_sources: []
+    source: http://www.cpu.edu.cn/11459/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -435,19 +550,33 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 20756
+    availability: found
     search_sources: []
+    source: http://www.cpu.edu.cn/11459/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；原标注：全日制在校生20756人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 全日制在校生20756人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2083
+    availability: found
     search_sources: []
+    source: http://www.cpu.edu.cn/11459/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 在职教职工；原标注：在职教职工2083人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 在职教职工2083人
   campus_area_hectares:
     value: null
     source: null
@@ -607,5 +736,38 @@ community:
     source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
     license: MIT
     data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: realJerryKing/university-insight
+    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
+    school_code: '4132010316'
+    upstream_record_name: 中国药科大学
+    upstream_fields:
+    - 一流学科
+    - 城市
+    - 层次
+    - 类型
+    - 网址
+    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Hipo/university-domains-list
+    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
+    school_code: '4132010316'
+    upstream_record_name: China Pharmaceutical University Nanjing
+    upstream_fields:
+    - alpha_two_code
+    - country
+    - domains
+    - name
+    - state-province
+    - web_pages
+    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
+    license: MIT
+    data_as_of: '2026-09-26'
     verified: auto
     checked_at: '2026-10-01'

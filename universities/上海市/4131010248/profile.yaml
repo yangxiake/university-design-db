@@ -52,12 +52,22 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
   aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 交大
+    - 上交
+    availability: found
     search_sources: []
+    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/skills/%E9%AB%98%E6%A0%A1%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/references/aliases.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: realJerryKing/university-insight
+    upstream_commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+    upstream_record_name: 上海交通大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 社区检索别名；不是学校正式中文简称或全部历史校名
   slug_aliases:
     value:
     - shanghai-jiao-tong-university
@@ -289,6 +299,39 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shanghai_Jiao_Tong_University/png/logo_red_800x800.png
     attempts: []
+  - asset_id: 101ce68c0a9232f4
+    title: 上海交通大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    file_name: 上海交通大学.png
+    upstream_path: logo.zip!/img2/上海交通大学.png
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 上海交通大学
+    format: png
+    width: 236
+    height: 236
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c0f5a54c328fdf1f6f9a39c62aabcbc9fb3744ed80f869ec114e37c7ad0b8b4a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 来自固定版本logo.zip中的独立PNG文件；须下载压缩包并按archive_member选择文件，URL不是PNG直链。历史社区校徽，不认定为现行VI，图形授权归学校。
+    download_kind: archive_member
+    archive_url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    archive_member: img2/上海交通大学.png
+    archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
+    source_as_of: unspecified
+    byte_size: 17596
+    representation: raster
   color_palette:
   - value: '#A72038'
     rgb:
@@ -414,6 +457,60 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: 1f3d313be4a71df9
+  - value: '#C81018'
+    rgb:
+    - 200
+    - 16
+    - 24
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 101ce68c0a9232f4
+  - value: '#C01018'
+    rgb:
+    - 192
+    - 16
+    - 24
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 101ce68c0a9232f4
+  - value: '#D01020'
+    rgb:
+    - 208
+    - 16
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 101ce68c0a9232f4
   vi_resources: []
 culture:
   founded_year:
@@ -1274,5 +1371,59 @@ community:
     source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
     license: MIT
     data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: realJerryKing/university-insight
+    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
+    school_code: '4131010248'
+    upstream_record_name: 上海交通大学
+    upstream_fields:
+    - 一流学科
+    - 城市
+    - 就业概况
+    - 层次
+    - 师资概况
+    - 生源概况
+    - 科研概况
+    - 类型
+    - 网址
+    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
+    license: MIT
+    data_as_of: '2026-06-09'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Hipo/university-domains-list
+    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
+    school_code: '4131010248'
+    upstream_record_name: Shanghai Jiaotong University
+    upstream_fields:
+    - alpha_two_code
+    - country
+    - domains
+    - name
+    - state-province
+    - web_pages
+    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
+    license: MIT
+    data_as_of: '2026-09-26'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Hipo/university-domains-list
+    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
+    school_code: '4131010248'
+    upstream_record_name: Shanghai Jiao Tong University
+    upstream_fields:
+    - alpha_two_code
+    - country
+    - domains
+    - name
+    - state-province
+    - web_pages
+    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
+    license: MIT
+    data_as_of: '2026-09-26'
     verified: auto
     checked_at: '2026-10-01'

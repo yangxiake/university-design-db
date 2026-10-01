@@ -172,6 +172,39 @@ visual:
     byte_size: 9923
     representation: raster
     resolved_url: https://www.gxtcmu.edu.cn/content/main/base/img/logo-color.png
+  - asset_id: 8ec308ce34b66c0d
+    title: 广西中医药大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    file_name: 广西中医药大学.png
+    upstream_path: logo.zip!/img2/广西中医药大学.png
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 广西中医药大学
+    format: png
+    width: 236
+    height: 108
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6715d2d5ee3210e05c95c0e136c2261a2e10f8879992560bf32c469b26c4c1af
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 来自固定版本logo.zip中的独立PNG文件；须下载压缩包并按archive_member选择文件，URL不是PNG直链。历史社区校徽，不认定为现行VI，图形授权归学校。
+    download_kind: archive_member
+    archive_url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    archive_member: img2/广西中医药大学.png
+    archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
+    source_as_of: unspecified
+    byte_size: 3748
+    representation: raster
   color_palette:
   - value: '#007344'
     rgb:
@@ -257,6 +290,60 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
+  - value: '#006838'
+    rgb:
+    - 0
+    - 104
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 8ec308ce34b66c0d
+  - value: '#10A050'
+    rgb:
+    - 16
+    - 160
+    - 80
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 8ec308ce34b66c0d
+  - value: '#007038'
+    rgb:
+    - 0
+    - 112
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 8ec308ce34b66c0d
   vi_resources: []
 culture:
   founded_year:
@@ -425,15 +512,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 仙葫校区
+    address: null
+    coordinates: null
+    source: https://www.gxtcmu.edu.cn/xxgk/xxjj
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 明秀校区
+    address: null
+    coordinates: null
+    source: https://www.gxtcmu.edu.cn/xxgk/xxjj
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 广西中医药大学位于广西壮族自治区南宁市，主管部门为广西壮族自治区。官网列示专任教师827人（统计日期未注明）。官网列示校园总占地面积1300多亩（统计日期未注明）。简介列出仙葫校区、明秀校区。
+    availability: found
     search_sources: []
+    source: https://www.gxtcmu.edu.cn/xxgk/xxjj
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -450,19 +555,33 @@ statistics:
     availability: unresearched
     search_sources: []
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 827
+    availability: found
     search_sources: []
+    source: https://www.gxtcmu.edu.cn/xxgk/xxjj
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师827人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 专任教师827人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 86.666667
+    availability: found
     search_sources: []
+    source: https://www.gxtcmu.edu.cn/xxgk/xxjj
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 校园总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：校园总占地面积1300多亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 校园总占地面积1300多亩
 academics:
   double_first_class_disciplines:
     value: null
@@ -472,12 +591,17 @@ academics:
     availability: unresearched
     search_sources: []
   degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 博士学位授权一级学科：1个；统计时间undated
+    - 硕士学位授权一级学科：6个；统计时间undated
+    availability: found
     search_sources: []
+    source: https://www.gxtcmu.edu.cn/xxgk/xxjj
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
   subject_assessments: []
 employment:
   summary:
@@ -517,4 +641,21 @@ admissions:
   major_cutoffs: []
   plans: []
 community:
-  snapshots: []
+  snapshots:
+  - repository: Hipo/university-domains-list
+    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
+    school_code: '4145010600'
+    upstream_record_name: Guangxi Traditional Chinese Medical University
+    upstream_fields:
+    - alpha_two_code
+    - country
+    - domains
+    - name
+    - state-province
+    - web_pages
+    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
+    license: MIT
+    data_as_of: '2026-09-26'
+    verified: auto
+    checked_at: '2026-10-01'

@@ -285,6 +285,39 @@ visual:
     byte_size: 18293
     representation: raster
     resolved_url: https://www.shmtu.edu.cn/_upload/article/images/de/ef/cf2ba38e408d9549bf5ac33b52fe/20e1feab-f8e3-428d-8e1e-d0b9993decc7.png
+  - asset_id: 09050c6d5698ace9
+    title: 上海海事大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    file_name: 上海海事大学.png
+    upstream_path: logo.zip!/img2/上海海事大学.png
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 上海海事大学
+    format: png
+    width: 236
+    height: 236
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b05981feb8686a0e419d839ffdb55503807fdea1e7bafb305cdf7e3b41df6b04
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 来自固定版本logo.zip中的独立PNG文件；须下载压缩包并按archive_member选择文件，URL不是PNG直链。历史社区校徽，不认定为现行VI，图形授权归学校。
+    download_kind: archive_member
+    archive_url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    archive_member: img2/上海海事大学.png
+    archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
+    source_as_of: unspecified
+    byte_size: 15564
+    representation: raster
   color_palette:
   - value: '#063398'
     rgb:
@@ -304,6 +337,60 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: a7a04270dc73646c
+  - value: '#003880'
+    rgb:
+    - 0
+    - 56
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 09050c6d5698ace9
+  - value: '#004080'
+    rgb:
+    - 0
+    - 64
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 09050c6d5698ace9
+  - value: '#003878'
+    rgb:
+    - 0
+    - 56
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 09050c6d5698ace9
   vi_resources: []
 culture:
   founded_year:
@@ -494,12 +581,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 上海海事大学位于上海市，主管部门为上海市。官网列示全日制本科生16000余人（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.shmtu.edu.cn/12182/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -509,12 +600,19 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 16000
+    availability: found
     search_sources: []
+    source: https://www.shmtu.edu.cn/12182/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制本科生；近似/下界数，保留原标注：全日制本科生16000余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 全日制本科生16000余人
   faculty_count:
     value: null
     source: null
@@ -682,5 +780,22 @@ community:
     source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
     license: MIT
     data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Hipo/university-domains-list
+    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
+    school_code: '4131010254'
+    upstream_record_name: Shanghai Maritime University
+    upstream_fields:
+    - alpha_two_code
+    - country
+    - domains
+    - name
+    - state-province
+    - web_pages
+    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
+    license: MIT
+    data_as_of: '2026-09-26'
     verified: auto
     checked_at: '2026-10-01'

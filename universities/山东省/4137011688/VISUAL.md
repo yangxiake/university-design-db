@@ -7,6 +7,7 @@
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | [文件](https://www.sdtbu.edu.cn/images/logo.png) · [来源](https://www.sdtbu.edu.cn/) | png | 410 × 81 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/山东工商学院.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 236 × 236 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -17,6 +18,9 @@
 |  | `#003F98` | 0,63,152 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.sdtbu.edu.cn/images/logo.png) |
 |  | `#003890` | 0,56,144 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sdtbu.edu.cn/images/logo.png) |
 |  | `#004098` | 0,64,152 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sdtbu.edu.cn/images/logo.png) |
+|  | `#103060` | 16,48,96 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#183068` | 24,48,104 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#D80010` | 216,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

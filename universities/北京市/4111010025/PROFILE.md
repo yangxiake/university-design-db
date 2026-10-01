@@ -6,19 +6,31 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Capital Medical University | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 英文名称资料时间 | 2026-06-09 | | | |
 | 官网 | https://www.ccmu.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.ccmu.edu.cn/) |
 | 创办年份 | 1960 | official_or_curated | 2026-09-30 | [来源](https://www.ccmu.edu.cn/xxgk/xxjj/index.htm) |
 | 创办年份口径 | 官网学校简介将1960年记为学校建校年份 | | | |
 | 校训 | 扶伤济世、敬德修业 | official_or_curated | 2026-09-30 | [来源](https://www.ccmu.edu.cn/xxgk/xxjj/index.htm) |
 | 中文简称 | 首医 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | CCMU | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 综合、理工、师范等院校类型 | 医药 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 39.864, "location_kind": "community_map_point", "longitude": 116.342, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 就业入口 | http://jy.ccmu.edu.cn/sites/p/01/index.jsp | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

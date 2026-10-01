@@ -334,12 +334,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 南昌应用技术师范学院位于江西省南昌市，主管部门为江西省教育厅。官网列示在校生12977人（统计日期未注明）。官网列示专任教师750余人（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.nncat.edu.cn/news-xueyuanjieshao-list.shtml
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -349,19 +353,33 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 12977
+    availability: found
     search_sources: []
+    source: https://www.nncat.edu.cn/news-xueyuanjieshao-list.shtml
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 在校生；原标注：在校生12977人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 在校生12977人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 750
+    availability: found
     search_sources: []
+    source: https://www.nncat.edu.cn/news-xueyuanjieshao-list.shtml
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；近似/下界数，保留原标注：专任教师750余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 专任教师750余人
   campus_area_hectares:
     value: null
     source: null

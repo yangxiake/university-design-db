@@ -287,15 +287,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 百安校区
+    address: null
+    coordinates: null
+    source: https://www.sanxiau.edu.cn/xxgk3/xxjj.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 沙龙校区
+    address: null
+    coordinates: null
+    source: https://www.sanxiau.edu.cn/xxgk3/xxjj.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 重庆三峡科技大学位于重庆市，主管部门为重庆市。官网列示全日制在校生2万余人（统计日期未注明）。官网列示教职工1400余人（统计日期未注明）。官网列示总占地面积2800余亩（统计日期未注明）。简介列出百安校区、沙龙校区。
+    availability: found
     search_sources: []
+    source: https://www.sanxiau.edu.cn/xxgk3/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -305,26 +323,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 20000
+    availability: found
     search_sources: []
+    source: https://www.sanxiau.edu.cn/xxgk3/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生2万余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 全日制在校生2万余人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1400
+    availability: found
     search_sources: []
+    source: https://www.sanxiau.edu.cn/xxgk3/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；近似/下界数，保留原标注：教职工1400余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 教职工1400余人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 186.666667
+    availability: found
     search_sources: []
+    source: https://www.sanxiau.edu.cn/xxgk3/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：总占地面积2800余亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 总占地面积2800余亩
 academics:
   double_first_class_disciplines:
     value: null
@@ -334,12 +373,16 @@ academics:
     availability: unresearched
     search_sources: []
   degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 一级学科硕士学位授权点：5个；统计时间undated
+    availability: found
     search_sources: []
+    source: https://www.sanxiau.edu.cn/xxgk3/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
   subject_assessments: []
 employment:
   summary:
@@ -379,4 +422,21 @@ admissions:
   major_cutoffs: []
   plans: []
 community:
-  snapshots: []
+  snapshots:
+  - repository: Hipo/university-domains-list
+    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
+    school_code: '4150010643'
+    upstream_record_name: Chongqing Three Gorges University
+    upstream_fields:
+    - alpha_two_code
+    - country
+    - domains
+    - name
+    - state-province
+    - web_pages
+    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
+    license: MIT
+    data_as_of: '2026-09-26'
+    verified: auto
+    checked_at: '2026-10-01'

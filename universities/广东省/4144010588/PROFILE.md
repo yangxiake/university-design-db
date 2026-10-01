@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Guangdong Polytechnic Normal University | official_or_curated | 2026-10-01 | [来源](https://www.gpnu.edu.cn/xxgk/xxzc.htm) |
 | 官网 | https://www.gpnu.edu.cn/ | official_or_curated | 2026-10-01 | [来源](https://www.gpnu.edu.cn/) |
 | 创办年份 | 1957 | official_or_curated | 2026-10-01 | [来源](https://www.gpnu.edu.cn/xxgk/xxjj.htm) |
@@ -15,8 +15,11 @@
 | 校训 | 厚德博学 唯实求新 | official_or_curated | 2026-10-01 | [来源](https://www.gpnu.edu.cn/xxgk/xxzc.htm) |
 | 校歌 | 《在成长中自强不息》 | official_or_curated | 2026-10-01 | [来源](https://www.gpnu.edu.cn/xxgk/xxzc.htm) |
 | 社区检索标识，不能当作正式校名 | ["guangdong-polytechnic-normal-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 师范 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 通讯地址，不能代替全部校区地址 | 广州市天河区中山大道西293号 | official_website | 2026-10-01 | [来源](https://www.gpnu.edu.cn/) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 邮政编码 | 510665 | official_website | 2026-10-01 | [来源](https://www.gpnu.edu.cn/) |
@@ -29,6 +32,12 @@
 | 公开办公或招生电话口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 公开办公邮箱 | jysf@gpnu.edu.cn | official_website | 2026-10-01 | [来源](https://www.gpnu.edu.cn/) |
 | 公开办公邮箱口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -58,6 +67,7 @@
 
 - [xioajiumi/Chinese_Universities](../../../data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl)：`e088fddc329a`；资料年份/版本 2021，保留原字段及许可。
 - [damitheswitch/china-universities-dataset](../../../data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl)：`5eaa2a93f86a`；资料年份/版本 2026，保留原字段及许可。
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

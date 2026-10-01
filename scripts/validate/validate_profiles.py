@@ -338,6 +338,11 @@ def check_extended_entry(dotted, item, label, errors, release=False):
                 errors.append(label+': invalid '+key)
         if item.get('asset_license') is not None and not isinstance(item['asset_license'],str):
             errors.append(label+': invalid asset license')
+        if item.get('download_kind')=='archive_member':
+            if not is_url(item.get('archive_url')) or not item.get('archive_member') or '..' in pathlib.PurePosixPath(item.get('archive_member','')).parts:
+                errors.append(label+': archive asset needs a safe member name and archive URL')
+            if not re.fullmatch(r'[0-9a-f]{64}',str(item.get('archive_sha256',''))):
+                errors.append(label+': archive asset needs a pinned archive hash')
     elif dotted=='visual.color_palette':
         value=item.get('value')
         if not re.fullmatch(r'#[0-9A-Fa-f]{6}',str(value)):
@@ -389,6 +394,9 @@ def check_extended_entry(dotted, item, label, errors, release=False):
     elif dotted=='identity.external_identifiers':
         if not item.get('namespace') or not item.get('value'):
             errors.append(label+': external identifier needs namespace and value')
+    elif dotted=='location.campuses':
+        if not isinstance(item.get('name'),str) or not item['name'].strip() or not item.get('basis'):
+            errors.append(label+': campus needs an explicit name and identity basis')
 
 
 def main():

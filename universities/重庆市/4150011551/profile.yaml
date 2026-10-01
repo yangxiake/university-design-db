@@ -350,12 +350,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 重庆科技大学位于重庆市，主管部门为重庆市。官网列示全日制在校生24500余人（统计日期未注明）。官网列示教职工1900余人（统计日期未注明）。官网列示校园占地总面积约147万平方米（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.cqust.edu.cn/sy/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -365,26 +369,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 24500
+    availability: found
     search_sources: []
+    source: https://www.cqust.edu.cn/sy/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生24500余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 全日制在校生24500余人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1900
+    availability: found
     search_sources: []
+    source: https://www.cqust.edu.cn/sy/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；近似/下界数，保留原标注：教职工1900余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 教职工1900余人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 147.0
+    availability: found
     search_sources: []
+    source: https://www.cqust.edu.cn/sy/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 校园占地总面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：校园占地总面积约147万平方米；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 校园占地总面积约147万平方米
 academics:
   double_first_class_disciplines:
     value: null
@@ -480,5 +505,22 @@ community:
     source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
     license: MIT
     data_as_of: '2026'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: Hipo/university-domains-list
+    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
+    school_code: '4150011551'
+    upstream_record_name: Chongqing University of Science and Technology
+    upstream_fields:
+    - alpha_two_code
+    - country
+    - domains
+    - name
+    - state-province
+    - web_pages
+    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
+    license: MIT
+    data_as_of: '2026-09-26'
     verified: auto
     checked_at: '2026-10-01'

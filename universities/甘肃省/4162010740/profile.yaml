@@ -184,6 +184,39 @@ visual:
     byte_size: 34534
     representation: raster
     resolved_url: https://www.hxu.edu.cn/images/logo.png
+  - asset_id: 3184f077dd7d15c1
+    title: 河西学院校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    file_name: 河西学院.png
+    upstream_path: logo.zip!/img2/河西学院.png
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 河西学院
+    format: png
+    width: 236
+    height: 217
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 8d55cf99533582b6b4e66aea1722a30fb9d9fa5f4447621a20e027f3d96ff390
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 来自固定版本logo.zip中的独立PNG文件；须下载压缩包并按archive_member选择文件，URL不是PNG直链。历史社区校徽，不认定为现行VI，图形授权归学校。
+    download_kind: archive_member
+    archive_url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    archive_member: img2/河西学院.png
+    archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
+    source_as_of: unspecified
+    byte_size: 10862
+    representation: raster
   color_palette:
   - value: '#787898'
     rgb:
@@ -219,6 +252,60 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
+  - value: '#182088'
+    rgb:
+    - 24
+    - 32
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 3184f077dd7d15c1
+  - value: '#E00010'
+    rgb:
+    - 224
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 3184f077dd7d15c1
+  - value: '#E80010'
+    rgb:
+    - 232
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 3184f077dd7d15c1
   vi_resources: []
 culture:
   founded_year:
@@ -403,12 +490,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 河西学院位于甘肃省张掖市，主管部门为甘肃省。官网列示各类在校学生21289人（统计时间2026-09-15）。官网列示教职工3225人（统计时间2026-09-15）。官网列示学校总占地面积近4000亩（统计时间2026-09-15）。
+    availability: found
     search_sources: []
+    source: https://www.hxu.edu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -418,26 +509,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 21289
+    availability: found
     search_sources: []
+    source: https://www.hxu.edu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 各类在校学生；原标注：各类在校学生21289人；截止2026年9月15日
+    source_as_of: '2026-09-15'
+    date_basis: 截止2026年9月15日
+    approximate: false
+    original_notation: 各类在校学生21289人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 3225
+    availability: found
     search_sources: []
+    source: https://www.hxu.edu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；原标注：教职工3225人；截止2026年9月15日
+    source_as_of: '2026-09-15'
+    date_basis: 截止2026年9月15日
+    approximate: false
+    original_notation: 教职工3225人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 266.666667
+    availability: found
     search_sources: []
+    source: https://www.hxu.edu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 学校总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：学校总占地面积近4000亩；截止2026年9月15日
+    source_as_of: '2026-09-15'
+    date_basis: 截止2026年9月15日
+    approximate: true
+    original_notation: 学校总占地面积近4000亩
 academics:
   double_first_class_disciplines:
     value: null

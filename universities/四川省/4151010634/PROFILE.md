@@ -6,12 +6,19 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 创办年份 | 1951 | official_or_curated | 2026-10-01 | [来源](https://www.nsmc.edu.cn/__local/8/3D/57/B2E3948E18680EDE5D1A39C812B_2E5137D6_D908F.pdf?e=.pdf) |
 | 创办年份口径 | 前身西南区川北医士学校创办年 | | | |
 | 校训 | 敬业、博爱、求是、创新 | official_or_curated | 2026-10-01 | [来源](https://www.nsmc.edu.cn/__local/8/B2/1E/82DC8EA88F4C262E5ABB0314FD0_E7605DDA_7BA75.pdf?e=.pdf) |
 | 就业入口 | http://career.nsmc.edu.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

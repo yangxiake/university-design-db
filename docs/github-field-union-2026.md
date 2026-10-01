@@ -12,6 +12,8 @@
 | [HeyHuazi/SVGLOGO](https://github.com/HeyHuazi/SVGLOGO) | 120 | 115 | 4 |
 | [CakeAL/beijing-univs-vis](https://github.com/CakeAL/beijing-univs-vis) | 87 | 45 | 6 |
 | [RoboMaster/university_logos](https://github.com/RoboMaster/university_logos) | 184 | 85 | 4 |
+| [realJerryKing/university-insight](https://github.com/realJerryKing/university-insight) | 148 | 143 | 10 |
+| [Hipo/university-domains-list](https://github.com/Hipo/university-domains-list) | 399 | 272 | 6 |
 
 基础数据两库各582条，高校全景库188条且字段较细；地区VI目录和校徽资源库补充下载格式、校名文字、资源访问条件与逐文件内容元数据。范围始终以教育部2026本科名单1412所为准。
 
@@ -105,35 +107,64 @@
 | `color_variant` | visual.logo_assets[].variant（原文件标记，不自动生成HEX） |
 | `dimensions_in_filename` | visual.logo_assets[].dimensions_in_filename（仅提示；尺寸以内容检查为准） |
 
+### realJerryKing/university-insight
+
+| 上游字段 | 本库落点/处理 |
+| --- | --- |
+| `aliases` | identity.aliases社区检索别名，非正式简称 |
+| `一流学科` | community.snapshots，概括/占位文字不当学科名单 |
+| `城市` | 身份表优先；社区快照保留原值 |
+| `就业概况` | community.snapshots，保留就业率/深造率/行业/雇主/年份，不作官方统计 |
+| `层次` | community.snapshots历史标签 |
+| `师资概况` | community.snapshots，完整保留估算/兼职/双聘/来源与核实说明 |
+| `生源概况` | community.snapshots，保留规模/本科硕士博士/性别比/年份，约数不改为精确统计 |
+| `科研概况` | community.snapshots，保留经费/实验室/平台/年份，未逐项校方确认 |
+| `类型` | community.snapshots院校类型原值 |
+| `网址` | community.snapshots网址线索，不覆盖已确认官网 |
+
+### Hipo/university-domains-list
+
+| 上游字段 | 本库落点/处理 |
+| --- | --- |
+| `alpha_two_code` | community.snapshots国家两字母代码 |
+| `country` | community.snapshots国家原值 |
+| `domains` | community.snapshots域名数组，完整主机名唯一匹配 |
+| `name` | community.snapshots历史英文名称，不覆盖现行英文名 |
+| `state-province` | community.snapshots省级名称/空值 |
+| `web_pages` | community.snapshots网址数组 |
+
 ## v3覆盖情况
 
 | 项目 | 学校数 | 记录数 |
 | --- | ---: | ---: |
-| 逐文件校徽/校名资源 | 1098 | 2254 |
+| 逐文件校徽/校名资源 | 1154 | 3017 |
 | 其中官网发布标识文件 | 954 | 1155 |
-| 结构化配色 | 698 | 2243 |
+| 结构化配色 | 1001 | 4508 |
 | VI规范与下载线索 | 49 | 55 |
 | 历史排名 | 569 | 1117 |
 | 学科评估节选 | 136 | 764 |
 | 重庆2025录取参考 | 166 | 277 |
-| 上游字段快照 | 633 | 1423 |
+| 上游字段快照 | 670 | 1838 |
+| 官网明确列示校区 | 232 | 556 |
 
 ### 校徽文件检查
 
 | 状态 | 文件数 |
 | --- | ---: |
-| content_inspected | 1673 |
+| content_inspected | 2436 |
 | indexed_not_fetched | 554 |
 | inspection_failed | 27 |
 
 只有content_inspected读取了文件内容；历史外部CDN地址仅索引，不等于当前可下载。学校现行版本与图形授权未作人工签核。site_identity有1149条，是具体构成待核验的官网页眉标识，不能计为已确认纯校徽。
+
+其中763条为压缩包内文件：download_kind=archive_member，须读取archive_url、archive_member与archive_sha256；主URL不是PNG直链，文件内容哈希和压缩包哈希分别保存。
 
 ### 配色方法
 
 | 方法 | 颜色记录数 |
 | --- | ---: |
 | badge_sample | 1 |
-| community_logo_sample | 746 |
+| community_logo_sample | 3011 |
 | community_theme | 10 |
 | manual_derived | 1430 |
 | official_vi | 56 |
@@ -146,7 +177,7 @@
 | --- | ---: |
 | `identity.short_name_zh` | 184 |
 | `identity.short_name_en` | 204 |
-| `identity.aliases` | 0 |
+| `identity.aliases` | 72 |
 | `identity.slug_aliases` | 561 |
 | `institution.school_type` | 627 |
 | `institution.nature` | 435 |
@@ -156,13 +187,13 @@
 | `location.address` | 698 |
 | `location.postal_code` | 516 |
 | `location.coordinates` | 184 |
-| `overview.summary_zh` | 0 |
+| `overview.summary_zh` | 819 |
 | `overview.summary_en` | 0 |
-| `statistics.student_count` | 0 |
-| `statistics.faculty_count` | 0 |
-| `statistics.campus_area_hectares` | 0 |
+| `statistics.student_count` | 644 |
+| `statistics.faculty_count` | 616 |
+| `statistics.campus_area_hectares` | 402 |
 | `academics.double_first_class_disciplines` | 140 |
-| `academics.degree_authorizations` | 0 |
+| `academics.degree_authorizations` | 109 |
 | `employment.summary` | 0 |
 | `employment.report_url` | 0 |
 | `resources.admissions_url` | 816 |
@@ -178,7 +209,7 @@
 
 学科来源内部出现同一学科多个等级时，availability=conflict、grade=null并保留candidates；当前1条，不自动选择。
 
-学生/教职工人数、面积须带统计日期和basis；录取与计划须带年份、地区、科类、批次和招生类型；排名须带发布方、榜单、年份和范围。校徽保留文件地址、真实格式、宽高、纯矢量判断、透明信息、哈希、独立图形许可与仓库许可。
+学生/教职工人数、面积保留统计日期和basis；未标注日期明确为source_as_of=undated，不能把checked_at当作统计日期。近似/下界数保留original_notation和approximate，专任教师/本科生与全校总量的口径分别标明。录取与计划须带年份、地区、科类、批次和招生类型；排名须带发布方、榜单、年份和范围。校徽保留文件地址、真实格式、宽高、纯矢量判断、透明信息、哈希、独立图形许可与仓库许可。
 
 原始简介、就业评论、主观tier，以及已发现的占位学科文本完整保存在MIT社区快照中；未当作学校官方事实。发现的Pexels照片不加入校徽集合。
 

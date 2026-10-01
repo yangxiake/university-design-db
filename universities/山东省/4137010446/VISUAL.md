@@ -10,6 +10,7 @@
 | 校徽 | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%9B%B2%E9%98%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%20QFNU.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%9B%B2%E9%98%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%20QFNU.svg) | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.qfnu.edu.cn/images/logo.png) · [来源](https://www.qfnu.edu.cn) | png | 260 × 240 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.qfnu.edu.cn/images/logo_mob.png) · [来源](https://www.qfnu.edu.cn) | png | 298 × 87 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/曲阜师范大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 1815 × 1797 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -20,6 +21,9 @@
 |  | `#F5CA95` | 245,202,149 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.qfnu.edu.cn/images/logo.png) |
 |  | `#E8C098` | 232,192,152 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.qfnu.edu.cn/images/logo.png) |
 |  | `#F0D0A0` | 240,208,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.qfnu.edu.cn/images/logo.png) |
+|  | `#682808` | 104,40,8 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#F0E0C0` | 240,224,192 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#602800` | 96,40,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

@@ -6,24 +6,39 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Chengdu University of Technology | official_or_curated | 2026-10-01 | [来源](https://www.cdut.edu.cn/info/1366/7658.htm) |
 | 官网 | https://www.cdut.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.cdut.edu.cn/info/1366/7658.htm) |
 | 创办年份 | 1956 | official_or_curated | 2026-09-30 | [来源](https://shpg.cdut.edu.cn/__local/5/96/62/BAAB6819B693EE5588ECBC18F5B_BC01582D_FC225.pdf) |
 | 创办年份口径 | 学校官网评估材料称成都理工大学创办于1956年 | | | |
 | 校训 | 穷究于理、成就于工 | official_or_curated | 2026-09-30 | [来源](https://www.cdut.edu.cn/info/1366/7658.htm) |
 | 中文简称 | 成理 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | CDUT | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 社区检索标识，不能当作正式校名 | ["chengdu-university-of-technology"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 理工 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 院校群与历史项目标签，非排名 | ["双一流"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 院校群与历史项目标签，非排名资料时间 | 2026 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 30.679, "location_kind": "community_map_point", "longitude": 104.148, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 双一流建设学科，注明名单年份及是否节选 | ["地质学"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
 | 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
+| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
 | 就业入口 | http://www.jy.cdut.edu.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -59,6 +74,8 @@
 - [damitheswitch/china-universities-dataset](../../../data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl)：`5eaa2a93f86a`；资料年份/版本 2026，保留原字段及许可。
 - [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
 - [HeyHuazi/SVGLOGO](../../../data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl)：`142498f527ac`；资料年份/版本 2026-08-27，保留原字段及许可。
+- [realJerryKing/university-insight](../../../data/external/realJerryKing__university-insight/matched-fields.jsonl)：`ea2eb0a4a83d`；资料年份/版本 2026-06-09，保留原字段及许可。
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

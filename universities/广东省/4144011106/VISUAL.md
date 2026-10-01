@@ -9,6 +9,7 @@
 | 校徽 | [文件](https://www.shanghairanking.cn/_uni/logo-jpg/8091211800.jpg) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | jpg | 未声明 | indexed_not_fetched | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.gzmtu.edu.cn/images/logo0228.png) · [来源](https://www.gzmtu.edu.cn/) | png | 340 × 89 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.gzmtu.edu.cn/images/logo-new1.png) · [来源](https://www.gzmtu.edu.cn/) | png | 464 × 461 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/广州航海学院.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | jpeg | 268 × 268 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -21,6 +22,9 @@
 |  | `#B8E0F0` | 184,224,240 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.gzmtu.edu.cn/images/logo0228.png) |
 |  | `#00A0F8` | 0,160,248 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.gzmtu.edu.cn/images/logo-new1.png) |
 |  | `#00A0F0` | 0,160,240 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.gzmtu.edu.cn/images/logo-new1.png) |
+|  | `#B0E0F0` | 176,224,240 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#3888C8` | 56,136,200 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#3088C8` | 48,136,200 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

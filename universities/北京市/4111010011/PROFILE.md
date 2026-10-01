@@ -6,11 +6,19 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.btbu.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.btbu.edu.cn/) |
 | 英文简称 | BTBU | community_directory | 2026-10-01 | [来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md) |
+| 英文简称资料时间 | 2024-11-15 | | | |
 | 就业入口 | http://gsbys.btbu.edu.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

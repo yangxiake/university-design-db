@@ -6,19 +6,32 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Dongbei University of Finance and Economics | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 英文名称资料时间 | 2026-06-09 | | | |
 | 创办年份 | 1952 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 创办年份口径 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | | |
+| 创办年份资料时间 | 2026-06-09 | | | |
 | 校训 | 博学济世 | official_or_curated | 2026-10-01 | [来源](https://www.dufe.edu.cn/xxgk/xxjj/) |
 | 中文简称 | 东北财 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | DUFE | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 综合、理工、师范等院校类型 | 财经 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 38.889, "location_kind": "community_map_point", "longitude": 121.553, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 双一流建设学科，注明名单年份及是否节选 | ["应用经济学（自定）"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
+| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -48,6 +61,7 @@
 ## 可追溯社区快照
 
 - [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

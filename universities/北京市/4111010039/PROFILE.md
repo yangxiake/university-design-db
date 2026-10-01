@@ -6,13 +6,19 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | China Fire and Rescue Institute | official_or_curated | 2026-10-01 | [来源](https://www.cfri.edu.cn/channels/2264.html) |
 | 创办年份 | 2018 | official_or_curated | 2026-10-01 | [来源](https://www.cfri.edu.cn/contents/2259/112.html?__r=7589) |
 | 创办年份口径 | 现学院组建及挂牌年；非武警前身起源年 | | | |
 | 校训 | 忠勇兼备、知行合一 | official_or_curated | 2026-10-01 | [来源](https://www.cfri.edu.cn/channels/2264.html) |
 | 校歌 | 《中国消防救援学院院歌》 | official_or_curated | 2026-10-01 | [来源](https://www.cfri.edu.cn/channels/2264.html) |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

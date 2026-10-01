@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.ynufe.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.ynufe.edu.cn/) |
 | 创办年份 | 1951 | official_or_curated | 2026-10-01 | [来源](https://www.ynufe.edu.cn/xxgk/xxjj.htm) |
 | 创办年份口径 | 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份 | | | |
@@ -15,10 +15,17 @@
 | 通讯地址，不能代替全部校区地址 | 昆明市五华区龙泉路237号；安宁市金方街道办事处普融路999号 | official_website | 2026-10-01 | [来源](https://www.ynufe.edu.cn/) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 就业入口 | http://jy.ynufe.edu.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
 | 英文网站入口 | https://www.ynufe.edu.cn/en/ | official_website | 2026-10-01 | [来源](https://www.ynufe.edu.cn/) |
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://www.ynufe.edu.cn/index/xxgk.htm | official_website | 2026-10-01 | [来源](https://www.ynufe.edu.cn/) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

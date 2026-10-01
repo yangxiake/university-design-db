@@ -6,18 +6,30 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Chongqing Medical University | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文名称资料时间 | 2026-06-09 | | | |
 | 创办年份 | 1956 | official_or_curated | 2026-10-01 | [来源](https://gaokao.chsi.com.cn/sch/schoolInfo--schId-485%2CcategoryId-12214%2Cmindex-1.dhtml) |
 | 创办年份口径 | 上海第一医学院分迁重庆建立重庆医学院年 | | | |
 | 校训 | 严谨、求实、勤奋、进取 | official_or_curated | 2026-10-01 | [来源](https://www.edu.cn/xiao_zhang_ft_1802/20100609/t20100609_484453.shtml) |
 | 中文简称 | 重医 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | CQMU | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 综合、理工、师范等院校类型 | 医药 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 29.531, "location_kind": "community_map_point", "longitude": 106.553, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 就业入口 | http://cqmu.bysjy.com.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -46,6 +58,7 @@
 ## 可追溯社区快照
 
 - [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

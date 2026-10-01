@@ -6,12 +6,18 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.sxufe.edu.cn/ | official_or_curated | 2026-10-01 | [来源](https://www.sxufe.edu.cn/) |
 | 创办年份 | 1951 | official_or_curated | 2026-10-01 | [来源](https://www.sxufe.edu.cn/gywm/xxgk/xxjj.htm) |
 | 创办年份口径 | 官网overview页直接记载学校始建年份；未将更名年份或院系年份当作建校年 | | | |
 | 校训 | 修德立信、博学求真 | official_or_curated | 2026-10-01 | [来源](https://www.sxufe.edu.cn/gywm/xxgk/xxjj.htm) |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

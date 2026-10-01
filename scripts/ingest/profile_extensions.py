@@ -52,6 +52,7 @@ ENTRY_FIELDS = {
     'visual.logo_assets': ['asset_id','kind','title','url','source','file_name','upstream_path','publisher','official',
         'repository','commit','repository_license','asset_license','rights_holder','format','width','height','vector',
         'representation','view_box','encoding','intrinsic_width','intrinsic_height','has_alpha','transparent_background','sha256','byte_size','access_status',
+        'download_kind','archive_url','archive_member','archive_sha256',
         'availability','verified','checked_at','usage_note','variant','dimensions_in_filename','source_type','identity_basis','resolved_url'],
     'visual.color_palette': ['value','rgb','cmyk','pantone','label','role','method','official','current','basis','source',
         'verified','checked_at','availability','repository','commit','asset_id'],

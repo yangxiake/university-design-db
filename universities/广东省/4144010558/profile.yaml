@@ -52,12 +52,22 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
   aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 中大
+    - 中山
+    availability: found
     search_sources: []
+    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/skills/%E9%AB%98%E6%A0%A1%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/references/aliases.json
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: community_dataset
+    upstream_repository: realJerryKing/university-insight
+    upstream_commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+    upstream_record_name: 中山大学
+    upstream_license: MIT
+    source_as_of: '2026-06-09'
+    note: 社区数据原值；没有认定为校方现行声明。
+    basis: 社区检索别名；不是学校正式中文简称或全部历史校名
   slug_aliases:
     value:
     - sun-yat-sen-university
@@ -332,6 +342,39 @@ visual:
     byte_size: 10775
     representation: raster
     resolved_url: https://www.sysu.edu.cn/images/logo1.png
+  - asset_id: 66a150896cbcd972
+    title: 中山大学校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    file_name: 中山大学.png
+    upstream_path: logo.zip!/img2/中山大学.png
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 中山大学
+    format: png
+    width: 236
+    height: 236
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c441985b318031fe28952521aaf6cda72beed9d031b5f0059bdfe4db60d7db44
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 来自固定版本logo.zip中的独立PNG文件；须下载压缩包并按archive_member选择文件，URL不是PNG直链。历史社区校徽，不认定为现行VI，图形授权归学校。
+    download_kind: archive_member
+    archive_url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    archive_member: img2/中山大学.png
+    archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
+    source_as_of: unspecified
+    byte_size: 16524
+    representation: raster
   color_palette:
   - value: '#005826'
     rgb:
@@ -419,6 +462,60 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
+  - value: '#005018'
+    rgb:
+    - 0
+    - 80
+    - 24
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 66a150896cbcd972
+  - value: '#005820'
+    rgb:
+    - 0
+    - 88
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 66a150896cbcd972
+  - value: '#005818'
+    rgb:
+    - 0
+    - 88
+    - 24
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 66a150896cbcd972
   vi_resources: []
 culture:
   founded_year:
@@ -659,15 +756,40 @@ location:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
+  campuses:
+  - name: 广州校区
+    address: null
+    coordinates: null
+    source: https://www.sysu.edu.cn/xxg/zdjj1.htm
+    basis: 官网简介明确列出的校区，校园与校区层级分开；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 珠海校区
+    address: null
+    coordinates: null
+    source: https://www.sysu.edu.cn/xxg/zdjj1.htm
+    basis: 官网简介明确列出的校区，校园与校区层级分开；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 深圳校区
+    address: null
+    coordinates: null
+    source: https://www.sysu.edu.cn/xxg/zdjj1.htm
+    basis: 官网简介明确列出的校区，校园与校区层级分开；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-01'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 中山大学位于广东省广州市，主管部门为教育部。官网列示在校学生71104人（统计时间2026-05-31）。官网列示专任教师5046人（统计时间2026-05-31）。简介列出广州校区、珠海校区、深圳校区。
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/xxg/zdjj1.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: '2026-05-31'
   summary_en:
     value: null
     source: null
@@ -677,19 +799,35 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 71104
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/xxg/zdjj1.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 官网基本数据列示在校学生总数，含本科生、硕士生、博士生、留学生；不是仅本科生人数。；统计时间2026-05-31
+    source_as_of: '2026-05-31'
+    date_basis: 数据截至2026年5月31日
+    original_notation: 在校学生71104人
+    approximate: false
+    source_sha256: e399359bb0f61b1af20e64553fc276492e7de763502e656793d8d6f1bb86e6fb
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 5046
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/xxg/zdjj1.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师人数；未把专业技术人员、博士后与专职科研人员合计成教职工总数。；统计时间2026-05-31
+    source_as_of: '2026-05-31'
+    date_basis: 数据截至2026年5月31日
+    original_notation: 专任教师5046人
+    approximate: false
+    source_sha256: e399359bb0f61b1af20e64553fc276492e7de763502e656793d8d6f1bb86e6fb
   campus_area_hectares:
     value: null
     source: null
@@ -1240,5 +1378,25 @@ community:
     source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
     license: MIT
     data_as_of: '2026-08-27'
+    verified: auto
+    checked_at: '2026-10-01'
+  - repository: realJerryKing/university-insight
+    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
+    school_code: '4144010558'
+    upstream_record_name: 中山大学
+    upstream_fields:
+    - 一流学科
+    - 城市
+    - 就业概况
+    - 层次
+    - 师资概况
+    - 生源概况
+    - 科研概况
+    - 类型
+    - 网址
+    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
+    license: MIT
+    data_as_of: '2026-06-09'
     verified: auto
     checked_at: '2026-10-01'

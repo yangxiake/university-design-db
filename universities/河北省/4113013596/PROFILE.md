@@ -6,18 +6,25 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Jitang College of North China University of Science and Technology | official_or_curated | 2026-10-01 | [来源](https://jtxy.ncst.edu.cn/col/1322121683015/2026/06/01/1780277675559.html) |
 | 官网 | https://jtxy.ncst.edu.cn | official_or_curated | 2026-10-01 | [来源](https://jtxy.ncst.edu.cn) |
 | 创办年份 | 2001 | official_or_curated | 2026-10-01 | [来源](https://jtxy.ncst.edu.cn/col/1513649664783/index.html) |
 | 创办年份口径 | 官网overview页直接记载学校成立年份；未将更名年份或院系年份当作建校年 | | | |
 | 公办、民办等办学性质，不从空备注推断 | 民办 | official_registry | 2026-10-01 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
 | 公办、民办等办学性质，不从空备注推断口径 | 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。 | | | |
+| 公办、民办等办学性质，不从空备注推断资料时间 | 2026-06-17 | | | |
 | 招生入口 | https://jtxy.ncst.edu.cn/col/1725000846171/index.html | official_website | 2026-10-01 | [来源](https://jtxy.ncst.edu.cn) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 公开办公或招生电话 | 联系电话: 0315-8819008 | official_website | 2026-10-01 | [来源](https://jtxy.ncst.edu.cn) |
 | 公开办公或招生电话口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

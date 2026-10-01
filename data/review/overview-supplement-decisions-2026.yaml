@@ -1,0 +1,45 @@
+schema_version: 1
+checked_at: '2026-10-01'
+schools:
+- school_code: '4111010003'
+  source: https://www.tsinghua.edu.cn/xxgk/tjzl.htm
+  title: 统计资料-清华大学
+  source_as_of: '2025-12-31'
+  date_pattern: 各项数据截至2025年12月31日
+  claims:
+  - field: statistics.student_count
+    value: 63132
+    evidence_pattern: 在学学生人数\*63132
+    original_notation: 在学学生人数63132
+    basis: 在学学生总数；原表星号注明包含北京协和医学院—清华大学医学部的相关内容，不能与其他院校简单合计。
+  - field: statistics.faculty_count
+    value: 17382
+    evidence_pattern: 教职工总数17382
+    original_notation: 教职工总数17382
+    basis: 教职工总数，包含教师、职工、博士后；不等于专任教师人数。
+  - field: statistics.campus_area_hectares
+    value: 483.43
+    evidence_pattern: 校园面积（公顷）483\.43\(不含深圳国际研究生院、附属医院\)
+    original_notation: 校园面积483.43公顷
+    basis: 校园面积，单位公顷；原表注明不含深圳国际研究生院、附属医院。
+- school_code: '4144010558'
+  source: https://www.sysu.edu.cn/xxg/zdjj1.htm
+  title: 中大简介-中山大学 SUN YAT-SEN UNIVERSITY
+  source_as_of: '2026-05-31'
+  date_pattern: 数据截至2026年5月31日
+  claims:
+  - field: statistics.student_count
+    value: 71104
+    evidence_pattern: 在校学生71104人
+    original_notation: 在校学生71104人
+    basis: 官网基本数据列示在校学生总数，含本科生、硕士生、博士生、留学生；不是仅本科生人数。
+  - field: statistics.faculty_count
+    value: 5046
+    evidence_pattern: 专任教师5046人
+    original_notation: 专任教师5046人
+    basis: 专任教师人数；未把专业技术人员、博士后与专职科研人员合计成教职工总数。
+  campuses:
+  - 广州校区
+  - 珠海校区
+  - 深圳校区
+  campus_pattern: 广州校区（含南、北、东三个校园）3个珠海校区1个深圳校区1个

@@ -6,20 +6,30 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Jiangsu Second Normal University | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 英文名称资料时间 | 2021 | | | |
 | 官网 | https://www.jssnu.edu.cn/main.htm | official_or_curated | 2026-09-30 | [来源](https://www.jssnu.edu.cn/main.htm) |
 | 校训 | 崇德敬业、求真创新 | official_or_curated | 2026-09-30 | [来源](https://www.jssnu.edu.cn/4451/list.htm) |
 | 社区检索标识，不能当作正式校名 | ["jiangsu-second-normal-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 师范 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 通讯地址，不能代替全部校区地址 | /南京市溧水区新河西路6号；/南京市鼓楼区北京西路77号 | official_website | 2026-10-01 | [来源](https://www.jssnu.edu.cn/main.htm) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 招生入口 | http://zs.jssnu.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.jssnu.edu.cn/main.htm) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://xxgk.jssnu.edu.cn/main.htm | official_website | 2026-10-01 | [来源](https://www.jssnu.edu.cn/main.htm) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

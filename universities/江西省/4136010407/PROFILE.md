@@ -6,22 +6,32 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | JiangXi University of Science and Technology | official_or_curated | 2026-10-01 | [来源](https://www.jxust.edu.cn/) |
 | 英文名称口径 | 官网双语页标题明确同时列出本校中文名与英文名 | | | |
 | 官网 | https://www.jxust.edu.cn/ | official_or_curated | 2026-10-01 | [来源](https://www.jxust.edu.cn/) |
 | 校训 | 志存高远、责任为先 | official_or_curated | 2026-10-01 | [来源](https://www.jxust.edu.cn/jxustn/xxgk/xxzc.htm) |
 | 社区检索标识，不能当作正式校名 | ["jiangxi-university-of-science-and-technology"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 理工 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 通讯地址，不能代替全部校区地址 | 江西省赣州市客家大道1958号；江西省赣州市红旗大道86号；江西省南昌市昌北开发区双港东大街1180号 | official_website | 2026-10-01 | [来源](https://www.jxust.edu.cn/) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 就业入口 | http://jxlg.bysjy.com.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
 | 英文网站入口 | https://e.jxust.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.jxust.edu.cn/) |
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://xxgk.jxust.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.jxust.edu.cn/) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

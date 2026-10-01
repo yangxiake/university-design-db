@@ -6,25 +6,45 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | University of Jinan | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 英文名称资料时间 | 2021 | | | |
 | 官网 | https://www.ujn.edu.cn | official_or_curated | 2026-09-30 | [来源](https://www.ujn.edu.cn) |
 | 创办年份 | 1948 | official_or_curated | 2026-09-30 | [来源](https://www.ujn.edu.cn/xxgk/xxjj.htm) |
 | 创办年份口径 | 官网学校简介将1948年记为学校始建年份 | | | |
 | 校训 | 弘毅、博学、求真、至善 | official_or_curated | 2026-10-01 | [来源](https://www.ujn.edu.cn/xxgk/xxjj.htm) |
 | 社区检索标识，不能当作正式校名 | ["university-of-jinan"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 通讯地址，不能代替全部校区地址 | 山东省济南市南辛庄西路336号 | official_website | 2026-10-01 | [来源](https://www.ujn.edu.cn) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
+| 中文简介，短摘要 | 济南大学位于山东省济南市，主管部门为山东省。官网列示本科生16000余人（统计日期未注明）。官网列示专任教师约2300人（统计日期未注明）。 | official_website | 2026-10-01 | [来源](https://www.ujn.edu.cn/xxgk/xxjj.htm) |
+| 中文简介，短摘要口径 | 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文 | | | |
+| 中文简介，短摘要资料时间 | mixed | | | |
+| 学生人数，需统计日期和口径 | 16000 | official_website | 2026-10-01 | [来源](https://www.ujn.edu.cn/xxgk/xxjj.htm) |
+| 学生人数，需统计日期和口径口径 | 本科生；近似/下界数，保留原标注：本科生16000余人；页面未标注此项统计日期；采集日不等于统计日 | | | |
+| 学生人数，需统计日期和口径资料时间 | 统计日期未标注 | | | |
+| 教职工人数，需统计日期和口径 | 2300 | official_website | 2026-10-01 | [来源](https://www.ujn.edu.cn/xxgk/xxjj.htm) |
+| 教职工人数，需统计日期和口径口径 | 专任教师；近似/下界数，保留原标注：专任教师约2300人；页面未标注此项统计日期；采集日不等于统计日 | | | |
+| 教职工人数，需统计日期和口径资料时间 | 统计日期未标注 | | | |
 | 招生入口 | http://admission.ujn.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.ujn.edu.cn) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 就业入口 | http://career.ujn.edu.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
 | 英文网站入口 | https://www.ujn.edu.cn/jndxen | official_website | 2026-10-01 | [来源](https://www.ujn.edu.cn) |
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://xxgk.ujn.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.ujn.edu.cn) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -56,9 +76,10 @@
 - [xioajiumi/Chinese_Universities](../../../data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl)：`e088fddc329a`；资料年份/版本 2021，保留原字段及许可。
 - [damitheswitch/china-universities-dataset](../../../data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl)：`5eaa2a93f86a`；资料年份/版本 2026，保留原字段及许可。
 - [HeyHuazi/SVGLOGO](../../../data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl)：`142498f527ac`；资料年份/版本 2026-08-27，保留原字段及许可。
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 
-校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、中文简称：尚未采集、英文简称：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、院校群与历史项目标签，非排名：尚未采集、邮政编码：尚未采集、经纬度及坐标系、位置精度：尚未采集、中文简介，短摘要：尚未采集、英文简介，短摘要：尚未采集、学生人数，需统计日期和口径：尚未采集、教职工人数，需统计日期和口径：尚未采集、校园面积，公顷，需日期和口径：尚未采集、双一流建设学科，注明名单年份及是否节选：尚未采集、学位授权，需年份与层次口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
+校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、中文简称：尚未采集、英文简称：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、院校群与历史项目标签，非排名：尚未采集、邮政编码：尚未采集、经纬度及坐标系、位置精度：尚未采集、英文简介，短摘要：尚未采集、校园面积，公顷，需日期和口径：尚未采集、双一流建设学科，注明名单年份及是否节选：尚未采集、学位授权，需年份与层次口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
 
 完整字段与出处见[profile.yaml](profile.yaml)。

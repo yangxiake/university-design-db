@@ -6,12 +6,18 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.syty.edu.cn | official_or_curated | 2026-09-30 | [来源](https://www.syty.edu.cn) |
 | 校训 | 厚德博学 弘毅致强 | official_or_curated | 2026-09-30 | [来源](https://www.syty.edu.cn/info/1172/2604.htm) |
 | 信息公开入口 | https://www.syty.edu.cn/index/xxgk/xxgkbg.htm | official_website | 2026-10-01 | [来源](https://www.syty.edu.cn) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

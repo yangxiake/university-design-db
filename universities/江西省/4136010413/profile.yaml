@@ -321,12 +321,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 赣南医科大学位于江西省赣州市，主管部门为江西省。官网列示全日制在校生18257人（统计时间2025）。官网列示专任教师1000余人（统计时间2025）。官网列示学校占地总面积2600余亩（统计时间2025）。
+    availability: found
     search_sources: []
+    source: https://gmu.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -336,26 +340,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 18257
+    availability: found
     search_sources: []
+    source: https://gmu.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；原标注：全日制在校生18257人；截至2025
+    source_as_of: '2025'
+    date_basis: 截至2025
+    approximate: false
+    original_notation: 全日制在校生18257人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1000
+    availability: found
     search_sources: []
+    source: https://gmu.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；近似/下界数，保留原标注：专任教师1000余人；截至2025
+    source_as_of: '2025'
+    date_basis: 截至2025
+    approximate: true
+    original_notation: 专任教师1000余人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 173.333333
+    availability: found
     search_sources: []
+    source: https://gmu.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 学校占地总面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：学校占地总面积2600余亩；截至2025
+    source_as_of: '2025'
+    date_basis: 截至2025
+    approximate: true
+    original_notation: 学校占地总面积2600余亩
 academics:
   double_first_class_disciplines:
     value: null
@@ -365,12 +390,17 @@ academics:
     availability: unresearched
     search_sources: []
   degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 硕士学位授权一级学科：4个；统计时间2025
+    - 硕士专业学位授权点：7个；统计时间2025
+    availability: found
     search_sources: []
+    source: https://gmu.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
   subject_assessments: []
 employment:
   summary:

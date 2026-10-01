@@ -67,7 +67,9 @@ def foreign_article(title, name):
 
 def domain(url):
     host = urllib.parse.urlparse(url).hostname or ""
-    return ".".join(host.split(".")[-3 if host.endswith((".edu.cn", ".ac.cn")) else -2:])
+    # Chinese second-level registration suffixes are not school domains.
+    suffixes=(".edu.cn", ".ac.cn", ".com.cn", ".org.cn", ".net.cn", ".gov.cn")
+    return ".".join(host.split(".")[-3 if host.endswith(suffixes) else -2:])
 
 
 def same_school(url, home):

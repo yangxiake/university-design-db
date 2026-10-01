@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Hubei Institute of Fine Arts | official_or_curated | 2026-10-01 | [来源](https://www.hifa.edu.cn/xxgk/xxzc.htm) |
 | 官网 | https://www.hifa.edu.cn | official_or_curated | 2026-09-30 | [来源](https://www.hifa.edu.cn) |
 | 创办年份 | 1920 | official_or_curated | 2026-10-01 | [来源](https://www.hifa.edu.cn/xxgk/xxjj.htm) |
@@ -25,6 +25,12 @@
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 公开办公或招生电话 | 电话: 027-81317011 | official_website | 2026-10-01 | [来源](https://www.hifa.edu.cn) |
 | 公开办公或招生电话口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.lumei.edu.cn | official_or_curated | 2026-09-30 | [来源](https://www.lumei.edu.cn) |
 | 创办年份 | 1938 | official_or_curated | 2026-10-01 | [来源](https://www.lumei.edu.cn/xygk/lmjj.htm) |
 | 创办年份口径 | 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份 | | | |
@@ -16,6 +16,12 @@
 | 邮政编码口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 招生入口 | https://www.lumei.edu.cn/zsjy/bkszs.htm | official_website | 2026-10-01 | [来源](https://www.lumei.edu.cn) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -41,6 +47,7 @@
 
 ## 可追溯社区快照
 
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

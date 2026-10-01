@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.hipolice.edu.cn | official_or_curated | 2026-09-30 | [来源](https://www.hipolice.edu.cn) |
 | 校训 | 忠清为正、文武以成 | official_or_curated | 2026-10-01 | [来源](https://www.hipolice.edu.cn/xygk/xyjj.htm) |
 | 通讯地址，不能代替全部校区地址 | 海南省海口市秀英区定海大道1号 | official_website | 2026-10-01 | [来源](https://www.hipolice.edu.cn) |
@@ -16,6 +16,12 @@
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://www.hipolice.edu.cn/xxgk.htm | official_website | 2026-10-01 | [来源](https://www.hipolice.edu.cn) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

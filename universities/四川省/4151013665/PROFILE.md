@@ -6,17 +6,24 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.cduestc.cn/ | official_or_curated | 2026-10-01 | [来源](https://www.cduestc.cn/) |
 | 创办年份 | 2001 | official_or_curated | 2026-10-01 | [来源](https://www.cduestc.cn/cduestc/init_1040100/list-introduction) |
 | 创办年份口径 | 官网overview页直接记载学校创建年份；未将更名年份或院系年份当作建校年 | | | |
 | 公办、民办等办学性质，不从空备注推断 | 民办 | official_registry | 2026-10-01 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
 | 公办、民办等办学性质，不从空备注推断口径 | 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。 | | | |
+| 公办、民办等办学性质，不从空备注推断资料时间 | 2026-06-17 | | | |
 | 招生入口 | https://www.cduestc.cn/cduestc/init_1040100/list-enrollment-job | official_website | 2026-10-01 | [来源](https://www.cduestc.cn/) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 英文网站入口 | https://en.cduestc.cn/ | official_website | 2026-10-01 | [来源](https://www.cduestc.cn/) |
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -42,6 +49,7 @@
 
 ## 可追溯社区快照
 
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

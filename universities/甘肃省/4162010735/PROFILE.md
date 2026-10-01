@@ -6,12 +6,19 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.gszy.edu.cn/reception | official_or_curated | 2026-10-01 | [来源](https://www.gszy.edu.cn/reception) |
 | 就业入口 | http://jyzd.gszy.edu.cn/Website/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
 | 公开办公或招生电话 | 电话: 0931-5162887；电话: 0931-5161002 | official_website | 2026-10-01 | [来源](https://www.gszy.edu.cn/reception) |
 | 公开办公或招生电话口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

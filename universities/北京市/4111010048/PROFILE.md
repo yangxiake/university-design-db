@@ -6,21 +6,34 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | The Central Academy of Drama | official_or_curated | 2026-10-01 | [来源](https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201605/t20160518_245121.html) |
 | 官网 | https://www.chntheatre.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.chntheatre.edu.cn/cn/survey.html) |
 | 创办年份 | 1950 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
 | 创办年份口径 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | | |
+| 创办年份资料时间 | 2026-06-09 | | | |
 | 校训 | 求真、创造、至美 | official_or_curated | 2026-09-30 | [来源](https://chntheatre.edu.cn/uploads/allimg/2023/04/06/1680742732201363.pdf) |
 | 中文简称 | 中戏 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | CAD | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 综合、理工、师范等院校类型 | 艺术 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
+| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
 | 院校群与历史项目标签，非排名 | ["双一流"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
+| 院校群与历史项目标签，非排名资料时间 | 2026-06-09 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 39.931, "location_kind": "community_map_point", "longitude": 116.395, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 双一流建设学科，注明名单年份及是否节选 | ["戏剧与影视学"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra.js) |
 | 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
+| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -50,6 +63,7 @@
 
 - [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
 - [HeyHuazi/SVGLOGO](../../../data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl)：`142498f527ac`；资料年份/版本 2026-08-27，保留原字段及许可。
+- [realJerryKing/university-insight](../../../data/external/realJerryKing__university-insight/matched-fields.jsonl)：`ea2eb0a4a83d`；资料年份/版本 2026-06-09，保留原字段及许可。
 
 ## 尚未确认的信息
 

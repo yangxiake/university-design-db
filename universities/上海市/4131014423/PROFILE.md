@@ -6,28 +6,43 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | ShanghaiTech University | official_or_curated | 2026-10-01 | [来源](https://www.shanghaitech.edu.cn/1054/main.htm) |
 | 官网 | https://www.shanghaitech.edu.cn | official_or_curated | 2026-09-30 | [来源](https://www.shanghaitech.edu.cn) |
 | 创办年份 | 2013 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 创办年份口径 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | | |
+| 创办年份资料时间 | 2026-06-09 | | | |
 | 中文简称 | 上科大 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | SHTECH | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
+| 英文简称资料时间 | 2026-06-09 | | | |
 | 社区检索标识，不能当作正式校名 | ["shanghaitech-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 院校群与历史项目标签，非排名 | ["双一流"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 院校群与历史项目标签，非排名资料时间 | 2026 | | | |
 | 通讯地址，不能代替全部校区地址 | 上海市浦东新区华夏中路393号 | official_website | 2026-10-01 | [来源](https://www.shanghaitech.edu.cn/1003/list.htm) |
 | 通讯地址，不能代替全部校区地址口径 | 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 31.182, "location_kind": "community_map_point", "longitude": 121.591, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
+| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
 | 双一流建设学科，注明名单年份及是否节选 | ["物理、生命、信息、材料等前沿小而精"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js) |
 | 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
+| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
 | 英文网站入口 | http://www.shanghaitech.edu.cn/eng/ | official_website | 2026-10-01 | [来源](https://www.shanghaitech.edu.cn) |
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://openinfo.shanghaitech.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.shanghaitech.edu.cn) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -61,6 +76,8 @@
 - [damitheswitch/china-universities-dataset](../../../data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl)：`5eaa2a93f86a`；资料年份/版本 2026，保留原字段及许可。
 - [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
 - [HeyHuazi/SVGLOGO](../../../data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl)：`142498f527ac`；资料年份/版本 2026-08-27，保留原字段及许可。
+- [realJerryKing/university-insight](../../../data/external/realJerryKing__university-insight/matched-fields.jsonl)：`ea2eb0a4a83d`；资料年份/版本 2026-06-09，保留原字段及许可。
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

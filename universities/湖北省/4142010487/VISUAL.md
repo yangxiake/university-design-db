@@ -14,6 +14,7 @@
 | 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/png/logo_blue_800x800.png) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/png/logo_blue_800x800.png) | png | 800 × 800 | content_inspected | 未独立声明 |
 | 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/svg/logo_blue.svg) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/svg/logo_blue.svg) | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.hust.edu.cn:443/images/logo20240628.png) · [来源](https://www.hust.edu.cn:443/) | png | 400 × 94 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/华中科技大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 236 × 236 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -31,6 +32,9 @@
 |  | `#004274` | 0,66,116 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/svg/logo_blue.svg) |
 |  | `#01559D` | 1,85,157 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/png/logo_blue.svg) |
 |  | `#F31801` | 243,24,1 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/png/logo_blue.svg) |
+|  | `#005098` | 0,80,152 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#003870` | 0,56,112 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#004078` | 0,64,120 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

@@ -1,6 +1,25 @@
 schema_version: 1
+supplemental_repositories:
+- repository: realJerryKing/university-insight
+  commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
+  license: MIT
+  field_mode: insight_snapshot
+  data_as_of: '2026-06-09'
+  dataset: data/universities.json
+  aliases: skills/高校信息检索/references/aliases.json
+  notes: 完整匹配子集保留科研/生源/师资/就业原字段及年份与估算说明；社区检索别名可用于检索。未将笼统就业率、估算院士人数写入官方统计。
+- repository: Hipo/university-domains-list
+  commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
+  license: MIT
+  license_file: LICENSE.txt
+  field_mode: domain_snapshot
+  data_as_of: '2026-09-26'
+  dataset: world_universities_and_domains.json
+  notes: 中国399条中以已确认官网完整主机名或现有英文全名唯一匹配；保存历史英文名称/域名/国家与网址快照，不以域名关系推断更名或独立学院归属。
 repositories:
 - repository: xioajiumi/Chinese_Universities
+  logo_archive: logo.zip
+  logo_archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
   field_mode: basic_2021
   commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
   license: MIT

@@ -347,12 +347,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 广州应用科技学院位于广东省广州市，主管部门为广东省教育厅。官网列示本科生32655人（统计日期未注明）。官网列示专任教师1611.5人（统计时间2026-07）。官网列示占地面积1120亩（统计时间2026-04）。
+    availability: found
     search_sources: []
+    source: https://www.gzasc.edu.cn/gywm/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -362,26 +366,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 32655
+    availability: found
     search_sources: []
+    source: https://www.gzasc.edu.cn/gywm/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 本科生；原标注：本科生32655人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 本科生32655人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1611.5
+    availability: found
     search_sources: []
+    source: https://www.gzasc.edu.cn/gywm/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师1611.5人；截至2026年7月
+    source_as_of: 2026-07
+    date_basis: 截至2026年7月
+    approximate: false
+    original_notation: 专任教师1611.5人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 74.666667
+    availability: found
     search_sources: []
+    source: https://www.gzasc.edu.cn/gywm/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积1120亩；截至2026年4月
+    source_as_of: 2026-04
+    date_basis: 截至2026年4月
+    approximate: false
+    original_notation: 占地面积1120亩
 academics:
   double_first_class_disciplines:
     value: null

@@ -8,6 +8,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 校徽 | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E8%A5%BF%E5%8C%97%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6%20NWUPL.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E8%A5%BF%E5%8C%97%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6%20NWUPL.svg) | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.nwupl.edu.cn/images/logo.png) · [来源](https://www.nwupl.edu.cn/) | png | 566 × 63 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/西北政法大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 268 × 266 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -16,6 +17,9 @@
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | `#952324` | 149,35,36 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E8%A5%BF%E5%8C%97%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6%20NWUPL.svg) |
+|  | `#982020` | 152,32,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#981818` | 152,24,24 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#981820` | 152,24,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

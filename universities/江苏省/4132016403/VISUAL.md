@@ -7,6 +7,7 @@
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | [文件](https://www.xjtlu.edu.cn/wp-content/uploads/2024/01/cn-header-logo.svg) · [来源](https://www.xjtlu.edu.cn/) | svg | 201.0 × 28.0 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/西交利物浦大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 236 × 236 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -16,6 +17,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | `#CE57C1` | 206,87,193 | secondary |  |  | 官方VI标准值 | [依据](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity) |
 |  | `#010544` | 1,5,68 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.xjtlu.edu.cn/wp-content/uploads/2024/01/cn-header-logo.svg) |
+|  | `#000040` | 0,0,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#281058` | 40,16,88 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#381860` | 56,24,96 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 主色来源存在差异：官网同页的 RGB 0,0,66 与 HEX #010544 不一致，待校方确认数字设计用色
 - `#000042`：[来源](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity)；官网 RGB 0,0,66 换算为 HEX

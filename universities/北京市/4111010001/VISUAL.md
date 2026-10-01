@@ -12,6 +12,7 @@
 | 校名文字 | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/PKU_wordmark.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/PKU_wordmark.svg) | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.pku.edu.cn/Uploads/Picture/2019/12/26/s5e04147ee4a83.png) · [来源](https://www.pku.edu.cn) | png | 852 × 240 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.pku.edu.cn/Uploads/Picture/2019/12/08/s5decd8b95f388.png) · [来源](https://www.pku.edu.cn) | png | 201 × 58 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/北京大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 472 × 472 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -24,6 +25,9 @@
 |  | `#7E181C` | 126,24,28 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/PKU.svg) |
 |  | `#980000` | 152,0,0 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.pku.edu.cn/Uploads/Picture/2019/12/08/s5decd8b95f388.png) |
 |  | `#A00000` | 160,0,0 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.pku.edu.cn/Uploads/Picture/2019/12/08/s5decd8b95f388.png) |
+|  | `#B00000` | 176,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#B80000` | 184,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#C00000` | 192,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 主色来源存在差异：同一官方常见问题页的 RGB 139,0,18 与十六进制 94070A 不一致，待人工确认标准色。
 - `#8B0012`：[来源](https://vim.pku.edu.cn/cjwt/index.htm)；

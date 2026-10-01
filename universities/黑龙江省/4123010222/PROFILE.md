@@ -6,16 +6,20 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Jiamusi University | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 英文名称资料时间 | 2021 | | | |
 | 官网 | https://www.jmsu.edu.cn/ | official_or_curated | 2026-10-01 | [来源](https://www.jmsu.edu.cn/) |
 | 创办年份 | 1947 | official_or_curated | 2026-10-01 | [来源](https://www.jmsu.edu.cn/xxgk2/xxjj.htm) |
 | 创办年份口径 | 官网overview页直接记载学校始建年份；未将更名年份或院系年份当作建校年 | | | |
 | 校训 | 明德砺学，崇尚实践 | official_or_curated | 2026-10-01 | [来源](https://www.jmsu.edu.cn/xxgk2/xxjj.htm) |
 | 社区检索标识，不能当作正式校名 | ["jiamusi-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
 | 邮政编码 | 154007 | official_website | 2026-10-01 | [来源](https://www.jmsu.edu.cn/) |
 | 邮政编码口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 招生入口 | https://zs.jmsu.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.jmsu.edu.cn/) |
@@ -24,6 +28,12 @@
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://xxgk.jmsu.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.jmsu.edu.cn/) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

@@ -339,12 +339,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 牡丹江医科大学位于黑龙江省牡丹江市，主管部门为黑龙江省。官网列示全日制本科生13000余人（统计日期未注明）。官网列示校园占地面积70万余平方米（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.mdjmu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -354,12 +358,19 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 13000
+    availability: found
     search_sources: []
+    source: https://www.mdjmu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制本科生；近似/下界数，保留原标注：全日制本科生13000余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 全日制本科生13000余人
   faculty_count:
     value: null
     source: null
@@ -368,12 +379,19 @@ statistics:
     availability: unresearched
     search_sources: []
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 70.0
+    availability: found
     search_sources: []
+    source: https://www.mdjmu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 校园占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：校园占地面积70万余平方米；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 校园占地面积70万余平方米
 academics:
   double_first_class_disciplines:
     value: null
@@ -383,12 +401,16 @@ academics:
     availability: unresearched
     search_sources: []
   degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 硕士专业学位授权点：5个；统计时间undated
+    availability: found
     search_sources: []
+    source: https://www.mdjmu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
   subject_assessments: []
 employment:
   summary:

@@ -6,13 +6,19 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Chongqing Polytechnic University of Electronic Technology | official_or_curated | 2026-10-01 | [来源](https://www.cquet.edu.cn/) |
 | 官网 | https://www.cquet.edu.cn/ | official_or_curated | 2026-10-01 | [来源](https://www.cquet.edu.cn/) |
 | 创办年份 | 1965 | official_or_curated | 2026-10-01 | [来源](https://www.cquet.edu.cn/xxgk/xxjj.htm) |
 | 创办年份口径 | 官网overview页直接记载学校创建年份；未将更名年份或院系年份当作建校年 | | | |
 | 校训 | 格物启智、明德崇信 | official_or_curated | 2026-10-01 | [来源](https://www.cquet.edu.cn/xxgk/xxzc.htm) |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

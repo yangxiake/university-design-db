@@ -475,12 +475,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 上海戏剧学院位于上海市，主管部门为上海市。官网列示本科生2420人（统计时间2025-10）。官网列示教职工701人（统计时间2025-10）。
+    availability: found
     search_sources: []
+    source: https://www.sta.edu.cn/1534/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -490,19 +494,33 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2420
+    availability: found
     search_sources: []
+    source: https://www.sta.edu.cn/1534/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 本科生；原标注：本科生2420人；截至2025年10月
+    source_as_of: 2025-10
+    date_basis: 截至2025年10月
+    approximate: false
+    original_notation: 本科生2420人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 701
+    availability: found
     search_sources: []
+    source: https://www.sta.edu.cn/1534/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；原标注：教职工701人；截至2025年10月
+    source_as_of: 2025-10
+    date_basis: 截至2025年10月
+    approximate: false
+    original_notation: 教职工701人
   campus_area_hectares:
     value: null
     source: null
@@ -530,12 +548,19 @@ academics:
     completeness: upstream_selection
     basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
   degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value:
+    - 一级学科博士学位授权点：1个；统计时间2025-10
+    - 专业博士学位授权点：3个；统计时间2025-10
+    - 一级学科硕士学位授权点：2个；统计时间2025-10
+    - 专业硕士学位授权点：5个；统计时间2025-10
+    availability: found
     search_sources: []
+    source: https://www.sta.edu.cn/1534/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
   subject_assessments:
   - subject: 戏剧与影视学
     grade: A

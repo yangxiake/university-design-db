@@ -6,13 +6,20 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Beijing Film Academy | official_or_curated | 2026-10-01 | [来源](https://eng.bfa.edu.cn/index.htm) |
 | 创办年份 | 1950 | official_or_curated | 2026-10-01 | [来源](https://www.bfa.edu.cn/__local/0/6F/FE/0B3D7F71085FD5ADCF9F7B75AF2_D31EF70C_1B7A87.pdf) |
 | 创办年份口径 | 学校年度质量报告所述创立年 | | | |
 | 校训 | 尊师重道、薪火相传 | official_or_curated | 2026-10-01 | [来源](https://www.bfa.edu.cn/__local/0/6F/FE/0B3D7F71085FD5ADCF9F7B75AF2_D31EF70C_1B7A87.pdf) |
 | 英文简称 | BFA | community_directory | 2026-10-01 | [来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md) |
+| 英文简称资料时间 | 2024-11-15 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

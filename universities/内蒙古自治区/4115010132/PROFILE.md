@@ -6,11 +6,17 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 创办年份 | 1956 | official_or_curated | 2026-10-01 | [来源](https://yz.chsi.com.cn/sch/schoolInfo--schId-368002%2CcategoryId-467617.dhtml) |
 | 创办年份口径 | 前身内蒙古医学院成立年 | | | |
 | 校训 | 博学、尚行、精诚、至善 | official_or_curated | 2026-10-01 | [来源](https://yz.chsi.com.cn/sch/schoolInfo--schId-368002%2CcategoryId-467617.dhtml) |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

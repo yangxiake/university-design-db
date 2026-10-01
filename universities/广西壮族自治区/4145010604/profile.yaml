@@ -148,7 +148,94 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
-  color_palette: []
+  - asset_id: 1e01d17a009dffec
+    title: 广西民族师范学院校徽资源
+    kind: badge
+    url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    file_name: 广西民族师范学院.png
+    upstream_path: logo.zip!/img2/广西民族师范学院.png
+    publisher: xioajiumi
+    official: false
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    repository_license: MIT
+    asset_license: null
+    rights_holder: 广西民族师范学院
+    format: jpeg
+    width: 200
+    height: 200
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: bab6c2f8541d7482cd488969042a7ef7b1e64a27fa9787e08cf4a4c680258cbc
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 来自固定版本logo.zip中的独立PNG文件；须下载压缩包并按archive_member选择文件，URL不是PNG直链。历史社区校徽，不认定为现行VI，图形授权归学校。
+    download_kind: archive_member
+    archive_url: https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    archive_member: img2/广西民族师范学院.png
+    archive_sha256: 53c17d411407a72ee7e3094cbc8e5238fbf8d376e5415e78ff2c5ad2c55bb549
+    source_as_of: unspecified
+    byte_size: 31818
+    representation: raster
+  color_palette:
+  - value: '#882020'
+    rgb:
+    - 136
+    - 32
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 1e01d17a009dffec
+  - value: '#882828'
+    rgb:
+    - 136
+    - 40
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 1e01d17a009dffec
+  - value: '#D0B0B0'
+    rgb:
+    - 208
+    - 176
+    - 176
+    cmyk: null
+    pantone: null
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。
+    repository: xioajiumi/Chinese_Universities
+    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    asset_id: 1e01d17a009dffec
   vi_resources: []
 culture:
   founded_year:
@@ -325,12 +412,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 广西民族师范学院位于广西壮族自治区崇左市，主管部门为广西壮族自治区。官网列示全日制在校生21305人（统计时间2026-05）。官网列示教职工1210人（统计时间2026-05）。官网列示学校占地总面积1141.33亩（统计时间2026-05）。
+    availability: found
     search_sources: []
+    source: https://www.gxnun.edu.cn/xxgk/xxjs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -340,26 +431,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 21305
+    availability: found
     search_sources: []
+    source: https://www.gxnun.edu.cn/xxgk/xxjs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校生；原标注：全日制在校生21305人；截至2026年5月
+    source_as_of: 2026-05
+    date_basis: 截至2026年5月
+    approximate: false
+    original_notation: 全日制在校生21305人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1210
+    availability: found
     search_sources: []
+    source: https://www.gxnun.edu.cn/xxgk/xxjs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；原标注：教职工1210人；截至2026年5月
+    source_as_of: 2026-05
+    date_basis: 截至2026年5月
+    approximate: false
+    original_notation: 教职工1210人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 76.088667
+    availability: found
     search_sources: []
+    source: https://www.gxnun.edu.cn/xxgk/xxjs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 学校占地总面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：学校占地总面积1141.33亩；截至2026年5月
+    source_as_of: 2026-05
+    date_basis: 截至2026年5月
+    approximate: false
+    original_notation: 学校占地总面积1141.33亩
 academics:
   double_first_class_disciplines:
     value: null

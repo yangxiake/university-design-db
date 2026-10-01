@@ -314,12 +314,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 上海视觉艺术学院位于上海市，主管部门为上海市教委。官网列示全日制本科生5000余名（统计日期未注明）。官网列示教职工近500人（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: https://www.siva.edu.cn/22/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -329,19 +333,33 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 5000
+    availability: found
     search_sources: []
+    source: https://www.siva.edu.cn/22/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制本科生；近似/下界数，保留原标注：全日制本科生5000余名；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 全日制本科生5000余名
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 500
+    availability: found
     search_sources: []
+    source: https://www.siva.edu.cn/22/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 教职工；近似/下界数，保留原标注：教职工近500人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 教职工近500人
   campus_area_hectares:
     value: null
     source: null

@@ -8,6 +8,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 校徽 | [文件](https://www.shanghairanking.cn/_uni/logo-jpg/7258167900.jpg) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | jpg | 未声明 | indexed_not_fetched | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.sdaeu.edu.cn/images/logo.png) · [来源](https://www.sdaeu.edu.cn/) | png | 326 × 68 | content_inspected | 未独立声明 |
+| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/山东农业工程学院.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 230 × 229 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -18,6 +19,9 @@
 |  | `#1A8D3F` | 26,141,63 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.sdaeu.edu.cn/images/logo.png) |
 |  | `#187838` | 24,120,56 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sdaeu.edu.cn/images/logo.png) |
 |  | `#107838` | 16,120,56 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sdaeu.edu.cn/images/logo.png) |
+|  | `#187840` | 24,120,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#187838` | 24,120,56 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#188038` | 24,128,56 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 

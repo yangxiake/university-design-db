@@ -20,9 +20,12 @@ v3在原有学校身份、文化与官方资源字段上新增27个事实字段�
 - [调色板索引](indexes/color-palettes.csv)：HEX、RGB、用途与取值方法；官方标准、社区主题、取色建议分别标明。没有依据的CMYK/Pantone保持空值。
 - [色值冲突索引](indexes/color-conflicts.csv)：主色与辅色/并列色的各来源候选、差异原因，保留RGB和HEX不一致等问题。
 - [扩展目录](indexes/enriched-catalog.csv)、[新增事实](indexes/extended-facts.csv)、[排名历史](indexes/rankings.csv)、[学科评估](indexes/subject-assessments.csv)、[录取参考](indexes/admission-cutoffs.csv)。
+- [校区索引](indexes/campuses.csv)与[官网简介及开源补采报告](docs/overview-enrichment-progress-2026.md)：短摘要、人数、面积与授权点；看统计日期、近似标注及总数/子群口径。
 - [AI用JSONL全集](indexes/profiles.jsonl)：从1412份档案生成，每行一校；可用`school_code`稳定关联各索引。
 
 校徽图形只保存逐文件链接和内容元数据。社区仓库的代码/数据许可与学校标识的图形授权分别记录；文件可访问、格式已检查、图形为学校现行版本是不同状态。记录中的历史排名和招生参考值不自动成为现行官方结论。
+
+`download_kind=archive_member` 表示校徽位于上游压缩包，需按 `archive_url` 和 `archive_member` 读取，主URL不是PNG直链。统计 `source_as_of=undated` 表示原文未注明统计日期；`checked_at` 是采集日期。约数保留 `approximate` 与 `original_notation`，使用人数或面积时读取 `basis`。
 
 ## 分类和层级
 
@@ -58,6 +61,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/build_indexes.py
 .venv/bin/python scripts/validate/report_field_union.py
 .venv/bin/python scripts/validate/report_official_extensions.py
+.venv/bin/python scripts/validate/report_overview_progress.py
 .venv/bin/python scripts/validate/report_coverage.py
 .venv/bin/python scripts/validate/report_research.py
 .venv/bin/python scripts/validate/build_review_queue.py
@@ -77,6 +81,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/collect_wikidata_candidates.py
 .venv/bin/python scripts/ingest/import_public_repositories.py
 .venv/bin/python scripts/ingest/expand_repository_fields.py
+.venv/bin/python scripts/ingest/import_additional_public_data.py
 .venv/bin/python scripts/validate/build_review_queue.py
 .venv/bin/python scripts/ingest/discover_official_pages.py --priority 2 --resume
 .venv/bin/python scripts/ingest/import_confirmed_homepages.py
@@ -86,6 +91,8 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/import_scope_extensions.py
 .venv/bin/python scripts/ingest/collect_official_extensions.py --resume
 .venv/bin/python scripts/ingest/import_visual_refresh.py
+.venv/bin/python scripts/ingest/collect_official_overviews.py --resume
+.venv/bin/python scripts/ingest/import_overview_supplements.py
 .venv/bin/python scripts/ingest/sync_source_candidates.py
 ```
 
@@ -96,6 +103,8 @@ python3 -m venv .venv
 `collect_official_extensions.py`补采已确认官网的地址、邮编、公开办公/招生联系方式、门户入口和页眉标识链接；原始网页/图片不入库。`--resume`继续未完成学校，`--retry-gaps`重试首页访问失败的学校，`--import-only`从已有台账重建导入。官网标识取色只进入参考调色板，保留已有官方主色结论。
 
 失败的官网标识文件可用`collect_official_extensions.py --retry-asset-errors`单独重试原链接及同路径另一协议；尺寸不符合标识要求的图片进入排除记录。联系与门户进度见[官网扩展报告](docs/official-extension-progress-2026.md)。
+
+`collect_official_overviews.py --retry-missing`从已有台账缺项出发尝试不同简介入口和官网导航；`--collect-only`先保存证据台账，`--reparse-cache --import-only`用忽略目录中的HTML重新解析并导入，原文不发布。最后运行`import_overview_supplements.py`按固定证据规则核对统计卡片；页面内容变化导致证据不匹配时停止该导入。
 
 ## 来源与许可
 

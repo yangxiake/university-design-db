@@ -40,11 +40,22 @@ MAPS={
  'logo_tree':{'english_directory':'唯一英文全名匹配','logo_file':'visual.logo_assets[].url/upstream_path',
   'color_variant':'visual.logo_assets[].variant（原文件标记，不自动生成HEX）',
   'dimensions_in_filename':'visual.logo_assets[].dimensions_in_filename（仅提示；尺寸以内容检查为准）'},
+ 'insight_snapshot':{'层次':'community.snapshots历史标签','城市':'身份表优先；社区快照保留原值',
+  '类型':'community.snapshots院校类型原值','一流学科':'community.snapshots，概括/占位文字不当学科名单',
+  '网址':'community.snapshots网址线索，不覆盖已确认官网','就业概况':'community.snapshots，保留就业率/深造率/行业/雇主/年份，不作官方统计',
+  '科研概况':'community.snapshots，保留经费/实验室/平台/年份，未逐项校方确认',
+  '生源概况':'community.snapshots，保留规模/本科硕士博士/性别比/年份，约数不改为精确统计',
+  '师资概况':'community.snapshots，完整保留估算/兼职/双聘/来源与核实说明','aliases':'identity.aliases社区检索别名，非正式简称'},
+ 'domain_snapshot':{'name':'community.snapshots历史英文名称，不覆盖现行英文名','country':'community.snapshots国家原值',
+  'domains':'community.snapshots域名数组，完整主机名唯一匹配','web_pages':'community.snapshots网址数组',
+  'alpha_two_code':'community.snapshots国家两字母代码','state-province':'community.snapshots省级名称/空值'},
 }
 
 
 def main():
     union=json.loads((ROOT/'data/review/github-field-union-2026.json').read_text())
+    supplemental=ROOT/'data/review/supplemental-repositories-2026.json'
+    if supplemental.exists():union['repositories']+=json.loads(supplemental.read_text())['repositories']
     counts=collections.Counter();field_counts=collections.Counter();methods=collections.Counter();access=collections.Counter()
     for path in (ROOT/'universities').glob('*/*/profile.yaml'):
         p=yaml.safe_load(path.read_text());a=p['visual']['logo_assets'];c=p['visual']['color_palette']
@@ -55,6 +66,8 @@ def main():
                       subject_conflicts=sum(e.get('availability')=='conflict' for e in p['academics']['subject_assessments']),
                       admission_schools=bool(p['admissions']['cutoffs']),admission_entries=len(p['admissions']['cutoffs']),
                       snapshot_schools=bool(p['community']['snapshots']),snapshot_entries=len(p['community']['snapshots']))
+        counts.update(campus_schools=bool(p['location']['campuses']),campus_entries=len(p['location']['campuses']),
+                      archive_logo_entries=sum(item.get('download_kind')=='archive_member' for item in a))
         official_assets=[item for item in a if item.get('source_type')=='official_website']
         counts.update(official_logo_schools=bool(official_assets),official_logo_entries=len(official_assets),
                       site_identity_entries=sum(item.get('kind')=='site_identity' for item in a))
@@ -83,9 +96,11 @@ def main():
             '| 学科评估节选 | %s | %s |'%(counts['subject_schools'],counts['subject_entries']),
             '| 重庆2025录取参考 | %s | %s |'%(counts['admission_schools'],counts['admission_entries']),
             '| 上游字段快照 | %s | %s |'%(counts['snapshot_schools'],counts['snapshot_entries']),
+            '| 官网明确列示校区 | %s | %s |'%(counts['campus_schools'],counts['campus_entries']),
             '', '### 校徽文件检查','','| 状态 | 文件数 |','| --- | ---: |']
     for status,n in sorted(access.items()):lines.append('| %s | %s |'%(status,n))
     lines+=['','只有content_inspected读取了文件内容；历史外部CDN地址仅索引，不等于当前可下载。学校现行版本与图形授权未作人工签核。site_identity有%s条，是具体构成待核验的官网页眉标识，不能计为已确认纯校徽。'%counts['site_identity_entries'],'',
+            '其中%s条为压缩包内文件：download_kind=archive_member，须读取archive_url、archive_member与archive_sha256；主URL不是PNG直链，文件内容哈希和压缩包哈希分别保存。'%counts['archive_logo_entries'],'',
             '### 配色方法','','| 方法 | 颜色记录数 |','| --- | ---: |']
     for method,n in sorted(methods.items()):lines.append('| %s | %s |'%(method,n))
     lines+=['','颜色数包含多源同色、主/辅色和建议色，不等于有官方标准色的学校数量。社区主题与校徽取色不覆盖主色官方结论。','',
@@ -93,7 +108,7 @@ def main():
     for dotted,n in field_counts.items():lines.append('| `%s` | %s |'%(dotted,n))
     lines+=['','## 扩展字段的完整性与口径','','新增27个事实字段与12个结构化集合。地址、校区、邮编、办公联系方式、学生/教职工人数、面积、学位授权、专业录取、招生计划与就业指标已有明确字段，当前无可可靠导入的数据时为空；不从现有字段推断这些数值。','',
             '学科来源内部出现同一学科多个等级时，availability=conflict、grade=null并保留candidates；当前%s条，不自动选择。'%counts['subject_conflicts'],'',
-            '学生/教职工人数、面积须带统计日期和basis；录取与计划须带年份、地区、科类、批次和招生类型；排名须带发布方、榜单、年份和范围。校徽保留文件地址、真实格式、宽高、纯矢量判断、透明信息、哈希、独立图形许可与仓库许可。','',
+            '学生/教职工人数、面积保留统计日期和basis；未标注日期明确为source_as_of=undated，不能把checked_at当作统计日期。近似/下界数保留original_notation和approximate，专任教师/本科生与全校总量的口径分别标明。录取与计划须带年份、地区、科类、批次和招生类型；排名须带发布方、榜单、年份和范围。校徽保留文件地址、真实格式、宽高、纯矢量判断、透明信息、哈希、独立图形许可与仓库许可。','',
             '原始简介、就业评论、主观tier，以及已发现的占位学科文本完整保存在MIT社区快照中；未当作学校官方事实。发现的Pexels照片不加入校徽集合。','',
             '字段定义见[data/profile-schema-v3.yaml](../data/profile-schema-v3.yaml)，导入台账见[data/review/github-field-union-2026.json](../data/review/github-field-union-2026.json)。','',
             'AI批量读取用indexes/profiles.jsonl；逐项筛选用logo-assets.csv、color-palettes.csv、extended-facts.csv、rankings.csv、subject-assessments.csv和admission-cutoffs.csv。','']

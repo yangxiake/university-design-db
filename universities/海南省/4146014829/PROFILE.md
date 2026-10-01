@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 官网 | https://www.hainan-biuh.edu.cn/ | official_or_curated | 2026-10-01 | [来源](https://www.hainan-biuh.edu.cn/) |
 | 招生入口 | https://www.hainan-biuh.edu.cn/admissions/ | official_website | 2026-10-01 | [来源](https://www.hainan-biuh.edu.cn/) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
@@ -15,6 +15,12 @@
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://www.hainan-biuh.edu.cn/%e4%bf%a1%e6%81%af%e5%85%ac%e5%bc%80/ | official_website | 2026-10-01 | [来源](https://www.hainan-biuh.edu.cn/) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 

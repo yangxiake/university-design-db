@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Anhui University of Chinese Medicine | official_or_curated | 2026-10-01 | [来源](https://www.ahtcm.edu.cn/xxgk/xxzc.htm) |
 | 官网 | https://www.ahtcm.edu.cn | official_or_curated | 2026-09-30 | [来源](https://www.ahtcm.edu.cn) |
 | 创办年份 | 1952 | official_or_curated | 2026-10-01 | [来源](https://www.ahtcm.edu.cn/xxgk/xxjj.htm) |
@@ -15,10 +15,17 @@
 | 校训 | 至精至诚 惟是惟新 | official_or_curated | 2026-10-01 | [来源](https://www.ahtcm.edu.cn/xxgk/xxzc.htm) |
 | 校歌 | 《青春在飞扬》 | official_or_curated | 2026-10-01 | [来源](https://www.ahtcm.edu.cn/xxgk/xxzc.htm) |
 | 就业入口 | http://jyxxw.ahtcm.edu.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
 | 英文网站入口 | https://gjjl.ahtcm.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.ahtcm.edu.cn) |
 | 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 信息公开入口 | https://xxgk.ahtcm.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.ahtcm.edu.cn) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -44,6 +51,7 @@
 
 ## 可追溯社区快照
 
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

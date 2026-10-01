@@ -6,8 +6,8 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Anhui University of Finance & Economics | official_or_curated | 2026-10-01 | [来源](https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf) |
 | 官网 | https://www.aufe.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.aufe.edu.cn/) |
 | 创办年份 | 1959 | official_or_curated | 2026-10-01 | [来源](https://www.aufe.edu.cn/8427/list.htm) |
@@ -19,8 +19,15 @@
 | 招生入口 | http://zsjy.aufe.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.aufe.edu.cn/) |
 | 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 就业入口 | http://aufe.ahbys.com/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 就业入口资料时间 | 2019-10-21 | | | |
 | 信息公开入口 | https://xxgk2019.aufe.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.aufe.edu.cn/) |
 | 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
@@ -46,6 +53,7 @@
 
 ## 可追溯社区快照
 
+- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
 
 ## 尚未确认的信息
 

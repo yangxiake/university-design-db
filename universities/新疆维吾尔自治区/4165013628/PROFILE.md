@@ -6,15 +6,25 @@
 
 ## 有来源的信息
 
-| 字段 | 值 | 来源类型 | 日期 | 来源 |
-| --- | --- | --- | --- | --- | --- |
+| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
+| --- | --- | --- | --- | --- |
 | 英文名称 | Xinjiang University of Political Science And Law | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 英文名称资料时间 | 2026 | | | |
 | 创办年份 | 2021 | official_or_curated | 2026-10-01 | [来源](https://gaokao.chsi.com.cn/sch/schoolInfo--schId-1871%2CcategoryId-45548%2Cmindex-1.dhtml) |
 | 创办年份口径 | 现学院转设年；整合前身资源另见校史 | | | |
 | 校训 | 明德尚法、兴疆固边 | official_or_curated | 2026-10-01 | [来源](https://gaokao.chsi.com.cn/sch/schoolInfo--schId-1871%2CcategoryId-45548%2Cmindex-1.dhtml) |
 | 社区检索标识，不能当作正式校名 | ["college-of-science-technology-shihezi-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
 | 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 所在国家或地区资料时间 | 2026 | | | |
+
+## 官网列示校区
+
+| 校区 | 地址 | 来源 |
+| --- | --- | --- |
+| 尚未取得明确校区列表 | | |
 
 ## 视觉资料
 
