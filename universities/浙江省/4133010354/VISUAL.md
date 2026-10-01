@@ -17,10 +17,16 @@
 
 尚无附来源配色。
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.zjxu.edu.cn/xqzl/xxbs.htm](https://www.zjxu.edu.cn/xqzl/xxbs.htm)
+- [学校标识](https://www.zjxu.edu.cn/xqzl/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjxu.edu.cn/xqzl/xxbs.htm)。
+- [标志的标准图形](http://www.zjxu.edu.cn/School_id/VI-01.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjxu.edu.cn/xqzl/xxbs.htm)。
+- [学校名称中英文标准字体及组合](http://www.zjxu.edu.cn/School_id/VI-02.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjxu.edu.cn/xqzl/xxbs.htm)。
+- [标志和学校名称的中英文组合](http://www.zjxu.edu.cn/School_id/VI-03.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjxu.edu.cn/xqzl/xxbs.htm)。
+- [标志的变体图形](http://www.zjxu.edu.cn/School_id/VI-04.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjxu.edu.cn/xqzl/xxbs.htm)。
+- [视觉识别辅助图形](http://www.zjxu.edu.cn/School_id/VI-05.jpg)：["视觉识别规范/资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjxu.edu.cn/xqzl/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

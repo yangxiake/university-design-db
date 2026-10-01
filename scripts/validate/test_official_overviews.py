@@ -78,5 +78,20 @@ class OverviewExtractionTests(unittest.TestCase):
         self.assertEqual(profile['statistics']['student_count']['value'],30000)
         self.assertIsNone(profile['statistics']['faculty_count']['value'])
 
+    def test_construction_capacity_is_not_actual_student_count_or_area(self):
+        claims,_=self.extract(['学校规划全日制在校生规模18000人。一期工程按照在校生规模5000人建设，占地面积500亩，建筑面积22.9万平方米。'])
+        self.assertFalse(any(c['field'] in {'statistics.student_count','statistics.campus_area_hectares'} for c in claims))
+
+    def test_current_undergraduate_and_vocational_student_total(self):
+        claims,_=self.extract(['学校现有教职工1324人，在校本专科生22000余人，有国家级教学团队1个，现有办学条件不断完善。'])
+        fact=next(c for c in claims if c['field']=='statistics.student_count')
+        self.assertEqual(fact['value'],22000)
+        self.assertTrue(fact['approximate'])
+        self.assertIn('本专科生',fact['basis'])
+
+    def test_talent_plan_does_not_reject_current_faculty_farther_in_text(self):
+        claims,_=self.extract(['学校持续实施人才引进计划，形成高水平师资队伍，教育教学、科学研究和服务地方的各项工作取得成效。现有教职工812人，办学条件完善。'])
+        self.assertEqual(next(c['value'] for c in claims if c['field']=='statistics.faculty_count'),812)
+
 
 if __name__=='__main__':unittest.main()

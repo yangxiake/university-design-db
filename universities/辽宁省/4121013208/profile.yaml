@@ -83,9 +83,10 @@ visual:
     value: https://www.syucu.edu.cn/gk/xxbs.htm
     source: https://www.syucu.edu.cn/gk/xxbs.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -165,7 +166,23 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识-沈阳城市建设学院
+    url: https://www.syucu.edu.cn/gk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.syucu.edu.cn/gk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1f97c6f90ec1d45ea037ef076f4d4ba39270cd5f42519a460ea575552ec3da65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -337,7 +354,7 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: 沈阳城市建设学院位于辽宁省沈阳市，主管部门为辽宁省教育厅。官网列示专任教师591人（统计时间2026-03）。
+    value: 沈阳城市建设学院位于辽宁省沈阳市，主管部门为辽宁省教育厅。官网列示在校本专科生近1.2万人（统计时间2026-03）。官网列示专任教师591人（统计时间2026-03）。
     availability: found
     search_sources: []
     source: https://www.syucu.edu.cn/gk/xxjj.htm
@@ -356,12 +373,19 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 12000
+    availability: found
     search_sources: []
+    source: https://www.syucu.edu.cn/gk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 在校本专科生；近似/下界数，保留原标注：在校本专科生近1.2万人；数据截至2026年3月
+    source_as_of: 2026-03
+    date_basis: 数据截至2026年3月
+    approximate: true
+    original_notation: 在校本专科生近1.2万人
   faculty_count:
     value: 591
     availability: found

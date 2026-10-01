@@ -127,9 +127,10 @@ visual:
     value: https://www.sxu.edu.cn/xxgk/xxbs/index.html
     source: https://www.sxu.edu.cn/xxgk/xxbs/index.html
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 所读校徽释义明确外层列中文校名与英文名称。
     source: https://www.sxu.edu.cn/xxgk/xxbs/index.html
@@ -298,6 +299,44 @@ visual:
     source_as_of: unspecified
     byte_size: 46631
     representation: raster
+  - asset_id: 38b0a85d250ca73277ddf604
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.sxu.edu.cn/images/logo.jpg
+    source: https://www.sxu.edu.cn/xxgk/xxbs/index.html
+    file_name: logo.jpg
+    upstream_path: null
+    publisher: 山西大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山西大学
+    format: jpeg
+    width: 266
+    height: 128
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: 811de35f640532639316d67c1ff51b993768bff3e55ce626c608d2bad4936aad
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo.jpg
+      label: '   '
+      context: 'boder-x  w1200 clearbt  fl   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 19848
+    representation: raster
+    resolved_url: https://www.sxu.edu.cn/images/logo.jpg
+    inspection_attempts:
+    - url: https://www.sxu.edu.cn/images/logo.jpg
+      status: content_inspected
   color_palette:
   - value: '#088F93'
     rgb:
@@ -475,7 +514,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: d0d8a6d575acbb98
-  vi_resources: []
+  - value: '#088890'
+    rgb:
+    - 8
+    - 136
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sxu.edu.cn/images/logo.jpg
+    page_source: https://www.sxu.edu.cn/xxgk/xxbs/index.html
+    asset_id: 38b0a85d250ca73277ddf604
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#008890'
+    rgb:
+    - 0
+    - 136
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sxu.edu.cn/images/logo.jpg
+    page_source: https://www.sxu.edu.cn/xxgk/xxbs/index.html
+    asset_id: 38b0a85d250ca73277ddf604
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 山西大学学校标识
+    url: https://www.sxu.edu.cn/xxgk/xxbs/index.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sxu.edu.cn/xxgk/xxbs/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0695cb6680aabc8af69e6c4f2c37d1a63db3c6e9a25b66ff21255d9ebd44bebb
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1902
@@ -706,28 +795,28 @@ location:
     source: https://www.sxu.edu.cn/xxgk/xxjj/index.html
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 东山校区
     address: null
     coordinates: null
     source: https://www.sxu.edu.cn/xxgk/xxjj/index.html
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 大东关校区
     address: null
     coordinates: null
     source: https://www.sxu.edu.cn/xxgk/xxjj/index.html
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 大同校区
     address: null
     coordinates: null
     source: https://www.sxu.edu.cn/xxgk/xxjj/index.html
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 山西大学位于山西省太原市，主管部门为山西省。官网列示在校学生近2200人（统计日期未注明）。官网列示教职工3342人（统计日期未注明）。官网列示总占地面积3507.69亩（统计日期未注明）。简介列出坞城校区、东山校区、大东关校区、大同校区。

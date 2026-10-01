@@ -114,12 +114,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://officenew.stdu.edu.cn/xzzq/2010-08-26-03-49-30
+    availability: found
     search_sources: []
+    source: https://officenew.stdu.edu.cn/xzzq/2010-08-26-03-49-30
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -224,6 +225,82 @@ visual:
     source_as_of: unspecified
     byte_size: 11990
     representation: raster
+  - asset_id: aa49a80580f1b185b0a9d4ce
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://officenew.stdu.edu.cn/images/logo_m.png
+    source: https://officenew.stdu.edu.cn/xzzq/2010-08-26-03-49-30
+    file_name: logo_m.png
+    upstream_path: null
+    publisher: 石家庄铁道大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 石家庄铁道大学
+    format: png
+    width: 404
+    height: 65
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ce07c2697bbb858ebff19f76268d9490a0de64daf4be3d186ba6d70f36c21eb1
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /images/logo_m.png
+      label: '     logo-img '
+      context: 'row  col-xs-12 col-sm-8 logo  logo-image logo-control   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 15370
+    representation: raster
+    resolved_url: https://officenew.stdu.edu.cn/images/logo_m.png
+    inspection_attempts:
+    - url: https://officenew.stdu.edu.cn/images/logo_m.png
+      status: content_inspected
+  - asset_id: ce58f91d692dd71152961d40
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://officenew.stdu.edu.cn/images/logo_s.png
+    source: https://officenew.stdu.edu.cn/xzzq/2010-08-26-03-49-30
+    file_name: logo_s.png
+    upstream_path: null
+    publisher: 石家庄铁道大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 石家庄铁道大学
+    format: png
+    width: 300
+    height: 48
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 0c133918e705670d833d1b88fe4132201c4de7cd8953e38296792f694a0e73d1
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /images/logo_s.png
+      label: '     logo-img-sm '
+      context: 'row  col-xs-12 col-sm-8 logo  logo-image logo-control   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 12748
+    representation: raster
+    resolved_url: https://officenew.stdu.edu.cn/images/logo_s.png
+    inspection_attempts:
+    - url: https://officenew.stdu.edu.cn/images/logo_s.png
+      status: content_inspected
   color_palette:
   - value: '#1934A6'
     rgb:
@@ -329,7 +406,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 196eea8bcbdb8462
-  vi_resources: []
+  vi_resources:
+  - title: 石家庄铁道大学校标及矢量格式下载
+    url: https://officenew.stdu.edu.cn/xzzq/2010-08-26-03-49-30
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://officenew.stdu.edu.cn/xzzq/2010-08-26-03-49-30
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c34ebe0fc6d936b65a82bd9260698221bf61c55932a4412ad5d925b8d02c58f5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 石家庄铁道大学标志.jpg
+    url: https://officenew.stdu.edu.cn/files/xiaobiao.jpg
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - JPG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://officenew.stdu.edu.cn/xzzq/2010-08-26-03-49-30
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c34ebe0fc6d936b65a82bd9260698221bf61c55932a4412ad5d925b8d02c58f5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1950

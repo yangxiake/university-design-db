@@ -114,12 +114,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xyw.haust.edu.cn/info/1069/3372.htm
+    availability: found
     search_sources: []
+    source: https://xyw.haust.edu.cn/info/1069/3372.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -223,6 +224,82 @@ visual:
     source_as_of: unspecified
     byte_size: 113801
     representation: raster
+  - asset_id: fe57371bcd7dc2dd36146079
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://xyw.haust.edu.cn/images2018/logo.png
+    source: https://xyw.haust.edu.cn/info/1069/3372.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 河南科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河南科技大学
+    format: png
+    width: 409
+    height: 63
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: cd8311b2e84be59061fd58b53f6acae6047f8041e77fe826fa30092c9498049a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images2018/logo.png
+      label: '   '
+      context: 'page-top-logo  logo-box cf  fl logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 14327
+    representation: raster
+    resolved_url: https://xyw.haust.edu.cn/images2018/logo.png
+    inspection_attempts:
+    - url: https://xyw.haust.edu.cn/images2018/logo.png
+      status: content_inspected
+  - asset_id: 864c6889e9b1db1d98d58fd7
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://xyw.haust.edu.cn/images2018/haust.png
+    source: https://xyw.haust.edu.cn/info/1069/3372.htm
+    file_name: haust.png
+    upstream_path: null
+    publisher: 河南科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河南科技大学
+    format: png
+    width: 83
+    height: 31
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: bdd8fb6034a93cf4a7b51c3b6e56ae4d2d66ad2f53b38f177e9bfce21090a17d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images2018/haust.png
+      label: '   '
+      context: 'page-top-logo  logo-box cf  fl haust   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 2465
+    representation: raster
+    resolved_url: https://xyw.haust.edu.cn/images2018/haust.png
+    inspection_attempts:
+    - url: https://xyw.haust.edu.cn/images2018/haust.png
+      status: content_inspected
   color_palette:
   - value: '#574471'
     rgb:
@@ -328,7 +405,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 4a113755bb26127d
-  vi_resources: []
+  vi_resources:
+  - title: 河南科技大学校徽、校名图片-校友会办公室
+    url: https://xyw.haust.edu.cn/info/1069/3372.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xyw.haust.edu.cn/info/1069/3372.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 30364c340a702efc5c6cf8c253893252b4b10551e285ca0ec9b929be64611236
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 河南科技大学校徽、校名图片.rar
+    url: https://xyw.haust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1681181008&wbfileid=6B532B1107C3711407073E482428FD3A
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xyw.haust.edu.cn/info/1069/3372.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 30364c340a702efc5c6cf8c253893252b4b10551e285ca0ec9b929be64611236
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -530,14 +639,14 @@ location:
     source: https://www.haust.edu.cn/about-jj.jsp?urltype=tree.TreeTempUrl&wbtreeid=1053
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 西苑校区
     address: null
     coordinates: null
     source: https://www.haust.edu.cn/about-jj.jsp?urltype=tree.TreeTempUrl&wbtreeid=1053
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 河南科技大学位于河南省洛阳市，主管部门为河南省。官网列示校园占地总面积4100亩（统计日期未注明）。简介列出开元校区、西苑校区。

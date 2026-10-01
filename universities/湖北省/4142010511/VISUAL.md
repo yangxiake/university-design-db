@@ -23,10 +23,13 @@
 |  | `#006878` | 0,104,120 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#007078` | 0,112,120 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#007080` | 0,112,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 华大绿（通知明确的校徽校名标准色） | `#007581` | 0,117,129 | primary |  |  | 官方VI标准值 | [依据](https://jjh.ccnu.edu.cn/article/2499) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://jjh.ccnu.edu.cn/article/2499](https://jjh.ccnu.edu.cn/article/2499)
+- [华中师范大学校徽校名标准色参考通知](https://jjh.ccnu.edu.cn/article/2499)：["校徽参考", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://jjh.ccnu.edu.cn/article/2499)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

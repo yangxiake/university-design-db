@@ -68,24 +68,44 @@ visual:
   color_primary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: conflict
     search_sources: []
+    label: 蓝色（并列标准色）
+    note: PDF第33页蓝色色卡RGB R15 G50 B133对应#0F3285，但图中直接印出HEX#0C3386；两值均保留，不自动纠正手册。
+    candidates:
+    - value: '#0F3285'
+      basis: PDF第33页RGB15/50/133精确换写。
+      source: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
+    - value: '#0C3386'
+      basis: PDF第33页直接印出的HEX。
+      source: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#6880AE'
+    source: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
+    method: official_vi
+    label: 浅蓝色（并列标准色）
+    basis: 校方域名VIS手册PDF第33页A-5-1；AI查看完整两张并列标准色卡。浅蓝RGB104/128/174与HEX#6880AE一致；深蓝RGB15/50/133与HEX#0C3386冲突，主色保留冲突。
+      同手册第35页A-5-3珠山红RGB217/54/67与HEX#D93643一致，保留辅助色用途。
+    cmyk:
+    - 65
+    - 46
+    - 14
+    - 0
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: d6a2ae020f6c69d133dffd8d4cd9836880b80f6682b537923ad318e4feba8ef6
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
+    availability: found
     search_sources: []
+    source: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
+    verified: auto
+    checked_at: '2026-10-02'
   badge_description:
     value: null
     source: null
@@ -130,8 +150,70 @@ visual:
     byte_size: 10905
     representation: raster
     resolved_url: https://www.qdhhc.edu.cn/images/logo.png
-  color_palette: []
-  vi_resources: []
+  color_palette:
+  - value: '#6880AE'
+    rgb:
+    - 104
+    - 128
+    - 174
+    cmyk:
+    - 65
+    - 46
+    - 14
+    - 0
+    pantone: null
+    label: 浅蓝色（并列标准色）
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方域名VIS手册PDF第33页A-5-1；AI查看完整两张并列标准色卡。浅蓝RGB104/128/174与HEX#6880AE一致；深蓝RGB15/50/133与HEX#0C3386冲突，主色保留冲突。
+      同手册第35页A-5-3珠山红RGB217/54/67与HEX#D93643一致，保留辅助色用途。
+    source_sha256: d6a2ae020f6c69d133dffd8d4cd9836880b80f6682b537923ad318e4feba8ef6
+    source_field: visual.color_secondary
+  - value: '#D93643'
+    rgb:
+    - 217
+    - 54
+    - 67
+    cmyk:
+    - 10
+    - 91
+    - 66
+    - 0
+    pantone: null
+    label: 珠山红（辅助色）
+    role: accent
+    method: official_vi
+    official: true
+    source: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方域名VIS手册PDF第33页A-5-1；AI查看完整两张并列标准色卡。浅蓝RGB104/128/174与HEX#6880AE一致；深蓝RGB15/50/133与HEX#0C3386冲突，主色保留冲突。
+      同手册第35页A-5-3珠山红RGB217/54/67与HEX#D93643一致，保留辅助色用途。
+    source_sha256: d6a2ae020f6c69d133dffd8d4cd9836880b80f6682b537923ad318e4feba8ef6
+  vi_resources:
+  - title: 青岛黄海学院官方视觉规范
+    url: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校方域名VIS手册PDF第33页A-5-1；AI查看完整两张并列标准色卡。浅蓝RGB104/128/174与HEX#6880AE一致；深蓝RGB15/50/133与HEX#0C3386冲突，主色保留冲突。
+      同手册第35页A-5-3珠山红RGB217/54/67与HEX#D93643一致，保留辅助色用途。
 culture:
   founded_year:
     value: 1996

@@ -92,9 +92,10 @@ visual:
     value: https://aufevis.aufe.edu.cn/
     source: https://aufevis.aufe.edu.cn/
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -184,6 +185,82 @@ visual:
     source_as_of: unspecified
     byte_size: 18531
     representation: raster
+  - asset_id: c48f386597207886170059ff
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/brand-logo-s-w.png
+    source: https://aufevis.aufe.edu.cn/2022/0403/c12610a180336/page.htm
+    file_name: brand-logo-s-w.png
+    upstream_path: null
+    publisher: 安徽财经大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 安徽财经大学
+    format: png
+    width: 428
+    height: 428
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: e4c51a7069564cbbac2ba2cae150332fe26775f60b8946b89dfb52ed2b7667a4
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/09/c8/2504/template2504/htmlRes/brand-logo-s-w.png
+      label: '   '
+      context: 'wp-info-page    container  site-brand '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 112606
+    representation: raster
+    resolved_url: https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/brand-logo-s-w.png
+    inspection_attempts:
+    - url: https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/brand-logo-s-w.png
+      status: content_inspected
+  - asset_id: 37741b0ca23f96fa31333b53
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/logo-s-w.png
+    source: https://aufevis.aufe.edu.cn/
+    file_name: logo-s-w.png
+    upstream_path: null
+    publisher: 安徽财经大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 安徽财经大学
+    format: png
+    width: 420
+    height: 117
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: db421eca3df5a0d2fc866f5350f1dd03ca9889c590da800dfb1e03b68f50f9b1
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/09/c8/2504/template2504/htmlRes/logo-s-w.png
+      label: '   '
+      context: 'page-wrapper  banner section-hero container  site-brand '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 21375
+    representation: raster
+    resolved_url: https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/logo-s-w.png
+    inspection_attempts:
+    - url: https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/logo-s-w.png
+      status: content_inspected
   color_palette:
   - value: '#25408F'
     rgb:
@@ -271,7 +348,137 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: b9e833ad62df078f
-  vi_resources: []
+  - value: '#183880'
+    rgb:
+    - 24
+    - 56
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/logo-s-w.png
+    page_source: https://aufevis.aufe.edu.cn/
+    asset_id: 37741b0ca23f96fa31333b53
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#C01818'
+    rgb:
+    - 192
+    - 24
+    - 24
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/logo-s-w.png
+    page_source: https://aufevis.aufe.edu.cn/
+    asset_id: 37741b0ca23f96fa31333b53
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 标准色
+    url: https://aufevis.aufe.edu.cn/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://aufevis.aufe.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5840ed6f2071eacaf0c8be33d5da408d458cda838e29dd5177630c752c41bc5d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 安徽财经大学视觉形象识别系统-PDF版本 发布于 2022-04-02
+    url: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://aufevis.aufe.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5840ed6f2071eacaf0c8be33d5da408d458cda838e29dd5177630c752c41bc5d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 安徽财经大学视觉形象识别系统-AI版本 发布于 2022-04-03 （限校内下载,鼠标右键另存）
+    url: http://wzqht.aufe.edu.cn/_upload/article/files/0c/0b/b2739b7a487bb10b90d30dbb1063/VIS.rar
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://aufevis.aufe.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5840ed6f2071eacaf0c8be33d5da408d458cda838e29dd5177630c752c41bc5d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 安徽财经大学视觉形象识别系统-JPG版本 发布于 2022-04-03
+    url: https://aufevis.aufe.edu.cn/_upload/article/files/b6/39/1e72294d44e88232e66e491ba985/1d06c630-a7a5-4984-9e67-74f079ef957e.rar
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://aufevis.aufe.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5840ed6f2071eacaf0c8be33d5da408d458cda838e29dd5177630c752c41bc5d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标准色
+    url: https://aufevis.aufe.edu.cn/2022/0402/c12608a180320/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://aufevis.aufe.edu.cn/2022/0402/c12608a180320/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 571ec9a0e77bed8c5678e9c0d32037ab671bdfb1fcb4d59c52d524ad36774e79
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 安徽财经大学视觉形象识别系统管理办法（暂行）
+    url: https://aufevis.aufe.edu.cn/2022/0403/c12610a180336/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://aufevis.aufe.edu.cn/2022/0403/c12610a180336/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cad8a0189e0984f23773effb1b9159572e0f10dba71927249720b39b53477161
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1959

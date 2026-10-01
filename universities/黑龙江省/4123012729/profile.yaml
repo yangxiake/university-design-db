@@ -83,9 +83,10 @@ visual:
     value: https://www.qqhrit.com/xxgk/xxbs.htm
     source: https://www.qqhrit.com/xxgk/xxbs.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -130,6 +131,82 @@ visual:
     byte_size: 42292
     representation: raster
     resolved_url: https://www.qqhrit.com/new_index/images/logo.png
+  - asset_id: bc7a753f98868fdd0a7c45ab
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.qqhrit.com/images/logo.png
+    source: https://www.qqhrit.com/xxgk/xxbs.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 齐齐哈尔工程学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 齐齐哈尔工程学院
+    format: png
+    width: 278
+    height: 207
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f2846285d540b41b3ead6c51a55b854c93ce55084494a02caa6e0e3025bea591
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '  logo1 '
+      context: 'head pc  head-top  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 55975
+    representation: raster
+    resolved_url: https://www.qqhrit.com/images/logo.png
+    inspection_attempts:
+    - url: https://www.qqhrit.com/images/logo.png
+      status: content_inspected
+  - asset_id: d05b7b40ead8471709b57283
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.qqhrit.com/images/f-logo.png
+    source: https://www.qqhrit.com/xxgk/xxbs.htm
+    file_name: f-logo.png
+    upstream_path: null
+    publisher: 齐齐哈尔工程学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 齐齐哈尔工程学院
+    format: png
+    width: 422
+    height: 94
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: d7d88d5e88374be7a6bdf00aa55bd4a88e597958df40bb749309bdb9c6c13301
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/f-logo.png
+      label: '  logo2 '
+      context: 'head pc  head-top  logo   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 22547
+    representation: raster
+    resolved_url: https://www.qqhrit.com/images/f-logo.png
+    inspection_attempts:
+    - url: https://www.qqhrit.com/images/f-logo.png
+      status: content_inspected
   color_palette:
   - value: '#C82820'
     rgb:
@@ -165,7 +242,57 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#C82820'
+    rgb:
+    - 200
+    - 40
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.qqhrit.com/images/logo.png
+    page_source: https://www.qqhrit.com/xxgk/xxbs.htm
+    asset_id: bc7a753f98868fdd0a7c45ab
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#282858'
+    rgb:
+    - 40
+    - 40
+    - 88
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.qqhrit.com/images/logo.png
+    page_source: https://www.qqhrit.com/xxgk/xxbs.htm
+    asset_id: bc7a753f98868fdd0a7c45ab
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: https://www.qqhrit.com/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.qqhrit.com/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 91451ecc5100551e48d66c3883878084e0e390b8ca7aeb0c2fb5aba66635fc88
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1991

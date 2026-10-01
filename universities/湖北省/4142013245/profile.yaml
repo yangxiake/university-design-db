@@ -81,12 +81,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.jzun.edu.cn/visual/
+    availability: found
     search_sources: []
+    source: http://www.jzun.edu.cn/visual/
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -131,8 +132,182 @@ visual:
     byte_size: 42088
     representation: raster
     resolved_url: https://www.jzun.edu.cn/public_v3/images/logo-new.png
-  color_palette: []
-  vi_resources: []
+  - asset_id: b98b072d5a1375bf74d6567c
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.jzun.edu.cn/visual/public/images/logo.png
+    source: http://www.jzun.edu.cn/visual/channels/1426.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 荆州学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 荆州学院
+    format: png
+    width: 468
+    height: 111
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 365357fe7f6b612778780589d5cb402eaf3625154e6aaadba57d0385eb6143b3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /visual/public/images/logo.png
+      label: '荆州学院   '
+      context: 'wrapper  logobox  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 51566
+    representation: raster
+    resolved_url: http://www.jzun.edu.cn/visual/public/images/logo.png
+    inspection_attempts:
+    - url: http://www.jzun.edu.cn/visual/public/images/logo.png
+      status: content_inspected
+  - asset_id: f414f767fe2846dd41bf36f0
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.jzun.edu.cn/visual/public/images/main-logo.png
+    source: http://www.jzun.edu.cn/visual/channels/1426.htm
+    file_name: main-logo.png
+    upstream_path: null
+    publisher: 荆州学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 荆州学院
+    format: png
+    width: 200
+    height: 200
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f1396347afcd5062638da18ec9554920de8e86bb1cc703d7e546fe2613e3aeb7
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /visual/public/images/main-logo.png
+      label: '   '
+      context: 'wrapper cf   main main-title  main-logo '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 61898
+    representation: raster
+    resolved_url: http://www.jzun.edu.cn/visual/public/images/main-logo.png
+    inspection_attempts:
+    - url: http://www.jzun.edu.cn/visual/public/images/main-logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#D82030'
+    rgb:
+    - 216
+    - 32
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.jzun.edu.cn/visual/public/images/main-logo.png
+    page_source: http://www.jzun.edu.cn/visual/channels/1426.htm
+    asset_id: f414f767fe2846dd41bf36f0
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E02830'
+    rgb:
+    - 224
+    - 40
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.jzun.edu.cn/visual/public/images/main-logo.png
+    page_source: http://www.jzun.edu.cn/visual/channels/1426.htm
+    asset_id: f414f767fe2846dd41bf36f0
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 视觉形象管理系统
+    url: http://www.jzun.edu.cn/visual/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.jzun.edu.cn/visual/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b4f50ce65797de914ab6d6a066414ddd9534c3f619540a4c7a145b1adc5b4ffd
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 视觉形象管理系统
+    url: http://www.jzun.edu.cn/visual/channels/1426.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.jzun.edu.cn/visual/channels/1426.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 40771989a229f3f8a70af6f2ba01432321553472150b5ff6b0a81405d018eafa
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标规范
+    url: http://www.jzun.edu.cn/visual/upload/files/2026-06-12/校标规范.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.jzun.edu.cn/visual/channels/1426.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 40771989a229f3f8a70af6f2ba01432321553472150b5ff6b0a81405d018eafa
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标基础图形标准化制图
+    url: http://www.jzun.edu.cn/visual/upload/files/2026-06-12/校标基础图形标准化制图.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.jzun.edu.cn/visual/channels/1426.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 40771989a229f3f8a70af6f2ba01432321553472150b5ff6b0a81405d018eafa
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

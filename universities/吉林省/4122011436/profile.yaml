@@ -85,9 +85,10 @@ visual:
     value: https://www.caii.edu.cn/459/list.htm
     source: https://www.caii.edu.cn/459/list.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -133,7 +134,23 @@ visual:
     representation: raster
     resolved_url: https://www.caii.edu.cn/_upload/tpl/00/d8/216/template216/images/logo2024x2.png
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.caii.edu.cn/459/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.caii.edu.cn/459/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 62f3c178650f0294421d4d2c9d82f53668c3bc79e66d3e20aeddbe1ee7799b5d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1952

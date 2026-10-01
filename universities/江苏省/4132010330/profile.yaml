@@ -167,6 +167,44 @@ visual:
     source_as_of: unspecified
     byte_size: 61243
     representation: raster
+  - asset_id: 2084442402c08b22ad01ba6c
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.nsi.edu.cn/_upload/site/00/5a/90/logo.png
+    source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 南京体育学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京体育学院
+    format: png
+    width: 405
+    height: 70
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 872dae9e6655a54541a58ded79f848dcd6303657e560108abf043b5c8ffe542b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/site/00/5a/90/logo.png
+      label: '   '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 19716
+    representation: raster
+    resolved_url: https://www.nsi.edu.cn/_upload/site/00/5a/90/logo.png
+    inspection_attempts:
+    - url: https://www.nsi.edu.cn/_upload/site/00/5a/90/logo.png
+      status: content_inspected
   color_palette:
   - value: '#1888F8'
     rgb:
@@ -222,7 +260,655 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 654b0627a759f6fa
-  vi_resources: []
+  - value: '#F8B800'
+    rgb:
+    - 248
+    - 184
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.nsi.edu.cn/_upload/site/00/5a/90/logo.png
+    page_source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    asset_id: 2084442402c08b22ad01ba6c
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#F8C000'
+    rgb:
+    - 248
+    - 192
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.nsi.edu.cn/_upload/site/00/5a/90/logo.png
+    page_source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    asset_id: 2084442402c08b22ad01ba6c
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 南京体育学院官网视觉资源页 PPT模板发布/下载页
+    url: https://www.nsi.edu.cn/xcb/ppsjsbxt/list.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://www.nsi.edu.cn/xcb/ppsjsbxt/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a0ec4c19e13569e3aa109b8b73c35442654b7336908bf0064c7d66a448043847
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 南京体育学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 应用部分B2-PPT模板
+    url: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://www.nsi.edu.cn/xcb/ppsjsbxt/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a0ec4c19e13569e3aa109b8b73c35442654b7336908bf0064c7d66a448043847
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 南京体育学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: &id001
+      - url: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+        status: target_page_read
+        resolved_url: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+      resolved_url: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+      page_metadata: &id002
+        title: 应用部分B2-PPT模板
+        sha256: 691f4340ab93f8c47b689de40e754b2e4b2181399a0b2c495f499ecb1b2ae25d
+        byte_size: 9122
+  - title: 南京体育学院官网视觉资源页 PPT模板发布/下载页
+    url: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03592446458f9244f932c48f210203c3483bd0dfc60be191b7d204422ee3e93e
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 南京体育学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: *id001
+      resolved_url: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+      page_metadata: *id002
+  - title: 南京体育学院PPT模板.zip
+    url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/7dba5a8c-9eec-4af5-85f8-2d6e650a6314.zip
+    kinds:
+    - PPT模板
+    formats:
+    - ZIP
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03592446458f9244f932c48f210203c3483bd0dfc60be191b7d204422ee3e93e
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 南京体育学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/7dba5a8c-9eec-4af5-85f8-2d6e650a6314.zip
+        status: file_read
+        resolved_url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/7dba5a8c-9eec-4af5-85f8-2d6e650a6314.zip
+      resolved_url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/7dba5a8c-9eec-4af5-85f8-2d6e650a6314.zip
+    file_metadata:
+      sha256: 8b3469c91cb47767390aae78d4445c6a68c4456d57ecc3cda6272e6c95da2f82
+      byte_size: 19024016
+      format: ZIP
+      read_kind: archive_structure
+      member_count: 7
+      presentation_members:
+      - path: ╤º╩⌡└αPPT─ú░σ.pptx
+        status: content_inspected
+        sha256: 498c0395954926575baa10a3d5b8f47853542ef9b4060008609bf67919d042f6
+        byte_size: 1249131
+        format: PPTX
+        read_kind: ooxml_structure
+        slide_count: 10
+        width_emu: 12192000
+        height_emu: 6858000
+        aspect_ratio: '16:9'
+        font_names:
+        - Angsana New
+        - Arial
+        - Cordia New
+        - DaunPenh
+        - DokChampa
+        - Estrangelo Edessa
+        - Euphemia
+        - Gautami
+        - Iskoola Pota
+        - Kalinga
+        - Kartika
+        - Latha
+        - MV Boli
+        - Mangal
+        - Microsoft Himalaya
+        - Microsoft Uighur
+        - Microsoft Yi Baiti
+        - Mongolian Baiti
+        - MoolBoran
+        - Nyala
+        - Plantagenet Cherokee
+        - Raavi
+        - Shruti
+        - Sylfaen
+        - Times New Roman
+        - Tunga
+        - Vrinda
+        - 新細明體
+        - 游ゴシック
+        - 游ゴシック Light
+        - 等线
+        - 等线 Light
+        - 阿里巴巴普惠体 B
+        - 阿里巴巴普惠体 R
+        - 맑은 고딕
+        theme_colors:
+        - '#0563C1'
+        - '#44546A'
+        - '#4472C4'
+        - '#5B9BD5'
+        - '#70AD47'
+        - '#954F72'
+        - '#A5A5A5'
+        - '#E7E6E6'
+        - '#ED7D31'
+        - '#FFC000'
+        editable_text_runs: 116
+        textless_slides: 0
+        media_count: 22
+        external_relationship_count: 0
+        macro_enabled: false
+      - path: │ú╣µ└αPPT─ú░σ.pptx
+        status: content_inspected
+        sha256: 5d21eb132f9b4b9371fa59726c10e01cdf362abe5c3562eb0870730c910ff4f2
+        byte_size: 2844222
+        format: PPTX
+        read_kind: ooxml_structure
+        slide_count: 10
+        width_emu: 12192000
+        height_emu: 6858000
+        aspect_ratio: '16:9'
+        font_names:
+        - Angsana New
+        - Arial
+        - Cordia New
+        - DaunPenh
+        - DokChampa
+        - Estrangelo Edessa
+        - Euphemia
+        - Gautami
+        - Iskoola Pota
+        - Kalinga
+        - Kartika
+        - Latha
+        - MV Boli
+        - Mangal
+        - Microsoft Himalaya
+        - Microsoft Uighur
+        - Microsoft Yi Baiti
+        - Mongolian Baiti
+        - MoolBoran
+        - Nyala
+        - Plantagenet Cherokee
+        - Raavi
+        - Shruti
+        - Sylfaen
+        - Times New Roman
+        - Tunga
+        - Vrinda
+        - 新細明體
+        - 游ゴシック
+        - 游ゴシック Light
+        - 等线
+        - 等线 Light
+        - 阿里巴巴普惠体 B
+        - 阿里巴巴普惠体 R
+        - 맑은 고딕
+        theme_colors:
+        - '#0563C1'
+        - '#44546A'
+        - '#4472C4'
+        - '#5B9BD5'
+        - '#70AD47'
+        - '#954F72'
+        - '#A5A5A5'
+        - '#E7E6E6'
+        - '#ED7D31'
+        - '#FFC000'
+        editable_text_runs: 81
+        textless_slides: 0
+        media_count: 15
+        external_relationship_count: 0
+        macro_enabled: false
+      - path: ╨╨╒■└αPPT─ú░σ.pptx
+        status: content_inspected
+        sha256: f473a38da493d843e07042c79a66c746856f32ae660d85fb512c30d494b5bf91
+        byte_size: 4113030
+        format: PPTX
+        read_kind: ooxml_structure
+        slide_count: 10
+        width_emu: 12192000
+        height_emu: 6858000
+        aspect_ratio: '16:9'
+        font_names:
+        - Angsana New
+        - Arial
+        - Cordia New
+        - DaunPenh
+        - DokChampa
+        - Estrangelo Edessa
+        - Euphemia
+        - Gautami
+        - Iskoola Pota
+        - Kalinga
+        - Kartika
+        - Latha
+        - MV Boli
+        - Mangal
+        - Microsoft Himalaya
+        - Microsoft Uighur
+        - Microsoft Yi Baiti
+        - Mongolian Baiti
+        - MoolBoran
+        - Nyala
+        - Plantagenet Cherokee
+        - Raavi
+        - Shruti
+        - Sylfaen
+        - Times New Roman
+        - Tunga
+        - Vrinda
+        - 新細明體
+        - 游ゴシック
+        - 游ゴシック Light
+        - 等线
+        - 等线 Light
+        - 阿里巴巴普惠体 B
+        - 阿里巴巴普惠体 R
+        - 맑은 고딕
+        theme_colors:
+        - '#0563C1'
+        - '#44546A'
+        - '#4472C4'
+        - '#5B9BD5'
+        - '#70AD47'
+        - '#954F72'
+        - '#A5A5A5'
+        - '#E7E6E6'
+        - '#ED7D31'
+        - '#FFC000'
+        editable_text_runs: 81
+        textless_slides: 0
+        media_count: 15
+        external_relationship_count: 0
+        macro_enabled: false
+  - title: 常规类PPT模板.pptx
+    url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/530f0f24-b8aa-4cb1-ba03-c1511834169e.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03592446458f9244f932c48f210203c3483bd0dfc60be191b7d204422ee3e93e
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 南京体育学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/530f0f24-b8aa-4cb1-ba03-c1511834169e.pptx
+        status: file_read
+        resolved_url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/530f0f24-b8aa-4cb1-ba03-c1511834169e.pptx
+      resolved_url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/530f0f24-b8aa-4cb1-ba03-c1511834169e.pptx
+    file_metadata:
+      sha256: 5d21eb132f9b4b9371fa59726c10e01cdf362abe5c3562eb0870730c910ff4f2
+      byte_size: 2844222
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 10
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Plantagenet Cherokee
+      - Raavi
+      - Shruti
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 阿里巴巴普惠体 B
+      - 阿里巴巴普惠体 R
+      - 맑은 고딕
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 81
+      textless_slides: 0
+      media_count: 15
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 行政类PPT模板.pptx
+    url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/b56d5675-d8f6-42b9-91c5-50e210b9b777.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03592446458f9244f932c48f210203c3483bd0dfc60be191b7d204422ee3e93e
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 南京体育学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/b56d5675-d8f6-42b9-91c5-50e210b9b777.pptx
+        status: file_read
+        resolved_url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/b56d5675-d8f6-42b9-91c5-50e210b9b777.pptx
+      resolved_url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/b56d5675-d8f6-42b9-91c5-50e210b9b777.pptx
+    file_metadata:
+      sha256: f473a38da493d843e07042c79a66c746856f32ae660d85fb512c30d494b5bf91
+      byte_size: 4113030
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 10
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Plantagenet Cherokee
+      - Raavi
+      - Shruti
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 阿里巴巴普惠体 B
+      - 阿里巴巴普惠体 R
+      - 맑은 고딕
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 81
+      textless_slides: 0
+      media_count: 15
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 学术类PPT模板.pptx
+    url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/9f946df3-9209-446d-92bd-076176a33a4f.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03592446458f9244f932c48f210203c3483bd0dfc60be191b7d204422ee3e93e
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 南京体育学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/9f946df3-9209-446d-92bd-076176a33a4f.pptx
+        status: file_read
+        resolved_url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/9f946df3-9209-446d-92bd-076176a33a4f.pptx
+      resolved_url: https://www.nsi.edu.cn/_upload/article/files/1e/41/8649d47c4a7d880cad88bf821def/9f946df3-9209-446d-92bd-076176a33a4f.pptx
+    file_metadata:
+      sha256: 498c0395954926575baa10a3d5b8f47853542ef9b4060008609bf67919d042f6
+      byte_size: 1249131
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 10
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Plantagenet Cherokee
+      - Raavi
+      - Shruti
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 阿里巴巴普惠体 B
+      - 阿里巴巴普惠体 R
+      - 맑은 고딕
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 116
+      textless_slides: 0
+      media_count: 22
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 关于发布南京体育学院品牌视觉识别系统的通知
+    url: https://www.nsi.edu.cn/xcb/5e/f9/c4433a89849/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nsi.edu.cn/xcb/5e/f9/c4433a89849/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e81997752c78ec78297874bb024d50b56c7948f1cb8a4ad8fc41ca0a7d3b1616
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A基础部分--校徽标识组合、色彩文字规范
+    url: https://www.nsi.edu.cn/xcb/5e/f1/c4433a89841/page.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nsi.edu.cn/xcb/5e/f1/c4433a89841/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 21a8c5e4344914260cfd99c2aa26c474f0f509285f18726d5a6eb6ba8aa07ab0
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 基础部分A-校徽标识组合色彩文字规范.zip
+    url: https://www.nsi.edu.cn/_upload/article/files/e8/53/55ae73a44f84a12518574ac52568/c6ff4b67-6dd8-4e5a-9dae-57c7a9c124fd.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nsi.edu.cn/xcb/5e/f1/c4433a89841/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 21a8c5e4344914260cfd99c2aa26c474f0f509285f18726d5a6eb6ba8aa07ab0
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -262,19 +948,20 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.nsi.edu.cn/xcb/ppsjsbxt/list.htm
+    availability: found
     search_sources: []
+    source: https://www.nsi.edu.cn/xcb/ppsjsbxt/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 南京体育学院官网视觉资源页
+    availability: found
     search_sources: []
+    source: https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm
+    verified: auto
+    checked_at: '2026-10-02'
   official_template_terms:
     value: null
     source: null
@@ -388,21 +1075,21 @@ location:
     source: https://www.nsi.edu.cn/2405/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 仙林校区
     address: null
     coordinates: null
     source: https://www.nsi.edu.cn/2405/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 五棵松校区
     address: null
     coordinates: null
     source: https://www.nsi.edu.cn/2405/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 南京体育学院位于江苏省南京市，主管部门为江苏省。官网列示各类在校生5000余人（统计时间2026-06）。官网列示总占地面积1100余亩（统计时间2026-06）。简介列出灵谷寺校区、仙林校区、五棵松校区。

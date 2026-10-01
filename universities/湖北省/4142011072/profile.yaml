@@ -105,9 +105,10 @@ visual:
     value: https://www.jhun.edu.cn/7562/list.htm
     source: https://www.jhun.edu.cn/7562/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 蓝白圆形校徽以变形“江”“大”两字为主体，上下环绕中英文校名。
     source: https://www.jhun.edu.cn/7559/list.htm
@@ -267,7 +268,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0b34696de10ffc6a
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.jhun.edu.cn/7562/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jhun.edu.cn/7562/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a1e43d6a26a7069d3e553910742b673d5b10b133100dd681cbb541580bc29613
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 江汉大学视觉识别系统（元素下载）.zip
+    url: https://www.jhun.edu.cn/_upload/article/files/9e/a7/d7674efa43588e5adeba8d44717f/5967f568-7b52-422a-80a9-12490efbdceb.zip
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jhun.edu.cn/7562/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a1e43d6a26a7069d3e553910742b673d5b10b133100dd681cbb541580bc29613
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

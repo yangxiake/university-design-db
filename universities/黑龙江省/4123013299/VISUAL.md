@@ -17,9 +17,10 @@
 |  | `#184098` | 24,64,152 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.hip.edu.cn/2025new/images/logo.png) |
 |  | `#1848A0` | 24,72,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.hip.edu.cn/2025new/images/logo.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- [哈尔滨石油学院建校20周年校庆公告（第五号） ——公布新版校徽、校旗、校歌的公告](https://www.hip.edu.cn/info/1025/22182.htm)：["校徽/校名介绍及资源", "校庆专用"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hip.edu.cn/info/1025/22182.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

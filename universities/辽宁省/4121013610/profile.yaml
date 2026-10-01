@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://huh.edu.cn/index.php?a=lists&catid=4
+    availability: found
     search_sources: []
+    source: https://huh.edu.cn/index.php?a=lists&catid=4
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -130,6 +131,89 @@ visual:
     byte_size: 138887
     representation: raster
     resolved_url: https://www.huh.edu.cn/Public/assets/images/small-logo.png
+  - asset_id: e61f7ac46a52e14222ea9cff
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://huh.edu.cn/Public/assets/images/logo.png
+    source: https://huh.edu.cn/index.php?a=lists&catid=4
+    file_name: logo.png
+    upstream_path: null
+    publisher: 辽宁何氏医学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 辽宁何氏医学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /Public/assets/images/logo.png
+      label: '   '
+      context: 'outer-box clearfix  logo-box pull-left  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://huh.edu.cn/Public/assets/images/logo.png
+      status: access_or_parse_gap
+      error_type: TimeoutError
+      detail: response_body_deadline
+    - url: http://huh.edu.cn/Public/assets/images/logo.png
+      status: access_or_parse_gap
+      error_type: UnidentifiedImageError
+      detail: cannot identify image file <_io.BytesIO object at 0x1176c8f90>
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: UnidentifiedImageError
+      detail: cannot identify image file <_io.BytesIO object at 0x1176c8f90>
+  - asset_id: 488c709ebd7d4d3c8deb3336
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://huh.edu.cn/Public/assets/images/small-logo.png
+    source: https://huh.edu.cn/index.php?a=lists&catid=4
+    file_name: small-logo.png
+    upstream_path: null
+    publisher: 辽宁何氏医学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 辽宁何氏医学院
+    format: png
+    width: 820
+    height: 298
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 5a429d8c29499ada066fceeabf99470aef6ee5f46a359bef040b91d1606869d9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /Public/assets/images/small-logo.png
+      label: '   '
+      context: 'outer-box clearfix  logo-box pull-left  logo   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 138887
+    representation: raster
+    resolved_url: https://huh.edu.cn/Public/assets/images/small-logo.png
+    inspection_attempts:
+    - url: https://huh.edu.cn/Public/assets/images/small-logo.png
+      status: content_inspected
   color_palette:
   - value: '#805830'
     rgb:
@@ -165,7 +249,57 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#805830'
+    rgb:
+    - 128
+    - 88
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://huh.edu.cn/Public/assets/images/small-logo.png
+    page_source: https://huh.edu.cn/index.php?a=lists&catid=4
+    asset_id: 488c709ebd7d4d3c8deb3336
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#705030'
+    rgb:
+    - 112
+    - 80
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://huh.edu.cn/Public/assets/images/small-logo.png
+    page_source: https://huh.edu.cn/index.php?a=lists&catid=4
+    asset_id: 488c709ebd7d4d3c8deb3336
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校徽、校训、校歌
+    url: https://huh.edu.cn/index.php?a=lists&catid=4
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://huh.edu.cn/index.php?a=lists&catid=4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6ea05e8c1177896d2a90fbea00228808474dd2c2abc4bb30a289b5a0db8f1941
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1999

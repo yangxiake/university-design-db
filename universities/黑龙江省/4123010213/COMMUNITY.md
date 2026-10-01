@@ -34,3 +34,29 @@
 - 依据：[https://github.com/jtchen2k/hcu/blob/8aeab521eb07d38a273318b8123caabf332e66e4/src/data/uni_info.json](https://github.com/jtchen2k/hcu/blob/8aeab521eb07d38a273318b8123caabf332e66e4/src/data/uni_info.json)
 - 采集：2026-10-01（auto）
 - 使用说明：2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+
+## 哈尔滨工业大学社区TikZ矢量标识源码
+
+- 入口：[https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/hit.tex](https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/hit.tex)
+- 类型：`tikz_logo_source`
+- 发布者：yuxtech/cnlogo
+- 版本：`daca8906123ca61186218ddda7369f95cc65a664`
+- 许可：源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+- 依据：[https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md](https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md)
+- 采集：2026-10-02（auto）
+- 使用说明：README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
+- 格式：TeX/TikZ
+
+## 哈工大社区简约PPT模板
+
+- 入口：[https://github.com/huyingjiao/HIT-PPT-Theme/tree/9e9b01db3e11e6e6265bb858c4705a1638614608](https://github.com/huyingjiao/HIT-PPT-Theme/tree/9e9b01db3e11e6e6265bb858c4705a1638614608)
+- 类型：`pptx_template`
+- 发布者：huyingjiao/HIT-PPT-Theme
+- 版本：`9e9b01db3e11e6e6265bb858c4705a1638614608`
+- 许可：未声明，仅提供入口
+- 依据：[https://github.com/huyingjiao/HIT-PPT-Theme/blob/9e9b01db3e11e6e6265bb858c4705a1638614608/README.md](https://github.com/huyingjiao/HIT-PPT-Theme/blob/9e9b01db3e11e6e6265bb858c4705a1638614608/README.md)
+- 采集：2026-10-02（auto）
+- 使用说明：GitHub项目描述明确用于哈尔滨工业大学组会汇报；README称哈工大简约主题。 已读取固定版本README并确认文件目录；PPTX文件结构的读取结果逐文件列出，未渲染幻灯片、未运行上游脚本或SKILL、未镜像模板/字体/校徽。许可未声明，仅索引入口，使用或再发布前查看上游和校方要求。
+- 格式：PPTX
+- 文件入口：[哈工大ppt模板.pptx](https://github.com/huyingjiao/HIT-PPT-Theme/blob/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF.pptx)；PPTX；结构已读取：7页、16:9、可编辑文本节点62；字体Angsana New、Arial、Corbel、Cordia New、DaunPenh、DokChampa、Ebrima、Estrangelo Edessa、Euphemia、Gautami、Gill Sans MT、HGｺﾞｼｯｸE、Iskoola Pota、Javanese Text、Kalinga、Kartika、Latha、Leelawadee UI、MV Boli、Majalla UI、Mangal、Microsoft Himalaya、Microsoft JhengHei、Microsoft New Tai Lue、Microsoft Tai Le、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Myanmar Text、Nirmala UI、Nyala、Phagspa、Plantagenet Cherokee、Raavi、Segoe UI、Shruti、Sylfaen、Tahoma、Times New Roman、Tunga、Vrinda、Wingdings、Wingdings 2、华文中宋、微軟正黑體、新細明體、游ゴシック、游ゴシック Light、等线、等线 Light、맑은 고딕、휴먼매직체。
+- 文件入口：[哈工大ppt模板_new.pptx](https://github.com/huyingjiao/HIT-PPT-Theme/blob/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF_new.pptx)；PPTX；结构已读取：4页、16:9、可编辑文本节点27；字体Angsana New、Arial、Corbel、Cordia New、DaunPenh、DokChampa、Ebrima、Estrangelo Edessa、Euphemia、Gautami、Gill Sans MT、HGｺﾞｼｯｸE、Iskoola Pota、Javanese Text、Kalinga、Kartika、Latha、Leelawadee UI、MV Boli、Majalla UI、Mangal、Microsoft Himalaya、Microsoft JhengHei、Microsoft New Tai Lue、Microsoft Tai Le、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Myanmar Text、Nirmala UI、Nyala、Phagspa、Plantagenet Cherokee、Raavi、Segoe UI、Shruti、Sylfaen、Tahoma、Times New Roman、Tunga、Vrinda、Wingdings、Wingdings 2、华文中宋、微軟正黑體、新細明體、游ゴシック、游ゴシック Light、等线、等线 Light、맑은 고딕、휴먼매직체。

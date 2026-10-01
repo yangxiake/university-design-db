@@ -120,12 +120,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.suda.edu.cn/portal/uis.html
+    availability: found
     search_sources: []
+    source: http://www.suda.edu.cn/portal/uis.html
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -299,7 +300,55 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: f4aa4bb7025fdbf5
-  vi_resources: []
+  vi_resources:
+  - title: 《苏州大学整体形象识别系统手册》
+    url: http://www.suda.edu.cn/portal/uis.html
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.suda.edu.cn/portal/uis.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6829d3a1890c7dfda75e8d45ed88313370c9b8360f448d73406cace8b62330f5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 1、《苏州大学整体形象识别系统手册》（专业版）
+    url: http://www.suda.edu.cn/portal/uis/uis.rar
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.suda.edu.cn/portal/uis.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6829d3a1890c7dfda75e8d45ed88313370c9b8360f448d73406cace8b62330f5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 《苏州大学整体形象识别系统手册》
+    url: http://www.suda.edu.cn/portal/uis/index.html
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.suda.edu.cn/portal/uis/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f4da4c71856b495f280e1098e938f9bc9992b5f19b6ba36c2ae508c3c2827640
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1900
@@ -528,28 +577,28 @@ location:
     source: http://www.suda.edu.cn/general_situation/xxjj.jsp
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 独墅湖校区
     address: null
     coordinates: null
     source: http://www.suda.edu.cn/general_situation/xxjj.jsp
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 阳澄湖校区
     address: null
     coordinates: null
     source: http://www.suda.edu.cn/general_situation/xxjj.jsp
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 未来校区
     address: null
     coordinates: null
     source: http://www.suda.edu.cn/general_situation/xxjj.jsp
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 苏州大学位于江苏省苏州市，主管部门为江苏省。官网列示全日制本科生27671人（统计日期未注明）。官网列示教职工5956人（统计日期未注明）。官网列示占地面积4586亩（统计日期未注明）。简介列出天赐庄校区、独墅湖校区、阳澄湖校区、未来校区。

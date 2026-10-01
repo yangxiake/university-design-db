@@ -87,12 +87,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xijing.edu.cn/xjgk/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.xijing.edu.cn/xjgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -154,7 +155,71 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.xijing.edu.cn/xjgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xijing.edu.cn/xjgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c83cd72ec8da94cb6113dd654a5d2015bcd4851ee87bba22e00d165b22d30547
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽使用
+    url: https://www.xijing.edu.cn/xjgk/xhsy1/xhsygf.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xijing.edu.cn/xjgk/xhsy1/xhsygf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5419cb91db7c821b49d7fc3c4c7396ef0973cb7cac8630870f9cc10ba40955fa
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标识
+    url: https://www.xijing.edu.cn/info/1025/1021.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xijing.edu.cn/info/1025/1021.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 49dbd3be358793673cc9c42392c1831d4b09235ce663045123e8cb8062eca5f0
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽使用
+    url: https://www.xijing.edu.cn/xjgk/xhsy1/bzssygf.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xijing.edu.cn/xjgk/xhsy1/bzssygf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 86628ece75e9f79f5a93abc3a7756181934c8c7fe018ab925500d1de63928143
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1994

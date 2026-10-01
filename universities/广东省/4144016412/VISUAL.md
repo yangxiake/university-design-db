@@ -18,7 +18,7 @@
 |  | `#A38138` | 163,129,56 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%20HKUSTGZ.svg) |
 |  | `#0B396D` | 11,57,109 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%20HKUSTGZ.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

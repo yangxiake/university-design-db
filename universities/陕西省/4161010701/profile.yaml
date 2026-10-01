@@ -106,7 +106,7 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
@@ -133,12 +133,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://news.xidian.edu.cn/info/1016/4376.htm
+    availability: found
     search_sources: []
+    source: https://news.xidian.edu.cn/info/1016/4376.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校徽以电子旋轨为核心，配中英文校名。
     source: https://www.xidian.edu.cn/xxgk/xxjj1.htm
@@ -376,6 +377,82 @@ visual:
     source_as_of: unspecified
     byte_size: 75151
     representation: raster
+  - asset_id: c51e0ee10d3ed1d50e6470ad
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://news.xidian.edu.cn/mobile/images/logo.png
+    source: https://news.xidian.edu.cn/info/1016/4376.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 西安电子科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安电子科技大学
+    format: png
+    width: 726
+    height: 126
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c2f1a1f31eb9509ad6c3ab1171955e051da41c0aa52eb5a19ed38136e40b48ce
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../mobile/images/logo.png
+      label: '  w100 '
+      context: '  m-head  m-logo fl   '
+      position: 4
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 33658
+    representation: raster
+    resolved_url: https://news.xidian.edu.cn/mobile/images/logo.png
+    inspection_attempts:
+    - url: https://news.xidian.edu.cn/mobile/images/logo.png
+      status: content_inspected
+  - asset_id: e22d050b1a03455d421d99b3
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://news.xidian.edu.cn/images/logo.png
+    source: https://news.xidian.edu.cn/info/1016/4376.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 西安电子科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安电子科技大学
+    format: png
+    width: 518
+    height: 97
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3212c824b883491b699fd4878b6fc6f30edf4a82a8092482b9640b0c46b787d8
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo.png
+      label: '   '
+      context: 'body  head  logo   '
+      position: 8
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 51682
+    representation: raster
+    resolved_url: https://news.xidian.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: https://news.xidian.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#CB222E'
     rgb:
@@ -555,7 +632,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: b6ccf20360920251
-  vi_resources: []
+  - value: '#E8A8A8'
+    rgb:
+    - 232
+    - 168
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://news.xidian.edu.cn/images/logo.png
+    page_source: https://news.xidian.edu.cn/info/1016/4376.htm
+    asset_id: e22d050b1a03455d421d99b3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#F0D0D0'
+    rgb:
+    - 240
+    - 208
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://news.xidian.edu.cn/images/logo.png
+    page_source: https://news.xidian.edu.cn/info/1016/4376.htm
+    asset_id: e22d050b1a03455d421d99b3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 关于启用西安电子科技大学视觉识别系统的通知-西安电子科技大学新闻网
+    url: https://news.xidian.edu.cn/info/1016/4376.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.xidian.edu.cn/info/1016/4376.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a4419b0340f8d72d6decf63a38e2d743d074794e6ca4d0ed06a08d195559c0bf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1931
@@ -639,6 +766,23 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  - title: 西安电子科技大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/xdu.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/xdu.tex
+    source_sha256: 02dc6fa0b4a62987e907f04983febaea4c0f8be66a8897cd79ee832b34f93ba8
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
   admissions_url:
     value: https://www.xidian.edu.cn/zsjy.htm
     availability: found

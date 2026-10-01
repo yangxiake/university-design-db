@@ -7,6 +7,7 @@
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | [文件](https://www.smbu.edu.cn/images/logo.png) · [来源](https://www.smbu.edu.cn/) | png | 393 × 86 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.smbu.edu.cn/images/db_logo.png) · [来源](https://www.smbu.edu.cn/sjxxsb/sjxxgf.htm) | png | 280 × 185 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -16,9 +17,17 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | `#051759` | 5,23,89 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.smbu.edu.cn/images/yfd_logo.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.smbu.edu.cn/sjxxsb/bz_xh.htm](https://www.smbu.edu.cn/sjxxsb/bz_xh.htm)
+- [视觉形象识别](https://www.smbu.edu.cn/sjxxsb/bz_xh.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/sjxxsb/bz_xh.htm)。
+- [深北莫标志源文件.pdf](https://www.smbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1947387246&wbfileid=ACBFF3627FEEB6DA02881D8DAD786B6B)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/sjxxsb/bz_xh.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/sjxxsb.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/sjxxsb.htm)。
+- [深北莫标志源文件.pdf](https://www.smbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1947387246&wbfileid=ACBFF3627FEEB6DA02881D8DAD786B6B)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/sjxxsb.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/sjxxsb/sjxxgf.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/sjxxsb/sjxxgf.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/info/1430/5907.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5907.htm)。
+- [深北莫logo.rar](https://www.smbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1947387246&wbfileid=5E44CFE1D28682ED49E01D828B286FC0)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5907.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -24,11 +24,15 @@
 |  | `#E00010` | 224,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#E80010` | 232,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#F00010` | 240,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 蓝色标准色 | `#0E419C` | 14,65,156 | primary | [100, 90, 0, 0] | 2736 C | 官方VI标准值 | [依据](https://www.fudan.edu.cn/_upload/article/images/72/fa/4a0ce26f42aa9edc5174c3b9c347/fc66e114-83ba-4fc4-b4f1-8fc4d3f03dfd.png) |
+| 红色标准色色卡（并列记录） | `#CC1A1A` | 204,26,26 | secondary | [10, 95, 95, 0] | 485 C | 官方VI标准值 | [依据](https://www.fudan.edu.cn/_upload/article/images/72/fa/4a0ce26f42aa9edc5174c3b9c347/451b376a-7975-4777-b7f2-7ec99c658521.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.fudan.edu.cn/bsxt/list.htm](https://www.fudan.edu.cn/bsxt/list.htm)
+- [复旦大学官方视觉规范](https://www.fudan.edu.cn/bsxt/)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.fudan.edu.cn/_upload/article/images/72/fa/4a0ce26f42aa9edc5174c3b9c347/fc66e114-83ba-4fc4-b4f1-8fc4d3f03dfd.png)。
+- [复旦大学官方视觉规范](https://www.fudan.edu.cn/bsxt/)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.fudan.edu.cn/_upload/article/images/72/fa/4a0ce26f42aa9edc5174c3b9c347/451b376a-7975-4777-b7f2-7ec99c658521.png)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

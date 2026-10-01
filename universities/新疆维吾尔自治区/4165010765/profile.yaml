@@ -86,12 +86,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.xjhtc.edu.cn/xxgk/xgxxxh.htm
+    availability: found
     search_sources: []
+    source: http://www.xjhtc.edu.cn/xxgk/xgxxxh.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -181,6 +182,89 @@ visual:
       status: access_or_parse_gap
       error_type: HTTPError
       detail: 'HTTP Error 404: Not Found'
+  - asset_id: c0717bd5406907d9ecb7fa06
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.xjhtc.edu.cn/images/logonew.png
+    source: http://www.xjhtc.edu.cn/xxgk/xgxxxh.htm
+    file_name: logonew.png
+    upstream_path: null
+    publisher: 新疆和田学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆和田学院
+    format: png
+    width: 280
+    height: 83
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 591448a9d6dcc37df65dc7645c87491fba656011ce0eba3fb1d4adb985214853
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logonew.png
+      label: '   '
+      context: 'head-top    logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 18583
+    representation: raster
+    resolved_url: http://www.xjhtc.edu.cn/images/logonew.png
+    inspection_attempts:
+    - url: http://www.xjhtc.edu.cn/images/logonew.png
+      status: content_inspected
+  - asset_id: cf6deb75389e068fdf945d62
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.xjhtc.edu.cn/images/logo2.png
+    source: http://www.xjhtc.edu.cn/xxgk/xgxxxh.htm
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 新疆和田学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆和田学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo2.png
+      label: '   '
+      context: 'head-top    logo   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: http://www.xjhtc.edu.cn/images/logo2.png
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+    - url: https://www.xjhtc.edu.cn/images/logo2.png
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
   color_palette:
   - value: '#F0ABB5'
     rgb:
@@ -232,7 +316,57 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#D00020'
+    rgb:
+    - 208
+    - 0
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.xjhtc.edu.cn/images/logonew.png
+    page_source: http://www.xjhtc.edu.cn/xxgk/xgxxxh.htm
+    asset_id: c0717bd5406907d9ecb7fa06
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#D00018'
+    rgb:
+    - 208
+    - 0
+    - 24
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.xjhtc.edu.cn/images/logonew.png
+    page_source: http://www.xjhtc.edu.cn/xxgk/xgxxxh.htm
+    asset_id: c0717bd5406907d9ecb7fa06
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校歌校训校徽
+    url: http://www.xjhtc.edu.cn/xxgk/xgxxxh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.xjhtc.edu.cn/xxgk/xgxxxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8574e85f78ba0d633cd63dbed1b781af9be790deb7caa729cc0da40b38fd0c4e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

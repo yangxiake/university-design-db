@@ -109,9 +109,10 @@ visual:
     value: https://news.sufe.edu.cn/16673/list.htm
     source: https://news.sufe.edu.cn/16673/list.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆校徽中央把铲形古币与展开书籍叠加，内圈列题写的中文校名，外圈列英文全称及“1917”。
     source: https://www.sufe.edu.cn/xxzc/list.htm
@@ -222,6 +223,82 @@ visual:
     source_as_of: unspecified
     byte_size: 96491
     representation: raster
+  - asset_id: 7b3f63f60c5d041bef2628b1
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo.png
+    source: https://news.sufe.edu.cn/16673/list.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 上海财经大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海财经大学
+    format: png
+    width: 1028
+    height: 180
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: dbf5ab4d11760422da0bf127b91b2f33f6fbe6728783769a94ce1a21542d3ad3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/db/731/template731/images/logo.png
+      label: '  logo1 '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 88315
+    representation: raster
+    resolved_url: https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo.png
+    inspection_attempts:
+    - url: https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo.png
+      status: content_inspected
+  - asset_id: 617107c71cae485f3af2f679
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo_w.png
+    source: https://news.sufe.edu.cn/16673/list.htm
+    file_name: logo_w.png
+    upstream_path: null
+    publisher: 上海财经大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海财经大学
+    format: png
+    width: 1034
+    height: 180
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f75ce7a040d9b9546230c25fe2809a60d802b49ecd98399fcaaf68ccf919e778
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/db/731/template731/images/logo_w.png
+      label: '  logo2 '
+      context: 'head-left  sitelogo  logo   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 74774
+    representation: raster
+    resolved_url: https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo_w.png
+    inspection_attempts:
+    - url: https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo_w.png
+      status: content_inspected
   color_palette:
   - value: '#821C21'
     rgb:
@@ -295,7 +372,89 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 57755cf7de3c8d68
-  vi_resources: []
+  - value: '#801820'
+    rgb:
+    - 128
+    - 24
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo.png
+    page_source: https://news.sufe.edu.cn/16673/list.htm
+    asset_id: 7b3f63f60c5d041bef2628b1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#881820'
+    rgb:
+    - 136
+    - 24
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo.png
+    page_source: https://news.sufe.edu.cn/16673/list.htm
+    asset_id: 7b3f63f60c5d041bef2628b1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 上财校标
+    url: https://news.sufe.edu.cn/scbswcsw/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.sufe.edu.cn/scbswcsw/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 960a36f7fe77026f90909bbbab455d31b913c6221ebe75299c0b8e873e9bf69e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标识下载
+    url: https://news.sufe.edu.cn/_upload/article/files/8d/c7/bed79ba34fe9955e157981711d5e/8c7e830a-74f7-4d00-b8ae-428b222e6f2b.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.sufe.edu.cn/scbswcsw/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 960a36f7fe77026f90909bbbab455d31b913c6221ebe75299c0b8e873e9bf69e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 上财校标
+    url: https://news.sufe.edu.cn/16673/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.sufe.edu.cn/16673/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a86131aad85647044f403f86309344fafdef86507f63c218eb4dac28fd64e74e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1917

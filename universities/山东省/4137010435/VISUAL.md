@@ -20,10 +20,21 @@
 |  | `#007058` | 0,112,88 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#007858` | 0,120,88 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.qau.edu.cn/channel/xiaobiao](https://www.qau.edu.cn/channel/xiaobiao)
+- [青岛农业大学视觉识别系统](https://www.qau.edu.cn/channel/vis)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/vis)。
+- [青岛农业大学视觉识别系统（在线浏览）](https://www.qau.edu.cn/userfiles/image/wmw/2020/04/20200424175214004.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/vis)。
+- [青岛农业大学校标、标准字、中英文组合标准图形下载.rar](http://www.qau.edu.cn/gwmsweb/doc/2015/0330/20150330095908009.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/vis)。
+- [青岛农业大学校标矢量图形.ai](http://www.qau.edu.cn/gwmsweb/doc/2015/1025/20151025143852039.ai)：["校徽/校名介绍及资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/vis)。
+- [校标使用规定、中文标准字矢量图形.ai](http://www.qau.edu.cn/gwmsweb/doc/2015/1025/20151025144535477.ai)：["校徽/校名介绍及资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/vis)。
+- [校标与中文、中英文标准组合矢量图形.ai](http://www.qau.edu.cn/gwmsweb/doc/2015/1025/20151025144606471.ai)：["校徽/校名介绍及资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/vis)。
+- [青岛农业大学校标、校徽](https://www.qau.edu.cn/channel/xiaobiao)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/xiaobiao)。
+- [青岛农业大学校标、标准字、中英文组合标准图形下载.rar](http://www.qau.edu.cn/gwmsweb/doc/2015/0330/20150330095908009.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/xiaobiao)。
+- [青岛农业大学校标矢量图形.ai](http://www.qau.edu.cn/gwmsweb/doc/2015/1025/20151025143852039.ai)：["校徽/校名介绍及资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/xiaobiao)。
+- [校标使用规定、中文标准字矢量图形.ai](http://www.qau.edu.cn/gwmsweb/doc/2015/1025/20151025144535477.ai)：["校徽/校名介绍及资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/xiaobiao)。
+- [校标与中文、中英文标准组合矢量图形.ai](http://www.qau.edu.cn/gwmsweb/doc/2015/1025/20151025144606471.ai)：["校徽/校名介绍及资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qau.edu.cn/channel/xiaobiao)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -89,9 +89,10 @@ visual:
     value: https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm
     source: https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双环校标内圈的核心图形取自学校图书馆建筑。
     source: https://www.zisu.edu.cn/info/1153/14541.htm
@@ -275,7 +276,115 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 91ea8b660a846e3c
-  vi_resources: []
+  vi_resources:
+  - title: 浙江外国语学院官网视觉资源页 PPT模板发布/下载页
+    url: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b34bff01eb046630811b512518605056ace0785cd046e8094919fc52e5a9042f
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 浙江外国语学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 浙江外国语学院PPT模板（蓝色16：9）.pptx
+    url: https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150817
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b34bff01eb046630811b512518605056ace0785cd046e8094919fc52e5a9042f
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 浙江外国语学院官网视觉资源页
+    use_scope: school
+    content_read: false
+    download_status: indexed_not_fetched
+    file_inspection:
+      status: inspection_failed
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150817
+        status: access_or_parse_gap
+        error_type: ValueError
+        detail: download_returned_html_or_verification_page
+  - title: 浙江外国语学院PPT模板（紫色16：9）.pptx
+    url: https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150818
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b34bff01eb046630811b512518605056ace0785cd046e8094919fc52e5a9042f
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 浙江外国语学院官网视觉资源页
+    use_scope: school
+    content_read: false
+    download_status: indexed_not_fetched
+    file_inspection:
+      status: inspection_failed
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150818
+        status: access_or_parse_gap
+        error_type: ValueError
+        detail: download_returned_html_or_verification_page
+  - title: 学校标识
+    url: https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: be2a8a086c625b59574d39eb25c6b870f3195f979b347b762e5917aa6e556d25
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标识
+    url: https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 14d0aadb9bfacbcadbb4c50de9ad1fda61526fd11e657401c4348c63bc110641
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1955
@@ -316,19 +425,20 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
+    availability: found
     search_sources: []
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 浙江外国语学院官网视觉资源页
+    availability: found
     search_sources: []
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
+    verified: auto
+    checked_at: '2026-10-02'
   official_template_terms:
     value: null
     source: null

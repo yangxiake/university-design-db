@@ -104,9 +104,10 @@ visual:
     value: https://www.sues.edu.cn/xxbs/list.htm
     source: https://www.sues.edu.cn/xxbs/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校标以飞翔形态的“工”字变体为主体，并蕴含SUES字母组合，主色为蓝色。
     source: https://www.sues.edu.cn/ce/9b/c26796a249499/page.htm
@@ -211,6 +212,48 @@ visual:
     source_as_of: unspecified
     byte_size: 96821
     representation: raster
+  - asset_id: 5e6b62dea9cf14ea6e94ae21
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.sues.edu.cn/_upload/tpl/03/2c/812/template812/images/logo.svg
+    source: https://www.sues.edu.cn/xxbs/list.htm
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 上海工程技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海工程技术大学
+    format: svg
+    width: 282.0
+    height: 80.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: cff5caffb8c76d82260c2d41cf6cdd904028ee987f8dbac31a1e09369f90c86d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/03/2c/812/template812/images/logo.svg
+      label: '  logo '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 41677
+    representation: vector
+    view_box: 0 0 282 80
+    encoding: utf-8-sig
+    intrinsic_width: '282'
+    intrinsic_height: '80'
+    resolved_url: https://www.sues.edu.cn/_upload/tpl/03/2c/812/template812/images/logo.svg
+    inspection_attempts:
+    - url: https://www.sues.edu.cn/_upload/tpl/03/2c/812/template812/images/logo.svg
+      status: content_inspected
   color_palette:
   - value: '#304088'
     rgb:
@@ -266,7 +309,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: f8ac46a9933bcc2b
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.sues.edu.cn/xxbs/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sues.edu.cn/xxbs/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d44cd0ebcee32dd7dc938685721616ba286cba1fd34f5b1a2fe0c9f46e20ad08
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1978
@@ -442,7 +501,7 @@ location:
     source: https://www.sues.edu.cn/26795/list.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 上海工程技术大学位于上海市，主管部门为上海市。官网列示全日制在校生约25400名（统计日期未注明）。官网列示教职工2000余人（统计日期未注明）。官网列示占地面积约1500亩（统计日期未注明）。简介列出松江校区。

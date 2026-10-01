@@ -108,12 +108,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.cqust.edu.cn/sy/dxwh/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.cqust.edu.cn/sy/dxwh/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -159,7 +160,23 @@ visual:
     representation: raster
     resolved_url: https://www.cqust.edu.cn/2024new/images/logo.png
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 校徽
+    url: https://www.cqust.edu.cn/sy/dxwh/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cqust.edu.cn/sy/dxwh/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 95e11f912ec876b4d666cd9ba9e87d9a33fbf587784a2c2fecb51405e73ef517
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

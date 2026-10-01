@@ -14,7 +14,7 @@
 | 创办年份口径 | 华东纺织工学院建校年份 | | | |
 | 校训 | 崇德博学、砺志尚实 | official_or_curated | 2026-09-30 | [来源](https://www.dhu.edu.cn/xxjs_18902/list.htm) |
 | 官方PPT入口 | https://www.dhu.edu.cn/_s3/xxbs/list.psp | official_or_curated | 2026-09-30 | [来源](https://www.dhu.edu.cn/_s3/xxbs/list.psp) |
-| 官方资源发布方 | 东华大学 | official_or_curated | 2026-09-30 | [来源](https://www.dhu.edu.cn/_s3/xxbs/list.psp) |
+| 官方资源发布方 | 东华大学 | official_or_curated | 2026-10-02 | [来源](https://www.dhu.edu.cn/_s3/bsxt/list.psp) |
 | 中文简称 | 东华 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
 | 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | DHU | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |

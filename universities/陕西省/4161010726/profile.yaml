@@ -105,9 +105,10 @@ visual:
     value: https://www.nwupl.edu.cn/hjgk/whbs/62325.htm
     source: https://www.nwupl.edu.cn/hjgk/whbs/62325.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形徽志含中英文校名、政法拼音首字母以及天平、宝剑、古城墙。
     source: https://www.nwupl.edu.cn/hjgk/hjjg/63821.htm
@@ -218,6 +219,44 @@ visual:
     source_as_of: unspecified
     byte_size: 47924
     representation: raster
+  - asset_id: 7d8f760b0dcc564f8858a6fb
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.nwupl.edu.cn/images/index/logo.png
+    source: https://www.nwupl.edu.cn/hjgk/whbs/62325.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 西北政法大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西北政法大学
+    format: png
+    width: 700
+    height: 63
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 8912a0585964465cd1994faf04c0a5fe187f850b8cfb0cc4f161a407e7f0b0e8
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /images/index/logo.png
+      label: '  logoimg '
+      context: 'am-container  am-cf am-g  am-u-md-5 no-padding-left no-padding-right   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 18289
+    representation: raster
+    resolved_url: https://www.nwupl.edu.cn/images/index/logo.png
+    inspection_attempts:
+    - url: https://www.nwupl.edu.cn/images/index/logo.png
+      status: content_inspected
   color_palette:
   - value: '#952324'
     rgb:
@@ -291,7 +330,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: b2ddc9f844867ade
-  vi_resources: []
+  - value: '#C07878'
+    rgb:
+    - 192
+    - 120
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.nwupl.edu.cn/images/index/logo.png
+    page_source: https://www.nwupl.edu.cn/hjgk/whbs/62325.htm
+    asset_id: 7d8f760b0dcc564f8858a6fb
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#C87878'
+    rgb:
+    - 200
+    - 120
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.nwupl.edu.cn/images/index/logo.png
+    page_source: https://www.nwupl.edu.cn/hjgk/whbs/62325.htm
+    asset_id: 7d8f760b0dcc564f8858a6fb
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校徽释义
+    url: https://www.nwupl.edu.cn/hjgk/whbs/62325.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nwupl.edu.cn/hjgk/whbs/62325.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6a8aaaadb323ce98f89ab21a800b0c2fd17b7a911e7fad246afd8ccd057cbd50
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1937

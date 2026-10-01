@@ -114,12 +114,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.jlnu.edu.cn/xxgk/wcjs.htm
+    availability: found
     search_sources: []
+    source: https://www.jlnu.edu.cn/xxgk/wcjs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -258,6 +259,44 @@ visual:
     source_as_of: unspecified
     byte_size: 12536
     representation: raster
+  - asset_id: 61ba9c7848430ed7ae685f4c
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.jlnu.edu.cn/images/logo3.png
+    source: https://www.jlnu.edu.cn/xxgk/wcjs.htm
+    file_name: logo3.png
+    upstream_path: null
+    publisher: 吉林师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 吉林师范大学
+    format: png
+    width: 260
+    height: 72
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 77ad600428d864d8197e530de471090621814dc239882be39836b385c4536432
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo3.png
+      label: '   '
+      context: 'head-b  wp flex   logo  '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 24143
+    representation: raster
+    resolved_url: https://www.jlnu.edu.cn/images/logo3.png
+    inspection_attempts:
+    - url: https://www.jlnu.edu.cn/images/logo3.png
+      status: content_inspected
   color_palette:
   - value: '#4646B8'
     rgb:
@@ -363,7 +402,73 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: fdbf4ea41dcd601c
-  vi_resources: []
+  - value: '#F8F0D0'
+    rgb:
+    - 248
+    - 240
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.jlnu.edu.cn/images/logo3.png
+    page_source: https://www.jlnu.edu.cn/xxgk/wcjs.htm
+    asset_id: 61ba9c7848430ed7ae685f4c
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#F8F0D8'
+    rgb:
+    - 248
+    - 240
+    - 216
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.jlnu.edu.cn/images/logo3.png
+    page_source: https://www.jlnu.edu.cn/xxgk/wcjs.htm
+    asset_id: 61ba9c7848430ed7ae685f4c
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校标
+    url: https://www.jlnu.edu.cn/xxgk/wcjs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jlnu.edu.cn/xxgk/wcjs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7a14bb317d8ea43349d74a4991d19c2dddb629b7016c7aa901685ad048b1ba16
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标
+    url: https://www.jlnu.edu.cn/jsxb.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jlnu.edu.cn/xxgk/wcjs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7a14bb317d8ea43349d74a4991d19c2dddb629b7016c7aa901685ad048b1ba16
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1958

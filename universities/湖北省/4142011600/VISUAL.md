@@ -19,10 +19,17 @@
 |  | `#F8F000` | 248,240,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#F8F800` | 248,248,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.hbue.edu.cn/435/list.htm](https://www.hbue.edu.cn/435/list.htm)
+- [湖北经济学院党委宣传部 PPT模板发布/下载页](https://xcb.hbue.edu.cn/xzzq/list.htm)：["PPT模板"]；格式 HTML；访问条件 校方公开HTML页已读取；页面内附件或外部下载目标另行索引。官网记录[来源](https://xcb.hbue.edu.cn/xzzq/list.htm)。
+  - 发布者：湖北经济学院党委宣传部；适用范围：学校通用。
+- [PPT模板](https://xcb.hbue.edu.cn/_upload/article/files/c6/bd/21a1168b4e56aa4f3e7626733156/7ad9d2db-ef30-4172-8fe1-bfed54d6fc5e.zip)：["PPT模板"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://xcb.hbue.edu.cn/xzzq/list.htm)。
+  - 发布者：湖北经济学院党委宣传部；适用范围：学校通用。
+  - 文件容器已读取：ZIP；1972055字节；读取类型archive_structure；文件SHA256 `d3d4174ab39ec71f166dfc19363610d62493692183169c591ba60061b2abf9c6`。
+    - 包内 `PPT─ú░σ.pptx`：6页；画幅16:9。
+- [校名、校徽、校训](https://www.hbue.edu.cn/435/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hbue.edu.cn/435/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

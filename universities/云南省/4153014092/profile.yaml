@@ -107,12 +107,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.wynu.edu.cn/xxgg/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.wynu.edu.cn/xxgg/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -181,6 +182,51 @@ visual:
     source_as_of: unspecified
     byte_size: 28988
     representation: raster
+  - asset_id: 9f99b427fc6978d5c5991377
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.wynu.edu.cn/images/logo.png
+    source: https://www.wynu.edu.cn/xxgg/xxbs.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 滇西科技师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 滇西科技师范学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '   '
+      context: '  wap m-head  m-logo   '
+      position: 10
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://www.wynu.edu.cn/images/logo.png
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+    - url: http://www.wynu.edu.cn/images/logo.png
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
   color_palette:
   - value: '#0030F8'
     rgb:
@@ -236,7 +282,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: d98b0acd6e125b41
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.wynu.edu.cn/xxgg/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.wynu.edu.cn/xxgg/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6bfe338edefaf1c053779a20c3d6fd26e95c9c6d4698c6d7786301fed111101b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

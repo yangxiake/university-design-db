@@ -117,9 +117,10 @@ visual:
     value: https://www.qhnu.edu.cn/xxgk/xh.htm
     source: https://www.qhnu.edu.cn/xxgk/xh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形徽志中心将师范拼音缩写变形成朝阳中奋飞的凤凰，上下列中英文校名。
     source: https://www.qhnu.edu.cn/xxgk/xxzc.htm
@@ -329,7 +330,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 283c65e46efb393d
-  vi_resources: []
+  vi_resources:
+  - title: 校徽
+    url: https://www.qhnu.edu.cn/xxgk/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.qhnu.edu.cn/xxgk/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6fbb055e83e772d5393c3af574b8a893bd235e51331f38bb826b6fa034871b4c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1956
@@ -523,14 +540,14 @@ location:
     source: https://www.qhnu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 城北校区
     address: null
     coordinates: null
     source: https://www.qhnu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 青海师范大学位于青海省西宁市，主管部门为青海省。官网列示在校学生17047人（统计日期未注明）。官网列示教职工1267人（统计日期未注明）。简介列出城西校区、城北校区。

@@ -123,12 +123,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    availability: found
     search_sources: []
+    source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -371,6 +372,82 @@ visual:
     source_as_of: unspecified
     byte_size: 14804
     representation: raster
+  - asset_id: 9dfd7bc2f1537742f3577259
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://dwxcb.cnu.edu.cn/images/logo1.png
+    source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 首都师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 首都师范大学
+    format: png
+    width: 299
+    height: 82
+    vector: false
+    has_alpha: true
+    transparent_background: false
+    sha256: 1e7d59623b8437fb758890db663215568e086f6ea7ae672032e41ae2badcdc98
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo1.png
+      label: '   '
+      context: 'wraq_header  header pr  logo  logo_01 '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 20110
+    representation: raster
+    resolved_url: https://dwxcb.cnu.edu.cn/images/logo1.png
+    inspection_attempts:
+    - url: https://dwxcb.cnu.edu.cn/images/logo1.png
+      status: content_inspected
+  - asset_id: df5e2dcb3b11203445d12236
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://dwxcb.cnu.edu.cn/images/logo2.png
+    source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 首都师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 首都师范大学
+    format: png
+    width: 262
+    height: 53
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 217f8040432144237b786b2c6931107132fdd1043af3bdd91167a209ee8f344b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo2.png
+      label: '   '
+      context: 'wraq_header  header pr  logo  logo_02 '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 5228
+    representation: raster
+    resolved_url: https://dwxcb.cnu.edu.cn/images/logo2.png
+    inspection_attempts:
+    - url: https://dwxcb.cnu.edu.cn/images/logo2.png
+      status: content_inspected
   color_palette:
   - value: '#204989'
     rgb:
@@ -479,6 +556,74 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 8fdff46c11c9d33a
+  - value: '#C07878'
+    rgb:
+    - 192
+    - 120
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://dwxcb.cnu.edu.cn/images/logo1.png
+    page_source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    asset_id: 9dfd7bc2f1537742f3577259
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#C88888'
+    rgb:
+    - 200
+    - 136
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://dwxcb.cnu.edu.cn/images/logo1.png
+    page_source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    asset_id: 9dfd7bc2f1537742f3577259
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#900008'
+    rgb:
+    - 144
+    - 0
+    - 8
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://dwxcb.cnu.edu.cn/images/logo2.png
+    page_source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    asset_id: df5e2dcb3b11203445d12236
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#980008'
+    rgb:
+    - 152
+    - 0
+    - 8
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://dwxcb.cnu.edu.cn/images/logo2.png
+    page_source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    asset_id: df5e2dcb3b11203445d12236
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources:
   - title: 视觉形象管理系统
     url: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
@@ -496,6 +641,70 @@ visual:
     checked_at: '2026-10-01'
     availability: found
     note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
+  - title: 首都师范大学视觉形象识别管理系统
+    url: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8b6c4bf70e9a199ea8be725647c28e560ff160b7d1b3c34090d9c49cc91326f2
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 首都师大vi系统矢量文件-20160930修订.rar
+    url: https://dwxcb.cnu.edu.cn/docs/2017-07/0d1ddb17f75644ac892a3338cf73ed2f.rar
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8b6c4bf70e9a199ea8be725647c28e560ff160b7d1b3c34090d9c49cc91326f2
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 首都师范大学视觉形象识别系统管理手册.pdf
+    url: https://dwxcb.cnu.edu.cn/docs/2017-05/4a21275df8394935bd332d4371a6d489.pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8b6c4bf70e9a199ea8be725647c28e560ff160b7d1b3c34090d9c49cc91326f2
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 首都师大vi系统矢量图.rar
+    url: https://dwxcb.cnu.edu.cn/docs/2014-11/a1c4bc52382444bc952c2841c5dc161d.rar
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.cnu.edu.cn/whjs/xywh/3ad0e4dd072c4ed5be6530c7dedc6c01.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8b6c4bf70e9a199ea8be725647c28e560ff160b7d1b3c34090d9c49cc91326f2
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1954

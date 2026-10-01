@@ -223,6 +223,44 @@ visual:
     source_as_of: unspecified
     byte_size: 98055
     representation: raster
+  - asset_id: 02db9ca85e384713c67e5c76
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.sdaeu.edu.cn/images/logo.png
+    source: http://www.sdaeu.edu.cn/xxgk/xxbs.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 山东农业工程学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东农业工程学院
+    format: png
+    width: 326
+    height: 68
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 0215eaf216e5fc962ef98652758971b3fb09104e1c20deadfede36eab0a67252
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '   '
+      context: '  wap m-head  m-logo   '
+      position: 5
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 19465
+    representation: raster
+    resolved_url: http://www.sdaeu.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: http://www.sdaeu.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#1A8D3F'
     rgb:
@@ -328,7 +366,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: d12607a7eb5d36d9
-  vi_resources: []
+  - value: '#187838'
+    rgb:
+    - 24
+    - 120
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.sdaeu.edu.cn/images/logo.png
+    page_source: http://www.sdaeu.edu.cn/xxgk/xxbs.htm
+    asset_id: 02db9ca85e384713c67e5c76
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#107838'
+    rgb:
+    - 16
+    - 120
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.sdaeu.edu.cn/images/logo.png
+    page_source: http://www.sdaeu.edu.cn/xxgk/xxbs.htm
+    asset_id: 02db9ca85e384713c67e5c76
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: http://www.sdaeu.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.sdaeu.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: bb4bca38f145db6246ddb5956ef0e6b235a74eb1c67dfb1c7197cdddc9f47d00
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -507,14 +595,14 @@ location:
     source: https://www.sdaeu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 淄博校区
     address: null
     coordinates: null
     source: https://www.sdaeu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 山东农业工程学院位于山东省济南市，主管部门为山东省。官网列示教职工1103人（统计日期未注明）。官网列示占地面积2225.78亩（统计日期未注明）。简介列出济南校区、淄博校区。

@@ -1,6 +1,6 @@
 schema_version: 1
 dataset_as_of: 2026-06-17
-assembled_at: '2026-10-01'
+assembled_at: '2026-10-02'
 sources:
   ordinary_schools_2026:
     publisher: 中华人民共和国教育部
@@ -39,3 +39,24 @@ external_repository_manifest: data/external/repositories.yaml
 profile_schema: data/profile-schema-v3.yaml
 profile_schema_version: 3
 field_union_report: docs/github-field-union-2026.md
+visual_guide_research:
+  decisions: data/review/visual-guides-decisions-2026.yaml
+  source_attempts: data/review/official-visual-guides-2026.json
+  attachments: data/review/visual-attachments-2026.json
+  homepage_identity: data/review/homepage-identity-2026.jsonl
+  coverage_report: docs/visual-completion-progress-2026.md
+  screen_color_policy: Official CMYK/Pantone-only colors retain null HEX/RGB; inconsistent RGB/HEX remain
+    conflicts.
+  directory_leads: data/review/visual-directory-leads-2026.json
+  directory_attempts: data/review/visual-directory-2026.jsonl
+  ppt_sources: data/review/ppt-source-leads-2026.yaml
+  ppt_receipts: data/review/ppt-resources-2026.jsonl
+  ppt_guide: docs/ppt-guide.md
+  ppt_indexes:
+  - indexes/ppt-starter.csv
+  - indexes/ppt-resources.csv
+  - indexes/ppt-template-files.csv
+  template_file_inspections: data/review/template-file-inspections-2026.jsonl
+  community_ppt_sources: data/review/community-ppt-sources-2026.yaml
+  community_ppt_receipts: data/review/community-ppt-metadata-2026.json
+  cnlogo_metadata: data/review/cnlogo-metadata-2026.json

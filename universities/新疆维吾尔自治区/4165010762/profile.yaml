@@ -210,6 +210,47 @@ visual:
     source_as_of: unspecified
     byte_size: 56807
     representation: raster
+  - asset_id: 19d68832768064dd67682c9a
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://dllyxy.xjnu.edu.cn/font/yuanhuihengbanbaise-koutu.png
+    source: https://dllyxy.xjnu.edu.cn/info/1053/3779.htm
+    file_name: yuanhuihengbanbaise-koutu.png
+    upstream_path: null
+    publisher: 新疆师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆师范大学
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../font/yuanhuihengbanbaise-koutu.png
+      label: '   '
+      context: '  wap m-head  m-logo   '
+      position: 5
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://dllyxy.xjnu.edu.cn/font/yuanhuihengbanbaise-koutu.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
   color_palette:
   - value: '#982028'
     rgb:
@@ -265,7 +306,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: b79cb8f4c728280b
-  vi_resources: []
+  vi_resources:
+  - title: 新疆师范大学校徽
+    url: https://dllyxy.xjnu.edu.cn/info/1053/3779.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dllyxy.xjnu.edu.cn/info/1053/3779.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6f4a93c454b04fd9a1f7e3b2176f44d1d6cddcb00b913c19f68e384fb825a46a
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 新疆师范大学校徽三种抠图版.rar
+    url: https://dllyxy.xjnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2066846961&wbfileid=C88924133218E9E4753594CC45AC18ED
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dllyxy.xjnu.edu.cn/info/1053/3779.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6f4a93c454b04fd9a1f7e3b2176f44d1d6cddcb00b913c19f68e384fb825a46a
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1978
@@ -437,14 +510,14 @@ location:
     source: https://www.xjnu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 昆仑校区
     address: null
     coordinates: null
     source: https://www.xjnu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 新疆师范大学位于新疆维吾尔自治区乌鲁木齐市，主管部门为新疆维吾尔自治区。官网列示占地面积2284亩（统计日期未注明）。简介列出温泉校区、昆仑校区。

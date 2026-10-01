@@ -107,7 +107,7 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
@@ -589,7 +589,180 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 65b3dcded88b9679
-  vi_resources: []
+  vi_resources:
+  - title: 浙江大学微纳电子学院 PPT模板发布/下载页
+    url: https://ic.zju.edu.cn/2025/0912/c81195a3080798/page.htm
+    kinds:
+    - 院系PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://ic.zju.edu.cn/2025/0912/c81195a3080798/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dc50f0602654c1f38b856bcb7644c0a286132e92a37e73704a01f514e18bba6b
+    note: 发布范围：浙江大学微纳电子学院；按发布页说明使用。
+    publisher: 浙江大学微纳电子学院
+    use_scope: department
+    content_read: true
+    download_status: page_read
+  - title: 学院PPT模板.pptx
+    url: https://ic.zju.edu.cn/_upload/article/files/b7/30/be9580b04a2d907c035cd4f053ac/9b5581d8-41fa-47cd-9edb-97da8630ee90.pptx
+    kinds:
+    - 院系PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://ic.zju.edu.cn/2025/0912/c81195a3080798/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dc50f0602654c1f38b856bcb7644c0a286132e92a37e73704a01f514e18bba6b
+    note: 发布范围：浙江大学微纳电子学院。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 浙江大学微纳电子学院
+    use_scope: department
+    content_read: true
+    download_status: content_inspected
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://ic.zju.edu.cn/_upload/article/files/b7/30/be9580b04a2d907c035cd4f053ac/9b5581d8-41fa-47cd-9edb-97da8630ee90.pptx
+        status: file_read
+        resolved_url: https://ic.zju.edu.cn/_upload/article/files/b7/30/be9580b04a2d907c035cd4f053ac/9b5581d8-41fa-47cd-9edb-97da8630ee90.pptx
+      resolved_url: https://ic.zju.edu.cn/_upload/article/files/b7/30/be9580b04a2d907c035cd4f053ac/9b5581d8-41fa-47cd-9edb-97da8630ee90.pptx
+    file_metadata:
+      sha256: 721a2b1ebd42d43c0a6b306fc9594b67492b770892a69d919020c24e0ec22de6
+      byte_size: 225698
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 5
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Impact
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Plantagenet Cherokee
+      - Raavi
+      - Shruti
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 微软雅黑
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 맑은 고딕
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 44
+      textless_slides: 0
+      media_count: 4
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 浙江大学校标
+    url: https://www.zju.edu.cn/572/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zju.edu.cn/572/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 50839e2c79c5f70b3dcefd85635698630e7004fc24f8801b8b1ef63c67f69a80
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 浙江大学校标.png
+    url: https://www.zju.edu.cn/_upload/article/images/c3/98/1fb1d281492eb477a098ef7a2901/05966b26-ab45-470d-94c1-99b1e02d12f4.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zju.edu.cn/572/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 50839e2c79c5f70b3dcefd85635698630e7004fc24f8801b8b1ef63c67f69a80
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 浙江大学校标规范.zip
+    url: https://www.zju.edu.cn/_upload/article/files/c3/98/1fb1d281492eb477a098ef7a2901/ee6d4e77-ffef-4e32-b76b-be8658698d98.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zju.edu.cn/572/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 50839e2c79c5f70b3dcefd85635698630e7004fc24f8801b8b1ef63c67f69a80
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 浙江大学校标与二级单位标准组合规范.zip
+    url: https://www.zju.edu.cn/_upload/article/files/c3/98/1fb1d281492eb477a098ef7a2901/cfd07e56-ff20-4512-989e-76e78b65cb45.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zju.edu.cn/572/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 50839e2c79c5f70b3dcefd85635698630e7004fc24f8801b8b1ef63c67f69a80
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1897
@@ -697,6 +870,23 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  - title: 浙江大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/zju.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/zju.tex
+    source_sha256: c5eec627fd00934c889f3f44ba35a24ec05a7eed9f7f3a9f5905ddb357a04ae1
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
   admissions_url:
     value: null
     source: null

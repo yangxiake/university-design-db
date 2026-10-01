@@ -117,9 +117,10 @@ visual:
     value: https://www.lnpu.edu.cn/info/1071/1571.htm
     source: https://www.lnpu.edu.cn/info/1071/1571.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -310,7 +311,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 6af1a1629cc500a1
-  vi_resources: []
+  vi_resources:
+  - title: 校标
+    url: https://www.lnpu.edu.cn/xxzl/xywh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.lnpu.edu.cn/xxzl/xywh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: bce6766b7e253c1e2a20f4a2003cf4b789f2d214027e6b90c07ddd3a2442b160
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标
+    url: https://www.lnpu.edu.cn/info/1071/1571.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.lnpu.edu.cn/info/1071/1571.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 20949aec82892c9dd4ca8c80cdb0c57fc96decb096d7ca7b91b35387a0a4f6d8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

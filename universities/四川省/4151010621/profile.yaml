@@ -117,9 +117,10 @@ visual:
     value: https://www.cuit.edu.cn/index/cxwh/xxxb.htm
     source: https://www.cuit.edu.cn/index/cxwh/xxxb.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -328,7 +329,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 10488fa90c5e7bdb
-  vi_resources: []
+  vi_resources:
+  - title: 学校校标
+    url: https://www.cuit.edu.cn/index/cxwh/xxxb.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cuit.edu.cn/index/cxwh/xxxb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c69437bc71b5700c457b98080fc85911d9df365bdc43872ae7c559879cd4726e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 成都信息工程大学校标logo发布.zip
+    url: https://www.cuit.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2050111851&wbfileid=E5012E94A613E8E1EB77EA4A263F43D1
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cuit.edu.cn/index/cxwh/xxxb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c69437bc71b5700c457b98080fc85911d9df365bdc43872ae7c559879cd4726e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1951
@@ -527,14 +560,14 @@ location:
     source: https://www.cuit.edu.cn/xygk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 龙泉校区
     address: null
     coordinates: null
     source: https://www.cuit.edu.cn/xygk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 成都信息工程大学位于四川省成都市，主管部门为四川省。官网列示普通本科生21500余人（统计日期未注明）。官网列示占地面积2000余亩（统计日期未注明）。简介列出航空港校区、龙泉校区。

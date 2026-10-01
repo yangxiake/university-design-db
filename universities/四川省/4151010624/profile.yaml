@@ -216,6 +216,82 @@ visual:
     source_as_of: unspecified
     byte_size: 80234
     representation: raster
+  - asset_id: 194106a832e9b86a2abe0732
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.cafuc.edu.cn/images/logo.png
+    source: https://vi.cafuc.edu.cn/index.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 中国民用航空飞行学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国民用航空飞行学院
+    format: png
+    width: 478
+    height: 105
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 01b82bc4c7c618885eedf43cafae21e7265e35a804d8459550d451d29d445534
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'head  wp  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 22081
+    representation: raster
+    resolved_url: https://vi.cafuc.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: https://vi.cafuc.edu.cn/images/logo.png
+      status: content_inspected
+  - asset_id: db302b1b0fd8935377921ac0
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.cafuc.edu.cn/images/logo2.png
+    source: https://vi.cafuc.edu.cn/info/1004/1099.htm
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 中国民用航空飞行学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国民用航空飞行学院
+    format: png
+    width: 690
+    height: 94
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 120ff26167117bb38161ed6c084428a085ddd9e435bb5d650e6bb088e50bb11e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo2.png
+      label: '   '
+      context: 'head2  wp clear  logo fl   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 26072
+    representation: raster
+    resolved_url: https://vi.cafuc.edu.cn/images/logo2.png
+    inspection_attempts:
+    - url: https://vi.cafuc.edu.cn/images/logo2.png
+      status: content_inspected
   color_palette:
   - value: '#C03030'
     rgb:
@@ -271,7 +347,137 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: d867dac18ccb6c76
-  vi_resources: []
+  vi_resources:
+  - title: 中国民用航空飞行学院官网视觉资源页 PPT模板发布/下载页
+    url: https://vi.cafuc.edu.cn/
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://vi.cafuc.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7ccbe05870398bb4717c5e0db3e830c1db20338b601e7c5423c98c57155004df
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 中国民用航空飞行学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 中国民用航空飞行学院官网视觉资源页 PPT模板发布/下载页
+    url: https://vi.cafuc.edu.cn/index.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://vi.cafuc.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7ccbe05870398bb4717c5e0db3e830c1db20338b601e7c5423c98c57155004df
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 中国民用航空飞行学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 学校标志
+    url: https://vi.cafuc.edu.cn/jcxt/xxbz.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.cafuc.edu.cn/jcxt/xxbz.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ef8e0dd339d738e1da28c0d0dd76a5706f7f5b81b1cc720ca7cb225870eb7185
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 彩虹色系校标
+    url: https://vi.cafuc.edu.cn/info/1004/1099.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.cafuc.edu.cn/info/1004/1099.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1cfff46b7ff9a229dd4009806cf5a887034333bc90eedb55de5b292f933c0afb
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: PPT模板
+    url: https://vi.cafuc.edu.cn/info/1007/1124.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.cafuc.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7ccbe05870398bb4717c5e0db3e830c1db20338b601e7c5423c98c57155004df
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 中国民用航空飞行学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: &id001
+      - url: https://vi.cafuc.edu.cn/info/1007/1124.htm
+        status: target_page_read
+        resolved_url: https://vi.cafuc.edu.cn/info/1007/1124.htm
+      resolved_url: https://vi.cafuc.edu.cn/info/1007/1124.htm
+      page_metadata: &id002
+        title: PPT模板-视觉形象识别系统-中国民用航空飞行学院
+        sha256: 55bae56a68152813119bc947134b90fa0d79c75051f3db3d3a3e1a2ec5062458
+        byte_size: 10610
+  - title: PPT模板
+    url: https://vi.cafuc.edu.cn/info/1007/1124.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.cafuc.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7ccbe05870398bb4717c5e0db3e830c1db20338b601e7c5423c98c57155004df
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 中国民用航空飞行学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: *id001
+      resolved_url: https://vi.cafuc.edu.cn/info/1007/1124.htm
+      page_metadata: *id002
 culture:
   founded_year:
     value: 1956
@@ -312,19 +518,20 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://vi.cafuc.edu.cn/
+    availability: found
     search_sources: []
+    source: https://vi.cafuc.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 中国民用航空飞行学院官网视觉资源页
+    availability: found
     search_sources: []
+    source: https://vi.cafuc.edu.cn/index.htm
+    verified: auto
+    checked_at: '2026-10-02'
   official_template_terms:
     value: null
     source: null

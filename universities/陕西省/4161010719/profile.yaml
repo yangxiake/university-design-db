@@ -118,9 +118,10 @@ visual:
     value: https://www.yau.edu.cn/xqzl/xxbz.htm
     source: https://www.yau.edu.cn/xqzl/xxbz.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -329,7 +330,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: dfc656ad8ab69479
-  vi_resources: []
+  vi_resources:
+  - title: 学校标志
+    url: https://www.yau.edu.cn/xqzl/xxbz.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.yau.edu.cn/xqzl/xxbz.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 320222126e2a971d0966c99f2ad4c222490a6c60e0d1e82d7a933d00d05aa979
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 新版校徽.zip
+    url: https://www.yau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2064896135&wbfileid=80E459FC8B1D8721EE60DD4B6E8549BA
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.yau.edu.cn/xqzl/xxbz.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 320222126e2a971d0966c99f2ad4c222490a6c60e0d1e82d7a933d00d05aa979
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1941
@@ -517,21 +550,21 @@ location:
     source: https://www.yau.edu.cn/xqzl/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 杨家岭校区
     address: null
     coordinates: null
     source: https://www.yau.edu.cn/xqzl/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 萃园校区
     address: null
     coordinates: null
     source: https://www.yau.edu.cn/xqzl/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 延安大学位于陕西省延安市，主管部门为陕西省。官网列示各类在校学生23000余人（统计日期未注明）。官网列示教职工1900余人（统计日期未注明）。官网列示总占地面积2800余亩（统计日期未注明）。简介列出新城校区、杨家岭校区、萃园校区。

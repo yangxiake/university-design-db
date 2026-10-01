@@ -22,11 +22,16 @@
 |  | `#003080` | 0,48,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#E00010` | 224,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#E80010` | 232,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 现行第四版校标红 | 未公布 | 未公布 | reference | [15, 100, 100, 0] |  | 官方VI标准值 | [依据](https://www.sdnu.edu.cn/overview/logo.htm) |
+| 现行第四版校标蓝 | 未公布 | 未公布 | reference | [100, 60, 10, 20] |  | 官方VI标准值 | [依据](https://www.sdnu.edu.cn/overview/logo.htm) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[http://www.sdnu.edu.cn/overview/logo.htm](http://www.sdnu.edu.cn/overview/logo.htm)
+- [山东师范大学计算机与人工智能学院 PPT模板发布/下载页](https://ischool.sdnu.edu.cn/info/1864/24355.htm)：["院系PPT模板"]；格式 HTML；访问条件 校方公开HTML页已读取；页面内附件或外部下载目标另行索引。官网记录[来源](https://ischool.sdnu.edu.cn/info/1864/24355.htm)。
+  - 发布者：山东师范大学计算机与人工智能学院；适用范围：院系专用。
+- [校标](https://www.sdnu.edu.cn/overview/logo.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.sdnu.edu.cn/overview/logo.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

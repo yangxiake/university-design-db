@@ -83,9 +83,10 @@ visual:
     value: https://www.tccu.edu.cn/1094/list.htm
     source: https://www.tccu.edu.cn/1094/list.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -131,7 +132,23 @@ visual:
     representation: raster
     resolved_url: https://www.tccu.edu.cn/_upload/tpl/00/ea/234/template234/static/image/logo.png
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.tccu.edu.cn/1094/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.tccu.edu.cn/1094/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5659b051e27a58663ec9084c25c029df5271a4e6145e5b87aaca140df2cccfb4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 2000
@@ -300,14 +317,14 @@ location:
     source: https://www.tccu.edu.cn/1090/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 净月校区
     address: null
     coordinates: null
     source: https://www.tccu.edu.cn/1090/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 长春大学旅游学院位于吉林省长春市，主管部门为吉林省教育厅。官网列示全日制在校学生9872人（统计日期未注明）。官网列示教职工727人（统计日期未注明）。简介列出奢岭校区、净月校区。

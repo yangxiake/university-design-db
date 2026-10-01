@@ -66,12 +66,22 @@ research:
   audit_key: '4142013686'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#14413C'
+    source: https://www.whmc.edu.cn/xxgk/xhxx.htm
+    method: official_vi
+    label: 武传绿（校徽标准色）
+    basis: 当前官网校徽校训页明确校徽标准色“武传绿”RGB20/65/60、CMYK100/65/80/50；RGB精确换写为HEX，范围为校徽。
+    cmyk:
+    - 100
+    - 65
+    - 80
+    - 50
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 1f1e3be5ba83dd572396abea5742eb1f5d49079c8dbfb0e73b423b6773893474
   color_secondary:
     value: null
     source: null
@@ -83,7 +93,7 @@ visual:
     value: https://www.whmc.edu.cn/xxgk/xhxx.htm
     source: https://www.whmc.edu.cn/xxgk/xhxx.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
   badge_description:
@@ -130,8 +140,100 @@ visual:
     byte_size: 88838
     representation: raster
     resolved_url: https://www.whmc.edu.cn/fonts/zzlogo.png
-  color_palette: []
-  vi_resources: []
+  - asset_id: 01d4e4932bd33ef727e32823
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.whmc.edu.cn/fonts/zzlogo.png
+    source: http://www.whmc.edu.cn/xxgk/xhxx.htm
+    file_name: zzlogo.png
+    upstream_path: null
+    publisher: 武汉传媒学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉传媒学院
+    format: png
+    width: 1607
+    height: 451
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 4719f15ee94bc1e0ac29b7dfde1a27db9bc934372c668f38900e765157f19066
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../fonts/zzlogo.png
+      label: '武汉传媒学院   '
+      context: 'top2  wp flex pore  logo   '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 88838
+    representation: raster
+    resolved_url: http://www.whmc.edu.cn/fonts/zzlogo.png
+    inspection_attempts:
+    - url: http://www.whmc.edu.cn/fonts/zzlogo.png
+      status: content_inspected
+  color_palette:
+  - value: '#14413C'
+    rgb:
+    - 20
+    - 65
+    - 60
+    cmyk:
+    - 100
+    - 65
+    - 80
+    - 50
+    pantone: null
+    label: 武传绿（校徽标准色）
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.whmc.edu.cn/xxgk/xhxx.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 当前官网校徽校训页明确校徽标准色“武传绿”RGB20/65/60、CMYK100/65/80/50；RGB精确换写为HEX，范围为校徽。
+    source_sha256: 1f1e3be5ba83dd572396abea5742eb1f5d49079c8dbfb0e73b423b6773893474
+    source_field: visual.color_primary
+  vi_resources:
+  - title: 武汉传媒学院官方视觉规范
+    url: https://www.whmc.edu.cn/xxgk/xhxx.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.whmc.edu.cn/xxgk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 当前官网校徽校训页明确校徽标准色“武传绿”RGB20/65/60、CMYK100/65/80/50；RGB精确换写为HEX，范围为校徽。
+  - title: 校徽校训-武汉传媒学院
+    url: http://www.whmc.edu.cn/xxgk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.whmc.edu.cn/xxgk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1f1e3be5ba83dd572396abea5742eb1f5d49079c8dbfb0e73b423b6773893474
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 2004

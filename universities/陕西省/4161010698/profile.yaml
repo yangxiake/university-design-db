@@ -105,7 +105,7 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
@@ -366,6 +366,44 @@ visual:
     source_as_of: unspecified
     byte_size: 88819
     representation: raster
+  - asset_id: 6d4224f5050222018cd313ac
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://vi.xjtu.edu.cn/img/logo.png
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 西安交通大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安交通大学
+    format: png
+    width: 105
+    height: 105
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6caabf1735a7ea0f3ef27118a0f97a41c4557e70dbcc6be82cc7dfe74be8a740
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../img/logo.png
+      label: '视觉形象识别系统 视觉形象识别系统  '
+      context: 'headertop  headerinfo  headerlogo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 8603
+    representation: raster
+    resolved_url: http://vi.xjtu.edu.cn/img/logo.png
+    inspection_attempts:
+    - url: http://vi.xjtu.edu.cn/img/logo.png
+      status: content_inspected
   color_palette:
   - value: '#C92B2F'
     rgb:
@@ -511,7 +549,709 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: e128694d16c5ed18
-  vi_resources: []
+  vi_resources:
+  - title: 西安交通大学官网视觉资源页 PPT模板发布/下载页
+    url: http://vi.xjtu.edu.cn/
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: http://vi.xjtu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 西安交通大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: PPT模板PPT TEMPLATE
+    url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: http://vi.xjtu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 西安交通大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: &id001
+      - url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+        status: target_page_read
+        resolved_url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+      resolved_url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+      page_metadata: &id002
+        title: PPT模板-视觉形象识别系统
+        sha256: 94cae574dcdeafa2b424f300bd2af3471cdf710ff44b3fc155c01bd4d9679f20
+        byte_size: 24861
+  - title: 西安交通大学官网视觉资源页 PPT模板发布/下载页
+    url: http://vi.xjtu.edu.cn/index.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: http://vi.xjtu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 西安交通大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: PPT模板PPT TEMPLATE
+    url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: http://vi.xjtu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 西安交通大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: *id001
+      resolved_url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+      page_metadata: *id002
+  - title: 西安交通大学官网视觉资源页 PPT模板发布/下载页
+    url: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 西安交通大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: PPT模板
+    url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 西安交通大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: *id001
+      resolved_url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+      page_metadata: *id002
+  - title: 西安交通大学官网视觉资源页 PPT模板发布/下载页
+    url: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 西安交通大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: PPT模板
+    url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 西安交通大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: *id001
+      resolved_url: http://vi.xjtu.edu.cn/yybf/PPTmb.htm
+      page_metadata: *id002
+  - title: 交大校徽.cdr
+    url: http://vi.xjtu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1042
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - CDR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 交大校标.png
+    url: http://vi.xjtu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1043
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 交大校徽.cdr
+    url: http://vi.xjtu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1042
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - CDR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 交大校标.png
+    url: http://vi.xjtu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1043
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-3交大校徽red.png
+    url: http://vi.xjtu.edu.cn/__local/B/EB/3B/AFB38DB59C846E6E60396FC5DC9_03247126_4D625.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-3交大校徽red.png
+    url: http://vi.xjtu.edu.cn/images/a1-3jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A2-1中文校名.png
+    url: http://vi.xjtu.edu.cn/images/a2-1zwxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A2-2英文校名.png
+    url: http://vi.xjtu.edu.cn/images/a2-2ywxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A3-1交大校徽red.png
+    url: http://vi.xjtu.edu.cn/images/a3-1jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A3-2交大校徽blue.png
+    url: http://vi.xjtu.edu.cn/images/a3-2jdxhblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A3-3交大校徽gray.png
+    url: http://vi.xjtu.edu.cn/images/a3-3jdxhgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-2校标red.png
+    url: http://vi.xjtu.edu.cn/images/a4-2xbred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-3校标blue.png
+    url: http://vi.xjtu.edu.cn/images/a4-3xbblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-4校标black.png
+    url: http://vi.xjtu.edu.cn/images/a4-4xbblack.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-5校标white.png
+    url: http://vi.xjtu.edu.cn/images/a4-5xbwhite.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-6校标gray.png
+    url: http://vi.xjtu.edu.cn/images/a4-6xbgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-2校标red.png
+    url: http://vi.xjtu.edu.cn/__local/2/F0/6C/8BC0384167B36D7F6D79CAB84CC_572344C2_9A84.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-3校标blue.png
+    url: http://vi.xjtu.edu.cn/__local/E/F0/B5/EBD4E65EA96FE834B31D3A9739D_79371B80_897E.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-4校标black.png
+    url: http://vi.xjtu.edu.cn/__local/2/C0/EB/9E1129FEDBC72B40D90F864C338_3472D34E_1473.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-5校标white.png
+    url: http://vi.xjtu.edu.cn/__local/C/7D/A0/5377BBA0311998F41CB7F8A94DC_68713383_BC2A.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-6校标gray.png
+    url: http://vi.xjtu.edu.cn/__local/A/4C/9B/53C7042E6524858DF32C2E16A26_F81BD03B_B1F1.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-3交大校徽red.png
+    url: http://vi.xjtu.edu.cn/images/a1-3jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A2-1中文校名.png
+    url: http://vi.xjtu.edu.cn/images/a2-1zwxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A2-2英文校名.png
+    url: http://vi.xjtu.edu.cn/images/a2-2ywxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A3-1交大校徽red.png
+    url: http://vi.xjtu.edu.cn/images/a3-1jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A3-2交大校徽blue.png
+    url: http://vi.xjtu.edu.cn/images/a3-2jdxhblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A3-3交大校徽gray.png
+    url: http://vi.xjtu.edu.cn/images/a3-3jdxhgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-2校标red.png
+    url: http://vi.xjtu.edu.cn/images/a4-2xbred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-3校标blue.png
+    url: http://vi.xjtu.edu.cn/images/a4-3xbblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-4校标black.png
+    url: http://vi.xjtu.edu.cn/images/a4-4xbblack.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-5校标white.png
+    url: http://vi.xjtu.edu.cn/images/a4-5xbwhite.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-6校标gray.png
+    url: http://vi.xjtu.edu.cn/images/a4-6xbgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1896
@@ -621,6 +1361,23 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  - title: 西安交通大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/xjtu.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/xjtu.tex
+    source_sha256: 3d0b4562bcd8de0e7c0763a6af46b4d9271c5cd8f84997c56121d68ace7a90d2
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
   admissions_url:
     value: http://www.xjtu.edu.cn/index/zsw.htm
     availability: found
@@ -774,28 +1531,28 @@ location:
     source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 雁塔校区
     address: null
     coordinates: null
     source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 曲江校区
     address: null
     coordinates: null
     source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 中国西部科技创新港校区
     address: null
     coordinates: null
     source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 西安交通大学位于陕西省西安市，主管部门为教育部。官网列示本科生25595名（统计日期未注明）。官网列示专任教师3971人（统计日期未注明）。官网列示占地面积约5000亩（统计日期未注明）。简介列出兴庆校区、雁塔校区、曲江校区、中国西部科技创新港校区。

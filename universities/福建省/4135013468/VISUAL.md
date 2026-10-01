@@ -17,10 +17,17 @@
 
 尚无附来源配色。
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.ygu.edu.cn/xxgk/xxlnybs.htm](https://www.ygu.edu.cn/xxgk/xxlnybs.htm)
+- [学校校徽与反白稿](https://www.ygu.edu.cn/xxgk/xxlnybs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ygu.edu.cn/xxgk/xxlnybs.htm)。
+- [学校校徽与反白稿](https://www.ygu.edu.cn/info/1026/3397.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ygu.edu.cn/info/1026/3397.htm)。
+- [阳光学院校徽及中英文校名组合规范-彩色稿_01_副本.jpg](https://www.ygu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2110836161&wbfileid=17547024)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ygu.edu.cn/info/1026/3397.htm)。
+- [阳光学院校徽及中英文校名组合规范-彩色稿_副本.png](https://www.ygu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2110836161&wbfileid=17547023)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ygu.edu.cn/info/1026/3397.htm)。
+- [中英文校名全称横式](https://www.ygu.edu.cn/info/1026/3396.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ygu.edu.cn/info/1026/3396.htm)。
+- [阳光学院校徽及中英文校名组合规范-彩色稿_02_副本.jpg](https://www.ygu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2110836161&wbfileid=17547025)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ygu.edu.cn/info/1026/3396.htm)。
+- [阳光学院校徽及中英文校名组合规范-彩色稿_副本.png](https://www.ygu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2110836161&wbfileid=17547026)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ygu.edu.cn/info/1026/3396.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

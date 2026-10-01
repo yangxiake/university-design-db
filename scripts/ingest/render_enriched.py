@@ -6,6 +6,7 @@ import csv
 import io
 import json
 import pathlib
+import re
 
 import yaml
 
@@ -31,7 +32,7 @@ BASE_FACTS = {
 def cell(value):
     if isinstance(value,(dict,list)):
         value=json.dumps(value,ensure_ascii=False,sort_keys=True)
-    return str(value if value is not None else '').replace('|','\\|').replace('\n',' ')
+    return re.sub(r'\s+',' ',str(value if value is not None else '')).replace('|','\\|')
 
 
 def render_visual(profile):
@@ -48,7 +49,9 @@ def render_visual(profile):
             '## 调色板','','| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |','| --- | --- | --- | --- | --- | --- | --- | --- |']
     for entry in visual['color_palette']:
         role=entry['role']+('（历史参考）' if entry.get('current') is False else '')
-        lines.append('| %s | `%s` | %s | %s | %s | %s | %s | [依据](%s) |'%(cell(entry.get('label')),entry['value'],','.join(map(str,entry['rgb'])),role,cell(entry.get('cmyk')),cell(entry.get('pantone')),METHODS[entry['method']],entry['source']))
+        hex_value='`%s`'%entry['value'] if entry.get('value') else '未公布'
+        rgb_value=','.join(map(str,entry['rgb'])) if entry.get('rgb') else '未公布'
+        lines.append('| %s | %s | %s | %s | %s | %s | %s | [依据](%s) |'%(cell(entry.get('label')),hex_value,rgb_value,role,cell(entry.get('cmyk')),cell(entry.get('pantone')),METHODS[entry['method']],entry['source']))
     if not visual['color_palette']:
         lines+=['','尚无附来源配色。']
     for key,label in [('color_primary','主色'),('color_secondary','辅色/并列色')]:
@@ -56,11 +59,23 @@ def render_visual(profile):
         if fact['availability']=='conflict':
             lines+=['',label+'来源存在差异：'+fact.get('note','')]
             lines+=['- `%s`：[来源](%s)；%s'%(item['value'],item['source'],item.get('basis','')) for item in fact['candidates']]
-    lines+=['','建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。','', '## VI资源与下载条件','']
+    lines+=['','建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。','', '## VI资源与下载条件','']
     vi=visual['vi_url']
     if vi['availability']=='found':lines+=['- 现有VI入口：[%s](%s)'%(vi['value'],vi['value'])]
     for entry in visual['vi_resources']:
-        lines+=['- [%s](%s)：%s；格式 %s；访问条件 %s。%s[来源](%s)。'%(entry['title'],entry['url'],cell(entry['kinds']),','.join(entry['formats']) or '未知',cell(entry['access_requirement']),'官网记录' if entry.get('official') else '社区记录',entry['source'])]
+        lines+=['- [%s](%s)：%s；格式 %s；访问条件 %s。%s[来源](%s)。'%(cell(entry['title']),entry['url'],cell(entry['kinds']),','.join(entry['formats']) or '未知',cell(entry['access_requirement']),'官网记录' if entry.get('official') else '社区记录',entry['source'])]
+        if entry.get('publisher') or entry.get('use_scope'):
+            scope={'school':'学校通用','department':'院系专用'}.get(entry.get('use_scope'),entry.get('use_scope') or '未明确')
+            lines+=['  - 发布者：%s；适用范围：%s%s。'%(cell(entry.get('publisher') or '原发布页'),scope,'；版本年：'+str(entry['edition_year']) if entry.get('edition_year') else '')]
+        meta=entry.get('file_metadata') or {}
+        if meta.get('format')=='PPTX':
+            lines+=['  - 文件结构已读取：%s页；画幅%s；声明字体%s；可编辑文本节点%s；文件SHA256 `%s`。'%(meta['slide_count'],meta['aspect_ratio'],cell('、'.join(meta['font_names']) or '未声明'),meta['editable_text_runs'],meta['sha256'])]
+        elif meta:
+            lines+=['  - 文件容器已读取：%s；%s字节；读取类型%s；文件SHA256 `%s`。'%(meta['format'],meta['byte_size'],meta['read_kind'],meta['sha256'])]
+            for member in meta.get('presentation_members',[]):
+                if member['status']=='content_inspected':lines+=['    - 包内 `%s`：%s页；画幅%s。'%(cell(member['path']),member['slide_count'],member['aspect_ratio'])]
+        elif entry.get('file_inspection'):
+            lines+=['  - 文件读取结果：%s；错误与已尝试网址见profile.yaml。'%entry['file_inspection']['status']]
     lines+=['','更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。','']
     return '\n'.join(lines)
 

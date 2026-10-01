@@ -12,6 +12,8 @@
 
 示例：[清华大学](universities/北京市/4111010003/profile.yaml)、[北京大学](universities/北京市/4111010001/profile.yaml)、[西湖大学](universities/浙江省/4133014626/profile.yaml)。PPT 和 AI 助手的完整使用方法见[数据指南](docs/data-guide.md)。
 
+制作PPT可从[单校素材索引](indexes/ppt-starter.csv)开始，接着查[模板与素材入口](indexes/ppt-resources.csv)。学校通用、院系专用、社区PPTX/Marp/Beamer和TikZ标识源码分别标注；读取方法见[PPT使用指南](docs/ppt-guide.md)。
+
 ## GitHub字段并集与视觉资料
 
 v3在原有学校身份、文化与官方资源字段上新增27个事实字段、12个结构化集合，纳入中英文简称、类型与性质、授课语言、地址/坐标、学科、人数/面积、历史排名、招生/就业数据的完整口径，并保留可追溯社区快照。实际填充数量和上游字段逐项落点见[字段比较与覆盖报告](docs/github-field-union-2026.md)，有字段不表示已取得对应数据。
@@ -22,6 +24,8 @@ v3在原有学校身份、文化与官方资源字段上新增27个事实字段�
 - [扩展目录](indexes/enriched-catalog.csv)、[新增事实](indexes/extended-facts.csv)、[排名历史](indexes/rankings.csv)、[学科评估](indexes/subject-assessments.csv)、[录取参考](indexes/admission-cutoffs.csv)。
 - [校区索引](indexes/campuses.csv)与[官网简介及开源补采报告](docs/overview-enrichment-progress-2026.md)：短摘要、人数、面积与授权点；看统计日期、近似标注及总数/子群口径。
 - [AI用JSONL全集](indexes/profiles.jsonl)：从1412份档案生成，每行一校；可用`school_code`稳定关联各索引。
+- [官方视觉规范补采进度](docs/visual-completion-progress-2026.md)：新增标准色色卡、仅印刷色规范、数字冲突及补确认的官网入口。
+- [实际模板文件](indexes/ppt-template-files.csv)：已读取PPTX的页数、画幅、声明字体、可编辑文本节点与哈希；压缩包内模板逐文件列出。
 
 校徽图形只保存逐文件链接和内容元数据。社区仓库的代码/数据许可与学校标识的图形授权分别记录；文件可访问、格式已检查、图形为学校现行版本是不同状态。记录中的历史排名和招生参考值不自动成为现行官方结论。
 
@@ -59,14 +63,17 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/render_community.py
 .venv/bin/python scripts/ingest/render_enriched.py
 .venv/bin/python scripts/ingest/build_indexes.py
+.venv/bin/python scripts/ingest/build_ppt_indexes.py
 .venv/bin/python scripts/validate/report_field_union.py
 .venv/bin/python scripts/validate/report_official_extensions.py
 .venv/bin/python scripts/validate/report_overview_progress.py
+.venv/bin/python scripts/validate/report_visual_completion.py
 .venv/bin/python scripts/validate/report_coverage.py
 .venv/bin/python scripts/validate/report_research.py
 .venv/bin/python scripts/validate/build_review_queue.py
 .venv/bin/python scripts/validate/validate_profiles.py --automatic-draft
 .venv/bin/python scripts/ingest/build_indexes.py --check
+.venv/bin/python scripts/ingest/build_ppt_indexes.py --check
 .venv/bin/python scripts/ingest/render_official.py --check
 .venv/bin/python scripts/ingest/render_community.py --check
 .venv/bin/python scripts/ingest/render_enriched.py --check
@@ -85,12 +92,21 @@ python3 -m venv .venv
 .venv/bin/python scripts/validate/build_review_queue.py
 .venv/bin/python scripts/ingest/discover_official_pages.py --priority 2 --resume
 .venv/bin/python scripts/ingest/import_confirmed_homepages.py
+.venv/bin/python scripts/ingest/collect_homepage_identity.py
 .venv/bin/python scripts/ingest/research_all_schools.py --resume
 .venv/bin/python scripts/ingest/apply_context_corrections.py
 .venv/bin/python scripts/ingest/import_research_claims.py
 .venv/bin/python scripts/ingest/import_scope_extensions.py
 .venv/bin/python scripts/ingest/collect_official_extensions.py --resume
 .venv/bin/python scripts/ingest/import_visual_refresh.py
+.venv/bin/python scripts/ingest/import_visual_refresh.py --decisions data/review/visual-guides-decisions-2026.yaml
+.venv/bin/python scripts/ingest/collect_visual_attachments.py
+.venv/bin/python scripts/ingest/collect_visual_directory.py --resume
+.venv/bin/python scripts/ingest/collect_visual_directory.py --import-only --recover-confirmed-host
+.venv/bin/python scripts/ingest/collect_ppt_resources.py
+.venv/bin/python scripts/ingest/import_cnlogo_metadata.py
+.venv/bin/python scripts/ingest/import_community_ppt_metadata.py
+.venv/bin/python scripts/ingest/inspect_template_files.py
 .venv/bin/python scripts/ingest/collect_official_overviews.py --resume
 .venv/bin/python scripts/ingest/import_overview_supplements.py
 .venv/bin/python scripts/ingest/sync_source_candidates.py
@@ -105,6 +121,8 @@ python3 -m venv .venv
 失败的官网标识文件可用`collect_official_extensions.py --retry-asset-errors`单独重试原链接及同路径另一协议；尺寸不符合标识要求的图片进入排除记录。联系与门户进度见[官网扩展报告](docs/official-extension-progress-2026.md)。
 
 `collect_official_overviews.py --retry-missing`从已有台账缺项出发尝试不同简介入口和官网导航；`--collect-only`先保存证据台账，`--reparse-cache --import-only`用忽略目录中的HTML重新解析并导入，原文不发布。最后运行`import_overview_supplements.py`按固定证据规则核对统计卡片；页面内容变化导致证据不匹配时停止该导入。
+
+`inspect_template_files.py --retry-errors`重试未读取的模板文件；资源重新导入后运行`--import-only`恢复已有结构元数据，再生成PPT索引。读取有文件/展开大小及时间上限；公开文件仅存于忽略目录，仓库只发布URL、结构统计和哈希。
 
 ## 来源与许可
 

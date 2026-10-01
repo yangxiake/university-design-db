@@ -85,9 +85,10 @@ visual:
     value: https://www.gdbtu.edu.cn/contents/260/36.html
     source: https://www.gdbtu.edu.cn/contents/260/36.html
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -236,7 +237,23 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.gdbtu.edu.cn/contents/260/36.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gdbtu.edu.cn/contents/260/36.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 82f5fbdc04eea7d06b5284b70a3de9b176bc0ebb01a4def62682cb57b2ba9bd8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -404,14 +421,14 @@ location:
     source: https://www.gdbtu.edu.cn/contents/257/34.html
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 大旺校区
     address: null
     coordinates: null
     source: https://www.gdbtu.edu.cn/contents/257/34.html
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 广东工商职业技术大学位于广东省肇庆市，主管部门为广东省教育厅。官网列示全日制在校生23000余人（统计日期未注明）。官网列示教职工1300余人（统计日期未注明）。官网列示校园占地面积2306.01亩（统计日期未注明）。简介列出星湖校区、大旺校区。

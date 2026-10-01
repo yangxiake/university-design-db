@@ -138,9 +138,10 @@ visual:
     value: https://www.seu.edu.cn/bsxtwxw/list.htm
     source: https://www.seu.edu.cn/bsxtwxw/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -412,6 +413,44 @@ visual:
     source_as_of: unspecified
     byte_size: 26454
     representation: raster
+  - asset_id: 9361dfb2f70d1812d0b970c9
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.seu.edu.cn/_upload/tpl/0b/59/2905/template2905/images/listLogo.png
+    source: https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm
+    file_name: listLogo.png
+    upstream_path: null
+    publisher: 东南大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 东南大学
+    format: png
+    width: 2000
+    height: 600
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 62a08cccebbb07c74e42adac8eec71580803436b9a2c918eb632937251d47e1d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/0b/59/2905/template2905/images/listLogo.png
+      label: '   '
+      context: 'inner  head-left  sitelogo   '
+      position: 5
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 191776
+    representation: raster
+    resolved_url: https://www.seu.edu.cn/_upload/tpl/0b/59/2905/template2905/images/listLogo.png
+    inspection_attempts:
+    - url: https://www.seu.edu.cn/_upload/tpl/0b/59/2905/template2905/images/listLogo.png
+      status: content_inspected
   color_palette:
   - value: '#4D7C2C'
     rgb:
@@ -714,7 +753,165 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 53982cd94fc6d19d
-  vi_resources: []
+  - value: '#F8D000'
+    rgb:
+    - 248
+    - 208
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.seu.edu.cn/_upload/tpl/0b/59/2905/template2905/images/listLogo.png
+    page_source: https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm
+    asset_id: 9361dfb2f70d1812d0b970c9
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#487828'
+    rgb:
+    - 72
+    - 120
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.seu.edu.cn/_upload/tpl/0b/59/2905/template2905/images/listLogo.png
+    page_source: https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm
+    asset_id: 9361dfb2f70d1812d0b970c9
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 东南大学自动化学院 PPT模板发布/下载页
+    url: https://automation.seu.edu.cn/bsxt/list.htm
+    kinds:
+    - 院系PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://automation.seu.edu.cn/bsxt/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2d0a484573c90375ceb59a646a9ab502e092314cc171e4bf397124715f7bab2f
+    note: 发布范围：东南大学自动化学院；按发布页说明使用。
+    publisher: 东南大学自动化学院
+    use_scope: department
+    content_read: true
+    download_status: page_read
+  - title: 东南大学自动化学院PPT模板-党建版.rar
+    url: https://automation.seu.edu.cn/_upload/article/files/54/23/bd24ca5c4e5fbf0ea5a1c58ec7d8/e4eb981f-6b1c-4fea-a415-29de46c58a60.rar
+    kinds:
+    - 院系PPT模板
+    formats:
+    - RAR
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://automation.seu.edu.cn/bsxt/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2d0a484573c90375ceb59a646a9ab502e092314cc171e4bf397124715f7bab2f
+    note: 发布范围：东南大学自动化学院。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 东南大学自动化学院
+    use_scope: department
+    content_read: false
+    download_status: indexed_not_fetched
+    file_inspection:
+      status: inspection_failed
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://automation.seu.edu.cn/_upload/article/files/54/23/bd24ca5c4e5fbf0ea5a1c58ec7d8/e4eb981f-6b1c-4fea-a415-29de46c58a60.rar
+        status: access_or_parse_gap
+        error_type: BadZipFile
+        detail: File is not a zip file
+  - title: 东南大学自动化学院PPT模板-科研版.zip
+    url: https://automation.seu.edu.cn/_upload/article/files/54/23/bd24ca5c4e5fbf0ea5a1c58ec7d8/2d2b0b82-c636-4cc3-9724-f7b15a91a0ac.zip
+    kinds:
+    - 院系PPT模板
+    formats:
+    - ZIP
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://automation.seu.edu.cn/bsxt/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2d0a484573c90375ceb59a646a9ab502e092314cc171e4bf397124715f7bab2f
+    note: 发布范围：东南大学自动化学院。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 东南大学自动化学院
+    use_scope: department
+    content_read: false
+    download_status: indexed_not_fetched
+    file_inspection:
+      status: inspection_failed
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://automation.seu.edu.cn/_upload/article/files/54/23/bd24ca5c4e5fbf0ea5a1c58ec7d8/2d2b0b82-c636-4cc3-9724-f7b15a91a0ac.zip
+        status: access_or_parse_gap
+        error_type: BadZipFile
+        detail: File is not a zip file
+  - title: 校标
+    url: https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c4cbdc7e6531760ca039c2fe5a4eb214e2dfab3195046131fd929af81ad54af5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标标准.pdf
+    url: https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c4cbdc7e6531760ca039c2fe5a4eb214e2dfab3195046131fd929af81ad54af5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标识系统 - 东南大学
+    url: https://www.seu.edu.cn/bsxtwxw/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.seu.edu.cn/bsxtwxw/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 31a2694682932aff7f462157c2cc8df8325f232abfc721b38e09c9df3a4602bd
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1902

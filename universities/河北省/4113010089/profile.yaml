@@ -87,12 +87,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    availability: found
     search_sources: []
+    source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校徽结合盾形、蛇杖、长城、绶带、橄榄枝、建校时间及中英文校名。
     source: https://www.hebmu.edu.cn/a/xxgk/xxzc/index.html
@@ -171,6 +172,44 @@ visual:
     source_as_of: unspecified
     byte_size: 79441
     representation: raster
+  - asset_id: fb7874359705f2b7b661dfc3
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://m.hebmu.edu.cn/template/ab84f67f192d4f8da37ab0a45fa7b96d//images/logo.png
+    source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 河北医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河北医科大学
+    format: png
+    width: 861
+    height: 158
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: bacb8923f64647db4fccdd008b72f4354b3aa2f0c5534a800fef645434139e48
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /template/ab84f67f192d4f8da37ab0a45fa7b96d//images/logo.png
+      label: '   '
+      context: '  wrap  header  logo '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 31634
+    representation: raster
+    resolved_url: https://m.hebmu.edu.cn/template/ab84f67f192d4f8da37ab0a45fa7b96d//images/logo.png
+    inspection_attempts:
+    - url: https://m.hebmu.edu.cn/template/ab84f67f192d4f8da37ab0a45fa7b96d//images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#471A71'
     rgb:
@@ -276,7 +315,110 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: d33a98d0613a6954
-  vi_resources: []
+  - value: '#601880'
+    rgb:
+    - 96
+    - 24
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://m.hebmu.edu.cn/template/ab84f67f192d4f8da37ab0a45fa7b96d//images/logo.png
+    page_source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    asset_id: fb7874359705f2b7b661dfc3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#601888'
+    rgb:
+    - 96
+    - 24
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://m.hebmu.edu.cn/template/ab84f67f192d4f8da37ab0a45fa7b96d//images/logo.png
+    page_source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    asset_id: fb7874359705f2b7b661dfc3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 河北医科大学官网视觉资源页 PPT模板发布/下载页
+    url: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e6e5c41f48cd6e7be2d909dd90da7cff028af4a5d931ef857d431c4e5c2a4989
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 河北医科大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 教学版PPT模板.ppt
+    url: https://www.hebmu.edu.cn/resources/43/201809/1536714464189007202.ppt
+    kinds:
+    - PPT模板
+    formats:
+    - PPT
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e6e5c41f48cd6e7be2d909dd90da7cff028af4a5d931ef857d431c4e5c2a4989
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 河北医科大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: downloaded_format_only
+    file_inspection:
+      status: format_only
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.hebmu.edu.cn/resources/43/201809/1536714464189007202.ppt
+        status: file_read
+        resolved_url: https://www.hebmu.edu.cn/resources/43/201809/1536714464189007202.ppt
+      resolved_url: https://www.hebmu.edu.cn/resources/43/201809/1536714464189007202.ppt
+    file_metadata:
+      sha256: f9931e189b321934e0eaa4251b1a815fc59a66cbaee4f56495828b65ee8ee297
+      byte_size: 16513536
+      format: OLE
+      read_kind: format_header_only
+  - title: 形象识别系统内容
+    url: https://www.hebmu.edu.cn/resources/43//201712/1514539138649073998.rar
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e6e5c41f48cd6e7be2d909dd90da7cff028af4a5d931ef857d431c4e5c2a4989
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -341,19 +483,20 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    availability: found
     search_sources: []
+    source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 河北医科大学官网视觉资源页
+    availability: found
     search_sources: []
+    source: https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm
+    verified: auto
+    checked_at: '2026-10-02'
   official_template_terms:
     value: null
     source: null

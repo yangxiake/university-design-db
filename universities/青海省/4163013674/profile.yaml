@@ -16,12 +16,16 @@ identity:
     availability: unresearched
     search_sources: []
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://klc.qhu.edu.cn/
+    availability: found
     search_sources: []
+    source: http://klc.qhu.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 候选学校网站明确版权主体为教育部名单中的完整校名；主页或同主机明确首页链接。标题简称、新闻提及与旧名不作为独立确认依据。
+    evidence: 71-5311070Copyright@2011青海大学昆仑学院现代教育技术中心
+    source_sha256: 4784c86e15888458e4708a810fad5477e24c5defd4923644768ef6a99e8bd7de
   short_name_zh:
     value: null
     source: null
@@ -90,12 +94,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://klc.qhu.edu.cn/xygk/xhxx.htm
+    availability: found
     search_sources: []
+    source: http://klc.qhu.edu.cn/xygk/xhxx.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -104,9 +109,97 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
-  vi_resources: []
+  logo_assets:
+  - asset_id: 80ebfb2c1ff5bc31dff7845f
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://klc.qhu.edu.cn/images/logo.png
+    source: http://klc.qhu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 青海大学昆仑学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 青海大学昆仑学院
+    format: png
+    width: 528
+    height: 101
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b5fc31c88f03d9079797ab971809d03ddef70d17d6ceab63b78103e2da58ef12
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'bot    botcl   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 47222
+    representation: raster
+    resolved_url: http://klc.qhu.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: http://klc.qhu.edu.cn/images/logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#000060'
+    rgb:
+    - 0
+    - 0
+    - 96
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://klc.qhu.edu.cn/images/logo.png
+    page_source: http://klc.qhu.edu.cn/
+    asset_id: 80ebfb2c1ff5bc31dff7845f
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#C80000'
+    rgb:
+    - 200
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://klc.qhu.edu.cn/images/logo.png
+    page_source: http://klc.qhu.edu.cn/
+    asset_id: 80ebfb2c1ff5bc31dff7845f
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校徽校训-昆仑学院
+    url: http://klc.qhu.edu.cn/xygk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://klc.qhu.edu.cn/xygk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d7ae207943cfd8e159138063e99ab9264b6732ada594cfde2c9bf619bdc44303
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -167,12 +260,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://klc.qhu.edu.cn/zsjy/zs1.htm
+    availability: found
     search_sources: []
+    source: http://klc.qhu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -235,19 +332,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 青海省西宁市城北区宁张路175号
+    availability: found
     search_sources: []
+    source: http://klc.qhu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学院地址:青海省西宁市城北区宁张路175号 电话:0971-5311070 Copyright @ 2011 青海大学昆仑学院 现代教育技术中心
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '810016'
+    availability: found
     search_sources: []
+    source: http://klc.qhu.edu.cn/lxwm.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:810016
   coordinates:
     value: null
     source: null
@@ -327,12 +432,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0971-5311070'
+    availability: found
     search_sources: []
+    source: http://klc.qhu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学院地址:青海省西宁市城北区宁张路175号 电话:0971-5311070 Copyright @ 2011 青海大学昆仑学院 现代教育技术中心
   email:
     value: null
     source: null

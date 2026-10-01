@@ -130,6 +130,44 @@ visual:
     byte_size: 164861
     representation: raster
     resolved_url: https://www.lshhxy.edu.cn/images/xin/xiaobiao.png
+  - asset_id: cfbf0931801044d6901f86aa
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.lshhxy.edu.cn/images/xin/xiaobiao.png
+    source: http://www.lshhxy.edu.cn/xxgk/xhxx.htm
+    file_name: xiaobiao.png
+    upstream_path: null
+    publisher: 辽宁师范大学海华学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 辽宁师范大学海华学院
+    format: png
+    width: 1650
+    height: 345
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 750ace32f8fa6c862d3438c117c7a61e42dd20aa1ff2ea659d9cdce572cd94b4
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/xin/xiaobiao.png
+      label: '   '
+      context: 'head  logoBox  index-logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 164861
+    representation: raster
+    resolved_url: http://www.lshhxy.edu.cn/images/xin/xiaobiao.png
+    inspection_attempts:
+    - url: http://www.lshhxy.edu.cn/images/xin/xiaobiao.png
+      status: content_inspected
   color_palette:
   - value: '#B83838'
     rgb:
@@ -165,7 +203,57 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#B83838'
+    rgb:
+    - 184
+    - 56
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.lshhxy.edu.cn/images/xin/xiaobiao.png
+    page_source: http://www.lshhxy.edu.cn/xxgk/xhxx.htm
+    asset_id: cfbf0931801044d6901f86aa
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#B03030'
+    rgb:
+    - 176
+    - 48
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.lshhxy.edu.cn/images/xin/xiaobiao.png
+    page_source: http://www.lshhxy.edu.cn/xxgk/xhxx.htm
+    asset_id: cfbf0931801044d6901f86aa
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 关于新版校名、校训标准字及新校徽规范使用的通知
+    url: http://www.lshhxy.edu.cn/xxgk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.lshhxy.edu.cn/xxgk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0ea9e3e8e75e61cd9aef7f4e59fd18c4b8f70d3672e322f031e94d32d9763a8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 2000
@@ -330,7 +418,7 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: 辽宁师范大学海华学院位于辽宁省大连市，主管部门为辽宁省教育厅。官网列示本科生8648人（统计日期未注明）。官网列示专任教师393人（统计日期未注明）。官网列示校园占地面积61.6万平方米（统计日期未注明）。
+    value: 辽宁师范大学海华学院位于辽宁省大连市，主管部门为辽宁省教育厅。官网列示在校本科生8648人（统计日期未注明）。官网列示专任教师393人（统计日期未注明）。官网列示校园占地面积61.6万平方米（统计日期未注明）。
     availability: found
     search_sources: []
     source: https://www.lshhxy.edu.cn/xxgk/xxjj.htm
@@ -357,11 +445,11 @@ statistics:
     verified: auto
     checked_at: '2026-10-01'
     collector: official_overview
-    basis: 本科生；原标注：本科生8648人；页面未标注此项统计日期；采集日不等于统计日
+    basis: 在校本科生；原标注：在校本科生8648人；页面未标注此项统计日期；采集日不等于统计日
     source_as_of: undated
     date_basis: 页面未标注此项统计日期；采集日不等于统计日
     approximate: false
-    original_notation: 本科生8648人
+    original_notation: 在校本科生8648人
   faculty_count:
     value: 393
     availability: found

@@ -105,7 +105,7 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
@@ -135,9 +135,10 @@ visual:
     value: https://vi.ustb.edu.cn/
     source: https://vi.ustb.edu.cn/
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校标采用两个同心的“北科蓝”圆环。
     source: https://www.ustb.edu.cn/xxgk/dxzc/index.htm
@@ -445,6 +446,82 @@ visual:
     source_as_of: unspecified
     byte_size: 16471
     representation: raster
+  - asset_id: 623ecd1396df3ceff14962df
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.ustb.edu.cn/images/logo1.png
+    source: https://vi.ustb.edu.cn/
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 北京科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京科技大学
+    format: png
+    width: 420
+    height: 83
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6b8e5195c80d2420a765184428cd13268b9a4ac06355949011c97fa1eebf5a1d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: images/logo1.png
+      label: '   '
+      context: 'header  gp-container  logo  logo1 '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 16203
+    representation: raster
+    resolved_url: https://vi.ustb.edu.cn/images/logo1.png
+    inspection_attempts:
+    - url: https://vi.ustb.edu.cn/images/logo1.png
+      status: content_inspected
+  - asset_id: a9cb08e81bfb49097c5147b9
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.ustb.edu.cn/images/logo2.png
+    source: https://vi.ustb.edu.cn/
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 北京科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京科技大学
+    format: png
+    width: 376
+    height: 65
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 9bef9e63c9072e14eef30e6de8d014ecd9d1a6e4d3712a20c8ce427491ba0b2e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: images/logo2.png
+      label: '   '
+      context: 'header  gp-container  logo  logo2 '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 6924
+    representation: raster
+    resolved_url: https://vi.ustb.edu.cn/images/logo2.png
+    inspection_attempts:
+    - url: https://vi.ustb.edu.cn/images/logo2.png
+      status: content_inspected
   color_palette:
   - value: '#004A99'
     rgb:
@@ -693,6 +770,166 @@ visual:
     checked_at: '2026-10-01'
     availability: found
     note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
+  - title: 北京科技大学信息化建设与管理办公室 PPT模板发布/下载页
+    url: https://info.ustb.edu.cn/xzzx/zysc/index.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://info.ustb.edu.cn/xzzx/zysc/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9d93dd082a27925bd45153ae9659eab556bea041a3da1f02d1897a563dd998b1
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 北京科技大学信息化建设与管理办公室
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 北京科技大学官方PPT模板
+    url: https://info.ustb.edu.cn/docs/2025-12/dcee89ba478444b39e590057b62f67e4.zip
+    kinds:
+    - PPT模板
+    formats:
+    - ZIP
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://info.ustb.edu.cn/xzzx/zysc/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9d93dd082a27925bd45153ae9659eab556bea041a3da1f02d1897a563dd998b1
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 北京科技大学信息化建设与管理办公室
+    use_scope: school
+    content_read: false
+    download_status: indexed_not_fetched
+    file_inspection:
+      status: inspection_failed
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://info.ustb.edu.cn/docs/2025-12/dcee89ba478444b39e590057b62f67e4.zip
+        status: access_or_parse_gap
+        error_type: ValueError
+        detail: download_size_limit
+  - title: 学校标志
+    url: https://vi.ustb.edu.cn/
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.ustb.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f9e36668646e62fff3f775a3d129963c2964c868b53526a9e158f8f6300050f0
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标志
+    url: https://vi.ustb.edu.cn/jcxt/xxbz/index.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.ustb.edu.cn/jcxt/xxbz/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5b0d9d62adb1f938e53107cac09442ca02e8647beaf8633bf3504c8815ce7f6c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 基础形象系统-A1学校标识（LOGO）.ai
+    url: https://vi.ustb.edu.cn/docs/2024-11/unpub_22cf0b5c4594402aba20e5d42c23ae6d.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.ustb.edu.cn/jcxt/xxbz/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5b0d9d62adb1f938e53107cac09442ca02e8647beaf8633bf3504c8815ce7f6c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标准字体
+    url: https://vi.ustb.edu.cn/jcxt/xxbzzt/index.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.ustb.edu.cn/jcxt/xxbzzt/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dc432cc43daf2ab72d92ea0940327b28cc12323b4af494b36f28ae2bbf61f09d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 基础形象系统-A2学校标准字体.ai
+    url: https://vi.ustb.edu.cn/docs/2024-11/unpub_a8edb92b8693432e8cfed320f4f14dcf.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.ustb.edu.cn/jcxt/xxbzzt/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dc432cc43daf2ab72d92ea0940327b28cc12323b4af494b36f28ae2bbf61f09d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标准色
+    url: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0d7be9b09f338f2e24f747b8aa6eb8c53e1f1854090606199de2877cb140dd1e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 基础形象系统-A3学校标准色.ai
+    url: https://vi.ustb.edu.cn/docs/2024-11/unpub_dde922b5adce4fd4bd87c6d62b17d2a8.ai
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0d7be9b09f338f2e24f747b8aa6eb8c53e1f1854090606199de2877cb140dd1e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1952
@@ -752,14 +989,15 @@ resources:
     value: https://info.ustb.edu.cn/xzzx/zysc/index.htm
     source: https://info.ustb.edu.cn/xzzx/zysc/index.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
     value: 北京科技大学信息化建设与管理办公室
     source: https://info.ustb.edu.cn/xzzx/zysc/index.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
   official_template_terms:
@@ -792,6 +1030,23 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  - title: 北京科技大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/ustb.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/ustb.tex
+    source_sha256: 58aa2454375d008b346f0b83795185f97f4098df7aa7596e93f192e6367db8ac
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
   admissions_url:
     value: https://www.ustb.edu.cn/zsjy/index.htm
     availability: found

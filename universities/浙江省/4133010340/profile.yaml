@@ -223,6 +223,44 @@ visual:
     source_as_of: unspecified
     byte_size: 15187
     representation: raster
+  - asset_id: 8667323e4dc8a20db85f3da7
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.zjou.edu.cn/images/logo.png
+    source: http://www.zjou.edu.cn/xxgl/xxbs.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 浙江海洋大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 浙江海洋大学
+    format: png
+    width: 350
+    height: 97
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ddc9d748119911fc491282f663a330e8a1072a9b9d8d87f07c2603ef378ca01b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '浙江海洋大学2019 浙江海洋大学2019  '
+      context: '  header  px1340  logo fl '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 25325
+    representation: raster
+    resolved_url: http://www.zjou.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: http://www.zjou.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#094A94'
     rgb:
@@ -328,7 +366,89 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: f229e09dd6c851eb
-  vi_resources: []
+  - value: '#084890'
+    rgb:
+    - 8
+    - 72
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.zjou.edu.cn/images/logo.png
+    page_source: http://www.zjou.edu.cn/xxgl/xxbs.htm
+    asset_id: 8667323e4dc8a20db85f3da7
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#004090'
+    rgb:
+    - 0
+    - 64
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.zjou.edu.cn/images/logo.png
+    page_source: http://www.zjou.edu.cn/xxgl/xxbs.htm
+    asset_id: 8667323e4dc8a20db85f3da7
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识-浙江海洋大学
+    url: http://www.zjou.edu.cn/xxgl/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.zjou.edu.cn/xxgl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ce710d45771ac313c9c441f7f40b8ec8698c5c9ecfd9516e459e43510f153b6c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 浙江海洋大学校名校徽组合（位图）.png
+    url: http://www.zjou.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1601756982&wbfileid=5D9E558571DA8DE587D2E91D4916924C
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.zjou.edu.cn/xxgl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ce710d45771ac313c9c441f7f40b8ec8698c5c9ecfd9516e459e43510f153b6c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 浙江海洋大学校名校徽组合（矢量图）.zip
+    url: http://www.zjou.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1601756982&wbfileid=9163079C3888DAF358FA10C89E1F0329
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.zjou.edu.cn/xxgl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ce710d45771ac313c9c441f7f40b8ec8698c5c9ecfd9516e459e43510f153b6c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1958
@@ -536,14 +656,14 @@ location:
     source: https://www.zjou.edu.cn/xxgl.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 定海校区
     address: null
     coordinates: null
     source: https://www.zjou.edu.cn/xxgl.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 浙江海洋大学位于浙江省舟山市，主管部门为浙江省。官网列示各类全日制在校学生20014人（统计日期未注明）。官网列示教职工1699人（统计日期未注明）。官网列示学校总占地面积2371亩（统计日期未注明）。简介列出新城校区、定海校区。

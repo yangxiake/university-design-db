@@ -116,9 +116,10 @@ visual:
     value: https://www.sasu.edu.cn/xywh1/xmxh.htm
     source: https://www.sasu.edu.cn/xywh1/xmxh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆校徽中心的朱雀取自渠县汉阙，融合A、S与“川”字，配校训元素、中英文校名及高等教育起始年“1976”。
     source: https://www.sasu.edu.cn/xywh1.htm
@@ -328,7 +329,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 2b9ff19307409253
-  vi_resources: []
+  vi_resources:
+  - title: 校名校徽
+    url: https://www.sasu.edu.cn/xywh1/xmxh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sasu.edu.cn/xywh1/xmxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ee6ad51088cc0d971827ecfd0f45c46621ae0f6d58c40e113ca61ce9823b763b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名校徽下载
+    url: https://www.sasu.edu.cn/wj/xhxm.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sasu.edu.cn/xywh1/xmxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ee6ad51088cc0d971827ecfd0f45c46621ae0f6d58c40e113ca61ce9823b763b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -503,14 +536,14 @@ location:
     source: https://www.sasu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 南坝校区
     address: null
     coordinates: null
     source: https://www.sasu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 四川文理学院位于四川省达州市，主管部门为四川省。官网列示全日制在校生20000余人（统计时间2025-07）。官网列示教职工1500余人（统计时间2025-07）。官网列示占地面积1314亩（统计时间2025-07）。简介列出莲湖校区、南坝校区。

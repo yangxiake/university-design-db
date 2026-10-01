@@ -88,7 +88,7 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
@@ -112,9 +112,10 @@ visual:
     value: https://www.hubu.edu.cn/xxgk/xbxx.htm
     source: https://www.hubu.edu.cn/xxgk/xbxx.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -282,6 +283,44 @@ visual:
     source_as_of: unspecified
     byte_size: 54576
     representation: raster
+  - asset_id: 498ffe7ee5be5c8debabba85
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://vi.hubu.edu.cn/img/logohd.png
+    source: http://vi.hubu.edu.cn/info/1003/1004.htm
+    file_name: logohd.png
+    upstream_path: null
+    publisher: 湖北大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖北大学
+    format: png
+    width: 395
+    height: 108
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 0e48b574299707b1e029489e99e7d906514ab08d0384520d2295469ae12d2a89
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../img/logohd.png
+      label: '湖大视觉 湖大视觉  '
+      context: '  container  site-brand   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 34005
+    representation: raster
+    resolved_url: http://vi.hubu.edu.cn/img/logohd.png
+    inspection_attempts:
+    - url: http://vi.hubu.edu.cn/img/logohd.png
+      status: content_inspected
   color_palette:
   - value: '#0B6F4F'
     rgb:
@@ -355,7 +394,103 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 7c394c0245c828e8
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训-湖北大学
+    url: https://www.hubu.edu.cn/info/1024/1036.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hubu.edu.cn/info/1024/1036.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: af5d57de1b298b44b6feea0553d032687417cb4d62cdec45e60bfe58de62604c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标.rar
+    url: https://www.hubu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1907134021&wbfileid=11969411
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hubu.edu.cn/info/1024/1036.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: af5d57de1b298b44b6feea0553d032687417cb4d62cdec45e60bfe58de62604c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标准色
+    url: http://vi.hubu.edu.cn/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.hubu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 82f992bdf740d0da7cce65b3c631e1abbb3685bd7880c08b0d294f3f8ce7565b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标校训-湖北大学
+    url: https://www.hubu.edu.cn/xxgk/xbxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hubu.edu.cn/xxgk/xbxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e9f294329bbf92943471f8e1800956bbfab65a48837e9fa5ecca9bca92a9e26
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标.rar
+    url: https://www.hubu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1907134021&wbfileid=11969411
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hubu.edu.cn/xxgk/xbxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e9f294329bbf92943471f8e1800956bbfab65a48837e9fa5ecca9bca92a9e26
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标准色
+    url: http://vi.hubu.edu.cn/info/1003/1004.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.hubu.edu.cn/info/1003/1004.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d8f232bee889328cece2f38f84b27b21a1fb5824edc1078f8264fbdaf9adf72d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -427,6 +562,23 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
+  - title: 湖北大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/hbu.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/hbu.tex
+    source_sha256: 4bcd6eb38e52e111fdf81f817e2d6c5b4b69ff396d89e1acb0da7a28b4a3c902
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
   admissions_url:
     value: http://zsxx.hubu.edu.cn/
     availability: found
@@ -561,21 +713,21 @@ location:
     source: http://www.hubu.edu.cn/xxgk/hdjj.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 长江新区校区
     address: 武汉市长江新区平江东路630号
     coordinates: null
     source: http://www.hubu.edu.cn/xxgk/hdjj.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 汉口校区
     address: 武汉市长江新区兴盛路特一号
     coordinates: null
     source: http://www.hubu.edu.cn/xxgk/hdjj.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 湖北大学位于湖北省武汉市，主管部门为湖北省。官网列示全日制本科生2.3万余人（统计日期未注明）。简介列出武昌校区、长江新区校区、汉口校区。

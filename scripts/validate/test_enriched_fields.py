@@ -13,6 +13,15 @@ from validate_profiles import check_extended_entry, check_fact
 
 
 class EnrichedFieldsTests(unittest.TestCase):
+    def test_official_print_color_can_remain_without_screen_conversion(self):
+        color=dict(value=None,rgb=None,cmyk=[50,100,0,40],pantone=None,label='紫色',role='primary',method='official_vi',official=True,
+                   basis='官方仅公布印刷CMYK',source='https://example.edu.cn/vi.pdf',verified='auto',checked_at='2026-10-02',availability='found')
+        errors=[];check_extended_entry('visual.color_palette',color,'color',errors)
+        self.assertEqual(errors,[])
+        for changes in [dict(rgb=[77,0,153]),dict(cmyk=[50,101,0,40]),dict(cmyk=None,pantone=None),dict(method='manual_derived',official=False)]:
+            errors=[];check_extended_entry('visual.color_palette',dict(color,**changes),'color',errors)
+            self.assertTrue(errors)
+
     def test_only_static_javascript_data_is_read(self):
         self.assertEqual(extract_universities("/* comment */ window.UNIVERSITIES.push({name:'甲',tags:['A'],year:2021,});"),[{'name':'甲','tags':['A'],'year':2021}])
         for text in ["window.UNIVERSITIES = [fetch('https://example.org')];",

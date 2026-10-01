@@ -90,9 +90,10 @@ visual:
     value: https://www.hrbmu.edu.cn/info/1041/1496.htm
     source: https://www.hrbmu.edu.cn/info/1041/1496.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆校徽采用蓝、绿两种颜色。
     source: https://www.hrbmu.edu.cn/info/1041/1496.htm
@@ -171,6 +172,44 @@ visual:
     source_as_of: unspecified
     byte_size: 15699
     representation: raster
+  - asset_id: 1ad961baf607cf414fce2487
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.hrbmu.edu.cn/images/logo1.png
+    source: https://www.hrbmu.edu.cn/info/1041/1496.htm
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 哈尔滨医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 哈尔滨医科大学
+    format: png
+    width: 264
+    height: 78
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 37530ab678e598cb6a97ad7413ee6f16a9a62ba3fae200ab0b51d0e723ccd97c
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo1.png
+      label: '哈尔滨医科大学新 哈尔滨医科大学新  '
+      context: 'd2  block w1400  logo fl   '
+      position: 5
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 18221
+    representation: raster
+    resolved_url: https://www.hrbmu.edu.cn/images/logo1.png
+    inspection_attempts:
+    - url: https://www.hrbmu.edu.cn/images/logo1.png
+      status: content_inspected
   color_palette:
   - value: '#005EAD'
     rgb:
@@ -276,7 +315,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 8e390ffba8bf554c
-  vi_resources: []
+  - value: '#205090'
+    rgb:
+    - 32
+    - 80
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hrbmu.edu.cn/images/logo1.png
+    page_source: https://www.hrbmu.edu.cn/info/1041/1496.htm
+    asset_id: 1ad961baf607cf414fce2487
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#205088'
+    rgb:
+    - 32
+    - 80
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hrbmu.edu.cn/images/logo1.png
+    page_source: https://www.hrbmu.edu.cn/info/1041/1496.htm
+    asset_id: 1ad961baf607cf414fce2487
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校标
+    url: https://www.hrbmu.edu.cn/info/1041/1496.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hrbmu.edu.cn/info/1041/1496.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7ce470502f1a855f58aa59007d18bdcf507cc0e3298049240116febb04c79f92
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

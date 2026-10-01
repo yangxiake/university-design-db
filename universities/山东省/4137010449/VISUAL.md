@@ -20,7 +20,7 @@
 | ①号标准色 | `#1A478E` | 26,71,142 | primary | [100, 84, 12, 2] |  | 官方VI标准值 | [依据](https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf) |
 | ②号标准色 | `#346DB5` | 52,109,181 | secondary | [83, 57, 0, 0] |  | 官方VI标准值 | [依据](https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

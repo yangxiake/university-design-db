@@ -83,9 +83,10 @@ visual:
     value: https://www.sxist.edu.cn/xygk/xxbs.htm
     source: https://www.sxist.edu.cn/xygk/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 两个同心圆组成校徽，外环列中英文校名，内环为S形主图和建校时间。
     source: https://www.sxist.edu.cn/xygk/xxzc.htm
@@ -132,7 +133,23 @@ visual:
     representation: raster
     resolved_url: https://www.sxist.edu.cn/images/logo.png
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.sxist.edu.cn/xygk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sxist.edu.cn/xygk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c17d54ee9a0c5a5db30e2da11bd0cccd14c4549ae66e47a5260cb000d5731364
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 2003

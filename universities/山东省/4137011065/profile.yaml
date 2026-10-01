@@ -112,9 +112,10 @@ visual:
     value: https://www.qdu.edu.cn/xxgk/xhxx.htm
     source: https://www.qdu.edu.cn/xxgk/xhxx.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 所读释义将中文校名、大写英文校名和办学起始年列为校徽的基本内容。
     source: https://www.qdu.edu.cn/xxgk/dxzc.htm
@@ -390,7 +391,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: bf7ad3add474ce4a
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训
+    url: https://www.qdu.edu.cn/xxgk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.qdu.edu.cn/xxgk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0eb3f0308e2a5fb515addb3bfea888bf8b2e5e16de9322a746d3ac09b309b419
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1909
@@ -600,21 +617,21 @@ location:
     source: https://www.qdu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 金家岭校区
     address: null
     coordinates: null
     source: https://www.qdu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 松山校区
     address: null
     coordinates: null
     source: https://www.qdu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 青岛大学位于山东省青岛市，主管部门为山东省。官网列示在校生42000余人（统计日期未注明）。官网列示教职工3600余人（统计日期未注明）。简介列出浮山校区、金家岭校区、松山校区。

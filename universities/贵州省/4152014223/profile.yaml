@@ -107,12 +107,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gznc.edu.cn/xxgk/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.gznc.edu.cn/xxgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 蓝色校徽融合E字母、铜钟、书本、拇指与拳形意象。
     source: https://www.gznc.edu.cn/info/1102/13855.htm
@@ -307,7 +308,23 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: c508eb0e90bfe185
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识-贵州师范学院官网
+    url: https://www.gznc.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gznc.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: aa6320b6c89df8c0c059a6d87afc7362f2fc31edb832f096aa683e4c178287ab
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

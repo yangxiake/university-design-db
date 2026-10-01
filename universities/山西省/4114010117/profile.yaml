@@ -90,9 +90,10 @@ visual:
     value: http://www.czmc.edu.cn/xygk/xh.htm
     source: http://www.czmc.edu.cn/xygk/xh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校徽以单蛇杖和盾形底托为核心，配中英文校名与建校时间。
     source: http://www.czmc.edu.cn/xygk/xh.htm
@@ -276,7 +277,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: cb3f9f6de9f2ff3b
-  vi_resources: []
+  vi_resources:
+  - title: 校徽 您现在的位置： 首页
+    url: http://www.czmc.edu.cn/xygk/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.czmc.edu.cn/xygk/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a42def5b6a72358b6a9d3634cc4f2d645ca81bce408cc2c71ce4410b66249114
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1946
@@ -442,14 +459,14 @@ location:
     source: http://www.czmc.edu.cn/xygk/xyjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 五龙校区
     address: null
     coordinates: null
     source: http://www.czmc.edu.cn/xygk/xyjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 长治医学院位于山西省长治市，主管部门为山西省。官网列示在校生16034人（统计日期未注明）。官网列示专任教师678人（统计日期未注明）。官网列示占地面积1040.78亩（统计日期未注明）。简介列出校本部校区、五龙校区。

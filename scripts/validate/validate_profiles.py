@@ -286,6 +286,11 @@ def validate_profile(path, row, release=False):
         for color in entry.get('palette',[]):
             if not isinstance(color,dict) or not re.fullmatch(r'#[0-9A-Fa-f]{6}',str(color.get('value',''))) or color.get('method')!='community_theme' or not color.get('basis'):
                 errors.append(str(path)+': invalid community palette or missing basis')
+        for file in entry.get('files',[]):
+            if not isinstance(file,dict) or not is_url(file.get('url')):
+                errors.append(str(path)+': community file needs a source URL')
+            else:
+                check_template_file(file,str(path)+': community file',errors)
     if resources and research.get('status')=='unresearched':
         errors.append(str(path)+': community resources contradict unresearched status')
     if "visual" in groups:
@@ -307,6 +312,41 @@ def validate_profile(path, row, release=False):
              and groups["visual"]["color_primary"].get("verified") == "human"
              and groups["culture"]["founded_year"].get("verified") == "human")
     return errors, populated, ready
+
+
+def check_template_metadata(meta,label,errors):
+    if not isinstance(meta,dict):
+        errors.append(label+': file_metadata must be an object')
+        return
+    if not re.fullmatch('[0-9a-f]{64}',str(meta.get('sha256',''))) or type(meta.get('byte_size')) is not int or meta.get('byte_size',0)<=0:
+        errors.append(label+': inspected file needs SHA256 and byte size')
+    if meta.get('format')=='PPTX':
+        for key in ('slide_count','editable_text_runs','textless_slides','media_count','external_relationship_count'):
+            if type(meta.get(key)) is not int or meta.get(key,-1)<0:
+                errors.append(label+': invalid template '+key)
+        for key in ('width_emu','height_emu'):
+            if type(meta.get(key)) is not int or meta.get(key,0)<=0:
+                errors.append(label+': invalid template '+key)
+        if not re.fullmatch('[1-9][0-9]*:[1-9][0-9]*',str(meta.get('aspect_ratio',''))) or not isinstance(meta.get('font_names'),list):
+            errors.append(label+': inspected template needs dimensions and font list')
+        if type(meta.get('macro_enabled')) is not bool:
+            errors.append(label+': macro presence must be explicit')
+    elif meta.get('format')=='ZIP':
+        for member in meta.get('presentation_members',[]):
+            if member.get('status')=='content_inspected':
+                check_template_metadata(member,label+': archive member',errors)
+    elif meta.get('format') not in {'OLE','RAR','7Z'}:
+        errors.append(label+': invalid inspected container format')
+
+
+def check_template_file(item,label,errors):
+    inspection=item.get('file_inspection')
+    if inspection is not None and (not isinstance(inspection,dict) or inspection.get('status') not in {'content_inspected','format_only','inspection_failed','target_page_read'} or not is_date(inspection.get('checked_at'))):
+        errors.append(label+': invalid template inspection receipt')
+    if 'file_metadata' in item:
+        check_template_metadata(item['file_metadata'],label,errors)
+        if not isinstance(inspection,dict) or inspection.get('status') not in {'content_inspected','format_only'} or item.get('content_read') is not True:
+            errors.append(label+': file metadata contradicts content inspection status')
 
 
 def check_extended_entry(dotted, item, label, errors, release=False):
@@ -345,7 +385,12 @@ def check_extended_entry(dotted, item, label, errors, release=False):
                 errors.append(label+': archive asset needs a pinned archive hash')
     elif dotted=='visual.color_palette':
         value=item.get('value')
-        if not re.fullmatch(r'#[0-9A-Fa-f]{6}',str(value)):
+        if value is None:
+            cmyk=item.get('cmyk')
+            valid_cmyk=isinstance(cmyk,list) and len(cmyk)==4 and all(type(n) in {int,float} and 0<=n<=100 for n in cmyk)
+            if item.get('method')!='official_vi' or not item.get('label') or not (valid_cmyk or item.get('pantone')) or item.get('rgb') is not None:
+                errors.append(label+': color without HEX needs official named CMYK/Pantone evidence and no invented RGB')
+        elif not re.fullmatch(r'#[0-9A-Fa-f]{6}',str(value)):
             errors.append(label+': six-digit HEX required')
         elif item.get('rgb')!=rgb(value):
             errors.append(label+': RGB does not match HEX')
@@ -357,10 +402,17 @@ def check_extended_entry(dotted, item, label, errors, release=False):
         if not item.get('basis') or item.get('role') not in {'primary','secondary','reference','accent'}:
             errors.append(label+': color role and extraction basis required')
     elif dotted=='visual.vi_resources':
+        check_template_file(item,label,errors)
         if not is_url(item.get('url')) or not isinstance(item.get('formats'),list) or not item.get('access_requirement'):
             errors.append(label+': VI resource needs URL, formats and access requirement')
         if item.get('repository') and item.get('official') is not False:
             errors.append(label+': a community directory is not an official publisher')
+        if 'use_scope' in item and item['use_scope'] not in {'school','department'}:
+            errors.append(label+': template use_scope must stay school or department')
+        if 'content_read' in item and type(item['content_read']) is not bool:
+            errors.append(label+': content_read must be boolean')
+        if 'edition_year' in item and (type(item['edition_year']) is not int or not 1900<=item['edition_year']<=dt.date.today().year):
+            errors.append(label+': invalid explicit template edition year')
     elif dotted=='rankings.entries':
         if type(item.get('year')) is not int or not 1900<=item['year']<=dt.date.today().year:
             errors.append(label+': ranking edition year required')

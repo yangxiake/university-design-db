@@ -104,12 +104,22 @@ research:
   audit_key: '4142010491'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#006DB8'
+    source: https://vis.cug.edu.cn/__local/B/9A/0B/B78E49FE6150FD181792F99EEB3_4EE20266_AD90E.jpg
+    method: official_vi
+    label: 地大蓝
+    basis: 校方VIS色彩规范1.8.1标准色释意图；AI查看完整原图，明确“地大蓝”与RGB0/109/184、WEB#006DB8、CMYK100/50/0/0相符。
+    cmyk:
+    - 100
+    - 50
+    - 0
+    - 0
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: b0cc6568a725439a82af115f0347d51d093be22353bc914c4861c2864cc8d886
   color_secondary:
     value: null
     source: null
@@ -118,12 +128,12 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://vis.cug.edu.cn/jcbf/scgf.htm
+    availability: found
     search_sources: []
+    source: https://vis.cug.edu.cn/__local/B/0E/FE/CF446CA7058BCB7C6CF1758C690_0A0E44E7_973DB.jpg
+    verified: auto
+    checked_at: '2026-10-02'
   badge_description:
     value: null
     source: null
@@ -491,7 +501,175 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 84409b3e8bf92bda
-  vi_resources: []
+  - value: '#006DB8'
+    rgb:
+    - 0
+    - 109
+    - 184
+    cmyk:
+    - 100
+    - 50
+    - 0
+    - 0
+    pantone: null
+    label: 地大蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vis.cug.edu.cn/__local/B/9A/0B/B78E49FE6150FD181792F99EEB3_4EE20266_AD90E.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方VIS色彩规范1.8.1标准色释意图；AI查看完整原图，明确“地大蓝”与RGB0/109/184、WEB#006DB8、CMYK100/50/0/0相符。
+    source_sha256: b0cc6568a725439a82af115f0347d51d093be22353bc914c4861c2864cc8d886
+    source_field: visual.color_primary
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 20
+    - 40
+    - 40
+    pantone: null
+    label: 地质褐
+    role: accent
+    method: official_vi
+    official: true
+    source: https://vis.cug.edu.cn/__local/B/0E/FE/CF446CA7058BCB7C6CF1758C690_0A0E44E7_973DB.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方VIS辅助色规范图；AI查看完整原图，“地质褐”只公布CMYK0/20/40/40，未公布RGB/HEX，不通过图片像素或无配置换算补造。
+    source_sha256: 38f06728bc4fbed7314b61992d94a3d2d6c490e7e29bbebe1a9b5a7e27215605
+  vi_resources:
+  - title: 中国地质大学(武汉)官方视觉规范
+    url: https://vis.cug.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vis.cug.edu.cn/__local/B/9A/0B/B78E49FE6150FD181792F99EEB3_4EE20266_AD90E.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校方VIS色彩规范1.8.1标准色释意图；AI查看完整原图，明确“地大蓝”与RGB0/109/184、WEB#006DB8、CMYK100/50/0/0相符。
+  - title: 中国地质大学(武汉)官方视觉规范
+    url: https://vis.cug.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vis.cug.edu.cn/__local/B/0E/FE/CF446CA7058BCB7C6CF1758C690_0A0E44E7_973DB.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校方VIS辅助色规范图；AI查看完整原图，“地质褐”只公布CMYK0/20/40/40，未公布RGB/HEX，不通过图片像素或无配置换算补造。
+  - title: 标准色-ai.zip
+    url: https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=19129FCECDB27EFDFE271E4F81142493
+    kinds:
+    - 色彩规范
+    formats:
+    - ZIP
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vis.cug.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03e72d11558cb757daddd61e265a85ba11683af415cc032561af64d23838d1b0
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 标准色-cdr.zip
+    url: https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=4F021E157DCC897959684335E3FFD725
+    kinds:
+    - 色彩规范
+    formats:
+    - ZIP
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vis.cug.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03e72d11558cb757daddd61e265a85ba11683af415cc032561af64d23838d1b0
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 标准色-jpg.zip
+    url: https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=CA779BE313FC0DD42941717D22BF38EB
+    kinds:
+    - 色彩规范
+    formats:
+    - ZIP
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vis.cug.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03e72d11558cb757daddd61e265a85ba11683af415cc032561af64d23838d1b0
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 校徽色彩规范-ai.zip
+    url: https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=3BAFC6AA235F70DFD580FDE0638100AA
+    kinds:
+    - 色彩规范
+    formats:
+    - ZIP
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vis.cug.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03e72d11558cb757daddd61e265a85ba11683af415cc032561af64d23838d1b0
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 校徽色彩规范-cdr.zip
+    url: https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=610305B6F92A8F12176DA14BB453EC21
+    kinds:
+    - 色彩规范
+    formats:
+    - ZIP
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vis.cug.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03e72d11558cb757daddd61e265a85ba11683af415cc032561af64d23838d1b0
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 校徽色彩规范-jpg.zip
+    url: https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=ACBC879A82FE077EF2BA84D7BDE09346
+    kinds:
+    - 色彩规范
+    formats:
+    - ZIP
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vis.cug.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03e72d11558cb757daddd61e265a85ba11683af415cc032561af64d23838d1b0
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
 culture:
   founded_year:
     value: 1952

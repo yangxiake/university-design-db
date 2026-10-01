@@ -130,9 +130,10 @@ visual:
     value: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/index.htm
     source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/index.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形校徽，外围列中英文校名，内圈呈主体图案。
     source: https://www.bit.edu.cn/gbxxgk/xxzc_sjb/index.htm
@@ -333,6 +334,44 @@ visual:
     source_as_of: unspecified
     byte_size: 25326
     representation: raster
+  - asset_id: be1ff0bae02425f96bf6c567
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.bit.edu.cn/images/vi20171221/logo.png
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 北京理工大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京理工大学
+    format: png
+    width: 318
+    height: 149
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f75ce1fe995ea41b957f472762bec5a120dcc929ba1069ef689294f69bfee77d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../../../images/vi20171221/logo.png
+      label: '   '
+      context: 'header  header_lf  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 21427
+    representation: raster
+    resolved_url: https://www.bit.edu.cn/images/vi20171221/logo.png
+    inspection_attempts:
+    - url: https://www.bit.edu.cn/images/vi20171221/logo.png
+      status: content_inspected
   color_palette:
   - value: '#E5C4AB'
     rgb:
@@ -550,6 +589,40 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0db0c5139dfc95f6
+  - value: '#005830'
+    rgb:
+    - 0
+    - 88
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.bit.edu.cn/images/vi20171221/logo.png
+    page_source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    asset_id: be1ff0bae02425f96bf6c567
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#005828'
+    rgb:
+    - 0
+    - 88
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.bit.edu.cn/images/vi20171221/logo.png
+    page_source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    asset_id: be1ff0bae02425f96bf6c567
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources:
   - title: 视觉形象识别系统
     url: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/index.htm
@@ -565,6 +638,310 @@ visual:
     checked_at: '2026-10-01'
     availability: found
     note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
+  - title: 北京理工大学视觉形象识别系统
+    url: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/index.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f94a34dbdc87abd78256617bb57c2ac2a01bdf0bddaf5e6d9ecb208bef02a8b4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-01
+    url: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-01.ai
+    url: https://www.bit.edu.cn/docs/2026-03/4b2a694f4ee5496083873317e69b4669.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-02.ai
+    url: https://www.bit.edu.cn/docs/2026-03/023888b516cb4b939a6a1103cfb356ce.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-03.ai
+    url: https://www.bit.edu.cn/docs/2026-03/951904edc9ee40d38e13774f3c679f81.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-04.ai
+    url: https://www.bit.edu.cn/docs/2026-03/ce00255c8def4f77aa00659e66cd14e2.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-05.ai
+    url: https://www.bit.edu.cn/docs/2026-03/c083888fcc234a0cb13bf8ffdf9e60e2.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-06.ai
+    url: https://www.bit.edu.cn/docs/2026-03/32485e3d23a74f04a7526d65c2e78ca2.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-07.ai
+    url: https://www.bit.edu.cn/docs/2026-03/22b7a453d6f244b1b27ad8db69d487ce.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-08.ai
+    url: https://www.bit.edu.cn/docs/2026-03/0f667c27e58340519dfd04c7e7dcd872.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-09.ai
+    url: https://www.bit.edu.cn/docs/2026-03/86ac67034b0a494cb26cc3c0fae2fe7a.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-10.ai
+    url: https://www.bit.edu.cn/docs/2026-03/b2b8eb3ee6a542788133b5021a7ea726.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-11.ai
+    url: https://www.bit.edu.cn/docs/2026-03/b1c017cb87b64ad7b2759488a29bb424.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1 标志、校徽规范-12.ai
+    url: https://www.bit.edu.cn/docs/2026-03/27a2a4a186c441fd87b09c5d99f7b832.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4 学校标准色-01
+    url: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4 学校标准色-01.ai
+    url: https://www.bit.edu.cn/docs/2026-03/1f4ba86bcd734869be1d5c238d4ca354.ai
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4 学校标准色-02.ai
+    url: https://www.bit.edu.cn/docs/2026-03/db815e51214c4b7d9d3c80c622a0828f.ai
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4 学校标准色-03.ai
+    url: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4 学校标准色-04.ai
+    url: https://www.bit.edu.cn/docs/2026-03/089dffec811a4d63a1669faaa355681a.ai
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1940

@@ -83,9 +83,10 @@ visual:
     value: https://www.gyiht.edu.cn/xuexiaogaikuang/xiaoguixiaohui/310000000000123.shtml
     source: https://www.gyiht.edu.cn/xuexiaogaikuang/xiaoguixiaohui/310000000000123.shtml
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -130,6 +131,44 @@ visual:
     byte_size: 43379
     representation: raster
     resolved_url: https://www.gyiht.edu.cn/images/rw_logo_red.png
+  - asset_id: 821727116a5bd4f79c83a85a
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.gyiht.edu.cn/images/home-brand-logo-transparent.png
+    source: https://www.gyiht.edu.cn/xuexiaogaikuang/xiaoguixiaohui/310000000000123.shtml
+    file_name: home-brand-logo-transparent.png
+    upstream_path: null
+    publisher: 贵阳人文科技学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 贵阳人文科技学院
+    format: png
+    width: 544
+    height: 130
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 2df4ca5996f8459f474df21c75b0a745b16ab5a323057666b0e9428f00b36768
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /images/home-brand-logo-transparent.png
+      label: '贵阳人文科技学院   '
+      context: '  gzmdrw-home-header-slot  gzmdrw-home-header  gzmdrw-home-header__brand '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 71280
+    representation: raster
+    resolved_url: https://www.gyiht.edu.cn/images/home-brand-logo-transparent.png
+    inspection_attempts:
+    - url: https://www.gyiht.edu.cn/images/home-brand-logo-transparent.png
+      status: content_inspected
   color_palette:
   - value: '#A81820'
     rgb:
@@ -165,7 +204,57 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#A82020'
+    rgb:
+    - 168
+    - 32
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gyiht.edu.cn/images/home-brand-logo-transparent.png
+    page_source: https://www.gyiht.edu.cn/xuexiaogaikuang/xiaoguixiaohui/310000000000123.shtml
+    asset_id: 821727116a5bd4f79c83a85a
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#B01820'
+    rgb:
+    - 176
+    - 24
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gyiht.edu.cn/images/home-brand-logo-transparent.png
+    page_source: https://www.gyiht.edu.cn/xuexiaogaikuang/xiaoguixiaohui/310000000000123.shtml
+    asset_id: 821727116a5bd4f79c83a85a
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校训校徽
+    url: https://www.gyiht.edu.cn/xuexiaogaikuang/xiaoguixiaohui/310000000000123.shtml
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gyiht.edu.cn/xuexiaogaikuang/xiaoguixiaohui/310000000000123.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 434625ca08a21990ab36722696b46dafe6aad475ea7ead3bdc95befb4bd294aa
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 2001
@@ -326,7 +415,7 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: 贵阳人文科技学院位于贵州省贵阳市，主管部门为贵州省教育厅。官网列示本科生1.7万余人（统计日期未注明）。官网列示教职工1000余人（统计日期未注明）。
+    value: 贵阳人文科技学院位于贵州省贵阳市，主管部门为贵州省教育厅。官网列示在校本科生1.7万余人（统计日期未注明）。官网列示教职工1000余人（统计日期未注明）。
     availability: found
     search_sources: []
     source: https://www.gyiht.edu.cn/xuexiaogaikuang/xuexiaojianjie/310000000000120.shtml
@@ -353,11 +442,11 @@ statistics:
     verified: auto
     checked_at: '2026-10-01'
     collector: official_overview
-    basis: 本科生；近似/下界数，保留原标注：本科生1.7万余人；页面未标注此项统计日期；采集日不等于统计日
+    basis: 在校本科生；近似/下界数，保留原标注：在校本科生1.7万余人；页面未标注此项统计日期；采集日不等于统计日
     source_as_of: undated
     date_basis: 页面未标注此项统计日期；采集日不等于统计日
     approximate: true
-    original_notation: 本科生1.7万余人
+    original_notation: 在校本科生1.7万余人
   faculty_count:
     value: 1000
     availability: found

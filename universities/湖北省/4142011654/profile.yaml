@@ -87,12 +87,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.wbu.edu.cn/2017/0614/c73a21058/page.htm
+    availability: found
     search_sources: []
+    source: https://www.wbu.edu.cn/2017/0614/c73a21058/page.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -205,6 +206,44 @@ visual:
     source_as_of: unspecified
     byte_size: 19601
     representation: raster
+  - asset_id: 571a4c79b0f1548796823d8f
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.wbu.edu.cn/_upload/tpl/00/c0/192/template192/images/logo.png
+    source: https://www.wbu.edu.cn/2017/0614/c73a21058/page.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 武汉商学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉商学院
+    format: png
+    width: 300
+    height: 70
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 350b045cf83110ab0ea48455d7a951d26905f4db3c7f02f3a1b1d43edbea50ef
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/c0/192/template192/images/logo.png
+      label: '   '
+      context: 'inner  head-left  sitelogo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 27219
+    representation: raster
+    resolved_url: https://www.wbu.edu.cn/_upload/tpl/00/c0/192/template192/images/logo.png
+    inspection_attempts:
+    - url: https://www.wbu.edu.cn/_upload/tpl/00/c0/192/template192/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#9F2307'
     rgb:
@@ -310,7 +349,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: af0fbbb38b9dec0d
-  vi_resources: []
+  vi_resources:
+  - title: 我校启用新校训和新校徽标志
+    url: https://www.wbu.edu.cn/2017/0614/c73a21058/page.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.wbu.edu.cn/2017/0614/c73a21058/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 66550c81e681890b78f16b4889f41edee6ba7f6c9088c93cfb4dea33f18b7cb4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

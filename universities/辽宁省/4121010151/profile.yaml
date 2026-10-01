@@ -119,9 +119,10 @@ visual:
     value: https://www.dlmu.edu.cn/wzsy/ggfw/sjsb.htm
     source: https://www.dlmu.edu.cn/wzsy/ggfw/sjsb.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形校徽中心组合浪、船、帆，舵轮状外环内列中英文校名，下方标“1909”。
     source: https://www.dlmu.edu.cn/wzsy/xxgk/xxzc.htm
@@ -331,7 +332,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 50938190687b1a04
-  vi_resources: []
+  vi_resources:
+  - title: 校徽
+    url: https://www.dlmu.edu.cn/wzsy/ggfw/sjsb/bzys.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.dlmu.edu.cn/wzsy/ggfw/sjsb/bzys.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 33ebe7df1553c14a80f0cfac81b757942f6e4b4f5a39319635b31a90341ae4c8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 视觉识别
+    url: https://www.dlmu.edu.cn/wzsy/ggfw/sjsb.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.dlmu.edu.cn/wzsy/ggfw/sjsb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2b6fc37706fcc4e94964bf83cd5d692d8f8a7eeb4f8aaa46b91e7d2f2ad9c231
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1909

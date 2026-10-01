@@ -219,7 +219,10 @@ def collect(school,discovery):
             final,body,charset,mime=fetch(url,website,policy)
             if mime not in {'text/html','application/xhtml+xml'}:raise ValueError('not_html')
             page=Page();page.feed(decode(body,charset));page.finish()
-            if not matches_school_title(name,page.title,SCHOOL_NAMES):raise ValueError('homepage_identity_mismatch')
+            if not matches_school_title(name,page.title,SCHOOL_NAMES):
+                from collect_homepage_identity import ownership_evidence
+                if not school.get('home') or not ownership_evidence(name,[t for _,t in page.lines],SCHOOL_NAMES):
+                    raise ValueError('homepage_identity_mismatch')
             attempt.update(status='read',source_url=final,title=page.title.strip()[:180],sha256=hashlib.sha256(body).hexdigest())
             home_page=page;final_home=final;break
         except Exception as exc:
@@ -332,6 +335,7 @@ def apply_record(profile,record):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workers',type=int,default=16);parser.add_argument('--limit',type=int)
+    parser.add_argument('--school-code',action='append',help='Collect only these schools; preserve the rest of the ledger')
     parser.add_argument('--resume',action='store_true');parser.add_argument('--retry-gaps',action='store_true');parser.add_argument('--import-only',action='store_true')
     parser.add_argument('--retry-asset-errors',action='store_true',help='Retry only failed official image files from the saved ledger')
     args=parser.parse_args()
@@ -345,6 +349,7 @@ def main():
         school['home']=fact.get('value') if fact.get('availability')=='found' else None
     results={r['school_code']:r for r in map(json.loads,OUTPUT.read_text().splitlines())} if OUTPUT.exists() else {}
     selected=schools[:args.limit] if args.limit else schools
+    if args.school_code:selected=[s for s in selected if s['school_code'] in args.school_code]
     pending=[s for s in selected if (not args.resume or s['school_code'] not in results) and
              (not args.retry_gaps or results.get(s['school_code'],{}).get('status')=='homepage_access_gap')]
     def save():
@@ -367,6 +372,7 @@ def main():
     save()
     touched=0
     for code,record in results.items():
+        if args.school_code and code not in args.school_code:continue
         # A long network run must merge into the current fact source, preserving
         # any school or reviewed fields added while collection was in progress.
         profiles[code]=yaml.safe_load(paths[code].read_text())

@@ -90,12 +90,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hbafa.edu.cn/info/1052/1141.htm
+    availability: found
     search_sources: []
+    source: https://www.hbafa.edu.cn/info/1052/1141.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -104,9 +105,115 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
-  vi_resources: []
+  logo_assets:
+  - asset_id: b3edb5871a11b738a3769f7c
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.hbafa.edu.cn/images/logoft.png
+    source: https://www.hbafa.edu.cn/info/1052/1141.htm
+    file_name: logoft.png
+    upstream_path: null
+    publisher: 河北美术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河北美术学院
+    format: png
+    width: 324
+    height: 89
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 88ea167f02b4025f41a51bf5ddf6abee6295dc7159ce678a622901a08ba44150
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logoft.png
+      label: '   '
+      context: 'header   wpa flex pore  logo flex-v-center   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 21714
+    representation: raster
+    resolved_url: https://www.hbafa.edu.cn/images/logoft.png
+    inspection_attempts:
+    - url: https://www.hbafa.edu.cn/images/logoft.png
+      status: content_inspected
+  color_palette:
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 0
+    pantone: null
+    label: 校徽标准蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.hbafa.edu.cn/info/1052/1141.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方规范校名校徽通知明确校徽标准色CMYK100/80/0/0；没有RGB或HEX，不换算屏幕色。
+    source_sha256: 394db211dfee59ea82b1db4de2779194dbf0a73231220decac75d090bf1745b3
+  - value: '#003890'
+    rgb:
+    - 0
+    - 56
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hbafa.edu.cn/images/logoft.png
+    page_source: https://www.hbafa.edu.cn/info/1052/1141.htm
+    asset_id: b3edb5871a11b738a3769f7c
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#003898'
+    rgb:
+    - 0
+    - 56
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hbafa.edu.cn/images/logoft.png
+    page_source: https://www.hbafa.edu.cn/info/1052/1141.htm
+    asset_id: b3edb5871a11b738a3769f7c
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 河北美术学院关于规范使用校名校徽的通知
+    url: https://www.hbafa.edu.cn/info/1052/1141.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hbafa.edu.cn/info/1052/1141.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 394db211dfee59ea82b1db4de2779194dbf0a73231220decac75d090bf1745b3
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

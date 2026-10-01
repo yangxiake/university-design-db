@@ -22,10 +22,12 @@
 |  | `#003088` | 0,48,136 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#003098` | 0,48,152 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[http://www.lfnu.edu.cn/col/1387254021656/index.html](http://www.lfnu.edu.cn/col/1387254021656/index.html)
+- [廊坊师范学院校徽校名标识-资料下载-宣传部](https://www.lfnu.edu.cn/dwxcb/col/1386669163687/2024/03/19/1710845964471.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lfnu.edu.cn/dwxcb/col/1386669163687/2024/03/19/1710845964471.html)。
+- [廊坊师范学院1914版本校徽校名标识](http://www.lfnu.edu.cn/download.jsp?pathfile=/dwxcb/atm/7/20240319185818455.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lfnu.edu.cn/dwxcb/col/1386669163687/2024/03/19/1710845964471.html)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

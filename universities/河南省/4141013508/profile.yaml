@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xcb.zueb.edu.cn/info/1009/1007.htm
+    availability: found
     search_sources: []
+    source: https://xcb.zueb.edu.cn/info/1009/1007.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -130,8 +131,78 @@ visual:
     byte_size: 47170
     representation: raster
     resolved_url: https://www.zueb.edu.cn/img/logo.png
+  - asset_id: 46c8dce3ba11fc08849d906e
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://xcb.zueb.edu.cn/images/xcb-logo.png
+    source: https://xcb.zueb.edu.cn/info/1009/1007.htm
+    file_name: xcb-logo.png
+    upstream_path: null
+    publisher: 郑州经贸学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 郑州经贸学院
+    format: png
+    width: 932
+    height: 86
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 9c3eff10d676cd9e5ac64f96fc3ff7e4c02c93b2707bc5c660c4c9e4e99a4f5b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/xcb-logo.png
+      label: '宣传部 宣传部  '
+      context: 'top  wid1200  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 37113
+    representation: raster
+    resolved_url: https://xcb.zueb.edu.cn/images/xcb-logo.png
+    inspection_attempts:
+    - url: https://xcb.zueb.edu.cn/images/xcb-logo.png
+      status: content_inspected
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 郑州经贸学院校徽标准图形
+    url: https://xcb.zueb.edu.cn/info/1009/1007.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zueb.edu.cn/info/1009/1007.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9b39c7ecadd33e11862a103d0f6c71a5578fcf3af5e75d47bacabdd5b5b34240
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽标准图形.zip
+    url: https://xcb.zueb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1799065685&wbfileid=2712493
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zueb.edu.cn/info/1009/1007.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9b39c7ecadd33e11862a103d0f6c71a5578fcf3af5e75d47bacabdd5b5b34240
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 2003

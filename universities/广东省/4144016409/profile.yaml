@@ -87,12 +87,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.smbu.edu.cn/sjxxsb/bz_xh.htm
+    availability: found
     search_sources: []
+    source: https://www.smbu.edu.cn/sjxxsb/bz_xh.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -137,6 +138,44 @@ visual:
     byte_size: 17688
     representation: raster
     resolved_url: https://www.smbu.edu.cn/images/logo.png
+  - asset_id: dc5b09358d046f3080c5217c
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.smbu.edu.cn/images/db_logo.png
+    source: https://www.smbu.edu.cn/sjxxsb/sjxxgf.htm
+    file_name: db_logo.png
+    upstream_path: null
+    publisher: 深圳北理莫斯科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 深圳北理莫斯科大学
+    format: png
+    width: 280
+    height: 185
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b5a27ad353f59a5f42481c3ad9f28ea4320c53449fe30f46a04a5e0c2f27e12e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/db_logo.png
+      label: '   '
+      context: 'dibu_bg  ctbx  dblf  dblogo '
+      position: 4
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 16042
+    representation: raster
+    resolved_url: https://www.smbu.edu.cn/images/db_logo.png
+    inspection_attempts:
+    - url: https://www.smbu.edu.cn/images/db_logo.png
+      status: content_inspected
   color_palette:
   - value: '#051759'
     rgb:
@@ -154,7 +193,119 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
-  vi_resources: []
+  vi_resources:
+  - title: 视觉形象识别
+    url: https://www.smbu.edu.cn/sjxxsb/bz_xh.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.smbu.edu.cn/sjxxsb/bz_xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a61724aa4e2bbc9f036d43cde92a7521bbe9d3d6bfcdc1a2164327c8f01a1f7e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 深北莫标志源文件.pdf
+    url: https://www.smbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1947387246&wbfileid=ACBFF3627FEEB6DA02881D8DAD786B6B
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.smbu.edu.cn/sjxxsb/bz_xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a61724aa4e2bbc9f036d43cde92a7521bbe9d3d6bfcdc1a2164327c8f01a1f7e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 视觉形象识别
+    url: https://www.smbu.edu.cn/sjxxsb.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.smbu.edu.cn/sjxxsb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4532f7f95db93a0d57adaf50b63affbf78ba2bb8ed6225b5be7e236214c7d6d5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 深北莫标志源文件.pdf
+    url: https://www.smbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1947387246&wbfileid=ACBFF3627FEEB6DA02881D8DAD786B6B
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.smbu.edu.cn/sjxxsb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4532f7f95db93a0d57adaf50b63affbf78ba2bb8ed6225b5be7e236214c7d6d5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 视觉形象识别
+    url: https://www.smbu.edu.cn/sjxxsb/sjxxgf.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.smbu.edu.cn/sjxxsb/sjxxgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9459f8f686278ff92bca8592197f3eddd7049d55adf11df619b35e635e9bd8e4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 视觉形象识别
+    url: https://www.smbu.edu.cn/info/1430/5907.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.smbu.edu.cn/info/1430/5907.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2d41d07b789ed7656c89906677a67222c5876c93dfabb8fb01985c5cd32b6bbd
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 深北莫logo.rar
+    url: https://www.smbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1947387246&wbfileid=5E44CFE1D28682ED49E01D828B286FC0
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.smbu.edu.cn/info/1430/5907.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2d41d07b789ed7656c89906677a67222c5876c93dfabb8fb01985c5cd32b6bbd
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

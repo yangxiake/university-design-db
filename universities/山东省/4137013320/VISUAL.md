@@ -14,12 +14,18 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 浅蓝色（并列标准色） | `#6880AE` | 104,128,174 | secondary | [65, 46, 14, 0] |  | 官方VI标准值 | [依据](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf) |
+| 珠山红（辅助色） | `#D93643` | 217,54,67 | accent | [10, 91, 66, 0] |  | 官方VI标准值 | [依据](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf) |
 
-尚无附来源配色。
+主色来源存在差异：PDF第33页蓝色色卡RGB R15 G50 B133对应#0F3285，但图中直接印出HEX#0C3386；两值均保留，不自动纠正手册。
+- `#0F3285`：[来源](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf)；PDF第33页RGB15/50/133精确换写。
+- `#0C3386`：[来源](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf)；PDF第33页直接印出的HEX。
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf)
+- [青岛黄海学院官方视觉规范](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf)：["标识规范", "标准色"]；格式 PDF；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

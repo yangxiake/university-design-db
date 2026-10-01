@@ -117,9 +117,10 @@ visual:
     value: https://www.asu.edu.cn/xygk/xxxh.htm
     source: https://www.asu.edu.cn/xygk/xxxh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -188,6 +189,44 @@ visual:
     source_as_of: unspecified
     byte_size: 25960
     representation: raster
+  - asset_id: 9c3c06ad483c1fb44fb78b49
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.asu.edu.cn/images/aslogo.png
+    source: https://www.asu.edu.cn/xygk/xxxh.htm
+    file_name: aslogo.png
+    upstream_path: null
+    publisher: 安顺学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 安顺学院
+    format: png
+    width: 798
+    height: 109
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 96a7144f72996e1a3f7ef5dac94d6922ad367cf980543c9659fd0089b0d66915
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/aslogo.png
+      label: '   '
+      context: 'top1  block  logo  logo1 '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 44203
+    representation: raster
+    resolved_url: https://www.asu.edu.cn/images/aslogo.png
+    inspection_attempts:
+    - url: https://www.asu.edu.cn/images/aslogo.png
+      status: content_inspected
   color_palette:
   - value: '#009A53'
     rgb:
@@ -259,7 +298,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: af192f0a40a69df6
-  vi_resources: []
+  - value: '#009850'
+    rgb:
+    - 0
+    - 152
+    - 80
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.asu.edu.cn/images/aslogo.png
+    page_source: https://www.asu.edu.cn/xygk/xxxh.htm
+    asset_id: 9c3c06ad483c1fb44fb78b49
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#009848'
+    rgb:
+    - 0
+    - 152
+    - 72
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.asu.edu.cn/images/aslogo.png
+    page_source: https://www.asu.edu.cn/xygk/xxxh.htm
+    asset_id: 9c3c06ad483c1fb44fb78b49
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校校徽-安顺学院
+    url: https://www.asu.edu.cn/xygk/xxxh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.asu.edu.cn/xygk/xxxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cd8924d250b61659aa82f144229450265c709e5fae6bd038203bce0713bb7989
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

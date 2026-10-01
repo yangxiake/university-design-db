@@ -100,12 +100,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hbuas.edu.cn/xxgk/whbs.htm
+    availability: found
     search_sources: []
+    source: http://www.hbuas.edu.cn/xxgk/whbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形徽志整体采用深绿色。
     source: https://www.hbuas.edu.cn/xxgk/xxzc.htm
@@ -210,6 +211,44 @@ visual:
     source_as_of: unspecified
     byte_size: 82072
     representation: raster
+  - asset_id: 89b4c5a55d21af6f5ae1c750
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.hbuas.edu.cn/img/logo2.png
+    source: http://www.hbuas.edu.cn/xxgk/whbs.htm
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 湖北文理学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖北文理学院
+    format: png
+    width: 429
+    height: 100
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3152d1e994e7f23629110ef39ff7c5dc42b1042be37dd532e802439d03af06ad
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../img/logo2.png
+      label: '   '
+      context: '  headerm flex  logo flex-v-center    '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 19606
+    representation: raster
+    resolved_url: http://www.hbuas.edu.cn/img/logo2.png
+    inspection_attempts:
+    - url: http://www.hbuas.edu.cn/img/logo2.png
+      status: content_inspected
   color_palette:
   - value: '#085030'
     rgb:
@@ -265,7 +304,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 83f513e182b6158f
-  vi_resources: []
+  vi_resources:
+  - title: 校徽
+    url: http://www.hbuas.edu.cn/xxgk/whbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.hbuas.edu.cn/xxgk/whbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 309f1d22d99c616bb2a4e88ce89365b3c5637a215cb51da8d4c97c38c458cbe8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

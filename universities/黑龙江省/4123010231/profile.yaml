@@ -107,12 +107,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hrbnu.edu.cn/info/1039/41634.htm
+    availability: found
     search_sources: []
+    source: http://www.hrbnu.edu.cn/info/1039/41634.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校徽以HSD字母与天鹅、朝阳意象组成红色圆形图案。
     source: http://www.hrbnu.edu.cn/info/1329/50645.htm
@@ -357,7 +358,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 3ad716f9d7cd3b29
-  vi_resources: []
+  vi_resources:
+  - title: 哈尔滨师范大学关于发布校旗、校徽、校标的公告
+    url: http://www.hrbnu.edu.cn/info/1039/41634.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.hrbnu.edu.cn/info/1039/41634.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf1869c4142d9632fb20bd63fe364afb4251476a8f2d773c1b4829feb608207a
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1951

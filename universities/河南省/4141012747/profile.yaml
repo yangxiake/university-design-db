@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://wy.zzuit.edu.cn/info/1017/6932.htm
+    availability: found
     search_sources: []
+    source: https://wy.zzuit.edu.cn/info/1017/6932.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -165,6 +166,44 @@ visual:
     byte_size: 7099
     representation: raster
     resolved_url: https://www.zzuit.edu.cn/images/logo_x.png
+  - asset_id: 4261c138a389168c85a25206
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://wy.zzuit.edu.cn/images/logo-20221017.png
+    source: https://wy.zzuit.edu.cn/info/1017/6932.htm
+    file_name: logo-20221017.png
+    upstream_path: null
+    publisher: 郑州工业应用技术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 郑州工业应用技术学院
+    format: png
+    width: 910
+    height: 120
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 02c49cc9c2d29f4d5c62d67103bc3954dba48bfecdc52d77ee02a321a0398791
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo-20221017.png
+      label: '   '
+      context: 'wgg0w  logobjc  logolf   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 74182
+    representation: raster
+    resolved_url: https://wy.zzuit.edu.cn/images/logo-20221017.png
+    inspection_attempts:
+    - url: https://wy.zzuit.edu.cn/images/logo-20221017.png
+      status: content_inspected
   color_palette:
   - value: '#A0C0D8'
     rgb:
@@ -200,7 +239,57 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#B02018'
+    rgb:
+    - 176
+    - 32
+    - 24
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://wy.zzuit.edu.cn/images/logo-20221017.png
+    page_source: https://wy.zzuit.edu.cn/info/1017/6932.htm
+    asset_id: 4261c138a389168c85a25206
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E8C8C8'
+    rgb:
+    - 232
+    - 200
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://wy.zzuit.edu.cn/images/logo-20221017.png
+    page_source: https://wy.zzuit.edu.cn/info/1017/6932.htm
+    asset_id: 4261c138a389168c85a25206
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 关于启用新校徽校名的通知 （转自校讯）-郑州工业应用技术学院-外国语学院
+    url: https://wy.zzuit.edu.cn/info/1017/6932.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://wy.zzuit.edu.cn/info/1017/6932.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8ac5d916b24f2e0473668edf57f5b17c961588342db457883551af2941650ace
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

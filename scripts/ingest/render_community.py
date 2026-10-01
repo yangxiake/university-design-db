@@ -21,6 +21,11 @@ def render(profile):
                   '- 依据：['+item['source']+']('+item['source']+')',
                   '- 采集：'+str(item['checked_at'])+'（'+item['verified']+'）',
                   '- 使用说明：'+item['usage_note']]
+        if item.get('formats'):lines+=['- 格式：'+ '、'.join(item['formats'])]
+        for file in item.get('files',[]):
+            meta=file.get('file_metadata') or {}
+            state=('结构已读取：%s页、%s、可编辑文本节点%s；字体%s。'%(meta['slide_count'],meta['aspect_ratio'],meta['editable_text_runs'],'、'.join(meta['font_names']) or '未声明')) if meta.get('format')=='PPTX' else '模板结构尚未读取。'
+            lines+=['- 文件入口：[%s](%s)；%s；%s'%(file['path'],file['url'],file['format'],state)]
         for color in item.get('palette', []):
             lines += ['- 社区主题参考色：`'+color['value']+'`；'+color['basis']]
         lines += ['']

@@ -16,12 +16,16 @@ identity:
     availability: unresearched
     search_sources: []
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.bhi.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.bhi.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 候选学校网站明确版权主体为教育部名单中的完整校名；主页或同主机明确首页链接。标题简称、新闻提及与旧名不作为独立确认依据。
+    evidence: Copyright©北京第二外国语学院中瑞酒店管理学院京ICP备16001129号-4京公网安备1101
+    source_sha256: fdea3bb1b203cbffcb965700467ba2125df25b9a8d5dc3fd507721699ac65737
   short_name_zh:
     value: null
     source: null
@@ -104,7 +108,45 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: eb2849d63096b458ce7162fb
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.bhi.edu.cn/images/logo.png
+    source: https://www.bhi.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 北京第二外国语学院中瑞酒店管理学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京第二外国语学院中瑞酒店管理学院
+    format: png
+    width: 330
+    height: 89
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: fc37032c279845c070746ea95c08b3e20c0081ae443a0c59a329e621b36763f3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /images/logo.png
+      label: '中瑞酒店   '
+      context: ' header nav  nav_unit  unit_left '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 13871
+    representation: raster
+    resolved_url: https://www.bhi.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: https://www.bhi.edu.cn/images/logo.png
+      status: content_inspected
   color_palette: []
   vi_resources: []
 culture:
@@ -167,12 +209,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.bhi.edu.cn/39/list/tw.html
+    availability: found
     search_sources: []
+    source: https://www.bhi.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -181,12 +227,16 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.bhi.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.bhi.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
     value: null
     source: null

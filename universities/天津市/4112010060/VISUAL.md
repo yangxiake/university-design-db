@@ -30,9 +30,12 @@
 |  | `#A80008` | 168,0,8 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#A80810` | 168,8,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.tjut.edu.cn/info/1031/1033.htm](https://www.tjut.edu.cn/info/1031/1033.htm)
+- [天津理工大学视觉形象识别系统，正式发布！-天津理工大学](https://www.tjut.edu.cn/info/1031/1033.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjut.edu.cn/info/1031/1033.htm)。
+- [天津理工大学视觉形象识别手册.pdf](https://www.tjut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2043892441&wbfileid=11974731)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjut.edu.cn/info/1031/1033.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

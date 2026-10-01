@@ -117,9 +117,10 @@ visual:
     value: https://www.tsu.edu.cn/8337/list.htm
     source: https://www.tsu.edu.cn/8337/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 篆体“山”字内含T变形的人字，外环列英文校名与郭沫若体中文校名。
     source: https://www.tsu.edu.cn/8337/list.htm
@@ -368,7 +369,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 17706b4c14cc52aa
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.tsu.edu.cn/8337/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.tsu.edu.cn/8337/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2c2fcbb7feb373fa4edf43375da3724ab03740a8e2125d8469414bceeff341de
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

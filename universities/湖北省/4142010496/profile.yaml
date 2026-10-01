@@ -101,12 +101,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.whpu.edu.cn/xywh/sjsbxt.htm
+    availability: found
     search_sources: []
+    source: https://www.whpu.edu.cn/xywh/sjsbxt.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆徽志中心把书本抽象成“工”字，下标“1951”；外环列毛体中文校名和英文全称。
     source: https://www.whpu.edu.cn/xxgk/xxzc.htm
@@ -266,7 +267,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 3bf763cc6ee4b0f6
-  vi_resources: []
+  vi_resources:
+  - title: 视觉识别系统-武汉轻工大学
+    url: https://www.whpu.edu.cn/xywh/sjsbxt.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.whpu.edu.cn/xywh/sjsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8596ea618b92401cc0d156aef886f4a160a23dc32e4dfb093d2ea565693666b2
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1951

@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.xacxxy.com/zjcx/xxbz.htm
+    availability: found
     search_sources: []
+    source: http://www.xacxxy.com/zjcx/xxbz.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -165,6 +166,82 @@ visual:
     byte_size: 15928
     representation: raster
     resolved_url: https://www.xacxxy.com/images/logo-txt.png
+  - asset_id: 1f071180f83107ef269d7b56
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.xacxxy.com/images/logo.png
+    source: http://www.xacxxy.com/zjcx/xxbz.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 延安大学西安创新学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 延安大学西安创新学院
+    format: png
+    width: 513
+    height: 66
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 88f009b85585fd8e1d7d5411a83cc7edb97774358a09cd5a21f22548f6c34f8a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '   '
+      context: '       '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 20654
+    representation: raster
+    resolved_url: http://www.xacxxy.com/images/logo.png
+    inspection_attempts:
+    - url: http://www.xacxxy.com/images/logo.png
+      status: content_inspected
+  - asset_id: 1e08110098743aab8d4b81c3
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.xacxxy.com/images/logo-txt.png
+    source: http://www.xacxxy.com/zjcx/xxbz.htm
+    file_name: logo-txt.png
+    upstream_path: null
+    publisher: 延安大学西安创新学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 延安大学西安创新学院
+    format: png
+    width: 256
+    height: 28
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 4941c36998b152111614510cfe3e62ab5b65e70de7b2d884f3c5a1019bc5a6c5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo-txt.png
+      label: '   '
+      context: '       '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 15928
+    representation: raster
+    resolved_url: http://www.xacxxy.com/images/logo-txt.png
+    inspection_attempts:
+    - url: http://www.xacxxy.com/images/logo-txt.png
+      status: content_inspected
   color_palette:
   - value: '#70C0D0'
     rgb:
@@ -234,7 +311,91 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#70C0D0'
+    rgb:
+    - 112
+    - 192
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.xacxxy.com/images/logo.png
+    page_source: http://www.xacxxy.com/zjcx/xxbz.htm
+    asset_id: 1f071180f83107ef269d7b56
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#78C8D8'
+    rgb:
+    - 120
+    - 200
+    - 216
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.xacxxy.com/images/logo.png
+    page_source: http://www.xacxxy.com/zjcx/xxbz.htm
+    asset_id: 1f071180f83107ef269d7b56
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#F0E8D0'
+    rgb:
+    - 240
+    - 232
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.xacxxy.com/images/logo-txt.png
+    page_source: http://www.xacxxy.com/zjcx/xxbz.htm
+    asset_id: 1e08110098743aab8d4b81c3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E8D0A8'
+    rgb:
+    - 232
+    - 208
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.xacxxy.com/images/logo-txt.png
+    page_source: http://www.xacxxy.com/zjcx/xxbz.htm
+    asset_id: 1e08110098743aab8d4b81c3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标志-延安大学西安创新学院
+    url: http://www.xacxxy.com/zjcx/xxbz.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.xacxxy.com/zjcx/xxbz.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f6b3bba0adc0c9268cbaa1c364cca0b5165d3af32a774f4c6cabe77d2ace430d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

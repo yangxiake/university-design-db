@@ -17,10 +17,12 @@
 |  | `#003090` | 0,48,144 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.hibu.edu.cn/images/logo519.png) |
 |  | `#C0C8E0` | 192,200,224 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.hibu.edu.cn/images/logo519.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.hibu.edu.cn/xxgk/xxbs.htm](https://www.hibu.edu.cn/xxgk/xxbs.htm)
+- [学校标识-黑龙江工商学院](https://www.hibu.edu.cn/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hibu.edu.cn/xxgk/xxbs.htm)。
+- [3.校徽logo和校名标准字体（中英文）设计源文件改英文1Arial-改(1).pdf](https://www.hibu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1795811294&wbfileid=7903417)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hibu.edu.cn/xxgk/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

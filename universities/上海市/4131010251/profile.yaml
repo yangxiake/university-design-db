@@ -142,9 +142,10 @@ visual:
     value: https://xiaoban.ecust.edu.cn/10389/list.htm
     source: https://xiaoban.ecust.edu.cn/10389/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -280,6 +281,44 @@ visual:
     source_as_of: unspecified
     byte_size: 96979
     representation: raster
+  - asset_id: 837a3d2f5a9446222c671f62
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://xiaoban.ecust.edu.cn/_upload/site/00/79/121/logo.png
+    source: https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 华东理工大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 华东理工大学
+    format: png
+    width: 400
+    height: 83
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 5ab7193a6c9f9c1ae9739fccbe286b7d0e69afd566c9d7fedc6de47cf7ef093a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/site/00/79/121/logo.png
+      label: '   '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 31025
+    representation: raster
+    resolved_url: https://xiaoban.ecust.edu.cn/_upload/site/00/79/121/logo.png
+    inspection_attempts:
+    - url: https://xiaoban.ecust.edu.cn/_upload/site/00/79/121/logo.png
+      status: content_inspected
   color_palette:
   - value: '#00528E'
     rgb:
@@ -403,7 +442,89 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 1e7e87383826634a
-  vi_resources: []
+  - value: '#005090'
+    rgb:
+    - 0
+    - 80
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://xiaoban.ecust.edu.cn/_upload/site/00/79/121/logo.png
+    page_source: https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm
+    asset_id: 837a3d2f5a9446222c671f62
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#004888'
+    rgb:
+    - 0
+    - 72
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://xiaoban.ecust.edu.cn/_upload/site/00/79/121/logo.png
+    page_source: https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm
+    asset_id: 837a3d2f5a9446222c671f62
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: https://xiaoban.ecust.edu.cn/10389/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xiaoban.ecust.edu.cn/10389/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 66d2742958bdc6795b1e78f951c85d0eca889357aec0d2f47d3e366f9cac7189
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名、校标素材下载
+    url: https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 74df50e10d67cfb0a8b12deaa945887bbeec200c4dbe2b41cbdab15f97dc001c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名 校标 组合素材 矢量格式.zip
+    url: https://xiaoban.ecust.edu.cn/_upload/article/files/d2/76/a11291914f8d8940cf0a3f5cbf13/9df32e97-74aa-4b87-b1f2-df1ca7faaba8.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 74df50e10d67cfb0a8b12deaa945887bbeec200c4dbe2b41cbdab15f97dc001c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1952
@@ -656,21 +777,21 @@ location:
     source: https://www.ecust.edu.cn/587/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 奉贤校区
     address: null
     coordinates: null
     source: https://www.ecust.edu.cn/587/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 徐汇南校区
     address: null
     coordinates: null
     source: https://www.ecust.edu.cn/587/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 华东理工大学位于上海市，主管部门为教育部。官网列示全日制本科生1.7万余人（统计日期未注明）。官网列示教职员工近3000人（统计日期未注明）。官网列示占地总面积2336.68亩（统计日期未注明）。简介列出徐汇校区、奉贤校区、徐汇南校区。

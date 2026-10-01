@@ -109,9 +109,10 @@ visual:
     value: https://www.dgut.edu.cn/xxgk/xhxx.htm
     source: https://www.dgut.edu.cn/xxgk/xhxx.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 所读章程明确校徽由中英文校名和英文简称等元素组成。
     source: https://www.dgut.edu.cn/info/1065/32892.htm
@@ -465,7 +466,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: f61d8ed5c23b9605
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训
+    url: https://www.dgut.edu.cn/xxgk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.dgut.edu.cn/xxgk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 14d5da1eee399f4f2f3c3b45873ec766e36b812804b86171c249e3bb24231f1a
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -686,17 +703,17 @@ location:
     source: https://www.dgut.edu.cn/info/1012/76772.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 莞城校区
     address: null
     coordinates: null
     source: https://www.dgut.edu.cn/info/1012/76772.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 东莞理工学院位于广东省东莞市，主管部门为广东省。官网列示本科生19864人（统计日期未注明）。官网列示教职工1996人（统计日期未注明）。官网列示总占地面积约2202亩（统计日期未注明）。简介列出松山湖校区、莞城校区。
+    value: 东莞理工学院位于广东省东莞市，主管部门为广东省。官网列示全日制在校本科生19864人（统计日期未注明）。官网列示教职工1996人（统计日期未注明）。官网列示总占地面积约2202亩（统计日期未注明）。简介列出松山湖校区、莞城校区。
     availability: found
     search_sources: []
     source: https://www.dgut.edu.cn/info/1012/76772.htm
@@ -723,11 +740,11 @@ statistics:
     verified: auto
     checked_at: '2026-10-01'
     collector: official_overview
-    basis: 本科生；原标注：本科生19864人；页面未标注此项统计日期；采集日不等于统计日
+    basis: 全日制在校本科生；原标注：全日制在校本科生19864人；页面未标注此项统计日期；采集日不等于统计日
     source_as_of: undated
     date_basis: 页面未标注此项统计日期；采集日不等于统计日
     approximate: false
-    original_notation: 本科生19864人
+    original_notation: 全日制在校本科生19864人
   faculty_count:
     value: 1996
     availability: found

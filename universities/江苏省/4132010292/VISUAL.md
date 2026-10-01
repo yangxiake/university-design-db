@@ -32,7 +32,7 @@
 - `#C03F37`：[来源](https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf)；当前入口PDF第11页RGB R192 G63 B55换写HEX。
 - `#CB3C38`：[来源](https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf)；当前入口PDF第11页直接印出的HEX cb3c38。
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

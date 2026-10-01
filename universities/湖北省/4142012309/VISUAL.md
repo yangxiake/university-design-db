@@ -16,7 +16,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | `#FFD23C` | 255,210,60 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.wsyu.edu.cn/_upload/tpl/00/bd/189/template189/images/logo.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

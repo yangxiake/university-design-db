@@ -108,12 +108,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xnu.edu.cn/html/783/
+    availability: found
     search_sources: []
+    source: https://www.xnu.edu.cn/html/783/
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -272,7 +273,55 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 03cb4ac85649919f
-  vi_resources: []
+  vi_resources:
+  - title: 视觉形象识别系统_湘南学院
+    url: https://www.xnu.edu.cn/html/783/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xnu.edu.cn/html/783/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f68ded3853e3e2fdb75f34f9729b08ee7fc18671c85378dc1aa9638df32fcf6d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: VI系统基础部分下载
+    url: https://atta.xnu.edu.cn/attachment/userfiles/湘南学院2021.12.18(基础部分).pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xnu.edu.cn/html/783/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f68ded3853e3e2fdb75f34f9729b08ee7fc18671c85378dc1aa9638df32fcf6d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 湘南学院视觉形象识别系统（VI）手册【2021修订】基础部分AI源文件下载
+    url: https://atta.xnu.edu.cn/attachment/userfiles/湘南学院2021.12.7扩展)基础部分.ai
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xnu.edu.cn/html/783/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f68ded3853e3e2fdb75f34f9729b08ee7fc18671c85378dc1aa9638df32fcf6d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -456,17 +505,17 @@ location:
     source: https://www.xnu.edu.cn/html/781/
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 北湖校区
     address: null
     coordinates: null
     source: https://www.xnu.edu.cn/html/781/
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 湘南学院位于湖南省郴州市，主管部门为湖南省。官网列示本科生22874人（统计时间2026-04）。官网列示专任教师1300余人（统计时间2026-04）。官网列示学校占地面积1800余亩（统计时间2026-04）。简介列出王仙校区、北湖校区。
+    value: 湘南学院位于湖南省郴州市，主管部门为湖南省。官网列示全日制在校本科生22874人（统计时间2026-04）。官网列示专任教师1300余人（统计时间2026-04）。官网列示学校占地面积1800余亩（统计时间2026-04）。简介列出王仙校区、北湖校区。
     availability: found
     search_sources: []
     source: https://www.xnu.edu.cn/html/781/
@@ -493,11 +542,11 @@ statistics:
     verified: auto
     checked_at: '2026-10-01'
     collector: official_overview
-    basis: 本科生；原标注：本科生22874人；数据截至2026年4月
+    basis: 全日制在校本科生；原标注：全日制在校本科生22874人；数据截至2026年4月
     source_as_of: 2026-04
     date_basis: 数据截至2026年4月
     approximate: false
-    original_notation: 本科生22874人
+    original_notation: 全日制在校本科生22874人
   faculty_count:
     value: 1300
     availability: found

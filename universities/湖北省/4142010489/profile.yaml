@@ -114,9 +114,10 @@ visual:
     value: https://vis.yangtzeu.edu.cn/
     source: https://vis.yangtzeu.edu.cn/
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 以主教学楼为主体，呈一体两翼造型；上部蓝色、下部绿色，中英文校名为深蓝色。
     source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
@@ -232,6 +233,82 @@ visual:
     source_as_of: unspecified
     byte_size: 17374
     representation: raster
+  - asset_id: 4956ab49833ae506411ff071
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vis.yangtzeu.edu.cn/imgs/logo.png
+    source: https://vis.yangtzeu.edu.cn/jcbf/xbgf.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 长江大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    format: png
+    width: 468
+    height: 147
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3c240a489141a58a550c079718da00016fa75de668a81e44b51538f89ec900d5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: .././imgs/logo.png
+      label: '   '
+      context: 'header2  width1200 header2-box  header2-left   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 22193
+    representation: raster
+    resolved_url: https://vis.yangtzeu.edu.cn/imgs/logo.png
+    inspection_attempts:
+    - url: https://vis.yangtzeu.edu.cn/imgs/logo.png
+      status: content_inspected
+  - asset_id: 51e17442340ba8fba1beaca3
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vis.yangtzeu.edu.cn/imgs/logo_text.png
+    source: https://vis.yangtzeu.edu.cn/jcbf/xbgf.htm
+    file_name: logo_text.png
+    upstream_path: null
+    publisher: 长江大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    format: png
+    width: 360
+    height: 99
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ac4426eea895a69619484b0b0448f9c210f5453772754b361aa27e0697b13f90
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../imgs/logo_text.png
+      label: '   '
+      context: 'width1200 header2-box  header2-left  header2-left-text  logo_text '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 5752
+    representation: raster
+    resolved_url: https://vis.yangtzeu.edu.cn/imgs/logo_text.png
+    inspection_attempts:
+    - url: https://vis.yangtzeu.edu.cn/imgs/logo_text.png
+      status: content_inspected
   color_palette:
   - value: '#58B8E0'
     rgb:
@@ -287,7 +364,201 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 6dfcc32199fbeda6
-  vi_resources: []
+  vi_resources:
+  - title: 长江大学官网视觉资源页 PPT模板发布/下载页
+    url: https://vis.yangtzeu.edu.cn/
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://vis.yangtzeu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 558a11c71bd86b96147c940a73dcc61d6068106c11197d1dfb27312d3588398a
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 长江大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: PPT模版
+    url: https://vis.yangtzeu.edu.cn/yybf/PPTmb.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vis.yangtzeu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 558a11c71bd86b96147c940a73dcc61d6068106c11197d1dfb27312d3588398a
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 长江大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: &id001
+      - url: https://vis.yangtzeu.edu.cn/yybf/PPTmb.htm
+        status: target_page_read
+        resolved_url: https://vis.yangtzeu.edu.cn/yybf/PPTmb.htm
+      resolved_url: https://vis.yangtzeu.edu.cn/yybf/PPTmb.htm
+      page_metadata: &id002
+        title: PPT模版-视觉形象识别
+        sha256: 032f87518f630c18c3fa5d29f4d019d3d6be3fe3ca014d048b10d972d70dd30a
+        byte_size: 17414
+  - title: 长江大学官网视觉资源页 PPT模板发布/下载页
+    url: https://vis.yangtzeu.edu.cn/index.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://vis.yangtzeu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 558a11c71bd86b96147c940a73dcc61d6068106c11197d1dfb27312d3588398a
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 长江大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: PPT模版
+    url: https://vis.yangtzeu.edu.cn/yybf/PPTmb.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vis.yangtzeu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 558a11c71bd86b96147c940a73dcc61d6068106c11197d1dfb27312d3588398a
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 长江大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts: *id001
+      resolved_url: https://vis.yangtzeu.edu.cn/yybf/PPTmb.htm
+      page_metadata: *id002
+  - title: 校徽规范
+    url: https://vis.yangtzeu.edu.cn/jcbf/xhgf.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.yangtzeu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4ae091bedc2ba617bdfa2099050df1eaa7cacb6f81519891c230dc6713ddd7dc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽规范.zip
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.yangtzeu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4ae091bedc2ba617bdfa2099050df1eaa7cacb6f81519891c230dc6713ddd7dc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽基础图形标准化制图.zip
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.yangtzeu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4ae091bedc2ba617bdfa2099050df1eaa7cacb6f81519891c230dc6713ddd7dc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标规范
+    url: https://vis.yangtzeu.edu.cn/jcbf/xbgf.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.yangtzeu.edu.cn/jcbf/xbgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 068c47cb4f8977b1e5e1ceaaa206b0fa84be4537d1f0ad70be26791cea154b36
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标规范图—教职工.zip
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.yangtzeu.edu.cn/jcbf/xbgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 068c47cb4f8977b1e5e1ceaaa206b0fa84be4537d1f0ad70be26791cea154b36
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标规范图—学生.zip
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.yangtzeu.edu.cn/jcbf/xbgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 068c47cb4f8977b1e5e1ceaaa206b0fa84be4537d1f0ad70be26791cea154b36
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -327,19 +598,20 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://vis.yangtzeu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://vis.yangtzeu.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 长江大学官网视觉资源页
+    availability: found
     search_sources: []
+    source: https://vis.yangtzeu.edu.cn/index.htm
+    verified: auto
+    checked_at: '2026-10-02'
   official_template_terms:
     value: null
     source: null

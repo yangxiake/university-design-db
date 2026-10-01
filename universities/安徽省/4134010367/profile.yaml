@@ -87,12 +87,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xcb.bbmu.edu.cn/info/1003/3788.htm
+    availability: found
     search_sources: []
+    source: https://xcb.bbmu.edu.cn/info/1003/3788.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -137,6 +138,44 @@ visual:
     byte_size: 34841
     representation: raster
     resolved_url: https://www.bbmu.edu.cn/style/logo-3.png
+  - asset_id: 7e04d573b45479ed7aa597e1
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://xcb.bbmu.edu.cn/images/logox.png
+    source: https://xcb.bbmu.edu.cn/info/1003/3788.htm
+    file_name: logox.png
+    upstream_path: null
+    publisher: 蚌埠医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 蚌埠医科大学
+    format: png
+    width: 368
+    height: 90
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 1dd4bc213f58bcea4eb866931ed913219c9ec2955f97c2873ad60e479d28c153
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logox.png
+      label: '   '
+      context: 'wp-panel logo-panel panel-1  wp-window logo-window window-1  site-url  site-logo '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 28107
+    representation: raster
+    resolved_url: https://xcb.bbmu.edu.cn/images/logox.png
+    inspection_attempts:
+    - url: https://xcb.bbmu.edu.cn/images/logox.png
+      status: content_inspected
   color_palette:
   - value: '#93ADD2'
     rgb:
@@ -188,7 +227,57 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#88A0C8'
+    rgb:
+    - 136
+    - 160
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://xcb.bbmu.edu.cn/images/logox.png
+    page_source: https://xcb.bbmu.edu.cn/info/1003/3788.htm
+    asset_id: 7e04d573b45479ed7aa597e1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#98B0D0'
+    rgb:
+    - 152
+    - 176
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://xcb.bbmu.edu.cn/images/logox.png
+    page_source: https://xcb.bbmu.edu.cn/info/1003/3788.htm
+    asset_id: 7e04d573b45479ed7aa597e1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 旧貌换新颜 蚌埠医科大学视觉形象识别系统正式发布启用
+    url: https://xcb.bbmu.edu.cn/info/1003/3788.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.bbmu.edu.cn/info/1003/3788.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a258e411da7d4359942e5ec8d5ef8664276a6bbfe60ae36b46d2c62717fb22e3
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

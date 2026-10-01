@@ -103,9 +103,10 @@ visual:
     value: https://www.ccit.edu.cn/xxgk/xxbs.htm
     source: https://www.ccit.edu.cn/xxgk/xxbs.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形双环内以工程拼音首字母G、C组合成立方体，外环列中英文校名，主色为蓝色。
     source: https://www.ccit.edu.cn/xxgk/xxzc.htm
@@ -338,7 +339,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: eb6fef97ed4eb175
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.ccit.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ccit.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6a15a6f93fc73187ab17be299ff05a1db4d3dca7c64b70d9cd55c86c0dd24da6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1951
@@ -523,14 +540,14 @@ location:
     source: https://www.ccit.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 湖西校区
     address: null
     coordinates: null
     source: https://www.ccit.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 长春工程学院位于吉林省长春市，主管部门为吉林省。官网列示教职员工1300余人（统计日期未注明）。简介列出湖东校区、湖西校区。

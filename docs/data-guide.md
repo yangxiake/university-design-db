@@ -4,7 +4,7 @@
 2. 使用 `availability: found` 的资料，查看来源、时间及 `verified`。本轮资料主要为 `auto`，不要求先人工签核；在 PPT 备注或参考页保留来源，按实际证据表述。
 3. `conflict` 保留多种来源值，暂停采用该字段；`unresearched` 和 `not_found` 不能说成“学校没有”。访问失败是采集状态，不是不存在的证据。
 4. `source_type: community_dataset/community_directory` 的资料是社区记录，注意上游时间和现行名称。发生更名时优先找学校现行章程或英文官网。原始字段见`community.snapshots`所指的许可子集；社区与官方资料不同时保留来源差异，不覆盖已有学校事实。
-5. 色值 `official_vi` 按 `basis` 区分标准色、辅助色、校徽色；RGB转HEX供屏幕使用，印刷按官方规范。`badge_sample/manual_derived/community_logo_sample` 标注为建议色；`community_theme`是社区主题参考色。完整配色位于`visual.color_palette`，不能因有HEX就当作官方标准；CMYK/Pantone空值不自行补造。
+5. 色值 `official_vi` 按 `basis` 区分标准色、辅助色、校徽色；RGB转HEX供屏幕使用，印刷按官方规范。`badge_sample/manual_derived/community_logo_sample` 标注为建议色；`community_theme`是社区主题参考色。完整配色位于`visual.color_palette`，不能因有HEX就当作官方标准；CMYK/Pantone空值不自行补造。仅公布印刷色时`value/rgb`为空，CMYK/Pantone仍可使用；AI不得把这些空值自动换算成“官方屏幕色”。
 6. `PROFILE.md`供便读完整档案，`VISUAL.md`供逐文件校徽/校名与配色，`OFFICIAL.md`供官方PPT入口，`COMMUNITY.md`供社区主题。Beamer需要LaTeX，Marp采用Markdown/CSS，不应告诉用户它们是直接可编辑的PPTX。
 7. 下载模板、字体、校徽前查看上游使用规则。本库只保留资料和入口，独立第三方数据许可见 `data/external/`。
 

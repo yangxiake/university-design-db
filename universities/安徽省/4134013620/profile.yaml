@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hblgxy.edu.cn/xygk/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.hblgxy.edu.cn/xygk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -130,6 +131,44 @@ visual:
     byte_size: 23918
     representation: raster
     resolved_url: https://www.hblgxy.edu.cn/images-new/logo.png
+  - asset_id: b26d9f18ed87c3092ef8821b
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.hblgxy.edu.cn/__local/F/CA/FF/8195EA57CD88454EE81F16D097B_DD30180B_B631.png?e=.png
+    source: https://www.hblgxy.edu.cn/xygk/xxbs.htm
+    file_name: 8195EA57CD88454EE81F16D097B_DD30180B_B631.png
+    upstream_path: null
+    publisher: 淮北理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 淮北理工学院
+    format: png
+    width: 475
+    height: 493
+    vector: false
+    has_alpha: true
+    transparent_background: false
+    sha256: 08fab48b72124b9711283137a529335351399cc8d3b8ed3a065a960be074cbb2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /__local/F/CA/FF/8195EA57CD88454EE81F16D097B_DD30180B_B631.png?e=.png
+      label: 'logo.png 1630373583861367.png  '
+      context: '   vsb_content_4_1019_u101  vsb_content_4 vsbcontent_img '
+      position: 5
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 46641
+    representation: raster
+    resolved_url: https://www.hblgxy.edu.cn/__local/F/CA/FF/8195EA57CD88454EE81F16D097B_DD30180B_B631.png?e=.png
+    inspection_attempts:
+    - url: https://www.hblgxy.edu.cn/__local/F/CA/FF/8195EA57CD88454EE81F16D097B_DD30180B_B631.png?e=.png
+      status: content_inspected
   color_palette:
   - value: '#E00028'
     rgb:
@@ -165,7 +204,57 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#E00028'
+    rgb:
+    - 224
+    - 0
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hblgxy.edu.cn/__local/F/CA/FF/8195EA57CD88454EE81F16D097B_DD30180B_B631.png?e=.png
+    page_source: https://www.hblgxy.edu.cn/xygk/xxbs.htm
+    asset_id: b26d9f18ed87c3092ef8821b
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E00020'
+    rgb:
+    - 224
+    - 0
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hblgxy.edu.cn/__local/F/CA/FF/8195EA57CD88454EE81F16D097B_DD30180B_B631.png?e=.png
+    page_source: https://www.hblgxy.edu.cn/xygk/xxbs.htm
+    asset_id: b26d9f18ed87c3092ef8821b
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: https://www.hblgxy.edu.cn/xygk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hblgxy.edu.cn/xygk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f33455e648d2f3fd1cb197af3b32def360c890da4817bc21dd7b5c07747e1a9c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

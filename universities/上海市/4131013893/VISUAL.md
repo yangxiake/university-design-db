@@ -17,7 +17,7 @@
 |  | `#3A6596` | 58,101,150 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sthu.cn/_upload/tpl/00/dd/221/template221/images/logo.svg) |
 |  | `#00346B` | 0,52,107 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sthu.cn/_upload/tpl/00/dd/221/template221/images/logo.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

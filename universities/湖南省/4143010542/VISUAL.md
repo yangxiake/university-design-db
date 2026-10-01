@@ -29,7 +29,7 @@
 - `#C8161E`：[来源](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm)；官网 RGB R200 G22 B30 换算为 HEX
 - `#C8161D`：[来源](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm)；官网直接列出的 WEB 色值
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

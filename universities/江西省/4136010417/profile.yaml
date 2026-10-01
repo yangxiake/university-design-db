@@ -111,9 +111,10 @@ visual:
     value: https://www.jxycu.edu.cn/4222/list.htm
     source: https://www.jxycu.edu.cn/4222/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -276,7 +277,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0cca14c39416330b
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.jxycu.edu.cn/4222/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jxycu.edu.cn/4222/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 14891bceb16c995ad84beb7f206a3dfe3694a2271d118d71d92e8b17549d5d99
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1958
@@ -461,7 +478,7 @@ location:
     source: https://www.jxycu.edu.cn/4220/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 宜春学院位于江西省宜春市，主管部门为江西省。官网列示全日制在校学生近21000人（统计日期未注明）。官网列示占地面积2000余亩（统计日期未注明）。简介列出本部校区。

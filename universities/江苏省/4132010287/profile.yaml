@@ -126,19 +126,26 @@ visual:
     page_source: https://www.nuaa.edu.cn
     image_sha256: 24cabc3b7cc9a61e566555942f8378bb6d9f7c2c8c8731915167faab053ff848
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0F6DB5'
+    source: https://www.nuaa.edu.cn/2017/0116/c589a18508/page.htm
+    method: official_vi
+    label: 校名蓝
+    basis: 官网VI校名页直接给出色号#0f6db5；用途仅校名文字，不推定为通用主色；已采样的旧页眉颜色保留为设计参考。
+    cmyk: null
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: a913859c9ffe28a1825f1bdf9b1aa3f41411a2d9efdf4919cec86f798fcf499b
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.nuaa.edu.cn/2017/0116/c589a18508/page.htm
+    availability: found
     search_sources: []
+    source: https://www.nuaa.edu.cn/2017/0116/c589a18508/page.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -452,7 +459,74 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0d2a5e24d3b1629e
-  vi_resources: []
+  - value: '#0F6DB5'
+    rgb:
+    - 15
+    - 109
+    - 181
+    cmyk: null
+    pantone: null
+    label: 校名蓝
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.nuaa.edu.cn/2017/0116/c589a18508/page.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网VI校名页直接给出色号#0f6db5；用途仅校名文字，不推定为通用主色；已采样的旧页眉颜色保留为设计参考。
+    source_sha256: a913859c9ffe28a1825f1bdf9b1aa3f41411a2d9efdf4919cec86f798fcf499b
+    source_field: visual.color_secondary
+  vi_resources:
+  - title: 南航视觉形象识别系统
+    url: https://www.nuaa.edu.cn/2017/0116/c589a18508/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nuaa.edu.cn/2017/0116/c589a18508/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a913859c9ffe28a1825f1bdf9b1aa3f41411a2d9efdf4919cec86f798fcf499b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 南航视觉形象识别系统
+    url: https://www.nuaa.edu.cn/589/list.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nuaa.edu.cn/589/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b80f42ea34c542d858d554556a5d351fdab91ddcee2ea685096f99727426d696
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 应用部分 APPLICATION PART
+    url: http://vi.nuaa.edu.cn
+    kinds:
+    - 校徽/校名介绍及资源
+    - 校庆专用
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.nuaa.edu.cn
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0cee8fc7297cd678d9d46e48fce2f3676adf246362718ea3e40ae2d201ba9f4d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。本条为校庆专用资料，不作为通用VI或学校主题色。
 culture:
   founded_year:
     value: 1952

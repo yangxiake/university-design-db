@@ -113,12 +113,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://vis.hue.edu.cn/
+    availability: found
     search_sources: []
+    source: https://vis.hue.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -222,6 +223,86 @@ visual:
     source_as_of: unspecified
     byte_size: 93784
     representation: raster
+  - asset_id: 3d98c46ba8ccf7945a0c6ed1
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vis.hue.edu.cn/_upload/site/04/bd/1213/logo.png
+    source: https://vis.hue.edu.cn/main.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 湖北第二师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖北第二师范学院
+    format: png
+    width: 379
+    height: 86
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 134d11f4a0394a696bf422421205832b03126a4635f060080816e3d5e0fba36a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/site/04/bd/1213/logo.png
+      label: '   '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 14610
+    representation: raster
+    resolved_url: https://vis.hue.edu.cn/_upload/site/04/bd/1213/logo.png
+    inspection_attempts:
+    - url: https://vis.hue.edu.cn/_upload/site/04/bd/1213/logo.png
+      status: content_inspected
+  - asset_id: a5e168897407ba8b4e1e6c40
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vis.hue.edu.cn/_upload/tpl/17/ac/6060/template6060/images/list_logo.svg
+    source: https://vis.hue.edu.cn/2024/0307/c23775a171791/page.htm
+    file_name: list_logo.svg
+    upstream_path: null
+    publisher: 湖北第二师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖北第二师范学院
+    format: svg
+    width: 712.0
+    height: 85.811
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 4d27c5b61e2b92c88a22c4f0074b4e31f9f10034305632a25ce417b77f488647
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/17/ac/6060/template6060/images/list_logo.svg
+      label: '   '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 87040
+    representation: vector
+    view_box: 0 0 712 85.811
+    encoding: utf-8-sig
+    intrinsic_width: '712'
+    intrinsic_height: '85.811'
+    resolved_url: https://vis.hue.edu.cn/_upload/tpl/17/ac/6060/template6060/images/list_logo.svg
+    inspection_attempts:
+    - url: https://vis.hue.edu.cn/_upload/tpl/17/ac/6060/template6060/images/list_logo.svg
+      status: content_inspected
   color_palette:
   - value: '#014099'
     rgb:
@@ -293,7 +374,122 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: bce1cb4adb699fcf
-  vi_resources: []
+  - value: '#C8D8E8'
+    rgb:
+    - 200
+    - 216
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://vis.hue.edu.cn/_upload/site/04/bd/1213/logo.png
+    page_source: https://vis.hue.edu.cn/main.htm
+    asset_id: 3d98c46ba8ccf7945a0c6ed1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#C0D0E8'
+    rgb:
+    - 192
+    - 208
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://vis.hue.edu.cn/_upload/site/04/bd/1213/logo.png
+    page_source: https://vis.hue.edu.cn/main.htm
+    asset_id: 3d98c46ba8ccf7945a0c6ed1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#004B9E'
+    rgb:
+    - 0
+    - 75
+    - 158
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://vis.hue.edu.cn/_upload/tpl/17/ac/6060/template6060/images/list_logo.svg
+    page_source: https://vis.hue.edu.cn/2024/0307/c23775a171791/page.htm
+    asset_id: a5e168897407ba8b4e1e6c40
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校园视觉形象
+    url: https://vis.hue.edu.cn/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.hue.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 49f63fb401846e49a6402d425cc3d71c898d204ad944e3dea0e50cdd6ae889ad
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校园视觉形象
+    url: https://vis.hue.edu.cn/main.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.hue.edu.cn/main.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 49f63fb401846e49a6402d425cc3d71c898d204ad944e3dea0e50cdd6ae889ad
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标准色
+    url: https://vis.hue.edu.cn/23779/list.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.hue.edu.cn/23779/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 03f825f41616578c2f08c882175fb6236b975acb3c2c481e9c2ecda06ba174e8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 视觉形象识别系统解读说明
+    url: https://vis.hue.edu.cn/2024/0307/c23775a171791/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.hue.edu.cn/2024/0307/c23775a171791/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a14074af38ea2c8caa14b006a0cce498fce24e39d5dc240539a36e298e1fcf5f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1931

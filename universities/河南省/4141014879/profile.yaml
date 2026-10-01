@@ -86,12 +86,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    availability: found
     search_sources: []
+    source: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -100,9 +101,169 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
-  vi_resources: []
+  logo_assets:
+  - asset_id: 8f0816576e39ec0ab42f3d22
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.hasu.edu.cn/images2022/logo.png
+    source: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 河南体育学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河南体育学院
+    format: png
+    width: 750
+    height: 163
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 39868c933f8e192f56775f3be018a506e7aab3857d29137beaa9ab0d5ef8f1ff
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images2022/logo.png
+      label: '  mobile-nav-logo '
+      context: 'row  col-xs-8 visible-sm visible-xs     '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 63373
+    representation: raster
+    resolved_url: https://www.hasu.edu.cn/images2022/logo.png
+    inspection_attempts:
+    - url: https://www.hasu.edu.cn/images2022/logo.png
+      status: content_inspected
+  - asset_id: 59b15a8fe03ba38d8b55ea21
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.hasu.edu.cn/images2022/logo_hov.png
+    source: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    file_name: logo_hov.png
+    upstream_path: null
+    publisher: 河南体育学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河南体育学院
+    format: png
+    width: 260
+    height: 67
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 5b5d740d2783e9de6156029b25860096b329efc1e7292c9fbb9333c3e79db7f9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images2022/logo_hov.png
+      label: '  mobile-nav-logo-min '
+      context: '  mobile-nav-box visible-sm visible-xs  mobile-nav-top   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 25803
+    representation: raster
+    resolved_url: https://www.hasu.edu.cn/images2022/logo_hov.png
+    inspection_attempts:
+    - url: https://www.hasu.edu.cn/images2022/logo_hov.png
+      status: content_inspected
+  color_palette:
+  - value: '#D08888'
+    rgb:
+    - 208
+    - 136
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hasu.edu.cn/images2022/logo.png
+    page_source: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    asset_id: 8f0816576e39ec0ab42f3d22
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E8C8C8'
+    rgb:
+    - 232
+    - 200
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hasu.edu.cn/images2022/logo.png
+    page_source: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    asset_id: 8f0816576e39ec0ab42f3d22
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E8B8B8'
+    rgb:
+    - 232
+    - 184
+    - 184
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hasu.edu.cn/images2022/logo_hov.png
+    page_source: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    asset_id: 59b15a8fe03ba38d8b55ea21
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#F0D0D0'
+    rgb:
+    - 240
+    - 208
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hasu.edu.cn/images2022/logo_hov.png
+    page_source: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    asset_id: 59b15a8fe03ba38d8b55ea21
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校徽暨释义
+    url: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hasu.edu.cn/xxgk/xhjsy.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1c0be3a21439e35519f5807a41bd257567ec761de6ceb66d8174282132a29851
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 2024

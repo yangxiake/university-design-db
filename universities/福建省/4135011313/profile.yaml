@@ -84,9 +84,10 @@ visual:
     value: https://www.fjbu.edu.cn/xygk/xh.htm
     source: https://www.fjbu.edu.cn/xygk/xh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆徽志以“商”为主体，将展开书本、振翅形态和M字母组合。
     source: https://www.fjbu.edu.cn/xygk/xxzc.htm
@@ -220,7 +221,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 90a33d4b0392e719
-  vi_resources: []
+  vi_resources:
+  - title: 校徽
+    url: https://www.fjbu.edu.cn/xygk/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.fjbu.edu.cn/xygk/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 115faf0fb1803a476596d9f003dbe53aa1fa2295c4737d57d58fd9a8c522b721
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -385,28 +402,28 @@ location:
     source: https://www.fjbu.edu.cn/xygk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 连江校区
     address: null
     coordinates: null
     source: https://www.fjbu.edu.cn/xygk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 马尾校区
     address: null
     coordinates: null
     source: https://www.fjbu.edu.cn/xygk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 仓山校区
     address: null
     coordinates: null
     source: https://www.fjbu.edu.cn/xygk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 福建商学院位于福建省福州市，主管部门为福建省。官网列示全日制在校生14418人（统计日期未注明）。官网列示专任教师611人（统计日期未注明）。官网列示占地面积1451.67亩（统计日期未注明）。简介列出鼓楼校区、连江校区、马尾校区、仓山校区。

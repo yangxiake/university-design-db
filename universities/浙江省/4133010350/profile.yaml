@@ -117,9 +117,10 @@ visual:
     value: https://yxty.tzc.edu.cn/tywh/xb.htm
     source: https://yxty.tzc.edu.cn/tywh/xb.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -223,6 +224,44 @@ visual:
     source_as_of: unspecified
     byte_size: 18078
     representation: raster
+  - asset_id: 988b874aa56f5accf354aff3
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://yxty.tzc.edu.cn/images/logo.png
+    source: https://yxty.tzc.edu.cn/tywh/xb.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 台州学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 台州学院
+    format: png
+    width: 399
+    height: 168
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 46b94120bea0518112f52c6c79d9aab053894555b63103f2ba07438bfb6e18b2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '   '
+      context: 'header bg2  container  logo flex-center   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 26193
+    representation: raster
+    resolved_url: https://yxty.tzc.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: https://yxty.tzc.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#E50008'
     rgb:
@@ -328,7 +367,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: bf1f64df28f88586
-  vi_resources: []
+  - value: '#00A800'
+    rgb:
+    - 0
+    - 168
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://yxty.tzc.edu.cn/images/logo.png
+    page_source: https://yxty.tzc.edu.cn/tywh/xb.htm
+    asset_id: 988b874aa56f5accf354aff3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#003098'
+    rgb:
+    - 0
+    - 48
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://yxty.tzc.edu.cn/images/logo.png
+    page_source: https://yxty.tzc.edu.cn/tywh/xb.htm
+    asset_id: 988b874aa56f5accf354aff3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校标
+    url: https://yxty.tzc.edu.cn/tywh/xb.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://yxty.tzc.edu.cn/tywh/xb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6ece9acebf121eea955be556290618c2f1fefa40904ee3588c534f8532d16d6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

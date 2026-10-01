@@ -131,8 +131,62 @@ visual:
     byte_size: 18772
     representation: raster
     resolved_url: https://www.lumei.edu.cn/images/logo.png
+  - asset_id: f486f1acb35f283d183e41f9
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.lumei.edu.cn/images/logo.png
+    source: http://www.lumei.edu.cn/xygk/xhxx.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 鲁迅美术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 鲁迅美术学院
+    format: png
+    width: 366
+    height: 100
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b687391361de17b5103e4e4474444df333666d3eb191c8a60fcba52745ca985b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '   '
+      context: 'm_header_box   m_header  logo  '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 18772
+    representation: raster
+    resolved_url: http://www.lumei.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: http://www.lumei.edu.cn/images/logo.png
+      status: content_inspected
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训
+    url: http://www.lumei.edu.cn/xygk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.lumei.edu.cn/xygk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0cd8ba128ea170c1f0cecb85c3d7e0bb65414901ac55f705a3498307b55b7d33
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1938

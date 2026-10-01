@@ -137,25 +137,27 @@
 
 | 项目 | 学校数 | 记录数 |
 | --- | ---: | ---: |
-| 逐文件校徽/校名资源 | 1154 | 3017 |
-| 其中官网发布标识文件 | 954 | 1155 |
-| 结构化配色 | 1001 | 4508 |
-| VI规范与下载线索 | 49 | 55 |
+| 逐文件校徽/校名资源 | 1170 | 3227 |
+| 其中官网发布标识文件 | 993 | 1365 |
+| 结构化配色 | 1018 | 4769 |
+| 其中校方公布色值 | 60 | 103 |
+| 其中仅公布印刷色的条目 | 13 | 31 |
+| 标识介绍、VI规范与下载线索 | 472 | 1138 |
 | 历史排名 | 569 | 1117 |
 | 学科评估节选 | 136 | 764 |
 | 重庆2025录取参考 | 166 | 277 |
 | 上游字段快照 | 670 | 1838 |
-| 官网明确列示校区 | 232 | 556 |
+| 官网明确列示校区 | 236 | 566 |
 
 ### 校徽文件检查
 
 | 状态 | 文件数 |
 | --- | ---: |
-| content_inspected | 2436 |
+| content_inspected | 2628 |
 | indexed_not_fetched | 554 |
-| inspection_failed | 27 |
+| inspection_failed | 45 |
 
-只有content_inspected读取了文件内容；历史外部CDN地址仅索引，不等于当前可下载。学校现行版本与图形授权未作人工签核。site_identity有1149条，是具体构成待核验的官网页眉标识，不能计为已确认纯校徽。
+只有content_inspected读取了文件内容；历史外部CDN地址仅索引，不等于当前可下载。学校现行版本与图形授权未作人工签核。site_identity有1359条，是具体构成待核验的官网页眉标识，不能计为已确认纯校徽。
 
 其中763条为压缩包内文件：download_kind=archive_member，须读取archive_url、archive_member与archive_sha256；主URL不是PNG直链，文件内容哈希和压缩包哈希分别保存。
 
@@ -166,8 +168,8 @@
 | badge_sample | 1 |
 | community_logo_sample | 3011 |
 | community_theme | 10 |
-| manual_derived | 1430 |
-| official_vi | 56 |
+| manual_derived | 1644 |
+| official_vi | 103 |
 
 颜色数包含多源同色、主/辅色和建议色，不等于有官方标准色的学校数量。社区主题与校徽取色不覆盖主色官方结论。
 
@@ -184,24 +186,24 @@
 | `institution.country` | 561 |
 | `institution.languages_of_instruction` | 12 |
 | `institution.groups` | 149 |
-| `location.address` | 698 |
-| `location.postal_code` | 516 |
+| `location.address` | 709 |
+| `location.postal_code` | 523 |
 | `location.coordinates` | 184 |
-| `overview.summary_zh` | 819 |
+| `overview.summary_zh` | 825 |
 | `overview.summary_en` | 0 |
-| `statistics.student_count` | 644 |
-| `statistics.faculty_count` | 616 |
-| `statistics.campus_area_hectares` | 402 |
+| `statistics.student_count` | 650 |
+| `statistics.faculty_count` | 620 |
+| `statistics.campus_area_hectares` | 407 |
 | `academics.double_first_class_disciplines` | 140 |
 | `academics.degree_authorizations` | 109 |
 | `employment.summary` | 0 |
 | `employment.report_url` | 0 |
-| `resources.admissions_url` | 816 |
-| `resources.career_url` | 486 |
-| `resources.english_website` | 447 |
-| `resources.information_disclosure_url` | 811 |
-| `contacts.phone` | 383 |
-| `contacts.email` | 237 |
+| `resources.admissions_url` | 829 |
+| `resources.career_url` | 488 |
+| `resources.english_website` | 451 |
+| `resources.information_disclosure_url` | 817 |
+| `contacts.phone` | 386 |
+| `contacts.email` | 241 |
 
 ## 扩展字段的完整性与口径
 

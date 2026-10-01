@@ -101,12 +101,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.ahjzu.edu.cn/42/list.htm
+    availability: found
     search_sources: []
+    source: https://www.ahjzu.edu.cn/42/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校徽结合“弘”字与门形意象，配中英文校名和年代标识。
     source: https://www.ahjzu.edu.cn/14651/list.htm
@@ -270,7 +271,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 911b82dd292f90c5
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.ahjzu.edu.cn/42/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ahjzu.edu.cn/42/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0bce0133840cd9bc658a1d31e5e01fdc960bab5d5fb0728c4dbbd6355b53b3ff
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -459,14 +476,14 @@ location:
     source: https://www.ahjzu.edu.cn/14647/list.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 金寨路校区
     address: 合肥市包河区金寨路856号
     coordinates: null
     source: https://www.ahjzu.edu.cn/14647/list.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 安徽建筑大学位于安徽省合肥市，主管部门为安徽省。官网列示全日制本科生19300余人（统计时间2026-06）。官网列示专任教师1200余人（统计时间2026-06）。简介列出紫云路校区、金寨路校区。

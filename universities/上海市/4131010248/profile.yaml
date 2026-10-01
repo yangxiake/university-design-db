@@ -106,19 +106,29 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
   audit_key: '4131010248'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#C8161E'
+    source: https://vi.sjtu.edu.cn/img/vi/A3-%E8%89%B2%E5%BD%A9%E8%A7%84%E8%8C%83/A3-01%E6%A0%87%E5%87%86%E8%89%B2%E8%A7%84%E8%8C%83%EF%BC%88%E5%90%AB%E8%89%B2%E9%98%B6%EF%BC%89.jpg
+    method: official_vi
+    label: 标准色
+    basis: 校方VI色彩规范A3-01标准色图；AI查看完整原图，印出RGB 200/22/30、CMYK 20/100/100/0与Pantone P 49-8 C。仅把RGB精确换写为HEX，未采样图片像素。
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    pantone: P 49-8 C
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 5735a6cbb10ea4b9890545faaad555ad367e0846b0520fc332b132f7553cc11a
   color_secondary:
     value: null
     source: null
@@ -130,9 +140,10 @@ visual:
     value: https://vi.sjtu.edu.cn/
     source: https://vi.sjtu.edu.cn/
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -332,6 +343,82 @@ visual:
     source_as_of: unspecified
     byte_size: 17596
     representation: raster
+  - asset_id: 7464125f90f17185780fe129
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.sjtu.edu.cn/img/brand-logo-s-w.png
+    source: https://vi.sjtu.edu.cn/index.php/articles/bulletin/16
+    file_name: brand-logo-s-w.png
+    upstream_path: null
+    publisher: 上海交通大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海交通大学
+    format: png
+    width: 136
+    height: 136
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 9a2b5fcb98761d647ce53a06bca5fbbe91f06fe2bc3afbfe89a70b8e0643aa7f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: https://vi.sjtu.edu.cn/img/brand-logo-s-w.png
+      label: '   '
+      context: 'page-wrapper    container  site-brand '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 6099
+    representation: raster
+    resolved_url: https://vi.sjtu.edu.cn/img/brand-logo-s-w.png
+    inspection_attempts:
+    - url: https://vi.sjtu.edu.cn/img/brand-logo-s-w.png
+      status: content_inspected
+  - asset_id: aace2d1c4212f14728911e3f
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.sjtu.edu.cn/img/logo-s-w.png
+    source: https://vi.sjtu.edu.cn/
+    file_name: logo-s-w.png
+    upstream_path: null
+    publisher: 上海交通大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海交通大学
+    format: png
+    width: 591
+    height: 160
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: aad732132e12b629fe5915329eb0b533577d47ad4cc2692e06e17d82041060aa
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: https://vi.sjtu.edu.cn/img/logo-s-w.png
+      label: '   '
+      context: 'page-wrapper  banner section-hero container  site-brand '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 15179
+    representation: raster
+    resolved_url: https://vi.sjtu.edu.cn/img/logo-s-w.png
+    inspection_attempts:
+    - url: https://vi.sjtu.edu.cn/img/logo-s-w.png
+      status: content_inspected
   color_palette:
   - value: '#A72038'
     rgb:
@@ -511,7 +598,1021 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 101ce68c0a9232f4
-  vi_resources: []
+  - value: '#C8161E'
+    rgb:
+    - 200
+    - 22
+    - 30
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    pantone: P 49-8 C
+    label: 标准色
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vi.sjtu.edu.cn/img/vi/A3-%E8%89%B2%E5%BD%A9%E8%A7%84%E8%8C%83/A3-01%E6%A0%87%E5%87%86%E8%89%B2%E8%A7%84%E8%8C%83%EF%BC%88%E5%90%AB%E8%89%B2%E9%98%B6%EF%BC%89.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方VI色彩规范A3-01标准色图；AI查看完整原图，印出RGB 200/22/30、CMYK 20/100/100/0与Pantone P 49-8 C。仅把RGB精确换写为HEX，未采样图片像素。
+    source_sha256: 5735a6cbb10ea4b9890545faaad555ad367e0846b0520fc332b132f7553cc11a
+    source_field: visual.color_primary
+  vi_resources:
+  - title: 上海交通大学官方视觉规范
+    url: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.sjtu.edu.cn/img/vi/A3-%E8%89%B2%E5%BD%A9%E8%A7%84%E8%8C%83/A3-01%E6%A0%87%E5%87%86%E8%89%B2%E8%A7%84%E8%8C%83%EF%BC%88%E5%90%AB%E8%89%B2%E9%98%B6%EF%BC%89.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校方VI色彩规范A3-01标准色图；AI查看完整原图，印出RGB 200/22/30、CMYK 20/100/100/0与Pantone P 49-8 C。仅把RGB精确换写为HEX，未采样图片像素。
+  - title: 标准色规范.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/150
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 辅助色规范.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/151
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 辅助色规范2.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/152
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 色彩配比及品牌色彩占位.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/115
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 品牌专用色彩搭配表.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/125
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: A3-色彩规范-01标准色规范（含色阶）.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/34
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: A3-色彩规范-02-01辅助色彩规范（含色阶）.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/35
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: A3-色彩规范-02-02辅助色彩规范（含色阶）.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/36
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: A3-色彩规范-04色彩配比及品牌色彩占位.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/37
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: A3-色彩规范-05品牌专用色彩搭配表.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/38
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: A3-色彩规范-03特殊工艺.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/140
+    kinds:
+    - 色彩规范
+    formats:
+    - AI
+    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 校徽规范
+    url: https://vi.sjtu.edu.cn/
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: bb5bb7f81964de291330ebe6609928d44552dad3a64d85ec38c257eee8b9522e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽规范
+    url: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标准彩色校徽.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/148
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 常用校标PNG格式下载.rar
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/164
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽释义.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/149
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽制图与视觉修正.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/40
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽制图与视觉修正2.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/41
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽墨稿反白稿.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/43
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽的最小使用规范.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/42
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽的安全空间.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/45
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽的禁止使用形式.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/47
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-校徽规范-01标准彩色校徽.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/8
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-校徽规范-02校徽释义.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/9
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-校徽规范-03-01校徽制图及视觉修正.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/10
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-校徽规范-03-02校徽制图及视觉修正.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/11
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-校徽规范-04校徽墨稿反白稿.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/12
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-校徽规范-05校徽的最小使用规范.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/13
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-校徽规范-06校徽的安全空间.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/14
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A1-校徽规范-07校徽的禁止使用形式.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/15
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 常用校标PNG格式下载.rar
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/125
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/1
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标组合规范
+    url: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标组合彩色稿.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/60
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 常用校标PNG格式下载.rar
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/164
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标组合反白稿.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/66
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标组合墨稿.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/70
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽与中英文校名全称横式组合.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/64
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽与中英文校名全称竖式组合.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/59
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽与中英文校名全称上下组合.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/62
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽与英文校名全称组合.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/63
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标组合的最小使用规范.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/116
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标组合的安全空间.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/74
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标组合的错误示例.ai
+    url: http://vi.sjtu.edu.cn/index.php/downloads/files/136
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-扉页.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/39
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-01常用校标组合列表彩色稿.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/40
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-02常用校标组合列表反白稿.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/41
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-03常用校标组合列表墨稿.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/42
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-04校徽与中英文校名全称横式组合.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/43
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-05校徽与中英文校名全称竖式组合.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/44
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-06校徽与中英文校名全称上下组合.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/45
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-07校徽与英文校名全称组合.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/46
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-08二级机构中英文名称横式组合.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/47
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-09二级机构中英文名称上下组合.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/48
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-10-01衍生应用中英文标准字组合.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/49
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-10-02衍生应用中英文标准字组合.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/50
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-11校标组合的最小使用规范.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/51
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-12校标组合的安全空间.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/52
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4-校标组合规范-13校标组合的错误示例.ai
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/53
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 常用校标PNG格式下载.rar
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/127
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/4
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 上海交通大学视觉形象识别系统管理办法 （试行）
+    url: https://vi.sjtu.edu.cn/index.php/articles/bulletin/16
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/bulletin/16
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ec7282017b97a82dfaf1daf36c6fed2e60f28ee899f9c5438013f21b60c42d4b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 上海交通大学视觉形象识别系统使用手册.pptx
+    url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/139
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PPTX
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/bulletin/16
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ec7282017b97a82dfaf1daf36c6fed2e60f28ee899f9c5438013f21b60c42d4b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1896
@@ -628,6 +1729,23 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  - title: 上海交通大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/stju.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/stju.tex
+    source_sha256: cb90a911b3f77d70f4af73bbeb624b8d03d5a8ebb02a90cd0e55bf04080cf628
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
   admissions_url:
     value: null
     source: null

@@ -17,10 +17,12 @@
 
 尚无附来源配色。
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.hfuu.edu.cn/4164/list.htm](https://www.hfuu.edu.cn/4164/list.htm)
+- [学校标识](https://www.hfuu.edu.cn/4164/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hfuu.edu.cn/4164/list.htm)。
+- [hfuulogo.zip](https://www.hfuu.edu.cn/_upload/article/6f/13/c6cd852c4363b6b954c68df03a32/6f4aea3e-a8c1-4d75-82a0-dcfb9a49e42b.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hfuu.edu.cn/4164/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

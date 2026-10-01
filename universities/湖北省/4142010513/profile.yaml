@@ -217,6 +217,44 @@ visual:
     source_as_of: unspecified
     byte_size: 15513
     representation: raster
+  - asset_id: ab913f4aa2668e51512060de
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.hbnu.edu.cn/_upload/tpl/01/2e/302/template302/images/logo.png
+    source: http://www.hbnu.edu.cn/2528/list.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 湖北师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖北师范大学
+    format: png
+    width: 335
+    height: 75
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 472e4cbbde44e94bfca3a56131bbadb35af662743d75cae93ba5b9952a2b89e0
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/01/2e/302/template302/images/logo.png
+      label: '   '
+      context: 'inner  head-left  sitelogo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 16751
+    representation: raster
+    resolved_url: http://www.hbnu.edu.cn/_upload/tpl/01/2e/302/template302/images/logo.png
+    inspection_attempts:
+    - url: http://www.hbnu.edu.cn/_upload/tpl/01/2e/302/template302/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#281068'
     rgb:
@@ -272,7 +310,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: d61f2ad8aef26254
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: http://www.hbnu.edu.cn/2528/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.hbnu.edu.cn/2528/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 40df1aa76d50fa44b7057e11ae7ba5116483c6e23d2ab5ef6eb57fa8d94ef27f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 湖北师范大学校名校徽校训
+    url: http://www.hbnu.edu.cn/_upload/article/files/df/8b/67d98df442aa8558d5998ae122ce/484d85bd-a40f-4e6e-a34f-3fc7628a781b.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.hbnu.edu.cn/2528/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 40df1aa76d50fa44b7057e11ae7ba5116483c6e23d2ab5ef6eb57fa8d94ef27f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

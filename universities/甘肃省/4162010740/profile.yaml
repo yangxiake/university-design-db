@@ -217,6 +217,44 @@ visual:
     source_as_of: unspecified
     byte_size: 10862
     representation: raster
+  - asset_id: f24037b27adea8645dd5dc05
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.hxu.edu.cn/images/logo.png
+    source: http://www.hxu.edu.cn/xxgk/xxbs1.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 河西学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河西学院
+    format: png
+    width: 297
+    height: 93
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: bc7ed39ae8375bc4a51c24700f005ab4bb5d206654e038c4ae6c2d0ce8beea7b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '   '
+      context: 'm_header_box   m_header  logo  '
+      position: 4
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 34534
+    representation: raster
+    resolved_url: http://www.hxu.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: http://www.hxu.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#787898'
     rgb:
@@ -306,7 +344,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 3184f077dd7d15c1
-  vi_resources: []
+  - value: '#787898'
+    rgb:
+    - 120
+    - 120
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.hxu.edu.cn/images/logo.png
+    page_source: http://www.hxu.edu.cn/xxgk/xxbs1.htm
+    asset_id: f24037b27adea8645dd5dc05
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#9088A8'
+    rgb:
+    - 144
+    - 136
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.hxu.edu.cn/images/logo.png
+    page_source: http://www.hxu.edu.cn/xxgk/xxbs1.htm
+    asset_id: f24037b27adea8645dd5dc05
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: http://www.hxu.edu.cn/xxgk/xxbs1.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.hxu.edu.cn/xxgk/xxbs1.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f02f66f7592b21074806f26faf2cbb53fd236e88eab25764a7eeccf48d6225f9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

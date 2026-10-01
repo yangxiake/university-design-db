@@ -68,6 +68,10 @@ def main():
                       snapshot_schools=bool(p['community']['snapshots']),snapshot_entries=len(p['community']['snapshots']))
         counts.update(campus_schools=bool(p['location']['campuses']),campus_entries=len(p['location']['campuses']),
                       archive_logo_entries=sum(item.get('download_kind')=='archive_member' for item in a))
+        official_colors=[e for e in c if e['method']=='official_vi']
+        print_colors=[e for e in official_colors if e.get('value') is None]
+        counts.update(official_palette_schools=bool(official_colors),official_palette_entries=len(official_colors),
+                      print_only_palette_schools=bool(print_colors),print_only_palette_entries=len(print_colors))
         official_assets=[item for item in a if item.get('source_type')=='official_website']
         counts.update(official_logo_schools=bool(official_assets),official_logo_entries=len(official_assets),
                       site_identity_entries=sum(item.get('kind')=='site_identity' for item in a))
@@ -91,7 +95,9 @@ def main():
             '| 逐文件校徽/校名资源 | %s | %s |'%(counts['logo_schools'],counts['logo_entries']),
             '| 其中官网发布标识文件 | %s | %s |'%(counts['official_logo_schools'],counts['official_logo_entries']),
             '| 结构化配色 | %s | %s |'%(counts['palette_schools'],counts['palette_entries']),
-            '| VI规范与下载线索 | %s | %s |'%(counts['vi_schools'],counts['vi_entries']),
+            '| 其中校方公布色值 | %s | %s |'%(counts['official_palette_schools'],counts['official_palette_entries']),
+            '| 其中仅公布印刷色的条目 | %s | %s |'%(counts['print_only_palette_schools'],counts['print_only_palette_entries']),
+            '| 标识介绍、VI规范与下载线索 | %s | %s |'%(counts['vi_schools'],counts['vi_entries']),
             '| 历史排名 | %s | %s |'%(counts['ranking_schools'],counts['ranking_entries']),
             '| 学科评估节选 | %s | %s |'%(counts['subject_schools'],counts['subject_entries']),
             '| 重庆2025录取参考 | %s | %s |'%(counts['admission_schools'],counts['admission_entries']),

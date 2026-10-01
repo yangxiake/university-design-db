@@ -256,6 +256,44 @@ visual:
     source_as_of: unspecified
     byte_size: 81136
     representation: raster
+  - asset_id: 5af73d0f767cdd7bf997438e
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://xcb.fjnu.edu.cn/_upload/tpl/0a/d3/2771/template2771/images/logo.png
+    source: https://xcb.fjnu.edu.cn/8591/list.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 福建师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 福建师范大学
+    format: png
+    width: 400
+    height: 69
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 5a7c9a0a3033f4670b1784b521dec43d0c73d5d594e677b04ae9d902ad678369
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/0a/d3/2771/template2771/images/logo.png
+      label: '  site-logo img-responsive '
+      context: 'col-lg-12 toppic  logo-panel  wp-window logo-window window-1  site-url '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 15272
+    representation: raster
+    resolved_url: https://xcb.fjnu.edu.cn/_upload/tpl/0a/d3/2771/template2771/images/logo.png
+    inspection_attempts:
+    - url: https://xcb.fjnu.edu.cn/_upload/tpl/0a/d3/2771/template2771/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#7B0101'
     rgb:
@@ -379,7 +417,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0427fd4d78cada86
-  vi_resources: []
+  vi_resources:
+  - title: 校标
+    url: https://xcb.fjnu.edu.cn/8591/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.fjnu.edu.cn/8591/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6d2f0e64c8c8af1456e2c735486c04f1c8db620ba28839891dd87c5807aa5e3c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

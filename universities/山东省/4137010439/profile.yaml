@@ -84,9 +84,10 @@ visual:
     value: https://vi.sdfmu.edu.cn/
     source: https://vi.sdfmu.edu.cn/
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校徽把标志性建筑、黄河与蛇杖融合，配中英文校名。
     source: https://www.sdfmu.edu.cn/xxgk1/dxzc.htm
@@ -220,7 +221,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: e241e6cfc435c1b7
-  vi_resources: []
+  vi_resources:
+  - title: 视觉形象识别系统
+    url: https://vi.sdfmu.edu.cn/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sdfmu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 99266cd9efb1dc008d94b4071fb43336213ac6cd56faee3148c9517fc21d039e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

@@ -23,7 +23,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / 'data/review/official-overviews-2026.jsonl'
 TODAY = dt.date.today().isoformat()
 NUM = r'(?P<qual>约|近|超过|超|逾|达)?(?P<num>\d[\d,，]*(?:\.\d+)?)(?P<scale>万)?(?P<tail>余|多|左右|以上|近)?'
-STUDENTS = re.compile(r'(?P<label>(?:各类)?(?:全日制)?(?:普通)?(?:在校(?:学生|生)|在学学生|本科(?:学生|生)))\s*(?:总数|人数|规模)?\s*(?:为|有|共|达|计|：|:)?\s*' + NUM + r'\s*(?:名|人)')
+STUDENTS = re.compile(r'(?P<label>(?:各类)?(?:全日制)?(?:普通)?(?:在校(?:学生|本专科生|本科生|生)|在学学生|本科(?:学生|生)))\s*(?:总数|人数|规模)?\s*(?:为|有|共|达|计|：|:)?\s*' + NUM + r'\s*(?:名|人)')
 FACULTY = re.compile(r'(?P<label>在职教职(?:员工|工)|教职(?:员工|工)|专任教师)\s*(?:总数|人数)?\s*(?:为|有|共|达|计|：|:)?\s*' + NUM + r'\s*(?:名|人)')
 AREA = re.compile(r'(?P<label>(?:学校|校园)?(?:总)?占地(?:总)?面积)\s*(?:为|共|达|：|:)?\s*' + NUM + r'\s*(?P<unit>平方公里|平方米|公顷|亩)')
 DEGREES = re.compile(r'(?P<label>(?:专业学位类别)?(?:一级学科)?(?:专业)?(?:博士|硕士)(?:专业)?学位(?:一级学科)?授权(?:点|学科)|(?:博士|硕士)(?:学位授权)?一级学科)\s*(?:为|有|共|达|：|:)?\s*(?P<n>\d+)\s*(?:个|项)')
@@ -82,6 +82,7 @@ def extract(name, title, lines, source):
                 # retained even when only本科生/专任教师 is available.
                 sentence = re.split(r'[。！？；]', line[:match.start()])[-1]
                 if re.search(r'曾有|当时|建校初|创办初|规划|拟建|计划|预计|将达到|附属医院|附属学校|新增|增加|招收', sentence[-50:]): continue
+                if re.search(r'一期工程|二期工程|按照.{0,12}(?:在校|办学).{0,6}规模|可容纳|设计(?:容量|规模)',sentence[-90:]):continue
                 if field.endswith('hectares') and re.search(r'新校区|新区|校区位于|建设[^，,]*校区',sentence[-60:]): continue
                 # A留学生 paragraph can contain本科生 subcounts. Those are not
                 # the school's本科人数. Reject nested subgroup statements.
@@ -239,6 +240,7 @@ def main():
     parser.add_argument('--resume',action='store_true');parser.add_argument('--import-only',action='store_true');parser.add_argument('--collect-only',action='store_true')
     parser.add_argument('--reparse-cache',action='store_true',help='Re-extract the ignored cached HTML without new requests')
     parser.add_argument('--retry-missing',action='store_true',help='Try alternate homepage navigation for schools with no overview claims')
+    parser.add_argument('--school-code',action='append',help='Collect only these schools; preserve the rest of the ledger')
     args=parser.parse_args()
     # This export is a read-only seed. Imports reload the current canonical YAML.
     profiles=[json.loads(s) for s in (ROOT/'indexes/profiles.jsonl').read_text().splitlines()]
@@ -246,12 +248,14 @@ def main():
     records={r['school_code']:r for r in map(json.loads,OUTPUT.read_text().splitlines())} if OUTPUT.exists() else {}
     pending=[p for p in profiles if not args.resume or p['identity']['school_code'] not in records]
     if args.retry_missing:pending=[p for p in profiles if not records.get(p['identity']['school_code'],{}).get('claims') and p['identity']['official_website'].get('value')]
+    if args.school_code:pending=[p for p in pending if p['identity']['school_code'] in args.school_code]
     if args.limit:pending=pending[:args.limit]
     def save():
         temp=OUTPUT.with_suffix('.tmp');temp.write_text(''.join(json.dumps(records[c],ensure_ascii=False)+'\n' for c in sorted(records)),encoding='utf-8');temp.replace(OUTPUT)
     if args.reparse_cache:
         by_code={p['identity']['school_code']:p for p in profiles}
         for code,record in records.items():
+            if args.school_code and code not in args.school_code:continue
             record['claims']=[];record['campuses']=[]
             for attempt in record['pages']:
                 cache=ROOT/'tmp/overviews'/code/(attempt.get('sha256','')+'.html')
@@ -279,6 +283,7 @@ def main():
     if args.collect_only:return
     changed=0
     for path in (ROOT/'universities').glob('*/*/profile.yaml'):
+        if args.school_code and path.parent.name not in args.school_code:continue
         profile=yaml.safe_load(path.read_text());record=records.get(profile['identity']['school_code'])
         if not record:continue
         before=json.dumps(profile,sort_keys=True,ensure_ascii=False);apply_record(profile,record)

@@ -105,7 +105,7 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
@@ -640,6 +640,250 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  - title: 哈尔滨工业大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/hit.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/hit.tex
+    source_sha256: f937784ef36fd10ce51b73fec99c2128625a93948b6f40ba3d4c279880e4718f
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
+  - title: 哈工大社区简约PPT模板
+    url: https://github.com/huyingjiao/HIT-PPT-Theme/tree/9e9b01db3e11e6e6265bb858c4705a1638614608
+    source: https://github.com/huyingjiao/HIT-PPT-Theme/blob/9e9b01db3e11e6e6265bb858c4705a1638614608/README.md
+    publisher: huyingjiao/HIT-PPT-Theme
+    repository: huyingjiao/HIT-PPT-Theme
+    kind: pptx_template
+    official: false
+    license: null
+    commit: 9e9b01db3e11e6e6265bb858c4705a1638614608
+    formats:
+    - PPTX
+    source_sha256: 1ca07c619b828937c5d53a16748fbe2f528f2a51599e40ae9763c2016b74b7ce
+    source_text_read: true
+    verified: auto
+    checked_at: '2026-10-02'
+    files:
+    - path: 哈工大ppt模板.pptx
+      url: https://github.com/huyingjiao/HIT-PPT-Theme/blob/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF.pptx
+      format: PPTX
+      byte_size: 113724
+      git_blob: fe7ae998fc7a9d956fc48ebe2b7d63c71a4eb146
+      content_read: true
+      file_inspection:
+        status: content_inspected
+        checked_at: '2026-10-02'
+        attempts:
+        - url: https://raw.githubusercontent.com/huyingjiao/HIT-PPT-Theme/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF.pptx
+          status: file_read
+          resolved_url: https://raw.githubusercontent.com/huyingjiao/HIT-PPT-Theme/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF.pptx
+        resolved_url: https://raw.githubusercontent.com/huyingjiao/HIT-PPT-Theme/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF.pptx
+      file_metadata:
+        sha256: 759145b3ee91c1575c7acebffadb86c53f265a1116fae2c026913dfb6a5323f4
+        byte_size: 113724
+        format: PPTX
+        read_kind: ooxml_structure
+        slide_count: 7
+        width_emu: 12192000
+        height_emu: 6858000
+        aspect_ratio: '16:9'
+        font_names:
+        - Angsana New
+        - Arial
+        - Corbel
+        - Cordia New
+        - DaunPenh
+        - DokChampa
+        - Ebrima
+        - Estrangelo Edessa
+        - Euphemia
+        - Gautami
+        - Gill Sans MT
+        - HGｺﾞｼｯｸE
+        - Iskoola Pota
+        - Javanese Text
+        - Kalinga
+        - Kartika
+        - Latha
+        - Leelawadee UI
+        - MV Boli
+        - Majalla UI
+        - Mangal
+        - Microsoft Himalaya
+        - Microsoft JhengHei
+        - Microsoft New Tai Lue
+        - Microsoft Tai Le
+        - Microsoft Uighur
+        - Microsoft Yi Baiti
+        - Mongolian Baiti
+        - MoolBoran
+        - Myanmar Text
+        - Nirmala UI
+        - Nyala
+        - Phagspa
+        - Plantagenet Cherokee
+        - Raavi
+        - Segoe UI
+        - Shruti
+        - Sylfaen
+        - Tahoma
+        - Times New Roman
+        - Tunga
+        - Vrinda
+        - Wingdings
+        - Wingdings 2
+        - 华文中宋
+        - 微軟正黑體
+        - 新細明體
+        - 游ゴシック
+        - 游ゴシック Light
+        - 等线
+        - 等线 Light
+        - 맑은 고딕
+        - 휴먼매직체
+        theme_colors:
+        - '#000000'
+        - '#007698'
+        - '#0563C1'
+        - '#3D3D3D'
+        - '#43064C'
+        - '#44546A'
+        - '#4472C4'
+        - '#5A8071'
+        - '#5B9BD5'
+        - '#660874'
+        - '#70AD47'
+        - '#954F72'
+        - '#969FA7'
+        - '#A5A5A5'
+        - '#A9C37C'
+        - '#E6C46D'
+        - '#E7E6E6'
+        - '#EBEBEB'
+        - '#ED7D31'
+        - '#FFC000'
+        - '#FFFFFF'
+        editable_text_runs: 62
+        textless_slides: 0
+        media_count: 2
+        external_relationship_count: 2
+        macro_enabled: false
+      download_status: content_inspected
+    - path: 哈工大ppt模板_new.pptx
+      url: https://github.com/huyingjiao/HIT-PPT-Theme/blob/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF_new.pptx
+      format: PPTX
+      byte_size: 291328
+      git_blob: 05c3b2f68a6f405d6a1c6a778a7dc4b6c9adc051
+      content_read: true
+      file_inspection:
+        status: content_inspected
+        checked_at: '2026-10-02'
+        attempts:
+        - url: https://raw.githubusercontent.com/huyingjiao/HIT-PPT-Theme/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF_new.pptx
+          status: file_read
+          resolved_url: https://raw.githubusercontent.com/huyingjiao/HIT-PPT-Theme/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF_new.pptx
+        resolved_url: https://raw.githubusercontent.com/huyingjiao/HIT-PPT-Theme/9e9b01db3e11e6e6265bb858c4705a1638614608/%E5%93%88%E5%B7%A5%E5%A4%A7ppt%E6%A8%A1%E6%9D%BF_new.pptx
+      file_metadata:
+        sha256: 0b8d8bf605e10eb42d9fad8211fcedc4ca2046d2103a2c93dcc0372e3158807d
+        byte_size: 291328
+        format: PPTX
+        read_kind: ooxml_structure
+        slide_count: 4
+        width_emu: 12192000
+        height_emu: 6858000
+        aspect_ratio: '16:9'
+        font_names:
+        - Angsana New
+        - Arial
+        - Corbel
+        - Cordia New
+        - DaunPenh
+        - DokChampa
+        - Ebrima
+        - Estrangelo Edessa
+        - Euphemia
+        - Gautami
+        - Gill Sans MT
+        - HGｺﾞｼｯｸE
+        - Iskoola Pota
+        - Javanese Text
+        - Kalinga
+        - Kartika
+        - Latha
+        - Leelawadee UI
+        - MV Boli
+        - Majalla UI
+        - Mangal
+        - Microsoft Himalaya
+        - Microsoft JhengHei
+        - Microsoft New Tai Lue
+        - Microsoft Tai Le
+        - Microsoft Uighur
+        - Microsoft Yi Baiti
+        - Mongolian Baiti
+        - MoolBoran
+        - Myanmar Text
+        - Nirmala UI
+        - Nyala
+        - Phagspa
+        - Plantagenet Cherokee
+        - Raavi
+        - Segoe UI
+        - Shruti
+        - Sylfaen
+        - Tahoma
+        - Times New Roman
+        - Tunga
+        - Vrinda
+        - Wingdings
+        - Wingdings 2
+        - 华文中宋
+        - 微軟正黑體
+        - 新細明體
+        - 游ゴシック
+        - 游ゴシック Light
+        - 等线
+        - 等线 Light
+        - 맑은 고딕
+        - 휴먼매직체
+        theme_colors:
+        - '#000000'
+        - '#007698'
+        - '#0563C1'
+        - '#3D3D3D'
+        - '#43064C'
+        - '#44546A'
+        - '#4472C4'
+        - '#5A8071'
+        - '#5B9BD5'
+        - '#660874'
+        - '#70AD47'
+        - '#954F72'
+        - '#969FA7'
+        - '#A5A5A5'
+        - '#A9C37C'
+        - '#E6C46D'
+        - '#E7E6E6'
+        - '#EBEBEB'
+        - '#ED7D31'
+        - '#FFC000'
+        - '#FFFFFF'
+        editable_text_runs: 27
+        textless_slides: 0
+        media_count: 3
+        external_relationship_count: 0
+        macro_enabled: false
+      download_status: content_inspected
+    usage_note: GitHub项目描述明确用于哈尔滨工业大学组会汇报；README称哈工大简约主题。 已读取固定版本README并确认文件目录；PPTX文件结构的读取结果逐文件列出，未渲染幻灯片、未运行上游脚本或SKILL、未镜像模板/字体/校徽。许可未声明，仅索引入口，使用或再发布前查看上游和校方要求。
   admissions_url:
     value: http://www.hit.edu.cn/11537/list.htm
     availability: found

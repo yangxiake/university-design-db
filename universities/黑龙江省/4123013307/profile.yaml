@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hhdu.edu.cn/info/1648/4435.htm
+    availability: found
     search_sources: []
+    source: https://www.hhdu.edu.cn/info/1648/4435.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -131,7 +132,91 @@ visual:
     representation: raster
     resolved_url: https://www.hhdu.edu.cn/images/logo_b1110.png
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 哈尔滨华德学院官网视觉资源页 PPT模板发布/下载页
+    url: https://www.hhdu.edu.cn/xxgk/bsxt.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://www.hhdu.edu.cn/xxgk/bsxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e7e0ddeb2f81ae8ae9b3f9f8b6f36f9967bb800d829d3f04c3f9df47febd5161
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 哈尔滨华德学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 哈尔滨华德学院PPT模版下载
+    url: https://www.hhdu.edu.cn/info/1648/4436.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://www.hhdu.edu.cn/xxgk/bsxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e7e0ddeb2f81ae8ae9b3f9f8b6f36f9967bb800d829d3f04c3f9df47febd5161
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 哈尔滨华德学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.hhdu.edu.cn/info/1648/4436.htm
+        status: target_page_read
+        resolved_url: https://www.hhdu.edu.cn/info/1648/4436.htm
+      resolved_url: https://www.hhdu.edu.cn/info/1648/4436.htm
+      page_metadata:
+        title: 哈尔滨华德学院PPT模版下载-哈尔滨华德学院-顶尖应用型本科大学
+        sha256: 39713119a718576e47fbdb795551a7481daf8a1d3b7c23704a2c548af9adfafd
+        byte_size: 45643
+  - title: 哈尔滨华德学院VI标识下载
+    url: https://www.hhdu.edu.cn/info/1648/4435.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hhdu.edu.cn/info/1648/4435.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9ed5f8034e89166291d7a9403489e764cddd1fe55bc23988fd07c3397ed9cbe6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 哈尔滨华德学院二级学院院旗VI标识下载
+    url: https://www.hhdu.edu.cn/info/1648/5733.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hhdu.edu.cn/info/1648/5733.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4c366ae4d9512dd50444f07b796c3cf6c06ae092a631fe09faa7957003b3f6d1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -171,19 +256,20 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hhdu.edu.cn/xxgk/bsxt.htm
+    availability: found
     search_sources: []
+    source: https://www.hhdu.edu.cn/xxgk/bsxt.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 哈尔滨华德学院官网视觉资源页
+    availability: found
     search_sources: []
+    source: https://www.hhdu.edu.cn/xxgk/bsxt.htm
+    verified: auto
+    checked_at: '2026-10-02'
   official_template_terms:
     value: null
     source: null

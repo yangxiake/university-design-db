@@ -107,12 +107,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xynu.edu.cn/xxgk/whbs.htm
+    availability: found
     search_sources: []
+    source: https://www.xynu.edu.cn/xxgk/whbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形校徽外环列鲁迅书体中文校名与英文名称，中央标“1975”；网页文字未完整呈现主体图形。
     source: https://www.xynu.edu.cn/xxgk/dxzc.htm
@@ -158,6 +159,44 @@ visual:
     byte_size: 28488
     representation: raster
     resolved_url: https://www.xynu.edu.cn/skin/m5/logo.png
+  - asset_id: e608b2b1e56af9d48a21aafa
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.xynu.edu.cn/skin/m5/logo1.png
+    source: https://www.xynu.edu.cn/xxgk/whbs.htm
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 信阳师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 信阳师范大学
+    format: png
+    width: 360
+    height: 90
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 008ddf6bd4b0900a343efb8e4cad4ad7938789e7a821f8a07d6b2d06e15619b5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../skin/m5/logo1.png
+      label: '信阳师范大学   '
+      context: '    header wow fadeInDown  logo '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 35850
+    representation: raster
+    resolved_url: https://www.xynu.edu.cn/skin/m5/logo1.png
+    inspection_attempts:
+    - url: https://www.xynu.edu.cn/skin/m5/logo1.png
+      status: content_inspected
   color_palette:
   - value: '#008C3E'
     rgb:
@@ -209,7 +248,73 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#008838'
+    rgb:
+    - 0
+    - 136
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xynu.edu.cn/skin/m5/logo1.png
+    page_source: https://www.xynu.edu.cn/xxgk/whbs.htm
+    asset_id: e608b2b1e56af9d48a21aafa
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#009040'
+    rgb:
+    - 0
+    - 144
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xynu.edu.cn/skin/m5/logo1.png
+    page_source: https://www.xynu.edu.cn/xxgk/whbs.htm
+    asset_id: e608b2b1e56af9d48a21aafa
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 一、校名
+    url: https://www.xynu.edu.cn/xxgk/whbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xynu.edu.cn/xxgk/whbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7d2ab8d97b3d952e1963acff2e8c0053ab1af46f789fe31447486e694792955b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 信阳师范大学标识系统使用手册.pdf
+    url: https://www.xynu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551415229&wbfileid=12351345
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xynu.edu.cn/xxgk/whbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7d2ab8d97b3d952e1963acff2e8c0053ab1af46f789fe31447486e694792955b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1975

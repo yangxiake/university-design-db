@@ -24,9 +24,12 @@
 |  | `#084078` | 8,64,120 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#084880` | 8,72,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)
+- [学校视觉识别系统](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)。
+- [赣南师范大学校名校徽规范样式](https://www.gnnu.edu.cn/__local/8/8B/37/72BD839E14D40B545BF0F23BB52_862CB3FF_127E790.zip?e=.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

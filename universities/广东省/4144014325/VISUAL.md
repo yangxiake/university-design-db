@@ -12,6 +12,8 @@
 | 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Southern_University_of_Science_and_Technology/svg/logo_orange.svg) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Southern_University_of_Science_and_Technology/svg/logo_orange.svg) | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://sustech.edu.cn/static/images/sustech-logo-cn.png) · [来源](https://sustech.edu.cn) | png | 433 × 86 | content_inspected | 未独立声明 |
 | 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/南方科技大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 236 × 236 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.sustech.edu.cn/static/images/sustech-logo-cn.png) · [来源](https://www.sustech.edu.cn/zh/school_logo.html) | png | 433 × 86 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.sustech.edu.cn/uploads/logo1.png) · [来源](https://www.sustech.edu.cn/zh/school_logo.html) | png | 190 × 189 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -27,11 +29,14 @@
 |  | `#F06820` | 240,104,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#E86820` | 232,104,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#F0E0D0` | 240,224,208 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#E86800` | 232,104,0 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sustech.edu.cn/uploads/logo1.png) |
+|  | `#F8E8D8` | 248,232,216 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sustech.edu.cn/uploads/logo1.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://sustech.edu.cn/zh/school_logo.html](https://sustech.edu.cn/zh/school_logo.html)
+- [学校标识](https://www.sustech.edu.cn/zh/school_logo.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.sustech.edu.cn/zh/school_logo.html)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

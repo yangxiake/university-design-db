@@ -87,32 +87,39 @@ research:
   audit_key: '4144010566'
 visual:
   color_primary:
-    value: '#204BB0'
-    source: https://www.gdou.edu.cn/images/logo_sj-l.png
+    value: '#003B90'
+    source: https://www.gdou.edu.cn/xxgk/xxbs.htm
+    method: official_vi
+    label: 校徽背景湛蓝
+    basis: 官网学校标识释义直接公布校徽背景湛蓝#003b90及帆图#fdd000；用途为校徽相应构件颜色，未声称完整VI所有应用的配色。
+    cmyk: null
+    pantone: null
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.gdou.edu.cn
-    image_sha256: 584e899c5a9161db52994ec47cbd02f96762457fb6a8dcc4c4635b80d97bdfb4
+    source_sha256: dedb7a8290ed4511f5a5dae893f77552c5571ee415f98b1c5359c0e3c39c42c1
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#FDD000'
+    source: https://www.gdou.edu.cn/xxgk/xxbs.htm
+    method: official_vi
+    label: 校徽帆图金黄
+    basis: 官网学校标识释义直接公布校徽背景湛蓝#003b90及帆图#fdd000；用途为校徽相应构件颜色，未声称完整VI所有应用的配色。
+    cmyk: null
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: dedb7a8290ed4511f5a5dae893f77552c5571ee415f98b1c5359c0e3c39c42c1
   vi_url:
     value: https://www.gdou.edu.cn/xxgk/xxbs.htm
     source: https://www.gdou.edu.cn/xxgk/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校徽采用半径不同的两个同心圆，背景为蓝色。
     source: https://www.gdou.edu.cn/xxgk/xxzc.htm
@@ -225,15 +232,16 @@ visual:
     - 176
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: https://www.gdou.edu.cn/images/logo_sj-l.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    source_field: visual.color_primary
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
   - value: '#2048B0'
     rgb:
     - 32
@@ -322,7 +330,91 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 5ba804c703cdadbd
-  vi_resources: []
+  - value: '#003B90'
+    rgb:
+    - 0
+    - 59
+    - 144
+    cmyk: null
+    pantone: null
+    label: 校徽背景湛蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.gdou.edu.cn/xxgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网学校标识释义直接公布校徽背景湛蓝#003b90及帆图#fdd000；用途为校徽相应构件颜色，未声称完整VI所有应用的配色。
+    source_sha256: dedb7a8290ed4511f5a5dae893f77552c5571ee415f98b1c5359c0e3c39c42c1
+    source_field: visual.color_primary
+  - value: '#FDD000'
+    rgb:
+    - 253
+    - 208
+    - 0
+    cmyk: null
+    pantone: null
+    label: 校徽帆图金黄
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.gdou.edu.cn/xxgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网学校标识释义直接公布校徽背景湛蓝#003b90及帆图#fdd000；用途为校徽相应构件颜色，未声称完整VI所有应用的配色。
+    source_sha256: dedb7a8290ed4511f5a5dae893f77552c5571ee415f98b1c5359c0e3c39c42c1
+    source_field: visual.color_secondary
+  vi_resources:
+  - title: 学校标识
+    url: https://www.gdou.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gdou.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dedb7a8290ed4511f5a5dae893f77552c5571ee415f98b1c5359c0e3c39c42c1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名.rar
+    url: https://www.gdou.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1986871033&wbfileid=66BB23AB4434C22AC063658CA5CC89E6
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gdou.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dedb7a8290ed4511f5a5dae893f77552c5571ee415f98b1c5359c0e3c39c42c1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽.rar
+    url: https://www.gdou.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1986871033&wbfileid=B00BDE1229C8E76FCD64C27C4B920D6E
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gdou.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dedb7a8290ed4511f5a5dae893f77552c5571ee415f98b1c5359c0e3c39c42c1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1935
@@ -533,14 +625,14 @@ location:
     source: https://www.gdou.edu.cn/xxgk/xxjj.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 阳江市的阳江校区
     address: 江城区罗琴路1号）西靠阳江八景之一的罗琴山，南临风景优美的罗琴湖
     coordinates: null
     source: https://www.gdou.edu.cn/xxgk/xxjj.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 广东海洋大学位于广东省湛江市，主管部门为广东省。官网列示教职工3042人（统计日期未注明）。官网列示占地面积约4800亩（统计日期未注明）。简介列出湛江市的湖光校区、阳江市的阳江校区。

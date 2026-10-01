@@ -9,6 +9,7 @@
 | 校徽 | [文件](https://www.shanghairanking.cn/_uni/logo/46532631.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | png | 未声明 | indexed_not_fetched | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.jju.edu.cn/img/logo1.png) · [来源](https://www.jju.edu.cn) | png | 275 × 78 | content_inspected | 未独立声明 |
 | 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/九江学院.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 230 × 224 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](http://www.jju.edu.cn/img/logo1.png) · [来源](http://www.jju.edu.cn/xxgk/xx1.htm) | png | 275 × 78 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -22,11 +23,14 @@
 |  | `#187080` | 24,112,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#107080` | 16,112,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#78B0B8` | 120,176,184 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#2098B0` | 32,152,176 | reference |  |  | 官网标识取色/推导建议 | [依据](http://www.jju.edu.cn/img/logo1.png) |
+|  | `#1898A8` | 24,152,168 | reference |  |  | 官网标识取色/推导建议 | [依据](http://www.jju.edu.cn/img/logo1.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.jju.edu.cn/xxgk/xx1.htm](https://www.jju.edu.cn/xxgk/xx1.htm)
+- [校训'校徽'校歌](http://www.jju.edu.cn/xxgk/xx1.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.jju.edu.cn/xxgk/xx1.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

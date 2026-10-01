@@ -218,6 +218,44 @@ visual:
     source_as_of: unspecified
     byte_size: 75676
     representation: raster
+  - asset_id: 9ffa20de54a14676bd706589
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.ptu.edu.cn/images/logo.png
+    source: http://www.ptu.edu.cn/newxxgk/xbxg.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 莆田学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 莆田学院
+    format: png
+    width: 257
+    height: 118
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6bc1e4a4b40964caa212109e5e6f201ab85fb35cc3fb5c316babaa52b485eab8
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '   '
+      context: 'sworkc  wrap clear  fl logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 10753
+    representation: raster
+    resolved_url: http://www.ptu.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: http://www.ptu.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#D82018'
     rgb:
@@ -273,7 +311,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 96b30afcbebdc449
-  vi_resources: []
+  vi_resources:
+  - title: 校标校歌
+    url: http://www.ptu.edu.cn/newxxgk/xbxg.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.ptu.edu.cn/newxxgk/xbxg.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 05630dfb85cba7155affc941fc232c71b267798bc7b6bf741c6b12c2a0214db7
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1898

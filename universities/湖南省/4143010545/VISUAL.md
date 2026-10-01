@@ -20,9 +20,13 @@
 |  | `#009840` | 0,152,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#009038` | 0,144,56 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.xnu.edu.cn/html/783/](https://www.xnu.edu.cn/html/783/)
+- [视觉形象识别系统_湘南学院](https://www.xnu.edu.cn/html/783/)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xnu.edu.cn/html/783/)。
+- [VI系统基础部分下载](https://atta.xnu.edu.cn/attachment/userfiles/湘南学院2021.12.18(基础部分).pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xnu.edu.cn/html/783/)。
+- [湘南学院视觉形象识别系统（VI）手册【2021修订】基础部分AI源文件下载](https://atta.xnu.edu.cn/attachment/userfiles/湘南学院2021.12.7扩展)基础部分.ai)：["视觉识别规范/资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xnu.edu.cn/html/783/)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -27,7 +27,7 @@ def main():
     status=dict(collections.Counter(r['status'] for r in records))
     archive=json.loads((ROOT/'data/review/logo-archive-2026.json').read_text())
     sources=json.loads((ROOT/'data/review/supplemental-repositories-2026.json').read_text())
-    stats=dict(checked_at='2026-10-01',scope=len(records),counts=dict(counts),statistics_basis={k:dict(v) for k,v in dates.items()},
+    stats=dict(checked_at=max(r['checked_at'] for r in records),scope=len(records),counts=dict(counts),statistics_basis={k:dict(v) for k,v in dates.items()},
                collection_status=status,page_attempts=sum(len(r['pages']) for r in records),
                matched_archive_files=len(archive['matched']),unmatched_archive_files=len(archive['unmatched']),excluded_archive_files=len(archive.get('excluded',[])))
     (ROOT/'data/review/overview-coverage-2026.json').write_text(json.dumps(stats,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

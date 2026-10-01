@@ -83,9 +83,10 @@ visual:
     value: https://www.wuhues.com/xxgk/xxbs/C940204index_1.htm
     source: https://www.wuhues.com/xxgk/xxbs/C940204index_1.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -130,8 +131,62 @@ visual:
     byte_size: 10461
     representation: raster
     resolved_url: https://www.wuhues.com/lib/template/static/picture/logo7.png
+  - asset_id: 700dc5701e52c980947cd060
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.wuhues.com/lib/template/static/picture/13333.png
+    source: https://www.wuhues.com/xxgk/xxbs/C940204index_1.htm
+    file_name: 13333.png
+    upstream_path: null
+    publisher: 武汉工程科技学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉工程科技学院
+    format: png
+    width: 346
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f18023984c5e75056949b1bcd2243030522da06a37f7c611953e0b7138067bd9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: //www.wuhues.com/lib/template/static/picture/13333.png
+      label: '   '
+      context: 'header moblie hp  hop  logo   '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 10461
+    representation: raster
+    resolved_url: https://www.wuhues.com/lib/template/static/picture/13333.png
+    inspection_attempts:
+    - url: https://www.wuhues.com/lib/template/static/picture/13333.png
+      status: content_inspected
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.wuhues.com/xxgk/xxbs/C940204index_1.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.wuhues.com/xxgk/xxbs/C940204index_1.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f7836809ffb4ae73e2eae4131b1de14904cf007e08959d46eed9369c8e788c62
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

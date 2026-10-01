@@ -107,12 +107,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -216,6 +217,88 @@ visual:
     source_as_of: unspecified
     byte_size: 49574
     representation: raster
+  - asset_id: 9cf70b4da09400ef80772290
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.nbt.edu.cn/images/logo0620.png
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    file_name: logo0620.png
+    upstream_path: null
+    publisher: 浙大宁波理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 浙大宁波理工学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo0620.png
+      label: '  i1 '
+      context: 'header  wp flexjs  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://www.nbt.edu.cn/images/logo0620.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+  - asset_id: 1e5e0c535d93d014682af6ba
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.nbt.edu.cn/images/logozk0620.png
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    file_name: logozk0620.png
+    upstream_path: null
+    publisher: 浙大宁波理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 浙大宁波理工学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logozk0620.png
+      label: '   '
+      context: 'top  wp flexjs  logo   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://www.nbt.edu.cn/images/logozk0620.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
   color_palette:
   - value: '#003888'
     rgb:
@@ -271,7 +354,103 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 8afcc64242731aa6
-  vi_resources: []
+  vi_resources:
+  - title: 浙大宁波理工学院官网视觉资源页 PPT模板发布/下载页
+    url: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 28e5634cc436eef846f9bfe998bba1776ab4e9e0e04733bbcf132845d266d6f3
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 浙大宁波理工学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 浙大宁波理工学院PPT模板
+    url: https://www.nbt.edu.cn/images/xxbs/zhedaningboligongxueyuanPPTmoban.zip
+    kinds:
+    - PPT模板
+    formats:
+    - ZIP
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 28e5634cc436eef846f9bfe998bba1776ab4e9e0e04733bbcf132845d266d6f3
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 浙大宁波理工学院官网视觉资源页
+    use_scope: school
+    content_read: false
+    download_status: indexed_not_fetched
+    file_inspection:
+      status: inspection_failed
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.nbt.edu.cn/images/xxbs/zhedaningboligongxueyuanPPTmoban.zip
+        status: access_or_parse_gap
+        error_type: ValueError
+        detail: download_size_limit
+  - title: 校标下载
+    url: https://www.nbt.edu.cn/images/xxbs/xbxz.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 28e5634cc436eef846f9bfe998bba1776ab4e9e0e04733bbcf132845d266d6f3
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标使用规范图文版
+    url: https://www.nbt.edu.cn/images/xxbs/xbtuwenban.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 28e5634cc436eef846f9bfe998bba1776ab4e9e0e04733bbcf132845d266d6f3
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标使用规范VI文件
+    url: https://www.nbt.edu.cn/images/xxbs/xbVI.rar
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 28e5634cc436eef846f9bfe998bba1776ab4e9e0e04733bbcf132845d266d6f3
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -311,19 +490,20 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 浙大宁波理工学院官网视觉资源页
+    availability: found
     search_sources: []
+    source: https://www.nbt.edu.cn/xqzl/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
   official_template_terms:
     value: null
     source: null

@@ -109,12 +109,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hqu.edu.cn/whcc/xmxb.htm
+    availability: found
     search_sources: []
+    source: https://www.hqu.edu.cn/whcc/xmxb.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 学校徽志采用红色圆形构图。
     source: https://www.hqu.edu.cn/whcc.htm#whcc6
@@ -343,7 +344,55 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: e89752541696b407
-  vi_resources: []
+  vi_resources:
+  - title: 校名校标
+    url: https://www.hqu.edu.cn/whcc/xmxb.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hqu.edu.cn/whcc/xmxb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 60f246cac2247ff8f2c3d0309c0e57c2a0f25033edab63f57cd3b7b35fcdf42e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名校标
+    url: https://www.hqu.edu.cn/whcc.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hqu.edu.cn/whcc.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2868587b45de8602b895f7205efaa39be4b68a69e4c5d69ad2b6357306b822d9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 视觉形象-华侨大学
+    url: https://www.hqu.edu.cn/whcc/sjxx.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hqu.edu.cn/whcc/sjxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 72391c5e0950c9f9970d51ef1d46e617fa5549b0fbb03d4e05896360d5c3e64a
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1980

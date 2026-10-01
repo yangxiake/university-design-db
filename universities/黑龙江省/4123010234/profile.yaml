@@ -321,12 +321,14 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zsxx.hrbu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://zsxx.hrbu.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 学校拥有的招生信息网；属于招生门户，不作为学校主站首页。
   career_url:
     value: null
     source: null
@@ -400,12 +402,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 哈尔滨市南岗区中兴大道109号
+    availability: found
     search_sources: []
+    source: https://zsxx.hrbu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校招生门户页脚明确标注的招生联系方式与通讯地址；未认定为学校统一总机或全部校区。
+    evidence:
+    - '电话: 0451-86617723 传真: 0451-86613350 邮箱: zsb@hrbu.edu.cn 地址: 哈尔滨市南岗区中兴大道109号'
   postal_code:
     value: null
     source: null
@@ -499,12 +505,16 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: zsb@hrbu.edu.cn
+    availability: found
     search_sources: []
+    source: https://zsxx.hrbu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校招生门户页脚明确标注的招生联系方式与通讯地址；未认定为学校统一总机或全部校区。
+    evidence:
+    - '电话: 0451-86617723 传真: 0451-86613350 邮箱: zsb@hrbu.edu.cn 地址: 哈尔滨市南岗区中兴大道109号'
 rankings:
   entries:
   - publisher: ShanghaiRanking

@@ -91,9 +91,10 @@ visual:
     value: https://www.dlufl.edu.cn/xygk/xxbs.htm
     source: https://www.dlufl.edu.cn/xygk/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形篆书校标采用大外蓝，核心为“大外”篆字，内圆上弧列英文全称，下弧标“1964”。
     source: https://www.dlufl.edu.cn/xygk/xxbs.htm
@@ -207,6 +208,44 @@ visual:
     source_as_of: unspecified
     byte_size: 100396
     representation: raster
+  - asset_id: 04df2aaf3ee78e21dda8ead4
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.dlufl.edu.cn/dfiles/12834/images/20181016/logo.png
+    source: https://www.dlufl.edu.cn/xygk/xxbs.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 大连外国语大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 大连外国语大学
+    format: png
+    width: 348
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: cf0098d1aa3cc3ca5330e7d22a246131c70e56c54e140efd268826d0c61ecc06
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../dfiles/12834/images/20181016/logo.png
+      label: '   '
+      context: 'nav-subNav pc  nav posFix  posFix-box  posFix-logo flL '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 13603
+    representation: raster
+    resolved_url: https://www.dlufl.edu.cn/dfiles/12834/images/20181016/logo.png
+    inspection_attempts:
+    - url: https://www.dlufl.edu.cn/dfiles/12834/images/20181016/logo.png
+      status: content_inspected
   color_palette:
   - value: '#DAC8A2'
     rgb:
@@ -346,7 +385,41 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: bbd404ea197d72d5
-  vi_resources: []
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 83
+    - 5
+    - 0
+    pantone: null
+    label: 大外蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.dlufl.edu.cn/xygk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网校标页公布大外蓝CMYK100/83/5/0，没有RGB或HEX。页眉金色取样只能作参考，不能代替官方标准蓝。
+    source_sha256: e9365564ad6f8bfc3a142f638fe39ed53836c408836c70a66959190370ccc173
+  vi_resources:
+  - title: 学校标识
+    url: https://www.dlufl.edu.cn/xygk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.dlufl.edu.cn/xygk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e9365564ad6f8bfc3a142f638fe39ed53836c408836c70a66959190370ccc173
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

@@ -258,6 +258,82 @@ visual:
     source_as_of: unspecified
     byte_size: 79018
     representation: raster
+  - asset_id: bbfda13a9d556690c2851595
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.hfnu.edu.cn/images/logo-w.png
+    source: http://www.hfnu.edu.cn/xywh/xh.htm
+    file_name: logo-w.png
+    upstream_path: null
+    publisher: 合肥师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 合肥师范学院
+    format: png
+    width: 319
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: cf59bb828cb1843ecd9ba272e741a837b8fe6feafd2700eb6a080de9f529c64a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo-w.png
+      label: '   '
+      context: '  header header1  headerBox  logo '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 15303
+    representation: raster
+    resolved_url: http://www.hfnu.edu.cn/images/logo-w.png
+    inspection_attempts:
+    - url: http://www.hfnu.edu.cn/images/logo-w.png
+      status: content_inspected
+  - asset_id: 27db5e959524d8fc69c5b9fe
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.hfnu.edu.cn/images/logo.png
+    source: http://www.hfnu.edu.cn/xywh/xh.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 合肥师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 合肥师范学院
+    format: png
+    width: 319
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c6eac722db5c2abb82f24bbab3a01d6a286cc86080c87cf350ee494d7c61d4e5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.png
+      label: '  img1 '
+      context: '  header header2  headerBox  logo '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 38506
+    representation: raster
+    resolved_url: http://www.hfnu.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: http://www.hfnu.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#0371BB'
     rgb:
@@ -363,7 +439,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: a5802856ccb3f246
-  vi_resources: []
+  - value: '#0070B8'
+    rgb:
+    - 0
+    - 112
+    - 184
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.hfnu.edu.cn/images/logo.png
+    page_source: http://www.hfnu.edu.cn/xywh/xh.htm
+    asset_id: 27db5e959524d8fc69c5b9fe
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#0070C0'
+    rgb:
+    - 0
+    - 112
+    - 192
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.hfnu.edu.cn/images/logo.png
+    page_source: http://www.hfnu.edu.cn/xywh/xh.htm
+    asset_id: 27db5e959524d8fc69c5b9fe
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校徽
+    url: http://www.hfnu.edu.cn/xywh/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.hfnu.edu.cn/xywh/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c543b307edb83b4cb3b99793b45a0e4184061a0411f457f8454b316a5a8588a5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -542,21 +668,21 @@ location:
     source: https://www.hfnu.edu.cn/xygk/xyjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 滨湖校区
     address: null
     coordinates: null
     source: https://www.hfnu.edu.cn/xygk/xyjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 三孝口校区
     address: null
     coordinates: null
     source: https://www.hfnu.edu.cn/xygk/xyjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 合肥师范学院位于安徽省合肥市，主管部门为安徽省。简介列出锦绣校区、滨湖校区、三孝口校区。

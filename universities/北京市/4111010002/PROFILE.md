@@ -13,6 +13,9 @@
 | 创办年份 | 1937 | official_or_curated | 2026-10-01 | [来源](https://www.ruc.edu.cn/xuexiaojianjie.html) |
 | 创办年份口径 | 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份 | | | |
 | 校训 | 实事求是 | official_or_curated | 2026-10-01 | [来源](https://xxgk.ruc.edu.cn/gksx/jbxx/gzzd/d88dc1027f6e4cabbcd0d1802751e6b7.htm) |
+| 官方PPT入口 | https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html | official_or_curated | 2026-10-02 | [来源](https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html) |
+| 官方PPT入口口径 | 发布范围：学校通用；按发布页说明使用。 | | | |
+| 官方资源发布方 | 中国人民大学官网视觉资源页 | official_or_curated | 2026-10-02 | [来源](https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html) |
 | 中文简称 | 人大 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js) |
 | 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | RUC | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js) |
@@ -110,6 +113,6 @@
 
 ## 尚未确认的信息
 
-校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、邮政编码：尚未采集、英文简介，短摘要：尚未采集、校园面积，公顷，需日期和口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、招生入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
+校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方资源使用说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、邮政编码：尚未采集、英文简介，短摘要：尚未采集、校园面积，公顷，需日期和口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、招生入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
 
 完整字段与出处见[profile.yaml](profile.yaml)。

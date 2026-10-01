@@ -21,10 +21,17 @@
 |  | `#182860` | 24,40,96 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#405070` | 64,80,112 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#102058` | 16,32,88 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 并列标准色1 | 未公布 | 未公布 | reference | [100, 85, 40, 10] |  | 官方VI标准值 | [依据](https://www.haut.edu.cn/xxgk/whbs/xb_VIxt.htm) |
+| 并列标准色2 | 未公布 | 未公布 | reference | [55, 29, 24, 0] |  | 官方VI标准值 | [依据](https://www.haut.edu.cn/xxgk/whbs/xb_VIxt.htm) |
+| 并列标准色3 | 未公布 | 未公布 | reference | [32, 15, 18, 0] |  | 官方VI标准值 | [依据](https://www.haut.edu.cn/xxgk/whbs/xb_VIxt.htm) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.haut.edu.cn/xxgk/whbs/xb_VIxt.htm](https://www.haut.edu.cn/xxgk/whbs/xb_VIxt.htm)
+- [校标 VI系统-河南工业大学](https://www.haut.edu.cn/xxgk/whbs/xb_VIxt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.haut.edu.cn/xxgk/whbs/xb_VIxt.htm)。
+- [河南工业大学视觉形象识别系统jpg.rar](https://www.haut.edu.cn/down/hautVIjpg.rar)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.haut.edu.cn/xxgk/whbs/xb_VIxt.htm)。
+- [校训、校标、校歌诞生记](https://www.haut.edu.cn/info/1113/28356.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.haut.edu.cn/info/1113/28356.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -89,12 +89,18 @@ research:
   audit_key: '4151010633'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#9D2236'
+    source: https://www.cdutcm.edu.cn/info/1076/141321.htm
+    method: official_vi
+    label: 赭红色（学校LOGO标准色）
+    basis: 学校办公室2026年5月22日校庆标识应用通知明确“学校LOGO标准色号#9D2236”；只将其作为学校LOGO标准色，周年数字渐变#F0090F—#FFAA00不纳入通用主题色。
+    cmyk: null
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 90e1ba8581f102e8bae1efe20ff6bf33cd6d1b031949243b52ef2a681c2c40d2
   color_secondary:
     value: null
     source: null
@@ -106,9 +112,10 @@ visual:
     value: https://www.cdutcm.edu.cn/xxgk/xxbs.htm
     source: https://www.cdutcm.edu.cn/xxgk/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形徽志由核心图形与中英文校名组合。
     source: https://www.cdutcm.edu.cn/xxgk/xxbs.htm
@@ -361,7 +368,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: de7ab30f5849f22c
-  vi_resources: []
+  - value: '#9D2236'
+    rgb:
+    - 157
+    - 34
+    - 54
+    cmyk: null
+    pantone: null
+    label: 赭红色（学校LOGO标准色）
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.cdutcm.edu.cn/info/1076/141321.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 学校办公室2026年5月22日校庆标识应用通知明确“学校LOGO标准色号#9D2236”；只将其作为学校LOGO标准色，周年数字渐变#F0090F—#FFAA00不纳入通用主题色。
+    source_sha256: 90e1ba8581f102e8bae1efe20ff6bf33cd6d1b031949243b52ef2a681c2c40d2
+    source_field: visual.color_primary
+  vi_resources:
+  - title: 成都中医药大学70周年标识规范（含学校LOGO标准色）
+    url: https://www.cdutcm.edu.cn/info/1076/141321.htm
+    kinds:
+    - 周年标识规范
+    - 学校LOGO标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.cdutcm.edu.cn/info/1076/141321.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 学校办公室2026年5月22日校庆标识应用通知明确“学校LOGO标准色号#9D2236”；只将其作为学校LOGO标准色，周年数字渐变#F0090F—#FFAA00不纳入通用主题色。
+  - title: 学校标识
+    url: https://www.cdutcm.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cdutcm.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 399c3bc5bb5540e0410e5691f09abfd8841b5539614299b89dfc1ffe14cdb0c0
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1956

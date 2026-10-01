@@ -111,12 +111,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hevute.edu.cn/xxwh/xxxh/index.htm
+    availability: found
     search_sources: []
+    source: https://www.hevute.edu.cn/xxwh/xxxh/index.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -185,6 +186,44 @@ visual:
     source_as_of: unspecified
     byte_size: 36542
     representation: raster
+  - asset_id: c1b9206f9eb413b149630387
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.hevute.edu.cn/images/logo.png
+    source: https://www.hevute.edu.cn/xxwh/xxxh/index.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 河北科技工程职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河北科技工程职业技术大学
+    format: png
+    width: 2239
+    height: 396
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 5b22d9db1e0abd68def1ec287026d562334ede7ebc16f8f473bf085ac7b7818f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo.png
+      label: '   '
+      context: 'header  gp-container  logo  logo1 '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 136456
+    representation: raster
+    resolved_url: https://www.hevute.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: https://www.hevute.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#004890'
     rgb:
@@ -240,7 +279,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0b35e988321e41f1
-  vi_resources: []
+  vi_resources:
+  - title: 校训校徽
+    url: https://www.hevute.edu.cn/xxwh/xxxh/index.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hevute.edu.cn/xxwh/xxxh/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d9da7507c69a71d068167d055bf31faa54d58568852255d3287aaf8e204038b6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校校名、标识、校旗电子版
+    url: https://www.hevute.edu.cn/docs/2026-05/682fad3c72c046a0839b9ee711e56d26.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hevute.edu.cn/xxwh/xxxh/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d9da7507c69a71d068167d055bf31faa54d58568852255d3287aaf8e204038b6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

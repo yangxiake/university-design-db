@@ -103,9 +103,10 @@ visual:
     value: https://www.hjnu.edu.cn/xxgk1/xxbs.htm
     source: https://www.hjnu.edu.cn/xxgk1/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形徽志以蓝白两色为基调。
     source: https://www.hjnu.edu.cn/xxgk1/xxzc.htm
@@ -265,7 +266,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: f460039ec2c71f93
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.hjnu.edu.cn/xxgk1/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hjnu.edu.cn/xxgk1/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0d9b088134a7bd5a8683c945c7fd8a321139e5227d83886d6ada98f25b639870
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -449,14 +466,14 @@ location:
     source: https://www.hjnu.edu.cn/xxgk1/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 丹江口校区
     address: null
     coordinates: null
     source: https://www.hjnu.edu.cn/xxgk1/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 汉江师范学院位于湖北省十堰市，主管部门为湖北省。官网列示全日制在校学生18708人（统计日期未注明）。官网列示教职工1011人（统计日期未注明）。官网列示占地总面积74.1万平方米（统计日期未注明）。简介列出十堰校区、丹江口校区。

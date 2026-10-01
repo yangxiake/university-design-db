@@ -16,12 +16,16 @@ identity:
     availability: unresearched
     search_sources: []
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.lanzhoutbc.cn/
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 候选学校网站明确版权主体为教育部名单中的完整校名；主页或同主机明确首页链接。标题简称、新闻提及与旧名不作为独立确认依据。
+    evidence: Copyright©2026兰州工商学院AllRightsReserved.陇ICP备18
+    source_sha256: d4d0261e3067d1aada3acf73fa1ed4e802b047e38952084db1550046b103fbd7
   short_name_zh:
     value: null
     source: null
@@ -100,7 +104,45 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: a84aa46ed599a9a10141e891
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.lanzhoutbc.cn/images/logo.png
+    source: http://www.lanzhoutbc.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 兰州工商学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 兰州工商学院
+    format: png
+    width: 516
+    height: 109
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: a9c69a64edbc5b48767ff91b0c38a1cc7b3b17fb1f0c07433d7584a67ee0584d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '兰州工商学院   '
+      context: 'header  wp flex pore  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 24965
+    representation: raster
+    resolved_url: http://www.lanzhoutbc.cn/images/logo.png
+    inspection_attempts:
+    - url: http://www.lanzhoutbc.cn/images/logo.png
+      status: content_inspected
   color_palette: []
   vi_resources: []
 culture:
@@ -163,12 +205,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.lanzhoutbc.cn/zsjy/xyhd.htm
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -184,12 +230,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.lanzhoutbc.cn/gywm/xxgk.htm
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -231,19 +281,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 兰州市和平开发区薇乐大道68号
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:兰州市和平开发区薇乐大道68号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '730101'
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:730101
   coordinates:
     value: null
     source: null
@@ -251,15 +309,33 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 兰州市校区
+    address: null
+    coordinates: null
+    source: http://www.lanzhoutbc.cn/gywm/xxjj.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-02'
+  - name: 永靖县刘家峡校区
+    address: null
+    coordinates: null
+    source: http://www.lanzhoutbc.cn/gywm/xxjj.htm
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 兰州工商学院位于甘肃省兰州市，主管部门为甘肃省教育厅。官网列示全日制在校本科生13000余人（统计日期未注明）。官网列示教职员工900余人（统计日期未注明）。官网列示总占地面积1948亩（统计日期未注明）。简介列出兰州市校区、永靖县刘家峡校区。
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/gywm/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -269,26 +345,47 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 13000
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/gywm/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 全日制在校本科生；近似/下界数，保留原标注：全日制在校本科生13000余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 全日制在校本科生13000余人
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 900
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/gywm/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 教职员工；近似/下界数，保留原标注：教职员工900余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 教职员工900余人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 129.866667
+    availability: found
     search_sources: []
+    source: http://www.lanzhoutbc.cn/gywm/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：总占地面积1948亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 总占地面积1948亩
 academics:
   double_first_class_disciplines:
     value: null

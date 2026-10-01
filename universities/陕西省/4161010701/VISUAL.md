@@ -13,6 +13,8 @@
 | 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xidian_University/png/logo_red_800x800.png) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xidian_University/png/logo_red_800x800.png) | png | 800 × 800 | content_inspected | 未独立声明 |
 | 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xidian_University/svg/logo_red.svg) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xidian_University/svg/logo_red.svg) | svg | 未声明 | content_inspected | 未独立声明 |
 | 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/西安电子科技大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 230 × 230 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://news.xidian.edu.cn/mobile/images/logo.png) · [来源](https://news.xidian.edu.cn/info/1016/4376.htm) | png | 726 × 126 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://news.xidian.edu.cn/images/logo.png) · [来源](https://news.xidian.edu.cn/info/1016/4376.htm) | png | 518 × 97 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -30,10 +32,14 @@
 |  | `#A83030` | 168,48,48 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#A82028` | 168,32,40 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#A81820` | 168,24,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#E8A8A8` | 232,168,168 | reference |  |  | 官网标识取色/推导建议 | [依据](https://news.xidian.edu.cn/images/logo.png) |
+|  | `#F0D0D0` | 240,208,208 | reference |  |  | 官网标识取色/推导建议 | [依据](https://news.xidian.edu.cn/images/logo.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://news.xidian.edu.cn/info/1016/4376.htm](https://news.xidian.edu.cn/info/1016/4376.htm)
+- [关于启用西安电子科技大学视觉识别系统的通知-西安电子科技大学新闻网](https://news.xidian.edu.cn/info/1016/4376.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.xidian.edu.cn/info/1016/4376.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

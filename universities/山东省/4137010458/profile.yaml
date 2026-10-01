@@ -83,9 +83,10 @@ visual:
     value: https://www.sdca.edu.cn/sygk/xxbs.htm
     source: https://www.sdca.edu.cn/sygk/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -131,7 +132,23 @@ visual:
     representation: raster
     resolved_url: https://www.sdca.edu.cn/new/images/logo.png
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.sdca.edu.cn/sygk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sdca.edu.cn/sygk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e83cc1753c95d6dbf007f1a329c22e94b9b713e479eb8cba391c7e60c03b0cdd
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1958
@@ -306,14 +323,14 @@ location:
     source: https://www.sdca.edu.cn/sygk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 长清校区
     address: null
     coordinates: null
     source: https://www.sdca.edu.cn/sygk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 山东艺术学院位于山东省济南市，主管部门为山东省。官网列示本科生8944人（统计日期未注明）。官网列示专任教师900人（统计日期未注明）。简介列出文东校区、长清校区。

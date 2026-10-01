@@ -83,9 +83,10 @@ visual:
     value: https://www.cdisu.edu.cn/pages-view/xxbs/
     source: https://www.cdisu.edu.cn/pages-view/xxbs/
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -130,6 +131,44 @@ visual:
     byte_size: 23986
     representation: raster
     resolved_url: https://www.cdisu.edu.cn/assets/images/header-logo.png
+  - asset_id: 034ca217d445eda4542e7157
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.cdisu.edu.cn/assets/images/top-logo.png
+    source: https://www.cdisu.edu.cn/pages-view/xxbs/
+    file_name: top-logo.png
+    upstream_path: null
+    publisher: 成都外国语学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 成都外国语学院
+    format: png
+    width: 318
+    height: 60
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 44f6679390d5f935d9266e0fdd6fc6b63f012a9c48127d975f5cfb9142db8a59
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /assets/images/top-logo.png
+      label: '   '
+      context: 'page-wegbpage-details  main-header  container  navbar-brand '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 9085
+    representation: raster
+    resolved_url: https://www.cdisu.edu.cn/assets/images/top-logo.png
+    inspection_attempts:
+    - url: https://www.cdisu.edu.cn/assets/images/top-logo.png
+      status: content_inspected
   color_palette:
   - value: '#90B0D8'
     rgb:
@@ -165,7 +204,23 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识 | 成都外国语学院
+    url: https://www.cdisu.edu.cn/pages-view/xxbs/
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cdisu.edu.cn/pages-view/xxbs/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b13dda8780014405cafb7d012c6ad949999e47ac4fc4214b5c6ef74849e1d7c3
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -329,14 +384,14 @@ location:
     source: https://www.cdisu.edu.cn/pages-view/intro/
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 宜宾校区
     address: null
     coordinates: null
     source: https://www.cdisu.edu.cn/pages-view/intro/
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 成都外国语学院位于四川省成都市，主管部门为四川省教育厅。官网列示在校生24000余人（统计日期未注明）。官网列示占地面积1400多亩（统计日期未注明）。简介列出成都校区、宜宾校区。

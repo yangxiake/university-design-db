@@ -84,11 +84,15 @@ GitHub 数据填充的事实增加 `source_type: community_dataset`、`upstream_
 
 `access_status`为`indexed_not_fetched/content_inspected/inspection_failed`。实测格式来自文件内容，不相信扩展名；`representation`区分纯矢量、SVG内嵌位图和普通位图。`vector: false`的SVG可以是内嵌位图。SVG透明背景无法仅凭填充属性确认时保持null；viewBox不等于像素尺寸；mm等尺寸保留在intrinsic_width/intrinsic_height而不假称像素。只在读取成功后记sha256/byte_size。检查失败保留实际尝试的网址及原因，可继续从其他来源取得同校文件。
 
-`visual.color_palette`逐条含HEX`value`、`rgb`、`cmyk/pantone`、`role`、`method`、`official`、`source`、`verified/checked_at/availability/basis`和可选上游版本/asset_id。方法增加`community_theme/community_logo_sample`；只有`official_vi`允许`official: true`。取样值属于建议，不覆盖已有官方主色或冲突结论。RGB由HEX精确转换；CMYK/Pantone必须另有标准来源，不做无依据换算。
+`visual.color_palette`逐条含HEX`value`、`rgb`、`cmyk/pantone`、`role`、`method`、`official`、`source`、`verified/checked_at/availability/basis`和可选上游版本/asset_id。方法增加`community_theme/community_logo_sample`；只有`official_vi`允许`official: true`。取样值属于建议，不覆盖已有官方主色或冲突结论。RGB由HEX精确转换；CMYK/Pantone必须另有标准来源，不做无依据换算。学校只公布印刷色时，允许官方色条目的`value/rgb`同时为`null`，但必须有原色名及有效CMYK（四项0—100）或Pantone；页面显示“未公布”，索引保留空屏幕色。此规则只用于官方印刷色，不用于取色建议。
 
 可选`label`保留原色名；`current: false`标出已转为历史参考的记录。官网新VI手册替代旧标识或图片建议色时，保存替换台账并保留原依据。RGB/HEX不一致时，主色或辅色字段均可使用`conflict/candidates`；全部候选另生成`indexes/color-conflicts.csv`，不直接选值。手册中“并列标准色”“主色系”和“特殊用途红色”等用途保存在`basis`，不自动改称唯一辅助色。
 
 `visual.vi_resources`记录学校资源链接、提供的资源种类、格式、校园认证要求和社区依据；社区目录指向官方页面不等于资源由该社区官方发布。
+
+模板入口可补充`publisher`、`use_scope=school/department`、`edition_year`、`content_read`、`download_status`与`source_sha256`。年份须来自明确版本标签；发布时间不自动当版本年。HTML的`content_read=true`只说明读过发布页，附件记录的`indexed_not_fetched`不能被当作成功下载。学校通用与院系专用分别保留。
+
+已读取模板的`file_metadata`保存实际格式、SHA256、字节数；PPTX另含`slide_count/width_emu/height_emu/aspect_ratio/font_names/theme_colors/editable_text_runs/textless_slides/media_count/external_relationship_count/macro_enabled`。ZIP保存`presentation_members`，每个成功读取的成员独立保存元数据。旧OLE/RAR/7Z只识别格式头，`read_kind=format_header_only`，不填页数或画幅。`file_inspection`保存日期、状态、各次URL与失败原因；社区项目的`files[]`也使用同一结构。派生实际文件索引为`indexes/ppt-template-files.csv`，内部主题色不会投影为学校官方配色。
 
 ### 上游快照与差异
 

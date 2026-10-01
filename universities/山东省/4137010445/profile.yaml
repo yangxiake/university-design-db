@@ -343,7 +343,79 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 2ac41d21d5d5d8e8
-  vi_resources: []
+  - value: null
+    rgb: null
+    cmyk:
+    - 15
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 现行第四版校标红
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.sdnu.edu.cn/overview/logo.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网校标页明确目前使用第四版：红CMYK15/100/100/0、蓝100/60/10/20；没有RGB。页内旧版M100Y80/C100M80不作现行色，两种现行色无公布主辅排序。
+    source_sha256: b6ee05016fb0af727f050c1788a72a67557805dc224a2e54b715f9f25df47a07
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 60
+    - 10
+    - 20
+    pantone: null
+    label: 现行第四版校标蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.sdnu.edu.cn/overview/logo.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网校标页明确目前使用第四版：红CMYK15/100/100/0、蓝100/60/10/20；没有RGB。页内旧版M100Y80/C100M80不作现行色，两种现行色无公布主辅排序。
+    source_sha256: b6ee05016fb0af727f050c1788a72a67557805dc224a2e54b715f9f25df47a07
+  vi_resources:
+  - title: 山东师范大学计算机与人工智能学院 PPT模板发布/下载页
+    url: https://ischool.sdnu.edu.cn/info/1864/24355.htm
+    kinds:
+    - 院系PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://ischool.sdnu.edu.cn/info/1864/24355.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a5f6788cef1275856503471c682f84d3f48db55bacf3f40af52443d43cf0a593
+    note: 发布范围：山东师范大学计算机与人工智能学院；按发布页说明使用。
+    publisher: 山东师范大学计算机与人工智能学院
+    use_scope: department
+    content_read: true
+    download_status: page_read
+  - title: 校标
+    url: https://www.sdnu.edu.cn/overview/logo.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sdnu.edu.cn/overview/logo.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b6ee05016fb0af727f050c1788a72a67557805dc224a2e54b715f9f25df47a07
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -537,14 +609,14 @@ location:
     source: http://www.sdnu.edu.cn/overview/introduction.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 长清湖校区
     address: null
     coordinates: null
     source: http://www.sdnu.edu.cn/overview/introduction.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 山东师范大学位于山东省济南市，主管部门为山东省。官网列示本科生23958人（统计日期未注明）。官网列示在职教职工2835人（统计日期未注明）。官网列示总占地面积近3850亩（统计日期未注明）。简介列出千佛山校区、长清湖校区。

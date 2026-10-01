@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm
+    availability: found
     search_sources: []
+    source: http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -130,8 +131,62 @@ visual:
     byte_size: 20452
     representation: raster
     resolved_url: https://ys.sdufe.edu.cn/dfiles/14542/images/logo.png
+  - asset_id: ca60b641b8ed1fe180d4f214
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://ys.sdufe.edu.cn/dfiles/14542/images/logo.png
+    source: http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 山东财经大学燕山学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东财经大学燕山学院
+    format: png
+    width: 460
+    height: 77
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 2efce2889e316096fbc75bd6eba4e8d16aa7fa8fd0efb1d9c02d12be297887b0
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../dfiles/14542/images/logo.png
+      label: '   '
+      context: 'header  container clearfix  logo fl   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 20452
+    representation: raster
+    resolved_url: http://ys.sdufe.edu.cn/dfiles/14542/images/logo.png
+    inspection_attempts:
+    - url: http://ys.sdufe.edu.cn/dfiles/14542/images/logo.png
+      status: content_inspected
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 学院校徽下载
+    url: http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2e9e407534e66d31212d368c34beddbaff6ecf1d3b10c5552c05a809f62f60c6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

@@ -9,6 +9,7 @@
 | 校徽 | [文件](https://www.shanghairanking.cn/_uni/logo/58177572.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | png | 未声明 | indexed_not_fetched | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.nchu.edu.cn/upload/main/site/logo/image/9b410f0c6df84f74b47de863881cbe5a.png) · [来源](https://www.nchu.edu.cn/) | png | 370 × 91 | content_inspected | 未独立声明 |
 | 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/南昌航空大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 472 × 472 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.nchu.edu.cn/upload/main/contentmanage/node/featuredimage/banner1_1200_244.jpg) · [来源](https://www.nchu.edu.cn/xxgk/xxbs) | jpeg | 1200 × 244 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -19,11 +20,14 @@
 |  | `#004068` | 0,64,104 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#004868` | 0,72,104 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#004870` | 0,72,112 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#A8B8C8` | 168,184,200 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.nchu.edu.cn/upload/main/contentmanage/node/featuredimage/banner1_1200_244.jpg) |
+|  | `#B8C8D8` | 184,200,216 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.nchu.edu.cn/upload/main/contentmanage/node/featuredimage/banner1_1200_244.jpg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.nchu.edu.cn/xxgk/xxbs](https://www.nchu.edu.cn/xxgk/xxbs)
+- [学校标识](https://www.nchu.edu.cn/xxgk/xxbs)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nchu.edu.cn/xxgk/xxbs)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

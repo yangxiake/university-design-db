@@ -84,9 +84,10 @@ visual:
     value: https://www.wzbc.edu.cn/Col/Col14/Index.aspx
     source: https://www.wzbc.edu.cn/Col/Col14/Index.aspx
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -141,8 +142,85 @@ visual:
       status: access_or_parse_gap
       error_type: HTTPError
       detail: 'HTTP Error 404: Not Found'
+  - asset_id: 514dccb0b5c29a522017d01d
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.wzbc.edu.cn/Col/Col14/images/logo.png
+    source: https://www.wzbc.edu.cn/Col/Col14/Index.aspx
+    file_name: logo.png
+    upstream_path: null
+    publisher: 温州商学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 温州商学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'header  box  header-logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://www.wzbc.edu.cn/Col/Col14/images/logo.png
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+    - url: http://www.wzbc.edu.cn/Col/Col14/images/logo.png
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.wzbc.edu.cn/Col/Col14/Index.aspx
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.wzbc.edu.cn/Col/Col14/Index.aspx
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4c89018eecb954a50ecb6033a2d7ea3421a38928accba17b1d1b8a0a6faa4277
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校logo下载.png
+    url: https://www.wzbc.edu.cn/UploadFile/202206/202206241503319227.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.wzbc.edu.cn/Col/Col14/Index.aspx
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4c89018eecb954a50ecb6033a2d7ea3421a38928accba17b1d1b8a0a6faa4277
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

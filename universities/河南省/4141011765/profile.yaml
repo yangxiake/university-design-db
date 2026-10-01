@@ -113,12 +113,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm
+    availability: found
     search_sources: []
+    source: https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -327,7 +328,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 54b6037adf1c4c15
-  vi_resources: []
+  vi_resources:
+  - title: 校训校徽
+    url: https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: fc0efc03ff34e2edee6ce2b92ace7ff41e35b3957911a27601d41940bbd7b9d1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 点此下载校徽校名源文件
+    url: https://www.huuc.edu.cn/wj/logo.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: fc0efc03ff34e2edee6ce2b92ace7ff41e35b3957911a27601d41940bbd7b9d1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1983

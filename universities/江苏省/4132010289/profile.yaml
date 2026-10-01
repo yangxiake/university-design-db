@@ -104,9 +104,10 @@ visual:
     value: https://www.just.edu.cn/11990/list.htm
     source: https://www.just.edu.cn/11990/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆徽志中心为扬帆的船及办学起始年，外环列中文校名和英文简称。
     source: https://www.just.edu.cn/11995/list.htm
@@ -283,6 +284,44 @@ visual:
     source_as_of: unspecified
     byte_size: 39236
     representation: raster
+  - asset_id: 2b93d34a4edc8daaac382e9a
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.just.edu.cn/_upload/tpl/02/23/547/template547/images/nylogo.png
+    source: https://www.just.edu.cn/UIS/10392/list.htm
+    file_name: nylogo.png
+    upstream_path: null
+    publisher: 江苏科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江苏科技大学
+    format: png
+    width: 308
+    height: 86
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 1311b9c9df88e7a70b847c2ce8b587ccf426446b95b35744b087722239ca5ec0
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/23/547/template547/images/nylogo.png
+      label: '   '
+      context: 'mod clearfix  nyhead-left  sitelogo f_middle  logo '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 18705
+    representation: raster
+    resolved_url: https://www.just.edu.cn/_upload/tpl/02/23/547/template547/images/nylogo.png
+    inspection_attempts:
+    - url: https://www.just.edu.cn/_upload/tpl/02/23/547/template547/images/nylogo.png
+      status: content_inspected
   color_palette:
   - value: '#0090D0'
     rgb:
@@ -428,7 +467,153 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 759203996f468d73
-  vi_resources: []
+  - value: '#0078C0'
+    rgb:
+    - 0
+    - 120
+    - 192
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.just.edu.cn/_upload/tpl/02/23/547/template547/images/nylogo.png
+    page_source: https://www.just.edu.cn/UIS/10392/list.htm
+    asset_id: 2b93d34a4edc8daaac382e9a
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#0068B0'
+    rgb:
+    - 0
+    - 104
+    - 176
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.just.edu.cn/_upload/tpl/02/23/547/template547/images/nylogo.png
+    page_source: https://www.just.edu.cn/UIS/10392/list.htm
+    asset_id: 2b93d34a4edc8daaac382e9a
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校标校训
+    url: https://www.just.edu.cn/11990/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/11990/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ec3c7773c652b677a920a1a475be6b513b3c54a0ac823de48082998e0724d6af
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 视觉形象识别系统
+    url: https://www.just.edu.cn/UIS/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: acdf6dbda9afb5e13c8632ee63be5411ffdd87860e9c76d44fde639bd6f59973
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校标校训
+    url: https://www.just.edu.cn/12022/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/12022/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 092678cb4c3a2d27b621da535e3b89f04d3434521a6314d87ad5d6753724e8d1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽规范
+    url: https://www.just.edu.cn/UIS/10392/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/10392/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5cf76360513b97c74b585406c7ec6b4d593c507ccfe9d5e053da43806f4cdc1f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽AI文件.zip
+    url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/8cb70f13-9613-4a62-aea6-c546caadec03.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/10392/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5cf76360513b97c74b585406c7ec6b4d593c507ccfe9d5e053da43806f4cdc1f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名AI文件.zip
+    url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/e902360b-0dc7-4b04-8f60-e4e124f7b3dc.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/10392/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5cf76360513b97c74b585406c7ec6b4d593c507ccfe9d5e053da43806f4cdc1f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名和校徽PNG文件.zip
+    url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/10392/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5cf76360513b97c74b585406c7ec6b4d593c507ccfe9d5e053da43806f4cdc1f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

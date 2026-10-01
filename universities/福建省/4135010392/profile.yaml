@@ -90,9 +90,10 @@ visual:
     value: https://www.fjmu.edu.cn/12/list.htm
     source: https://www.fjmu.edu.cn/12/list.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆徽志中心组合M字母、蛇杖、书本、人字及“1937”。
     source: https://www.fjmu.edu.cn/xxzc/list.htm
@@ -276,7 +277,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 1f711d334277283f
-  vi_resources: []
+  vi_resources:
+  - title: 学校校标
+    url: https://www.fjmu.edu.cn/12/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.fjmu.edu.cn/12/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4908e86bced255a9f951bdb9efa472d5a965aeddaae2933c98a86fd60979982f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1937
@@ -466,14 +483,14 @@ location:
     source: https://www.fjmu.edu.cn/9/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 乌山校区
     address: null
     coordinates: null
     source: https://www.fjmu.edu.cn/9/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 福建医科大学位于福建省福州市，主管部门为福建省。简介列出旗山校区、乌山校区。

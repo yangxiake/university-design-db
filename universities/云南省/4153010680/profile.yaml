@@ -81,12 +81,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.ynucm.edu.cn/xxgk/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.ynucm.edu.cn/xxgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -184,7 +185,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: bfbed25bc17d8adc
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.ynucm.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ynucm.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cd4ab5ba8c9f456acc27a5c6e89c6080096265de3fa7d4a78bcca3e21d0747e9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -368,14 +385,14 @@ location:
     source: https://www.ynucm.edu.cn/xxgk/yzjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 白塔校区
     address: null
     coordinates: null
     source: https://www.ynucm.edu.cn/xxgk/yzjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 云南中医药大学位于云南省昆明市，主管部门为云南省。官网列示本科生14027人（统计日期未注明）。官网列示教职工866人（统计日期未注明）。简介列出呈贡校区、白塔校区。

@@ -17,10 +17,12 @@
 |  | `#E0C0C0` | 224,192,192 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.mku.edu.cn/images/logo.png) |
 |  | `#D8B0B0` | 216,176,176 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.mku.edu.cn/images/logo.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.mku.edu.cn/xxgk/xb.htm](https://www.mku.edu.cn/xxgk/xb.htm)
+- [校标-闽南科技学院](https://www.mku.edu.cn/xxgk/xb.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.mku.edu.cn/xxgk/xb.htm)。
+- [校标校名.zip](https://www.mku.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1796075136&wbfileid=6D03A6015303AAFF1C1B6E28A1019DC3)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.mku.edu.cn/xxgk/xb.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

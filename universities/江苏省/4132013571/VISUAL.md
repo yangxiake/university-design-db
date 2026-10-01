@@ -8,6 +8,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | [文件](http://www.wxu.edu.cn/images/logo-1.png) · [来源](http://www.wxu.edu.cn/) | png | 446 × 80 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](http://www.wxu.edu.cn/images/logo260106.png) · [来源](http://www.wxu.edu.cn/) | png | 446 × 80 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.wxu.edu.cn/images/logo-1.png) · [来源](https://www.wxu.edu.cn/xxgk/xhxm.htm) | png | 446 × 80 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.wxu.edu.cn/images/logo260106.png) · [来源](https://www.wxu.edu.cn/xxgk/xhxm.htm) | png | 446 × 80 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -19,10 +21,16 @@
 |  | `#E00010` | 224,0,16 | reference |  |  | 官网标识取色/推导建议 | [依据](http://www.wxu.edu.cn/images/logo-1.png) |
 |  | `#E00008` | 224,0,8 | reference |  |  | 官网标识取色/推导建议 | [依据](http://www.wxu.edu.cn/images/logo260106.png) |
 |  | `#E00010` | 224,0,16 | reference |  |  | 官网标识取色/推导建议 | [依据](http://www.wxu.edu.cn/images/logo260106.png) |
+|  | `#E00008` | 224,0,8 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.wxu.edu.cn/images/logo-1.png) |
+|  | `#E00010` | 224,0,16 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.wxu.edu.cn/images/logo-1.png) |
+|  | `#E00008` | 224,0,8 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.wxu.edu.cn/images/logo260106.png) |
+|  | `#E00010` | 224,0,16 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.wxu.edu.cn/images/logo260106.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.wxu.edu.cn/xxgk/xhxm.htm](https://www.wxu.edu.cn/xxgk/xhxm.htm)
+- [校徽校名](https://www.wxu.edu.cn/xxgk/xhxm.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.wxu.edu.cn/xxgk/xhxm.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

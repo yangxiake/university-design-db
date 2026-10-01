@@ -90,9 +90,10 @@ visual:
     value: https://www.swmu.edu.cn/xywh/xh.htm
     source: https://www.swmu.edu.cn/xywh/xh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 徽志为外圆内方结构，取智圆行方的含义。
     source: https://www.swmu.edu.cn/xqzl/dxzc.htm
@@ -276,7 +277,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 960a977219f1133a
-  vi_resources: []
+  vi_resources:
+  - title: 校徽
+    url: https://www.swmu.edu.cn/xywh/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.swmu.edu.cn/xywh/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2e0174746be7f738f7c3ddb46ad3dc1bfaa315916c22c576a291e5420e8ee433
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1951
@@ -468,14 +485,14 @@ location:
     source: https://www.swmu.edu.cn/xqzl/xxgk.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 城北校区
     address: null
     coordinates: null
     source: https://www.swmu.edu.cn/xqzl/xxgk.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 西南医科大学位于四川省泸州市，主管部门为四川省。官网列示本科生900余人（统计日期未注明）。官网列示专任教师1576人（统计日期未注明）。简介列出忠山校区、城北校区。

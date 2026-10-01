@@ -111,9 +111,10 @@ visual:
     value: https://www.bbc.edu.cn/3863/list.htm
     source: https://www.bbc.edu.cn/3863/list.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形校标以篆体“蚌”字为主体，配中英文校名；主体及英文名为蓝，边框和中文名为黑，底色为白。
     source: https://www.bbc.edu.cn/3863/list.htm
@@ -277,7 +278,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: c2aa8cee8bd39f13
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训
+    url: https://www.bbc.edu.cn/3863/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bbc.edu.cn/3863/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0b34260a458664fcdd333fcd49b15affc150e2f536ca0707331594f439c7537f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标识系统8-1.zip
+    url: https://www.bbc.edu.cn/_upload/article/files/c9/70/83e352af4c3eb80bcdb591328431/dcaa1be5-1c6e-4771-a395-8c44920afeb2.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.bbc.edu.cn/3863/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0b34260a458664fcdd333fcd49b15affc150e2f536ca0707331594f439c7537f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

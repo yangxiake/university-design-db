@@ -116,9 +116,10 @@ visual:
     value: https://www.huhst.edu.cn/xxjs/xxxfxgxh.htm
     source: https://www.huhst.edu.cn/xxjs/xxxfxgxh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆校徽内圈深蓝底配白色波浪与两颗星，蓝色外环列中英文校名。
     source: https://www.huhst.edu.cn/xxjs/xxzc.htm
@@ -328,7 +329,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 195e62cd68693e12
-  vi_resources: []
+  vi_resources:
+  - title: 校训校风校歌校徽
+    url: https://www.huhst.edu.cn/xxjs/xxxfxgxh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.huhst.edu.cn/xxjs/xxxfxgxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d16e694b59a2814d4f0e726af9251ff46e7f40ce7c53d3809eb2a47dd0167a76
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1978

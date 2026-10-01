@@ -130,8 +130,62 @@ visual:
     byte_size: 40237
     representation: raster
     resolved_url: https://www.dmuzs.edu.cn/img/logo.png
+  - asset_id: 90c491a23ccbf23f15cf4e44
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.dmuzs.edu.cn/img/logo.png
+    source: http://www.dmuzs.edu.cn/xxgk/xh.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 大连医科大学中山学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 大连医科大学中山学院
+    format: png
+    width: 886
+    height: 160
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 72b7447edc3883296f44556684f78a6f133a6c70b2587482ddd61d8645136d87
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../img/logo.png
+      label: '大连医科大学中山学院   '
+      context: 'd2 show-m  headerm  logo flex-ac   '
+      position: 9
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 40237
+    representation: raster
+    resolved_url: http://www.dmuzs.edu.cn/img/logo.png
+    inspection_attempts:
+    - url: http://www.dmuzs.edu.cn/img/logo.png
+      status: content_inspected
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 校徽-大连医科大学中山学院
+    url: http://www.dmuzs.edu.cn/xxgk/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.dmuzs.edu.cn/xxgk/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04f42bf39ff382fbfb66ae1944904224a9e4255e19c21af722bccb6205bd57bd
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1999

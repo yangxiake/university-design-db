@@ -24,9 +24,18 @@
 |  | `#F80000` | 248,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#F01818` | 240,24,24 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[http://www.djtu.edu.cn/vi-logo.html](http://www.djtu.edu.cn/vi-logo.html)
+- [大连交通大学 - 品牌标识规范](http://www.djtu.edu.cn/vi-logo.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.djtu.edu.cn/vi-logo.html)。
+- [附件：1.品牌标识规范（AI文件）](http://www.djtu.edu.cn/Upload/file/20190605/6cc61dcf-42fa-48bf-adc5-0955f1eaed06.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.djtu.edu.cn/vi-logo.html)。
+- [2.校标红版（jpg格式、png格式透明底）](http://www.djtu.edu.cn/Upload/file/20191105/05e5524b-0b2f-47b2-9cff-9b197dcca5d2.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.djtu.edu.cn/vi-logo.html)。
+- [3.校标蓝版（jpg格式、png格式透明底）](http://www.djtu.edu.cn/Upload/file/20191105/26107372-ef2d-4284-97e7-057ecd283859.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.djtu.edu.cn/vi-logo.html)。
+- [大连交通大学 - 品牌标识规范](http://www.djtu.edu.cn/vi-logo)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.djtu.edu.cn/vi-logo)。
+- [附件：1.品牌标识规范（AI文件）](http://www.djtu.edu.cn/Upload/file/20190605/6cc61dcf-42fa-48bf-adc5-0955f1eaed06.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.djtu.edu.cn/vi-logo)。
+- [2.校标红版（jpg格式、png格式透明底）](http://www.djtu.edu.cn/Upload/file/20191105/05e5524b-0b2f-47b2-9cff-9b197dcca5d2.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.djtu.edu.cn/vi-logo)。
+- [3.校标蓝版（jpg格式、png格式透明底）](http://www.djtu.edu.cn/Upload/file/20191105/26107372-ef2d-4284-97e7-057ecd283859.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.djtu.edu.cn/vi-logo)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

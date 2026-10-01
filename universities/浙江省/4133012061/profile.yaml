@@ -85,9 +85,10 @@ visual:
     value: https://www.jhc.edu.cn/3889/list.htm
     source: https://www.jhc.edu.cn/3889/list.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -171,7 +172,73 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#07757D'
+    rgb:
+    - 7
+    - 117
+    - 125
+    cmyk: null
+    pantone: null
+    label: 并列基调色金湖蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.jhc.edu.cn/3889/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网学校标识页“基调色”并列公布金湖蓝#07757d、别样红#b81f64，未给出主辅层级；保留两个官方色，不填官方主色字段。
+    source_sha256: af2f60cb258d2faac0e13b10663e6463b546edcc6e5f38a0aa47a5f92d93e654
+  - value: '#B81F64'
+    rgb:
+    - 184
+    - 31
+    - 100
+    cmyk: null
+    pantone: null
+    label: 并列基调色别样红
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.jhc.edu.cn/3889/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网学校标识页“基调色”并列公布金湖蓝#07757d、别样红#b81f64，未给出主辅层级；保留两个官方色，不填官方主色字段。
+    source_sha256: af2f60cb258d2faac0e13b10663e6463b546edcc6e5f38a0aa47a5f92d93e654
+  vi_resources:
+  - title: 学校标识
+    url: https://www.jhc.edu.cn/3889/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jhc.edu.cn/3889/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: af2f60cb258d2faac0e13b10663e6463b546edcc6e5f38a0aa47a5f92d93e654
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 金华职业技术大学 校标校徽.zip
+    url: https://www.jhc.edu.cn/_upload/article/files/c4/5a/7fae1e674a3dad08095d2693acd3/b13e26b8-6b9a-4a88-8c5b-4bdcdaf1c6da.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jhc.edu.cn/3889/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: af2f60cb258d2faac0e13b10663e6463b546edcc6e5f38a0aa47a5f92d93e654
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

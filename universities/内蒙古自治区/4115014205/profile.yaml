@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://honder.com/news/info13026.html
+    availability: found
     search_sources: []
+    source: https://honder.com/news/info13026.html
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -95,8 +96,42 @@ visual:
     search_sources: []
   landmarks: []
   logo_assets: []
-  color_palette: []
-  vi_resources: []
+  color_palette:
+  - value: null
+    rgb: null
+    cmyk:
+    - 85
+    - 38
+    - 100
+    - 1
+    pantone: null
+    label: 新校标绿色
+    role: primary
+    method: official_vi
+    official: true
+    source: https://honder.com/news/info13026.html
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方新校标发布页面明确色彩为CMYK85/38/100/1；没有RGB或HEX，不换算屏幕色。
+    source_sha256: 4bef05569d9e91c5456180016e554cfa796025b3df5cef25accb2278dcdc56ae
+  vi_resources:
+  - title: 官宣！内蒙古鸿德文理学院新校标发布
+    url: https://honder.com/news/info13026.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://honder.com/news/info13026.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4bef05569d9e91c5456180016e554cfa796025b3df5cef25accb2278dcdc56ae
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

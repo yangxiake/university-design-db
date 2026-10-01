@@ -309,6 +309,44 @@ visual:
     source_as_of: unspecified
     byte_size: 16619
     representation: raster
+  - asset_id: e508d82db3d5506409f9ecfd
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.hdu.edu.cn/_upload/site/00/1b/27/logo.png
+    source: https://www.hdu.edu.cn/news/2016/1028/c8410a189022/page.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 杭州电子科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 杭州电子科技大学
+    format: png
+    width: 348
+    height: 81
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 43097cc2e11156cb0e2fd3dd8aeb4a2c95c821415db801753a3829b8e4d51840
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/site/00/1b/27/logo.png
+      label: '   '
+      context: 'm-wrap  c header  logo fl   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 50343
+    representation: raster
+    resolved_url: https://www.hdu.edu.cn/_upload/site/00/1b/27/logo.png
+    inspection_attempts:
+    - url: https://www.hdu.edu.cn/_upload/site/00/1b/27/logo.png
+      status: content_inspected
   color_palette:
   - value: '#163479'
     rgb:
@@ -415,7 +453,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 5d0bd158c7608d40
-  vi_resources: []
+  - value: '#003080'
+    rgb:
+    - 0
+    - 48
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hdu.edu.cn/_upload/site/00/1b/27/logo.png
+    page_source: https://www.hdu.edu.cn/news/2016/1028/c8410a189022/page.htm
+    asset_id: e508d82db3d5506409f9ecfd
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#003888'
+    rgb:
+    - 0
+    - 56
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hdu.edu.cn/_upload/site/00/1b/27/logo.png
+    page_source: https://www.hdu.edu.cn/news/2016/1028/c8410a189022/page.htm
+    asset_id: e508d82db3d5506409f9ecfd
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校标 校旗
+    url: https://www.hdu.edu.cn/news/2016/1028/c8410a189022/page.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hdu.edu.cn/news/2016/1028/c8410a189022/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d97516b8a0a332ed19fd63777ae6bdd24a984dfc85eca971b2ca881a95f1c287
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1956
@@ -628,35 +716,35 @@ location:
     source: https://www.hdu.edu.cn/659/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 文一校区
     address: null
     coordinates: null
     source: https://www.hdu.edu.cn/659/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 东岳校区
     address: null
     coordinates: null
     source: https://www.hdu.edu.cn/659/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 绍兴校区
     address: null
     coordinates: null
     source: https://www.hdu.edu.cn/659/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 青山湖校区
     address: null
     coordinates: null
     source: https://www.hdu.edu.cn/659/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 杭州电子科技大学位于浙江省杭州市，主管部门为浙江省。官网列示全日制在校学生28000余人（统计日期未注明）。官网列示教职员工2700余人（统计日期未注明）。简介列出下沙校区、文一校区、东岳校区、绍兴校区、青山湖校区。

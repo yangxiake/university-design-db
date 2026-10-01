@@ -4,7 +4,7 @@
 
 - 官方入口：https://info.ustb.edu.cn/xzzx/zysc/index.htm
 - 页面来源：https://info.ustb.edu.cn/xzzx/zysc/index.htm
-- 核查日期：2026-09-30
+- 核查日期：2026-10-02
 - 核实状态：auto
 - 发布方：北京科技大学信息化建设与管理办公室（来源：https://info.ustb.edu.cn/xzzx/zysc/index.htm）
 

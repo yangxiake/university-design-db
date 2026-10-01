@@ -21,10 +21,11 @@
 |  | `#C0D0E8` | 192,208,232 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo(1).png) |
 |  | `#B0C8E0` | 176,200,224 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo(1).png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.hfit.edu.cn/19/list.htm](https://www.hfit.edu.cn/19/list.htm)
+- [学校标识](https://www.hfit.edu.cn/19/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hfit.edu.cn/19/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

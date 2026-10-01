@@ -17,7 +17,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | `#B32A2A` | 179,42,42 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%B9%BF%E5%B7%9E%E7%BE%8E%E6%9C%AF%E5%AD%A6%E9%99%A2%20GAFA.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

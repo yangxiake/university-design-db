@@ -16,11 +16,15 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | `#00408B` | 0,64,139 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.jhc.edu.cn/_upload/tpl/01/fc/508/template508/images/logo.svg) |
 |  | `#00418B` | 0,65,139 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.jhc.edu.cn/_upload/tpl/01/fc/508/template508/images/logo.svg) |
+| 并列基调色金湖蓝 | `#07757D` | 7,117,125 | reference |  |  | 官方VI标准值 | [依据](https://www.jhc.edu.cn/3889/list.htm) |
+| 并列基调色别样红 | `#B81F64` | 184,31,100 | reference |  |  | 官方VI标准值 | [依据](https://www.jhc.edu.cn/3889/list.htm) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.jhc.edu.cn/3889/list.htm](https://www.jhc.edu.cn/3889/list.htm)
+- [学校标识](https://www.jhc.edu.cn/3889/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jhc.edu.cn/3889/list.htm)。
+- [金华职业技术大学 校标校徽.zip](https://www.jhc.edu.cn/_upload/article/files/c4/5a/7fae1e674a3dad08095d2693acd3/b13e26b8-6b9a-4a88-8c5b-4bdcdaf1c6da.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jhc.edu.cn/3889/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

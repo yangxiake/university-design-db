@@ -16,12 +16,16 @@ identity:
     availability: unresearched
     search_sources: []
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hbfs.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 候选学校网站明确版权主体为教育部名单中的完整校名；主页或同主机明确首页链接。标题简称、新闻提及与旧名不作为独立确认依据。
+    evidence: 版权：湖北经济学院法商学院鄂ICP备18024551号-1鄂公网安备4201
+    source_sha256: 007c2d48a22f5f3d4fbef1b954e62f44174c09d7a23fa1fc84bb4531b58c1b67
   short_name_zh:
     value: null
     source: null
@@ -90,12 +94,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hbfs.edu.cn/6997/list.htm
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/6997/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -104,9 +109,97 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
-  vi_resources: []
+  logo_assets:
+  - asset_id: 52711b9d362fe7986e382f20
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.hbfs.edu.cn/_upload/tpl/02/d3/723/template723/images/logo.png
+    source: http://www.hbfs.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 湖北经济学院法商学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖北经济学院法商学院
+    format: png
+    width: 276
+    height: 50
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6aba9a895f7c94cb69c5075ab2af3fbe180f4322037314d27c8cf5e4f86168e6
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/d3/723/template723/images/logo.png
+      label: '   '
+      context: 'inner  head-left  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 25482
+    representation: raster
+    resolved_url: http://www.hbfs.edu.cn/_upload/tpl/02/d3/723/template723/images/logo.png
+    inspection_attempts:
+    - url: http://www.hbfs.edu.cn/_upload/tpl/02/d3/723/template723/images/logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#982828'
+    rgb:
+    - 152
+    - 40
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.hbfs.edu.cn/_upload/tpl/02/d3/723/template723/images/logo.png
+    page_source: http://www.hbfs.edu.cn/
+    asset_id: 52711b9d362fe7986e382f20
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#D8B0B0'
+    rgb:
+    - 216
+    - 176
+    - 176
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.hbfs.edu.cn/_upload/tpl/02/d3/723/template723/images/logo.png
+    page_source: http://www.hbfs.edu.cn/
+    asset_id: 52711b9d362fe7986e382f20
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校徽校训
+    url: http://www.hbfs.edu.cn/6997/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.hbfs.edu.cn/6997/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6179cca2d9edf0134b598f417abd8351e2d666d4ea4ba963c04639411df78026
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -167,12 +260,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hbfs.edu.cn/6953/list.htm
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -188,12 +285,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.hbfs.edu.cn
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -235,19 +336,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 武汉市江夏区藏龙岛开发区杨桥湖大道8号
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:武汉市江夏区藏龙岛开发区杨桥湖大道8号 邮政编码:430205
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '430205'
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:武汉市江夏区藏龙岛开发区杨桥湖大道8号 邮政编码:430205
   coordinates:
     value: null
     source: null
@@ -258,12 +367,16 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 湖北经济学院法商学院位于湖北省武汉市，主管部门为湖北省教育厅。官网列示专任教师644人（统计日期未注明）。官网列示占地面积500余亩（统计日期未注明）。
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/4212/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -280,19 +393,33 @@ statistics:
     availability: unresearched
     search_sources: []
   faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 644
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/4212/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 专任教师；原标注：专任教师644人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: false
+    original_notation: 专任教师644人
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 33.333333
+    availability: found
     search_sources: []
+    source: http://www.hbfs.edu.cn/4212/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地面积500余亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 占地面积500余亩
 academics:
   double_first_class_disciplines:
     value: null

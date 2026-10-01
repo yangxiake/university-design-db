@@ -218,6 +218,44 @@ visual:
     source_as_of: unspecified
     byte_size: 88205
     representation: raster
+  - asset_id: 3915945756824c63b117fb98
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.bzuu.edu.cn/_upload/tpl/02/57/599/template599/images/logo.png
+    source: http://www.bzuu.edu.cn/14/list.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 亳州学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 亳州学院
+    format: png
+    width: 361
+    height: 114
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 4ad257eec3dacf487355963c73d7736e41610ccf6588d3c862240ee7213547bf
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/57/599/template599/images/logo.png
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 19992
+    representation: raster
+    resolved_url: http://www.bzuu.edu.cn/_upload/tpl/02/57/599/template599/images/logo.png
+    inspection_attempts:
+    - url: http://www.bzuu.edu.cn/_upload/tpl/02/57/599/template599/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#080870'
     rgb:
@@ -273,7 +311,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 37e0de3e8dd656c6
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训
+    url: http://www.bzuu.edu.cn/14/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.bzuu.edu.cn/14/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4d721d813af9a782d9ba5ee2f82dc89466fb63e9afa133e22ec6def0c7d24539
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

@@ -16,12 +16,16 @@ identity:
     availability: unresearched
     search_sources: []
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hnpi.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.hnpi.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 候选学校网站明确版权主体为教育部名单中的完整校名；主页或同主机明确首页链接。标题简称、新闻提及与旧名不作为独立确认依据。
+    evidence: 版权所有©河南工业职业技术大学豫ICP备08007302号-1豫公网安备4113
+    source_sha256: e6f0409425fbf083b7faf7f25abe78c883ebf1696491444b3cb6d8a97c348af8
   short_name_zh:
     value: null
     source: null
@@ -102,8 +106,84 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: f12201e211e4743985e25f6e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.hnpi.edu.cn/_upload/tpl/00/39/57/template57/images/logo.svg
+    source: http://www.hnpi.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 河南工业职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河南工业职业技术大学
+    format: svg
+    width: 500.0
+    height: 110.0
+    vector: false
+    has_alpha: null
+    transparent_background: null
+    sha256: 1da990d1e5ead27658a3a782b2a96f454687fbf3da7b3c550c2ce7b428dd1df6
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/39/57/template57/images/logo.svg
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 66083
+    representation: svg_with_raster
+    view_box: null
+    encoding: utf-8-sig
+    intrinsic_width: '500'
+    intrinsic_height: '110'
+    resolved_url: http://www.hnpi.edu.cn/_upload/tpl/00/39/57/template57/images/logo.svg
+    inspection_attempts:
+    - url: http://www.hnpi.edu.cn/_upload/tpl/00/39/57/template57/images/logo.svg
+      status: content_inspected
+  color_palette:
+  - value: '#C02830'
+    rgb:
+    - 192
+    - 40
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG内嵌位图取样；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.hnpi.edu.cn/_upload/tpl/00/39/57/template57/images/logo.svg
+    page_source: http://www.hnpi.edu.cn/
+    asset_id: f12201e211e4743985e25f6e
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#C8D8E8'
+    rgb:
+    - 200
+    - 216
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG内嵌位图取样；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.hnpi.edu.cn/_upload/tpl/00/39/57/template57/images/logo.svg
+    page_source: http://www.hnpi.edu.cn/
+    asset_id: f12201e211e4743985e25f6e
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -165,26 +245,38 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hnpi.edu.cn/189/list.htm
+    availability: found
     search_sources: []
+    source: http://www.hnpi.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://job.hnpi.edu.cn/career/index
+    availability: found
     search_sources: []
+    source: http://www.hnpi.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业创业
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hnpi.edu.cn/276/list.htm
+    availability: found
     search_sources: []
+    source: http://www.hnpi.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - ENGLISH
   information_disclosure_url:
     value: null
     source: null
@@ -250,15 +342,40 @@ location:
     checked_at: null
     availability: unresearched
     search_sources: []
-  campuses: []
+  campuses:
+  - name: 孔明校区
+    address: null
+    coordinates: null
+    source: http://www.hnpi.edu.cn/
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-02'
+  - name: 光武校区
+    address: null
+    coordinates: null
+    source: http://www.hnpi.edu.cn/
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-02'
+  - name: 方城校区
+    address: null
+    coordinates: null
+    source: http://www.hnpi.edu.cn/
+    basis: 官网简介明确列出的校区；地址/坐标未推断
+    verified: auto
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 河南工业职业技术大学位于河南省南阳市，主管部门为河南省。官网列示总占地面积1763.77余亩（统计日期未注明）。简介列出孔明校区、光武校区、方城校区。
+    availability: found
     search_sources: []
+    source: http://www.hnpi.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
+    source_as_of: mixed
   summary_en:
     value: null
     source: null
@@ -282,12 +399,19 @@ statistics:
     availability: unresearched
     search_sources: []
   campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 117.584667
+    availability: found
     search_sources: []
+    source: http://www.hnpi.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: official_overview
+    basis: 总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：总占地面积1763.77余亩；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 总占地面积1763.77余亩
 academics:
   double_first_class_disciplines:
     value: null

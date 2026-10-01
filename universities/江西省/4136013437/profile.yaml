@@ -84,9 +84,10 @@ visual:
     value: https://www.ncmc.edu.cn/newxxgk/xhxx.htm
     source: https://www.ncmc.edu.cn/newxxgk/xhxx.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆校徽采用南医红，外环列中英文校名。
     source: https://www.ncmc.edu.cn/newxxgk/xxzc.htm
@@ -265,7 +266,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: d494439f690bbec2
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训
+    url: https://www.ncmc.edu.cn/newxxgk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ncmc.edu.cn/newxxgk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2bf3c50f45a0221a509cd7f8ce8b26e44f4439233f323d476de50dadeb2b9a32
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1949
@@ -437,7 +454,7 @@ location:
   campuses: []
 overview:
   summary_zh:
-    value: 南昌医学院位于江西省南昌市，主管部门为江西省。官网列示本科生15000余人（统计日期未注明）。官网列示专任教师901人（统计时间2026-09）。
+    value: 南昌医学院位于江西省南昌市，主管部门为江西省。官网列示全日制在校本科生15000余人（统计日期未注明）。官网列示专任教师901人（统计时间2026-09）。
     availability: found
     search_sources: []
     source: https://www.ncmc.edu.cn/newxxgk/xxjj.htm
@@ -464,11 +481,11 @@ statistics:
     verified: auto
     checked_at: '2026-10-01'
     collector: official_overview
-    basis: 本科生；近似/下界数，保留原标注：本科生15000余人；页面未标注此项统计日期；采集日不等于统计日
+    basis: 全日制在校本科生；近似/下界数，保留原标注：全日制在校本科生15000余人；页面未标注此项统计日期；采集日不等于统计日
     source_as_of: undated
     date_basis: 页面未标注此项统计日期；采集日不等于统计日
     approximate: true
-    original_notation: 本科生15000余人
+    original_notation: 全日制在校本科生15000余人
   faculty_count:
     value: 901
     availability: found

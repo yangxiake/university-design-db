@@ -7,6 +7,7 @@
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
 | 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/西安外国语大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 230 × 310 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](http://www.xisu.edu.cn/images/logo1.png) · [来源](http://www.xisu.edu.cn/xxgk1/xxbs.htm) | png | 400 × 140 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -18,10 +19,11 @@
 |  | `#284060` | 40,64,96 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#183058` | 24,48,88 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.xisu.edu.cn/xxgk1/xxbs.htm](https://www.xisu.edu.cn/xxgk1/xxbs.htm)
+- [学校标识](http://www.xisu.edu.cn/xxgk1/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.xisu.edu.cn/xxgk1/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

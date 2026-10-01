@@ -131,12 +131,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://sjsb.ccu.edu.cn/info/1010/1001.htm
+    availability: found
     search_sources: []
+    source: https://sjsb.ccu.edu.cn/info/1010/1001.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -205,6 +206,48 @@ visual:
     source_as_of: unspecified
     byte_size: 71955
     representation: raster
+  - asset_id: 1460fc965e26cd2f5c01de22
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://sjsb.ccu.edu.cn/images/logosiv.svg
+    source: https://sjsb.ccu.edu.cn/jcbf/xxbs1/xhbzzt.htm
+    file_name: logosiv.svg
+    upstream_path: null
+    publisher: 长春大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长春大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 23e1c90a8abe422cd807f01a10c95d4e2daece25866ebd733fa418d77341aced
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logosiv.svg
+      label: '   '
+      context: 'head_box wow slideInDown  head  head_logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 31851
+    representation: vector
+    view_box: 0 0 380.7 171
+    encoding: utf-8-sig
+    intrinsic_width: null
+    intrinsic_height: null
+    resolved_url: https://sjsb.ccu.edu.cn/images/logosiv.svg
+    inspection_attempts:
+    - url: https://sjsb.ccu.edu.cn/images/logosiv.svg
+      status: content_inspected
   color_palette:
   - value: '#001898'
     rgb:
@@ -260,7 +303,104 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 09930cb019c37fd6
-  vi_resources: []
+  - value: '#00418F'
+    rgb:
+    - 0
+    - 65
+    - 143
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://sjsb.ccu.edu.cn/images/logosiv.svg
+    page_source: https://sjsb.ccu.edu.cn/jcbf/xxbs1/xhbzzt.htm
+    asset_id: 1460fc965e26cd2f5c01de22
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校校徽释义
+    url: https://sjsb.ccu.edu.cn/info/1010/1001.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://sjsb.ccu.edu.cn/info/1010/1001.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: fde52d886a10aba9a9cd0737e16af1ed9c9236f23eef41044124cff33ef07594
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: '|长春大学VI-A1基础部分 - A1-01学校校徽释义.zip'
+    url: https://sjsb.ccu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2023102213&wbfileid=BD0B11247209C188A21C265027EA66CE
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://sjsb.ccu.edu.cn/info/1010/1001.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: fde52d886a10aba9a9cd0737e16af1ed9c9236f23eef41044124cff33ef07594
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校校徽释义
+    url: https://sjsb.ccu.edu.cn/jcbf/xxbs1/xxxhsy.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://sjsb.ccu.edu.cn/jcbf/xxbs1/xxxhsy.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c41713f9b8999a37694c9e861073ca7f58bfa4bf134f54b8185c772b6cf0f0c2
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽表现形式
+    url: https://sjsb.ccu.edu.cn/jcbf/xxbs1/xhbxxs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://sjsb.ccu.edu.cn/jcbf/xxbs1/xhbxxs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dbfbc90f7f49ddc534fdbaf550f1ff541798c1e1f2392051539a16da96d7504c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽标准制图
+    url: https://sjsb.ccu.edu.cn/jcbf/xxbs1/xhbzzt.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://sjsb.ccu.edu.cn/jcbf/xxbs1/xhbzzt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8ce12dd8e03527a5f1524a2aa23eea32cc60691c52cfd5cb69505f978651d941
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1949

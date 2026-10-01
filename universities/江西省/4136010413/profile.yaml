@@ -132,6 +132,44 @@ visual:
     byte_size: 28472
     representation: raster
     resolved_url: https://www.gmu.edu.cn/images25/logo.png
+  - asset_id: d3e16f17edd505dcbdb0f373
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.gmu.edu.cn/images25/logo.png
+    source: http://www.gmu.edu.cn/xxgk1/xxbs.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 赣南医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 赣南医科大学
+    format: png
+    width: 400
+    height: 100
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 88f480dd152eea332851e31ba5f3904f97faf9aad176de5bbfc66830fcc49057
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images25/logo.png
+      label: '   '
+      context: ' logo box_table  box_table_cell   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 28472
+    representation: raster
+    resolved_url: http://www.gmu.edu.cn/images25/logo.png
+    inspection_attempts:
+    - url: http://www.gmu.edu.cn/images25/logo.png
+      status: content_inspected
   color_palette:
   - value: '#209050'
     rgb:
@@ -167,7 +205,89 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#209050'
+    rgb:
+    - 32
+    - 144
+    - 80
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.gmu.edu.cn/images25/logo.png
+    page_source: http://www.gmu.edu.cn/xxgk1/xxbs.htm
+    asset_id: d3e16f17edd505dcbdb0f373
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#209048'
+    rgb:
+    - 32
+    - 144
+    - 72
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.gmu.edu.cn/images25/logo.png
+    page_source: http://www.gmu.edu.cn/xxgk1/xxbs.htm
+    asset_id: d3e16f17edd505dcbdb0f373
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: http://www.gmu.edu.cn/xxgk1/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.gmu.edu.cn/xxgk1/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f307cf3f2ce2387e9ad82b7aace1f5ef344017db4c343441779e4714e86b23ac
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名.zip
+    url: http://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=7BF05498118F0B4EA7A45352765B6EBF
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.gmu.edu.cn/xxgk1/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f307cf3f2ce2387e9ad82b7aace1f5ef344017db4c343441779e4714e86b23ac
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽.zip
+    url: http://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=37D94203CC2652C41A013F2AE3DA67E0
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.gmu.edu.cn/xxgk1/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f307cf3f2ce2387e9ad82b7aace1f5ef344017db4c343441779e4714e86b23ac
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1941

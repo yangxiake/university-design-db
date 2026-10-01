@@ -89,9 +89,10 @@ visual:
     value: https://www.hfit.edu.cn/19/list.htm
     source: https://www.hfit.edu.cn/19/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 同心双圆校徽外列中英文校名，中心为魔方结构。
     source: https://www.hfit.edu.cn/19/list.htm
@@ -257,7 +258,23 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.hfit.edu.cn/19/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hfit.edu.cn/19/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c6b3db357161d2387fd5a73a073777d2b80dc53bf6bb94e693ce34d8d553b607
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 2003

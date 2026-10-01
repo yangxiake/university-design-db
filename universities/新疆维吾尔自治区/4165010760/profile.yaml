@@ -81,12 +81,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xjmu.edu.cn/info/1058/13147.htm
+    availability: found
     search_sources: []
+    source: https://www.xjmu.edu.cn/info/1058/13147.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校徽由两个同心圆构成，校方释义将其与祥和、完美、和谐联系。
     source: https://www.xjmu.edu.cn/xqzl1/xxzc.htm
@@ -130,6 +131,47 @@ visual:
     source_as_of: unspecified
     byte_size: 85642
     representation: raster
+  - asset_id: ec136f064a9e3e463bd83a20
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.xjmu.edu.cn/images/logo.png
+    source: https://www.xjmu.edu.cn/info/1058/13147.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 新疆医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆医科大学
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo.png
+      label: '新疆医科大  trans '
+      context: 'header trans   wp flex  logo  trans '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://www.xjmu.edu.cn/images/logo.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
   color_palette:
   - value: '#E02028'
     rgb:
@@ -185,7 +227,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: f7f32c2fc77a6e96
-  vi_resources: []
+  vi_resources:
+  - title: 官宣！新疆医科大学视觉形象识别系统正式发布！
+    url: https://www.xjmu.edu.cn/info/1058/13147.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xjmu.edu.cn/info/1058/13147.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6debff1b55c2fc1d12eb616262112b614bbae7ef907542da74405ea74d7774e7
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

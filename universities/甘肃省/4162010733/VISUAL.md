@@ -20,10 +20,15 @@
 |  | `#006068` | 0,96,104 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#006060` | 0,96,96 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.gsau.edu.cn/xywh1/xxbz.htm](https://www.gsau.edu.cn/xywh1/xxbz.htm)
+- [学校标志-甘肃农业大学](https://www.gsau.edu.cn/xywh1/xxbz.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gsau.edu.cn/xywh1/xxbz.htm)。
+- [学校校徽、校名标准模版](https://www.gsau.edu.cn/GAU.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gsau.edu.cn/xywh1/xxbz.htm)。
+- [视觉形象识别系统-甘肃农业大学](https://www.gsau.edu.cn/xywh1/sjxxsbxt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gsau.edu.cn/xywh1/sjxxsbxt.htm)。
+- [甘肃农业大学视觉形象识别系统管理手册-基础设计系统.pdf](https://www.gsau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1842348891&wbfileid=F0AC81F48E2EDF8F51F71FB9C135F1E9)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gsau.edu.cn/xywh1/sjxxsbxt.htm)。
+- [甘肃农业大学视觉形象识别系统管理手册-应用设计系统.pdf](https://www.gsau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1842348891&wbfileid=8ADB8A4D0046E4BA518C30F518B024FB)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gsau.edu.cn/xywh1/sjxxsbxt.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -105,7 +105,7 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
@@ -128,11 +128,12 @@ visual:
     search_sources: []
   vi_url:
     value: https://vi.tsinghua.edu.cn/
-    source: https://vi.tsinghua.edu.cn/mbyzy/dmt/yswgmb.htm
+    source: https://vi.tsinghua.edu.cn/
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 三个同心圆构成圆面：外环标繁体中文校名、英文校名和建校时间，中环为校训，中心为五角星。
     source: https://www.tsinghua.edu.cn/info/1181/51525.htm
@@ -297,6 +298,82 @@ visual:
     source_as_of: unspecified
     byte_size: 25791
     representation: raster
+  - asset_id: 314d0418da3691550b456b14
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.tsinghua.edu.cn/image/logo.png
+    source: https://vi.tsinghua.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 清华大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 清华大学
+    format: png
+    width: 301
+    height: 190
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: a002d31b9c897ee5dbcef1f235f34356fdaff8e3481926a4201c37b796777943
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: image/logo.png
+      label: '   '
+      context: 'index-head  container  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 20898
+    representation: raster
+    resolved_url: https://vi.tsinghua.edu.cn/image/logo.png
+    inspection_attempts:
+    - url: https://vi.tsinghua.edu.cn/image/logo.png
+      status: content_inspected
+  - asset_id: 439b8448dc202e0f33516d6c
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.tsinghua.edu.cn/image/logo296.png
+    source: https://vi.tsinghua.edu.cn/gk/xxbz/xh.htm
+    file_name: logo296.png
+    upstream_path: null
+    publisher: 清华大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 清华大学
+    format: png
+    width: 650
+    height: 88
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6393bf6fa5226e5d7b344fd0aecc04f27ee463832557a73b20d02b968f6dbf24
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../image/logo296.png
+      label: '   '
+      context: 'g-head  wal  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 16999
+    representation: raster
+    resolved_url: https://vi.tsinghua.edu.cn/image/logo296.png
+    inspection_attempts:
+    - url: https://vi.tsinghua.edu.cn/image/logo296.png
+      status: content_inspected
   color_palette:
   - value: '#660874'
     rgb:
@@ -499,6 +576,2129 @@ visual:
     checked_at: '2026-10-01'
     availability: found
     note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
+  - title: 清华大学文化建设办公室（环境学院网站转发） PPT模板发布/下载页
+    url: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 2025年度演示文稿模板1-校园风光主题
+    url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban1-xiaoyuanfengguangzhuti.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2025
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban1-xiaoyuanfengguangzhuti.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban1-xiaoyuanfengguangzhuti.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban1-xiaoyuanfengguangzhuti.pptx
+    file_metadata:
+      sha256: 931aa5bf732518305c86ce8c27243541eaf998719b3bed488c82762a79fa6ce3
+      byte_size: 103194067
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 34
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Algerian
+      - Alibaba PuHuiTi
+      - Angsana New
+      - Arial
+      - Arial Black
+      - Calibri
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Estrangelo Edessa
+      - Euphemia
+      - Footlight MT Light
+      - Gautami
+      - HarmonyOS Sans SC
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Plantagenet Cherokee
+      - Poppins
+      - Raavi
+      - Shruti
+      - SimSun
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - 华文新魏
+      - 华文细黑
+      - 宋体
+      - 微软雅黑
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 黑体
+      - 맑은 고딕
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 304
+      textless_slides: 0
+      media_count: 61
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2025年度演示文稿模板2-通用主题
+    url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban2-tongyongzhuti.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2025
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban2-tongyongzhuti.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban2-tongyongzhuti.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban2-tongyongzhuti.pptx
+    file_metadata:
+      sha256: 20ec6e6cb55e783aedaf5ca900eb1c977a2bb1554651b6bf0e26bddf5304faff
+      byte_size: 39500779
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 29
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Alibaba PuHuiTi
+      - Angsana New
+      - Arial
+      - Arial Black
+      - Calibri
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - HarmonyOS Sans SC
+      - HarmonyOS Sans SC Black
+      - Impact
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - MiSans Normal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - Montserrat
+      - Montserrat Medium
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - OPPOSans B
+      - Open Sans
+      - Open Sans Light
+      - Phagspa
+      - Plantagenet Cherokee
+      - Poppins
+      - Raavi
+      - Roboto Condensed
+      - Segoe UI
+      - Shruti
+      - SimSun
+      - Source Han Sans Regular
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 微软雅黑
+      - 微软雅黑 Light
+      - 思源黑体 CN Bold
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 阿里巴巴普惠体 Heavy
+      - 黑体
+      - 맑은 고딕
+      theme_colors:
+      - '#000000'
+      - '#00B0F0'
+      - '#0563C1'
+      - '#3C3652'
+      - '#44546A'
+      - '#4472C4'
+      - '#467886'
+      - '#47BAFF'
+      - '#5199EA'
+      - '#5B84D8'
+      - '#5B9BD5'
+      - '#6637E9'
+      - '#68A4C6'
+      - '#6A69B6'
+      - '#70AD47'
+      - '#7561D6'
+      - '#912C8D'
+      - '#954F72'
+      - '#96607D'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      - '#FFFFFF'
+      editable_text_runs: 426
+      textless_slides: 0
+      media_count: 52
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2025年度演示文稿模板3-党建主题
+    url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban3-dangjianzhuti.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2025
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban3-dangjianzhuti.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban3-dangjianzhuti.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban3-dangjianzhuti.pptx
+    file_metadata:
+      sha256: 2476b6c84bd2f0912d87e0d110e794e65a3a41ef8b626041aa6d32ee075e59ca
+      byte_size: 72243921
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 24
+      width_emu: 9144000
+      height_emu: 5143500
+      aspect_ratio: '16:9'
+      font_names:
+      - Alibaba PuHuiTi
+      - Alibaba PuHuiTi H
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Impact
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - OPPOSans B
+      - OPPOSans Bold
+      - OPPOSans R
+      - Phagspa
+      - Plantagenet Cherokee
+      - Poppins
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 字魂35号-经典雅黑
+      - 微软雅黑
+      - 思源宋体 CN Heavy
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Regular
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 阿里巴巴普惠体 Heavy
+      - 맑은 고딕
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 355
+      textless_slides: 0
+      media_count: 17
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2025年度演示文稿模板4-人文主题
+    url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban4-renwenzhuti.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2025
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban4-renwenzhuti.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban4-renwenzhuti.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban4-renwenzhuti.pptx
+    file_metadata:
+      sha256: e2591cce4b6720c443bc36fffdcf05d3d56b143862f1e937f03cbcde29490584
+      byte_size: 103757506
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 29
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - FZQingKeBenYueSongS M
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 微软雅黑
+      - 新細明體
+      - 方正粗金陵简体
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 맑은 고딕
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 205
+      textless_slides: 0
+      media_count: 48
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2025年度演示文稿模板5-科技主题
+    url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban5-kejizhuti.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2025
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban5-kejizhuti.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban5-kejizhuti.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2025nianduyanshiwengaomoban5-kejizhuti.pptx
+    file_metadata:
+      sha256: 187c7620370a0f8b37648653e1e967c80ca90095ee522c7d54f9093fa0131676
+      byte_size: 81622420
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 32
+      width_emu: 9144000
+      height_emu: 5143500
+      aspect_ratio: '16:9'
+      font_names:
+      - Alibaba PuHuiTi
+      - Alibaba PuHuiTi M
+      - Angsana New
+      - Arial
+      - Calibri
+      - Calibri Light
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Fjalla One
+      - FontAwesome
+      - Gautami
+      - Gill Sans
+      - HarmonyOS Sans SC
+      - Helvetica
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Lato
+      - League Gothic Regular
+      - Leelawadee UI
+      - MS PGothic
+      - MV Boli
+      - Mangal
+      - MiSans
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Neris Thin
+      - Nirmala UI
+      - Nyala
+      - OPPOSans R
+      - Phagspa
+      - Plantagenet Cherokee
+      - Poppins
+      - Raavi
+      - Roboto
+      - Segoe UI
+      - Shruti
+      - Sylfaen
+      - Tahoma
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - inpin heiti
+      - 宋体
+      - 庞门正道标题体
+      - 微软雅黑
+      - 微软雅黑 Light
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Regular
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 429
+      textless_slides: 0
+      media_count: 42
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2024年度清华大学PPT模板1
+    url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban1.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2024
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban1.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban1.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban1.pptx
+    file_metadata:
+      sha256: 04341d237a45158dc2d73d7d6d2e0962162eee99c6f34e346240435c5aa7766d
+      byte_size: 3064345
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 6
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Calibri
+      - Calibri Light
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft YaHei
+      - Microsoft YaHei Bold
+      - Microsoft YaHei Regular
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Plantagenet Cherokee
+      - Raavi
+      - Shruti
+      - Source Han Sans SC
+      - Source Han Sans SC Medium
+      - Sylfaen
+      - Tahoma
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - メイリオ
+      - 宋体
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 24
+      textless_slides: 5
+      media_count: 8
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2024年度清华大学PPT模板2
+    url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban2.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2024
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban2.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban2.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban2.pptx
+    file_metadata:
+      sha256: 33c5cfb5b599df6ff5a2c520c8de837ee89078e0235c7a7ddf950918705a8e71
+      byte_size: 24407241
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 7
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Book Antiqua
+      - Calibri
+      - Calibri Light
+      - Century Gothic
+      - Cordia New
+      - DaunPenh
+      - David
+      - DilleniaUPC
+      - DokChampa
+      - Estrangelo Edessa
+      - EucrosiaUPC
+      - Euphemia
+      - Gautami
+      - Gisha
+      - HGS明朝B
+      - HY견명조
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft YaHei
+      - Microsoft YaHei Bold
+      - Microsoft YaHei Regular
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Plantagenet Cherokee
+      - Raavi
+      - Shruti
+      - Songti SC Bold
+      - Source Han Sans SC
+      - Source Han Sans SC Medium
+      - Sylfaen
+      - Tahoma
+      - Times New Roman
+      - Tunga
+      - Verdana
+      - Vrinda
+      - Wingdings
+      - 宋体
+      - 幼圆
+      - 微軟正黑體
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 맑은 고딕
+      - ＭＳ ゴシック
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0026E5'
+      - '#0563C1'
+      - '#0F1423'
+      - '#30C0B4'
+      - '#44546A'
+      - '#4472C4'
+      - '#4874CB'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#75BD42'
+      - '#7E1FAD'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E54C5E'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#EE822F'
+      - '#F2BA02'
+      - '#FFC000'
+      - '#FFFFFF'
+      editable_text_runs: 20
+      textless_slides: 6
+      media_count: 9
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2024年度清华大学PPT模板3
+    url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban3.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2024
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban3.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban3.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban3.pptx
+    file_metadata:
+      sha256: d2d7d58e87f39f1132c1421839ad717f123c4fc930dd2eef89fd84d624ea95b2
+      byte_size: 3954815
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 11
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Arial
+      - Helvetica Neue
+      - Helvetica Neue Medium
+      - Microsoft YaHei
+      - Microsoft YaHei Bold
+      - Microsoft YaHei Regular
+      - Source Han Sans SC
+      - Source Han Sans SC Medium
+      - Wingdings
+      - 微软雅黑
+      theme_colors:
+      - '#000000'
+      - '#0000FF'
+      - '#00A2FF'
+      - '#16E7CF'
+      - '#5E5E5E'
+      - '#61D836'
+      - '#D5D5D5'
+      - '#FF00FF'
+      - '#FF42A1'
+      - '#FF644E'
+      - '#FFD932'
+      - '#FFFFFF'
+      editable_text_runs: 34
+      textless_slides: 10
+      media_count: 11
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2024年度清华大学PPT模板4
+    url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban4.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2024
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban4.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban4.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban4.pptx
+    file_metadata:
+      sha256: 95ed7b761f9d5b9413d4fd6a33652c9eee208dee66865bdc8e43b29d5478b3d7
+      byte_size: 14801810
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 13
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Arial
+      - Helvetica Neue
+      - Helvetica Neue Medium
+      - Microsoft YaHei
+      - Microsoft YaHei Bold
+      - Microsoft YaHei Regular
+      - Source Han Sans SC
+      - Source Han Sans SC Medium
+      - Wingdings
+      - 微软雅黑
+      theme_colors:
+      - '#000000'
+      - '#0000FF'
+      - '#00A2FF'
+      - '#16E7CF'
+      - '#5E5E5E'
+      - '#61D836'
+      - '#D5D5D5'
+      - '#FF00FF'
+      - '#FF42A1'
+      - '#FF644E'
+      - '#FFD932'
+      - '#FFFFFF'
+      editable_text_runs: 41
+      textless_slides: 12
+      media_count: 15
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 2024年度清华大学PPT模板5
+    url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban5.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2024
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban5.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban5.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/2024nianduqinghuadaxuePPTmoban5.pptx
+    file_metadata:
+      sha256: 7c6719f422f7d5383897e55feca1ffa99e83c402414a5c8f8086e997e8b944f8
+      byte_size: 29342985
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 12
+      width_emu: 12192000
+      height_emu: 6858000
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Calibri
+      - Calibri Light
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft YaHei
+      - Microsoft YaHei Bold
+      - Microsoft YaHei Light
+      - Microsoft YaHei Regular
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Plantagenet Cherokee
+      - Raavi
+      - Shruti
+      - Source Han Sans SC
+      - Source Han Sans SC Medium
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - 宋体
+      - 微软雅黑
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0026E5'
+      - '#0563C1'
+      - '#0F1423'
+      - '#30C0B4'
+      - '#44546A'
+      - '#4472C4'
+      - '#4874CB'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#75BD42'
+      - '#7E1FAD'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E54C5E'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#EE822F'
+      - '#F2BA02'
+      - '#FFC000'
+      - '#FFFFFF'
+      editable_text_runs: 35
+      textless_slides: 11
+      media_count: 11
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 文件 2023年度清华大学演示文档系列模板1-清华晨曦.pptx
+    url: https://www.env.tsinghua.edu.cn/fujian2-2023nianduqinghuadaxueyanshiwendangxiliemoban1-qinghuachenxi.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2023
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/fujian2-2023nianduqinghuadaxueyanshiwendangxiliemoban1-qinghuachenxi.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/fujian2-2023nianduqinghuadaxueyanshiwendangxiliemoban1-qinghuachenxi.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/fujian2-2023nianduqinghuadaxueyanshiwendangxiliemoban1-qinghuachenxi.pptx
+    file_metadata:
+      sha256: d1d2c9028c8844ac17fbdea6f14ae6995b5159dcb2067a644e5084b6acc08326
+      byte_size: 3746122
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 7
+      width_emu: 9144000
+      height_emu: 5143500
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DengXian
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Garamond
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Source Han Sans CN Bold
+      - Source Han Sans CN Medium
+      - Source Han Sans CN Normal
+      - Source Han Sans CN Regular
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - 微軟正黑體
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Normal
+      - 新細明體
+      - 方正舒体
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 黑体
+      - 돋움
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 1
+      textless_slides: 6
+      media_count: 9
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 文件 2023年度清华大学演示文档系列模板2-北馆·月色伴读.pptx
+    url: https://www.env.tsinghua.edu.cn/fujian3-2023nianduqinghuadaxueyanshiwendangxiliemoban2-beiguan-yuesebandu.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2023
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/fujian3-2023nianduqinghuadaxueyanshiwendangxiliemoban2-beiguan-yuesebandu.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/fujian3-2023nianduqinghuadaxueyanshiwendangxiliemoban2-beiguan-yuesebandu.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/fujian3-2023nianduqinghuadaxueyanshiwendangxiliemoban2-beiguan-yuesebandu.pptx
+    file_metadata:
+      sha256: 89f8c93d063bd5754ce88d9c1d4a83fdbbf7260bf21f068100bac444ddf0618b
+      byte_size: 3141873
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 8
+      width_emu: 9144000
+      height_emu: 5143500
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DengXian
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Garamond
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - SimHei
+      - Source Han Sans CN Bold
+      - Source Han Sans CN Medium
+      - Source Han Sans CN Normal
+      - Source Han Sans CN Regular
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - 微軟正黑體
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Normal
+      - 新細明體
+      - 方正舒体
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 黑体
+      - 돋움
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 6
+      textless_slides: 6
+      media_count: 5
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 文件 2023年度清华大学演示文档系列模板3-老馆·月色伴读.pptx
+    url: https://www.env.tsinghua.edu.cn/fujian4-2023nianduqinghuadaxueyanshiwendangxiliemoban3-laoguan-yuesebandu.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2023
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/fujian4-2023nianduqinghuadaxueyanshiwendangxiliemoban3-laoguan-yuesebandu.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/fujian4-2023nianduqinghuadaxueyanshiwendangxiliemoban3-laoguan-yuesebandu.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/fujian4-2023nianduqinghuadaxueyanshiwendangxiliemoban3-laoguan-yuesebandu.pptx
+    file_metadata:
+      sha256: 011387ed20e1c7b1e026fb1e512f33bef92ecaa380c50ffe1a08b6e269887453
+      byte_size: 1945037
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 6
+      width_emu: 9144000
+      height_emu: 5143500
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DengXian
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Garamond
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Source Han Sans CN Bold
+      - Source Han Sans CN Medium
+      - Source Han Sans CN Normal
+      - Source Han Sans CN Regular
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - 微軟正黑體
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Normal
+      - 新細明體
+      - 方正舒体
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 黑体
+      - 돋움
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 0
+      textless_slides: 6
+      media_count: 3
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 文件 2023年度清华大学演示文档系列模板4-创新之光.pptx
+    url: https://www.env.tsinghua.edu.cn/fujian5-2023nianduqinghuadaxueyanshiwendangxiliemoban4-chuangxinzhiguang.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2023
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/fujian5-2023nianduqinghuadaxueyanshiwendangxiliemoban4-chuangxinzhiguang.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/fujian5-2023nianduqinghuadaxueyanshiwendangxiliemoban4-chuangxinzhiguang.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/fujian5-2023nianduqinghuadaxueyanshiwendangxiliemoban4-chuangxinzhiguang.pptx
+    file_metadata:
+      sha256: 11137bb2c9c9fda880a7dca957cdbbdb1b7d39e357137f3ec60a26a44090f8aa
+      byte_size: 3588731
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 6
+      width_emu: 9144000
+      height_emu: 5143500
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DengXian
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Garamond
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Source Han Sans CN Bold
+      - Source Han Sans CN Medium
+      - Source Han Sans CN Normal
+      - Source Han Sans CN Regular
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - 微軟正黑體
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Normal
+      - 新細明體
+      - 方正舒体
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 黑体
+      - 돋움
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 0
+      textless_slides: 6
+      media_count: 5
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 文件 2023年度清华大学演示文档系列模板5-时代之光.pptx
+    url: https://www.env.tsinghua.edu.cn/fujian6-2023nianduqinghuadaxueyanshiwendangxiliemoban5-shidaizhiguang.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2023
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/fujian6-2023nianduqinghuadaxueyanshiwendangxiliemoban5-shidaizhiguang.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/fujian6-2023nianduqinghuadaxueyanshiwendangxiliemoban5-shidaizhiguang.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/fujian6-2023nianduqinghuadaxueyanshiwendangxiliemoban5-shidaizhiguang.pptx
+    file_metadata:
+      sha256: 9b8daf6796ce93fe353209c78d3ede0d246d64a0168d79aa7cfca5e7600b6502
+      byte_size: 3134691
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 6
+      width_emu: 9144000
+      height_emu: 5143500
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Garamond
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Source Han Sans CN Bold
+      - Source Han Sans CN Medium
+      - Source Han Sans CN Normal
+      - Source Han Sans CN Regular
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - 微軟正黑體
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Normal
+      - 新細明體
+      - 方正舒体
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 黑体
+      - 돋움
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 0
+      textless_slides: 6
+      media_count: 4
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 文件 2023年度清华大学演示文档系列模板6-光辉道路.pptx
+    url: https://www.env.tsinghua.edu.cn/fujian7-2023nianduqinghuadaxueyanshiwendangxiliemoban6-guanghuidaolu.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.env.tsinghua.edu.cn/info/1344/7931.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7e1437c3b6150f946585506c31d3758c01cac03741aa7b37c0ba8553d7a6ed00
+    note: 发布范围：学校通用。已读取公开文件数据；未运行或渲染，字体与图形的独立授权以原发布页为准。
+    publisher: 清华大学文化建设办公室（环境学院网站转发）
+    use_scope: school
+    content_read: true
+    download_status: content_inspected
+    edition_year: 2023
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.env.tsinghua.edu.cn/fujian7-2023nianduqinghuadaxueyanshiwendangxiliemoban6-guanghuidaolu.pptx
+        status: file_read
+        resolved_url: https://www.env.tsinghua.edu.cn/fujian7-2023nianduqinghuadaxueyanshiwendangxiliemoban6-guanghuidaolu.pptx
+      resolved_url: https://www.env.tsinghua.edu.cn/fujian7-2023nianduqinghuadaxueyanshiwendangxiliemoban6-guanghuidaolu.pptx
+    file_metadata:
+      sha256: 0877b877a7686a31163ea82551f8ff9ccb65b58c0645df48a243ff0467d5cb76
+      byte_size: 4918202
+      format: PPTX
+      read_kind: ooxml_structure
+      slide_count: 6
+      width_emu: 9144000
+      height_emu: 5143500
+      aspect_ratio: '16:9'
+      font_names:
+      - Angsana New
+      - Arial
+      - Cordia New
+      - DaunPenh
+      - DengXian
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Garamond
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Source Han Sans CN Bold
+      - Source Han Sans CN Medium
+      - Source Han Sans CN Normal
+      - Source Han Sans CN Regular
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - Wingdings
+      - 微軟正黑體
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Normal
+      - 新細明體
+      - 方正舒体
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 黑体
+      - 돋움
+      - 맑은 고딕
+      - ＭＳ Ｐゴシック
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      editable_text_runs: 0
+      textless_slides: 6
+      media_count: 4
+      external_relationship_count: 0
+      macro_enabled: false
+  - title: 清华大学官网视觉资源页 PPT模板发布/下载页
+    url: https://vi.tsinghua.edu.cn/
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 2025.05.072025年度演示文稿模板5-科技主题
+    url: https://vi.tsinghua.edu.cn/info/1021/1298.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2025
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1298.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1298.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1298.htm
+      page_metadata:
+        title: 2025年度演示文稿模板5-科技主题-清华大学视觉形象识别
+        sha256: d12a84a9ad04b2530b5ded4b201548e1ee282c5897515c8cd564be898152aa2d
+        byte_size: 12051
+  - title: 2025.05.072025年度演示文稿模板4-人文主题
+    url: https://vi.tsinghua.edu.cn/info/1021/1297.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2025
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1297.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1297.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1297.htm
+      page_metadata:
+        title: 2025年度演示文稿模板4-人文主题-清华大学视觉形象识别
+        sha256: 5504d3f3971d8451d5ec8141c6291ddd31b24f4301bf68f7ebe075fa62a8e5da
+        byte_size: 12063
+  - title: 2025.05.072025年度演示文稿模板3-党建主题
+    url: https://vi.tsinghua.edu.cn/info/1021/1296.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2025
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1296.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1296.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1296.htm
+      page_metadata:
+        title: 2025年度演示文稿模板3-党建主题-清华大学视觉形象识别
+        sha256: 671c9cd0a3a02e2246098d740673c9f964a1ddd4fbaf470b4b49062db9b8f087
+        byte_size: 12051
+  - title: 2025.05.072025年度演示文稿模板2-通用主题
+    url: https://vi.tsinghua.edu.cn/info/1021/1295.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2025
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1295.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1295.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1295.htm
+      page_metadata:
+        title: 2025年度演示文稿模板2-通用主题-清华大学视觉形象识别
+        sha256: 4c4f4746479bf189d1459dcb239368204e45a70c1610c3ad637dd0663d2e54d7
+        byte_size: 12056
+  - title: 2025.04.242025年度演示文稿模板1-校园风光主题
+    url: https://vi.tsinghua.edu.cn/info/1021/1285.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2025
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1285.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1285.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1285.htm
+      page_metadata:
+        title: 2025年度演示文稿模板1-校园风光主题-清华大学视觉形象识别
+        sha256: 80bd6d04eb6ea80974abf5b5952472a323f0520e65ce369a3687b2240b87e2c0
+        byte_size: 12080
+  - title: 2023.12.282024年度演示文稿模板5
+    url: https://vi.tsinghua.edu.cn/info/1021/1280.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2024
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1280.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1280.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1280.htm
+      page_metadata:
+        title: 2024年度演示文稿模板5-清华大学视觉形象识别
+        sha256: ef571bf5bac05ad2292e7b884820d8b032c82ecfd4aae614754eb63cc8c18940
+        byte_size: 10996
+  - title: 2023.12.282024年度演示文稿模板4
+    url: https://vi.tsinghua.edu.cn/info/1021/1279.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2024
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1279.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1279.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1279.htm
+      page_metadata:
+        title: 2024年度演示文稿模板4-清华大学视觉形象识别
+        sha256: f44f14d4251055912e9b008c97dfafcebdbfccf683a351739c3eb4cd8944f89f
+        byte_size: 10994
+  - title: 2023.12.282024年度演示文稿模板3
+    url: https://vi.tsinghua.edu.cn/info/1021/1278.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2024
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1278.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1278.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1278.htm
+      page_metadata:
+        title: 2024年度演示文稿模板3-清华大学视觉形象识别
+        sha256: 3848ad6d9f4748b677469053beff60c8cd3835b16b3135ed2ade8644e728a258
+        byte_size: 10994
+  - title: 2023.12.282024年度演示文稿模板2
+    url: https://vi.tsinghua.edu.cn/info/1021/1277.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2024
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1277.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1277.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1277.htm
+      page_metadata:
+        title: 2024年度演示文稿模板2-清华大学视觉形象识别
+        sha256: b465509c4626b9b548e9f369adda32fd32d476c10e438850e2bda56b43adb9bc
+        byte_size: 10995
+  - title: 2023.12.282024年度演示文稿模板1
+    url: https://vi.tsinghua.edu.cn/info/1021/1276.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2024
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1276.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1276.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1276.htm
+      page_metadata:
+        title: 2024年度演示文稿模板1-清华大学视觉形象识别
+        sha256: 6f18d9fbc9eca40c73decbb92cea44818ae2f549a30e4fbdd296dd85d95d448f
+        byte_size: 10994
+  - title: 2023.04.282023年度演示文稿模板-清华剪影
+    url: https://vi.tsinghua.edu.cn/info/1021/1266.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://vi.tsinghua.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3382bb5e5a64435b3250fed351e43b8aa8d184be628e97f70322d661f95bba99
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 清华大学官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    edition_year: 2023
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://vi.tsinghua.edu.cn/info/1021/1266.htm
+        status: target_page_read
+        resolved_url: https://vi.tsinghua.edu.cn/info/1021/1266.htm
+      resolved_url: https://vi.tsinghua.edu.cn/info/1021/1266.htm
+      page_metadata:
+        title: 2023年度演示文稿模板-清华剪影-清华大学视觉形象识别
+        sha256: e751f818ee010fc99def4762edf8ca3037b247ee4c707590813485eb3baaaa3f
+        byte_size: 11104
+  - title: 校徽
+    url: https://vi.tsinghua.edu.cn/gk/xxbz/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.tsinghua.edu.cn/gk/xxbz/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9b6aba401e9b10baca6d2a59af01e2a35540a7f27697dba82a24646f3d676347
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1911
@@ -623,6 +2823,23 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
+  - title: 清华大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/thu.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/thu.tex
+    source_sha256: 84ccfeed4a81b2bcc7ffba2abf5a23ab9cf2893682b0db11bbbf71ddbf38a01e
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
   admissions_url:
     value: https://www.tsinghua.edu.cn/zsjy.htm
     availability: found

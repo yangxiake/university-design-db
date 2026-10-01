@@ -82,12 +82,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://jwc.sdws.edu.cn/2025/1110/c449a84308/pagem.htm
+    availability: found
     search_sources: []
+    source: https://jwc.sdws.edu.cn/2025/1110/c449a84308/pagem.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -132,8 +133,112 @@ visual:
     byte_size: 71002
     representation: raster
     resolved_url: https://www.sdws.edu.cn/_upload/tpl/00/c9/201/template201/images/logo.png
-  color_palette: []
-  vi_resources: []
+  - asset_id: 0207e40b35fd0761c75e35aa
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://jwc.sdws.edu.cn/_upload/site/00/0e/14/logo.png
+    source: https://jwc.sdws.edu.cn/2025/1110/c449a84308/pagem.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 山东外事职业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东外事职业大学
+    format: png
+    width: 2897
+    height: 680
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f2766a641f6c0eb1d4d2ed6f518e3ee0307d719f569e5d8e1c11e9405bbebe52
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/site/00/0e/14/logo.png
+      label: '   '
+      context: 'wrapper header inner header wp-panel panel-1  head-logo wp-window window-1  site-url '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 327831
+    representation: raster
+    resolved_url: https://jwc.sdws.edu.cn/_upload/site/00/0e/14/logo.png
+    inspection_attempts:
+    - url: https://jwc.sdws.edu.cn/_upload/site/00/0e/14/logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#201868'
+    rgb:
+    - 32
+    - 24
+    - 104
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://jwc.sdws.edu.cn/_upload/site/00/0e/14/logo.png
+    page_source: https://jwc.sdws.edu.cn/2025/1110/c449a84308/pagem.htm
+    asset_id: 0207e40b35fd0761c75e35aa
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#201870'
+    rgb:
+    - 32
+    - 24
+    - 112
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://jwc.sdws.edu.cn/_upload/site/00/0e/14/logo.png
+    page_source: https://jwc.sdws.edu.cn/2025/1110/c449a84308/pagem.htm
+    asset_id: 0207e40b35fd0761c75e35aa
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 山东外事职业大学校徽、校标
+    url: https://jwc.sdws.edu.cn/2025/1110/c449a84308/pagem.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://jwc.sdws.edu.cn/2025/1110/c449a84308/pagem.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c701474b4d433745e3530a592445d30f82e67b1358c91184e409adeffaf696c6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 山东外事职业大学校徽、校标.zip
+    url: https://jwc.sdws.edu.cn/_upload/article/files/4e/84/229ccade4bbaa80a4e64f917f68c/09e2d9bb-f3f2-4168-a501-1a016e1e9810.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://jwc.sdws.edu.cn/2025/1110/c449a84308/pagem.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c701474b4d433745e3530a592445d30f82e67b1358c91184e409adeffaf696c6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

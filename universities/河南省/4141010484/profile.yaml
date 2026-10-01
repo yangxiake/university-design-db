@@ -90,9 +90,10 @@ visual:
     value: https://www.huel.edu.cn/xxgk/xxbs.htm
     source: https://www.huel.edu.cn/xxgk/xxbs.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆校徽以“经法”篆字为核心，配中英文校名。
     source: https://www.huel.edu.cn/xxgk/xxzc.htm
@@ -136,6 +137,44 @@ visual:
     source_as_of: unspecified
     byte_size: 14585
     representation: raster
+  - asset_id: a4d1c346590f83ad17be14aa
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.huel.edu.cn/images/logo20231102.png
+    source: https://www.huel.edu.cn/xxgk/xxbs.htm
+    file_name: logo20231102.png
+    upstream_path: null
+    publisher: 河南财经政法大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河南财经政法大学
+    format: png
+    width: 2380
+    height: 566
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 827c366cb1fb2c67efef0f89250f1663f4d710cce8299c8851c8730af95156e2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo20231102.png
+      label: '   '
+      context: ' header wp flex   logo  '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 192630
+    representation: raster
+    resolved_url: https://www.huel.edu.cn/images/logo20231102.png
+    inspection_attempts:
+    - url: https://www.huel.edu.cn/images/logo20231102.png
+      status: content_inspected
   color_palette:
   - value: '#AE2D30'
     rgb:
@@ -207,7 +246,73 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 55b7f4f8728a68d4
-  vi_resources: []
+  - value: '#A82828'
+    rgb:
+    - 168
+    - 40
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.huel.edu.cn/images/logo20231102.png
+    page_source: https://www.huel.edu.cn/xxgk/xxbs.htm
+    asset_id: a4d1c346590f83ad17be14aa
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#A82830'
+    rgb:
+    - 168
+    - 40
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.huel.edu.cn/images/logo20231102.png
+    page_source: https://www.huel.edu.cn/xxgk/xxbs.htm
+    asset_id: a4d1c346590f83ad17be14aa
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: https://www.huel.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.huel.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2f6913c384ef98e7f152ea4405d1ea1652fa57a8cde14db9231b9175433b720d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 点击下载：河南财经政法大学校徽、校名用字图形文件
+    url: https://www.huel.edu.cn/xxbs/huel_VI.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.huel.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2f6913c384ef98e7f152ea4405d1ea1652fa57a8cde14db9231b9175433b720d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1948
@@ -373,24 +478,24 @@ location:
     source: https://www.huel.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 文北校区
     address: null
     coordinates: null
     source: https://www.huel.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 文南校区
     address: null
     coordinates: null
     source: https://www.huel.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 河南财经政法大学位于河南省郑州市，主管部门为河南省。官网列示教职工2100余人（统计日期未注明）。官网列示占地面积2000多亩（统计日期未注明）。简介列出郑东校区、文北校区、文南校区。
+    value: 河南财经政法大学位于河南省郑州市，主管部门为河南省。官网列示全日制在校本专科生28000余人（统计日期未注明）。官网列示教职工2100余人（统计日期未注明）。官网列示占地面积2000多亩（统计日期未注明）。简介列出郑东校区、文北校区、文南校区。
     availability: found
     search_sources: []
     source: https://www.huel.edu.cn/xxgk/xxjj.htm
@@ -409,12 +514,19 @@ overview:
     search_sources: []
 statistics:
   student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 28000
+    availability: found
     search_sources: []
+    source: https://www.huel.edu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    collector: official_overview
+    basis: 全日制在校本专科生；近似/下界数，保留原标注：全日制在校本专科生28000余人；页面未标注此项统计日期；采集日不等于统计日
+    source_as_of: undated
+    date_basis: 页面未标注此项统计日期；采集日不等于统计日
+    approximate: true
+    original_notation: 全日制在校本专科生28000余人
   faculty_count:
     value: 2100
     availability: found

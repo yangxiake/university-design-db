@@ -216,6 +216,44 @@ visual:
     source_as_of: unspecified
     byte_size: 76044
     representation: raster
+  - asset_id: 1dd4a6d2830cbf35d0c23839
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.xaau.edu.cn/images/xhlogo0117.png
+    source: http://www.xaau.edu.cn/xxgk/xxbs.htm
+    file_name: xhlogo0117.png
+    upstream_path: null
+    publisher: 西安航空学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安航空学院
+    format: png
+    width: 390
+    height: 81
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 346edb893253e31dc064cab846fb0c3dc3f390b673bbf32db57ac9826489383b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/xhlogo0117.png
+      label: '   '
+      context: 'head-top  px1320  logo   '
+      position: 9
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 13003
+    representation: raster
+    resolved_url: http://www.xaau.edu.cn/images/xhlogo0117.png
+    inspection_attempts:
+    - url: http://www.xaau.edu.cn/images/xhlogo0117.png
+      status: content_inspected
   color_palette:
   - value: '#0058A0'
     rgb:
@@ -271,7 +309,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 3a328bb674ef9c60
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识-西安航空学院
+    url: http://www.xaau.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.xaau.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b1406444f3494cca6536291ac4bf8b8fc36f8f35d88bcd0a243c018cdf1d1ce4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1955
@@ -455,14 +509,14 @@ location:
     source: https://www.xaau.edu.cn/info/1018/1114.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 阎良校区
     address: null
     coordinates: null
     source: https://www.xaau.edu.cn/info/1018/1114.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 西安航空学院位于陕西省西安市，主管部门为陕西省。官网列示在校生13683名（统计日期未注明）。官网列示教职工1074余名（统计日期未注明）。简介列出莲湖校区、阎良校区。

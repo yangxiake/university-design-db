@@ -86,12 +86,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.qmu.edu.cn/xxbz_7164/list.htm
+    availability: found
     search_sources: []
+    source: https://www.qmu.edu.cn/xxbz_7164/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -204,6 +205,48 @@ visual:
     source_as_of: unspecified
     byte_size: 15539
     representation: raster
+  - asset_id: 6034e1019a90d658666b08eb
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.qmu.edu.cn/_upload/tpl/06/72/1650/template1650/images/clogo.svg
+    source: https://www.qmu.edu.cn/xxbz_7164/list.htm
+    file_name: clogo.svg
+    upstream_path: null
+    publisher: 齐齐哈尔医学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 齐齐哈尔医学院
+    format: svg
+    width: 68.058
+    height: 59.181
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 4857395920c314eac7d6230dfb18f10d632c570e55f06190958c8529a1347451
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/06/72/1650/template1650/images/clogo.svg
+      label: '   '
+      context: 'list mrlist  wp-wrapper container-1 col_name kk  col_name_text '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 833
+    representation: vector
+    view_box: 0 0 68.058 59.181
+    encoding: utf-8-sig
+    intrinsic_width: '68.058'
+    intrinsic_height: '59.181'
+    resolved_url: https://www.qmu.edu.cn/_upload/tpl/06/72/1650/template1650/images/clogo.svg
+    inspection_attempts:
+    - url: https://www.qmu.edu.cn/_upload/tpl/06/72/1650/template1650/images/clogo.svg
+      status: content_inspected
   color_palette:
   - value: '#08578A'
     rgb:
@@ -343,7 +386,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 8a1d1bc86e316e49
-  vi_resources: []
+  - value: '#476EAB'
+    rgb:
+    - 71
+    - 110
+    - 171
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.qmu.edu.cn/_upload/tpl/06/72/1650/template1650/images/clogo.svg
+    page_source: https://www.qmu.edu.cn/xxbz_7164/list.htm
+    asset_id: 6034e1019a90d658666b08eb
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E02319'
+    rgb:
+    - 224
+    - 35
+    - 25
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.qmu.edu.cn/_upload/tpl/06/72/1650/template1650/images/clogo.svg
+    page_source: https://www.qmu.edu.cn/xxbz_7164/list.htm
+    asset_id: 6034e1019a90d658666b08eb
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标志
+    url: https://www.qmu.edu.cn/xxbz_7164/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.qmu.edu.cn/xxbz_7164/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8a7500b4d982cd7f486dd5bacd574749ef9c216ade8308be2e91277c693fc96a
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

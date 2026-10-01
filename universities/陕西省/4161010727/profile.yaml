@@ -86,12 +86,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    availability: found
     search_sources: []
+    source: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -169,6 +170,44 @@ visual:
     source_as_of: unspecified
     byte_size: 41348
     representation: raster
+  - asset_id: 0dd6cfde35640512841b1ecf
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.xaipe.edu.cn/xcb/images/LOGO.png
+    source: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    file_name: LOGO.png
+    upstream_path: null
+    publisher: 西安体育学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安体育学院
+    format: png
+    width: 615
+    height: 260
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: a388365c52f3e2cfeea6d4b77b5238af1cca77ff2a18aa965bd73082fb483621
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/LOGO.png
+      label: '宣传部 宣传部  '
+      context: '   top logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 102618
+    representation: raster
+    resolved_url: https://www.xaipe.edu.cn/xcb/images/LOGO.png
+    inspection_attempts:
+    - url: https://www.xaipe.edu.cn/xcb/images/LOGO.png
+      status: content_inspected
   color_palette:
   - value: '#057039'
     rgb:
@@ -274,7 +313,89 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: b9055b01e761d5be
-  vi_resources: []
+  - value: '#D80800'
+    rgb:
+    - 216
+    - 8
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xaipe.edu.cn/xcb/images/LOGO.png
+    page_source: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    asset_id: 0dd6cfde35640512841b1ecf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#F8D048'
+    rgb:
+    - 248
+    - 208
+    - 72
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xaipe.edu.cn/xcb/images/LOGO.png
+    page_source: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    asset_id: 0dd6cfde35640512841b1ecf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 西安体育学院校旗、校徽LOGO及校名图片
+    url: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ed1120b72d34ba1dbe983e79d82f0b9e367c507e5dda5cbe788ae021a65ea48
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 西安体育学院文字与校徽（做图设计使用版本）.rar
+    url: https://www.xaipe.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1375747112&wbfileid=DB6967276667A99D0B3FFE64CB90E719
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ed1120b72d34ba1dbe983e79d82f0b9e367c507e5dda5cbe788ae021a65ea48
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 西安体育学院文字与校徽（图片阅览版）.rar
+    url: https://www.xaipe.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1375747112&wbfileid=72F47D01B7868BC17EEACD385F4EB1D9
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xaipe.edu.cn/xcb/info/1010/2335.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ed1120b72d34ba1dbe983e79d82f0b9e367c507e5dda5cbe788ae021a65ea48
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1954
@@ -440,17 +561,17 @@ location:
     source: https://www.xaipe.edu.cn/xtgk1/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 鄠邑校区
     address: null
     coordinates: null
     source: https://www.xaipe.edu.cn/xtgk1/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 西安体育学院位于陕西省西安市，主管部门为陕西省。官网列示本科生8100余人（统计日期未注明）。官网列示教职工786人（统计日期未注明）。简介列出含光校区、鄠邑校区。
+    value: 西安体育学院位于陕西省西安市，主管部门为陕西省。官网列示在校本科生8100余人（统计日期未注明）。官网列示教职工786人（统计日期未注明）。简介列出含光校区、鄠邑校区。
     availability: found
     search_sources: []
     source: https://www.xaipe.edu.cn/xtgk1/xxjj.htm
@@ -477,11 +598,11 @@ statistics:
     verified: auto
     checked_at: '2026-10-01'
     collector: official_overview
-    basis: 本科生；近似/下界数，保留原标注：本科生8100余人；页面未标注此项统计日期；采集日不等于统计日
+    basis: 在校本科生；近似/下界数，保留原标注：在校本科生8100余人；页面未标注此项统计日期；采集日不等于统计日
     source_as_of: undated
     date_basis: 页面未标注此项统计日期；采集日不等于统计日
     approximate: true
-    original_notation: 本科生8100余人
+    original_notation: 在校本科生8100余人
   faculty_count:
     value: 786
     availability: found

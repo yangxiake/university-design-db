@@ -84,9 +84,10 @@ visual:
     value: https://www.sdsmu.edu.cn/4229/list.htm
     source: https://www.sdsmu.edu.cn/4229/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -135,8 +136,96 @@ visual:
     intrinsic_width: '342.68'
     intrinsic_height: '58.436'
     resolved_url: https://www.sdsmu.edu.cn/_upload/tpl/04/64/1124/template1124/images/logo.svg
-  color_palette: []
-  vi_resources: []
+  - asset_id: 51aa8cb114a0b600dc8d9b21
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.sdsmu.edu.cn/_upload/article/images/0a/4d/3d198ca5441c8ad879efc1afc415/2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png
+    source: https://www.sdsmu.edu.cn/4229/list.htm
+    file_name: 2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png
+    upstream_path: null
+    publisher: 山东第二医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东第二医科大学
+    format: png
+    width: 768
+    height: 150
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: ed613381f25c42199963c232a045560e75f363f5df778a2e1c01ca3bcd0e92d6
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/article/images/0a/4d/3d198ca5441c8ad879efc1afc415/2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png
+      label: '山东第二医科大学校名标准字（舒同体横版）   '
+      context: 'wp_entry  wp_articlecontent  paging_content wp_content_w6_0  '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 23428
+    representation: raster
+    resolved_url: https://www.sdsmu.edu.cn/_upload/article/images/0a/4d/3d198ca5441c8ad879efc1afc415/2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png
+    inspection_attempts:
+    - url: https://www.sdsmu.edu.cn/_upload/article/images/0a/4d/3d198ca5441c8ad879efc1afc415/2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png
+      status: content_inspected
+  color_palette:
+  - value: '#980000'
+    rgb:
+    - 152
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sdsmu.edu.cn/_upload/article/images/0a/4d/3d198ca5441c8ad879efc1afc415/2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png
+    page_source: https://www.sdsmu.edu.cn/4229/list.htm
+    asset_id: 51aa8cb114a0b600dc8d9b21
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#900000'
+    rgb:
+    - 144
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sdsmu.edu.cn/_upload/article/images/0a/4d/3d198ca5441c8ad879efc1afc415/2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png
+    page_source: https://www.sdsmu.edu.cn/4229/list.htm
+    asset_id: 51aa8cb114a0b600dc8d9b21
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: https://www.sdsmu.edu.cn/4229/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sdsmu.edu.cn/4229/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a6a09506afbc39e8d5b35cd9f7c6034d8dc54e688e7720384df5a9621cb5daad
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -313,14 +402,14 @@ location:
     source: https://www.sdsmu.edu.cn/4227/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 虞河校区
     address: null
     coordinates: null
     source: https://www.sdsmu.edu.cn/4227/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 山东第二医科大学位于山东省潍坊市，主管部门为山东省。官网列示全日制在校生18000余人（统计日期未注明）。官网列示教职工1600余人（统计日期未注明）。官网列示占地面积约2000亩（统计日期未注明）。简介列出浮烟山校区、虞河校区。

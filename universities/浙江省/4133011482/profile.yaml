@@ -84,9 +84,10 @@ visual:
     value: https://www.zufe.edu.cn/zcgk/xxbs.htm
     source: https://www.zufe.edu.cn/zcgk/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形校徽中心把“财”字与F、E字母变形成钟形古钱币，同时呈门、钟和读书人形意象。
     source: https://www.zufe.edu.cn/zcgk/xxbs.htm
@@ -224,7 +225,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 6b51ad096f62c0d8
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.zufe.edu.cn/zcgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zufe.edu.cn/zcgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 35c35741b1c23b39131c1cb977ea72d8f99de9a3fa66dee3b69ad01302117434
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -401,21 +418,21 @@ location:
     source: https://www.zufe.edu.cn/zcgk/xxgk.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 文华校区
     address: null
     coordinates: null
     source: https://www.zufe.edu.cn/zcgk/xxgk.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 长安校区
     address: null
     coordinates: null
     source: https://www.zufe.edu.cn/zcgk/xxgk.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 浙江财经大学位于浙江省杭州市，主管部门为浙江省。简介列出下沙校区、文华校区、长安校区。

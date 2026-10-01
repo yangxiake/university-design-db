@@ -66,12 +66,22 @@ research:
   audit_key: '4121013203'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#292947'
+    source: https://www.caie.edu.cn/info/1064/1867.htm
+    method: official_vi
+    label: 校徽蓝色底色
+    basis: 学校党政办公室2018年12月4日启用通知，明确校徽蓝色底色RGB41/41/71、CMYK91/91/56/32，并说明新标识2018年12月1日起启用；作为校徽标准色记录。
+    cmyk:
+    - 91
+    - 91
+    - 56
+    - 32
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: f606186cbd377825a9f0b2d089fec5ac6508039ad701c91dbba957a12f3a7511
   color_secondary:
     value: null
     source: null
@@ -80,12 +90,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.caie.edu.cn/info/1064/1867.htm
+    availability: found
     search_sources: []
+    source: https://www.caie.edu.cn/info/1064/1867.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -165,7 +176,77 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#292947'
+    rgb:
+    - 41
+    - 41
+    - 71
+    cmyk:
+    - 91
+    - 91
+    - 56
+    - 32
+    pantone: null
+    label: 校徽蓝色底色
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.caie.edu.cn/info/1064/1867.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 学校党政办公室2018年12月4日启用通知，明确校徽蓝色底色RGB41/41/71、CMYK91/91/56/32，并说明新标识2018年12月1日起启用；作为校徽标准色记录。
+    source_sha256: f606186cbd377825a9f0b2d089fec5ac6508039ad701c91dbba957a12f3a7511
+    source_field: visual.color_primary
+  vi_resources:
+  - title: 关于启用校徽和校名字体的通知
+    url: https://www.caie.edu.cn/info/1064/1867.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.caie.edu.cn/info/1064/1867.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f606186cbd377825a9f0b2d089fec5ac6508039ad701c91dbba957a12f3a7511
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽与校名.rar
+    url: http://uploadfile.caie.org/2018/12/20181204142741381.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.caie.edu.cn/info/1064/1867.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f606186cbd377825a9f0b2d089fec5ac6508039ad701c91dbba957a12f3a7511
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽与校名样图.rar
+    url: http://uploadfile.caie.org/2018/12/20181204143211383.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.caie.edu.cn/info/1064/1867.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f606186cbd377825a9f0b2d089fec5ac6508039ad701c91dbba957a12f3a7511
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

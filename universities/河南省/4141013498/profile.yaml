@@ -94,9 +94,97 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
-  vi_resources: []
+  logo_assets:
+  - asset_id: 3aef0cc680256a4c570457ce
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://news.zjtu.edu.cn/pic2018/images/logo.png
+    source: https://news.zjtu.edu.cn/content/ggtz/201405/1160.html
+    file_name: logo.png
+    upstream_path: null
+    publisher: 黄河交通学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 黄河交通学院
+    format: png
+    width: 445
+    height: 99
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f79119ba489005bd252bdf1c42c212e23455afcfad395fed8e19d0b8e09dc034
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /pic2018/images/logo.png
+      label: '  img-responsive '
+      context: 'container  headerbox   col-md-5  col-xs-12 logo auto   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 75055
+    representation: raster
+    resolved_url: https://news.zjtu.edu.cn/pic2018/images/logo.png
+    inspection_attempts:
+    - url: https://news.zjtu.edu.cn/pic2018/images/logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#0058A0'
+    rgb:
+    - 0
+    - 88
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://news.zjtu.edu.cn/pic2018/images/logo.png
+    page_source: https://news.zjtu.edu.cn/content/ggtz/201405/1160.html
+    asset_id: 3aef0cc680256a4c570457ce
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#0068A8'
+    rgb:
+    - 0
+    - 104
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://news.zjtu.edu.cn/pic2018/images/logo.png
+    page_source: https://news.zjtu.edu.cn/content/ggtz/201405/1160.html
+    asset_id: 3aef0cc680256a4c570457ce
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 关于启用黄河交通学院新校徽和新校名等标识的通知
+    url: https://news.zjtu.edu.cn/content/ggtz/201405/1160.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.zjtu.edu.cn/content/ggtz/201405/1160.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: efeb85cc424ae7178399a7ddc1a881cc4e27f797d52bb44195cc2367e2e78369
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

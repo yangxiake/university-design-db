@@ -101,12 +101,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.pzhu.edu.cn/xxgk/xxzc.htm
+    availability: found
     search_sources: []
+    source: https://www.pzhu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 鼎、书本与列有校名、校训标准字的圆环组成校徽。
     source: https://www.pzhu.edu.cn/xxgk/xxzc.htm
@@ -266,7 +267,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: ce3f502e15ad2c48
-  vi_resources: []
+  vi_resources:
+  - title: 第十章学校标识
+    url: https://www.pzhu.edu.cn/xxgk/xxzc.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.pzhu.edu.cn/xxgk/xxzc.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 06f7652e0e2b025de4b1b4de4b6a0b4f28944beebb677ff70753288618e60b04
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1983

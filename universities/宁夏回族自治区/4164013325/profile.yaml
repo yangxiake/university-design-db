@@ -16,12 +16,16 @@ identity:
     availability: unresearched
     search_sources: []
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.nxxhxy.com:443/
+    availability: found
     search_sources: []
+    source: https://www.nxxhxy.com:443/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 候选学校网站明确版权主体为教育部名单中的完整校名；主页或同主机明确首页链接。标题简称、新闻提及与旧名不作为独立确认依据。
+    evidence: 版权所有：宁夏大学新华学院@2014宁夏大学新华学院宁ICP备2020001
+    source_sha256: e1562081ce8d1508662c9c63e95c4bfa6c45973892e28c152836439a3724fec4
   short_name_zh:
     value: null
     source: null
@@ -108,8 +112,80 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 286719f0504203d245bdb49f
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.nxxhxy.com:443/templates/xhxy/images/logo.png
+    source: https://www.nxxhxy.com:443/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 宁夏大学新华学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 宁夏大学新华学院
+    format: png
+    width: 599
+    height: 155
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 001652a99c3b4a08ca7df0ed95b708e83f48f097406e353bbe5036f94fbee7c2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /templates/xhxy/images/logo.png
+      label: '   '
+      context: '  top  top_cont  logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 39001
+    representation: raster
+    resolved_url: https://www.nxxhxy.com:443/templates/xhxy/images/logo.png
+    inspection_attempts:
+    - url: https://www.nxxhxy.com:443/templates/xhxy/images/logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#005040'
+    rgb:
+    - 0
+    - 80
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.nxxhxy.com:443/templates/xhxy/images/logo.png
+    page_source: https://www.nxxhxy.com:443/
+    asset_id: 286719f0504203d245bdb49f
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#005840'
+    rgb:
+    - 0
+    - 88
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.nxxhxy.com:443/templates/xhxy/images/logo.png
+    page_source: https://www.nxxhxy.com:443/
+    asset_id: 286719f0504203d245bdb49f
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -171,12 +247,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.nxxhxy.com/zsw/
+    availability: found
     search_sources: []
+    source: https://www.nxxhxy.com:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -239,19 +319,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 宁夏银川市西夏区贺兰山西路686号
+    availability: found
     search_sources: []
+    source: https://www.nxxhxy.com:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有:宁夏大学新华学院@ 2014 宁夏大学新华学院宁ICP备2020001277号-1地址:宁夏银川市西夏区贺兰山西路686号邮政编码:750021联系电话:0951-2062708传真:0951-2062708
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '750021'
+    availability: found
     search_sources: []
+    source: https://www.nxxhxy.com:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有:宁夏大学新华学院@ 2014 宁夏大学新华学院宁ICP备2020001277号-1地址:宁夏银川市西夏区贺兰山西路686号邮政编码:750021联系电话:0951-2062708传真:0951-2062708
   coordinates:
     value: null
     source: null

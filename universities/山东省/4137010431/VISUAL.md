@@ -20,9 +20,16 @@
 |  | `#403070` | 64,48,112 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#483070` | 72,48,112 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.qlu.edu.cn/2021/1110/c2a246903/page.htm](https://www.qlu.edu.cn/2021/1110/c2a246903/page.htm)
+- [11校（院）办学理念、校训、文化、精神、校徽、校歌](https://www.qlu.edu.cn/2021/1110/c2a246903/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qlu.edu.cn/2021/1110/c2a246903/page.htm)。
+- [校徽下载.rar](https://www.qlu.edu.cn/_upload/article/files/92/4e/a8f4f0e64ae0b06170d01a7347d9/de6d58b9-829c-41ae-9260-cc5d873bb146.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qlu.edu.cn/2021/1110/c2a246903/page.htm)。
+- [校徽徽章下载.rar](https://www.qlu.edu.cn/_upload/article/files/92/4e/a8f4f0e64ae0b06170d01a7347d9/7e158b05-462f-4b8b-9689-71cc8c64bb09.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qlu.edu.cn/2021/1110/c2a246903/page.htm)。
+- [标识系统](https://www.qlu.edu.cn/bsxt/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qlu.edu.cn/bsxt/list.htm)。
+- [校徽下载.rar](https://www.qlu.edu.cn/_upload/article/files/92/4e/a8f4f0e64ae0b06170d01a7347d9/de6d58b9-829c-41ae-9260-cc5d873bb146.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qlu.edu.cn/bsxt/list.htm)。
+- [校徽徽章下载.rar](https://www.qlu.edu.cn/_upload/article/files/92/4e/a8f4f0e64ae0b06170d01a7347d9/7e158b05-462f-4b8b-9689-71cc8c64bb09.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qlu.edu.cn/bsxt/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

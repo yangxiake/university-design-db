@@ -223,6 +223,44 @@ visual:
     source_as_of: unspecified
     byte_size: 14468
     representation: raster
+  - asset_id: 4849f54e34ba3aa048dd9463
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.xztu.edu.cn/images/logo1.png
+    source: http://www.xztu.edu.cn/xxgk/xhxx.htm
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 忻州师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 忻州师范学院
+    format: png
+    width: 345
+    height: 91
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c39be78bd472fd0893598a9fb59a53e90823080a408cf2dff71401dfd01035db
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo1.png
+      label: '忻州师范学院 忻州师范学院  '
+      context: 'container_box  container_top clearfix  logo fl   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 51396
+    representation: raster
+    resolved_url: http://www.xztu.edu.cn/images/logo1.png
+    inspection_attempts:
+    - url: http://www.xztu.edu.cn/images/logo1.png
+      status: content_inspected
   color_palette:
   - value: '#BE1503'
     rgb:
@@ -328,7 +366,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 78268c38b549d111
-  vi_resources: []
+  - value: '#C01000'
+    rgb:
+    - 192
+    - 16
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.xztu.edu.cn/images/logo1.png
+    page_source: http://www.xztu.edu.cn/xxgk/xhxx.htm
+    asset_id: 4849f54e34ba3aa048dd9463
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#B81000'
+    rgb:
+    - 184
+    - 16
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.xztu.edu.cn/images/logo1.png
+    page_source: http://www.xztu.edu.cn/xxgk/xhxx.htm
+    asset_id: 4849f54e34ba3aa048dd9463
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校徽校训
+    url: http://www.xztu.edu.cn/xxgk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.xztu.edu.cn/xxgk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5d529a47e8612d408315bb75c6fc6250244e3d99c71d12cfab3b57fc9837c708
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1958

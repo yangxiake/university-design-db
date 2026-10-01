@@ -253,6 +253,44 @@ visual:
     source_as_of: unspecified
     byte_size: 33563
     representation: raster
+  - asset_id: 8ebd865bccf332335431a6f1
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.jxust.edu.cn/images/logo.jpg
+    source: https://www.jxust.edu.cn/xxgk/xxbs.htm
+    file_name: logo.jpg
+    upstream_path: null
+    publisher: 江西理工大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江西理工大学
+    format: jpeg
+    width: 400
+    height: 77
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: 2c252ded71d4c3afa8ab50ed8e9de6d68326ca8ec5ae4931671971c0f1ed7791
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo.jpg
+      label: '江西理工大学-红色版 江西理工大学-红色版  '
+      context: '  top  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 27821
+    representation: raster
+    resolved_url: https://www.jxust.edu.cn/images/logo.jpg
+    inspection_attempts:
+    - url: https://www.jxust.edu.cn/images/logo.jpg
+      status: content_inspected
   color_palette:
   - value: '#F2E371'
     rgb:
@@ -392,7 +430,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: f4780e79093d5a05
-  vi_resources: []
+  - value: '#801010'
+    rgb:
+    - 128
+    - 16
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.jxust.edu.cn/images/logo.jpg
+    page_source: https://www.jxust.edu.cn/xxgk/xxbs.htm
+    asset_id: 8ebd865bccf332335431a6f1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#881010'
+    rgb:
+    - 136
+    - 16
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.jxust.edu.cn/images/logo.jpg
+    page_source: https://www.jxust.edu.cn/xxgk/xxbs.htm
+    asset_id: 8ebd865bccf332335431a6f1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识-江西理工大学 - JiangXi University of Science and Technology
+    url: https://www.jxust.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jxust.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a709c86fb763eb1a630dfba61a3433f5c0860cc2960c1e69147c53318fe53607
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

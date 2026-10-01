@@ -90,9 +90,10 @@ visual:
     value: https://www.gzy.edu.cn/xxgk2/xxxg.htm
     source: https://www.gzy.edu.cn/xxgk2/xxxg.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -275,7 +276,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: ab459d33496694fa
-  vi_resources: []
+  vi_resources:
+  - title: 校训校徽-贵州中医药大学
+    url: https://www.gzy.edu.cn/xxgk2/xxxg.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gzy.edu.cn/xxgk2/xxxg.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dcac603bbf41de5b94404c52234d9de58a491a841e94354b8c8bacf2163f4968
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1965
@@ -442,17 +459,17 @@ location:
     source: https://www.gzy.edu.cn/xxgk2/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 甲秀校区
     address: null
     coordinates: null
     source: https://www.gzy.edu.cn/xxgk2/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 贵州中医药大学位于贵州省贵阳市，主管部门为贵州省。官网列示本科生19764人（统计时间2026-04）。官网列示专任教师1673人（统计时间2026-04）。官网列示占地面积1476亩（统计时间2026-04）。简介列出花溪校区、甲秀校区。
+    value: 贵州中医药大学位于贵州省贵阳市，主管部门为贵州省。官网列示全日制在校本科生19764人（统计时间2026-04）。官网列示专任教师1673人（统计时间2026-04）。官网列示占地面积1476亩（统计时间2026-04）。简介列出花溪校区、甲秀校区。
     availability: found
     search_sources: []
     source: https://www.gzy.edu.cn/xxgk2/xxjj.htm
@@ -479,11 +496,11 @@ statistics:
     verified: auto
     checked_at: '2026-10-01'
     collector: official_overview
-    basis: 本科生；原标注：本科生19764人；数据截至2026年4月
+    basis: 全日制在校本科生；原标注：全日制在校本科生19764人；数据截至2026年4月
     source_as_of: 2026-04
     date_basis: 数据截至2026年4月
     approximate: false
-    original_notation: 本科生19764人
+    original_notation: 全日制在校本科生19764人
   faculty_count:
     value: 1673
     availability: found

@@ -110,9 +110,10 @@ visual:
     value: https://www.nyist.edu.cn/xxgk/xxbs.htm
     source: https://www.nyist.edu.cn/xxgk/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校标以NYLG字母组成抽象图形。
     source: https://www.nyist.edu.cn/info/1004/1095.htm
@@ -217,6 +218,44 @@ visual:
     source_as_of: unspecified
     byte_size: 10154
     representation: raster
+  - asset_id: 6e3d37a4ce766659f7371cc7
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.nyist.edu.cn/images/logo_list.png
+    source: https://www.nyist.edu.cn/info/1004/1095.htm
+    file_name: logo_list.png
+    upstream_path: null
+    publisher: 南阳理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南阳理工学院
+    format: png
+    width: 183
+    height: 169
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 319818c20dcaf28f513988be56c8621e5f7959eb79ec83f35917b4b0d57292ca
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo_list.png
+      label: '   '
+      context: 'ej_zw  ej_zw_left  ej_zw_left_font left listlogo '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 10315
+    representation: raster
+    resolved_url: https://www.nyist.edu.cn/images/logo_list.png
+    inspection_attempts:
+    - url: https://www.nyist.edu.cn/images/logo_list.png
+      status: content_inspected
   color_palette:
   - value: '#E00010'
     rgb:
@@ -272,7 +311,55 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 888c81fdda7c6535
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识-南阳理工学院
+    url: https://www.nyist.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nyist.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: bc79443718a1dc9bfdada5b659a564096606f3ccdd373d082c572f99159e0763
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽下载
+    url: https://www.nyist.edu.cn/xiaohui/xiaohui.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nyist.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: bc79443718a1dc9bfdada5b659a564096606f3ccdd373d082c572f99159e0763
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽解读
+    url: https://www.nyist.edu.cn/info/1004/1095.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.nyist.edu.cn/info/1004/1095.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 97a43b7b8c213df7f3d6f65bd83ff88769a309201ad058408954a53ee2f7cbb5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1987

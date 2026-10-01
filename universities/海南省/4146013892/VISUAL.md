@@ -17,9 +17,11 @@
 |  | `#002972` | 0,41,114 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sanyau.edu.cn/_upload/tpl/00/18/24/template24/images/logo.svg) |
 |  | `#FFB900` | 255,185,0 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.sanyau.edu.cn/_upload/tpl/00/18/24/template24/images/logo.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.sanyau.edu.cn/2009/0120/c531a226755/page.htm](https://www.sanyau.edu.cn/2009/0120/c531a226755/page.htm)
+- [学院校徽解读](https://www.sanyau.edu.cn/2009/0120/c531a226755/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.sanyau.edu.cn/2009/0120/c531a226755/page.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

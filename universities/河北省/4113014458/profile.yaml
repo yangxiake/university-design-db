@@ -111,9 +111,10 @@ visual:
     value: https://www.zjku.edu.cn/col/1369449782677/index.html
     source: https://www.zjku.edu.cn/col/1369449782677/index.html
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -252,6 +253,48 @@ visual:
     source_as_of: unspecified
     byte_size: 33323
     representation: raster
+  - asset_id: 13c9650339f658f058ad99d5
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: http://www.zjku.edu.cn/atm/1369709560081/20210111105037927.png
+    source: https://www.zjku.edu.cn/col/1369449782677/index.html
+    file_name: 20210111105037927.png
+    upstream_path: null
+    publisher: 张家口学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 张家口学院
+    format: png
+    width: 626
+    height: 110
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ebf23feef2640ada4d01911b13b8f3626c8a17573eb18637eaa3da6d98a05666
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: http://www.zjku.edu.cn/atm/1369709560081/20210111105037927.png
+      label: '   '
+      context: 'am-touch js cssanimations -am-page   logo-Phone floatL   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 30827
+    representation: raster
+    resolved_url: https://www.zjku.edu.cn/atm/1369709560081/20210111105037927.png
+    inspection_attempts:
+    - url: http://www.zjku.edu.cn/atm/1369709560081/20210111105037927.png
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+    - url: https://www.zjku.edu.cn/atm/1369709560081/20210111105037927.png
+      status: content_inspected
   color_palette:
   - value: '#405090'
     rgb:
@@ -341,7 +384,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: bf5d5653bc082b84
-  vi_resources: []
+  vi_resources:
+  - title: 校训校徽校歌-张家口学院
+    url: https://www.zjku.edu.cn/col/1369449782677/index.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zjku.edu.cn/col/1369449782677/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 75ee03bf3d89114822c439fe543a686d1ac97a9dd134d8eccc236368776a5d98
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -520,14 +579,14 @@ location:
     source: https://www.zjku.edu.cn/col/1369449782644/index.html
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 平门校区
     address: null
     coordinates: null
     source: https://www.zjku.edu.cn/col/1369449782644/index.html
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 张家口学院位于河北省张家口市，主管部门为河北省。官网列示全日制在校生14031人（统计日期未注明）。官网列示教职工807人（统计日期未注明）。官网列示占地面积1296亩（统计日期未注明）。简介列出明湖校区、平门校区。

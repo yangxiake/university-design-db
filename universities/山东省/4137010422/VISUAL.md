@@ -25,9 +25,17 @@
 |  | `#A00810` | 160,8,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#A80810` | 168,8,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- [山东大学外国语学院 PPT模板发布/下载页](https://www.flc.sdu.edu.cn/info/1256/22048.htm)：["院系PPT模板"]；格式 HTML；访问条件 校方公开HTML页已读取；页面内附件或外部下载目标另行索引。官网记录[来源](https://www.flc.sdu.edu.cn/info/1256/22048.htm)。
+  - 发布者：山东大学外国语学院；适用范围：院系专用。
+- [【红色】山大外国语学院 PPT模板.pptx](https://www.flc.sdu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1233378149&wbfileid=15996446)：["院系PPT模板"]；格式 PPTX；访问条件 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码。官网记录[来源](https://www.flc.sdu.edu.cn/info/1256/22048.htm)。
+  - 发布者：山东大学外国语学院；适用范围：院系专用。
+  - 文件读取结果：inspection_failed；错误与已尝试网址见profile.yaml。
+- [【紫色】山大外国语学院 PPT模板.pptx](https://www.flc.sdu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1233378149&wbfileid=15996447)：["院系PPT模板"]；格式 PPTX；访问条件 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码。官网记录[来源](https://www.flc.sdu.edu.cn/info/1256/22048.htm)。
+  - 发布者：山东大学外国语学院；适用范围：院系专用。
+  - 文件读取结果：inspection_failed；错误与已尝试网址见profile.yaml。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

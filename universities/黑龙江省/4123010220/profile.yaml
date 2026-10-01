@@ -108,12 +108,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    availability: found
     search_sources: []
+    source: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -217,6 +218,44 @@ visual:
     source_as_of: unspecified
     byte_size: 110898
     representation: raster
+  - asset_id: a214cecce9dfa039552e5570
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://dwxcb.nepu.edu.cn/images/logo.png
+    source: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 东北石油大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 东北石油大学
+    format: png
+    width: 624
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ab8ec8c2f92849e13e46df998bb271cf7b2162c7ccb92e64cd163ce207e4d3de
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo.png
+      label: '宣传部 宣传部  '
+      context: ' header  mid logo w   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 18540
+    representation: raster
+    resolved_url: https://dwxcb.nepu.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: https://dwxcb.nepu.edu.cn/images/logo.png
+      status: content_inspected
   color_palette:
   - value: '#0880A0'
     rgb:
@@ -272,7 +311,87 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 867911d977dd6b81
-  vi_resources: []
+  vi_resources:
+  - title: 东北石油大学学校标识
+    url: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 12ec5b4a9f24c58dc880b7ae313b1f6bedbc52d4b6182d55660b81f1b9147af5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 东北石油大学校徽矢量图
+    url: https://dwxcb.nepu.edu.cn/dongbeishiyoudaxuexiaohuishiliangtu.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 12ec5b4a9f24c58dc880b7ae313b1f6bedbc52d4b6182d55660b81f1b9147af5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 东北石油大学校徽
+    url: https://dwxcb.nepu.edu.cn/dongbeishiyoudaxuexiaohui.jpg
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - JPG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 12ec5b4a9f24c58dc880b7ae313b1f6bedbc52d4b6182d55660b81f1b9147af5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 东北石油大学LOGO
+    url: https://dwxcb.nepu.edu.cn/dongbeishiyoudaxue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 12ec5b4a9f24c58dc880b7ae313b1f6bedbc52d4b6182d55660b81f1b9147af5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 东北石油大学校徽矢量图.zip
+    url: https://dwxcb.nepu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1596502497&wbfileid=8552BA94E19410C5D9F835F596DC70E0
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://dwxcb.nepu.edu.cn/info/1040/2084.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 12ec5b4a9f24c58dc880b7ae313b1f6bedbc52d4b6182d55660b81f1b9147af5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

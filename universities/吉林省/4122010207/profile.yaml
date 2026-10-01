@@ -81,12 +81,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://newciet.jlufe.edu.cn/info/1096/3304.htm
+    availability: found
     search_sources: []
+    source: https://newciet.jlufe.edu.cn/info/1096/3304.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形徽志由中文校名、英文译名及核心图案构成，中文校名字体采用郭沫若字体。
     source: https://www.jlufe.edu.cn/cdgk/xxzc.htm
@@ -165,6 +166,44 @@ visual:
     source_as_of: unspecified
     byte_size: 18058
     representation: raster
+  - asset_id: 5c89d3c51ba1075604d86b6d
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://newciet.jlufe.edu.cn/dfiles/19886/skin/default/images/app_logo.jpg
+    source: https://newciet.jlufe.edu.cn/info/1096/3303.htm
+    file_name: app_logo.jpg
+    upstream_path: null
+    publisher: 吉林财经大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 吉林财经大学
+    format: png
+    width: 230
+    height: 48
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 8fbd131d66e3c74be3b66a39d5399f0d804d7685a36a9246d9a3b842992bab9e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../dfiles/19886/skin/default/images/app_logo.jpg
+      label: '   '
+      context: '    appheader phone  head-left '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 9170
+    representation: raster
+    resolved_url: https://newciet.jlufe.edu.cn/dfiles/19886/skin/default/images/app_logo.jpg
+    inspection_attempts:
+    - url: https://newciet.jlufe.edu.cn/dfiles/19886/skin/default/images/app_logo.jpg
+      status: content_inspected
   color_palette:
   - value: '#885048'
     rgb:
@@ -220,7 +259,55 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 705918a5eee6ba9f
-  vi_resources: []
+  vi_resources:
+  - title: 校徽、校名矢量图-国际经济贸易学院-吉林财经大学
+    url: https://newciet.jlufe.edu.cn/info/1096/3304.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://newciet.jlufe.edu.cn/info/1096/3304.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 29f47b2a3bda32cd6982ea682714b96b2c8234ea0cb0a4af7b57e6b95429cb16
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 吉林财经大学-校徽校名.rar
+    url: http://newciet.jlufe.edu.cn/Graduate/4/2018-07-29/upfiles/201109/20110913092517899.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://newciet.jlufe.edu.cn/info/1096/3304.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 29f47b2a3bda32cd6982ea682714b96b2c8234ea0cb0a4af7b57e6b95429cb16
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽图案素材-国际经济贸易学院-吉林财经大学
+    url: https://newciet.jlufe.edu.cn/info/1096/3303.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://newciet.jlufe.edu.cn/info/1096/3303.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0d43b5b45efc5499094f9b66d12cedac0adf707dc1111e02ab351a96965bffdf
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1946

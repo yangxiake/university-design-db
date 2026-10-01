@@ -9,6 +9,8 @@
 | 校徽 | [文件](https://www.shanghairanking.cn/_uni/logo/90958165.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | png | 未声明 | indexed_not_fetched | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.wtu.edu.cn/new2023/img/logo.png) · [来源](https://www.wtu.edu.cn/) | png | 349 × 72 | content_inspected | 未独立声明 |
 | 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/武汉纺织大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 236 × 236 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://vi.wtu.edu.cn/imgs/logo_flex.png) · [来源](https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm) | png | 396 × 102 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://vi.wtu.edu.cn/imgs/two_logo.png) · [来源](https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm) | png | 393 × 59 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -20,10 +22,15 @@
 |  | `#003070` | 0,48,112 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#003080` | 0,48,128 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://vi.wtu.edu.cn/index.htm](https://vi.wtu.edu.cn/index.htm)
+- [视觉识别系统](https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm)。
+- [【公开】武汉纺织大学VI手册PDF版.zip](https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=7C4119A9F1FBE2C7EBF44B212161611B)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm)。
+- [【公开】A-01标志规范.pdf](https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=AB44CDBE8643A36592E8A948E7CDEA59)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm)。
+- [【公开】A-04标志的标准组合.pdf](https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=B4DD70CE71782B8C634C4C292F45D679)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm)。
+- [武汉纺织大学视觉识别系统手册](https://vi.wtu.edu.cn/index.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.wtu.edu.cn/index.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

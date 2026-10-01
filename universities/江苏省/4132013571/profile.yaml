@@ -80,12 +80,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    availability: found
     search_sources: []
+    source: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -165,6 +166,82 @@ visual:
     byte_size: 21001
     representation: raster
     resolved_url: http://www.wxu.edu.cn/images/logo260106.png
+  - asset_id: e34b78df5804d58dd7310523
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.wxu.edu.cn/images/logo-1.png
+    source: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    file_name: logo-1.png
+    upstream_path: null
+    publisher: 无锡太湖学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 无锡太湖学院
+    format: png
+    width: 446
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 7c4420d876de749bfa08db69a869eee92eb97ffbc1dea18b2b129714e074cf51
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo-1.png
+      label: '   '
+      context: 'm_header_box ar_wap   m_header  logo  '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 21001
+    representation: raster
+    resolved_url: https://www.wxu.edu.cn/images/logo-1.png
+    inspection_attempts:
+    - url: https://www.wxu.edu.cn/images/logo-1.png
+      status: content_inspected
+  - asset_id: 82c5c61db0ed209c75d5ef10
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.wxu.edu.cn/images/logo260106.png
+    source: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    file_name: logo260106.png
+    upstream_path: null
+    publisher: 无锡太湖学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 无锡太湖学院
+    format: png
+    width: 446
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 7c4420d876de749bfa08db69a869eee92eb97ffbc1dea18b2b129714e074cf51
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo260106.png
+      label: '   '
+      context: 'header ar_web  wp  logo  flex-v-center '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 21001
+    representation: raster
+    resolved_url: https://www.wxu.edu.cn/images/logo260106.png
+    inspection_attempts:
+    - url: https://www.wxu.edu.cn/images/logo260106.png
+      status: content_inspected
   color_palette:
   - value: '#E00008'
     rgb:
@@ -234,7 +311,91 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#E00008'
+    rgb:
+    - 224
+    - 0
+    - 8
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.wxu.edu.cn/images/logo-1.png
+    page_source: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    asset_id: e34b78df5804d58dd7310523
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E00010'
+    rgb:
+    - 224
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.wxu.edu.cn/images/logo-1.png
+    page_source: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    asset_id: e34b78df5804d58dd7310523
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E00008'
+    rgb:
+    - 224
+    - 0
+    - 8
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.wxu.edu.cn/images/logo260106.png
+    page_source: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    asset_id: 82c5c61db0ed209c75d5ef10
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#E00010'
+    rgb:
+    - 224
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.wxu.edu.cn/images/logo260106.png
+    page_source: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    asset_id: 82c5c61db0ed209c75d5ef10
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 校徽校名
+    url: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.wxu.edu.cn/xxgk/xhxm.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 97b03b7e34113d542b50ad4b74cb0b7b1b706bcbcb515bf9db50fe59ca9b90a6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

@@ -32,7 +32,7 @@
 - `#A72126`：[来源](https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf)；PDF第14页庆典红RGB R167 G33 B38换写HEX。
 - `#005375`：[来源](https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf)；PDF第14页庆典红色卡直接印出的HEX/WEB；与同页哈工大蓝相同。
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

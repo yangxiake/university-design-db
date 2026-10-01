@@ -137,9 +137,10 @@ visual:
     value: https://www.scau.edu.cn/xxbs_17923/list.htm
     source: https://www.scau.edu.cn/xxbs_17923/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 绿色双圆校徽内圈结合A字母、“1909”与主体图形，外圈列中英文校名。
     source: https://www.scau.edu.cn/xxbs_17923/list.htm
@@ -585,7 +586,39 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 48eb309569f055d1
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.scau.edu.cn/xxbs_17923/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.scau.edu.cn/xxbs_17923/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4c8723af131d2b4f7f91be525588d87fc930a10483473f5435c5e81c870278f9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: A4校标组合规范下载
+    url: https://www.scau.edu.cn/_upload/article/files/86/ff/d86c791f4427aecb85106976d08b/834da8cc-09dd-4fc3-88ed-ef755492a9eb.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.scau.edu.cn/xxbs_17923/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4c8723af131d2b4f7f91be525588d87fc930a10483473f5435c5e81c870278f9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1909

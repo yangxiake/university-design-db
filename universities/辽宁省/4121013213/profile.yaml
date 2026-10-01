@@ -83,9 +83,10 @@ visual:
     value: https://www.jymu.edu.cn/?about_23/
     source: https://www.jymu.edu.cn/?about_23/
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -140,8 +141,114 @@ visual:
       status: access_or_parse_gap
       error_type: HTTPError
       detail: 'HTTP Error 404: Not Found'
+  - asset_id: 21d9bca99b9b1be1a38d364c
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.jymu.edu.cn/images/logo.png
+    source: https://www.jymu.edu.cn/?about_23/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 锦州医科大学医疗学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 锦州医科大学医疗学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'd2  block  logo   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://www.jymu.edu.cn/images/logo.png
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+    - url: http://www.jymu.edu.cn/images/logo.png
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+  - asset_id: b2ba7117b1ea35dc92f8de86
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.jymu.edu.cn/images/ph_logo.png
+    source: https://www.jymu.edu.cn/?about_23/
+    file_name: ph_logo.png
+    upstream_path: null
+    publisher: 锦州医科大学医疗学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 锦州医科大学医疗学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: images/ph_logo.png
+      label: '  img_s '
+      context: '  head_ph  containers  ph_logo '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    inspection_attempts:
+    - url: https://www.jymu.edu.cn/images/ph_logo.png
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+    - url: http://www.jymu.edu.cn/images/ph_logo.png
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: HTTPError
+      detail: 'HTTP Error 404: Not Found'
   color_palette: []
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训
+    url: https://www.jymu.edu.cn/?about_23/
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jymu.edu.cn/?about_23/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b560b961c60ab3f410c90ccb967b7657eabcd2e9ef13b7e25e96254399d4872c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null

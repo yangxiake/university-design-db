@@ -28,9 +28,14 @@
 |  | `#E07828` | 224,120,40 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#E88028` | 232,128,40 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.neau.edu.cn/info/1029/16213.htm](https://www.neau.edu.cn/info/1029/16213.htm)
+- [形象识别-东北农业大学](https://www.neau.edu.cn/info/1029/16213.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.neau.edu.cn/info/1029/16213.htm)。
+- [002A-1-02 学校标志方格制图.pdf](https://www.neau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1843618696&wbfileid=13080105)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.neau.edu.cn/info/1029/16213.htm)。
+- [001A-1-01 彩色标志及释义.pdf](https://www.neau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1843618696&wbfileid=13080106)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.neau.edu.cn/info/1029/16213.htm)。
+- [007A-3-01 标准色与辅助色.pdf](https://www.neau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1843618696&wbfileid=13080109)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.neau.edu.cn/info/1029/16213.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

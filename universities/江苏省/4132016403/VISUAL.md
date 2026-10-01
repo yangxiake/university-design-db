@@ -25,10 +25,11 @@
 - `#000042`：[来源](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity)；官网 RGB 0,0,66 换算为 HEX
 - `#010544`：[来源](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity)；官网直接列出的 HEX
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity)
+- [标准色](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

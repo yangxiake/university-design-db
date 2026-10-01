@@ -81,12 +81,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.tjfsu.edu.cn/34/list.htm
+    availability: found
     search_sources: []
+    source: https://www.tjfsu.edu.cn/34/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -223,7 +224,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 97b56a41e0aaa3b8
-  vi_resources: []
+  vi_resources:
+  - title: 天外校徽
+    url: https://www.tjfsu.edu.cn/34/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.tjfsu.edu.cn/34/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a027245c345db9bf93a927673a5976f0295cdb33cbf4b608e86e55052450f289
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -380,14 +397,14 @@ location:
     source: https://www.tjfsu.edu.cn/8/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 滨海校区
     address: null
     coordinates: null
     source: https://www.tjfsu.edu.cn/8/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 天津外国语大学位于天津市，主管部门为天津市。官网列示总占地面积47万平方米（统计日期未注明）。简介列出五大道校区、滨海校区。

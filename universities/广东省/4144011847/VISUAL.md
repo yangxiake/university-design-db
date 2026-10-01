@@ -20,7 +20,7 @@
 |  | `#F81820` | 248,24,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Foshan_University/png/logo_red_800x800.png) |
 |  | `#EC1C24` | 236,28,36 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Foshan_University/svg/logo_red.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

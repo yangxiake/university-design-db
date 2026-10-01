@@ -110,9 +110,10 @@ visual:
     value: https://www.oit.edu.cn/xxgk/xxbs.htm
     source: https://www.oit.edu.cn/xxgk/xxbs.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -281,7 +282,96 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: e3bdfeefb7fb4f5e
-  vi_resources: []
+  vi_resources:
+  - title: 鄂尔多斯应用技术学院官网视觉资源页 PPT模板发布/下载页
+    url: https://www.oit.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    source: https://www.oit.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d9f7430346cce7773bb9b24cb0f5bebbeab63d302d5df423935607803f8a3049
+    note: 发布范围：学校通用；按发布页说明使用。
+    publisher: 鄂尔多斯应用技术学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+  - title: 学校校徽、校名、院系旗帜统一标识 1.学校校徽、校名标识可下载附件《基础部分》2.院系旗帜统一标识、办公室相关LOGO可下载附件《环境应用—学校宣传》 3.学校统一PPT模板可下载附件《PPT模板
+      2025.09.11
+    url: https://www.oit.edu.cn/info/1367/44507.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    source: https://www.oit.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d9f7430346cce7773bb9b24cb0f5bebbeab63d302d5df423935607803f8a3049
+    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
+    publisher: 鄂尔多斯应用技术学院官网视觉资源页
+    use_scope: school
+    content_read: true
+    download_status: page_read
+    file_inspection:
+      status: target_page_read
+      checked_at: '2026-10-02'
+      attempts:
+      - url: https://www.oit.edu.cn/info/1367/44507.htm
+        status: access_or_parse_gap
+        error_type: URLError
+        detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+      - url: http://www.oit.edu.cn/info/1367/44507.htm
+        status: target_page_read
+        resolved_url: http://www.oit.edu.cn/info/1367/44507.htm
+      resolved_url: http://www.oit.edu.cn/info/1367/44507.htm
+      page_metadata:
+        title: 学校校徽、校名、院系旗帜统一标识-鄂尔多斯应用技术学院
+        sha256: 5c66a2a0390e20372bb76eee489f2ae316fbd976821bdfb3eb034d31a295957f
+        byte_size: 18385
+  - title: 校徽
+    url: https://www.oit.edu.cn/info/1367/9496.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.oit.edu.cn/info/1367/9496.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ad2d6e083a651f4c48be84bb05173bfa09ea9b77599e6125f917e186ca0258a8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽(1).pdf
+    url: https://www.oit.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1571206127&wbfileid=E83FCC5784F46031CC83E0B47633E27D
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.oit.edu.cn/info/1367/9496.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ad2d6e083a651f4c48be84bb05173bfa09ea9b77599e6125f917e186ca0258a8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -321,19 +411,20 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.oit.edu.cn/xxgk/xxbs.htm
+    availability: found
     search_sources: []
+    source: https://www.oit.edu.cn/xxgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 发布范围：学校通用；按发布页说明使用。
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 鄂尔多斯应用技术学院官网视觉资源页
+    availability: found
     search_sources: []
+    source: https://www.oit.edu.cn/xxgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-02'
   official_template_terms:
     value: null
     source: null
@@ -452,14 +543,14 @@ location:
     source: https://www.oit.edu.cn/xxgk.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 东胜校区
     address: null
     coordinates: null
     source: https://www.oit.edu.cn/xxgk.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 鄂尔多斯应用技术学院位于内蒙古自治区鄂尔多斯市，主管部门为内蒙古自治区。官网列示在校生9400余人（统计日期未注明）。官网列示教职工703人（统计日期未注明）。官网列示占地面积76.62万平方米（统计日期未注明）。简介列出康巴什校区、东胜校区。

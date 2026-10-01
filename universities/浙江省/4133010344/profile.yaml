@@ -90,9 +90,10 @@ visual:
     value: https://www.zcmu.edu.cn/xqzl/xxbs.htm
     source: https://www.zcmu.edu.cn/xqzl/xxbs.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 圆形校标采用蓝色基调。
     source: https://www.zcmu.edu.cn/xqzl/xxzc.htm
@@ -206,6 +207,44 @@ visual:
     source_as_of: unspecified
     byte_size: 18859
     representation: raster
+  - asset_id: d3e1987a18b119b3d5ca58bd
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.zcmu.edu.cn/images/logo_0315.png
+    source: https://www.zcmu.edu.cn/xqzl/xxbs.htm
+    file_name: logo_0315.png
+    upstream_path: null
+    publisher: 浙江中医药大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 浙江中医药大学
+    format: png
+    width: 1581
+    height: 361
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: e6ae3cadac15003485a9951cdcb1b1db85d6d0606d9b23d98ed67a6a25989464
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../images/logo_0315.png
+      label: '浙中医大新主页 浙中医大新主页  '
+      context: 'block  logo     '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 105923
+    representation: raster
+    resolved_url: https://www.zcmu.edu.cn/images/logo_0315.png
+    inspection_attempts:
+    - url: https://www.zcmu.edu.cn/images/logo_0315.png
+      status: content_inspected
   color_palette:
   - value: '#173888'
     rgb:
@@ -277,7 +316,57 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 14001d152a10846b
-  vi_resources: []
+  - value: '#103880'
+    rgb:
+    - 16
+    - 56
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.zcmu.edu.cn/images/logo_0315.png
+    page_source: https://www.zcmu.edu.cn/xqzl/xxbs.htm
+    asset_id: d3e1987a18b119b3d5ca58bd
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#103080'
+    rgb:
+    - 16
+    - 48
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.zcmu.edu.cn/images/logo_0315.png
+    page_source: https://www.zcmu.edu.cn/xqzl/xxbs.htm
+    asset_id: d3e1987a18b119b3d5ca58bd
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: https://www.zcmu.edu.cn/xqzl/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zcmu.edu.cn/xqzl/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0253d6d3107b2280a9305a618dab6fdd60806a338fc83d8f7c3c86e191df1021
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1953

@@ -104,9 +104,10 @@ visual:
     value: https://vi.wtu.edu.cn/index.htm
     source: https://vi.wtu.edu.cn/index.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -210,6 +211,82 @@ visual:
     source_as_of: unspecified
     byte_size: 15260
     representation: raster
+  - asset_id: 3baab966f7022470b5ba0c2c
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.wtu.edu.cn/imgs/logo_flex.png
+    source: https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm
+    file_name: logo_flex.png
+    upstream_path: null
+    publisher: 武汉纺织大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉纺织大学
+    format: png
+    width: 396
+    height: 102
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 739adb86e0d8f52ee489ce2edd78e8c37b4bcf81949acaaff8fccbbbe06884db
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../imgs/logo_flex.png
+      label: '   '
+      context: 'header2-top  width1400 header2-top-box  header2-top-left   '
+      position: 1
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 8132
+    representation: raster
+    resolved_url: https://vi.wtu.edu.cn/imgs/logo_flex.png
+    inspection_attempts:
+    - url: https://vi.wtu.edu.cn/imgs/logo_flex.png
+      status: content_inspected
+  - asset_id: 1a557b688a541df6c98e3713
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://vi.wtu.edu.cn/imgs/two_logo.png
+    source: https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm
+    file_name: two_logo.png
+    upstream_path: null
+    publisher: 武汉纺织大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉纺织大学
+    format: png
+    width: 393
+    height: 59
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 72b9dc1d94a216244a1ad67a1408b02cbfa3e59ae322bda9cae828b6eaa9327c
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../imgs/two_logo.png
+      label: '  m_logo '
+      context: 'move-navigation  m_img hidden-lg hidden-md  headlf   '
+      position: 3
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 7545
+    representation: raster
+    resolved_url: https://vi.wtu.edu.cn/imgs/two_logo.png
+    inspection_attempts:
+    - url: https://vi.wtu.edu.cn/imgs/two_logo.png
+      status: content_inspected
   color_palette:
   - value: '#003078'
     rgb:
@@ -265,7 +342,87 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 8e07fd183121a2e1
-  vi_resources: []
+  vi_resources:
+  - title: 视觉识别系统
+    url: https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f2daa61b7dbe7112837befe2fe79cf4d9a3e929082b9bebe961b1d416d55367e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 【公开】武汉纺织大学VI手册PDF版.zip
+    url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=7C4119A9F1FBE2C7EBF44B212161611B
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f2daa61b7dbe7112837befe2fe79cf4d9a3e929082b9bebe961b1d416d55367e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 【公开】A-01标志规范.pdf
+    url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=AB44CDBE8643A36592E8A948E7CDEA59
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f2daa61b7dbe7112837befe2fe79cf4d9a3e929082b9bebe961b1d416d55367e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 【公开】A-04标志的标准组合.pdf
+    url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=B4DD70CE71782B8C634C4C292F45D679
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f2daa61b7dbe7112837befe2fe79cf4d9a3e929082b9bebe961b1d416d55367e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 武汉纺织大学视觉识别系统手册
+    url: https://vi.wtu.edu.cn/index.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.wtu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ea98afd932a1645493440c20576821caf98009d5665423c20927e55f3d90a266
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1958

@@ -114,12 +114,13 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xcb.zut.edu.cn/info/2407/15281.htm
+    availability: found
     search_sources: []
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -258,6 +259,44 @@ visual:
     source_as_of: unspecified
     byte_size: 13131
     representation: raster
+  - asset_id: 8fe05c5f31f3e87fed42aec1
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://xcb.zut.edu.cn/static/picture/logo.png
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 中原工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中原工学院
+    format: png
+    width: 977
+    height: 88
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 74d4376abc0e923fcce81a0b3a962931a2b8a74b0366674ecca817d866fba820
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../static/picture/logo.png
+      label: '   '
+      context: ' logo box_table  box_table_cell   '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 24988
+    representation: raster
+    resolved_url: https://xcb.zut.edu.cn/static/picture/logo.png
+    inspection_attempts:
+    - url: https://xcb.zut.edu.cn/static/picture/logo.png
+      status: content_inspected
   color_palette:
   - value: '#901930'
     rgb:
@@ -363,7 +402,185 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: cf14627fdb573647
-  vi_resources: []
+  - value: '#800000'
+    rgb:
+    - 128
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://xcb.zut.edu.cn/static/picture/logo.png
+    page_source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    asset_id: 8fe05c5f31f3e87fed42aec1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#880000'
+    rgb:
+    - 136
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://xcb.zut.edu.cn/static/picture/logo.png
+    page_source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    asset_id: 8fe05c5f31f3e87fed42aec1
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 中原工学院校徽、校徽校名组合、标准字
+    url: https://xcb.zut.edu.cn/info/2407/15281.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽色稿和反白稿标准.pdf
+    url: https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=7960610993657EADFFAC425589A15097
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标徽校名组合反白稿.png
+    url: https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=153683360F94027E73E7DAEDE0C82B8D
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽.png
+    url: https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=368CECDD885DD3503FC18F78ED538B8F
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标徽校名组合竖.png
+    url: https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=F91ED5A465B9C7127BA702B5CD690A62
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 标徽校名组合.png
+    url: https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=9D6938CDCBE46EA19781A205F01286AE
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽反白稿.png
+    url: https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=2C5682516FACF4628738E12714CD7CED
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校徽实底.png
+    url: https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=2FC66A5154C95EEB1957788E9B88FCE3
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 校名反白稿.png
+    url: https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=441B49B36AACA60F8A27B9331E23B94E
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://xcb.zut.edu.cn/info/2407/15281.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: cf46bdeed3de6e7f3d105b9a011d28b0ee12e9b53fabe9b18f00913820377e8d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1955

@@ -14,8 +14,9 @@
 | 创办年份口径 | 校级章程或学校标识说明明确标为建校年份；区别于现校合并或更名年份 | | | |
 | 校训 | 求实鼎新 | official_or_curated | 2026-09-30 | [来源](https://www.ustb.edu.cn/xxgk/xxjj/index.htm) |
 | 校歌 | 《北科华章》 | official_or_curated | 2026-10-01 | [来源](https://www.ustb.edu.cn/xxgk/dxzc/index.htm) |
-| 官方PPT入口 | https://info.ustb.edu.cn/xzzx/zysc/index.htm | official_or_curated | 2026-09-30 | [来源](https://info.ustb.edu.cn/xzzx/zysc/index.htm) |
-| 官方资源发布方 | 北京科技大学信息化建设与管理办公室 | official_or_curated | 2026-09-30 | [来源](https://info.ustb.edu.cn/xzzx/zysc/index.htm) |
+| 官方PPT入口 | https://info.ustb.edu.cn/xzzx/zysc/index.htm | official_or_curated | 2026-10-02 | [来源](https://info.ustb.edu.cn/xzzx/zysc/index.htm) |
+| 官方PPT入口口径 | 发布范围：学校通用；按发布页说明使用。 | | | |
+| 官方资源发布方 | 北京科技大学信息化建设与管理办公室 | official_or_curated | 2026-10-02 | [来源](https://info.ustb.edu.cn/xzzx/zysc/index.htm) |
 | 中文简称 | 北科大 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
 | 中文简称资料时间 | 2026-06-09 | | | |
 | 英文简称 | USTB | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |

@@ -83,9 +83,10 @@ visual:
     value: https://www.gzgs.edu.cn/xxgk/lnfz/xmxh.htm
     source: https://www.gzgs.edu.cn/xxgk/lnfz/xmxh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -200,7 +201,23 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.gzgs.edu.cn/xxgk/lnfz/xmxh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gzgs.edu.cn/xxgk/lnfz/xmxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: beb485c50a950ddfc71c8cb681a3089e9029e06ce5dcf7550cdb62af37859e65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1995
@@ -374,14 +391,14 @@ location:
     source: https://www.gzgs.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 三水校区
     address: null
     coordinates: null
     source: https://www.gzgs.edu.cn/xxgk/xxjj.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 广州工商学院位于广东省广州市，主管部门为广东省教育厅。官网列示在校生28000余人（统计时间2026-03）。官网列示学校总占地面积约1400亩（统计时间2026-03）。简介列出花都校区、三水校区。

@@ -84,9 +84,10 @@ visual:
     value: https://www.ctbu.edu.cn/xxgk/xhxxxg.htm
     source: https://www.ctbu.edu.cn/xxgk/xhxxxg.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: null
     source: null
@@ -129,6 +130,44 @@ visual:
     source_as_of: unspecified
     byte_size: 84545
     representation: raster
+  - asset_id: 5c5aadf0aa1a4e8458bb8b59
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.ctbu.edu.cn/image/logo3.png
+    source: https://www.ctbu.edu.cn/xxgk/xhxxxg.htm
+    file_name: logo3.png
+    upstream_path: null
+    publisher: 重庆工商大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 重庆工商大学
+    format: png
+    width: 224
+    height: 42
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 4845fcef4ab33271ba50390177a4a02d7653fff36039f599a6a7a2efa189a0c1
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../image/logo3.png
+      label: '   '
+      context: 'wal index-bq clearfix  top clearfix  col-1 fl   '
+      position: 5
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 6929
+    representation: raster
+    resolved_url: https://www.ctbu.edu.cn/image/logo3.png
+    inspection_attempts:
+    - url: https://www.ctbu.edu.cn/image/logo3.png
+      status: content_inspected
   color_palette:
   - value: '#281068'
     rgb:
@@ -184,7 +223,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: b1ae2c94125d48a1
-  vi_resources: []
+  vi_resources:
+  - title: 校徽校训校歌
+    url: https://www.ctbu.edu.cn/xxgk/xhxxxg.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ctbu.edu.cn/xxgk/xhxxxg.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1d601d85383ec9ca0562e8ad2d0c79f87088f0b1c0660dc6132500df30524418
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: null
@@ -375,14 +430,14 @@ location:
     source: https://www.ctbu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 茶园校区
     address: 重庆市南岸区梨花大道853号/邮政编码:400072
     coordinates: null
     source: https://www.ctbu.edu.cn/xxgk/xxjj.htm
     basis: 官网简介校区地址明确标注
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 重庆工商大学位于重庆市，主管部门为重庆市。官网列示在校学生3万余人（统计日期未注明）。官网列示教职工2406人（统计日期未注明）。官网列示学校占地面积2896亩（统计日期未注明）。简介列出南岸校区、茶园校区。

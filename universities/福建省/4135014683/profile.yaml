@@ -109,9 +109,10 @@ visual:
     value: https://www.fpnu.edu.cn/xxgk1/xbxx.htm
     source: https://www.fpnu.edu.cn/xxgk1/xbxx.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 徽志采用内方外圆的图章形态，以传统象形方式表现学校文化。
     source: https://www.fpnu.edu.cn/xxgk1/xxzc.htm
@@ -321,7 +322,23 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 60814d37517ee98b
-  vi_resources: []
+  vi_resources:
+  - title: 校标校训
+    url: https://www.fpnu.edu.cn/xxgk1/xbxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.fpnu.edu.cn/xxgk1/xbxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 75679239e5bd6644523ddfcc6732985c9cfd07d6aecb2402ec5731eceb2bb399
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1977

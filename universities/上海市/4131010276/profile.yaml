@@ -81,7 +81,7 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: auto_collected
-  checked_at: '2026-10-01'
+  checked_at: '2026-10-02'
   reviewed_by: null
   collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
@@ -105,9 +105,10 @@ visual:
     value: https://www.ecupl.edu.cn/614/list.htm
     source: https://www.ecupl.edu.cn/614/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 校标为弧边等边三角形，HDZF组成韬奋楼造型，底部为天平和书本，上方弧边列英文全称。
     source: https://www.ecupl.edu.cn/xxzc/list.htm
@@ -222,6 +223,44 @@ visual:
     source_as_of: unspecified
     byte_size: 14763
     representation: raster
+  - asset_id: 505aebc6e984cdd3be242793
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.ecupl.edu.cn/_upload/column/02/66/614/picture.jpg
+    source: https://www.ecupl.edu.cn/614/list.htm
+    file_name: picture.jpg
+    upstream_path: null
+    publisher: 华东政法大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 华东政法大学
+    format: jpeg
+    width: 1920
+    height: 329
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: c8587ce39e9dc5ddd443b2acc917efa538c25d9e6f52fb441170ac65fc545e6b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/column/02/66/614/picture.jpg
+      label: '   '
+      context: 'list logo  wp-wrapper container-1 wp-inner  l-banner '
+      position: 2
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 229980
+    representation: raster
+    resolved_url: https://www.ecupl.edu.cn/_upload/column/02/66/614/picture.jpg
+    inspection_attempts:
+    - url: https://www.ecupl.edu.cn/_upload/column/02/66/614/picture.jpg
+      status: content_inspected
   color_palette:
   - value: '#A72227'
     rgb:
@@ -312,7 +351,187 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 24a75eaec3b34414
-  vi_resources: []
+  - value: null
+    rgb: null
+    cmyk:
+    - 40
+    - 100
+    - 50
+    - 20
+    pantone: null
+    label: 华政红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.ecupl.edu.cn/614/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网学校标志页公布华政红CMYK40/100/50/20，没有RGB或HEX，不换算为屏幕色。
+    source_sha256: b0529944423be034d24665fc8ac16f4a63bdd9d770451bff16e1b27828959759
+  - value: '#A87848'
+    rgb:
+    - 168
+    - 120
+    - 72
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ecupl.edu.cn/_upload/column/02/66/614/picture.jpg
+    page_source: https://www.ecupl.edu.cn/614/list.htm
+    asset_id: 505aebc6e984cdd3be242793
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#A87040'
+    rgb:
+    - 168
+    - 112
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ecupl.edu.cn/_upload/column/02/66/614/picture.jpg
+    page_source: https://www.ecupl.edu.cn/614/list.htm
+    asset_id: 505aebc6e984cdd3be242793
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: https://www.ecupl.edu.cn/614/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ecupl.edu.cn/614/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b0529944423be034d24665fc8ac16f4a63bdd9d770451bff16e1b27828959759
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: ECUPL_logo.rar
+    url: https://www.ecupl.edu.cn/_upload/article/files/1a/88/2e1bd0c34b63815dfc590929b73d/238e6fa3-6084-4bc2-a5fa-e43ce0d5bee8.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ecupl.edu.cn/614/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b0529944423be034d24665fc8ac16f4a63bdd9d770451bff16e1b27828959759
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: ECUPL_logo.rar
+    url: https://www.ecupl.edu.cn/_upload/article/files/00/94/b908b9f842adbc279949b85f9f00/d355d6b2-49d3-4e07-890a-18d283a3e6d5.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ecupl.edu.cn/614/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b0529944423be034d24665fc8ac16f4a63bdd9d770451bff16e1b27828959759
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标识
+    url: https://www.ecupl.edu.cn/2022/1109/c614a199623/page.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ecupl.edu.cn/2022/1109/c614a199623/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a05d6eb2c6d84b6ec1751347ab2d708ddfafcfd44647ff40c9bb13b76abfa5d2
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: ECUPL_logo.rar
+    url: https://www.ecupl.edu.cn/_upload/article/files/1a/88/2e1bd0c34b63815dfc590929b73d/238e6fa3-6084-4bc2-a5fa-e43ce0d5bee8.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ecupl.edu.cn/2022/1109/c614a199623/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a05d6eb2c6d84b6ec1751347ab2d708ddfafcfd44647ff40c9bb13b76abfa5d2
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标识
+    url: https://www.ecupl.edu.cn/2022/1109/c614a199624/page.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ecupl.edu.cn/2022/1109/c614a199624/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d70b1252fe01ac5772fd312b98d4fa8eccd37e43bcdecd005cf26a468d3ccf54
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: ECUPL_logo.rar
+    url: https://www.ecupl.edu.cn/_upload/article/files/00/94/b908b9f842adbc279949b85f9f00/d355d6b2-49d3-4e07-890a-18d283a3e6d5.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ecupl.edu.cn/2022/1109/c614a199624/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d70b1252fe01ac5772fd312b98d4fa8eccd37e43bcdecd005cf26a468d3ccf54
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标识
+    url: https://www.ecupl.edu.cn/2023/1031/c614a206388/page.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ecupl.edu.cn/2023/1031/c614a206388/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e2b1195d77457f941363934626bf7fddf791ada427dcf3950b7c3ea94772bc10
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1952
@@ -390,6 +609,23 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
+  - title: 华东政法大学社区TikZ矢量标识源码
+    url: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/cnlogo/hdzfu.tex
+    source: https://github.com/yuxtech/cnlogo/blob/daca8906123ca61186218ddda7369f95cc65a664/README.md
+    publisher: yuxtech/cnlogo
+    kind: tikz_logo_source
+    official: false
+    repository: yuxtech/cnlogo
+    commit: daca8906123ca61186218ddda7369f95cc65a664
+    license: 源代码声明AGPL-3.0；LICENSE将Logos/graphics排除在该许可之外
+    verified: auto
+    checked_at: '2026-10-02'
+    upstream_path: cnlogo/hdzfu.tex
+    source_sha256: 8df37a5eb274f5f1b2804eba808ec63591aee772e28e6d52dd1fb6cb7d6e3c9f
+    formats:
+    - TeX/TikZ
+    content_read: true
+    usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
   admissions_url:
     value: https://www.ecupl.edu.cn/609/list.htm
     availability: found
@@ -519,21 +755,21 @@ location:
     source: https://www.ecupl.edu.cn/611/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 长宁校区
     address: null
     coordinates: null
     source: https://www.ecupl.edu.cn/611/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
   - name: 普陀校区
     address: null
     coordinates: null
     source: https://www.ecupl.edu.cn/611/list.htm
     basis: 官网简介明确列出的校区；地址/坐标未推断
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
 overview:
   summary_zh:
     value: 华东政法大学位于上海市，主管部门为上海市。官网列示在校生18000余人（统计时间2026-04）。官网列示教职工1400余人（统计时间2026-04）。官网列示占地面积68.4万余平方米（统计时间2026-04）。简介列出松江校区、长宁校区、普陀校区。

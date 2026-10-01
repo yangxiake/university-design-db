@@ -16,7 +16,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | `#BE2C21` | 190,44,33 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B5%99%E6%B1%9F%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20ZJCM.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

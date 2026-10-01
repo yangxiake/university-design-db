@@ -90,9 +90,10 @@ visual:
     value: https://www.ahtcm.edu.cn/xxgk/xxbs/xh.htm
     source: https://www.ahtcm.edu.cn/xxgk/xxbs/xh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
+    basis: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
   badge_description:
     value: 双圆校徽采用宝石蓝主色。
     source: https://www.ahtcm.edu.cn/xxgk/xxzc.htm
@@ -171,6 +172,44 @@ visual:
     source_as_of: unspecified
     byte_size: 16074
     representation: raster
+  - asset_id: fb24c7634c06010406504805
+    kind: site_identity
+    title: 校方标识页面页眉文件
+    url: https://www.ahtcm.edu.cn/images/logo2.png
+    source: https://www.ahtcm.edu.cn/xxgk/xxbs/xh.htm
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 安徽中医药大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 安徽中医药大学
+    format: png
+    width: 300
+    height: 69
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f9825abfd347b540d02aa9d4493e35b872890207028b6d04d6515c6c4e3901f1
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: ../../images/logo2.png
+      label: '   '
+      context: 'm_header_box   m_header  logo  '
+      position: 9
+    usage_note: 完整学校身份与标识页面标题已自动核对；此文件为页眉标识，具体徽/名构成未判定。只索引文件，不再分发，按校方规范使用。
+    byte_size: 31337
+    representation: raster
+    resolved_url: https://www.ahtcm.edu.cn/images/logo2.png
+    inspection_attempts:
+    - url: https://www.ahtcm.edu.cn/images/logo2.png
+      status: content_inspected
   color_palette:
   - value: '#061430'
     rgb:
@@ -242,7 +281,73 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: a1024d92060c12cf
-  vi_resources: []
+  - value: '#001030'
+    rgb:
+    - 0
+    - 16
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ahtcm.edu.cn/images/logo2.png
+    page_source: https://www.ahtcm.edu.cn/xxgk/xxbs/xh.htm
+    asset_id: fb24c7634c06010406504805
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#101830'
+    rgb:
+    - 16
+    - 24
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ahtcm.edu.cn/images/logo2.png
+    page_source: https://www.ahtcm.edu.cn/xxgk/xxbs/xh.htm
+    asset_id: fb24c7634c06010406504805
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  vi_resources:
+  - title: 学校标识
+    url: https://www.ahtcm.edu.cn/xxgk/xxbs/xm.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ahtcm.edu.cn/xxgk/xxbs/xm.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 256350eb482406b39a7dc10646bf7ad9b771f6d41dbfc190ef786859247476b0
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标识
+    url: https://www.ahtcm.edu.cn/xxgk/xxbs/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ahtcm.edu.cn/xxgk/xxbs/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f54908ecf80d27fc9db33213e1fda1adcfaa148cb8bcb2dc8a99fe0a47c7464e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
 culture:
   founded_year:
     value: 1952

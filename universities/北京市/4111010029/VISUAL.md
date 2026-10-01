@@ -9,6 +9,8 @@
 | 官网页眉标识（构成待核验） | [文件](https://www.cupes.edu.cn/images2022/s_logo.png) · [来源](https://www.cupes.edu.cn/) | png | 295 × 70 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | [文件](https://www.cupes.edu.cn/images2022/l_logo.png) · [来源](https://www.cupes.edu.cn/) | png | 1226 × 110 | content_inspected | 未独立声明 |
 | 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/首都体育学院.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | jpeg | 268 × 268 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://pd.cupes.edu.cn/images/logo_01.png) · [来源](https://pd.cupes.edu.cn/cyxz/xhxqx/ace4903c8a3c4f288297595135784930.htm) | png | 248 × 68 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://pd.cupes.edu.cn/images/logo_03.png) · [来源](https://pd.cupes.edu.cn/cyxz/xhxqx/ace4903c8a3c4f288297595135784930.htm) | png | 618 × 68 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -24,11 +26,16 @@
 |  | `#00C8F8` | 0,200,248 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0888F0` | 8,136,240 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#C8D0F0` | 200,208,240 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+|  | `#0088D0` | 0,136,208 | reference |  |  | 官网标识取色/推导建议 | [依据](https://pd.cupes.edu.cn/images/logo_01.png) |
+|  | `#0058A8` | 0,88,168 | reference |  |  | 官网标识取色/推导建议 | [依据](https://pd.cupes.edu.cn/images/logo_01.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://pd.cupes.edu.cn/cyxz/xhxqx/ace4903c8a3c4f288297595135784930.htm](https://pd.cupes.edu.cn/cyxz/xhxqx/ace4903c8a3c4f288297595135784930.htm)
 - [校徽](https://pd.cupes.edu.cn/cyxz/xhxqx/ace4903c8a3c4f288297595135784930.htm)：校徽；格式 未知；访问条件 无法下载。社区记录[来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md)。
+- [校徽](https://pd.cupes.edu.cn/cyxz/xhxqx/ace4903c8a3c4f288297595135784930.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://pd.cupes.edu.cn/cyxz/xhxqx/ace4903c8a3c4f288297595135784930.htm)。
+- [首都体育学院北奥院校标.zip](https://pd.cupes.edu.cn/docs/2023-04/d277a3da79f34374b8a79b5ab8ec72d4.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://pd.cupes.edu.cn/cyxz/xhxqx/ace4903c8a3c4f288297595135784930.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。
