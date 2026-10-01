@@ -9,12 +9,13 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: OCEAN UNIVERSITY OF CHINA
+    source: https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201410/t20141020_182080.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: AI核对章程或学校提交材料中的完整句子；已排除PDF断行、校区/下属机构英文名及其他学校标识年份，待人工核验。
   official_website:
     value: http://www.ouc.edu.cn/
     source: http://www.ouc.edu.cn/
@@ -31,8 +32,11 @@ classification:
   scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4137010423'
 visual:
   color_primary:
     value: null
@@ -56,12 +60,13 @@ visual:
     availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 圆形徽标外环白底列红色中文名和蓝色英文名，内圈上部为天空及“1924”，下部海蓝色配三条白色波浪线。
+    source: http://www.ouc.edu.cn/31001/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -79,7 +84,27 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1924
+    event: 学校创办
+    source: http://www.ouc.edu.cn/31001/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1959
+    event: 发展为山东海洋学院
+    source: http://www.ouc.edu.cn/31001/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1988
+    event: 更名为青岛海洋大学
+    source: http://www.ouc.edu.cn/31001/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 2002
+    event: 更名为中国海洋大学
+    source: http://www.ouc.edu.cn/31001/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

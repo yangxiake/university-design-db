@@ -9,12 +9,13 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Hainan University
+    source: https://www.hainanu.edu.cn/
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网双语页标题明确同时列出本校中文名与英文名
   official_website:
     value: https://www.hainanu.edu.cn/
     source: https://www.hainanu.edu.cn/zjhd/hdzc.htm
@@ -34,6 +35,9 @@ research:
   status: needs_review
   checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4146010589'
 visual:
   color_primary:
     value: null
@@ -68,12 +72,14 @@ visual:
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1958
+    source: https://www.hainanu.edu.cn/zjhd/hdzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 校级章程或学校标识说明明确标为建校年份；区别于现校合并或更名年份
+    note: AI核对章程或学校提交材料中的完整句子；已排除PDF断行、校区/下属机构英文名及其他学校标识年份，待人工核验。
   motto:
     value: 海纳百川 大道致远
     source: https://www.hainanu.edu.cn/zjhd/hdzc.htm
@@ -81,7 +87,12 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 2007
+    event: 华南热带农业大学与海南大学合并组建新的海南大学
+    source: https://www.hainanu.edu.cn/zjhd/lsyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

@@ -9,12 +9,13 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Southwest University
+    source: https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201405/t20140515_182112.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: AI核对章程或学校提交材料中的完整句子；已排除PDF断行、校区/下属机构英文名及其他学校标识年份，待人工核验。
   official_website:
     value: http://www.swu.edu.cn/
     source: http://www.swu.edu.cn/
@@ -32,8 +33,11 @@ classification:
   scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4150010635'
 visual:
   color_primary:
     value: '#003D83'
@@ -60,12 +64,13 @@ visual:
     availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 双圆校徽以“西南大学”篆字、大钟与“1906”为核心，外环列中英文校名。
+    source: http://www.swu.edu.cn/info/1009/1050.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -82,13 +87,18 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1950
+    event: 相关教育系科分别合并组建西南师范学院与西南农学院
+    source: http://www.swu.edu.cn/xxgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 玉兰
+    source: http://www.swu.edu.cn/info/1009/1050.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   mascot:
     value: null
@@ -98,11 +108,11 @@ culture:
     availability: unresearched
     search_sources: []
   anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 《西南大学校歌》
+    source: http://www.swu.edu.cn/info/1009/1050.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
 resources:
   official_templates_url:

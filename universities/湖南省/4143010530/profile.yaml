@@ -9,12 +9,13 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Xiangtan University
+    source: https://jyt.hunan.gov.cn/jyt/sjyt/hnsjyksy/web/ksygxdt/202206/t20220602_24798855.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: AI核对章程或学校提交材料中的完整句子；已排除PDF断行、校区/下属机构英文名及其他学校标识年份，待人工核验。
   official_website:
     value: https://www.xtu.edu.cn/
     source: https://www.xtu.edu.cn/
@@ -32,8 +33,11 @@ classification:
   scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4143010530'
 visual:
   color_primary:
     value: null
@@ -50,11 +54,11 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xtu.edu.cn/xdgk/whbs/xh.htm
+    source: https://www.xtu.edu.cn/xdgk/whbs/xh.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   badge_description:
     value: null
@@ -76,11 +80,24 @@ culture:
   motto:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: conflict
     search_sources: []
-  history_events: []
+    candidates:
+    - value: 博学笃行、盛德日新
+      source: https://www.xtu.edu.cn/xdgk/xxzc.htm
+    - value: 自强不息，厚德载物
+      source: https://www.xtu.edu.cn/xdgk/whbs/xx.htm
+    - value: 博学笃行
+      source: https://www.xtu.edu.cn/xdgk/whbs/xx.htm
+    note: 已访问官网页面给出不同候选；需核对名称、标点或历史口径
+  history_events:
+  - year: 1974
+    event: 国务院批准湘潭大学复校
+    source: https://www.xtu.edu.cn/xdgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

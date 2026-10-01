@@ -29,8 +29,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4143012034'
 visual:
   color_primary:
     value: '#9F2925'
@@ -77,13 +80,18 @@ culture:
     availability: unresearched
     search_sources: []
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 要做人民的先生，先做人民的学生
+    source: https://www.hnfnu.edu.cn/xxgk/xxxf.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1904
+    event: 湖南全省师范学堂部分改建为湖南中路师范学堂
+    source: https://www.hnfnu.edu.cn/xxgk/lsyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

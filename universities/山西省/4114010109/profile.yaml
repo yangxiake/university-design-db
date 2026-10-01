@@ -30,8 +30,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4114010109'
 visual:
   color_primary:
     value: null
@@ -55,29 +58,41 @@ visual:
     availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 双圆徽志中心把U与螺旋上升的电子箭头结合，分别对应大学与科技进步。
+    source: https://www.tyust.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1952
+    source: https://www.tyust.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网charter页直接记载学校创建年份；未将更名年份或院系年份当作建校年
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 负重奋进、笃行求实
+    source: https://www.tyust.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1952
+    event: 学校创办
+    source: https://www.tyust.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1960
+    event: 升格本科并定名太原重型机械学院
+    source: https://www.tyust.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -93,11 +108,11 @@ culture:
     availability: unresearched
     search_sources: []
   anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 《科大之荣》
+    source: https://www.tyust.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
 resources:
   official_templates_url:

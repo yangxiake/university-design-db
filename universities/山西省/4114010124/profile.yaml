@@ -29,16 +29,25 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4114010124'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#BE1503'
+    source: https://www.xztu.edu.cn/images/logo1.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: manual_derived
+    label: 官网标识取样的PPT建议主色
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
+    page_source: https://www.xztu.edu.cn
+    image_sha256: c39be78bd472fd0893598a9fb59a53e90823080a408cf2dff71401dfd01035db
   color_secondary:
     value: null
     source: null
@@ -47,19 +56,20 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xztu.edu.cn/xxgk/xhxx.htm
+    source: https://www.xztu.edu.cn/xxgk/xhxx.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 中心标志为小篆“忻”字，中文校名由姚奠中题写。
+    source: https://www.xztu.edu.cn/xxgk/xhxx.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -71,13 +81,18 @@ culture:
     search_sources: []
     basis: 官网学校简介将1958年记为学校始建年份
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 厚学启智，修德树人
+    source: https://www.xztu.edu.cn/xxgk/xhxx.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1959
+    event: 忻县区师范专科学校与大同师院合并为晋北师专
+    source: https://www.xztu.edu.cn/xxgk/lsyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

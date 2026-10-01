@@ -9,12 +9,13 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Southeast University
+    source: https://www.seu.edu.cn/
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网双语页标题明确同时列出本校中文名与英文名
   official_website:
     value: https://www.seu.edu.cn/
     source: https://www.seu.edu.cn/
@@ -32,23 +33,34 @@ classification:
   scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4132010286'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#4D7C2C'
+    source: https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: official_vi
+    label: 校标绿色
+    basis: 官网校标标准PDF的并列RGB标准色R77 G124 B44，换算HEX；同页还列深色R35 G24 B21（#231815）
+    role_note: 校标的并列标准色；primary仅为资料库展示顺序，不代表校方只指定绿色为主色
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#FDD000'
+    source: https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: official_vi
+    label: 校标黄色
+    basis: 同页RGB标准色R253 G208 B0，换算HEX
+    role_note: 与绿色、深色并列的校标标准色，不宣称其为官方辅助色
   vi_url:
     value: https://www.seu.edu.cn/bsxtwxw/list.htm
     source: https://www.seu.edu.cn/bsxtwxw/list.htm
@@ -73,13 +85,19 @@ culture:
     availability: unresearched
     search_sources: []
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 止于至善
+    source: https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201311/t20131129_182125.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
-  history_events: []
+    note: AI核对公开检索返回的学校章程、信息公开或学校提交招生资料文字；未作人工签核，需打开原页复核。
+  history_events:
+  - year: 1988
+    event: 南京工学院更名为东南大学
+    source: https://www.seu.edu.cn/28444/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

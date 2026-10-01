@@ -9,11 +9,11 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Fuzhou University
+    source: https://www.fzu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   official_website:
     value: https://www.fzu.edu.cn/
@@ -32,16 +32,25 @@ classification:
   scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4135010386'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#9E2121'
+    source: https://www.fzu.edu.cn/images/logo.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: manual_derived
+    label: 官网标识取样的PPT建议主色
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
+    page_source: https://www.fzu.edu.cn/
+    image_sha256: eaffd494e4829efe3b039af21e4a179c6c87988143b02f4c5a7feafd0cee4357
   color_secondary:
     value: null
     source: null
@@ -50,19 +59,20 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.fzu.edu.cn/xxgk/xbxx.htm
+    source: https://www.fzu.edu.cn/xxgk/xbxx.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 双圆徽志中央为红底白色“福”字，外环列中英文校名及“1958”。
+    source: https://www.fzu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -96,11 +106,11 @@ culture:
     availability: unresearched
     search_sources: []
   anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 《福州大学校歌》
+    source: https://www.fzu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
 resources:
   official_templates_url:

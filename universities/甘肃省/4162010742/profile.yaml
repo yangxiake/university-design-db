@@ -9,11 +9,11 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Northwest Minzu University
+    source: https://www.xbmu.edu.cn/xxgk/xxzhang_c.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   official_website:
     value: https://www.xbmu.edu.cn/
@@ -30,16 +30,25 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4162010742'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#1F2650'
+    source: https://www.xbmu.edu.cn/images/logo0508.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: manual_derived
+    label: 官网标识取样的PPT建议主色
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
+    page_source: https://www.xbmu.edu.cn/
+    image_sha256: 5820abe5ee9e86b90ab2d327d8bbb858186436e31dea7ef2136c77db9f0e6ec9
   color_secondary:
     value: null
     source: null
@@ -55,12 +64,13 @@ visual:
     availability: unresearched
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 双圆校徽列中英文校名与年代标识。
+    source: https://www.xbmu.edu.cn/xxgk/xxzhang_c.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -71,13 +81,23 @@ culture:
     availability: unresearched
     search_sources: []
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 勤学、敬业、团结、创新
+    source: https://www.xbmu.edu.cn/xxgk/xxzhang_c.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1950
+    event: 前身西北民族学院成立
+    source: https://www.xbmu.edu.cn/xxgk/xxzhang_c.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 2003
+    event: 更名为西北民族大学
+    source: https://www.xbmu.edu.cn/xxgk/xxzhang_c.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -93,11 +113,11 @@ culture:
     availability: unresearched
     search_sources: []
   anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 《扬起时代的风帆》
+    source: https://www.xbmu.edu.cn/xxgk/xxzhang_c.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
 resources:
   official_templates_url:

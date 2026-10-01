@@ -30,8 +30,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4131010256'
 visual:
   color_primary:
     value: null
@@ -78,7 +81,12 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1985
+    event: 升格为上海电力学院
+    source: https://www.shiep.edu.cn/evolution/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

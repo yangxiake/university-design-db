@@ -9,11 +9,11 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Wuhan University
+    source: https://www.whu.edu.cn/xxgk/wdbs.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   official_website:
     value: https://www.whu.edu.cn/
@@ -32,8 +32,11 @@ classification:
   scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4142010486'
 visual:
   color_primary:
     value: '#002554'
@@ -65,13 +68,17 @@ visual:
     availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 圆形校徽中央为老图书馆的线条图形，外环标示中英文校名和1893年创校年份。
+    source: https://www.whu.edu.cn/xxgk/wdbs.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
-  landmarks: []
+  landmarks:
+  - name: 老图书馆
+    source: https://www.whu.edu.cn/xxgk/wdbs.htm
+    verified: auto
+    checked_at: '2026-10-01'
 culture:
   founded_year:
     value: null
@@ -81,13 +88,18 @@ culture:
     availability: unresearched
     search_sources: []
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 明诚弘毅
+    source: https://www.whu.edu.cn/xxgk/wdbs.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1949
+    event: 学校更名为武汉大学
+    source: https://www.whu.edu.cn/xxgk/wdbs.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

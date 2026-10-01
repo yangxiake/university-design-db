@@ -31,16 +31,21 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4142010489'
 visual:
   color_primary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: not_found
+    search_sources:
+    - https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
+    note: 2026年学校视觉形象识别系统管理规范页明确长大蓝CMYK C100 M91 Y22 K0、长大红C19 M99 Y100 K0及5种辅助色印刷参数，所查页未给出RGB或HEX；未将CMYK换算成官方屏幕色。
   color_secondary:
     value: null
     source: null
@@ -56,13 +61,25 @@ visual:
     availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 以主教学楼为主体，呈一体两翼造型；上部蓝色、下部绿色，中英文校名为深蓝色。
+    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
-  landmarks: []
+  landmarks:
+  - name: 东校区12号教学楼
+    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 武汉校区图书馆
+    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 天圆地方雕塑
+    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
+    verified: auto
+    checked_at: '2026-10-01'
 culture:
   founded_year:
     value: null

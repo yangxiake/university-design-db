@@ -38,6 +38,8 @@ def main():
     reviewer_count = 0
     ready = 0
     profile_count = 0
+    lists = {"culture.history_events": collections.Counter(), "visual.landmarks": collections.Counter()}
+    color_methods = collections.Counter()
     for row in scope:
         is_priority = "double_first" in row["scope_tags"].split("|")
         priority_count += is_priority
@@ -53,6 +55,15 @@ def main():
         profile_count += 1
         priority_profiles += is_priority
         profile = yaml.safe_load(path.read_text(encoding="utf-8"))
+        for label, counts in lists.items():
+            group, key = label.split(".")
+            entries = profile[group][key]
+            counts["schools"] += bool(entries)
+            counts["entries"] += len(entries)
+            counts["human"] += sum(e["verified"] == "human" for e in entries)
+        primary = profile["visual"]["color_primary"]
+        if primary["availability"] == "found":
+            color_methods[primary["method"]] += 1
         statuses[profile["research"]["status"]] += 1
         if profile["research"]["status"] == "reviewed":
             reviewer_count += 1
@@ -97,6 +108,18 @@ def main():
         lines.append("| %s | %d | %d | %d | %d | %d |" % (
             label, counts["unresearched"], counts["found_auto"],
             counts["found_human"], counts["not_found"], counts["conflict"]))
+    lines += ["", "## 校史与校园地标", "",
+              "条目是有来源的校史节点节选及地标名称，不表示完整校史或完整校园清单。", "",
+              "| 字段 | 有资料学校 | 条目数 | 人工确认条目 |", "| --- | ---: | ---: | ---: |"]
+    for label, counts in lists.items():
+        lines.append(f"| {label} | {counts['schools']} | {counts['entries']} | {counts['human']} |")
+    lines += ["", "## 主色取值方法", "",
+              "关键字段中的主色已找到数量包含两类资料：学校公布的数字标准色，以及本库标注用途的PPT建议色。建议色不等于官方VI标准色。", "",
+              "| 方法 | 学校数 | 含义 |", "| --- | ---: | --- |"]
+    for method, label in [("official_vi", "学校发布的RGB/HEX标准值"),
+                          ("badge_sample", "校徽像素取样，PPT建议色"),
+                          ("manual_derived", "官网标识取色或人工推导，PPT建议色")]:
+        lines.append(f"| {method} | {color_methods[method]} | {label} |")
     discovery_path = ROOT / "data/review/official-page-discovery-2026.csv"
     if discovery_path.exists():
         with discovery_path.open(encoding="utf-8-sig", newline="") as handle:

@@ -9,12 +9,13 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Sichuan University
+    source: https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201405/t20140515_182117.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: AI核对章程或学校提交材料中的完整句子；已排除PDF断行、校区/下属机构英文名及其他学校标识年份，待人工核验。
   official_website:
     value: https://www.scu.edu.cn
     source: https://www.scu.edu.cn
@@ -34,6 +35,9 @@ research:
   status: needs_review
   checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4151010610'
 visual:
   color_primary:
     value: null
@@ -68,12 +72,14 @@ visual:
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1896
+    source: https://hudong.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201405/t20140515_182117.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 校级章程或学校标识说明明确标为建校年份；区别于现校合并或更名年份
+    note: AI核对章程或学校提交材料中的完整句子；已排除PDF断行、校区/下属机构英文名及其他学校标识年份，待人工核验。
   motto:
     value: 海纳百川，有容乃大
     source: https://www.scu.edu.cn/xxgk/xxjj.htm

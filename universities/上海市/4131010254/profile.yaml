@@ -30,16 +30,21 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4131010254'
 visual:
   color_primary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: not_found
+    search_sources:
+    - https://scm.shmtu.edu.cn/_upload/article/files/e0/4c/753ab210479d8c4b754836bdf032/bae51f95-9e33-4f12-91d5-1acecbf0d89f.pdf
+    note: 已逐页检查官方VI手册50页文字层；A1及B1标准色色卡列印刷CMYK C100 M80 Y0 K37，所查手册未找到对应RGB或HEX。此记录仅描述该手册，不认定学校没有屏幕标准色；未将CMYK换算为官方HEX。
   color_secondary:
     value: null
     source: null
@@ -48,11 +53,11 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://museum.shmtu.edu.cn/2018/1114/c8124a72083/page.htm
+    source: https://museum.shmtu.edu.cn/2018/1114/c8124a72083/page.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   badge_description:
     value: null
@@ -101,23 +106,23 @@ culture:
     search_sources: []
 resources:
   official_templates_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://scm.shmtu.edu.cn/photo/xhjVI/list.htm
+    source: https://scm.shmtu.edu.cn/photo/xhjVI/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   official_template_publisher:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 上海海事大学经济管理学院域名下的校史图库
+    source: https://scm.shmtu.edu.cn/photo/xhjVI/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   official_template_terms:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 图库页脚说明数据仅供学习交流，转载图片须注明来源；此表述不能替代PPT文件的商业使用授权。列表同时包含学校通用模板和经管学院专用模板，选用时需区分。
+    source: https://scm.shmtu.edu.cn/photo/xhjVI/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []

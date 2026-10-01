@@ -3,8 +3,8 @@
 自动生成报告。933 是纳入范围数量，不是调查完成数或档案数。
 
 - 范围学校：933
-- 已建单校档案：601
-- 尚未建档：332
+- 已建单校档案：933
+- 尚未建档：0
 - 已人工签核档案：0
 - 主色和建校年均已人工确认的档案：0
 
@@ -12,29 +12,29 @@
 
 | 状态 | 学校数 |
 | --- | ---: |
-| unresearched | 332 |
+| unresearched | 0 |
 | in_progress | 0 |
-| needs_review | 601 |
+| needs_review | 933 |
 | reviewed | 0 |
 
 ## 关键字段
 
 | 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| identity.name_en | 933 | 0 | 0 | 0 | 0 |
-| identity.official_website | 336 | 597 | 0 | 0 | 0 |
-| visual.color_primary | 898 | 28 | 0 | 4 | 3 |
-| visual.color_secondary | 922 | 11 | 0 | 0 | 0 |
-| visual.vi_url | 762 | 171 | 0 | 0 | 0 |
-| visual.badge_description | 927 | 6 | 0 | 0 | 0 |
-| culture.founded_year | 814 | 119 | 0 | 0 | 0 |
-| culture.motto | 645 | 288 | 0 | 0 | 0 |
-| culture.flower | 931 | 2 | 0 | 0 | 0 |
-| culture.mascot | 931 | 2 | 0 | 0 | 0 |
-| culture.anthem | 932 | 1 | 0 | 0 | 0 |
-| resources.official_templates_url | 925 | 8 | 0 | 0 | 0 |
-| resources.official_template_publisher | 925 | 8 | 0 | 0 | 0 |
-| resources.official_template_terms | 928 | 4 | 0 | 1 | 0 |
+| identity.name_en | 646 | 285 | 0 | 0 | 2 |
+| identity.official_website | 139 | 794 | 0 | 0 | 0 |
+| visual.color_primary | 545 | 379 | 0 | 6 | 3 |
+| visual.color_secondary | 918 | 15 | 0 | 0 | 0 |
+| visual.vi_url | 566 | 367 | 0 | 0 | 0 |
+| visual.badge_description | 631 | 302 | 0 | 0 | 0 |
+| culture.founded_year | 421 | 505 | 0 | 0 | 7 |
+| culture.motto | 266 | 647 | 0 | 0 | 20 |
+| culture.flower | 928 | 5 | 0 | 0 | 0 |
+| culture.mascot | 928 | 5 | 0 | 0 | 0 |
+| culture.anthem | 808 | 125 | 0 | 0 | 0 |
+| resources.official_templates_url | 923 | 10 | 0 | 0 | 0 |
+| resources.official_template_publisher | 923 | 10 | 0 | 0 | 0 |
+| resources.official_template_terms | 926 | 5 | 0 | 2 | 0 |
 
 ## 首批双一流档案
 
@@ -42,31 +42,50 @@
 
 | 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| identity.name_en | 144 | 0 | 0 | 0 | 0 |
+| identity.name_en | 18 | 125 | 0 | 0 | 1 |
 | identity.official_website | 1 | 143 | 0 | 0 | 0 |
-| visual.color_primary | 121 | 18 | 0 | 3 | 2 |
-| visual.color_secondary | 135 | 9 | 0 | 0 | 0 |
-| visual.vi_url | 90 | 54 | 0 | 0 | 0 |
-| visual.badge_description | 138 | 6 | 0 | 0 | 0 |
-| culture.founded_year | 98 | 46 | 0 | 0 | 0 |
-| culture.motto | 80 | 64 | 0 | 0 | 0 |
-| culture.flower | 143 | 1 | 0 | 0 | 0 |
-| culture.mascot | 143 | 1 | 0 | 0 | 0 |
-| culture.anthem | 143 | 1 | 0 | 0 | 0 |
-| resources.official_templates_url | 137 | 7 | 0 | 0 | 0 |
-| resources.official_template_publisher | 137 | 7 | 0 | 0 | 0 |
-| resources.official_template_terms | 140 | 3 | 0 | 1 | 0 |
+| visual.color_primary | 77 | 62 | 0 | 3 | 2 |
+| visual.color_secondary | 134 | 10 | 0 | 0 | 0 |
+| visual.vi_url | 67 | 77 | 0 | 0 | 0 |
+| visual.badge_description | 79 | 65 | 0 | 0 | 0 |
+| culture.founded_year | 35 | 107 | 0 | 0 | 2 |
+| culture.motto | 10 | 127 | 0 | 0 | 7 |
+| culture.flower | 142 | 2 | 0 | 0 | 0 |
+| culture.mascot | 142 | 2 | 0 | 0 | 0 |
+| culture.anthem | 113 | 31 | 0 | 0 | 0 |
+| resources.official_templates_url | 136 | 8 | 0 | 0 | 0 |
+| resources.official_template_publisher | 136 | 8 | 0 | 0 | 0 |
+| resources.official_template_terms | 139 | 3 | 0 | 2 | 0 |
+
+## 校史与校园地标
+
+条目是有来源的校史节点节选及地标名称，不表示完整校史或完整校园清单。
+
+| 字段 | 有资料学校 | 条目数 | 人工确认条目 |
+| --- | ---: | ---: | ---: |
+| culture.history_events | 319 | 597 | 0 |
+| visual.landmarks | 4 | 9 | 0 |
+
+## 主色取值方法
+
+关键字段中的主色已找到数量包含两类资料：学校公布的数字标准色，以及本库标注用途的PPT建议色。建议色不等于官方VI标准色。
+
+| 方法 | 学校数 | 含义 |
+| --- | ---: | --- |
+| official_vi | 32 | 学校发布的RGB/HEX标准值 |
+| badge_sample | 1 | 校徽像素取样，PPT建议色 |
+| manual_derived | 346 | 官网标识取色或人工推导，PPT建议色 |
 
 ## 官网页面发现
 
 从候选网址访问公开首页；标题包含教育部校名且域名通过筛选才记为 `title_matched`。此步骤是自动判断。
 
 - 已处理学校：933
-- 无候选网址：51
-- 首页标题匹配：579
-- 标题匹配但站点归属待核对：11
-- 找到概况页候选：540
-- 访问或识别未完成：354
+- 无候选网址：1
+- 首页标题匹配：780
+- 标题匹配但站点归属待核对：1
+- 找到概况页候选：705
+- 访问或识别未完成：153
 - 官网短证据候选：851（含需要排除的误匹配，不等于已录事实）
 
 ## 自动检索候选（仅供复核）

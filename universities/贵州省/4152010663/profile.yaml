@@ -30,16 +30,25 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4152010663'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#D82128'
+    source: https://www.gznu.edu.cn/images/x_logo.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: manual_derived
+    label: 官网标识取样的PPT建议主色
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
+    page_source: https://www.gznu.edu.cn
+    image_sha256: bd774a3f5d6f7b474e4a8f14bc5ad8ecc3e08dd57898ab6b6fb11bb1a6633f1f
   color_secondary:
     value: null
     source: null
@@ -48,19 +57,20 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gznu.edu.cn/xxgk/xxbs/xb.htm
+    source: https://www.gznu.edu.cn/xxgk/xxbs/xb.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 校标主体采用稍作变形的篆体“师”字，体现教师教育特色。
+    source: https://www.gznu.edu.cn/xxgk/xxbs/xb.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -71,11 +81,11 @@ culture:
     availability: unresearched
     search_sources: []
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 慎思笃行 博学致新
+    source: https://www.gznu.edu.cn
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   history_events: []
   flower:

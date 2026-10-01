@@ -30,16 +30,25 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4113010089'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#471A71'
+    source: https://www.hebmu.edu.cn/template/f0c7d2d79aed4b839558895187913ede//images/new_logo.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: manual_derived
+    label: 官网标识取样的PPT建议主色
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
+    page_source: https://www.hebmu.edu.cn
+    image_sha256: b30ab6d1fd2a7d55fadb8e0227b03b5248d7fdadd33bbf15bfe18f5708ba321f
   color_secondary:
     value: null
     source: null
@@ -55,12 +64,13 @@ visual:
     availability: unresearched
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 校徽结合盾形、蛇杖、长城、绶带、橄榄枝、建校时间及中英文校名。
+    source: https://www.hebmu.edu.cn/a/xxgk/xxzc/index.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -77,7 +87,32 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1912
+    event: 前身改称北洋医学校
+    source: https://www.hebmu.edu.cn/a/xxgk/xxzc/index.html
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1932
+    event: 独立为河北省立医学院
+    source: https://www.hebmu.edu.cn/a/xxgk/xxzc/index.html
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1946
+    event: 在保定复校
+    source: https://www.hebmu.edu.cn/a/xxgk/xxzc/index.html
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1949
+    event: 改称河北医学院
+    source: https://www.hebmu.edu.cn/a/xxgk/xxzc/index.html
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1958
+    event: 迁至石家庄
+    source: https://www.hebmu.edu.cn/a/xxgk/xxzc/index.html
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

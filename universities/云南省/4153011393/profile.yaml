@@ -30,8 +30,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4153011393'
 visual:
   color_primary:
     value: null
@@ -66,10 +69,18 @@ culture:
   founded_year:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: conflict
     search_sources: []
+    candidates:
+    - value: 1980
+      source: https://new.kmu.edu.cn/xxgk/xyzc.htm
+      basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
+    - value: 1903
+      source: https://new.kmu.edu.cn/xxgk/xxjj.htm
+      basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
+    note: 已访问官网页面给出不同候选；需核对名称、标点或历史口径
   motto:
     value: 明德至善、知行利物
     source: https://www.kmu.edu.cn/xxgk/xxjj.htm
@@ -77,7 +88,12 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 2007
+    event: 昆明师专与昆明大学合并组建昆明学院
+    source: https://new.kmu.edu.cn/xxgk/xyzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

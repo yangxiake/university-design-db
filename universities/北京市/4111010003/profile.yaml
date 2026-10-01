@@ -9,11 +9,11 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Tsinghua University
+    source: https://www.tsinghua.edu.cn/info/1181/51525.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   official_website:
     value: https://www.tsinghua.edu.cn
@@ -32,8 +32,11 @@ classification:
   scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4111010003'
 visual:
   color_primary:
     value: '#660874'
@@ -58,11 +61,11 @@ visual:
     availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 三个同心圆构成圆面：外环标繁体中文校名、英文校名和建校时间，中环为校训，中心为五角星。
+    source: https://www.tsinghua.edu.cn/info/1181/51525.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   landmarks: []
 culture:
@@ -81,7 +84,17 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1911
+    event: 前身清华学堂创办
+    source: https://www.tsinghua.edu.cn/xxgk/xxyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1912
+    event: 更名为清华学校
+    source: https://www.tsinghua.edu.cn/xxgk/xxyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: 紫荆花及丁香花
     source: https://www.tsinghua.edu.cn/info/1181/51525.htm
@@ -97,11 +110,11 @@ culture:
     availability: unresearched
     search_sources: []
   anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 《清华学校校歌》
+    source: https://www.tsinghua.edu.cn/info/1181/51525.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
 resources:
   official_templates_url:

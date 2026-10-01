@@ -30,8 +30,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4122010193'
 visual:
   color_primary:
     value: null
@@ -57,21 +60,23 @@ visual:
     availability: found
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 双圆校徽结合主楼与麦穗，标“1948”，配中英文校名。
+    source: https://www.jlau.edu.cn/xxgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1948
+    source: https://www.jlau.edu.cn/xxgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
   motto:
     value: 明德崇智 厚朴笃行
     source: https://www.jlau.edu.cn/xxgk/xxjj.htm
@@ -79,7 +84,22 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1948
+    event: 前身农业干部学校创建
+    source: https://www.jlau.edu.cn/xxgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1950
+    event: 变更为黑龙江农业专科学校
+    source: https://www.jlau.edu.cn/xxgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1956
+    event: 更名为北安农学院并开始本科教育
+    source: https://www.jlau.edu.cn/xxgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

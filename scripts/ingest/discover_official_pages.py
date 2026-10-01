@@ -191,8 +191,9 @@ def discover(row, overrides):
             "candidate_url": "", "homepage_url": "", "homepage_title": "",
             "overview_url": "", "history_url": "", "visual_url": "", "templates_url": "",
             "checked_at": dt.date.today().isoformat(), "error_type": ""}
-    candidates = candidate_variants(
-        overrides.get(row["school_code"], []) + row["candidate_websites_unverified"].split("|"))
+    preferred = candidate_variants(overrides.get(row["school_code"], []))
+    others = candidate_variants(row["candidate_websites_unverified"].split("|"))
+    candidates = preferred + [url for url in others if url not in preferred]
     for url in candidates[:4]:
         base["candidate_url"] = url
         if not allowed_by_robots(url):
@@ -242,10 +243,13 @@ def main():
     parser.add_argument("--limit", type=int, help="Process only this many schools for a small trial")
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--resume", action="store_true", help="Keep accepted homepage matches and retry gaps")
+    parser.add_argument("--school-code", action="append", help="Restrict updates to selected school codes")
     args = parser.parse_args()
     with QUEUE.open(encoding="utf-8-sig", newline="") as handle:
         scope_rows = list(csv.DictReader(handle))
     rows = [row for row in scope_rows if int(row["priority"]) <= args.priority]
+    if args.school_code:
+        rows = [row for row in rows if row["school_code"] in args.school_code]
     overrides = {}
     if OVERRIDES.exists():
         with OVERRIDES.open(encoding="utf-8-sig", newline="") as handle:

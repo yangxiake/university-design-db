@@ -30,8 +30,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4133010336'
 visual:
   color_primary:
     value: '#163479'
@@ -51,11 +54,11 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hdu.edu.cn/666/list.htm
+    source: https://www.hdu.edu.cn/666/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   badge_description:
     value: null
@@ -67,12 +70,13 @@ visual:
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1956
+    source: https://www.hdu.edu.cn/_upload/article/files/b7/db/2cf6e5fe45638547b298779cf9ae/1c0332a8-d71e-49dc-a3c5-0a835c299a4b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
   motto:
     value: 笃学力行、守正求新
     source: https://www.hdu.edu.cn/659/list.htm
@@ -80,7 +84,12 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1980
+    event: 建立杭州电子工业学院
+    source: https://www.hdu.edu.cn/_upload/article/files/b7/db/2cf6e5fe45638547b298779cf9ae/1c0332a8-d71e-49dc-a3c5-0a835c299a4b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -96,11 +105,11 @@ culture:
     availability: unresearched
     search_sources: []
   anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 《杭电之歌》
+    source: https://www.hdu.edu.cn/_upload/article/files/b7/db/2cf6e5fe45638547b298779cf9ae/1c0332a8-d71e-49dc-a3c5-0a835c299a4b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
 resources:
   official_templates_url:

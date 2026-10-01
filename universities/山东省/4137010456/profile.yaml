@@ -30,29 +30,39 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4137010456'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#054686'
+    source: https://www.sdufe.edu.cn/vi.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: official_vi
+    label: 山财大蓝
+    basis: '官网VI手册第5页标准色R5 G70 B134与HEX #054686一致'
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#BF461E'
+    source: https://www.sdufe.edu.cn/vi.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: official_vi
+    label: 红色辅助色
+    basis: '官网VI手册第6页辅助色R191 G70 B30与HEX #BF461E一致'
+    role_note: 同页另列黄色辅助色R250 G197 B104（#FAC568）；颜色名称排版对应仍需人工确认，未自行绑定黄/红的专名
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sdufe.edu.cn/vi.pdf
+    source: https://www.sdufe.edu.cn/vi.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   badge_description:
     value: null

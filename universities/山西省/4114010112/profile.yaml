@@ -9,12 +9,13 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Taiyuan University of Technology
+    source: https://www.tyut.edu.cn/xxgk1/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: AI核对章程或学校提交材料中的完整句子；已排除PDF断行、校区/下属机构英文名及其他学校标识年份，待人工核验。
   official_website:
     value: https://www.tyut.edu.cn/
     source: https://www.tyut.edu.cn/
@@ -31,8 +32,11 @@ classification:
   scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4114010112'
 visual:
   color_primary:
     value: null
@@ -65,12 +69,13 @@ visual:
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1902
+    source: https://www.tyut.edu.cn/xxgk1/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
   motto:
     value: 求实、创新
     source: https://www.tyut.edu.cn/xxgk1/xxjj.htm
@@ -78,7 +83,22 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1902
+    event: 前身山西大学堂西学专斋创办
+    source: https://www.tyut.edu.cn/xxgk1/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1953
+    event: 独立为太原工学院
+    source: https://www.tyut.edu.cn/xxgk1/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1984
+    event: 更名为太原工业大学
+    source: https://www.tyut.edu.cn/xxgk1/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

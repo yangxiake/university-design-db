@@ -30,8 +30,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4137010434'
 visual:
   color_primary:
     value: null
@@ -77,7 +80,12 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1926
+    event: 前身公立农专参与合并成立省立山东大学，成为其农学院
+    source: http://www.sdau.edu.cn/8/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

@@ -31,8 +31,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4142011075'
 visual:
   color_primary:
     value: null
@@ -56,12 +59,13 @@ visual:
     availability: unresearched
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 学校徽志采用双圆结构。
+    source: https://www.ctgu.edu.cn/xxgk2/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -78,7 +82,22 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 1952
+    event: 前身博医技专与中南卫生人员训练所合并
+    source: https://www.ctgu.edu.cn/xxgk2/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1958
+    event: 相关卫生与医学学校合并为武昌医学专科学校
+    source: https://www.ctgu.edu.cn/xxgk2/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1960
+    event: 迁至宜昌并与当地医专合并
+    source: https://www.ctgu.edu.cn/xxgk2/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

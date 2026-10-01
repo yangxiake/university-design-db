@@ -9,11 +9,11 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Chongqing University of Arts and Sciences
+    source: https://www.cqwu.edu.cn/channel_25605.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   official_website:
     value: https://www.cqwu.edu.cn/
@@ -29,16 +29,25 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4150010642'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#183883'
+    source: https://www.cqwu.edu.cn/SITE_RES/web2025_cqwu_edu_cn/2025/image/logo-1-blue.png
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: manual_derived
+    label: 官网标识取样的PPT建议主色
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
+    page_source: https://www.cqwu.edu.cn/
+    image_sha256: b7bc7b45e12280a231527b18548baf5405341a65d6849e6e3f7d88ea12cbb71b
   color_secondary:
     value: null
     source: null
@@ -54,12 +63,13 @@ visual:
     availability: unresearched
     search_sources: []
   badge_description:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 方形书阵、中英文校名及圆形外环组成校徽。
+    source: https://www.cqwu.edu.cn/channel_25605.html
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
 culture:
   founded_year:
@@ -76,7 +86,17 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
+  history_events:
+  - year: 2001
+    event: 重庆师专与渝州教育学院合并组建渝西学院
+    source: https://www.cqwu.edu.cn/channel_25605.html
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 2005
+    event: 更名为重庆文理学院
+    source: https://www.cqwu.edu.cn/channel_25605.html
+    verified: auto
+    checked_at: '2026-10-01'
   flower:
     value: null
     source: null

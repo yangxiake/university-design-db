@@ -9,11 +9,11 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Anhui University of Finance & Economics
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   official_website:
     value: https://www.aufe.edu.cn/
@@ -30,23 +30,34 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4134010378'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#25408F'
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: official_vi
+    label: 标准蓝
+    basis: 官网VI手册第26页A4-01可见色卡RGB 37,64,143，换算HEX；该色与标准红并列
+    role_note: 展示排序不代表校方指定唯一主色。PDF文字层另含未在渲染色卡中显示的37,67,153；本记录按可见色卡转录，人工需核对该差异
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#D0161B'
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    method: official_vi
+    label: 标准红
+    basis: 同页可见色卡RGB 208,22,27，换算HEX
+    role_note: 与标准蓝并列，不宣称是辅助色
   vi_url:
     value: https://aufevis.aufe.edu.cn/
     source: https://aufevis.aufe.edu.cn/
@@ -61,15 +72,28 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
+  landmarks:
+  - name: 明德楼
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 图书馆
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 西门
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1959
+    source: https://www.aufe.edu.cn/8427/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网overview页直接记载学校始建年份；未将更名年份或院系年份当作建校年
   motto:
     value: null
     source: null

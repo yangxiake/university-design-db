@@ -31,8 +31,11 @@ classification:
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
   status: needs_review
-  checked_at: '2026-09-30'
+  checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4132010304'
 visual:
   color_primary:
     value: null
@@ -65,12 +68,13 @@ visual:
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1912
+    source: https://www.ntu.edu.cn/xxjj/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网overview以本校为主语，描述所在地或性质后明确记载始建年份；未采用前身或院系的年份
   motto:
     value: 祈通中西，力求精进
     source: https://www.ntu.edu.cn/xxjj/list.htm
