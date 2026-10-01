@@ -31,16 +31,17 @@ identity:
 classification:
   scope_category: 双一流建设高校
   scope_tags:
+  - all_undergraduate
   - double_first
   - name_ends_university
   - short_name
   - moe_note_blank
-  scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
+  scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
-  collection_status: access_limited
+  collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
   audit_key: '4154010694'
 visual:
@@ -138,3 +139,26 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
+  community_resources:
+  - title: 社区高校校徽字体索引
+    url: https://github.com/lovefc/china_school_badge
+    source: https://github.com/lovefc/china_school_badge/blob/04f59e07f4b809acc60493324af5ca4aa610153d/css/fcicon.css
+    publisher: lovefc
+    kind: logo_reference
+    official: false
+    license: Apache-2.0
+    commit: 04f59e07f4b809acc60493324af5ca4aa610153d
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
+  - title: 中国高校校史社区资料与可视化
+    url: https://github.com/jtchen2k/hcu
+    source: https://github.com/jtchen2k/hcu/blob/8aeab521eb07d38a273318b8123caabf332e66e4/src/data/uni_info.json
+    publisher: jtchen2k
+    kind: history_reference
+    official: false
+    license: GPL-3.0
+    commit: 8aeab521eb07d38a273318b8123caabf332e66e4
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。

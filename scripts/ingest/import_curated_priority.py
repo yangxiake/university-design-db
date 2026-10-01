@@ -37,7 +37,7 @@ FIELDS = {
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=pathlib.Path, default=DECISIONS)
-    parser.add_argument("--all-scope", action="store_true", help="Allow any school in the frozen 933-school scope")
+    parser.add_argument("--all-scope", action="store_true", help="Allow any school in the frozen 1412-school scope")
     parser.add_argument("--keep-existing", action="store_true", help="Fill gaps only; retain existing scalar facts and conflicts")
     args = parser.parse_args()
     with (ROOT / "data/universities-scope-2026.csv").open(encoding="utf-8-sig", newline="") as handle:
@@ -124,7 +124,7 @@ def main():
             added += 1
             changed = True
         if changed:
-            profile["research"].update(status="needs_review", checked_at=today)
+            profile["research"].update(status="auto_collected", checked_at=today)
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(yaml.safe_dump(profile, allow_unicode=True, sort_keys=False, width=100),
                             encoding="utf-8")

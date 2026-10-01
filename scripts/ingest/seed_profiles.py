@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create empty, source-identified profiles for the complete 933-school scope.
+"""Create empty, source-identified profiles for the complete 1412-school scope.
 
 This never overwrites a profile. Empty profiles are preparation for research,
 not evidence of completed research or publication readiness.
@@ -75,12 +75,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     selection = parser.add_mutually_exclusive_group(required=True)
     selection.add_argument("--school-code", help="Create one empty draft for research")
-    selection.add_argument("--all", action="store_true", help="Explicitly create drafts for all 933 schools")
+    selection.add_argument("--all", action="store_true", help="Explicitly create drafts for all 1412 schools")
     args = parser.parse_args()
     with SCOPE.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
-    if len(rows) != 933 or len({r["school_code"] for r in rows}) != 933:
-        raise ValueError("Scope must contain 933 unique Ministry school codes")
+    if len(rows) != 1412 or len({r["school_code"] for r in rows}) != 1412:
+        raise ValueError("Scope must contain 1412 unique Ministry school codes")
     created = 0
     for row in rows:
         if args.school_code and row["school_code"] != args.school_code:
@@ -97,7 +97,7 @@ def main():
         created += 1
     if args.school_code and not any(row["school_code"] == args.school_code for row in rows):
         raise ValueError("School code is not in 2026 scope")
-    print("Created %d empty drafts; 933 identities in scope." % created)
+    print("Created %d empty drafts; 1412 identities in scope." % created)
 
 
 if __name__ == "__main__":

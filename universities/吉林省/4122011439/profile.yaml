@@ -9,12 +9,19 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Jilin Agricultural Science and Technology University
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 吉林农业科技学院
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 公开社区数据补充；未认定为校方核准的现行英文名。上游数据版本见source_as_of，本轮不要求人工签核。
   official_website:
     value: https://www.jlnku.edu.cn/
     source: https://www.jlnku.edu.cn/
@@ -23,15 +30,16 @@ identity:
     availability: found
     search_sources: []
 classification:
-  scope_category: 其余未备注本科
+  scope_category: 其他本科
   scope_tags:
+  - all_undergraduate
   - moe_note_blank
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
-  collection_status: access_limited
+  collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
   audit_key: '4122011439'
 visual:
@@ -50,11 +58,11 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.jlnku.edu.cn/xxgk/xxbs.htm
+    source: https://www.jlnku.edu.cn/xxgk/xxbs.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   badge_description:
     value: null
@@ -66,18 +74,19 @@ visual:
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1958
+    source: https://www.jlnku.edu.cn/xxgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 厚德图本 励学笃行
+    source: https://www.jlnku.edu.cn/xxgk/xxjj.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   history_events: []
   flower:
@@ -95,11 +104,11 @@ culture:
     availability: unresearched
     search_sources: []
   anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 《铸青春风骨》
+    source: https://www.jlnku.edu.cn/xxgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
 resources:
   official_templates_url:

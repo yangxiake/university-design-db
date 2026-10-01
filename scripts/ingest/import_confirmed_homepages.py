@@ -11,6 +11,7 @@ import pathlib
 import yaml
 
 from render_official import render
+from discover_official_pages import matches_school_title
 from seed_profiles import profile_for
 
 
@@ -27,6 +28,8 @@ def main():
         if match["status"] != "title_matched" or not match["homepage_url"]:
             continue
         row = scope[match["school_code"]]
+        if not matches_school_title(row["name_zh"],match["homepage_title"],[r["name_zh"] for r in scope.values()]):
+            continue
         folder = ROOT / "universities" / row["province"] / row["school_code"]
         path = folder / "profile.yaml"
         is_new = not path.exists()
@@ -44,7 +47,7 @@ def main():
         fact.update(value=match["homepage_url"], source=match["homepage_url"],
                     checked_at=match["checked_at"], verified="auto",
                     availability="found", search_sources=[])
-        profile["research"].update(status="needs_review", checked_at=match["checked_at"])
+        profile["research"].update(status="auto_collected", checked_at=match["checked_at"])
         folder.mkdir(parents=True, exist_ok=True)
         path.write_text(yaml.safe_dump(profile, allow_unicode=True, sort_keys=False, width=100),
                         encoding="utf-8")

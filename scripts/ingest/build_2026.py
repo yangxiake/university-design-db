@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Rebuild the 2026 ordinary-HEI index and the selected 933-school scope.
+"""Rebuild the 2026 ordinary-HEI index and the complete 1412-school undergraduate scope.
 
-Inputs are the two official Ministry of Education attachments and the two
-reviewed selection CSVs supplied with this project. Binary attachments are
+Inputs are the two official Ministry of Education attachments; historical
+selection CSVs do not filter the current scope. Binary attachments are
 read from a local path or downloaded into memory; only text data is committed.
 """
 
@@ -26,10 +26,6 @@ MOE_XLS = MANIFEST["sources"]["ordinary_schools_2026"]["attachment"]
 MOE_SHA256 = MANIFEST["sources"]["ordinary_schools_2026"]["sha256"]
 DOUBLE_FIRST_PDF = MANIFEST["sources"]["double_first_class_2022"]["attachment"]
 DOUBLE_FIRST_SHA256 = MANIFEST["sources"]["double_first_class_2022"]["sha256"]
-SELECTION_SHA256 = {
-    "selection-source/benke-candidates-2026.csv": MANIFEST["selection_inputs"]["benke_candidates"]["sha256"],
-    "selection-source/scope-selected-2026.csv": MANIFEST["selection_inputs"]["selected_non_double_first"]["sha256"],
-}
 MILITARY = {"国防科技大学", "海军军医大学", "空军军医大学"}
 RENAME = {"上海体育学院": "上海体育大学"}
 
@@ -106,15 +102,6 @@ def read_double_first(pdf_bytes):
     return names
 
 
-def read_csv(name):
-    path = DATA / name
-    digest = hashlib.sha256(path.read_bytes()).hexdigest()
-    if digest != SELECTION_SHA256[name]:
-        raise ValueError("Selection input checksum changed: " + str(path))
-    with path.open(encoding="utf-8-sig", newline="") as handle:
-        return list(csv.DictReader(handle))
-
-
 def write_csv(path, rows, fields):
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
@@ -122,90 +109,36 @@ def write_csv(path, rows, fields):
         writer.writerows(rows)
 
 
-def category(row):
-    name = row["name_zh"]
-    if name.endswith("大学"):
-        return "大学类"
-    if len(name) <= 5:
-        return "短校名≤5字"
-    if not row["note"]:
-        return "其余未备注本科"
-    if row["note"] == "中外合作办学及内地与港澳合作办学":
-        return "中外/港澳合作办学"
-    if name == "燕京理工学院":
-        return "指定民办"
-    raise ValueError("Selected school has no selection category: " + name)
-
-
 def build(records, first_class):
-    by_code = {r["school_code"]: r for r in records}
     by_name = {r["name_zh"]: r for r in records}
     within = set(first_class) - MILITARY
     if len(within) != 144 or any(name not in by_name for name in within):
-        raise ValueError("Double First-Class schools do not reconcile with 2026 Ministry list")
-    if any(name in by_name for name in MILITARY):
-        raise ValueError("Military exceptions unexpectedly occur in Ministry list")
-
-    candidates = read_csv("selection-source/benke-candidates-2026.csv")
-    selected = read_csv("selection-source/scope-selected-2026.csv")
-    expected_candidates = [r for r in records if r["level"] == "本科"
-                           and r["name_zh"] not in within
-                           and not r["name_zh"].endswith(("职业技术大学", "职业大学"))]
-    candidate_codes = [r["学校标识码"] for r in candidates]
-    if len(candidates) != 1144 or candidate_codes != [r["school_code"] for r in expected_candidates]:
-        raise ValueError("Candidate list differs from official selection chain")
-    selected_codes = {r["学校标识码"] for r in selected}
-    marked_codes = {r["学校标识码"] for r in candidates if r["纳入范围(打√)"] == "√"}
-    if len(selected) != 789 or selected_codes != marked_codes:
-        raise ValueError("789 selected schools do not match candidate marks")
-    if any(by_code[r["学校标识码"]]["name_zh"] != r["学校名称"] for r in selected):
-        raise ValueError("Selected school names do not match Ministry codes")
-    selected_by_code = {r["学校标识码"]: r for r in selected}
-    category_counts = {}
-    for item in selected:
-        key = category(by_code[item["学校标识码"]])
-        category_counts[key] = category_counts.get(key, 0) + 1
-    if category_counts != {"大学类": 349, "短校名≤5字": 146,
-                           "其余未备注本科": 289, "中外/港澳合作办学": 4,
-                           "指定民办": 1}:
-        raise ValueError("Selected categories do not reconcile: %r" % category_counts)
-
+        raise ValueError("Double First-Class schools do not reconcile with Ministry list")
     scope = []
     for record in records:
-        if record["name_zh"] in within:
-            category_name = "双一流建设高校"
-            basis_url = DOUBLE_FIRST_PDF
-        elif record["school_code"] in selected_by_code:
-            category_name = category(record)
-            basis_url = "" if category_name == "指定民办" else MOE_XLS
-        else:
+        if record["level"] != "本科":
             continue
-        tags = []
-        if record["name_zh"] in within:
-            tags.append("double_first")
-        if record["name_zh"].endswith("大学"):
-            tags.append("name_ends_university")
-        if len(record["name_zh"]) <= 5:
-            tags.append("short_name")
-        if not record["note"]:
-            tags.append("moe_note_blank")
-        if "合作" in record["note"]:
-            tags.append("cooperative")
-        if "海南自由贸易港" in record["note"]:
-            tags.append("hainan_education_institution")
-        if record["name_zh"] == "燕京理工学院":
-            tags.append("user_selected")
+        if record["name_zh"] in MILITARY:
+            raise ValueError("Military exception unexpectedly appears in Ministry list")
+        vocational = record["name_zh"].endswith(("职业大学", "职业技术大学"))
+        cooperative = "合作" in record["note"]
+        private = "民办" in record["note"]
+        first = record["name_zh"] in within
+        category_name = ("双一流建设高校" if first else "职业本科" if vocational else
+                         "合作办学本科" if cooperative else "民办本科" if private else "其他本科")
+        tags = ["all_undergraduate"]
+        for enabled, tag in [(first, "double_first"), (vocational, "vocational_undergraduate"),
+                             (cooperative, "cooperative"), (private, "private"),
+                             (record["name_zh"].endswith("大学"), "name_ends_university"),
+                             (len(record["name_zh"]) <= 5, "short_name"),
+                             (not record["note"], "moe_note_blank"),
+                             ("海南自由贸易港" in record["note"], "hainan_education_institution")]:
+            if enabled:
+                tags.append(tag)
         scope.append({**record, "scope_category": category_name,
-                      "scope_tags": "|".join(tags), "scope_source_url": basis_url})
-    counts = {}
-    for item in scope:
-        key = item["scope_category"]
-        counts[key] = counts.get(key, 0) + 1
-    if counts != {"双一流建设高校": 144, "大学类": 349, "短校名≤5字": 146,
-                  "其余未备注本科": 289, "中外/港澳合作办学": 4, "指定民办": 1}:
-        raise ValueError("Final scope categories do not reconcile: %r" % counts)
-    if len(scope) != 933 or len({r["school_code"] for r in scope}) != 933:
-        raise ValueError("Final scope is not 933 unique Ministry school codes")
+                      "scope_tags": "|".join(tags), "scope_source_url": MOE_XLS})
+    if len(scope) != 1412 or len({r["school_code"] for r in scope}) != 1412:
+        raise ValueError("Scope must be every unique undergraduate school in Ministry list")
     return scope
 
 
@@ -222,7 +155,7 @@ def main():
     write_csv(ROOT / "universities-index.csv", records, index_fields)
     write_csv(DATA / "universities-scope-2026.csv", scope,
               index_fields + ["scope_category", "scope_tags", "scope_source_url"])
-    print("Wrote 2952 indexed schools and 933 selected schools; no military exceptions.")
+    print("Wrote 2952 indexed schools and 1412 undergraduate schools; no military exceptions.")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate 933 profiles, field provenance, and optional release readiness."""
+"""Validate 1412 profiles, field provenance, and optional release readiness."""
 
 import argparse
 import csv
@@ -22,7 +22,7 @@ FIELDS = {
     "culture": {"founded_year", "motto", "flower", "mascot", "anthem"},
     "resources": {"official_templates_url", "official_template_publisher", "official_template_terms"},
 }
-RESEARCH_STATUS = {"unresearched", "in_progress", "needs_review", "reviewed"}
+RESEARCH_STATUS = {"unresearched", "in_progress", "auto_collected", "needs_review", "reviewed"}
 AVAILABILITY = {"unresearched", "found", "not_found", "conflict"}
 VERIFICATION = {"unverified", "auto", "human"}
 URL_VALUE_FIELDS = {"official_website", "vi_url", "official_templates_url"}
@@ -110,6 +110,12 @@ def check_fact(fact, key, label, errors, release=False):
         errors.append(label + ": found value needs an extraction status")
     if release and fact["verified"] != "human":
         errors.append(label + ": release requires human verification")
+    if fact.get('source_type')=='community_dataset':
+        if not re.fullmatch(r'[0-9a-f]{40}',str(fact.get('upstream_commit',''))):
+            errors.append(label+': community fact needs upstream commit')
+        for metadata in ('upstream_repository','upstream_record_name','upstream_license','source_as_of'):
+            if not fact.get(metadata):
+                errors.append(label+': community fact missing '+metadata)
     if key in URL_VALUE_FIELDS and not is_url(value):
         errors.append(label + ": value must be a webpage URL")
     elif key in COLOR_FIELDS:
@@ -189,11 +195,20 @@ def validate_profile(path, row, release=False):
     if research.get("status") == "reviewed":
         if not is_date(research.get("checked_at")) or not research.get("reviewed_by"):
             errors.append(str(path) + ": reviewed profile needs date and reviewer")
-    elif research.get("status") in {"in_progress", "needs_review"}:
+    elif research.get("status") in {"in_progress", "needs_review", "auto_collected"}:
         if not is_date(research.get("checked_at")):
             errors.append(str(path) + ": researched profile needs a valid date")
     elif research.get("reviewed_by"):
         errors.append(str(path) + ": reviewer set before review completion")
+    candidates=research.get('website_candidates',[])
+    if not isinstance(candidates,list):
+        errors.append(str(path)+': website_candidates must be a list')
+        candidates=[]
+    if candidates and not is_date(research.get('website_candidates_updated_at')):
+        errors.append(str(path)+': website candidate sync date required')
+    for candidate in candidates:
+        if not isinstance(candidate,dict) or not is_url(candidate.get('url')) or not is_url(candidate.get('source')) or candidate.get('status')!='unverified_candidate':
+            errors.append(str(path)+': website candidate needs URLs and unverified_candidate status')
     if release and research.get("status") != "reviewed":
         errors.append(str(path) + ": human review incomplete")
 
@@ -208,6 +223,38 @@ def validate_profile(path, row, release=False):
         for key in fields:
             populated += int(check_fact(value[key], key, str(path) + "." + group + "." + key,
                                         errors, release))
+    resources = profile.get('resources', {}).get('community_resources', [])
+    if not isinstance(resources, list):
+        errors.append(str(path)+': community_resources must be a list')
+        resources=[]
+    urls=set()
+    for entry in resources:
+        if not isinstance(entry, dict):
+            errors.append(str(path)+': community resource must be an object')
+            continue
+        for field in ('title','publisher','kind','usage_note'):
+            if not isinstance(entry.get(field), str) or not entry[field].strip():
+                errors.append(str(path)+': community resource missing '+field)
+        if entry.get('official') is not False:
+            errors.append(str(path)+': community resource cannot be marked official')
+        if not is_url(entry.get('url')) or not is_url(entry.get('source')):
+            errors.append(str(path)+': community resource needs entry and source URLs')
+        if entry.get('url') in urls:
+            errors.append(str(path)+': duplicate community resource')
+        urls.add(entry.get('url'))
+        if not re.fullmatch(r'[0-9a-f]{40}',str(entry.get('commit',''))):
+            errors.append(str(path)+': community resource needs pinned commit')
+        if release and entry.get('verified')!='human':
+            errors.append(str(path)+': audited community resource requires human verification')
+        if entry.get('verified') not in {'auto','human'} or not is_date(entry.get('checked_at')):
+            errors.append(str(path)+': community resource needs verification status and date')
+        if entry.get('license') is not None and not isinstance(entry['license'],str):
+            errors.append(str(path)+': invalid community resource license')
+        for color in entry.get('palette',[]):
+            if not isinstance(color,dict) or not re.fullmatch(r'#[0-9A-Fa-f]{6}',str(color.get('value',''))) or color.get('method')!='community_theme' or not color.get('basis'):
+                errors.append(str(path)+': invalid community palette or missing basis')
+    if resources and research.get('status')=='unresearched':
+        errors.append(str(path)+': community resources contradict unresearched status')
     if "visual" in groups:
         populated += check_list(groups["visual"].get("landmarks"), "landmarks",
                                 str(path) + ".visual.landmarks", errors, release)
@@ -231,17 +278,18 @@ def validate_profile(path, row, release=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--release", action="store_true", help="Require human review of all published facts")
+    parser.add_argument("--release", action="store_true", help="Optional audited-edition gate: require human review")
+    parser.add_argument("--automatic-draft", action="store_true", help="Require all scope identities and valid sourced metadata, without human sign-off")
     args = parser.parse_args()
     with SCOPE.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
-    if len(rows) != 933 or len({r["school_code"] for r in rows}) != 933:
-        raise SystemExit("Scope is not 933 unique school codes")
+    if len(rows) != 1412 or len({r["school_code"] for r in rows}) != 1412:
+        raise SystemExit("Scope is not 1412 unique school codes")
     by_code = {r["school_code"]: r for r in rows}
     paths = sorted((ROOT / "universities").glob("*/*/profile.yaml"))
     errors = []
-    if args.release and len(paths) != 933:
-        errors.append("Release requires 933 profile.yaml files, found %d" % len(paths))
+    if (args.release or args.automatic_draft) and len(paths) != len(rows):
+        errors.append("Release requires 1412 profile.yaml files, found %d" % len(paths))
     found_codes = set()
     populated = ready_count = 0
     for path in paths:
@@ -261,7 +309,7 @@ def main():
             profile = yaml.safe_load(path.read_text(encoding="utf-8"))
             if official.read_text(encoding="utf-8") != render_official(profile):
                 errors.append(str(official) + ": generated resource view is stale")
-    if args.release and found_codes != set(by_code):
+    if (args.release or args.automatic_draft) and found_codes != set(by_code):
         errors.append("Missing profile codes: " + ",".join(sorted(set(by_code) - found_codes)[:10]))
     print("Profiles: %d; found facts: %d; human color+year ready: %d; errors: %d" %
           (len(paths), populated, ready_count, len(errors)))

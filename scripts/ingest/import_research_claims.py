@@ -68,6 +68,18 @@ def main():
             choices = choose_claims(field, candidates)
             group, key = field.split(".")
             fact = profile[group][key]
+            if field=='identity.name_en' and fact.get('source_type')=='community_dataset' and fact.get('verified')=='auto':
+                # A direct school source takes priority over an older community dataset.
+                old=dict(fact)
+                for choice in choices:
+                    if normalized(field,old['value'])!=normalized(field,choice['value']):
+                        differences.append(dict(school_code=code,name_zh=row['name_zh'],field=field,
+                                                existing_value=old['value'],existing_source=old['source'],
+                                                candidate_value=choice['value'],candidate_source=choice['source'],
+                                                checked_at=school['checked_at']))
+                for extra in ('source_type','upstream_repository','upstream_commit','upstream_record_name','upstream_license','source_as_of','note'):
+                    fact.pop(extra,None)
+                fact.update(value=None,source=None,availability='unresearched',verified='unverified',checked_at=None,search_sources=[])
             if fact["availability"] != "unresearched":
                 retained += 1
                 if fact["availability"] == "conflict" and fact["verified"] == "auto":
@@ -110,7 +122,7 @@ def main():
                 if choice.get("basis"):
                     fact["basis"] = choice["basis"]
                 added += 1
-        profile["research"].update(status="needs_review", checked_at=school["checked_at"],
+        profile["research"].update(status="auto_collected", checked_at=school["checked_at"],
                                    collection_status=school["status"],
                                    audit_ledger="data/review/school-research-2026.jsonl",
                                    audit_key=code)

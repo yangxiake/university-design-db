@@ -23,14 +23,24 @@ identity:
     availability: unresearched
     search_sources: []
 classification:
-  scope_category: 其余未备注本科
+  scope_category: 其他本科
   scope_tags:
+  - all_undergraduate
   - moe_note_blank
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4141014949'
+  website_candidates:
+  - url: https://hbcet.hpu.edu.cn/
+    source: https://hbcet.hpu.edu.cn/tzgg.htm
+    note: 原联办学院网站的筹建与新设校名线索，尚待现名身份确认
+    status: unverified_candidate
+  website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
     value: null
@@ -65,12 +75,12 @@ culture:
   founded_year:
     value: 2026
     source: https://www.moe.gov.cn/srcsite/A03/s181/202603/t20260324_1431948.html
+    basis: 教育部2026年同意以河南理工大学鹤壁工程技术学院为基础设立独立本科院校的年份；不表示前身创办年。
+    note: 已读取教育部公开检索返回的设置批复；本轮原页直连超时，保留读取方式。
     verified: auto
-    checked_at: '2026-10-01'
     availability: found
+    checked_at: '2026-10-01'
     search_sources: []
-    basis: 现独立本科高校设置获批年；不代表前身创办年
-    note: AI依据公开检索返回的校级或政府页面文字判读；本地直连原页受限或尚未完成，最终核验需打开原URL比对。
   motto:
     value: null
     source: null

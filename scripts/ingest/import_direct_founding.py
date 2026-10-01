@@ -69,7 +69,7 @@ def main():
                     basis=f"官网学校简介将{year}年记为学校{verb}年份",
                     verified="auto", checked_at=source["checked_at"],
                     availability="found", search_sources=[])
-        profile["research"].update(status="needs_review", checked_at=source["checked_at"])
+        profile["research"].update(status="auto_collected", checked_at=source["checked_at"])
         folder.mkdir(parents=True, exist_ok=True)
         path.write_text(yaml.safe_dump(profile, allow_unicode=True, sort_keys=False, width=100),
                         encoding="utf-8")

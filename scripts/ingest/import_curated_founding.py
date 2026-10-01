@@ -42,7 +42,7 @@ def main():
         fact.update(value=year, source=source["source_url"], basis=decision["basis"],
                     verified="auto", checked_at=source["checked_at"],
                     availability="found", search_sources=[])
-        profile["research"].update(status="needs_review", checked_at=source["checked_at"])
+        profile["research"].update(status="auto_collected", checked_at=source["checked_at"])
         folder.mkdir(parents=True, exist_ok=True)
         path.write_text(yaml.safe_dump(profile, allow_unicode=True, sort_keys=False, width=100),
                         encoding="utf-8")

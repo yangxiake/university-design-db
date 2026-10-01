@@ -23,13 +23,14 @@ identity:
     availability: found
     search_sources: []
 classification:
-  scope_category: 大学类
+  scope_category: 其他本科
   scope_tags:
+  - all_undergraduate
   - name_ends_university
   - moe_note_blank
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
   collection_status: researched_partial
@@ -37,18 +38,12 @@ research:
   audit_key: '4111010011'
 visual:
   color_primary:
-    value: '#2E8ED1'
-    source: https://www.btbu.edu.cn/images2024/footer_sydw.png
-    verified: auto
-    checked_at: '2026-10-01'
-    availability: found
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.btbu.edu.cn/
-    image_sha256: e874434deb3036aa2d122b001e8884e3c86fdd1e18f3038193160442e19c2d2f
   color_secondary:
     value: null
     source: null
@@ -130,3 +125,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
+  community_resources:
+  - title: 社区高校校徽字体索引
+    url: https://github.com/lovefc/china_school_badge
+    source: https://github.com/lovefc/china_school_badge/blob/04f59e07f4b809acc60493324af5ca4aa610153d/css/fcicon.css
+    publisher: lovefc
+    kind: logo_reference
+    official: false
+    license: Apache-2.0
+    commit: 04f59e07f4b809acc60493324af5ca4aa610153d
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。

@@ -26,11 +26,12 @@ identity:
 classification:
   scope_category: 双一流建设高校
   scope_tags:
+  - all_undergraduate
   - double_first
   - moe_note_blank
-  scope_source: https://www.moe.gov.cn/srcsite/a22/s7065/202202/w020220214318455516037.pdf
+  scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
   collection_status: researched_partial
@@ -134,3 +135,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
+  community_resources:
+  - title: 中国高校校史社区资料与可视化
+    url: https://github.com/jtchen2k/hcu
+    source: https://github.com/jtchen2k/hcu/blob/8aeab521eb07d38a273318b8123caabf332e66e4/src/data/uni_info.json
+    publisher: jtchen2k
+    kind: history_reference
+    official: false
+    license: GPL-3.0
+    commit: 8aeab521eb07d38a273318b8123caabf332e66e4
+    verified: auto
+    checked_at: '2026-10-01'
+    usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。

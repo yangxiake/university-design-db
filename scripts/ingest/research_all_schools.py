@@ -24,7 +24,7 @@ import urllib.robotparser
 from pypdf import PdfReader
 import yaml
 
-from discover_official_pages import AGENT, PageParser, safe_url
+from discover_official_pages import AGENT, PageParser, safe_url, read_bounded
 from extract_official_excerpts import VisibleText
 from import_explicit_mottos import candidate_values
 
@@ -87,12 +87,14 @@ class Policy:
             try:
                 request = urllib.request.Request(origin + "/robots.txt", headers={"User-Agent": AGENT})
                 with urllib.request.urlopen(request, timeout=6) as response:
-                    body = response.read(100_000).decode("utf-8", "ignore")
+                    body = read_bounded(response,100_000,10).decode("utf-8", "ignore")
                 policy = urllib.robotparser.RobotFileParser()
                 policy.parse(body.splitlines())
                 self.cache[origin] = policy
             except urllib.error.HTTPError as exc:
                 self.cache[origin] = exc.code in {404, 410}
+            except ValueError:
+                self.cache[origin] = False
             except OSError:
                 self.cache[origin] = True
         policy = self.cache[origin]
@@ -127,7 +129,7 @@ def read_page(url, home):
         if not same_school(final, home):
             raise ValueError("cross_school_redirect")
         mime = response.headers.get_content_type()
-        payload = response.read(5_000_001)
+        payload = read_bounded(response,5_000_000)
         if len(payload) > 5_000_000:
             raise ValueError("document_size_limit")
         charset = response.headers.get_content_charset()
@@ -190,7 +192,10 @@ def extract_claims(name, kind, title, text, source):
         for sentence in re.split(r"[\n。！？]", text):
             sentence = sentence.strip()
             # Avoid a motto merely quoted in a speech or another institution's name.
-            if "校训" in sentence and len(sentence) < 600 and not re.search(r"中学|小学|附属|学院校训|大学校训", sentence.replace(name, "学校")):
+            current_subject = (name in sentence or re.search(r"(?:学校|本校)[^。；]{0,50}校训",sentence) or
+                               re.match(r"(?:第[一二三四五六七八九十百\d]+条\s*)?校训",sentence))
+            historical = re.search(r"前身|曾用校训|原校训|旧校训|时期的校训",sentence)
+            if "校训" in sentence and current_subject and not historical and len(sentence) < 600 and not re.search(r"中学|小学|附属|学院校训|大学校训", sentence.replace(name, "学校")):
                 for value in candidate_values(sentence):
                     if re.fullmatch(r"[\u4e00-\u9fff，、；,; ·]{4,28}", value):
                         add("culture.motto", value)
@@ -347,6 +352,7 @@ def main():
     parser.add_argument("--workers", type=int, default=10)
     parser.add_argument("--max-pages", type=int, default=10)
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument("--retry-gaps", action="store_true", help="Retry prior access gaps when new confirmed URLs are available")
     parser.add_argument("--school-code", action="append")
     args = parser.parse_args()
     with (ROOT / "data/universities-scope-2026.csv").open(encoding="utf-8-sig", newline="") as handle:
@@ -357,11 +363,19 @@ def main():
     if OUTPUT.exists():
         results = {item["school_code"]: item for item in (json.loads(line) for line in OUTPUT.read_text(encoding="utf-8").splitlines())}
     pending = [row for row in rows if (not args.school_code or row["school_code"] in args.school_code)
-               and (not args.resume or row["school_code"] not in results)]
+               and (not args.resume or row["school_code"] not in results or args.retry_gaps and
+                    discovery.get(row['school_code'],{}).get('status')=='title_matched' and
+                    (results[row['school_code']].get('status') in {'needs_source','access_limited'} or
+                     results[row['school_code']].get('home')!=discovery[row['school_code']]['homepage_url']))]
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
         futures = {pool.submit(research, row, discovery, args.max_pages): row["school_code"] for row in pending}
         for completed, future in enumerate(concurrent.futures.as_completed(futures), 1):
-            results[futures[future]] = future.result()
+            code=futures[future]; fresh=future.result()
+            if args.retry_gaps and code in results:
+                from merge_research_passes import merge
+                results[code]=merge(results[code],fresh,discovery.get(code,{}))
+            else:
+                results[code]=fresh
             if completed % 20 == 0:
                 save(rows, results)
                 print(f"Researched {completed}/{len(pending)} schools; ledger has {len(results)} schools.", flush=True)

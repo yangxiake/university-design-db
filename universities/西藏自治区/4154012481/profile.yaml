@@ -16,21 +16,25 @@ identity:
     availability: unresearched
     search_sources: []
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.xzlssf.org/
+    source: http://www.xzlssf.org/
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: found
     search_sources: []
 classification:
-  scope_category: 其余未备注本科
+  scope_category: 其他本科
   scope_tags:
+  - all_undergraduate
   - moe_note_blank
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4154012481'
 visual:
   color_primary:
     value: null
@@ -63,14 +67,20 @@ visual:
   landmarks: []
 culture:
   founded_year:
-    value: 1964
-    source: https://www.lasa.gov.cn/lasa/lsyw/202504/4e59965aaca742198f73af1beac572d7.shtml
+    value: null
+    source: null
     verified: auto
     checked_at: '2026-10-01'
-    availability: found
+    availability: conflict
     search_sources: []
-    basis: 拉萨市文教局师训班起源年；师范学校1975年建立，现本科设置2025年
-    note: AI依据公开检索返回的校级或政府页面文字判读；本地直连原页受限或尚未完成，最终核验需打开原URL比对。
+    note: 已存AI草稿与本轮官网候选不一致；两者均保留，等待核对原页和历史口径
+    candidates:
+    - value: 1964
+      source: https://www.lasa.gov.cn/lasa/lsyw/202504/4e59965aaca742198f73af1beac572d7.shtml
+      basis: 拉萨市文教局师训班起源年；师范学校1975年建立，现本科设置2025年
+    - value: 1975
+      source: http://www.xzlssf.org/about/jianjie/
+      basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
   motto:
     value: null
     source: null

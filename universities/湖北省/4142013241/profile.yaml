@@ -16,21 +16,26 @@ identity:
     availability: unresearched
     search_sources: []
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.wuit.cn/
+    source: https://www.wuit.cn/
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
 classification:
-  scope_category: 短校名≤5字
+  scope_category: 民办本科
   scope_tags:
+  - all_undergraduate
+  - private
   - short_name
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4142013241'
 visual:
   color_primary:
     value: null
@@ -63,12 +68,13 @@ visual:
   landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2002
+    source: https://www.wuit.cn/gkxx/xxjj.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    basis: 官网overview页直接记载学校创建年份；未将更名年份或院系年份当作建校年
   motto:
     value: 厚德、笃学、自强、求新
     source: https://gsnfu.njfu.edu.cn/jygz/20240628/i308816.html

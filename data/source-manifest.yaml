@@ -1,6 +1,6 @@
 schema_version: 1
 dataset_as_of: 2026-06-17
-assembled_at: 2026-09-30
+assembled_at: '2026-10-01'
 sources:
   ordinary_schools_2026:
     publisher: 中华人民共和国教育部
@@ -8,6 +8,7 @@ sources:
     attachment: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     sha256: 29c40f083b639888e429cf40b68f9a75782d1ce81131c99aabca65b65b36eaea
     expected_records: 2952
+    expected_undergraduate_records: 1412
   double_first_class_2022:
     publisher: 教育部、财政部、国家发展改革委
     landing_page: https://www.moe.gov.cn/srcsite/A22/s7065/202202/t20220211_598710.html
@@ -23,6 +24,15 @@ selection_inputs:
     sha256: ac58e8a542ea67178fb652c33bafd9b37fbd03982417b5ab82384c9b910d30a1
     expected_records: 789
 scope:
-  selected_ministry_schools: 933
+  selection_rule: education_ministry_level_equals_undergraduate
+  selected_ministry_schools: 1412
   selected_double_first_class_ministry_schools: 144
   excluded_military_schools: 3
+  previous_selected_scope: 933
+review_policy:
+  mode: automatic_research
+  human_review_required_for_current_work: false
+  automatically_collected_values_verified_as: auto
+  unknowns_and_conflicts_retained: true
+selection_inputs_role: historical_only_not_a_current_filter
+external_repository_manifest: data/external/repositories.yaml

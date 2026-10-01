@@ -23,15 +23,16 @@ identity:
     availability: found
     search_sources: []
 classification:
-  scope_category: 其余未备注本科
+  scope_category: 其他本科
   scope_tags:
+  - all_undergraduate
   - moe_note_blank
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
-  collection_status: access_limited
+  collection_status: researched_partial
   audit_ledger: data/review/school-research-2026.jsonl
   audit_key: '4122013706'
 visual:
@@ -79,11 +80,11 @@ culture:
     availability: unresearched
     search_sources: []
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 博学厚德、扶伤济世
+    source: https://www.jlmu.cn/xxgk/xxjj.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   history_events: []
   flower:

@@ -9,12 +9,19 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Xinjiang Institute of Technology
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
+    source_type: community_dataset
+    upstream_repository: xioajiumi/Chinese_Universities
+    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
+    upstream_record_name: 新疆理工学院
+    upstream_license: MIT
+    source_as_of: '2021'
+    note: 公开社区数据补充；未认定为校方核准的现行英文名。上游数据版本见source_as_of，本轮不要求人工签核。
   official_website:
     value: https://www.xjit.edu.cn/
     source: https://www.xjit.edu.cn/
@@ -23,12 +30,13 @@ identity:
     availability: found
     search_sources: []
 classification:
-  scope_category: 其余未备注本科
+  scope_category: 其他本科
   scope_tags:
+  - all_undergraduate
   - moe_note_blank
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
   collection_status: access_limited

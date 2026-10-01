@@ -44,7 +44,7 @@ def main():
         fact.update(value=lead["source_url"], source=lead["source_url"],
                     verified="auto", checked_at=lead["checked_at"],
                     availability="found", search_sources=[])
-        profile["research"].update(status="needs_review", checked_at=lead["checked_at"])
+        profile["research"].update(status="auto_collected", checked_at=lead["checked_at"])
         path.write_text(yaml.safe_dump(profile, allow_unicode=True, sort_keys=False, width=100),
                         encoding="utf-8")
         path.with_name("OFFICIAL.md").write_text(render(profile), encoding="utf-8")

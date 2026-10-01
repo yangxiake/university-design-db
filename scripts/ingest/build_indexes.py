@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build browse indexes from the canonical 933-school scope and profiles."""
+"""Build browse indexes from the canonical 1412-school scope and profiles."""
 
 import collections
 import argparse
@@ -36,13 +36,14 @@ def main():
     args = parser.parse_args()
     with SCOPE.open(encoding="utf-8-sig", newline="") as handle:
         scope = list(csv.DictReader(handle))
-    if len(scope) != 933:
-        raise ValueError("Scope must contain exactly 933 schools")
+    if len(scope) != 1412:
+        raise ValueError("Scope must contain exactly 1412 schools")
     catalog = []
     province_count = collections.Counter()
     category_count = collections.Counter()
     tag_count = collections.Counter()
     status_count = collections.Counter()
+    resource_index = []
     for row in scope:
         profile_path = pathlib.Path("universities") / row["province"] / row["school_code"] / "profile.yaml"
         absolute = ROOT / profile_path
@@ -54,8 +55,15 @@ def main():
             color_status = profile["visual"]["color_primary"]["availability"]
             year_status = profile["culture"]["founded_year"]["availability"]
             template_status = profile["resources"]["official_templates_url"]["availability"]
+            entries = profile["resources"].get("community_resources", [])
+            for entry in entries:
+                resource_index.append(dict(school_code=row['school_code'], name_zh=row['name_zh'],
+                                           kind=entry['kind'],title=entry['title'],url=entry['url'],
+                                           license=entry.get('license') or '',commit=entry['commit'],
+                                           source=entry['source'],profile_path=profile_path.as_posix()))
         else:
             research_status = color_status = year_status = template_status = "unresearched"
+            entries = []
         tags = row["scope_tags"].split("|")
         catalog.append({
             "school_code": row["school_code"],
@@ -69,6 +77,8 @@ def main():
             "color_status": color_status,
             "founded_year_status": year_status,
             "template_status": template_status,
+            "community_resource_count": len(entries),
+            "community_path": (profile_path.parent / "COMMUNITY.md").as_posix() if entries else "",
             "profile_path": profile_path.as_posix() if absolute.exists() else "",
         })
         province_count[row["province"]] += 1
@@ -76,6 +86,7 @@ def main():
         status_count[research_status] += 1
         tag_count.update(tags)
     write("catalog.csv", list(catalog[0]), catalog, args.check)
+    write("community-resources.csv", ["school_code","name_zh","kind","title","url","license","commit","source","profile_path"], resource_index, args.check)
     for filename, label, counts in (
         ("by-province.csv", "province", province_count),
         ("by-category.csv", "scope_category", category_count),
@@ -84,7 +95,7 @@ def main():
     ):
         write(filename, [label, "count"], [{label: key, "count": value}
                                             for key, value in sorted(counts.items())], args.check)
-    print(("Checked" if args.check else "Built"), "catalog and four classification indexes for 933 schools.")
+    print(("Checked" if args.check else "Built"), "catalog, resource and four classification indexes for 1412 schools.")
 
 
 if __name__ == "__main__":

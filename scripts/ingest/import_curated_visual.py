@@ -102,7 +102,7 @@ def main():
                 added += 1
                 changed = True
         if changed:
-            profile["research"].update(status="needs_review", checked_at=today)
+            profile["research"].update(status="auto_collected", checked_at=today)
             folder.mkdir(parents=True, exist_ok=True)
             path.write_text(yaml.safe_dump(profile, allow_unicode=True, sort_keys=False, width=100),
                             encoding="utf-8")

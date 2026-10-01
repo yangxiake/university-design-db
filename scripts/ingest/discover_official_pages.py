@@ -14,6 +14,7 @@ import html.parser
 import ipaddress
 import pathlib
 import re
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -95,6 +96,15 @@ def normalize_school_name(value):
     return re.sub(r"\s+", "", value).replace("（", "(").replace("）", ")")
 
 
+def matches_school_title(name, title, known_names):
+    own=normalize_school_name(name);heading=normalize_school_name(title)
+    heading=re.sub(r"(?:[（(]原[）)]?|[-—]原).*$", "", heading)
+    if own not in heading:
+        return False
+    # Independent colleges and generic names must not inherit a parent/other school.
+    return not any(normalize_school_name(other) not in own and
+                   normalize_school_name(other) in heading for other in known_names)
+
 def trusted_host(url, override_urls):
     host = urllib.parse.urlparse(url).hostname or ""
     if host.endswith((".edu.cn", ".ac.cn")):
@@ -105,6 +115,7 @@ def trusted_host(url, override_urls):
 def candidate_variants(urls):
     variants = set()
     for url in urls:
+        url = url.strip()
         if not safe_url(url):
             continue
         parsed = urllib.parse.urlparse(url)
@@ -121,18 +132,34 @@ def candidate_variants(urls):
     return sorted((url for url in variants if safe_url(url)), key=site_score)
 
 
+def read_bounded(response, limit, seconds=20):
+    """Bound total body time as well as individual socket reads."""
+    deadline=time.monotonic()+seconds;chunks=[];size=0
+    read=getattr(response,'read1',response.read)
+    while size<=limit:
+        if time.monotonic()>deadline:
+            raise TimeoutError('response_body_deadline')
+        chunk=read(min(65536,limit+1-size))
+        if not chunk:break
+        chunks.append(chunk);size+=len(chunk)
+    if size>limit:
+        raise ValueError('response_size_limit')
+    return b''.join(chunks)
+
 def allowed_by_robots(url):
     parsed = urllib.parse.urlparse(url)
     robots = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, "/robots.txt", "", "", ""))
     try:
         request = urllib.request.Request(robots, headers={"User-Agent": AGENT})
         with urllib.request.urlopen(request, timeout=6) as response:
-            body = response.read(100_000).decode("utf-8", "ignore")
+            body = read_bounded(response,100_000,10).decode("utf-8", "ignore")
         parser = urllib.robotparser.RobotFileParser()
         parser.parse(body.splitlines())
         return parser.can_fetch(AGENT, url)
     except urllib.error.HTTPError as exc:
         return exc.code in {404, 410}
+    except ValueError:
+        return False  # Oversized policy cannot be safely interpreted.
     except OSError:
         return True  # Unknown policy; only one public homepage request follows.
 
@@ -146,7 +173,7 @@ def fetch_page(url):
         mime = response.headers.get_content_type()
         if mime not in {"text/html", "application/xhtml+xml"}:
             raise ValueError("response is not HTML")
-        payload = response.read(2_000_001)
+        payload = read_bounded(response,2_000_000)
         if len(payload) > 2_000_000:
             raise ValueError("homepage larger than 2 MB")
         charset = response.headers.get_content_charset()
@@ -185,7 +212,7 @@ def page_links(base, links):
     return found
 
 
-def discover(row, overrides):
+def discover(row, overrides, known_names=()):
     base = {"school_code": row["school_code"], "name_zh": row["name_zh"],
             "priority": row["priority"], "status": "no_candidate",
             "candidate_url": "", "homepage_url": "", "homepage_title": "",
@@ -194,8 +221,19 @@ def discover(row, overrides):
     preferred = candidate_variants(overrides.get(row["school_code"], []))
     others = candidate_variants(row["candidate_websites_unverified"].split("|"))
     candidates = preferred + [url for url in others if url not in preferred]
-    for url in candidates[:4]:
+    # Try distinct hosts first so variants of one broken site do not consume the budget.
+    first, rest, hosts = [], [], set()
+    for candidate in candidates:
+        host = urllib.parse.urlparse(candidate).hostname
+        if host in hosts:
+            rest.append(candidate)
+        else:
+            hosts.add(host)
+            first.append(candidate)
+    attempts = []
+    for url in (first + rest)[:8]:
         base["candidate_url"] = url
+        attempts.append(url)
         if not allowed_by_robots(url):
             base["status"] = "robots_disallowed"
             continue
@@ -205,7 +243,7 @@ def discover(row, overrides):
             parser.feed(content)
             title = re.sub(r"\s+", "", parser.title)
             base.update(homepage_url=final_url, homepage_title=parser.title.strip()[:200])
-            if normalize_school_name(row["name_zh"]) not in normalize_school_name(title):
+            if not matches_school_title(row["name_zh"], title, known_names):
                 base["status"] = "title_mismatch"
                 base["error_type"] = ""
                 continue
@@ -220,11 +258,16 @@ def discover(row, overrides):
         except Exception as exc:
             base["status"] = "fetch_error"
             base["error_type"] = type(exc).__name__
+    base["attempted_urls"] = "|".join(attempts)
     return base
 
 
 def save_results(output, scope_rows, results_by_code):
     """Keep previously collected schools when resuming a selected batch."""
+    for item in results_by_code.values():
+        item.setdefault("attempted_urls", item.get("candidate_url", ""))
+        item["candidate_url"] = item.get("candidate_url", "").strip()
+        item["attempted_urls"] = "|".join(url.strip() for url in item["attempted_urls"].split("|"))
     ordered = [results_by_code[row["school_code"]] for row in scope_rows
                if row["school_code"] in results_by_code]
     if not ordered:
@@ -271,10 +314,16 @@ def main():
             elif item["status"] == "site_unverified" and trusted_host(
                     item["homepage_url"], overrides.get(code, [])):
                 item["status"] = "title_matched"
+    known_names = [row['name_zh'] for row in scope_rows]
+    names_by_code = {row['school_code']:row['name_zh'] for row in scope_rows}
+    for code,item in prior.items():
+        if code in selected_codes and item['status']=='title_matched' and not matches_school_title(
+                names_by_code[code],item['homepage_title'],known_names):
+            item['status']='title_mismatch'
     results_by_code = dict(prior)
     pending = [row for row in rows if row["school_code"] not in results_by_code or
                results_by_code[row["school_code"]]["status"] not in {
-                   "title_matched", "robots_disallowed"} and
+                   "title_matched"} and
                (results_by_code[row["school_code"]]["status"] != "site_unverified" or
                 row["school_code"] in overrides)]
 
@@ -282,7 +331,7 @@ def main():
         save_results(OUTPUT, scope_rows, results_by_code)
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(discover, row, overrides): row["school_code"] for row in pending}
+        futures = {pool.submit(discover, row, overrides, known_names): row["school_code"] for row in pending}
         for completed, future in enumerate(concurrent.futures.as_completed(futures), 1):
             results_by_code[futures[future]] = future.result()
             if completed % 20 == 0:

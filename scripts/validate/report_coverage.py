@@ -37,9 +37,11 @@ def main():
     priority_count = 0
     reviewer_count = 0
     ready = 0
+    auto_design_basis = 0
     profile_count = 0
     lists = {"culture.history_events": collections.Counter(), "visual.landmarks": collections.Counter()}
     color_methods = collections.Counter()
+    community = collections.Counter()
     for row in scope:
         is_priority = "double_first" in row["scope_tags"].split("|")
         priority_count += is_priority
@@ -61,6 +63,13 @@ def main():
             counts["schools"] += bool(entries)
             counts["entries"] += len(entries)
             counts["human"] += sum(e["verified"] == "human" for e in entries)
+        items = profile['resources'].get('community_resources', [])
+        community['schools'] += bool(items)
+        community['entries'] += len(items)
+        community.update(item['kind'] for item in items)
+        for group, key in FIELDS.values():
+            if profile[group][key].get('source_type') == 'community_dataset':
+                community['dataset_facts'] += 1
         primary = profile["visual"]["color_primary"]
         if primary["availability"] == "found":
             color_methods[primary["method"]] += 1
@@ -78,20 +87,22 @@ def main():
                     priority_fields[label]["found_" + fact["verified"]] += 1
         color = profile["visual"]["color_primary"]
         year = profile["culture"]["founded_year"]
+        auto_design_basis += color["availability"] == year["availability"] == "found"
         if (color["availability"] == year["availability"] == "found"
                 and color["verified"] == year["verified"] == "human"):
             ready += 1
     out = ROOT / "docs/coverage-2026.md"
     lines = ["# 2026 年资料覆盖率", "",
-             "自动生成报告。933 是纳入范围数量，不是调查完成数或档案数。", "",
+             "自动生成报告。1412 是纳入范围数量，不是调查完成数或档案数。", "",
              f"- 范围学校：{len(scope)}",
              f"- 已建单校档案：{profile_count}",
              f"- 尚未建档：{len(scope) - profile_count}",
+             f"- 已有附来源主色与建校年的档案：{auto_design_basis}（含自动采集与建议色，不表示所有字段完备）",
              f"- 已人工签核档案：{reviewer_count}",
              f"- 主色和建校年均已人工确认的档案：{ready}", "",
              "## 调查状态", "",
              "| 状态 | 学校数 |", "| --- | ---: |"]
-    for status in ("unresearched", "in_progress", "needs_review", "reviewed"):
+    for status in ("unresearched", "in_progress", "auto_collected", "needs_review", "reviewed"):
         lines.append(f"| {status} | {statuses[status]} |")
     lines += ["", "## 关键字段", "",
               "| 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |",
@@ -120,6 +131,19 @@ def main():
                           ("badge_sample", "校徽像素取样，PPT建议色"),
                           ("manual_derived", "官网标识取色或人工推导，PPT建议色")]:
         lines.append(f"| {method} | {color_methods[method]} | {label} |")
+    lines += ['', '## 社区资料', '',
+              f"- 已匹配社区资源学校：{community['schools']}",
+              f"- 资源入口条目：{community['entries']}",
+              f"- 其中Beamer主题：{community['beamer_theme']}；Marp主题：{community['marp_theme']}；校徽参考：{community['logo_reference']}；校史参考：{community['history_reference']}",
+              f"- 社区数据补充的事实：{community['dataset_facts']}（已计入关键字段，非校方现行声明）", '',
+              '资源索引见indexes/community-resources.csv。社区配色不计入学校主题色统计。']
+    overrides_path=ROOT/'data/review/official-site-overrides-2026.csv'
+    if overrides_path.exists():
+        with overrides_path.open(encoding='utf-8-sig',newline='') as handle:
+            overrides=list(csv.DictReader(handle))
+        lines += ['', '## 附来源网址候选', '',
+                  f"- 已有附来源入口线索的学校：{len({r['school_code'] for r in overrides if r['evidence_url']})}",
+                  '候选不等于已确认官网。未确认时可在单校research.website_candidates中查看。']
     discovery_path = ROOT / "data/review/official-page-discovery-2026.csv"
     if discovery_path.exists():
         with discovery_path.open(encoding="utf-8-sig", newline="") as handle:
@@ -153,10 +177,10 @@ def main():
             with gap_path.open(encoding="utf-8-sig", newline="") as handle:
                 gap_rows = list(csv.DictReader(handle))
             gap_statuses = collections.Counter(r["status"] for r in gap_rows)
-            lines += ["", "未取得唯一准确匹配的 32 所又尝试 API 搜索；搜索结果仍需辨认学校身份。",
+            lines += ["", "历史补查表对当时未取得唯一准确匹配的学校尝试API搜索；不代表本轮全量本科缺口。",
                       f"取得搜索候选 {gap_statuses['search_results']} 所；无结果 {gap_statuses['no_search_results']} 所；接口请求失败 {sum(count for status, count in gap_statuses.items() if status.startswith('request_error'))} 所。"]
     lines += ["", "## 发布判断", "",
-              "正式公开版本要求 933 所逐校完成调查与人工复核，并通过 `validate_profiles.py --release`。",
+              "本轮采用自动采集版：不要求人工签核，运行 `validate_profiles.py --automatic-draft` 检查全范围档案和来源元数据；可选人工核验版另用 `--release`。",
               "本报告只记录当前数量，不替代逐条来源复核。", ""]
     out.write_text("\n".join(lines), encoding="utf-8")
     print("Wrote", out.relative_to(ROOT))

@@ -34,7 +34,7 @@ def main():
                     method=d['method'], label=d['label'], basis=d['basis'],
                     role_note=d['role_note'], page_source=d['page_source'],
                     image_sha256=d['image_sha256'])
-        p['research'].update(status='needs_review', checked_at=d['checked_at'])
+        p['research'].update(status='auto_collected', checked_at=d['checked_at'])
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(yaml.safe_dump(p, allow_unicode=True, sort_keys=False, width=100))
         path.with_name('OFFICIAL.md').write_text(render(p))

@@ -1,0 +1,58 @@
+- school_code: '4111010002'
+  name_zh: 中国人民大学
+  excluded_claims:
+  - field: culture.motto
+    values: [团结、前进、刻苦、坚定, 忠诚、团结、朴实、虚心]
+    reason: 分别属于华北联合大学和华北大学时期；不作为现行中国人民大学校训候选。
+    context_source: https://www.ruc.edu.cn/lishiyange.html
+  facts:
+    culture.motto:
+      value: 实事求是
+      source: https://xxgk.ruc.edu.cn/gksx/jbxx/gzzd/d88dc1027f6e4cabbcd0d1802751e6b7.htm
+      note: 校级章程序言直接说明校训。原冲突中的另外两值是前身学校时期用语，已按历史语境排除，仍在更正台账保留。
+- school_code: '4141014981'
+  name_zh: 河南国医学院
+  facts:
+    identity.name_en:
+      value: Henan College of Classical Chinese Medicine
+      source: https://www.hcccm.edu.cn/648/list.htm
+      note: 官网学校简介直接列出完整英文名；数据注明截至2026年6月18日。
+    culture.founded_year:
+      value: 1985
+      source: https://www.hcccm.edu.cn/648/list.htm
+      basis: 官网记载前身张仲景国医大学成立于1985年；采用前身起点，不等于2026年独立本科设置年份。
+    culture.motto:
+      value: 发仲景奥旨、育国医精英
+      source: https://www.hcccm.edu.cn/648/list.htm
+  history_events:
+  - year: 1985
+    event: 前身张仲景国医大学成立。
+    source: https://www.hcccm.edu.cn/648/list.htm
+  - year: 1993
+    event: 前身撤销独立建制，教学资源分入南阳理工学院及南阳医学高等专科学校。
+    source: https://www.hcccm.edu.cn/648/list.htm
+  - year: 2026
+    event: 5月获教育部批复设置河南国医学院。
+    source: https://www.hcccm.edu.cn/648/list.htm
+- school_code: '4141014949'
+  name_zh: 河南信息科技学院
+  facts:
+    culture.founded_year:
+      value: 2026
+      source: https://www.moe.gov.cn/srcsite/A03/s181/202603/t20260324_1431948.html
+      basis: 教育部2026年同意以河南理工大学鹤壁工程技术学院为基础设立独立本科院校的年份；不表示前身创办年。
+      note: 已读取教育部公开检索返回的设置批复；本轮原页直连超时，保留读取方式。
+- school_code: '4143014983'
+  name_zh: 长沙健康学院
+  facts:
+    culture.founded_year:
+      value: 2026
+      source: https://www.moe.gov.cn/srcsite/A03/s181/202606/t20260616_1440900.html
+      basis: 教育部2026年5月同意新设长沙健康学院的年份。
+- school_code: '4165014987'
+  name_zh: 新疆昆仑科技学院
+  facts:
+    culture.founded_year:
+      value: 2026
+      source: https://www.moe.gov.cn/srcsite/A03/s181/202606/t20260616_1440874.html
+      basis: 教育部2026年同意独立设置新疆昆仑科技学院的年份。

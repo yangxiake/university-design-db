@@ -25,10 +25,15 @@ class DataRulesTest(unittest.TestCase):
             cls.scope = list(csv.DictReader(handle))
 
     def test_scope_has_no_military_and_unique_codes(self):
-        self.assertEqual(len(self.scope), 933)
-        self.assertEqual(len({r["school_code"] for r in self.scope}), 933)
+        self.assertEqual(len(self.scope), 1412)
+        self.assertEqual(len({r["school_code"] for r in self.scope}), 1412)
         self.assertFalse({"国防科技大学", "海军军医大学", "空军军医大学"}
                          & {r["name_zh"] for r in self.scope})
+        with (ROOT / "universities-index.csv").open(encoding="utf-8-sig", newline="") as handle:
+            official = {r["school_code"] for r in csv.DictReader(handle) if r["level"] == "本科"}
+        self.assertEqual({r["school_code"] for r in self.scope}, official)
+        self.assertEqual(sum("vocational_undergraduate" in r["scope_tags"].split("|")
+                             for r in self.scope), 124)
 
     def test_positive_fact_requires_source(self):
         errors = []
@@ -57,7 +62,7 @@ class DataRulesTest(unittest.TestCase):
         self.assertTrue(any("human review incomplete" in item for item in errors))
         self.assertTrue(any("release requires human verification" in item for item in errors))
         profile = yaml.safe_load(path.read_text(encoding="utf-8"))
-        self.assertEqual(profile["research"]["status"], "needs_review")
+        self.assertEqual(profile["research"]["status"], "auto_collected")
 
     def test_review_queue_covers_scope_without_asserting_candidates(self):
         with (ROOT / "data/review/review-queue-2026.csv").open(encoding="utf-8-sig", newline="") as handle:
@@ -68,8 +73,8 @@ class DataRulesTest(unittest.TestCase):
         actual_profiles = list((ROOT / "universities").glob("*/*/profile.yaml"))
         self.assertEqual(sum(bool(r["profile_path"]) for r in queue), len(actual_profiles))
         reviewed_state = sum(yaml.safe_load(path.read_text(encoding="utf-8"))["research"]["status"]
-                             == "needs_review" for path in actual_profiles)
-        self.assertEqual(sum(r["research_status"] == "needs_review" for r in queue), reviewed_state)
+                             == "auto_collected" for path in actual_profiles)
+        self.assertEqual(sum(r["research_status"] == "auto_collected" for r in queue), reviewed_state)
 
     def test_matched_sites_are_unique_and_third_party_leads_stay_out(self):
         with (ROOT / "data/review/official-page-discovery-2026.csv").open(
@@ -79,7 +84,13 @@ class DataRulesTest(unittest.TestCase):
                          {r["school_code"] for r in self.scope})
         matched = [r for r in rows if r["status"] == "title_matched"]
         hosts = [urlparse(r["homepage_url"]).hostname for r in matched]
-        self.assertEqual(len(hosts), len(set(hosts)))
+        # Independent colleges can use a distinct path on their parent's domain.
+        endpoints = [r["homepage_url"].rstrip("/") for r in matched]
+        self.assertEqual(len(endpoints), len(set(endpoints)))
+        from discover_official_pages import matches_school_title
+        names = [r["name_zh"] for r in self.scope]
+        for item in matched:
+            self.assertTrue(matches_school_title(item["name_zh"],item["homepage_title"],names))
         self.assertNotIn("www.at0086.com", hosts)
         for path in (ROOT / "universities").glob("*/*/profile.yaml"):
             profile = yaml.safe_load(path.read_text(encoding="utf-8"))

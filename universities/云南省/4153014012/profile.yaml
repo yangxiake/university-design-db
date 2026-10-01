@@ -23,14 +23,24 @@ identity:
     availability: unresearched
     search_sources: []
 classification:
-  scope_category: 其余未备注本科
+  scope_category: 其他本科
   scope_tags:
+  - all_undergraduate
   - moe_note_blank
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4153014012'
+  website_candidates:
+  - url: http://www.qjmc.edu.cn
+    source: https://github.com/DiamonWoo/Laosheng.top/blob/aa2ff8054746491526a11b6fb2d9115f07386bbc/fuwu/yuanxiao.md
+    note: 2026社区高校目录入口线索；仅链接事实，不镜像原文或完整目录；须访问并核对学校身份
+    status: unverified_candidate
+  website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
     value: null

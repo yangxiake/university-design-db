@@ -61,7 +61,7 @@ def main():
             evidence_pages = [p for p in pages if p["kind"] in relevant and p["status"] == "read"]
             if recorded:
                 state = fact["availability"] if isinstance(fact, dict) else "found"
-                next_action = "核对已录事实原页及口径，最后人工签核"
+                next_action = "保持来源及版本，处理差异并继续补采缺项；人工核验可后续进行"
             elif evidence_pages:
                 state = "needs_interpretation"
                 next_action = "继续阅读原页、图表或手册并检索该字段；自动规则未提取不等于资料不存在"
@@ -87,7 +87,7 @@ def main():
               ["school_code", "name_zh", "kind", "requested_url", "source_url", "status", "title", "checked_at", "error_type"])
     counts = collections.Counter(item["collection_status"] for item in schools)
     states = collections.Counter(item["state"] for item in fields)
-    lines = ["# 933 所逐校访查记录", "", "本表统计访问和自动提取进度，不等于资料补齐或人工签核。", "",
+    lines = ["# 1412 所逐校访查记录", "", "本表统计访问和自动提取进度，不等于资料补齐或人工签核。", "",
              f"范围：{len(scope)} 所；访查台账：{len(ledger)} 所；尝试读取页面：{len(visits)} 个。", "",
              "| 调查状态 | 学校数 |", "| --- | ---: |"]
     labels = {"researched_partial": "已读取部分校方资料，仍有字段缺口", "access_limited": "已有官网入口，本次读取受限",

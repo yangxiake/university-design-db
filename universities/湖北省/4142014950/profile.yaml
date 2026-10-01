@@ -23,14 +23,40 @@ identity:
     availability: unresearched
     search_sources: []
 classification:
-  scope_category: 其余未备注本科
+  scope_category: 其他本科
   scope_tags:
+  - all_undergraduate
   - moe_note_blank
   scope_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
 research:
-  status: needs_review
+  status: auto_collected
   checked_at: '2026-10-01'
   reviewed_by: null
+  collection_status: researched_partial
+  audit_ledger: data/review/school-research-2026.jsonl
+  audit_key: '4142014950'
+  website_candidates:
+  - url: https://xjtu.edu.cn/
+    source: https://cybersec.xjtu.edu.cn/xygk/xyjj.htm
+    note: 学校名称匹配的公开搜索索引提供网址线索；尚未核实归属，须首页标题核对和人工复核
+    status: unverified_candidate
+  - url: https://www.xjtu.edu.cn/
+    source: https://cybersec.xjtu.edu.cn/xygk/xyjj.htm
+    note: 学校名称匹配的公开搜索索引提供网址线索；尚未核实归属，须首页标题核对和人工复核
+    status: unverified_candidate
+  - url: https://nuist.edu.cn/
+    source: https://cse.nuist.edu.cn/main.htm
+    note: 学校名称匹配的公开搜索索引提供网址线索；尚未核实归属，须首页标题核对和人工复核
+    status: unverified_candidate
+  - url: https://www.nuist.edu.cn/
+    source: https://cse.nuist.edu.cn/main.htm
+    note: 学校名称匹配的公开搜索索引提供网址线索；尚未核实归属，须首页标题核对和人工复核
+    status: unverified_candidate
+  - url: https://seu.edu.cn/
+    source: https://cyber.seu.edu.cn/
+    note: 学校名称匹配的公开搜索索引提供网址线索；尚未核实归属，须首页标题核对和人工复核
+    status: unverified_candidate
+  website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
     value: null
