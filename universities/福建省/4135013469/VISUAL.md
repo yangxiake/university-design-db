@@ -6,19 +6,22 @@
 
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
-| badge | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) | png | 800 × 800 | content_inspected | 未独立声明 |
+| 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) | png | 800 × 800 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.jgxy.xmu.edu.cn/assets/cms/images/logo.png) · [来源](https://www.jgxy.xmu.edu.cn/) | png | 458 × 100 | content_inspected | 未独立声明 |
 
-仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。SVG的viewBox是内部坐标，不等于像素尺寸。
+仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
 ## 调色板
 
-| HEX | RGB | 用途 | 取值方法 | 来源 |
-| --- | --- | --- | --- | --- |
-| `#306090` | 48,96,144 | reference | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) |
-| `#387068` | 56,112,104 | reference | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) |
-| `#D82018` | 216,32,24 | reference | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) |
+| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | `#306090` | 48,96,144 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) |
+|  | `#387068` | 56,112,104 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) |
+|  | `#D82018` | 216,32,24 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png) |
+|  | `#D0C880` | 208,200,128 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.jgxy.xmu.edu.cn/assets/cms/images/logo.png) |
+|  | `#908048` | 144,128,72 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.jgxy.xmu.edu.cn/assets/cms/images/logo.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

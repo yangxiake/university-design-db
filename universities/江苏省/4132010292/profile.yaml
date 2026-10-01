@@ -88,29 +88,38 @@ research:
   audit_key: '4132010292'
 visual:
   color_primary:
-    value: '#AD3C31'
-    source: https://www.cczu.edu.cn/2016/0115/c10291a130708/page.htm
-    verified: auto
-    checked_at: '2026-09-30'
-    availability: found
-    search_sources: []
-    method: official_vi
-    label: 标准红
-    basis: 官网校标页标准色 RGB R173 G60 B49，换算为 HEX
-  color_secondary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  vi_url:
-    value: https://www.cczu.edu.cn/2016/0115/c10291a130708/page.htm
-    source: https://www.cczu.edu.cn/2016/0115/c10291a130708/page.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-01'
+    availability: conflict
+    search_sources: []
+    label: 常大红
+    note: 当前官网导航的VIS手册常大红色卡RGB R192 G63 B55与HEX cb3c38不一致；旧“龙”校标页的R173 G60 B49仍在线，旧值转为历史参考，不认定为现行唯一标准。
+    candidates:
+    - value: '#C03F37'
+      basis: 当前入口PDF第11页RGB R192 G63 B55换写HEX。
+      source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    - value: '#CB3C38'
+      basis: 当前入口PDF第11页直接印出的HEX cb3c38。
+      source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+  color_secondary:
+    value: '#0C3388'
+    source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    method: official_vi
+    label: 常大钴蓝（并列主色系）
+    basis: 当前官网标识系统入口嵌入的VIS手册PDF第11页，手册17—18页；AI查看主色系与辅助色系完整色卡，保留用途及数字差异。
+    verified: auto
+    checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  vi_url:
+    value: https://www.cczu.edu.cn/bsxt/list.htm
+    availability: found
+    search_sources: []
+    source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
   badge_description:
     value: 校标以校训“责任”为主体，并标注建校年“1978”。
     source: https://www.cczu.edu.cn/czdxzc/list.htm
@@ -147,6 +156,45 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: e50b1d11c556a68c15d31cf3
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.cczu.edu.cn/_upload/tpl/05/2e/1326/template1326/images/logo.svg
+    source: https://www.cczu.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 常州大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 常州大学
+    format: svg
+    width: 218.554
+    height: 88.824
+    vector: false
+    has_alpha: null
+    transparent_background: null
+    sha256: 58d589e6207c685379155aabe7e992e7b8c5c6d4c609f0dbf4994a95b8cfecd6
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/05/2e/1326/template1326/images/logo.svg
+      label: '   '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 159990
+    representation: svg_with_raster
+    view_box: 0 0 218.554 88.824
+    encoding: utf-8-sig
+    intrinsic_width: '218.554'
+    intrinsic_height: '88.824'
+    resolved_url: https://www.cczu.edu.cn/_upload/tpl/05/2e/1326/template1326/images/logo.svg
   color_palette:
   - value: '#AD3C31'
     rgb:
@@ -155,16 +203,173 @@ visual:
     - 49
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: official_vi
     official: true
     source: https://www.cczu.edu.cn/2016/0115/c10291a130708/page.htm
     verified: auto
     checked_at: '2026-09-30'
     availability: found
-    basis: 官网校标页标准色 RGB R173 G60 B49，换算为 HEX
-    source_field: visual.color_primary
-  vi_resources: []
+    basis: 官网校标页标准色 RGB R173 G60 B49，换算为 HEX；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
+  - value: '#A0E8D0'
+    rgb:
+    - 160
+    - 232
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG内嵌位图取样；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.cczu.edu.cn/_upload/tpl/05/2e/1326/template1326/images/logo.svg
+    page_source: https://www.cczu.edu.cn/
+    asset_id: e50b1d11c556a68c15d31cf3
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#60D8A8'
+    rgb:
+    - 96
+    - 216
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG内嵌位图取样；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.cczu.edu.cn/_upload/tpl/05/2e/1326/template1326/images/logo.svg
+    page_source: https://www.cczu.edu.cn/
+    asset_id: e50b1d11c556a68c15d31cf3
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#0C3388'
+    rgb:
+    - 12
+    - 51
+    - 136
+    cmyk:
+    - 100
+    - 90
+    - 10
+    - 0
+    pantone: 2758 C
+    label: 常大钴蓝（并列主色系）
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 当前官网标识系统入口嵌入的VIS手册PDF第11页，手册17—18页；AI查看主色系与辅助色系完整色卡，保留用途及数字差异。
+    source_sha256: b2b923206781d869f6c2ee0b9cd85c10144e6567d01f77688991e378de32efc7
+    source_field: visual.color_secondary
+  - value: '#92470D'
+    rgb:
+    - 146
+    - 71
+    - 13
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 56
+    pantone: 1535 XGC
+    label: 常大咖（主色系）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 当前官网标识系统入口嵌入的VIS手册PDF第11页，手册17—18页；AI查看主色系与辅助色系完整色卡，保留用途及数字差异。
+    source_sha256: b2b923206781d869f6c2ee0b9cd85c10144e6567d01f77688991e378de32efc7
+  - value: '#000000'
+    rgb:
+    - 0
+    - 0
+    - 0
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: BLACK C
+    label: 常大黑（主色系）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 当前官网标识系统入口嵌入的VIS手册PDF第11页，手册17—18页；AI查看主色系与辅助色系完整色卡，保留用途及数字差异。
+    source_sha256: b2b923206781d869f6c2ee0b9cd85c10144e6567d01f77688991e378de32efc7
+  - value: '#51284F'
+    rgb:
+    - 81
+    - 40
+    - 79
+    cmyk:
+    - 58
+    - 92
+    - 12
+    - 54
+    pantone: 262 C
+    label: 常大黛紫（主色系）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 当前官网标识系统入口嵌入的VIS手册PDF第11页，手册17—18页；AI查看主色系与辅助色系完整色卡，保留用途及数字差异。
+    source_sha256: b2b923206781d869f6c2ee0b9cd85c10144e6567d01f77688991e378de32efc7
+  - value: '#595757'
+    rgb:
+    - 89
+    - 87
+    - 87
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 80
+    pantone: 432cu
+    label: 常大灰（主色系）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 当前官网标识系统入口嵌入的VIS手册PDF第11页，手册17—18页；AI查看主色系与辅助色系完整色卡，保留用途及数字差异。
+    source_sha256: b2b923206781d869f6c2ee0b9cd85c10144e6567d01f77688991e378de32efc7
+  vi_resources:
+  - title: 常州大学官方视觉规范
+    url: https://www.cczu.edu.cn/bsxt/list.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 当前官网标识系统入口嵌入的VIS手册PDF第11页，手册17—18页；AI查看主色系与辅助色系完整色卡，保留用途及数字差异。
 culture:
   founded_year:
     value: 1978
@@ -263,12 +468,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.cczu.edu.cn/19311/list.htm
+    availability: found
     search_sources: []
+    source: https://www.cczu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -277,19 +486,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://eng.cczu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.cczu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.cczu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.cczu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工

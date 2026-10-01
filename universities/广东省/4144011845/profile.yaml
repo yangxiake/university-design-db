@@ -202,6 +202,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%20GDUT.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%20GDUT.svg
     attempts: []
+  - asset_id: 69b97a05c6d7befe8de5274f
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gdut.edu.cn/images2020/logo.png
+    source: https://www.gdut.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 广东工业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广东工业大学
+    format: png
+    width: 1000
+    height: 228
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: aad327af77d25d6d32836ed3c35a997dd3df48df58b8e3c3cf694a4b30db893d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images2020/logo.png
+      label: '   '
+      context: ' logo wrap  logo   '
+      position: 4
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 48648
+    representation: raster
+    resolved_url: https://www.gdut.edu.cn/images2020/logo.png
   color_palette:
   - value: '#C40D23'
     rgb:
@@ -237,6 +272,40 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 24b2473c0b1cd872
+  - value: '#C00820'
+    rgb:
+    - 192
+    - 8
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gdut.edu.cn/images2020/logo.png
+    page_source: https://www.gdut.edu.cn
+    asset_id: 69b97a05c6d7befe8de5274f
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#C80820'
+    rgb:
+    - 200
+    - 8
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gdut.edu.cn/images2020/logo.png
+    page_source: https://www.gdut.edu.cn
+    asset_id: 69b97a05c6d7befe8de5274f
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -339,19 +408,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.gdut.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.gdut.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.gdut.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.gdut.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工

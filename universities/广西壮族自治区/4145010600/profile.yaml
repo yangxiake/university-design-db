@@ -101,7 +101,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 535f85b805077b70f6f8b495
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gxtcmu.edu.cn/content/main/base/img/logo.png
+    source: https://www.gxtcmu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 广西中医药大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广西中医药大学
+    format: png
+    width: 423
+    height: 64
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b829fd6a66d84bc8f909e2b68d622854b5ddf34a53c7e417ddbdb2e81e7bc525
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /content/main/base/img/logo.png
+      label: '  logo-1 '
+      context: 'header header navbar navbar-expand-md navbar-dark  navbar-brand   '
+      position: 6
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 10005
+    representation: raster
+    resolved_url: https://www.gxtcmu.edu.cn/content/main/base/img/logo.png
+  - asset_id: 0eb909dd43773a8071471746
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gxtcmu.edu.cn/content/main/base/img/logo-color.png
+    source: https://www.gxtcmu.edu.cn/
+    file_name: logo-color.png
+    upstream_path: null
+    publisher: 广西中医药大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广西中医药大学
+    format: png
+    width: 423
+    height: 64
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f6d273192b7709f9f481ade995f79dc98d92447328e5b0aebac7f0ef5b51c401
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /content/main/base/img/logo-color.png
+      label: '  logo-2 '
+      context: 'header header navbar navbar-expand-md navbar-dark  navbar-brand   '
+      position: 7
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 9923
+    representation: raster
+    resolved_url: https://www.gxtcmu.edu.cn/content/main/base/img/logo-color.png
   color_palette:
   - value: '#007344'
     rgb:
@@ -119,6 +189,74 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#007040'
+    rgb:
+    - 0
+    - 112
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gxtcmu.edu.cn/content/main/base/img/logo.png
+    page_source: https://www.gxtcmu.edu.cn/
+    asset_id: 535f85b805077b70f6f8b495
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#009848'
+    rgb:
+    - 0
+    - 152
+    - 72
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gxtcmu.edu.cn/content/main/base/img/logo.png
+    page_source: https://www.gxtcmu.edu.cn/
+    asset_id: 535f85b805077b70f6f8b495
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#007040'
+    rgb:
+    - 0
+    - 112
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gxtcmu.edu.cn/content/main/base/img/logo-color.png
+    page_source: https://www.gxtcmu.edu.cn/
+    asset_id: 0eb909dd43773a8071471746
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#007840'
+    rgb:
+    - 0
+    - 120
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gxtcmu.edu.cn/content/main/base/img/logo-color.png
+    page_source: https://www.gxtcmu.edu.cn/
+    asset_id: 0eb909dd43773a8071471746
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -190,12 +328,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gxtcmu.edu.cn/zhsjy
+    availability: found
     search_sources: []
+    source: https://www.gxtcmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -204,19 +346,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gxtcmu.edu.cn/english
+    availability: found
     search_sources: []
+    source: https://www.gxtcmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gxtcmu.edu.cn/zt/xxgkw
+    availability: found
     search_sources: []
+    source: https://www.gxtcmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

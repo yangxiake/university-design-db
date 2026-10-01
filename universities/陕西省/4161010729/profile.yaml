@@ -100,7 +100,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: ab76c51ff9c7bf3f881d57ca
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xafa.edu.cn/images/welcome-logo-img1.png
+    source: https://www.xafa.edu.cn/
+    file_name: welcome-logo-img1.png
+    upstream_path: null
+    publisher: 西安美术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安美术学院
+    format: png
+    width: 280
+    height: 184
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b1fcc685fe97df2220b20f5432f5040cab157abbcb015fcf96143fc8cc94b41c
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/welcome-logo-img1.png
+      label: '   '
+      context: 'gxbox  gx-logo     '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 5987
+    representation: raster
+    resolved_url: https://www.xafa.edu.cn/images/welcome-logo-img1.png
+  - asset_id: 7b2b0f67f8cd3dac9e27d3be
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xafa.edu.cn/images/welcome-logo-img2.png
+    source: https://www.xafa.edu.cn/
+    file_name: welcome-logo-img2.png
+    upstream_path: null
+    publisher: 西安美术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安美术学院
+    format: png
+    width: 265
+    height: 187
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6d2ee01fd48903c59ffa68dd007ae28bccbd49d8cfd41bf7184f753eadda6234
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/welcome-logo-img2.png
+      label: '   '
+      context: 'gxbox  gx-logo     '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 56772
+    representation: raster
+    resolved_url: https://www.xafa.edu.cn/images/welcome-logo-img2.png
   color_palette:
   - value: '#C49583'
     rgb:
@@ -118,6 +188,40 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#B88878'
+    rgb:
+    - 184
+    - 136
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xafa.edu.cn/images/welcome-logo-img1.png
+    page_source: https://www.xafa.edu.cn/
+    asset_id: ab76c51ff9c7bf3f881d57ca
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#B89078'
+    rgb:
+    - 184
+    - 144
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xafa.edu.cn/images/welcome-logo-img1.png
+    page_source: https://www.xafa.edu.cn/
+    asset_id: ab76c51ff9c7bf3f881d57ca
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:

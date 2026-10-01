@@ -144,6 +144,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6%20SUFE.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6%20SUFE.svg
     attempts: []
+  - asset_id: 49be2fb6dde0c4be0d335c00
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sufe.edu.cn/_upload/tpl/02/d6/726/template726/images/logo.png
+    source: https://www.sufe.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 上海财经大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海财经大学
+    format: png
+    width: 702
+    height: 142
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c57a0b9fe8b47804ff1c3c5d13e7545545fb56c4588a832faed8beae36cd8fba
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/d6/726/template726/images/logo.png
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 62889
+    representation: raster
+    resolved_url: https://www.sufe.edu.cn/_upload/tpl/02/d6/726/template726/images/logo.png
   color_palette:
   - value: '#821C21'
     rgb:
@@ -274,19 +309,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.sufe.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sufe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://gongkai.sufe.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sufe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 财经
@@ -342,19 +385,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 上海市国定路777号
+    availability: found
     search_sources: []
+    source: https://www.sufe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:上海市国定路777号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '200433'
+    availability: found
     search_sources: []
+    source: https://www.sufe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:200433
   coordinates:
     value:
       longitude: 121.498
@@ -534,12 +585,16 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: xiaozhang@mail.shufe.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.sufe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 校长信箱 xiaozhang@mail.shufe.edu.cn
 rankings:
   entries: []
 admissions:

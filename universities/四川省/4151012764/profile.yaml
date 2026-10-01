@@ -96,7 +96,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: ffd9a3073fd02f784871a1bc
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.scac.edu.cn/images/logo202609282.png
+    source: https://www.scac.edu.cn
+    file_name: logo202609282.png
+    upstream_path: null
+    publisher: 四川建筑职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 四川建筑职业技术大学
+    format: png
+    width: 531
+    height: 130
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 5c792f33d4054aa7ce4f2a7209e73c9924bdb49ac878d04789b0d07a7f60d5f3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo202609282.png
+      label: '   '
+      context: 'header wow fadeInUp  container clearfix  pull-left logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 24016
+    representation: raster
+    resolved_url: https://www.scac.edu.cn/images/logo202609282.png
   color_palette: []
   vi_resources: []
 culture:
@@ -159,12 +194,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zjc.scac.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.scac.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -180,12 +219,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.scac.edu.cn/xxgk.htm
+    availability: found
     search_sources: []
+    source: https://www.scac.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

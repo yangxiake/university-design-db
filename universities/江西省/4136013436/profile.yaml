@@ -94,8 +94,112 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 3b0babaa37830247e27c7e9a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://ncbcjxau.edu.cn/statics/ndsxy/images/logo.png
+    source: https://ncbcjxau.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 江西农业大学南昌商学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江西农业大学南昌商学院
+    format: png
+    width: 529
+    height: 77
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: cb22a826f30fb67c49cce47fb81d20fd66b5c010e568fa2f6d08f6443a44e531
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /statics/ndsxy/images/logo.png
+      label: '首页logo   '
+      context: 's-header  s-inner  s-logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 24982
+    representation: raster
+    resolved_url: https://ncbcjxau.edu.cn/statics/ndsxy/images/logo.png
+  - asset_id: 1a502c584ff41f8e705c2e58
+    kind: badge
+    title: 学校官网页眉标识
+    url: 'https://ncbcjxau.edu.cn/statics/ndsxy/images/xiaoxun.png '
+    source: https://ncbcjxau.edu.cn/
+    file_name: 'xiaoxun.png '
+    upstream_path: null
+    publisher: 江西农业大学南昌商学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江西农业大学南昌商学院
+    format: png
+    width: 309
+    height: 34
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 9f8e458055b85b6a579ecc61d9b2ef68f9dfeec3f2327774af55d59c13388644
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: '/statics/ndsxy/images/xiaoxun.png '
+      label: '校徽   '
+      context: 's-header  s-inner  s-xiaoxun   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 7593
+    representation: raster
+    resolved_url: https://ncbcjxau.edu.cn/statics/ndsxy/images/xiaoxun.png
+  color_palette:
+  - value: '#F0C8C8'
+    rgb:
+    - 240
+    - 200
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://ncbcjxau.edu.cn/statics/ndsxy/images/logo.png
+    page_source: https://ncbcjxau.edu.cn/
+    asset_id: 3b0babaa37830247e27c7e9a
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#F0D0D0'
+    rgb:
+    - 240
+    - 208
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://ncbcjxau.edu.cn/statics/ndsxy/images/logo.png
+    page_source: https://ncbcjxau.edu.cn/
+    asset_id: 3b0babaa37830247e27c7e9a
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -158,12 +262,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zs.ncbcjxau.edu.cn/news-list-zsjy.html
+    availability: found
     search_sources: []
+    source: https://ncbcjxau.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -194,12 +302,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -223,19 +334,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 江西省赣江新区共青城市青年大道79号
+    availability: found
     search_sources: []
+    source: https://ncbcjxau.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:江西省赣江新区共青城市青年大道79号 邮编:332020 版权所有:江西农业大学南昌商学院 制作发布 江西农业大学南昌商学院技术中心 域名:ncbcjxau.edu.cn
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '332020'
+    availability: found
     search_sources: []
+    source: https://ncbcjxau.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:江西省赣江新区共青城市青年大道79号 邮编:332020 版权所有:江西农业大学南昌商学院 制作发布 江西农业大学南昌商学院技术中心 域名:ncbcjxau.edu.cn
   coordinates:
     value: null
     source: null

@@ -96,7 +96,42 @@ visual:
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 36bd4e08d883c2fb5d8e2f01
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gmc.edu.cn/xwyimages/logo.png
+    source: https://www.gmc.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 贵州医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 贵州医科大学
+    format: png
+    width: 268
+    height: 74
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 28b30e483f87b078a534e8d6c566da45b78d5a0254564e8ef736567b92b8c97e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: xwyimages/logo.png
+      label: '   '
+      context: 'head pc  head-top px1400  logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 17649
+    representation: raster
+    resolved_url: https://www.gmc.edu.cn/xwyimages/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -171,12 +206,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gmc.edu.cn/zsjy1/zsxx.htm
+    availability: found
     search_sources: []
+    source: https://www.gmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -192,12 +231,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gmc.edu.cn/xxgk1/ndbg.htm
+    availability: found
     search_sources: []
+    source: https://www.gmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -236,19 +279,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 贵州省贵安新区安康大道6号贵州医科大学
+    availability: found
     search_sources: []
+    source: https://www.gmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 通讯地址:贵州省贵安新区安康大道6号贵州医科大学
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '561113'
+    availability: found
     search_sources: []
+    source: https://www.gmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:561113
   coordinates:
     value: null
     source: null
@@ -328,12 +379,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0851-88582663'
+    availability: found
     search_sources: []
+    source: https://www.gmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系电话:0851-88582663
   email:
     value: null
     source: null

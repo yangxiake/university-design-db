@@ -101,7 +101,77 @@ visual:
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 1d8670af882da4bd19eddeda
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo.png
+    source: https://www.hfit.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 合肥理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 合肥理工学院
+    format: png
+    width: 435
+    height: 113
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: cab7ab0ca412ad7a7752cc71d7114054cc83f5d8e6dc8c71efbdb2c786e6afc4
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/02/2/template2/htmlRes/logo.png
+      label: '  logo '
+      context: 'dbnr  container container2  tblogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 32635
+    representation: raster
+    resolved_url: https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo.png
+  - asset_id: 0d8b9118e38471a63d42ac1e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo(1).png
+    source: https://www.hfit.edu.cn/
+    file_name: logo(1).png
+    upstream_path: null
+    publisher: 合肥理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 合肥理工学院
+    format: png
+    width: 513
+    height: 113
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 4013bd12db8a723c6ee0959ed25ca733e2478e6501bfaafd1e8e183daa3781ac
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/02/2/template2/htmlRes/logo(1).png
+      label: '   '
+      context: 'container    col-xs-7  logo '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 32240
+    representation: raster
+    resolved_url: https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo(1).png
   color_palette:
   - value: '#8FB3D8'
     rgb:
@@ -119,6 +189,74 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#C8D8E8'
+    rgb:
+    - 200
+    - 216
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo.png
+    page_source: https://www.hfit.edu.cn/
+    asset_id: 1d8670af882da4bd19eddeda
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#B0C8E0'
+    rgb:
+    - 176
+    - 200
+    - 224
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo.png
+    page_source: https://www.hfit.edu.cn/
+    asset_id: 1d8670af882da4bd19eddeda
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#C0D0E8'
+    rgb:
+    - 192
+    - 208
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo(1).png
+    page_source: https://www.hfit.edu.cn/
+    asset_id: 0d8b9118e38471a63d42ac1e
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#B0C8E0'
+    rgb:
+    - 176
+    - 200
+    - 224
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hfit.edu.cn/_upload/tpl/00/02/2/template2/htmlRes/logo(1).png
+    page_source: https://www.hfit.edu.cn/
+    asset_id: 0d8b9118e38471a63d42ac1e
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -181,12 +319,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.hfit.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.hfit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -202,12 +344,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.hfit.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.hfit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

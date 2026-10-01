@@ -190,6 +190,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%A4%A7%E8%BF%9E%E6%B5%B7%E4%BA%8B%E5%A4%A7%E5%AD%A6%20DMU.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%A4%A7%E8%BF%9E%E6%B5%B7%E4%BA%8B%E5%A4%A7%E5%AD%A6%20DMU.svg
     attempts: []
+  - asset_id: f7f984105009dfdbf18786e2
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.dlmu.edu.cn/2024xz/images/logo.png
+    source: https://www.dlmu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 大连海事大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 大连海事大学
+    format: png
+    width: 349
+    height: 70
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3e90f3473579a4d290dec743a68e8a5616bcf60177541a38f39f90197090ff98
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: 2024xz/images/logo.png
+      label: '   '
+      context: 'head pc  h-top  logo   '
+      position: 5
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 11799
+    representation: raster
+    resolved_url: https://www.dlmu.edu.cn/2024xz/images/logo.png
   color_palette:
   - value: '#004EA2'
     rgb:
@@ -326,12 +361,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://bkzs.dlmu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.dlmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: http://myjob.dlmu.edu.cn/portal/home.html
     availability: found
@@ -347,19 +386,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.dlmu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.dlmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.dlmu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.dlmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -421,19 +468,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 辽宁省大连市甘井子区凌海路1号
+    availability: found
     search_sources: []
+    source: https://www.dlmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:辽宁省大连市甘井子区凌海路1号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '116026'
+    availability: found
     search_sources: []
+    source: https://www.dlmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:116026
   coordinates:
     value:
       longitude: 121.534

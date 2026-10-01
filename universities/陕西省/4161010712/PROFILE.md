@@ -20,11 +20,19 @@
 | 综合、理工、师范等院校类型 | 农业 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
 | 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
 | 院校群与历史项目标签，非排名 | ["双一流", "985", "211"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
+| 邮政编码 | 712100 | official_website | 2026-10-01 | [来源](https://www.nwsuaf.edu.cn/) |
+| 邮政编码口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
 | 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 34.275, "location_kind": "community_map_point", "longitude": 108.072, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js) |
 | 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
 | 双一流建设学科，注明名单年份及是否节选 | ["农学（旱区农业）", "林学", "植物保护", "畜牧学"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js) |
 | 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
+| 招生入口 | https://www.nwsuaf.edu.cn/zsjy/index.htm | official_website | 2026-10-01 | [来源](https://www.nwsuaf.edu.cn/) |
+| 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 | 就业入口 | https://job.nwsuaf.edu.cn/ | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
+| 英文网站入口 | https://en.nwsuaf.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.nwsuaf.edu.cn/) |
+| 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
+| 信息公开入口 | https://xxgk.nwsuaf.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.nwsuaf.edu.cn/) |
+| 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
 
 ## 视觉资料
 
@@ -67,6 +75,6 @@
 
 ## 尚未确认的信息
 
-校花：尚未采集、吉祥物：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、邮政编码：尚未采集、中文简介，短摘要：尚未采集、英文简介，短摘要：尚未采集、学生人数，需统计日期和口径：尚未采集、教职工人数，需统计日期和口径：尚未采集、校园面积，公顷，需日期和口径：尚未采集、学位授权，需年份与层次口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、招生入口：尚未采集、英文网站入口：尚未采集、信息公开入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
+校花：尚未采集、吉祥物：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、中文简介，短摘要：尚未采集、英文简介，短摘要：尚未采集、学生人数，需统计日期和口径：尚未采集、教职工人数，需统计日期和口径：尚未采集、校园面积，公顷，需日期和口径：尚未采集、学位授权，需年份与层次口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
 
 完整字段与出处见[profile.yaml](profile.yaml)。

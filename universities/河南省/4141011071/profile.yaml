@@ -227,6 +227,76 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xinxiang_University/svg/logo_blue.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xinxiang_University/svg/logo_blue.svg
+  - asset_id: 4d72116743e6af3a17a55d31
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xxu.edu.cn/dfiles/9773/images/logo_01.png
+    source: https://www.xxu.edu.cn/
+    file_name: logo_01.png
+    upstream_path: null
+    publisher: 新乡学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新乡学院
+    format: png
+    width: 272
+    height: 272
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 5c895497c9e1c5156523fd21801f49b008f02f7d2d80ab1822990cf62c505739
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/9773/images/logo_01.png
+      label: '   '
+      context: 'container  logo    logo_01 '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 54886
+    representation: raster
+    resolved_url: https://www.xxu.edu.cn/dfiles/9773/images/logo_01.png
+  - asset_id: b0bcd9596735ace96fe7b275
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xxu.edu.cn/dfiles/9773/images/logo_02.png
+    source: https://www.xxu.edu.cn/
+    file_name: logo_02.png
+    upstream_path: null
+    publisher: 新乡学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新乡学院
+    format: png
+    width: 469
+    height: 204
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 226a3853a7ba980dbcb6027544ee9b402ddba31e0564f6681dc5e85e909fc4f3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/9773/images/logo_02.png
+      label: '   '
+      context: 'container  logo    logo_02 '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 64337
+    representation: raster
+    resolved_url: https://www.xxu.edu.cn/dfiles/9773/images/logo_02.png
   color_palette:
   - value: '#0081CC'
     rgb:
@@ -316,6 +386,40 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: d13db70363d52e68
+  - value: '#0080C8'
+    rgb:
+    - 0
+    - 128
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xxu.edu.cn/dfiles/9773/images/logo_01.png
+    page_source: https://www.xxu.edu.cn/
+    asset_id: 4d72116743e6af3a17a55d31
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#0078C8'
+    rgb:
+    - 0
+    - 120
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xxu.edu.cn/dfiles/9773/images/logo_01.png
+    page_source: https://www.xxu.edu.cn/
+    asset_id: 4d72116743e6af3a17a55d31
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -378,12 +482,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zj.xxu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -392,19 +500,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.xxu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.xxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://info.xxu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.xxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -457,19 +573,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 河南新乡市金穗大道191号
+    availability: found
     search_sources: []
+    source: https://www.xxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有:新乡学院 豫ICP备09001218号-1 地址:河南新乡市金穗大道191号 电话:0373-3683015 邮编:453003 豫公网安备 41070202000139号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '453003'
+    availability: found
     search_sources: []
+    source: https://www.xxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有:新乡学院 豫ICP备09001218号-1 地址:河南新乡市金穗大道191号 电话:0373-3683015 邮编:453003 豫公网安备 41070202000139号
   coordinates:
     value: null
     source: null
@@ -549,12 +673,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0373-3683015'
+    availability: found
     search_sources: []
+    source: https://www.xxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有:新乡学院 豫ICP备09001218号-1 地址:河南新乡市金穗大道191号 电话:0373-3683015 邮编:453003 豫公网安备 41070202000139号
   email:
     value: null
     source: null

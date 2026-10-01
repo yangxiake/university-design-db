@@ -101,7 +101,77 @@ visual:
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 362ec3bb6336a2a8b4589682
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xjart.edu.cn/dfiles/12950/_upload/tpl/00/40/64/template64/images/logo-new.jpg
+    source: https://www.xjart.edu.cn/
+    file_name: logo-new.jpg
+    upstream_path: null
+    publisher: 新疆艺术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆艺术学院
+    format: png
+    width: 290
+    height: 73
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 1f93269e86e7d2e960d740e816d6a30c2ad1349970a43dd542e108859abeb82f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/12950/_upload/tpl/00/40/64/template64/images/logo-new.jpg
+      label: '   '
+      context: 'header  container clearfix  logo fl   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 18056
+    representation: raster
+    resolved_url: https://www.xjart.edu.cn/dfiles/12950/_upload/tpl/00/40/64/template64/images/logo-new.jpg
+  - asset_id: b27397e1429625f29c1b1f6a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xjart.edu.cn/dfiles/12950/_upload/tpl/00/40/64/template64/images/smalllogo.jpg
+    source: https://www.xjart.edu.cn/
+    file_name: smalllogo.jpg
+    upstream_path: null
+    publisher: 新疆艺术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆艺术学院
+    format: png
+    width: 136
+    height: 40
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 2ba54ae5bc72ddfd45327149ef502de02486f37dfd6482c69de2f6d81234afe9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/12950/_upload/tpl/00/40/64/template64/images/smalllogo.jpg
+      label: '   '
+      context: 'nav  sy1_ul    smalllogo fl '
+      position: 4
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 7077
+    representation: raster
+    resolved_url: https://www.xjart.edu.cn/dfiles/12950/_upload/tpl/00/40/64/template64/images/smalllogo.jpg
   color_palette:
   - value: '#A20000'
     rgb:
@@ -119,6 +189,40 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#A00000'
+    rgb:
+    - 160
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xjart.edu.cn/dfiles/12950/_upload/tpl/00/40/64/template64/images/logo-new.jpg
+    page_source: https://www.xjart.edu.cn/
+    asset_id: 362ec3bb6336a2a8b4589682
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#A80000'
+    rgb:
+    - 168
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xjart.edu.cn/dfiles/12950/_upload/tpl/00/40/64/template64/images/logo-new.jpg
+    page_source: https://www.xjart.edu.cn/
+    asset_id: 362ec3bb6336a2a8b4589682
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -186,12 +290,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xjart.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.xjart.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -207,12 +315,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xjart.edu.cn/xxgk1/xxgg.htm
+    availability: found
     search_sources: []
+    source: https://www.xjart.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -251,19 +363,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 新疆乌鲁木齐市天山区团结路734号
+    availability: found
     search_sources: []
+    source: https://www.xjart.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:新疆乌鲁木齐市天山区团结路734号 邮编:830049
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '830049'
+    availability: found
     search_sources: []
+    source: https://www.xjart.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:新疆乌鲁木齐市天山区团结路734号 邮编:830049
   coordinates:
     value: null
     source: null

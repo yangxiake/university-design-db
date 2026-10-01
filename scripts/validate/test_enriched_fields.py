@@ -94,6 +94,17 @@ class EnrichedFieldsTests(unittest.TestCase):
         self.assertEqual(profile['visual']['color_palette'][0]['method'],'community_theme')
         self.assertFalse(profile['visual']['color_palette'][0]['official'])
 
+    def test_reprojected_standard_color_preserves_print_and_source_metadata(self):
+        profile=migrate({'visual':{'color_primary':dict(value='#005375',availability='found',method='official_vi',source='https://example.org/vi.pdf',verified='auto',checked_at='2026-10-01'),
+                                  'color_secondary':{'availability':'unresearched'}},'resources':{}})
+        profile['visual']['color_palette']=[dict(value='#005375',source='https://example.org/vi.pdf',method='official_vi',
+            cmyk=[90,60,35,15],pantone='2392 C',label='Standard blue',source_sha256='a'*64,verified='auto')]
+        seed_palettes(profile)
+        entry=profile['visual']['color_palette'][0]
+        self.assertEqual(entry['cmyk'],[90,60,35,15])
+        self.assertEqual(entry['pantone'],'2392 C')
+        self.assertEqual(entry['source_sha256'],'a'*64)
+
     def test_legacy_svg_encodings_and_namespace_aliases_are_read_as_data(self):
         svg='<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8"><path fill="#123456"/></svg>'
         self.assertEqual(inspect_bytes(svg.encode('utf-16'),'legacy.svg')['format'],'svg')

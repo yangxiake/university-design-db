@@ -80,11 +80,13 @@ GitHub 数据填充的事实增加 `source_type: community_dataset`、`upstream_
 
 ### 逐文件视觉资源
 
-`visual.logo_assets`包含`asset_id/kind/title/url/source/file_name/upstream_path/publisher/official/repository/commit/repository_license/asset_license/rights_holder/format/width/height/vector/representation/has_alpha/transparent_background/sha256/byte_size/access_status/availability/verified/checked_at/usage_note`。`kind`区分`badge/wordmark/combination/anniversary`；学校全称或唯一英文全名匹配后才归档。`variant/dimensions_in_filename`只是文件名提示，不代替实测尺寸或HEX。
+`visual.logo_assets`包含`asset_id/kind/title/url/source/file_name/upstream_path/publisher/official/repository/commit/repository_license/asset_license/rights_holder/format/width/height/vector/representation/has_alpha/transparent_background/sha256/byte_size/access_status/availability/verified/checked_at/usage_note`。`kind`区分`badge/wordmark/combination/anniversary/site_identity`；学校全称或唯一英文全名匹配后才归档。`site_identity`是学校官网页眉标识，具体校徽/校名构成待核验，不能自动称作纯校徽。此类`official: true`仅表示校方页面发布，另存`identity_basis`与`source_type: official_website`，不表示通过了VI版本或授权核验。`variant/dimensions_in_filename`只是文件名提示，不代替实测尺寸或HEX。
 
 `access_status`为`indexed_not_fetched/content_inspected/inspection_failed`。实测格式来自文件内容，不相信扩展名；`representation`区分纯矢量、SVG内嵌位图和普通位图。`vector: false`的SVG可以是内嵌位图。SVG透明背景无法仅凭填充属性确认时保持null；viewBox不等于像素尺寸；mm等尺寸保留在intrinsic_width/intrinsic_height而不假称像素。只在读取成功后记sha256/byte_size。检查失败保留实际尝试的网址及原因，可继续从其他来源取得同校文件。
 
 `visual.color_palette`逐条含HEX`value`、`rgb`、`cmyk/pantone`、`role`、`method`、`official`、`source`、`verified/checked_at/availability/basis`和可选上游版本/asset_id。方法增加`community_theme/community_logo_sample`；只有`official_vi`允许`official: true`。取样值属于建议，不覆盖已有官方主色或冲突结论。RGB由HEX精确转换；CMYK/Pantone必须另有标准来源，不做无依据换算。
+
+可选`label`保留原色名；`current: false`标出已转为历史参考的记录。官网新VI手册替代旧标识或图片建议色时，保存替换台账并保留原依据。RGB/HEX不一致时，主色或辅色字段均可使用`conflict/candidates`；全部候选另生成`indexes/color-conflicts.csv`，不直接选值。手册中“并列标准色”“主色系”和“特殊用途红色”等用途保存在`basis`，不自动改称唯一辅助色。
 
 `visual.vi_resources`记录学校资源链接、提供的资源种类、格式、校园认证要求和社区依据；社区目录指向官方页面不等于资源由该社区官方发布。
 

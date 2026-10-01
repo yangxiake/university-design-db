@@ -96,8 +96,112 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: afd145f389a4417dff37cfdf
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.trzy.edu.cn/images/logo.png
+    source: https://www.trzy.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 铜仁职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 铜仁职业技术大学
+    format: png
+    width: 468
+    height: 98
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: e854d555cc04450e8814b6aaa2de85d8b0bd7bbedce4a53f3b0a522366eccba0
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'wp  top flex  flex logo  '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 33939
+    representation: raster
+    resolved_url: https://www.trzy.edu.cn/images/logo.png
+  - asset_id: 2ec8ffb4bcaff42112b96d88
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.trzy.edu.cn/images/rhpt0525.png
+    source: https://www.trzy.edu.cn/
+    file_name: rhpt0525.png
+    upstream_path: null
+    publisher: 铜仁职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 铜仁职业技术大学
+    format: png
+    width: 138
+    height: 50
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f3118d6af27fefddcd52402be0189bab57177def5d53240c01728f981c6594d1
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/rhpt0525.png
+      label: '   '
+      context: 'm_header_box   m_header  logo  '
+      position: 4
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 4963
+    representation: raster
+    resolved_url: https://www.trzy.edu.cn/images/rhpt0525.png
+  color_palette:
+  - value: '#B8E0C8'
+    rgb:
+    - 184
+    - 224
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.trzy.edu.cn/images/logo.png
+    page_source: https://www.trzy.edu.cn/
+    asset_id: afd145f389a4417dff37cfdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#98D0B0'
+    rgb:
+    - 152
+    - 208
+    - 176
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.trzy.edu.cn/images/logo.png
+    page_source: https://www.trzy.edu.cn/
+    asset_id: afd145f389a4417dff37cfdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -159,12 +263,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.trzy.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.trzy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生信息网
   career_url:
     value: null
     source: null
@@ -173,19 +281,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://gjyen.trzy.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.trzy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgkw.trzy.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.trzy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -224,12 +340,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 贵州省铜仁市碧江区自由路2号
+    availability: found
     search_sources: []
+    source: https://www.trzy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:贵州省铜仁市碧江区自由路2号
   postal_code:
     value: null
     source: null
@@ -316,12 +436,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0856-6909046；招生电话: 0856-6909006'
+    availability: found
     search_sources: []
+    source: https://www.trzy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 院办电话:0856-6909046 / 0856-6909043 招生电话:0856-6909006 / 0856-6909007
   email:
     value: null
     source: null

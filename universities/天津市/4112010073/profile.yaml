@@ -94,7 +94,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: af501c421c3fc3951eed4a29
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.tjarts.edu.cn/images/logo.png
+    source: https://www.tjarts.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 天津美术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 天津美术学院
+    format: png
+    width: 240
+    height: 52
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f7ab98147b077ce9575f18faa0f97e3013f08e0764925157cf998ea1e7631c41
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: '  nav  nav-l fl   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 22876
+    representation: raster
+    resolved_url: https://www.tjarts.edu.cn/images/logo.png
+  - asset_id: a8c94b629b5aea316c866e1b
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.tjarts.edu.cn/images/news-logo.png
+    source: https://www.tjarts.edu.cn
+    file_name: news-logo.png
+    upstream_path: null
+    publisher: 天津美术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 天津美术学院
+    format: png
+    width: 20
+    height: 23
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 31aa267b10c4da47f0256bffd485583ee0bd5e03b2d0f865d7ed2f87bb3b2401
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/news-logo.png
+      label: '   '
+      context: 'swiper-slide    in-time fl  int-img '
+      position: 4
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 18170
+    representation: raster
+    resolved_url: https://www.tjarts.edu.cn/images/news-logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -158,12 +228,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.tjarts.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.tjarts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -172,19 +246,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.tjarts.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.tjarts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.tjarts.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.tjarts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

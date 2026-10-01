@@ -94,7 +94,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 3be26a3016a9081a4e705382
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sdca.edu.cn/new/images/logo.png
+    source: https://www.sdca.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 山东艺术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东艺术学院
+    format: png
+    width: 311
+    height: 82
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 9525b2d61fb0cb4be2bb9464335a3a05dab190275171b1254bef312e948f63b4
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: new/images/logo.png
+      label: '   '
+      context: 'wp  top flex   logo  '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 13056
+    representation: raster
+    resolved_url: https://www.sdca.edu.cn/new/images/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -158,33 +193,49 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sdca.edu.cn/zsjy/zsxx.htm
+    availability: found
     search_sources: []
+    source: https://www.sdca.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sdca.edu.cn/zsjy/jyfw.htm
+    availability: found
     search_sources: []
+    source: https://www.sdca.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业服务
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sdca.edu.cn/en/
+    availability: found
     search_sources: []
+    source: https://www.sdca.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://open.sdca.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sdca.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -223,12 +274,17 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 济南市长清区大学科技园紫薇路6000号；济南市历下区文化东路91号
+    availability: found
     search_sources: []
+    source: https://www.sdca.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:济南市长清区大学科技园紫薇路6000号
+    - 文东校区地址:济南市历下区文化东路91号
   postal_code:
     value: null
     source: null

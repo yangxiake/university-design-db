@@ -94,7 +94,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 5e1416d430f3e590aff62331
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.scauzj.edu.cn/lib/template/static/picture/flogo.png
+    source: https://www.scauzj.edu.cn
+    file_name: flogo.png
+    upstream_path: null
+    publisher: 华南农业大学珠江学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 华南农业大学珠江学院
+    format: png
+    width: 1243
+    height: 224
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ccdef8ae3ae5cd93ec6f2a22fe377c17cba514fd208d04d945ed9a2bf008c300
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: //www.scauzj.edu.cn/lib/template/static/picture/flogo.png
+      label: '   '
+      context: ' layout main head_bg head_fixed w77 head  logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 75195
+    representation: raster
+    resolved_url: https://www.scauzj.edu.cn/lib/template/static/picture/flogo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -157,12 +192,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zs.scauzj.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.scauzj.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生网
   career_url:
     value: null
     source: null
@@ -178,12 +217,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.scauzj.edu.cn/xxgkk/D7002index_1.htm
+    availability: found
     search_sources: []
+    source: https://www.scauzj.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -193,12 +236,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -222,12 +268,17 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 广东省广州市从化区江埔街锦洞路168号；广东省肇庆市四会市城中街道下㘵经济联合社地段1号
+    availability: found
     search_sources: []
+    source: https://www.scauzj.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 广州(从化)校区地址:广东省广州市从化区江埔街锦洞路168号
+    - 肇庆(四会)校区地址:广东省肇庆市四会市城中街道下㘵经济联合社地段1号
   postal_code:
     value: null
     source: null
@@ -314,19 +365,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '咨询电话: 020-87982606'
+    availability: found
     search_sources: []
+    source: https://www.scauzj.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 武装部征兵咨询电话:020-87982606
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: zjxybgs@scauzj.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.scauzj.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - '邮箱: zjxybgs@scauzj.edu.cn'
 rankings:
   entries: []
 admissions:

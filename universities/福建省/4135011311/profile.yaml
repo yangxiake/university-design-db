@@ -155,6 +155,76 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: d055265f691f75e74394960c
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.fjsmu.edu.cn/_upload/tpl/07/73/1907/template1907/image/smlogo.png
+    source: https://www.fjsmu.edu.cn/
+    file_name: smlogo.png
+    upstream_path: null
+    publisher: 三明学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 三明学院
+    format: png
+    width: 1200
+    height: 106
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: fa4c04ef30665a53f560415872028c0efc42e26878c45e2baaaec89558b4b4a5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/07/73/1907/template1907/image/smlogo.png
+      label: '   logo-pc-01'
+      context: 'header  wp1660  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 53276
+    representation: raster
+    resolved_url: https://www.fjsmu.edu.cn/_upload/tpl/07/73/1907/template1907/image/smlogo.png
+  - asset_id: cc5ad8d61d1d86e8ab35abaa
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.fjsmu.edu.cn/_upload/tpl/07/73/1907/template1907/image/logo-pc.png
+    source: https://www.fjsmu.edu.cn/
+    file_name: logo-pc.png
+    upstream_path: null
+    publisher: 三明学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 三明学院
+    format: png
+    width: 250
+    height: 148
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: e582aea348a7d28ac7ba3c54af63832c1a6533cade007d864068fa31c486bba3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/07/73/1907/template1907/image/logo-pc.png
+      label: '   logo-pc-02'
+      context: 'header  wp1660  logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 3609
+    representation: raster
+    resolved_url: https://www.fjsmu.edu.cn/_upload/tpl/07/73/1907/template1907/image/logo-pc.png
   color_palette:
   - value: '#0C5CCD'
     rgb:
@@ -172,6 +242,40 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#0858C8'
+    rgb:
+    - 8
+    - 88
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.fjsmu.edu.cn/_upload/tpl/07/73/1907/template1907/image/smlogo.png
+    page_source: https://www.fjsmu.edu.cn/
+    asset_id: d055265f691f75e74394960c
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#1058C8'
+    rgb:
+    - 16
+    - 88
+    - 200
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.fjsmu.edu.cn/_upload/tpl/07/73/1907/template1907/image/smlogo.png
+    page_source: https://www.fjsmu.edu.cn/
+    asset_id: d055265f691f75e74394960c
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -239,33 +343,49 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zjc.fjsmu.edu.cn/main.htm
+    availability: found
     search_sources: []
+    source: https://www.fjsmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.fjsmu.edu.cn/jyw/
+    availability: found
     search_sources: []
+    source: https://www.fjsmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业指导
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.fjsmu.edu.cn/english
+    availability: found
     search_sources: []
+    source: https://www.fjsmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.fjsmu.edu.cn/smxyxxgk/
+    availability: found
     search_sources: []
+    source: https://www.fjsmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合

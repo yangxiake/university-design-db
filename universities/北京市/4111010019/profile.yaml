@@ -257,6 +257,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/CAU_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/CAU_wordmark.svg
     attempts: []
+  - asset_id: 28e7f55b3c2c27c24af216e8
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.cau.edu.cn/static2022/images/logo.png
+    source: https://www.cau.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 中国农业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国农业大学
+    format: png
+    width: 223
+    height: 69
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 0920d357f0fef59ea08fe8050a297164947f7f80c1f5985f09d33ff8f3437ae6
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: static2022/images/logo.png
+      label: '   '
+      context: 'body_home s showdiv  header header1  wrapTop  logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 20862
+    representation: raster
+    resolved_url: https://www.cau.edu.cn/static2022/images/logo.png
   color_palette:
   - value: '#00873C'
     rgb:
@@ -418,12 +453,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.cau.edu.cn/zsjy/index.htm
+    availability: found
     search_sources: []
+    source: https://www.cau.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -439,12 +478,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.cau.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.cau.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 农业
@@ -876,12 +919,16 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: xwzx@cau.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.cau.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - xwzx@cau.edu.cn xwzx@cau.edu.cn
 rankings:
   entries:
   - publisher: ShanghaiRanking

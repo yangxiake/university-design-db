@@ -155,6 +155,76 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 3de71d801315314915b72b4a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.usts.edu.cn/images/Usts-logo.png
+    source: https://www.usts.edu.cn
+    file_name: Usts-logo.png
+    upstream_path: null
+    publisher: 苏州科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 苏州科技大学
+    format: png
+    width: 400
+    height: 100
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b67d155352c3edf5d8048bd266730c363d1fcb8c62331a7f98872ba97c9bb843
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/Usts-logo.png
+      label: '   '
+      context: 'header  box  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 71423
+    representation: raster
+    resolved_url: https://www.usts.edu.cn/images/Usts-logo.png
+  - asset_id: f4a5724dac001193c213ac96
+    kind: badge
+    title: 学校官网页眉标识
+    url: https://www.usts.edu.cn/images/xiaohui.png
+    source: https://www.usts.edu.cn
+    file_name: xiaohui.png
+    upstream_path: null
+    publisher: 苏州科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 苏州科技大学
+    format: png
+    width: 481
+    height: 480
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 0be1bdd2f9056114251cc1de32d1c3dd469cdf08d9e7bbaf7a9ea4d17095ad21
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/xiaohui.png
+      label: '   '
+      context: '  banner   jssor_1 jssorl-009-spin '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 178589
+    representation: raster
+    resolved_url: https://www.usts.edu.cn/images/xiaohui.png
   color_palette:
   - value: '#0061AE'
     rgb:
@@ -172,6 +242,74 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#0058A8'
+    rgb:
+    - 0
+    - 88
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.usts.edu.cn/images/Usts-logo.png
+    page_source: https://www.usts.edu.cn
+    asset_id: 3de71d801315314915b72b4a
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#B8D0E8'
+    rgb:
+    - 184
+    - 208
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.usts.edu.cn/images/Usts-logo.png
+    page_source: https://www.usts.edu.cn
+    asset_id: 3de71d801315314915b72b4a
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#0060A8'
+    rgb:
+    - 0
+    - 96
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.usts.edu.cn/images/xiaohui.png
+    page_source: https://www.usts.edu.cn
+    asset_id: f4a5724dac001193c213ac96
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#0060B0'
+    rgb:
+    - 0
+    - 96
+    - 176
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.usts.edu.cn/images/xiaohui.png
+    page_source: https://www.usts.edu.cn
+    asset_id: f4a5724dac001193c213ac96
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -233,12 +371,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsb.usts.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.usts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -254,12 +396,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.usts.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.usts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -312,19 +458,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 江苏省苏州市虎丘区学府路99号
+    availability: found
     search_sources: []
+    source: https://www.usts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:江苏省苏州市虎丘区学府路99号 邮编:215009
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '215009'
+    availability: found
     search_sources: []
+    source: https://www.usts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:江苏省苏州市虎丘区学府路99号 邮编:215009
   coordinates:
     value: null
     source: null
@@ -404,19 +558,32 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '招生电话: 0512-68096117；招生电话: 0512-68093182；招生电话: 0512-68095090'
+    availability: found
     search_sources: []
+    source: https://www.usts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 普通高考招生电话:0512-68096117
+    - 研究生招生电话:0512-68093182
+    - 继续教育招生电话:0512-68095090
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: sjxx@mail.usts.edu.cn；xzxx@mail.usts.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.usts.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - sjxx@mail.usts.edu.cn sjxx@mail.usts.edu.cn
+    - xzxx@mail.usts.edu.cn xzxx@mail.usts.edu.cn
+    - 书记信箱 sjxx@mail.usts.edu.cn
+    - 校长信箱 xzxx@mail.usts.edu.cn
 rankings:
   entries:
   - publisher: ShanghaiRanking

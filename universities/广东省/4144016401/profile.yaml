@@ -237,12 +237,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.bnbu.edu.cn/admissions_and_placement.htm
+    availability: found
     search_sources: []
+    source: https://www.bnbu.edu.cn/index.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -251,19 +255,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.bnbu.edu.cn/en
+    availability: found
     search_sources: []
+    source: https://www.bnbu.edu.cn/index.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.bnbu.edu.cn/more/public_information.htm
+    availability: found
     search_sources: []
+    source: https://www.bnbu.edu.cn/index.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -309,19 +321,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 广东省珠海市唐家湾金同路2000号
+    availability: found
     search_sources: []
+    source: https://www.bnbu.edu.cn/index.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:广东省珠海市唐家湾金同路2000号 | 电话:0756-3620000 | 邮编:519087 联系我们
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '519087'
+    availability: found
     search_sources: []
+    source: https://www.bnbu.edu.cn/index.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:广东省珠海市唐家湾金同路2000号 | 电话:0756-3620000 | 邮编:519087 联系我们
   coordinates:
     value:
       longitude: 113.592
@@ -414,19 +434,30 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0756-3620000'
+    availability: found
     search_sources: []
+    source: https://www.bnbu.edu.cn/index.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:广东省珠海市唐家湾金同路2000号 | 电话:0756-3620000 | 邮编:519087 联系我们
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: fbm@bnbu.edu.cn；fhss@bnbu.edu.cn；fst@bnbu.edu.cn；scc@bnbu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.bnbu.edu.cn/about_us/contact_us.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电子邮件:fbm@bnbu.edu.cn
+    - 电子邮件:fhss@bnbu.edu.cn
+    - 电子邮件:fst@bnbu.edu.cn
+    - 电子邮件:scc@bnbu.edu.cn
 rankings:
   entries: []
 admissions:

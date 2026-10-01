@@ -1,0 +1,100 @@
+- school_code: '4150013589'
+  name_zh: 重庆对外经贸学院
+  source: https://xywh.ccibe.edu.cn/info/1462/1782.htm
+  vi_url: https://xywh.ccibe.edu.cn/info/1462/1782.htm
+  basis: 校园文化委员会2025年10月15日通知更新学校宣传、标识与校园网络等场景标准色；RGB与HEX一致。
+  colors:
+  - field: color_primary
+    value: '#079690'
+    label: 2025版校园文化建设标准色
+    role: primary
+    cmyk: [80, 26, 49, 0]
+    pantone: null
+- school_code: '4123010213'
+  name_zh: 哈尔滨工业大学
+  source_sha256: 655469e26a3c71f978dab908f768e164ec26f7d7e16abbc033f09442df0a2ff4
+  source: https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf
+  vi_url: https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf
+  basis: 校方域名VI手册PDF第14页，A-4-01标准色；AI逐项查看完整色卡，正常使用以哈工大蓝为主。
+  colors:
+  - field: color_primary
+    value: '#005375'
+    label: 哈工大蓝
+    role: primary
+    cmyk: [90, 60, 35, 15]
+    pantone: 2392 C
+  conflicts:
+  - field: color_secondary
+    label: 庆典红（特殊用途）
+    reason: 同一色卡的庆典红RGB R167 G33 B38与印出的HEX/WEB 005375不一致；手册说明红色仅在特殊情况下使用。保留两值，不自动纠正手册。
+    candidates:
+    - value: '#A72126'
+      basis: PDF第14页庆典红RGB R167 G33 B38换写HEX。
+    - value: '#005375'
+      basis: PDF第14页庆典红色卡直接印出的HEX/WEB；与同页哈工大蓝相同。
+- school_code: '4137010449'
+  name_zh: 山东航空学院
+  source_sha256: dbf386190520054cfb7a71ffe5d4cdbb8519b9b2594b5c5819b811640235a88a
+  source: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+  vi_url: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+  basis: 官网2024版VIS基础手册PDF第32页，手册页29；AI查看两张色卡，明确两色均为标准色，并列记录。
+  colors:
+  - field: color_primary
+    value: '#1A478E'
+    label: ①号标准色
+    role: primary
+    cmyk: [100, 84, 12, 2]
+    pantone: null
+    replace_methods: [manual_derived, badge_sample]
+  - field: color_secondary
+    value: '#346DB5'
+    label: ②号标准色
+    role: secondary
+    cmyk: [83, 57, 0, 0]
+    pantone: null
+- school_code: '4132010292'
+  name_zh: 常州大学
+  source_sha256: b2b923206781d869f6c2ee0b9cd85c10144e6567d01f77688991e378de32efc7
+  source: https://www.cczu.edu.cn/_upload/article/files/cc/1e/5cf6155444d3afd5af60fc60a184/da01a585-24f6-4d7d-b68b-1baf0acd685b.pdf
+  vi_url: https://www.cczu.edu.cn/bsxt/list.htm
+  replace_vi_sources:
+  - https://www.cczu.edu.cn/2016/0115/c10291a130708/page.htm
+  basis: 当前官网标识系统入口嵌入的VIS手册PDF第11页，手册17—18页；AI查看主色系与辅助色系完整色卡，保留用途及数字差异。
+  colors:
+  - field: color_secondary
+    value: '#0C3388'
+    label: 常大钴蓝（并列主色系）
+    role: secondary
+    cmyk: [100, 90, 10, 0]
+    pantone: 2758 C
+  - value: '#92470D'
+    label: 常大咖（主色系）
+    role: reference
+    cmyk: [0, 0, 0, 56]
+    pantone: 1535 XGC
+  - value: '#000000'
+    label: 常大黑（主色系）
+    role: reference
+    cmyk: [0, 0, 0, 100]
+    pantone: BLACK C
+  - value: '#51284F'
+    label: 常大黛紫（主色系）
+    role: reference
+    cmyk: [58, 92, 12, 54]
+    pantone: 262 C
+  - value: '#595757'
+    label: 常大灰（主色系）
+    role: reference
+    cmyk: [0, 0, 0, 80]
+    pantone: 432cu
+  conflicts:
+  - field: color_primary
+    label: 常大红
+    reason: 当前官网导航的VIS手册常大红色卡RGB R192 G63 B55与HEX cb3c38不一致；旧“龙”校标页的R173 G60 B49仍在线，旧值转为历史参考，不认定为现行唯一标准。
+    replace_sources:
+    - https://www.cczu.edu.cn/2016/0115/c10291a130708/page.htm
+    candidates:
+    - value: '#C03F37'
+      basis: 当前入口PDF第11页RGB R192 G63 B55换写HEX。
+    - value: '#CB3C38'
+      basis: 当前入口PDF第11页直接印出的HEX cb3c38。

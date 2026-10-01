@@ -184,6 +184,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Guizhou_Normal_College/png/logo_blue_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Guizhou_Normal_College/png/logo_blue_800x800.png
     attempts: []
+  - asset_id: 765bb31f80e026fad25702e9
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gznc.edu.cn/images/logo.png
+    source: https://www.gznc.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 贵州师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 贵州师范学院
+    format: png
+    width: 353
+    height: 84
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 17d6a3fe1e70dfc87fbe73e1276211b0c6fb5e35e5d46cc2f843f4991adf577e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: '  header clearfix  logo pull-left   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 15522
+    representation: raster
+    resolved_url: https://www.gznc.edu.cn/images/logo.png
   color_palette:
   - value: '#083070'
     rgb:
@@ -300,12 +335,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zhaojiu.gznc.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.gznc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -321,12 +360,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gznc.edu.cn/xxgk1/xxgkndbg.htm
+    availability: found
     search_sources: []
+    source: https://www.gznc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 师范
@@ -386,12 +429,16 @@ location:
     availability: unresearched
     search_sources: []
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '550018'
+    availability: found
     search_sources: []
+    source: https://www.gznc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:550018
   coordinates:
     value: null
     source: null
@@ -471,19 +518,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0851-85842710'
+    availability: found
     search_sources: []
+    source: https://www.gznc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:0851-85842710
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: gzsfxy@gznc.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.gznc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮箱:gzsfxy@gznc.edu.cn
 rankings:
   entries:
   - publisher: ShanghaiRanking

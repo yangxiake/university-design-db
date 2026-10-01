@@ -151,6 +151,41 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: cf2b206c3904506b7c2b6e5e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ldu.edu.cn/images/logo.png
+    source: https://www.ldu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 鲁东大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 鲁东大学
+    format: png
+    width: 300
+    height: 86
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 850fac3376aa51cf6d9b8ddf9312595a2b3783aced7357b996f17a3b17b20093
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'headder_box  wp  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 11824
+    representation: raster
+    resolved_url: https://www.ldu.edu.cn/images/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -241,12 +276,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zs.ldu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ldu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -262,12 +301,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.ldu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.ldu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -320,19 +363,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 山东省烟台市芝罘区红旗中路186号
+    availability: found
     search_sources: []
+    source: https://www.ldu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学校地址:山东省烟台市芝罘区红旗中路186号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '264025'
+    availability: found
     search_sources: []
+    source: https://www.ldu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮政编码:264025
   coordinates:
     value: null
     source: null
@@ -412,12 +463,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: (0535)6672723'
+    availability: found
     search_sources: []
+    source: https://www.ldu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系电话:(0535)6672723 6681128
   email:
     value: null
     source: null

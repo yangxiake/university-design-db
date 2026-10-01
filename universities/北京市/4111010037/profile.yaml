@@ -107,7 +107,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 97581b1d9bef0b4540282720
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.bwu.edu.cn/picture/logo.png
+    source: http://www.bwu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 北京物资学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京物资学院
+    format: png
+    width: 623
+    height: 158
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b04a1c848d9f364f5c7325628162fcb4d6649fa81c47b13a6bf1dcdfdfc04d78
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: picture/logo.png
+      label: '   '
+      context: 'nav-wrapper gp-clearFix  gp-container  logo1   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 34891
+    representation: raster
+    resolved_url: http://www.bwu.edu.cn/picture/logo.png
   color_palette:
   - value: '#005BAC'
     rgb:
@@ -209,26 +244,38 @@ resources:
     availability: unresearched
     search_sources: []
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://jy.bwu.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.bwu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业信息网
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://is.bwu.edu.cn/EN/About_BWU.htm
+    availability: found
     search_sources: []
+    source: http://www.bwu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.bwu.edu.cn
+    availability: found
     search_sources: []
+    source: http://www.bwu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -267,19 +314,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 北京市通州区富河大街321号
+    availability: found
     search_sources: []
+    source: http://www.bwu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京市通州区富河大街321号 邮编:101149
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '101149'
+    availability: found
     search_sources: []
+    source: http://www.bwu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京市通州区富河大街321号 邮编:101149
   coordinates:
     value: null
     source: null
@@ -359,19 +414,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 010-89534628'
+    availability: found
     search_sources: []
+    source: http://www.bwu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:010-89534628 学院邮箱:office@bwu.edu.cn
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: office@bwu.edu.cn
+    availability: found
     search_sources: []
+    source: http://www.bwu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:010-89534628 学院邮箱:office@bwu.edu.cn
 rankings:
   entries: []
 admissions:

@@ -218,6 +218,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/HeNanGongChengXueYuan_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/HeNanGongChengXueYuan_wordmark.svg
     attempts: []
+  - asset_id: f87f10d9860a456cd148d5cf
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.haue.edu.cn/img/logo.png
+    source: http://www.haue.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 河南工程学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河南工程学院
+    format: png
+    width: 289
+    height: 75
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: bacc22ed1dbca82b4b6062afb191b96c38388c727d4197d0a16177f0b17afd91
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: img/logo.png
+      label: '河南工程学院主站（新） 河南工程学院主站（新）  '
+      context: ' header jz  logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 32954
+    representation: raster
+    resolved_url: http://www.haue.edu.cn/img/logo.png
   color_palette:
   - value: '#0054A3'
     rgb:
@@ -271,6 +306,40 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: 54b83b99f237fbba
+  - value: '#0050A0'
+    rgb:
+    - 0
+    - 80
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.haue.edu.cn/img/logo.png
+    page_source: http://www.haue.edu.cn
+    asset_id: f87f10d9860a456cd148d5cf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#004898'
+    rgb:
+    - 0
+    - 72
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.haue.edu.cn/img/logo.png
+    page_source: http://www.haue.edu.cn
+    asset_id: f87f10d9860a456cd148d5cf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -353,12 +422,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.haue.edu.cn/xxgk
+    availability: found
     search_sources: []
+    source: http://www.haue.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 校务公开
 institution:
   school_type:
     value: 理工
@@ -503,12 +576,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '招生电话: 0371-62508666'
+    availability: found
     search_sources: []
+    source: http://www.haue.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - '邮 编 : 451191 招生电话: 0371-62508666 451191 TEL: +86-0371-62508666'
   email:
     value: null
     source: null

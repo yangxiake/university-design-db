@@ -96,8 +96,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 5c46b7f5653211b6d892fe65
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hhvc.edu.cn/images/logo.png
+    source: https://www.hhvc.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 呼和浩特职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 呼和浩特职业技术大学
+    format: png
+    width: 360
+    height: 120
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 058169c1edbc96d2863b27f564d02d9a20106f583adb645c5e863793addf4a4a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'header_con  header_i clearfix  logo   '
+      position: 6
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 25986
+    representation: raster
+    resolved_url: https://www.hhvc.edu.cn/images/logo.png
+  color_palette:
+  - value: '#E82028'
+    rgb:
+    - 232
+    - 32
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hhvc.edu.cn/images/logo.png
+    page_source: https://www.hhvc.edu.cn/
+    asset_id: 5c46b7f5653211b6d892fe65
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#E02028'
+    rgb:
+    - 224
+    - 32
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hhvc.edu.cn/images/logo.png
+    page_source: https://www.hhvc.edu.cn/
+    asset_id: 5c46b7f5653211b6d892fe65
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -159,12 +228,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hhvc.edu.cn/zsjy1.htm
+    availability: found
     search_sources: []
+    source: https://www.hhvc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -224,12 +297,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 呼和浩特市赛罕区巴彦高职园区
+    availability: found
     search_sources: []
+    source: https://www.hhvc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 呼和浩特职业技术大学 版权所有 地址:呼和浩特市赛罕区巴彦高职园区 邮编:010070 招生就业电话:(0471)6586286 6586257 蒙ICP备05006043号-3蒙公网安备 15010502001088号
   postal_code:
     value: null
     source: null
@@ -316,12 +393,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: (0471)6586286'
+    availability: found
     search_sources: []
+    source: https://www.hhvc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 呼和浩特职业技术大学 版权所有 地址:呼和浩特市赛罕区巴彦高职园区 邮编:010070 招生就业电话:(0471)6586286 6586257 蒙ICP备05006043号-3蒙公网安备 15010502001088号
   email:
     value: null
     source: null

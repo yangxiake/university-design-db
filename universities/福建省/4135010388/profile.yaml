@@ -196,6 +196,42 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Fujian_University_of_Technology/svg/logo_blue.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Fujian_University_of_Technology/svg/logo_blue.svg
+  - asset_id: f47346113d256920b905a612
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.fjut.edu.cn/_upload/tpl/05/b6/1462/template1462/assets/dist/images/college-logo4.png
+    source: https://www.fjut.edu.cn
+    file_name: college-logo4.png
+    upstream_path: null
+    publisher: 福建理工大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 福建理工大学
+    format: png
+    width: 624
+    height: 151
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b16acfa303ac7ebe71ce08f69f02c8f2b0c56bb1dd28b7efd70cc3534fd80cbb
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/05/b6/1462/template1462/./assets/dist/images/college-logo4.png
+      label: '   '
+      context: 'd-flex flex-column nav-content  navbar navbar-expand-lg navbar-dark bg-dark  container  navbar-brand
+        sign '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 73079
+    representation: raster
+    resolved_url: https://www.fjut.edu.cn/_upload/tpl/05/b6/1462/template1462/assets/dist/images/college-logo4.png
   color_palette:
   - value: '#004888'
     rgb:
@@ -269,6 +305,40 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: d6b492613107bf9d
+  - value: '#B8C8D8'
+    rgb:
+    - 184
+    - 200
+    - 216
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.fjut.edu.cn/_upload/tpl/05/b6/1462/template1462/assets/dist/images/college-logo4.png
+    page_source: https://www.fjut.edu.cn
+    asset_id: f47346113d256920b905a612
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#A0B8D0'
+    rgb:
+    - 160
+    - 184
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.fjut.edu.cn/_upload/tpl/05/b6/1462/template1462/assets/dist/images/college-logo4.png
+    page_source: https://www.fjut.edu.cn
+    asset_id: f47346113d256920b905a612
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -330,12 +400,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.fjut.edu.cn/536/list.htm
+    availability: found
     search_sources: []
+    source: https://www.fjut.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -351,12 +425,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.fjut.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.fjut.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工

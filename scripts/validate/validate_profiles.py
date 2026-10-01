@@ -324,7 +324,7 @@ def check_extended_entry(dotted, item, label, errors, release=False):
         for key in ('asset_id','kind','title','publisher','rights_holder','usage_note'):
             if not isinstance(item.get(key),str) or not item[key]:
                 errors.append(label+': missing '+key)
-        if not is_url(item.get('url')) or item.get('kind') not in {'badge','wordmark','combination','anniversary'}:
+        if not is_url(item.get('url')) or item.get('kind') not in {'badge','wordmark','combination','anniversary','site_identity'}:
             errors.append(label+': logo needs a concrete URL and asset kind')
         if item.get('repository') and (item.get('official') is not False or not commit):
             errors.append(label+': community logo must stay nonofficial and pinned')

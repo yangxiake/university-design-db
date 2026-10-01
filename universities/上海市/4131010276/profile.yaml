@@ -150,6 +150,45 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8D%8E%E4%B8%9C%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6%20ECUPL.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8D%8E%E4%B8%9C%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6%20ECUPL.svg
     attempts: []
+  - asset_id: 3f2b9719916f7ad1b240a22a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ecupl.edu.cn/_upload/tpl/02/16/534/template534/images/logo.svg
+    source: https://www.ecupl.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 华东政法大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 华东政法大学
+    format: svg
+    width: 436.141
+    height: 90.7
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: b5d9154425e7cb1af58d1d6d5c54a73764b67dbe81cd46b244aef71a83102f6a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/16/534/template534/./images/logo.svg
+      label: '   '
+      context: 'mod  head-left  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 42642
+    representation: vector
+    view_box: 0 0 436.141 90.7
+    encoding: utf-8-sig
+    intrinsic_width: '436.141'
+    intrinsic_height: '90.7'
+    resolved_url: https://www.ecupl.edu.cn/_upload/tpl/02/16/534/template534/images/logo.svg
   color_palette:
   - value: '#A72227'
     rgb:
@@ -169,6 +208,23 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 60ef6637c30439ba
+  - value: '#642C3C'
+    rgb:
+    - 100
+    - 44
+    - 60
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.ecupl.edu.cn/_upload/tpl/02/16/534/template534/images/logo.svg
+    page_source: https://www.ecupl.edu.cn/
+    asset_id: 3f2b9719916f7ad1b240a22a
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -248,12 +304,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.ecupl.edu.cn/609/list.htm
+    availability: found
     search_sources: []
+    source: https://www.ecupl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -269,12 +329,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.ecupl.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ecupl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 政法

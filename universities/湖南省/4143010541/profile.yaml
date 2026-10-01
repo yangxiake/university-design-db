@@ -95,7 +95,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: edfa86fd2c6032ef3a65d205
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hnucm.edu.cn/img/logo.png
+    source: https://www.hnucm.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 湖南中医药大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖南中医药大学
+    format: png
+    width: 650
+    height: 66
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: d55fe53a258d7699058c57265fcda1a376802207d41bb22d69b55eb35a803659
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: img/logo.png
+      label: '湖南中医药大学主站 湖南中医药大学主站  '
+      context: 'top2  topb2  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 14208
+    representation: raster
+    resolved_url: https://www.hnucm.edu.cn/img/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -159,12 +194,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsjy.hnucm.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.hnucm.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -173,19 +212,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hnucm.edu.cn/English_Version.htm
+    availability: found
     search_sources: []
+    source: https://www.hnucm.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - ENGLISH
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.hnucm.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.hnucm.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -224,19 +271,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 湖南省长沙市岳麓区含浦科教园学士路300号
+    availability: found
     search_sources: []
+    source: https://www.hnucm.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权©湖南中医药大学 | 地址:湖南省长沙市岳麓区含浦科教园学士路300号 | 邮编:410208 | 电话:0731-88458000 88458111(传真) E-mai:hnucm@hnucm.edu.cn
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '410208'
+    availability: found
     search_sources: []
+    source: https://www.hnucm.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权©湖南中医药大学 | 地址:湖南省长沙市岳麓区含浦科教园学士路300号 | 邮编:410208 | 电话:0731-88458000 88458111(传真) E-mai:hnucm@hnucm.edu.cn
   coordinates:
     value: null
     source: null

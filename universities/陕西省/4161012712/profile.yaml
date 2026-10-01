@@ -94,7 +94,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 7ec47225985120019e4f8017
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.eurasia.edu/images/ouyad2025.png
+    source: https://www.eurasia.edu/
+    file_name: ouyad2025.png
+    upstream_path: null
+    publisher: 西安欧亚学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安欧亚学院
+    format: png
+    width: 213
+    height: 62
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 0befee544547821655c1e49d1fa0e3cb3e4f012f58099d898de106df0ec9f7b3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/ouyad2025.png
+      label: '   '
+      context: 'header  wp flexjs  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 6749
+    representation: raster
+    resolved_url: https://www.eurasia.edu/images/ouyad2025.png
   color_palette: []
   vi_resources: []
 culture:
@@ -158,12 +193,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zhaosheng.eurasia.edu/zsjh/ptbk.htm
+    availability: found
     search_sources: []
+    source: https://www.eurasia.edu/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -172,19 +211,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://en.eurasia.edu/
+    availability: found
     search_sources: []
+    source: https://www.eurasia.edu/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.eurasia.edu/
+    availability: found
     search_sources: []
+    source: https://www.eurasia.edu/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -194,12 +241,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -223,12 +273,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 陕西省西安市雁塔区东仪路8号
+    availability: found
     search_sources: []
+    source: https://www.eurasia.edu/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有@西安欧亚学院 地址:陕西省西安市雁塔区东仪路8号
   postal_code:
     value: null
     source: null

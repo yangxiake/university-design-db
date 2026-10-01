@@ -95,7 +95,46 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 96dee57e00fd5327cc8ab100
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.nau.edu.cn/_upload/tpl/05/66/1382/template1382/images/logo.svg
+    source: https://www.nau.edu.cn
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 南京审计大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京审计大学
+    format: svg
+    width: 353.0
+    height: 81.0
+    vector: false
+    has_alpha: null
+    transparent_background: null
+    sha256: f9c55778d4b2044a10c29c114383e61dfd6eb37f583575cabb93dcc24ab31f20
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/05/66/1382/template1382/images/logo.svg
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 571664
+    representation: svg_with_raster
+    view_box: 0 0 353 81
+    encoding: utf-8-sig
+    intrinsic_width: '353'
+    intrinsic_height: '81'
+    resolved_url: https://www.nau.edu.cn/_upload/tpl/05/66/1382/template1382/images/logo.svg
   color_palette: []
   vi_resources: []
 culture:
@@ -159,12 +198,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.nau.edu.cn/5722/list.htm
+    availability: found
     search_sources: []
+    source: https://www.nau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -173,19 +216,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.nau.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.nau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.nau.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.nau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -224,19 +275,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 江苏省南京市浦口区江浦街道雨山西路86号
+    availability: found
     search_sources: []
+    source: https://www.nau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:江苏省南京市浦口区江浦街道雨山西路86号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '211815'
+    availability: found
     search_sources: []
+    source: https://www.nau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:211815
   coordinates:
     value: null
     source: null
@@ -323,12 +382,17 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: dzb@nau.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.nau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 书记信箱 dzb@nau.edu.cn
+    - 校长信箱 dzb@nau.edu.cn
 rankings:
   entries: []
 admissions:

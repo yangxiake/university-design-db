@@ -141,6 +141,76 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 114e42d90daccb31ab9c6b4a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.nbut.edu.cn/image/logo.png
+    source: https://www.nbut.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 宁波工程学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 宁波工程学院
+    format: png
+    width: 271
+    height: 58
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 532f9f4e61e3136ed43be500b2e87547d6e4dde74d6cda6382ebec05654407c9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: ./image/logo.png
+      label: '   '
+      context: 'qbdh1 qbdhindex  qbdh2  dhlogo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 8285
+    representation: raster
+    resolved_url: https://www.nbut.edu.cn/image/logo.png
+  - asset_id: f6bcfe2daea063718ca8b04a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.nbut.edu.cn/image/xiaoxun.png
+    source: https://www.nbut.edu.cn/
+    file_name: xiaoxun.png
+    upstream_path: null
+    publisher: 宁波工程学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 宁波工程学院
+    format: png
+    width: 303
+    height: 38
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 104a018dbf51f2f9cb314d11dce6b03b0e884ad8396930ff059d40c4176f9474
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: image/xiaoxun.png
+      label: '   '
+      context: 'top  block  logo  xx '
+      position: 5
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 5597
+    representation: raster
+    resolved_url: https://www.nbut.edu.cn/image/xiaoxun.png
   color_palette: []
   vi_resources: []
 culture:
@@ -245,12 +315,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.nbut.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.nbut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -303,19 +377,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 浙江省宁波市江北区风华路201号
+    availability: found
     search_sources: []
+    source: https://www.nbut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:浙江省宁波市江北区风华路201号 邮编:315211
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '315211'
+    availability: found
     search_sources: []
+    source: https://www.nbut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:浙江省宁波市江北区风华路201号 邮编:315211
   coordinates:
     value: null
     source: null
@@ -395,12 +477,18 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0574-87616023；招生电话: 0574-87616666；电话: 0574-87615880'
+    availability: found
     search_sources: []
+    source: https://www.nbut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系电话:0574-87616023
+    - 招生电话:0574-87616666
+    - 就业电话:0574-87615880
   email:
     value: null
     source: null

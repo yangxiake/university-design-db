@@ -6,19 +6,19 @@
 
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
-| badge | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity.svg) | svg | 128.0 × 128.0 | content_inspected | 未独立声明 |
-| wordmark | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity_wordmark.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity_wordmark.svg) | svg | 495.0 × 112.0 | content_inspected | 未独立声明 |
+| 校徽 | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity.svg) | svg | 128.0 × 128.0 | content_inspected | 未独立声明 |
+| 校名文字 | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity_wordmark.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity_wordmark.svg) | svg | 495.0 × 112.0 | content_inspected | 未独立声明 |
 
-仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。SVG的viewBox是内部坐标，不等于像素尺寸。
+仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
 ## 调色板
 
-| HEX | RGB | 用途 | 取值方法 | 来源 |
-| --- | --- | --- | --- | --- |
-| `#19316C` | 25,49,108 | reference | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity.svg) |
-| `#19316D` | 25,49,109 | reference | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity.svg) |
+| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | `#19316C` | 25,49,108 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity.svg) |
+|  | `#19316D` | 25,49,109 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/anhuiXinhuaUniversity.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

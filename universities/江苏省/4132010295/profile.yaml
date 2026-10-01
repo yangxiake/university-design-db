@@ -317,12 +317,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://admission.jiangnan.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.jiangnan.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: http://zsjyc.jiangnan.edu.cn/
     availability: found
@@ -338,19 +342,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.jiangnan.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.jiangnan.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.jiangnan.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.jiangnan.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合

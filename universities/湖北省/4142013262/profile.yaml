@@ -180,12 +180,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zhaosheng.hustwenhua.net
+    availability: found
     search_sources: []
+    source: https://www.hustwenhua.net/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -201,12 +205,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.hustwenhua.net
+    availability: found
     search_sources: []
+    source: https://www.hustwenhua.net/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -216,12 +224,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -245,19 +256,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 武汉东湖新技术开发区文华园路8号 信访接待
+    availability: found
     search_sources: []
+    source: https://www.hustwenhua.net/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©文华学院 地址:武汉东湖新技术开发区文华园路8号 信访接待电话:027-87003682 鄂ICP备09023313号鄂公网安备42018502003292号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '430074'
+    availability: found
     search_sources: []
+    source: https://www.hustwenhua.net/lxwm.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮政编码:430074
   coordinates:
     value: null
     source: null
@@ -337,12 +356,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 027-87003682'
+    availability: found
     search_sources: []
+    source: https://www.hustwenhua.net/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©文华学院 地址:武汉东湖新技术开发区文华园路8号 信访接待电话:027-87003682 鄂ICP备09023313号鄂公网安备42018502003292号
   email:
     value: null
     source: null

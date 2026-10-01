@@ -96,7 +96,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 3913a31606160c5ce49d92e2
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.yzpc.edu.cn/_upload/tpl/01/1f/287/template287/images/logo.png
+    source: https://www.yzpc.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 扬州职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 扬州职业技术大学
+    format: png
+    width: 363
+    height: 73
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: a11cb515770bc6a2608100b237eeec1512b686ec9cd29f0bd94a6738bae9d337
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/01/1f/287/template287/images/logo.png
+      label: '   '
+      context: 'mod  head-left  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 32276
+    representation: raster
+    resolved_url: https://www.yzpc.edu.cn/_upload/tpl/01/1f/287/template287/images/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -159,12 +194,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsjy.yzpc.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.yzpc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null

@@ -208,6 +208,76 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/GZUCM_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/GZUCM_wordmark.svg
     attempts: []
+  - asset_id: 5616f6e5dbb495e6c4d196fd
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.gzucm.edu.cn/images/logo.png
+    source: http://www.gzucm.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 广州中医药大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广州中医药大学
+    format: png
+    width: 381
+    height: 88
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 89ec75b33959cb181170dcc25d74d1f5c61715cb4ceef4ed1f5f9210333fd67e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '  hover_img_src '
+      context: ' header w1200   logo  '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 20490
+    representation: raster
+    resolved_url: http://www.gzucm.edu.cn/images/logo.png
+  - asset_id: 6e5b14222d1adef73687a665
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.gzucm.edu.cn/images/xqlogo1.png
+    source: http://www.gzucm.edu.cn
+    file_name: xqlogo1.png
+    upstream_path: null
+    publisher: 广州中医药大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广州中医药大学
+    format: png
+    width: 1980
+    height: 935
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f83c3e93c12968269564a7de8aa3199276d39beb3287df7eb0dbaedce36f2e80
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/xqlogo1.png
+      label: '   '
+      context: '       '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 203313
+    representation: raster
+    resolved_url: http://www.gzucm.edu.cn/images/xqlogo1.png
   color_palette:
   - value: '#41608B'
     rgb:
@@ -398,12 +468,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.gzucm.edu.cn/zsjy/zs.htm
+    availability: found
     search_sources: []
+    source: http://www.gzucm.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -412,19 +486,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.gzucm.edu.cn/en
+    availability: found
     search_sources: []
+    source: http://www.gzucm.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.gzucm.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.gzucm.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 医药

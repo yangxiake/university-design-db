@@ -220,6 +220,41 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xi%27an_University/svg/logo_blue.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xi%27an_University/svg/logo_blue.svg
+  - asset_id: 1543728571c998a671d5dfa0
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xawl.edu.cn/image/logo.png
+    source: https://www.xawl.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 西安文理学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安文理学院
+    format: png
+    width: 400
+    height: 90
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f0bf74292421ef5a5d12b77e2b14029c9846302ad3b913255e40c2e42ab8b434
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: image/logo.png
+      label: '   '
+      context: 'top  block  logo  logo1 '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 12998
+    representation: raster
+    resolved_url: https://www.xawl.edu.cn/image/logo.png
   color_palette:
   - value: '#0088D0'
     rgb:
@@ -359,12 +394,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsjyc.xawl.edu.cn/zjc/indexs.html
+    availability: found
     search_sources: []
+    source: https://www.xawl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -373,19 +412,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.xawl.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xawl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.xawl.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xawl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 师范
@@ -438,19 +485,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 西安市科技六路1号
+    availability: found
     search_sources: []
+    source: https://www.xawl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:西安市科技六路1号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '710065'
+    availability: found
     search_sources: []
+    source: https://www.xawl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:710065
   coordinates:
     value: null
     source: null
@@ -530,12 +585,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 029-88215619'
+    availability: found
     search_sources: []
+    source: https://www.xawl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:029-88215619
   email:
     value: null
     source: null

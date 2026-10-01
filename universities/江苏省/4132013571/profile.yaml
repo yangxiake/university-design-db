@@ -94,8 +94,146 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 21c1845031e440cd4a05114d
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.wxu.edu.cn/images/logo-1.png
+    source: http://www.wxu.edu.cn/
+    file_name: logo-1.png
+    upstream_path: null
+    publisher: 无锡太湖学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 无锡太湖学院
+    format: png
+    width: 446
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 7c4420d876de749bfa08db69a869eee92eb97ffbc1dea18b2b129714e074cf51
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo-1.png
+      label: '   '
+      context: 'm_header_box ar_wap   m_header  logo  '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 21001
+    representation: raster
+    resolved_url: http://www.wxu.edu.cn/images/logo-1.png
+  - asset_id: 547686c7c3e66842cae0fdf9
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.wxu.edu.cn/images/logo260106.png
+    source: http://www.wxu.edu.cn/
+    file_name: logo260106.png
+    upstream_path: null
+    publisher: 无锡太湖学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 无锡太湖学院
+    format: png
+    width: 446
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 7c4420d876de749bfa08db69a869eee92eb97ffbc1dea18b2b129714e074cf51
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo260106.png
+      label: '   '
+      context: 'header ar_web  wp  logo  flex-v-center '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 21001
+    representation: raster
+    resolved_url: http://www.wxu.edu.cn/images/logo260106.png
+  color_palette:
+  - value: '#E00008'
+    rgb:
+    - 224
+    - 0
+    - 8
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.wxu.edu.cn/images/logo-1.png
+    page_source: http://www.wxu.edu.cn/
+    asset_id: 21c1845031e440cd4a05114d
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#E00010'
+    rgb:
+    - 224
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.wxu.edu.cn/images/logo-1.png
+    page_source: http://www.wxu.edu.cn/
+    asset_id: 21c1845031e440cd4a05114d
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#E00008'
+    rgb:
+    - 224
+    - 0
+    - 8
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.wxu.edu.cn/images/logo260106.png
+    page_source: http://www.wxu.edu.cn/
+    asset_id: 547686c7c3e66842cae0fdf9
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#E00010'
+    rgb:
+    - 224
+    - 0
+    - 16
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.wxu.edu.cn/images/logo260106.png
+    page_source: http://www.wxu.edu.cn/
+    asset_id: 547686c7c3e66842cae0fdf9
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -157,12 +295,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.wxu.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.wxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生网
   career_url:
     value: null
     source: null
@@ -178,12 +320,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.wxu.edu.cn/xxgk2/jbqk.htm
+    availability: found
     search_sources: []
+    source: http://www.wxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -193,12 +339,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null

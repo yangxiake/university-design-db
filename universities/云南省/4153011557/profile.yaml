@@ -96,8 +96,112 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 2b337c919f0dff1ae80737de
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.kmyz.edu.cn/images/zhuzhan-logo-new2.png
+    source: https://www.kmyz.edu.cn/
+    file_name: zhuzhan-logo-new2.png
+    upstream_path: null
+    publisher: 昆明冶金职业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 昆明冶金职业大学
+    format: png
+    width: 600
+    height: 114
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 7d3be6ac8a0431300611c14d0670787ed5cb989aaa5d5735f931e2a3e0f75336
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/zhuzhan-logo-new2.png
+      label: '   '
+      context: 'd2  wrap flex  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 28291
+    representation: raster
+    resolved_url: https://www.kmyz.edu.cn/images/zhuzhan-logo-new2.png
+  - asset_id: 98783192037201f6eecc1f64
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.kmyz.edu.cn/images/zhuzhan2-new2-logo.png
+    source: https://www.kmyz.edu.cn/
+    file_name: zhuzhan2-new2-logo.png
+    upstream_path: null
+    publisher: 昆明冶金职业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 昆明冶金职业大学
+    format: png
+    width: 2792
+    height: 532
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 23fad318e53e425e9da5288d62f9c549e4f15687975487c6c7cff49a15f2dc1d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/zhuzhan2-new2-logo.png
+      label: '   '
+      context: 'd2  wrap flex  logo   '
+      position: 10
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 279482
+    representation: raster
+    resolved_url: https://www.kmyz.edu.cn/images/zhuzhan2-new2-logo.png
+  color_palette:
+  - value: '#A8A080'
+    rgb:
+    - 168
+    - 160
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.kmyz.edu.cn/images/zhuzhan2-new2-logo.png
+    page_source: https://www.kmyz.edu.cn/
+    asset_id: 98783192037201f6eecc1f64
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#905020'
+    rgb:
+    - 144
+    - 80
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.kmyz.edu.cn/images/zhuzhan2-new2-logo.png
+    page_source: https://www.kmyz.edu.cn/
+    asset_id: 98783192037201f6eecc1f64
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -159,19 +263,27 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.kmyz.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.kmyz.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://jyxt.kmyz.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.kmyz.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业网
   english_website:
     value: null
     source: null
@@ -180,12 +292,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.kmyz.edu.cn/index/xxgk.htm
+    availability: found
     search_sources: []
+    source: https://www.kmyz.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

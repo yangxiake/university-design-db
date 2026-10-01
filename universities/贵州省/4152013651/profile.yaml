@@ -94,8 +94,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: e21781e26dbe3f82be57fcac
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gyiht.edu.cn/images/rw_logo_red.png
+    source: https://www.gyiht.edu.cn/
+    file_name: rw_logo_red.png
+    upstream_path: null
+    publisher: 贵阳人文科技学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 贵阳人文科技学院
+    format: png
+    width: 800
+    height: 211
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: d252371508d5937d8751ce891fc6c5bb49636ccb9f5ea0001472c8e63a617890
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /images/rw_logo_red.png
+      label: '贵阳人文科技学院   '
+      context: 'home-scholar hs-index-template  hs-masthead  hs-wrap hs-masthead-inner  hs-brand '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 43379
+    representation: raster
+    resolved_url: https://www.gyiht.edu.cn/images/rw_logo_red.png
+  color_palette:
+  - value: '#A81820'
+    rgb:
+    - 168
+    - 24
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gyiht.edu.cn/images/rw_logo_red.png
+    page_source: https://www.gyiht.edu.cn/
+    asset_id: e21781e26dbe3f82be57fcac
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#B01820'
+    rgb:
+    - 176
+    - 24
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gyiht.edu.cn/images/rw_logo_red.png
+    page_source: https://www.gyiht.edu.cn/
+    asset_id: e21781e26dbe3f82be57fcac
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -194,12 +263,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -223,19 +295,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 贵州省贵阳市花溪区花溪大学城
+    availability: found
     search_sources: []
+    source: https://www.gyiht.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - '通讯地址: 贵州省贵阳市花溪区花溪大学城'
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '550025'
+    availability: found
     search_sources: []
+    source: https://www.gyiht.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:550025
   coordinates:
     value: null
     source: null
@@ -315,19 +395,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0851-88308620'
+    availability: found
     search_sources: []
+    source: https://www.gyiht.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - '联系电话: 0851-88308620'
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: gzmzdxrwkjxy@163.comgiht
+    availability: found
     search_sources: []
+    source: https://www.gyiht.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮箱:gzmzdxrwkjxy@163.comgiht_ioffice@sina.com
 rankings:
   entries: []
 admissions:

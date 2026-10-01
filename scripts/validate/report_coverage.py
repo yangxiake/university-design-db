@@ -148,6 +148,16 @@ def main():
                   f"- 学科评估节选：{enriched['subject_schools']}所、{enriched['subject_entries']}条",
                   f"- 重庆2025社区录取参考：{enriched['admission_schools']}所、{enriched['admission_entries']}条",
                   '', '新增27个事实字段和12个集合的逐项填充及上游字段落点见[字段并集报告](github-field-union-2026.md)。']
+    official_path=ROOT/'data/review/official-extension-coverage-2026.json'
+    if official_path.exists():
+        import json
+        official=json.loads(official_path.read_text())
+        counts=official['current_facts']
+        lines+=['','## 官网联系与门户补采','',
+                '| 字段 | 有来源学校数 |','| --- | ---: |']
+        for field in ('institution.nature','location.address','location.postal_code','contacts.phone','contacts.email','resources.admissions_url','resources.information_disclosure_url','resources.english_website'):
+            lines.append('| %s | %s |'%(field,counts.get(field,0)))
+        lines+=['','字段保存原标签、短证据与口径；门户是官网导航链接。实际访问状态、官网标识文件与取色覆盖见[官网扩展报告](official-extension-progress-2026.md)。']
     overrides_path=ROOT/'data/review/official-site-overrides-2026.csv'
     if overrides_path.exists():
         with overrides_path.open(encoding='utf-8-sig',newline='') as handle:

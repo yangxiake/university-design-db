@@ -142,7 +142,115 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
-  color_palette: []
+  - asset_id: ad607aeee8ecd6ecd87df17b
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ccit.edu.cn/images/header_logo.svg
+    source: https://www.ccit.edu.cn
+    file_name: header_logo.svg
+    upstream_path: null
+    publisher: 长春工程学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长春工程学院
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 8688f4876f6d3c0921880e9355e9526902991d4dfabbb50491949eac58770ed5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/header_logo.svg
+      label: '  w100 '
+      context: 'd2  wp flex  logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 76428
+    representation: vector
+    view_box: 0 0 19125.32 4886.08
+    encoding: utf-8-sig
+    intrinsic_width: 188.346mm
+    intrinsic_height: 48.1182mm
+    resolved_url: https://www.ccit.edu.cn/images/header_logo.svg
+  - asset_id: 22f694851ab4e36f5fe395aa
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ccit.edu.cn/images/logo.png
+    source: https://www.ccit.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 长春工程学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长春工程学院
+    format: png
+    width: 1396
+    height: 358
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 44e8dae71f3f2cb9b2c97accb4555f31c4a7fe1e5773de8d636167e2c988523d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'm_header_box  m_header_index m_header   logo  '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 86685
+    representation: raster
+    resolved_url: https://www.ccit.edu.cn/images/logo.png
+  color_palette:
+  - value: '#1A64AE'
+    rgb:
+    - 26
+    - 100
+    - 174
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.ccit.edu.cn/images/header_logo.svg
+    page_source: https://www.ccit.edu.cn
+    asset_id: ad607aeee8ecd6ecd87df17b
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#489DD7'
+    rgb:
+    - 72
+    - 157
+    - 215
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.ccit.edu.cn/images/header_logo.svg
+    page_source: https://www.ccit.edu.cn
+    asset_id: ad607aeee8ecd6ecd87df17b
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -210,26 +318,38 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsb.ccit.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ccit.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://job.ccit.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.ccit.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业信息网
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://en.ccit.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ccit.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
     value: null
     source: null

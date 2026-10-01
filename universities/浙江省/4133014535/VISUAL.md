@@ -6,17 +6,17 @@
 
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
-| badge | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B5%99%E6%B1%9F%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20ZJCM.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B5%99%E6%B1%9F%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20ZJCM.svg) | svg | 111.73570251464844 × 111.73490142822266 | content_inspected | 未独立声明 |
+| 校徽 | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B5%99%E6%B1%9F%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20ZJCM.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B5%99%E6%B1%9F%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20ZJCM.svg) | svg | 111.73570251464844 × 111.73490142822266 | content_inspected | 未独立声明 |
 
-仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。SVG的viewBox是内部坐标，不等于像素尺寸。
+仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
 ## 调色板
 
-| HEX | RGB | 用途 | 取值方法 | 来源 |
-| --- | --- | --- | --- | --- |
-| `#BE2C21` | 190,44,33 | reference | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B5%99%E6%B1%9F%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20ZJCM.svg) |
+| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | `#BE2C21` | 190,44,33 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B5%99%E6%B1%9F%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20ZJCM.svg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

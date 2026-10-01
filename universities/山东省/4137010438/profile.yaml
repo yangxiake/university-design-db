@@ -95,7 +95,46 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: b82dd9d993dcea18893a89e3
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sdsmu.edu.cn/_upload/tpl/04/64/1124/template1124/images/logo.svg
+    source: https://www.sdsmu.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 山东第二医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东第二医科大学
+    format: svg
+    width: 342.68
+    height: 58.436
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: b8e00a97e847ba02b7f66cb8936e795833f9a508d48eee03f4881f69c348e40e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/04/64/1124/template1124/images/logo.svg
+      label: '   '
+      context: 'inner clearfix  mod clearfix  head-left   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 66689
+    representation: vector
+    view_box: 0 0 342.68 58.436
+    encoding: utf-8-sig
+    intrinsic_width: '342.68'
+    intrinsic_height: '58.436'
+    resolved_url: https://www.sdsmu.edu.cn/_upload/tpl/04/64/1124/template1124/images/logo.svg
   color_palette: []
   vi_resources: []
 culture:
@@ -170,12 +209,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zs.sdsmu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sdsmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -184,19 +227,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sdsmu.edu.cn/en/
+    availability: found
     search_sources: []
+    source: https://www.sdsmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sdsmu.edu.cn/_redirect?siteId=3&columnId=4184&articleId=59927
+    availability: found
     search_sources: []
+    source: https://www.sdsmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

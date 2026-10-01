@@ -261,6 +261,80 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/JNU_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/JNU_wordmark.svg
     attempts: []
+  - asset_id: bb1ea5fc7253eec005aaacc9
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/logo2.svg
+    source: https://www.jnu.edu.cn/main.htm
+    file_name: logo2.svg
+    upstream_path: null
+    publisher: 暨南大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 暨南大学
+    format: svg
+    width: 924.162
+    height: 296.531
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 137cf315c9cb7dfb389bdc234c7700d78fd69024666d82bad58bf11dceafc762
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/f5/245/template245/images/home/logo2.svg
+      label: '   '
+      context: '       '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 35195
+    representation: vector
+    view_box: 0 0 924.162 296.531
+    encoding: utf-8-sig
+    intrinsic_width: 924.162px
+    intrinsic_height: 296.531px
+    resolved_url: https://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/logo2.svg
+  - asset_id: ed3ce069600af3fa92e959df
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/logo.png
+    source: https://www.jnu.edu.cn/main.htm
+    file_name: logo.png
+    upstream_path: null
+    publisher: 暨南大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 暨南大学
+    format: png
+    width: 938
+    height: 306
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c427ed296b1892db945ae2003b8b96645e064fbe3b4c8572cfbcf774bb0550f5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/f5/245/template245/images/home/logo.png
+      label: '首页   '
+      context: '       logo'
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 48721
+    representation: raster
+    resolved_url: https://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/logo.png
   color_palette:
   - value: '#0F6A7B'
     rgb:
@@ -314,6 +388,57 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: 2cef1a933b0a103b
+  - value: '#0F6A7B'
+    rgb:
+    - 15
+    - 106
+    - 123
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/logo2.svg
+    page_source: https://www.jnu.edu.cn/main.htm
+    asset_id: bb1ea5fc7253eec005aaacc9
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#086878'
+    rgb:
+    - 8
+    - 104
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/logo.png
+    page_source: https://www.jnu.edu.cn/main.htm
+    asset_id: ed3ce069600af3fa92e959df
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#106880'
+    rgb:
+    - 16
+    - 104
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/logo.png
+    page_source: https://www.jnu.edu.cn/main.htm
+    asset_id: ed3ce069600af3fa92e959df
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -420,19 +545,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.jnu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.jnu.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.jnu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.jnu.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -494,12 +627,19 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 广东省广州市天河区黄埔大道西601号；广东省广州市番禺区兴业大道东855号；广东省珠海市香洲区前山路206号；广东省广州市天河区瘦狗岭路377号
+    availability: found
     search_sources: []
+    source: https://www.jnu.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:广东省广州市天河区黄埔大道西601号
+    - 地址:广东省广州市番禺区兴业大道东855号
+    - 地址:广东省珠海市香洲区前山路206号
+    - 地址:广东省广州市天河区瘦狗岭路377号
   postal_code:
     value: null
     source: null
@@ -661,12 +801,19 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 020-85220010；电话: 020-37331418；电话: 0756-8505937；电话: 020-87205019'
+    availability: found
     search_sources: []
+    source: https://www.jnu.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:020-85220010
+    - 电话:020-37331418
+    - 电话:0756-8505937
+    - 电话:020-87205019
   email:
     value: null
     source: null

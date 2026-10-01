@@ -96,7 +96,79 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 6d03f9ffef85a39481f2a625
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.usx.edu.cn/image/logo.png
+    source: https://www.usx.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 绍兴大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 绍兴大学
+    format: png
+    width: 318
+    height: 90
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 614d581e0403be37591ee870e0684c3c217f7235b7312072850770a08b25bc1e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: image/logo.png
+      label: '绍兴大学  hero-brand-logo '
+      context: 'site-masthead heroHead hero-head  header w16 flex masthead-header flex-jcsb flex-alct  hero-brand
+        flex flex-alct '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 15566
+    representation: raster
+    resolved_url: https://www.usx.edu.cn/image/logo.png
+  - asset_id: 39f823522a9aeab742b38bfc
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.usx.edu.cn/image/logo1.png
+    source: https://www.usx.edu.cn/
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 绍兴大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 绍兴大学
+    format: png
+    width: 308
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3781d8a1d54ca395cf427f6471e63036307b3536fc449181f5dff406dfd49d5a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: image/logo1.png
+      label: '绍兴大学  mobile-nav-sheet-logo '
+      context: 'masthead-right  hero-nav mainSiteNav wap mobile-nav-sheet-head flex flex-jcsb flex-alct  mobile-nav-sheet-brand
+        flex flex-alct '
+      position: 8
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 9534
+    representation: raster
+    resolved_url: https://www.usx.edu.cn/image/logo1.png
   color_palette: []
   vi_resources: []
 culture:
@@ -173,19 +245,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.usx.edu.cn/en/About_USX.htm
+    availability: found
     search_sources: []
+    source: https://www.usx.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.usx.edu.cn/xwzx/xxgk.htm
+    availability: found
     search_sources: []
+    source: https://www.usx.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -224,19 +304,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 绍兴市城南大道1077号
+    availability: found
     search_sources: []
+    source: https://www.usx.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:绍兴市城南大道1077号|邮编:312000|IPV6
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '312000'
+    availability: found
     search_sources: []
+    source: https://www.usx.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:绍兴市城南大道1077号|邮编:312000|IPV6
   coordinates:
     value: null
     source: null
@@ -323,12 +411,16 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: office@usx.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.usx.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 书记校长信箱 office@usx.edu.cn
 rankings:
   entries: []
 admissions:

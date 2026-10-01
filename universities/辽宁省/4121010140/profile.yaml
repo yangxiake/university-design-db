@@ -196,6 +196,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E8%BE%BD%E5%AE%81%E5%A4%A7%E5%AD%A6%20LNU.png
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E8%BE%BD%E5%AE%81%E5%A4%A7%E5%AD%A6%20LNU.png
     attempts: []
+  - asset_id: 65e4ace7a8c9167a624d1f41
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.lnu.edu.cn/images/logo.png
+    source: https://www.lnu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 辽宁大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 辽宁大学
+    format: png
+    width: 241
+    height: 71
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 97a7555f72444067dcf5f300044f44d0a9a2e3b784d63eec61f298a557370fac
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'fullSlide  w1400  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 19260
+    representation: raster
+    resolved_url: https://www.lnu.edu.cn/images/logo.png
   color_palette:
   - value: '#0493BA'
     rgb:
@@ -267,6 +302,40 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 040497124e2792b6
+  - value: '#0090B8'
+    rgb:
+    - 0
+    - 144
+    - 184
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.lnu.edu.cn/images/logo.png
+    page_source: https://www.lnu.edu.cn/
+    asset_id: 65e4ace7a8c9167a624d1f41
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#008050'
+    rgb:
+    - 0
+    - 128
+    - 80
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.lnu.edu.cn/images/logo.png
+    page_source: https://www.lnu.edu.cn/
+    asset_id: 65e4ace7a8c9167a624d1f41
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -380,19 +449,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://enweb.lnu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.lnu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.lnu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.lnu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合

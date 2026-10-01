@@ -94,7 +94,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 1cb2b9bfb1b9f0838d8d0c0d
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://nyxy.hynu.edu.cn/dfiles/7699/template/skin_nyxysite/cn/images/logo.gif
+    source: https://nyxy.hynu.edu.cn
+    file_name: logo.gif
+    upstream_path: null
+    publisher: 衡阳师范学院南岳学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 衡阳师范学院南岳学院
+    format: gif
+    width: 1299
+    height: 282
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 4c0d51cad1e85ad6be8d4a52fd23ecde1b3f016b6ec3e21b7d589aabc19382a2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/7699/template/skin_nyxysite/cn/images/logo.gif
+      label: '   '
+      context: 'topLogo topLogo logoBox  sitelogo   '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 11647
+    representation: raster
+    resolved_url: https://nyxy.hynu.edu.cn/dfiles/7699/template/skin_nyxysite/cn/images/logo.gif
   color_palette: []
   vi_resources: []
 culture:
@@ -157,12 +192,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://nyzsjy.hynu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://nyxy.hynu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -178,12 +217,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://nyxy.hynu.edu.cn/ywgk.htm
+    availability: found
     search_sources: []
+    source: https://nyxy.hynu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -193,12 +236,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -222,12 +268,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 衡阳市雁峰区黄白路165号
+    availability: found
     search_sources: []
+    source: https://nyxy.hynu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学院地址:衡阳市雁峰区黄白路165号
   postal_code:
     value: null
     source: null
@@ -314,19 +364,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0734-8484226'
+    availability: found
     search_sources: []
+    source: https://nyxy.hynu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系电话:0734-8484226 / 8484223 招生咨询:0734-8484960
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: nyxybgs@hynu.edu.cn
+    availability: found
     search_sources: []
+    source: https://nyxy.hynu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电子邮件:nyxybgs@hynu.edu.cn
 rankings:
   entries: []
 admissions:

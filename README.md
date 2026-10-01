@@ -18,6 +18,7 @@ v3在原有学校身份、文化与官方资源字段上新增27个事实字段�
 
 - [校徽文件索引](indexes/logo-assets.csv)：具体文件URL、实际格式、宽高、矢量/透明信息、文件哈希、访问状态和权利说明。
 - [调色板索引](indexes/color-palettes.csv)：HEX、RGB、用途与取值方法；官方标准、社区主题、取色建议分别标明。没有依据的CMYK/Pantone保持空值。
+- [色值冲突索引](indexes/color-conflicts.csv)：主色与辅色/并列色的各来源候选、差异原因，保留RGB和HEX不一致等问题。
 - [扩展目录](indexes/enriched-catalog.csv)、[新增事实](indexes/extended-facts.csv)、[排名历史](indexes/rankings.csv)、[学科评估](indexes/subject-assessments.csv)、[录取参考](indexes/admission-cutoffs.csv)。
 - [AI用JSONL全集](indexes/profiles.jsonl)：从1412份档案生成，每行一校；可用`school_code`稳定关联各索引。
 
@@ -55,8 +56,9 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/render_community.py
 .venv/bin/python scripts/ingest/render_enriched.py
 .venv/bin/python scripts/ingest/build_indexes.py
-.venv/bin/python scripts/validate/report_coverage.py
 .venv/bin/python scripts/validate/report_field_union.py
+.venv/bin/python scripts/validate/report_official_extensions.py
+.venv/bin/python scripts/validate/report_coverage.py
 .venv/bin/python scripts/validate/report_research.py
 .venv/bin/python scripts/validate/build_review_queue.py
 .venv/bin/python scripts/validate/validate_profiles.py --automatic-draft
@@ -81,12 +83,19 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/research_all_schools.py --resume
 .venv/bin/python scripts/ingest/apply_context_corrections.py
 .venv/bin/python scripts/ingest/import_research_claims.py
+.venv/bin/python scripts/ingest/import_scope_extensions.py
+.venv/bin/python scripts/ingest/collect_official_extensions.py --resume
+.venv/bin/python scripts/ingest/import_visual_refresh.py
 .venv/bin/python scripts/ingest/sync_source_candidates.py
 ```
 
 范围构建校验官方附件哈希，也支持本地附件。社区导入按[仓库清单](data/external/repositories.yaml)锁定上游提交；只读数据，不执行上游代码。采集结果会随网站变化，详见[采集说明](docs/source-collection.md)。采集完成后重新执行生成与校验命令。可选的 `validate_profiles.py --release` 专供未来人工审定版本使用，本轮验收使用 `--automatic-draft`。
 
 视觉文件检查需要`requirements-research.txt`中的Pillow。只重试解析/访问失败的视觉文件可运行`.venv/bin/python scripts/ingest/expand_repository_fields.py --retry-visual-errors`，再重新生成视图、索引和覆盖报告。
+
+`collect_official_extensions.py`补采已确认官网的地址、邮编、公开办公/招生联系方式、门户入口和页眉标识链接；原始网页/图片不入库。`--resume`继续未完成学校，`--retry-gaps`重试首页访问失败的学校，`--import-only`从已有台账重建导入。官网标识取色只进入参考调色板，保留已有官方主色结论。
+
+失败的官网标识文件可用`collect_official_extensions.py --retry-asset-errors`单独重试原链接及同路径另一协议；尺寸不符合标识要求的图片进入排除记录。联系与门户进度见[官网扩展报告](docs/official-extension-progress-2026.md)。
 
 ## 来源与许可
 

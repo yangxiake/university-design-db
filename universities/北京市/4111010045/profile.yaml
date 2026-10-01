@@ -207,6 +207,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/CCOM_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/CCOM_wordmark.svg
     attempts: []
+  - asset_id: 18cb47a4f73770f3f3490d86
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ccom.edu.cn/images/logo.png
+    source: https://www.ccom.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 中央音乐学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中央音乐学院
+    format: png
+    width: 218
+    height: 70
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6fcb31090eb8583d4c20c4557714b0d837b8881f598e2b1d7c5abf428f7defc5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'pc_header  wp flex  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 7767
+    representation: raster
+    resolved_url: https://www.ccom.edu.cn/images/logo.png
   color_palette:
   - value: '#811F45'
     rgb:
@@ -330,12 +365,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zhaoban.ccom.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ccom.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -344,19 +383,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://en.ccom.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.ccom.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zhuanti.ccom.edu.cn/xxgkwnew
+    availability: found
     search_sources: []
+    source: https://www.ccom.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 艺术
@@ -417,12 +464,16 @@ location:
     availability: unresearched
     search_sources: []
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '100031'
+    availability: found
     search_sources: []
+    source: https://www.ccom.edu.cn/ljxx/lxwm.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编100031
   coordinates:
     value:
       longitude: 116.323

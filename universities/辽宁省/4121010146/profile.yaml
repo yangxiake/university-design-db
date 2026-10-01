@@ -220,6 +220,41 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/University_of_Science_and_Technology_Liaoning/svg/logo_blue.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/University_of_Science_and_Technology_Liaoning/svg/logo_blue.svg
+  - asset_id: 5bdcf4f2f32a27b0e2c6c3a4
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ustl.edu.cn/dfiles/11411/images/logo.png
+    source: https://www.ustl.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 辽宁科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 辽宁科技大学
+    format: png
+    width: 444
+    height: 97
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b037af95bb899b9322f305a398bfd2c282c7b0fa5794230428ab7d1b92379de5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/11411/images/logo.png
+      label: '   '
+      context: 'header  top  logo  logo_link '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 75324
+    representation: raster
+    resolved_url: https://www.ustl.edu.cn/dfiles/11411/images/logo.png
   color_palette:
   - value: '#D61920'
     rgb:
@@ -327,6 +362,40 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: 70785e6689e739e3
+  - value: '#D01820'
+    rgb:
+    - 208
+    - 24
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ustl.edu.cn/dfiles/11411/images/logo.png
+    page_source: https://www.ustl.edu.cn/
+    asset_id: 5bdcf4f2f32a27b0e2c6c3a4
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#B0D0C0'
+    rgb:
+    - 176
+    - 208
+    - 192
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ustl.edu.cn/dfiles/11411/images/logo.png
+    page_source: https://www.ustl.edu.cn/
+    asset_id: 5bdcf4f2f32a27b0e2c6c3a4
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -389,12 +458,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsjy.ustl.edu.cn/index.htm
+    availability: found
     search_sources: []
+    source: https://www.ustl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -410,12 +483,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.ustl.edu.cn/xinxigongkai
+    availability: found
     search_sources: []
+    source: https://www.ustl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开网
 institution:
   school_type:
     value: 理工
@@ -468,19 +545,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 辽宁省鞍山市立山区千山中路189号
+    availability: found
     search_sources: []
+    source: https://www.ustl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:辽宁省鞍山市立山区千山中路189号 邮编:114051 电话:0412-5928000
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '114051'
+    availability: found
     search_sources: []
+    source: https://www.ustl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:辽宁省鞍山市立山区千山中路189号 邮编:114051 电话:0412-5928000
   coordinates:
     value: null
     source: null
@@ -560,12 +645,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0412-5928000'
+    availability: found
     search_sources: []
+    source: https://www.ustl.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:辽宁省鞍山市立山区千山中路189号 邮编:114051 电话:0412-5928000
   email:
     value: null
     source: null

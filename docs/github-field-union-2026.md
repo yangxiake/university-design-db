@@ -109,9 +109,10 @@
 
 | 项目 | 学校数 | 记录数 |
 | --- | ---: | ---: |
-| 逐文件校徽/校名资源 | 622 | 1099 |
-| 结构化配色 | 508 | 1148 |
-| 社区提供的VI下载线索 | 45 | 51 |
+| 逐文件校徽/校名资源 | 1098 | 2254 |
+| 其中官网发布标识文件 | 954 | 1155 |
+| 结构化配色 | 698 | 2243 |
+| VI规范与下载线索 | 49 | 55 |
 | 历史排名 | 569 | 1117 |
 | 学科评估节选 | 136 | 764 |
 | 重庆2025录取参考 | 166 | 277 |
@@ -121,10 +122,11 @@
 
 | 状态 | 文件数 |
 | --- | ---: |
-| content_inspected | 545 |
+| content_inspected | 1673 |
 | indexed_not_fetched | 554 |
+| inspection_failed | 27 |
 
-只有content_inspected读取了文件内容；历史外部CDN地址仅索引，不等于当前可下载。学校现行版本与图形授权未作人工签核。
+只有content_inspected读取了文件内容；历史外部CDN地址仅索引，不等于当前可下载。学校现行版本与图形授权未作人工签核。site_identity有1149条，是具体构成待核验的官网页眉标识，不能计为已确认纯校徽。
 
 ### 配色方法
 
@@ -133,8 +135,8 @@
 | badge_sample | 1 |
 | community_logo_sample | 746 |
 | community_theme | 10 |
-| manual_derived | 344 |
-| official_vi | 47 |
+| manual_derived | 1430 |
+| official_vi | 56 |
 
 颜色数包含多源同色、主/辅色和建议色，不等于有官方标准色的学校数量。社区主题与校徽取色不覆盖主色官方结论。
 
@@ -147,12 +149,12 @@
 | `identity.aliases` | 0 |
 | `identity.slug_aliases` | 561 |
 | `institution.school_type` | 627 |
-| `institution.nature` | 12 |
+| `institution.nature` | 435 |
 | `institution.country` | 561 |
 | `institution.languages_of_instruction` | 12 |
 | `institution.groups` | 149 |
-| `location.address` | 0 |
-| `location.postal_code` | 0 |
+| `location.address` | 698 |
+| `location.postal_code` | 516 |
 | `location.coordinates` | 184 |
 | `overview.summary_zh` | 0 |
 | `overview.summary_en` | 0 |
@@ -163,12 +165,12 @@
 | `academics.degree_authorizations` | 0 |
 | `employment.summary` | 0 |
 | `employment.report_url` | 0 |
-| `resources.admissions_url` | 0 |
-| `resources.career_url` | 278 |
-| `resources.english_website` | 4 |
-| `resources.information_disclosure_url` | 0 |
-| `contacts.phone` | 0 |
-| `contacts.email` | 0 |
+| `resources.admissions_url` | 816 |
+| `resources.career_url` | 486 |
+| `resources.english_website` | 447 |
+| `resources.information_disclosure_url` | 811 |
+| `contacts.phone` | 383 |
+| `contacts.email` | 237 |
 
 ## 扩展字段的完整性与口径
 

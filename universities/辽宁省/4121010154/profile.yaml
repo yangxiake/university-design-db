@@ -190,6 +190,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Liaoning_University_of_Technology/png/logo_blue_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Liaoning_University_of_Technology/png/logo_blue_800x800.png
     attempts: []
+  - asset_id: d7b3478390501effa2deac4c
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.lnut.edu.cn/images/logo.png
+    source: https://www.lnut.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 辽宁工业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 辽宁工业大学
+    format: png
+    width: 435
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: dcb0629efd6a47e7b053670bf144d4ab676d64170c247e8a3b9590955d1dbe70
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: '    lnut-header  logo '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 15882
+    representation: raster
+    resolved_url: https://www.lnut.edu.cn/images/logo.png
   color_palette:
   - value: '#162A87'
     rgb:
@@ -261,6 +296,40 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: b8ff0ba95df41aa3
+  - value: '#102880'
+    rgb:
+    - 16
+    - 40
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.lnut.edu.cn/images/logo.png
+    page_source: https://www.lnut.edu.cn/
+    asset_id: d7b3478390501effa2deac4c
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#102888'
+    rgb:
+    - 16
+    - 40
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.lnut.edu.cn/images/logo.png
+    page_source: https://www.lnut.edu.cn/
+    asset_id: d7b3478390501effa2deac4c
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -337,19 +406,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.lnut.edu.cn/ENGLISHml/Home.htm
+    availability: found
     search_sources: []
+    source: https://www.lnut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - ENGLISH
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.lnut.edu.cn/xxgkzl.htm
+    availability: found
     search_sources: []
+    source: https://www.lnut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -402,19 +479,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 辽宁省锦州市古塔区士英街169号
+    availability: found
     search_sources: []
+    source: https://www.lnut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 辽ICP备15014757号 地址:辽宁省锦州市古塔区士英街169号 邮编:121001
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '121001'
+    availability: found
     search_sources: []
+    source: https://www.lnut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 辽ICP备15014757号 地址:辽宁省锦州市古塔区士英街169号 邮编:121001
   coordinates:
     value: null
     source: null

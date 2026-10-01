@@ -261,6 +261,76 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/XMU_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/XMU_wordmark.svg
     attempts: []
+  - asset_id: 1389c4bfd7ae27c89d49f8a3
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xmu.edu.cn/images/logo.png
+    source: https://www.xmu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 厦门大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 厦门大学
+    format: png
+    width: 289
+    height: 83
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 1ce2ac6c57c9fef4d1c16dae567661f4ed3b1b57a28c2c4ae0c9f4007ade0c8e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '  img1 '
+      context: 'header  container clearfix  fl left   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 13525
+    representation: raster
+    resolved_url: https://www.xmu.edu.cn/images/logo.png
+  - asset_id: e74e50cdbaaf557aac933fe7
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xmu.edu.cn/images/logo2.png
+    source: https://www.xmu.edu.cn/
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 厦门大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 厦门大学
+    format: png
+    width: 289
+    height: 83
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 42d4e2ef80c3e7ee70eef971b6986c9418fcf2682431f595647e634d88b5b7f5
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo2.png
+      label: '  img2 '
+      context: 'header  container clearfix  fl left   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 14417
+    representation: raster
+    resolved_url: https://www.xmu.edu.cn/images/logo2.png
   color_palette:
   - value: '#0D2F6E'
     rgb:
@@ -314,6 +384,40 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: 4e3640d70865b9cf
+  - value: '#082868'
+    rgb:
+    - 8
+    - 40
+    - 104
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xmu.edu.cn/images/logo2.png
+    page_source: https://www.xmu.edu.cn/
+    asset_id: e74e50cdbaaf557aac933fe7
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#083070'
+    rgb:
+    - 8
+    - 48
+    - 112
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xmu.edu.cn/images/logo2.png
+    page_source: https://www.xmu.edu.cn/
+    asset_id: e74e50cdbaaf557aac933fe7
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -431,19 +535,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://en.xmu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.xmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://gk.xmu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -522,19 +634,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 福建省厦门市思明区思明南路422号
+    availability: found
     search_sources: []
+    source: https://www.xmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:福建省厦门市思明区思明南路422号 邮政编码:361005
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '361005'
+    availability: found
     search_sources: []
+    source: https://www.xmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:福建省厦门市思明区思明南路422号 邮政编码:361005
   coordinates:
     value:
       longitude: 118.097
@@ -899,12 +1019,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '值班电话: 0592-2186110'
+    availability: found
     search_sources: []
+    source: https://www.xmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 厦大总值班电话:0592-2186110
   email:
     value: null
     source: null

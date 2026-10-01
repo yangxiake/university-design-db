@@ -201,6 +201,76 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%9B%B2%E9%98%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%20QFNU.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%9B%B2%E9%98%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%20QFNU.svg
     attempts: []
+  - asset_id: 5d626b4a52701dc8b70e7218
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.qfnu.edu.cn/images/logo.png
+    source: https://www.qfnu.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 曲阜师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 曲阜师范大学
+    format: png
+    width: 260
+    height: 240
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6bb7348a4e72d3e96fe14090c72dc49cb3f4c557ef88948fb6b519ef56b1f2d1
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'header header-index  container  logo   '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 81372
+    representation: raster
+    resolved_url: https://www.qfnu.edu.cn/images/logo.png
+  - asset_id: 8cb9dfd9a9dcda4c066ae961
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.qfnu.edu.cn/images/logo_mob.png
+    source: https://www.qfnu.edu.cn
+    file_name: logo_mob.png
+    upstream_path: null
+    publisher: 曲阜师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 曲阜师范大学
+    format: png
+    width: 298
+    height: 87
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 73fea89ee5e3f7f633a60d2427842a1f6ec85ee35346565c59559e791e55c743
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo_mob.png
+      label: '  logo_mob '
+      context: 'header header-index  container  logo   '
+      position: 4
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 10896
+    representation: raster
+    resolved_url: https://www.qfnu.edu.cn/images/logo_mob.png
   color_palette:
   - value: '#F5CA95'
     rgb:
@@ -218,6 +288,40 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#E8C098'
+    rgb:
+    - 232
+    - 192
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.qfnu.edu.cn/images/logo.png
+    page_source: https://www.qfnu.edu.cn
+    asset_id: 5d626b4a52701dc8b70e7218
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#F0D0A0'
+    rgb:
+    - 240
+    - 208
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.qfnu.edu.cn/images/logo.png
+    page_source: https://www.qfnu.edu.cn
+    asset_id: 5d626b4a52701dc8b70e7218
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -299,12 +403,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zsb.qfnu.edu.cn/static/front/qfnu/basic/html_cms/
+    availability: found
     search_sources: []
+    source: https://www.qfnu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -313,19 +421,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.qfnu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.qfnu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - ENGLISH
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.qfnu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.qfnu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 师范

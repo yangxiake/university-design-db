@@ -143,6 +143,41 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: acbb9d33bb80778d210a95bf
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.wsu.edu.cn/images/logo.png
+    source: https://www.wsu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 文山学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 文山学院
+    format: png
+    width: 303
+    height: 74
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3593290ea8f358871a7747207b4f0febf84b28506a7eb58776ae07a9021ae570
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: '  wap-head ar_wap  logo flex-v-center   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 33657
+    representation: raster
+    resolved_url: https://www.wsu.edu.cn/images/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -220,19 +255,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.wsu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.wsu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.wsu.edu.cn/xwgk.htm
+    availability: found
     search_sources: []
+    source: https://www.wsu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 校务公开
 institution:
   school_type:
     value: 师范
@@ -285,19 +328,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 云南省文山市学府路66号
+    availability: found
     search_sources: []
+    source: https://www.wsu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 文山学院 地址:云南省文山市学府路66号 邮编:663099滇公网安备 53262102000232号滇ICP备 20000820号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '663099'
+    availability: found
     search_sources: []
+    source: https://www.wsu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 文山学院 地址:云南省文山市学府路66号 邮编:663099滇公网安备 53262102000232号滇ICP备 20000820号
   coordinates:
     value: null
     source: null

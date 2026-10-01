@@ -197,6 +197,45 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E7%9F%B3%E6%B2%B3%E5%AD%90%E5%A4%A7%E5%AD%A6%20SHZU.png
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E7%9F%B3%E6%B2%B3%E5%AD%90%E5%A4%A7%E5%AD%A6%20SHZU.png
     attempts: []
+  - asset_id: 2938cceb5444a365eb54121e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.shzu.edu.cn/_upload/tpl/03/75/885/template885/images/logo.svg
+    source: https://www.shzu.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 石河子大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 石河子大学
+    format: svg
+    width: 327.0
+    height: 89.0
+    vector: false
+    has_alpha: null
+    transparent_background: null
+    sha256: c5fbb3d4c5dceb5f4fb4fb98623e910a08c5d9401e438e4eff4b3f28c6786dae
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/03/75/885/template885/images/logo.svg
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 1041257
+    representation: svg_with_raster
+    view_box: 0 0 327 89
+    encoding: utf-8-sig
+    intrinsic_width: '327'
+    intrinsic_height: '89'
+    resolved_url: https://www.shzu.edu.cn/_upload/tpl/03/75/885/template885/images/logo.svg
   color_palette:
   - value: '#108038'
     rgb:
@@ -437,19 +476,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 新疆石河子市北四路
+    availability: found
     search_sources: []
+    source: https://www.shzu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:新疆石河子市北四路
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '832003'
+    availability: found
     search_sources: []
+    source: https://www.shzu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:832003
   coordinates:
     value:
       longitude: 86.041

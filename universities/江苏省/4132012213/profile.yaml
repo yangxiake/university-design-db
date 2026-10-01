@@ -94,7 +94,52 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 12b7dfc83e8e680c8b279b1a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.njpu.edu.cn/_upload/tpl/00/7b/123/template123/images/logo.png
+    source: https://www.njpu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 南京警察学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京警察学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/7b/123/template123/images/logo.png
+      label: '   '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: UnidentifiedImageError
+      detail: cannot identify image file <_io.BytesIO object at 0x1158d2ea0>
+    inspection_attempts:
+    - url: https://www.njpu.edu.cn/_upload/tpl/00/7b/123/template123/images/logo.png
+      status: access_or_parse_gap
+      error_type: UnidentifiedImageError
+      detail: cannot identify image file <_io.BytesIO object at 0x11583fb80>
+    - url: http://www.njpu.edu.cn/_upload/tpl/00/7b/123/template123/images/logo.png
+      status: access_or_parse_gap
+      error_type: UnidentifiedImageError
+      detail: cannot identify image file <_io.BytesIO object at 0x1158d2ea0>
   color_palette: []
   vi_resources: []
 culture:
@@ -157,12 +202,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsjyc.njpu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.njpu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -178,12 +227,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.njpu.edu.cn/702/list.htm
+    availability: found
     search_sources: []
+    source: https://www.njpu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

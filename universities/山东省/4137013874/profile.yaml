@@ -96,7 +96,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: c6e87b34ad0dfc5c22bf082e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sdws.edu.cn/_upload/tpl/00/c9/201/template201/images/logo.png
+    source: https://www.sdws.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 山东外事职业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东外事职业大学
+    format: png
+    width: 411
+    height: 97
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 1172db50e1d4a30e34d534faf0f82fc234adc01ffe992d23b95c0edb3c36a110
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/c9/201/template201/images/logo.png
+      label: '  site-logo '
+      context: 'wp-inner clearfix  wp-panel logo-panel panel-1  wp-window logo-window window-1  site-url '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 71002
+    representation: raster
+    resolved_url: https://www.sdws.edu.cn/_upload/tpl/00/c9/201/template201/images/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -165,12 +200,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsb.sdws.edu.cn/main.htm
+    availability: found
     search_sources: []
+    source: https://www.sdws.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生信息
   career_url:
     value: null
     source: null
@@ -179,19 +218,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://en.sdws.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.sdws.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.sdws.edu.cn/xxgk/list.htm
+    availability: found
     search_sources: []
+    source: https://www.sdws.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -201,12 +248,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null

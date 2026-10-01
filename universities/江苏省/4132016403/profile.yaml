@@ -107,7 +107,46 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: a37c7c77b9969a7ec3613af2
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xjtlu.edu.cn/wp-content/uploads/2024/01/cn-header-logo.svg
+    source: https://www.xjtlu.edu.cn/
+    file_name: cn-header-logo.svg
+    upstream_path: null
+    publisher: 西交利物浦大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西交利物浦大学
+    format: svg
+    width: 201.0
+    height: 28.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 00f5bbb632d1b25f0a8f66e4b3d8c73f08acaa350667d5415b562744188e591a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: https://www.xjtlu.edu.cn/wp-content/uploads/2024/01/cn-header-logo.svg
+      label: 'Xi''an Jiaotong-Liverpool University  revert '
+      context: 'dark top-header header-main  header-logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 32847
+    representation: vector
+    view_box: 0 0 201 28
+    encoding: utf-8-sig
+    intrinsic_width: '201'
+    intrinsic_height: '28'
+    resolved_url: https://www.xjtlu.edu.cn/wp-content/uploads/2024/01/cn-header-logo.svg
   color_palette:
   - value: '#CE57C1'
     rgb:
@@ -125,6 +164,23 @@ visual:
     availability: found
     basis: '官网 RGB 206,87,193 与 HEX #CE57C1 一致'
     source_field: visual.color_secondary
+  - value: '#010544'
+    rgb:
+    - 1
+    - 5
+    - 68
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.xjtlu.edu.cn/wp-content/uploads/2024/01/cn-header-logo.svg
+    page_source: https://www.xjtlu.edu.cn/
+    asset_id: a37c7c77b9969a7ec3613af2
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -186,12 +242,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xjtlu.edu.cn/zh/admissions/ug
+    availability: found
     search_sources: []
+    source: https://www.xjtlu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -200,19 +260,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xjtlu.edu.cn/en
+    availability: found
     search_sources: []
+    source: https://www.xjtlu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xjtlu.edu.cn/zh/about/xinxigongkai
+    availability: found
     search_sources: []
+    source: https://www.xjtlu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -251,12 +319,17 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 江苏省苏州市工业园区独墅湖科教创新区仁爱路111号；江苏省苏州市太仓市太仓大道111号
+    availability: found
     search_sources: []
+    source: https://www.xjtlu.edu.cn/zh/about/contact
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:江苏省苏州市工业园区独墅湖科教创新区仁爱路111号
+    - 地址:江苏省苏州市太仓市太仓大道111号
   postal_code:
     value: null
     source: null

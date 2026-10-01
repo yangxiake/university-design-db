@@ -55,6 +55,9 @@ def main():
                       subject_conflicts=sum(e.get('availability')=='conflict' for e in p['academics']['subject_assessments']),
                       admission_schools=bool(p['admissions']['cutoffs']),admission_entries=len(p['admissions']['cutoffs']),
                       snapshot_schools=bool(p['community']['snapshots']),snapshot_entries=len(p['community']['snapshots']))
+        official_assets=[item for item in a if item.get('source_type')=='official_website']
+        counts.update(official_logo_schools=bool(official_assets),official_logo_entries=len(official_assets),
+                      site_identity_entries=sum(item.get('kind')=='site_identity' for item in a))
         access.update(e['access_status'] for e in a);methods.update(e['method'] for e in c)
         for dotted in FACTS:
             group,key=dotted.split('.');field_counts[dotted]+=p[group][key]['availability']=='found'
@@ -73,15 +76,16 @@ def main():
         lines+=['']
     lines+=['## v3覆盖情况','','| 项目 | 学校数 | 记录数 |','| --- | ---: | ---: |',
             '| 逐文件校徽/校名资源 | %s | %s |'%(counts['logo_schools'],counts['logo_entries']),
+            '| 其中官网发布标识文件 | %s | %s |'%(counts['official_logo_schools'],counts['official_logo_entries']),
             '| 结构化配色 | %s | %s |'%(counts['palette_schools'],counts['palette_entries']),
-            '| 社区提供的VI下载线索 | %s | %s |'%(counts['vi_schools'],counts['vi_entries']),
+            '| VI规范与下载线索 | %s | %s |'%(counts['vi_schools'],counts['vi_entries']),
             '| 历史排名 | %s | %s |'%(counts['ranking_schools'],counts['ranking_entries']),
             '| 学科评估节选 | %s | %s |'%(counts['subject_schools'],counts['subject_entries']),
             '| 重庆2025录取参考 | %s | %s |'%(counts['admission_schools'],counts['admission_entries']),
             '| 上游字段快照 | %s | %s |'%(counts['snapshot_schools'],counts['snapshot_entries']),
             '', '### 校徽文件检查','','| 状态 | 文件数 |','| --- | ---: |']
     for status,n in sorted(access.items()):lines.append('| %s | %s |'%(status,n))
-    lines+=['','只有content_inspected读取了文件内容；历史外部CDN地址仅索引，不等于当前可下载。学校现行版本与图形授权未作人工签核。','',
+    lines+=['','只有content_inspected读取了文件内容；历史外部CDN地址仅索引，不等于当前可下载。学校现行版本与图形授权未作人工签核。site_identity有%s条，是具体构成待核验的官网页眉标识，不能计为已确认纯校徽。'%counts['site_identity_entries'],'',
             '### 配色方法','','| 方法 | 颜色记录数 |','| --- | ---: |']
     for method,n in sorted(methods.items()):lines.append('| %s | %s |'%(method,n))
     lines+=['','颜色数包含多源同色、主/辅色和建议色，不等于有官方标准色的学校数量。社区主题与校徽取色不覆盖主色官方结论。','',

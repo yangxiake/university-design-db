@@ -93,32 +93,32 @@ research:
   audit_key: '4137010449'
 visual:
   color_primary:
-    value: '#346DB5'
-    source: https://www.sdua.edu.cn/_upload/tpl/06/d6/1750/template1750/images/521logo.png
+    value: '#1A478E'
+    source: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+    method: official_vi
+    label: ①号标准色
+    basis: 官网2024版VIS基础手册PDF第32页，手册页29；AI查看两张色卡，明确两色均为标准色，并列记录。
     verified: auto
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.sdua.edu.cn/
-    image_sha256: 41b106119aafa7a1e7ead47a8f542eb63d2b0b329eb16eace344a6f6cbfbe665
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#346DB5'
+    source: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+    method: official_vi
+    label: ②号标准色
+    basis: 官网2024版VIS基础手册PDF第32页，手册页29；AI查看两张色卡，明确两色均为标准色，并列记录。
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+    availability: found
     search_sources: []
+    source: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+    verified: auto
+    checked_at: '2026-10-01'
   badge_description:
     value: null
     source: null
@@ -127,7 +127,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 7b1d526c4b7a5b576d45d269
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sdua.edu.cn/_upload/tpl/06/d6/1750/template1750/images/521logo.png
+    source: https://www.sdua.edu.cn/
+    file_name: 521logo.png
+    upstream_path: null
+    publisher: 山东航空学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东航空学院
+    format: png
+    width: 900
+    height: 232
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 41b106119aafa7a1e7ead47a8f542eb63d2b0b329eb16eace344a6f6cbfbe665
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/06/d6/1750/template1750/images/521logo.png
+      label: '   '
+      context: 'sytop  topnr flex  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 87068
+    representation: raster
+    resolved_url: https://www.sdua.edu.cn/_upload/tpl/06/d6/1750/template1750/images/521logo.png
   color_palette:
   - value: '#346DB5'
     rgb:
@@ -136,16 +171,111 @@ visual:
     - 181
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: https://www.sdua.edu.cn/_upload/tpl/06/d6/1750/template1750/images/521logo.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
+  - value: '#B8C8D8'
+    rgb:
+    - 184
+    - 200
+    - 216
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sdua.edu.cn/_upload/tpl/06/d6/1750/template1750/images/521logo.png
+    page_source: https://www.sdua.edu.cn/
+    asset_id: 7b1d526c4b7a5b576d45d269
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#A8B8D0'
+    rgb:
+    - 168
+    - 184
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sdua.edu.cn/_upload/tpl/06/d6/1750/template1750/images/521logo.png
+    page_source: https://www.sdua.edu.cn/
+    asset_id: 7b1d526c4b7a5b576d45d269
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#1A478E'
+    rgb:
+    - 26
+    - 71
+    - 142
+    cmyk:
+    - 100
+    - 84
+    - 12
+    - 2
+    pantone: null
+    label: ①号标准色
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 官网2024版VIS基础手册PDF第32页，手册页29；AI查看两张色卡，明确两色均为标准色，并列记录。
+    source_sha256: dbf386190520054cfb7a71ffe5d4cdbb8519b9b2594b5c5819b811640235a88a
     source_field: visual.color_primary
-  vi_resources: []
+  - value: '#346DB5'
+    rgb:
+    - 52
+    - 109
+    - 181
+    cmyk:
+    - 83
+    - 57
+    - 0
+    - 0
+    pantone: null
+    label: ②号标准色
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 官网2024版VIS基础手册PDF第32页，手册页29；AI查看两张色卡，明确两色均为标准色，并列记录。
+    source_sha256: dbf386190520054cfb7a71ffe5d4cdbb8519b9b2594b5c5819b811640235a88a
+    source_field: visual.color_secondary
+  vi_resources:
+  - title: 山东航空学院官方视觉规范
+    url: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.sdua.edu.cn/_upload/article/files/1f/fa/1f230dc94e6ab5812dc0329a1d0d/6c883ab6-4c85-4aaa-8928-0d7e4cc384d0.pdf
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 官网2024版VIS基础手册PDF第32页，手册页29；AI查看两张色卡，明确两色均为标准色，并列记录。
 culture:
   founded_year:
     value: 1954
@@ -207,12 +337,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zs.sdua.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sdua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本专科招生
   career_url:
     value: null
     source: null
@@ -221,19 +355,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.sdua.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sdua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.sdua.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sdua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -286,19 +428,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 山东省滨州市黄河五路391号
+    availability: found
     search_sources: []
+    source: https://www.sdua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:山东省滨州市黄河五路391号 邮编:256600
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '256600'
+    availability: found
     search_sources: []
+    source: https://www.sdua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:山东省滨州市黄河五路391号 邮编:256600
   coordinates:
     value: null
     source: null
@@ -378,12 +528,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0543-3190016'
+    availability: found
     search_sources: []
+    source: https://www.sdua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:0543-3190016(校办)
   email:
     value: null
     source: null

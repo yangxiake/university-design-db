@@ -96,7 +96,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 4229e9e2366c1234b6f65955
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.lzre.edu.cn/new/images/logo.png
+    source: https://www.lzre.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 兰州资源环境职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 兰州资源环境职业技术大学
+    format: png
+    width: 501
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 80df42972c881b47658b56f43895dae285e73130bae427a68dce28a8c58c2761
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: new/images/logo.png
+      label: '  logoimg '
+      context: '  header  outer  logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 23682
+    representation: raster
+    resolved_url: https://www.lzre.edu.cn/new/images/logo.png
+  - asset_id: 152d78e69b3878581b171c9b
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.lzre.edu.cn/new/images/tongdao.png
+    source: https://www.lzre.edu.cn/
+    file_name: tongdao.png
+    upstream_path: null
+    publisher: 兰州资源环境职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 兰州资源环境职业技术大学
+    format: png
+    width: 20
+    height: 21
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 8589adcfcfa84bb25d3422e8b3c0970f317c90f1ad26fed1a3dbdf4ac8326bbd
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: new/images/tongdao.png
+      label: '   '
+      context: 'outer  logo  language  aisle '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 687
+    representation: raster
+    resolved_url: https://www.lzre.edu.cn/new/images/tongdao.png
   color_palette: []
   vi_resources: []
 culture:
@@ -160,12 +230,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.lzre.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.lzre.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -174,19 +248,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://en.lzre.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.lzre.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.lzre.edu.cn/xxgk/yxxgk/xxgknr.htm
+    availability: found
     search_sources: []
+    source: https://www.lzre.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -317,19 +399,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0931-8799685'
+    availability: found
     search_sources: []
+    source: https://www.lzre.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系电话:0931-8799685
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: lzhbgs@lzre.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.lzre.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学校邮箱:lzhbgs@lzre.edu.cn
 rankings:
   entries: []
 admissions:

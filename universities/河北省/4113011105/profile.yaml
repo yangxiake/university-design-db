@@ -101,7 +101,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: b7329100dbc184512a505fe7
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.cppu.edu.cn/images/sr-logo1.png
+    source: https://www.cppu.edu.cn
+    file_name: sr-logo1.png
+    upstream_path: null
+    publisher: 中国人民警察大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国人民警察大学
+    format: png
+    width: 392
+    height: 72
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 2d04b24596d8b3e1566b8c76fdeb583f039612efa4257f7efda571ae6480126f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/sr-logo1.png
+      label: '   '
+      context: 'wp  logo_box  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 26502
+    representation: raster
+    resolved_url: https://www.cppu.edu.cn/images/sr-logo1.png
   color_palette:
   - value: '#C8B58D'
     rgb:
@@ -119,6 +154,40 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#A8D8E8'
+    rgb:
+    - 168
+    - 216
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.cppu.edu.cn/images/sr-logo1.png
+    page_source: https://www.cppu.edu.cn
+    asset_id: b7329100dbc184512a505fe7
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#C0B088'
+    rgb:
+    - 192
+    - 176
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.cppu.edu.cn/images/sr-logo1.png
+    page_source: https://www.cppu.edu.cn
+    asset_id: b7329100dbc184512a505fe7
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -181,19 +250,27 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.cppu.edu.cn/zsjy/bkszs1.htm
+    availability: found
     search_sources: []
+    source: https://www.cppu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://jy.cppu.edu.cn/web
+    availability: found
     search_sources: []
+    source: https://www.cppu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业创业
   english_website:
     value: null
     source: null
@@ -202,12 +279,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.cppu.edu.cn/xxgk2.htm
+    availability: found
     search_sources: []
+    source: https://www.cppu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

@@ -95,7 +95,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 86da7e976bc4a7a9a850ff70
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.zua.edu.cn/dfiles/9832/common/images/htmlimage/logo.png
+    source: https://www.zua.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 郑州航空工业管理学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 郑州航空工业管理学院
+    format: png
+    width: 420
+    height: 60
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: a0c2ae345d92b7380a0c38d1f8dcc94a41d583d1b140dddf798b1a617b4e37ec
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/9832/common/images/htmlimage/logo.png
+      label: '网站首页 网站首页  '
+      context: '       '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 32826
+    representation: raster
+    resolved_url: https://www.zua.edu.cn/dfiles/9832/common/images/htmlimage/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -166,12 +201,16 @@ resources:
     availability: unresearched
     search_sources: []
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zhjyb.zua.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.zua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业服务
   english_website:
     value: null
     source: null
@@ -180,12 +219,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.zua.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.zua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -224,12 +267,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 河南省郑州市大学中路2号
+    availability: found
     search_sources: []
+    source: https://www.zua.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 大学路校区地址:河南省郑州市大学中路2号 邮政编码:450015| 龙子湖校区地址:河南郑州郑东新区文苑西路15号 邮政编码:450046
   postal_code:
     value: null
     source: null

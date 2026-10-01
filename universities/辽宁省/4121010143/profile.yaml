@@ -227,6 +227,41 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shenyang_Aerospace_University/svg/logo_blue.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shenyang_Aerospace_University/svg/logo_blue.svg
+  - asset_id: cea929c2f9b999e8c69aacde
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sau.edu.cn/images/logo.png
+    source: https://www.sau.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 沈阳航空航天大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 沈阳航空航天大学
+    format: png
+    width: 309
+    height: 64
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f18c29917661dca5692b7367f6cde363af0e2571941ad2c9068377462e789b7e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '  logo1 '
+      context: 'head pc hide  head-top  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 10577
+    representation: raster
+    resolved_url: https://www.sau.edu.cn/images/logo.png
   color_palette:
   - value: '#0745BA'
     rgb:
@@ -378,12 +413,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.sau.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.sau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -392,12 +431,16 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://en.sau.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
     value: null
     source: null
@@ -457,12 +500,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 沈阳市沈北新区道义南大街37号 信息管理:沈阳航空航天大学党委宣传部
+    availability: found
     search_sources: []
+    source: https://www.sau.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:沈阳市沈北新区道义南大街37号 信息管理:沈阳航空航天大学党委宣传部 版权所有 2025 辽ICP备11006293号-2
   postal_code:
     value: null
     source: null

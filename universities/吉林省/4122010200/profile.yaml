@@ -190,6 +190,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%9C%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%20NENU.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%9C%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%20NENU.svg
     attempts: []
+  - asset_id: 5145c9def9a708fc7fe4dfb6
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://en.nenu.edu.cn/images/L1.png
+    source: https://en.nenu.edu.cn/
+    file_name: L1.png
+    upstream_path: null
+    publisher: 东北师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 东北师范大学
+    format: png
+    width: 283
+    height: 66
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 0f4584fe62decac5b8982d5f711abc44607a9b89c501a5ff9e00354acab6bc42
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/L1.png
+      label: '   '
+      context: 'inner clearfix    site-logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 10377
+    representation: raster
+    resolved_url: https://en.nenu.edu.cn/images/L1.png
   color_palette:
   - value: '#003685'
     rgb:
@@ -613,12 +648,17 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: webmaster@nenu.edu.cn
+    availability: found
     search_sources: []
+    source: https://en.nenu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - Copyright© Northeast Normal UniversityE-mail:webmaster@nenu.edu.cn5268 Renmin Street, Changchun,
+      Jilin Province, PRC
 rankings:
   entries:
   - publisher: ShanghaiRanking

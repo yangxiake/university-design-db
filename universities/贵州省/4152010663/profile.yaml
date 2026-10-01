@@ -220,6 +220,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/GZNU_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/GZNU_wordmark.svg
     attempts: []
+  - asset_id: 62bae60c4b62f0fb731cf193
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gznu.edu.cn/images/logo.png
+    source: https://www.gznu.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 贵州师范大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 贵州师范大学
+    format: png
+    width: 329
+    height: 95
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 06cea25f5c07636a938676c22d3499cfcdb10ab486fd00d86646f081392ce878
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '  i1 '
+      context: 'header  wp flexjs  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 9734
+    representation: raster
+    resolved_url: https://www.gznu.edu.cn/images/logo.png
   color_palette:
   - value: '#D82128'
     rgb:
@@ -337,12 +372,16 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://egjc.gznu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.gznu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
     value: null
     source: null
@@ -402,19 +441,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 贵州省贵安新区花溪大学城
+    availability: found
     search_sources: []
+    source: https://www.gznu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:贵州省贵安新区花溪大学城
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '550025'
+    availability: found
     search_sources: []
+    source: https://www.gznu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:550025
   coordinates:
     value: null
     source: null
@@ -494,12 +541,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0851-83227222'
+    availability: found
     search_sources: []
+    source: https://www.gznu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:0851-83227222
   email:
     value: null
     source: null

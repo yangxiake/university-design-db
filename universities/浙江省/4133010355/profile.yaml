@@ -207,6 +207,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/CAA_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/CAA_wordmark.svg
     attempts: []
+  - asset_id: 9093ac13db0c2e725ae76dda
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.caa.edu.cn/dfiles/9597/images/home_logo.png
+    source: https://www.caa.edu.cn
+    file_name: home_logo.png
+    upstream_path: null
+    publisher: 中国美术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国美术学院
+    format: png
+    width: 481
+    height: 203
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: 4123ff1c50d2c0ef6673bdc2ead01da9e177447c8bf79c0d1b1f5699d36a18e2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/9597/images/home_logo.png
+      label: '   '
+      context: '    art-home-page '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 50131
+    representation: raster
+    resolved_url: https://www.caa.edu.cn/dfiles/9597/images/home_logo.png
   color_palette:
   - value: '#D7000F'
     rgb:
@@ -244,6 +279,40 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: 136defab1ec5aa3d
+  - value: '#8898A8'
+    rgb:
+    - 136
+    - 152
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.caa.edu.cn/dfiles/9597/images/home_logo.png
+    page_source: https://www.caa.edu.cn
+    asset_id: 9093ac13db0c2e725ae76dda
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#8090A0'
+    rgb:
+    - 128
+    - 144
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.caa.edu.cn/dfiles/9597/images/home_logo.png
+    page_source: https://www.caa.edu.cn
+    asset_id: 9093ac13db0c2e725ae76dda
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -350,12 +419,16 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://en.caa.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.caa.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - ENGLISH
   information_disclosure_url:
     value: null
     source: null

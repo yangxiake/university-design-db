@@ -96,7 +96,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: f2689f298a95cef9eff50fe7
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.wxit.edu.cn/images/LOGO.png
+    source: https://www.wxit.edu.cn/
+    file_name: LOGO.png
+    upstream_path: null
+    publisher: 无锡职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 无锡职业技术大学
+    format: png
+    width: 579
+    height: 116
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 9b75295d6e6d6be801131974103200da0dabb3123982c07f31a9209342be4342
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/LOGO.png
+      label: '   '
+      context: 'header  warp-box  logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 34553
+    representation: raster
+    resolved_url: https://www.wxit.edu.cn/images/LOGO.png
   color_palette: []
   vi_resources: []
 culture:
@@ -225,12 +260,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 江苏省无锡市高浪西路1600号
+    availability: found
     search_sources: []
+    source: https://www.wxit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学校地址:江苏省无锡市高浪西路1600号
   postal_code:
     value: null
     source: null

@@ -94,8 +94,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 3764bbc3d4c584ddf390cc12
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.wfit.edu.cn/templates/net/images/logo.png
+    source: https://www.wfit.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 潍坊理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 潍坊理工学院
+    format: png
+    width: 426
+    height: 80
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 12d332cd5623785f36e7bc07cfa1f922b3fdd0e22acbea34bd0bd2a7f7f43735
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: http://www.wfit.edu.cn/templates/net/images/logo.png
+      label: '   '
+      context: 'header  top  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 39571
+    representation: raster
+    resolved_url: https://www.wfit.edu.cn/templates/net/images/logo.png
+  color_palette:
+  - value: '#304080'
+    rgb:
+    - 48
+    - 64
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.wfit.edu.cn/templates/net/images/logo.png
+    page_source: https://www.wfit.edu.cn/
+    asset_id: 3764bbc3d4c584ddf390cc12
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#304078'
+    rgb:
+    - 48
+    - 64
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.wfit.edu.cn/templates/net/images/logo.png
+    page_source: https://www.wfit.edu.cn/
+    asset_id: 3764bbc3d4c584ddf390cc12
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -158,12 +227,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zsb.wfit.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.wfit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生信息网
   career_url:
     value: null
     source: null
@@ -179,12 +252,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.xxgk.wfit.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.wfit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -194,12 +271,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -315,12 +395,19 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '办公室电话: 0536-3091155；办公室电话: 0536-6021608；办公室电话: 0536-3091199；办公室电话: 0536-2511866'
+    availability: found
     search_sources: []
+    source: https://www.wfit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 大学招生就业办公室电话:0536-3091155 3091166
+    - 潍理工综合高中招生办公室电话:0536-6021608
+    - 主校区:山东省青州市云门山南路9888号 办公室电话:0536-3091199
+    - 中心校区:山东省潍坊市经济开发区民主街7777号 办公室电话:0536-2511866
   email:
     value: null
     source: null

@@ -96,7 +96,52 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: f45d1c8ef6d43c1c796dec6d
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gkd.edu.cn/images/LOGO.png
+    source: https://www.gkd.edu.cn/
+    file_name: LOGO.png
+    upstream_path: null
+    publisher: 广州科技职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广州科技职业技术大学
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/LOGO.png
+      label: '广州科技职业技术大学  navbar-logo '
+      context: 'navbar desktop-nav transparent  container  navbar-brand  logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: UnidentifiedImageError
+      detail: cannot identify image file <_io.BytesIO object at 0x110763bd0>
+    inspection_attempts:
+    - url: https://www.gkd.edu.cn/images/LOGO.png
+      status: access_or_parse_gap
+      error_type: UnidentifiedImageError
+      detail: cannot identify image file <_io.BytesIO object at 0x11075e6d0>
+    - url: http://www.gkd.edu.cn/images/LOGO.png
+      status: access_or_parse_gap
+      error_type: UnidentifiedImageError
+      detail: cannot identify image file <_io.BytesIO object at 0x110763bd0>
   color_palette: []
   vi_resources: []
 culture:
@@ -159,12 +204,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.gkd.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.gkd.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生信息
   career_url:
     value: null
     source: null
@@ -180,12 +229,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.gkd.edu.cn/xxgk/
+    availability: found
     search_sources: []
+    source: https://www.gkd.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -195,12 +248,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null

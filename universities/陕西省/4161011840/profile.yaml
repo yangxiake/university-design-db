@@ -95,7 +95,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 3302067232ea10d415591731
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xiyi.edu.cn/images/zhuzhan2026.png
+    source: https://www.xiyi.edu.cn
+    file_name: zhuzhan2026.png
+    upstream_path: null
+    publisher: 西安医学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西安医学院
+    format: png
+    width: 382
+    height: 76
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: d5fa1454aa6770d4b876fc7e6d32ef14560fbf68c34e7468bdb24435362b9479
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/zhuzhan2026.png
+      label: '   '
+      context: 'header  head clearfix w1320  logo fl   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 13933
+    representation: raster
+    resolved_url: https://www.xiyi.edu.cn/images/zhuzhan2026.png
   color_palette: []
   vi_resources: []
 culture:
@@ -159,12 +194,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.xiyi.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xiyi.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -173,19 +212,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.xiyi.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xiyi.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.xiyi.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xiyi.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -224,12 +271,19 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 西安市未央区辛王路1号；陕西省西安市碑林区含光北路74号；陕西省西安市雁塔区二环南路西段168号；陕西省西安市未央区辛王路1号
+    availability: found
     search_sources: []
+    source: https://www.xiyi.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - '地址: 西安市未央区辛王路1号 邮编: 710021'
+    - 含光校区地址:陕西省西安市碑林区含光北路74号 邮编:710068
+    - 高新校区地址:陕西省西安市雁塔区二环南路西段168号 邮编:710075
+    - '未央校区地址:陕西省西安市未央区辛王路1号 邮编: 710021'
   postal_code:
     value: null
     source: null

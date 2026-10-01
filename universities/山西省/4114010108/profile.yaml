@@ -230,6 +230,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SXU.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SXU.svg
     attempts: []
+  - asset_id: c101070a8b8182a39a78d817
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sxu.edu.cn/images/indexlogo.jpg
+    source: https://www.sxu.edu.cn
+    file_name: indexlogo.jpg
+    upstream_path: null
+    publisher: 山西大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山西大学
+    format: jpeg
+    width: 266
+    height: 128
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: 811de35f640532639316d67c1ff51b993768bff3e55ce626c608d2bad4936aad
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/indexlogo.jpg
+      label: '   '
+      context: 'boder-x  w1200 clearbt  fl   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 19848
+    representation: raster
+    resolved_url: https://www.sxu.edu.cn/images/indexlogo.jpg
   color_palette:
   - value: '#088F93'
     rgb:
@@ -319,6 +354,40 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: bcbf435b1610f1da
+  - value: '#088890'
+    rgb:
+    - 8
+    - 136
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sxu.edu.cn/images/indexlogo.jpg
+    page_source: https://www.sxu.edu.cn
+    asset_id: c101070a8b8182a39a78d817
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#008890'
+    rgb:
+    - 0
+    - 136
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sxu.edu.cn/images/indexlogo.jpg
+    page_source: https://www.sxu.edu.cn
+    asset_id: c101070a8b8182a39a78d817
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -404,12 +473,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sxu.edu.cn/zty/zsjy/index.html
+    availability: found
     search_sources: []
+    source: https://www.sxu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: http://sxu.jysd.com/
     availability: found
@@ -432,12 +505,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://infogk2.sxu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sxu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -498,12 +575,16 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 山西省太原市坞城路92号
+    availability: found
     search_sources: []
+    source: https://www.sxu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:山西省太原市坞城路92号 邮编:030006 联系电话:0351-7010255
   postal_code:
     value: null
     source: null
@@ -649,12 +730,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0351-7010255'
+    availability: found
     search_sources: []
+    source: https://www.sxu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:山西省太原市坞城路92号 邮编:030006 联系电话:0351-7010255
   email:
     value: null
     source: null

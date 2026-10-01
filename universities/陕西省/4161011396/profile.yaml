@@ -148,6 +148,76 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 462059be633394ddea0305ec
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.slxy.cn/new2024/images/logo.png
+    source: http://www.slxy.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 商洛学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 商洛学院
+    format: png
+    width: 303
+    height: 88
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 7cf2b9a9f6c58b807d17364e71cc845a3715475bdbd1234b521c17823f945fe8
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: new2024/images/logo.png
+      label: '   '
+      context: 'container  flex-l  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 21562
+    representation: raster
+    resolved_url: http://www.slxy.cn/new2024/images/logo.png
+  - asset_id: ceb7d7ee378a20e3f886480e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.slxy.cn/new2024/images/xqLogo.png
+    source: http://www.slxy.cn/
+    file_name: xqLogo.png
+    upstream_path: null
+    publisher: 商洛学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 商洛学院
+    format: png
+    width: 105
+    height: 71
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 83f9ed98a924f33a85e23f2ce4bd213aaea61030a02f4067ba6d89ddf483d55e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: new2024/images/xqLogo.png
+      label: '   '
+      context: 'container  flex-l  xqCon  img '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 2207991
+    representation: raster
+    resolved_url: http://www.slxy.cn/new2024/images/xqLogo.png
   color_palette:
   - value: '#CE0E0E'
     rgb:
@@ -165,6 +235,74 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#C80808'
+    rgb:
+    - 200
+    - 8
+    - 8
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.slxy.cn/new2024/images/logo.png
+    page_source: http://www.slxy.cn/
+    asset_id: 462059be633394ddea0305ec
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#C80000'
+    rgb:
+    - 200
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.slxy.cn/new2024/images/logo.png
+    page_source: http://www.slxy.cn/
+    asset_id: 462059be633394ddea0305ec
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#E83028'
+    rgb:
+    - 232
+    - 48
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.slxy.cn/new2024/images/xqLogo.png
+    page_source: http://www.slxy.cn/
+    asset_id: ceb7d7ee378a20e3f886480e
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#E85830'
+    rgb:
+    - 232
+    - 88
+    - 48
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.slxy.cn/new2024/images/xqLogo.png
+    page_source: http://www.slxy.cn/
+    asset_id: ceb7d7ee378a20e3f886480e
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -246,12 +384,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.slxy.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: http://www.slxy.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -267,12 +409,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.slxy.cn/index/xwgk.htm
+    availability: found
     search_sources: []
+    source: http://www.slxy.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 校务公开
 institution:
   school_type:
     value: 综合
@@ -332,12 +478,16 @@ location:
     availability: unresearched
     search_sources: []
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '726000'
+    availability: found
     search_sources: []
+    source: http://www.slxy.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮政编码:726000
   coordinates:
     value: null
     source: null
@@ -417,12 +567,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0914-2312156'
+    availability: found
     search_sources: []
+    source: http://www.slxy.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系电话:0914-2312156
   email:
     value: null
     source: null

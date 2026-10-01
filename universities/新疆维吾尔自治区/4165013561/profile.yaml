@@ -100,7 +100,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: f6da24d7eace81adf99db929
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xjust.edu.cn/uploads/cms/ad/20231110/406a687eed5c044d3a5f6ce4b3e3f99b.png
+    source: https://www.xjust.edu.cn/cms/kjxy.html
+    file_name: 406a687eed5c044d3a5f6ce4b3e3f99b.png
+    upstream_path: null
+    publisher: 新疆科技学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆科技学院
+    format: png
+    width: 1456
+    height: 337
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3355d359c5a30a969a70eee016f9b7e3eb5498b13c8aa5adde85f0e77cb88635
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /uploads/cms/ad/20231110/406a687eed5c044d3a5f6ce4b3e3f99b.png
+      label: '   '
+      context: 'col-lg-3  logo-cat-wrap  logo-part   dark-logo '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 108116
+    representation: raster
+    resolved_url: https://www.xjust.edu.cn/uploads/cms/ad/20231110/406a687eed5c044d3a5f6ce4b3e3f99b.png
   color_palette:
   - value: '#034C91'
     rgb:
@@ -180,12 +215,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.xjust.edu.cn/cms/kjxy/document/show/31173
+    availability: found
     search_sources: []
+    source: https://www.xjust.edu.cn/cms/kjxy.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -245,19 +284,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 金河校区位于库尔勒经济技术开发区金河路360号
+    availability: found
     search_sources: []
+    source: https://www.xjust.edu.cn/cms/kjxy.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学院地址:金河校区位于库尔勒经济技术开发区金河路360号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '841000'
+    availability: found
     search_sources: []
+    source: https://www.xjust.edu.cn/cms/kjxy.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:841000
   coordinates:
     value: null
     source: null

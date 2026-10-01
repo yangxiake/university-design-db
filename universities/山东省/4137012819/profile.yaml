@@ -96,7 +96,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: ff560386b76079a1870de70d
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sdvcst.edu.cn/images/logo20260803_2.png
+    source: https://www.sdvcst.edu.cn/
+    file_name: logo20260803_2.png
+    upstream_path: null
+    publisher: 山东科技职业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东科技职业大学
+    format: png
+    width: 734
+    height: 79
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f5caf31cfeeb7aa27cb4b8d7a092cd14354b1eef40d02cc792adf3f684677a12
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo20260803_2.png
+      label: '   '
+      context: 'header-sm clearfix  clearfix  pull-left logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 41915
+    representation: raster
+    resolved_url: https://www.sdvcst.edu.cn/images/logo20260803_2.png
+  - asset_id: 4a9c61781c9c0be5c3ff11df
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sdvcst.edu.cn/images/logo_d20260803.png
+    source: https://www.sdvcst.edu.cn/
+    file_name: logo_d20260803.png
+    upstream_path: null
+    publisher: 山东科技职业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东科技职业大学
+    format: png
+    width: 918
+    height: 170
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: af6764e7a0c755d65f772bb7a707ee54b54fa58083b570709a23b2362457e204
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo_d20260803.png
+      label: '  b '
+      context: 'header-sm clearfix  clearfix  pull-left logo   '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 89584
+    representation: raster
+    resolved_url: https://www.sdvcst.edu.cn/images/logo_d20260803.png
   color_palette: []
   vi_resources: []
 culture:
@@ -160,12 +230,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sdvcst.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.sdvcst.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -181,12 +255,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgkw.sdvcst.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sdvcst.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -225,19 +303,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 山东省潍坊市潍城区浮烟山路19777号
+    availability: found
     search_sources: []
+    source: https://www.sdvcst.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:山东省潍坊市潍城区浮烟山路19777号邮编:261053 邮箱:sdkjzydx@shandong.cn
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '261053'
+    availability: found
     search_sources: []
+    source: https://www.sdvcst.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:山东省潍坊市潍城区浮烟山路19777号邮编:261053 邮箱:sdkjzydx@shandong.cn
   coordinates:
     value: null
     source: null
@@ -317,19 +403,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '办公室电话: 0536-8187766；招生电话: 0536-8187758'
+    availability: found
     search_sources: []
+    source: https://www.sdvcst.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 党委(院长)办公室电话:0536-8187766 招生电话:0536-8187758
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: sdkjzydx@shandong.cn
+    availability: found
     search_sources: []
+    source: https://www.sdvcst.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:山东省潍坊市潍城区浮烟山路19777号邮编:261053 邮箱:sdkjzydx@shandong.cn
 rankings:
   entries: []
 admissions:

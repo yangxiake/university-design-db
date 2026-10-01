@@ -251,11 +251,19 @@ def seed_palettes(profile):
     for key, role in [('color_primary', 'primary'), ('color_secondary', 'secondary')]:
         fact = profile['visual'][key]
         if fact['availability'] == 'found':
-            entry = dict(value=fact['value'].upper(), rgb=rgb(fact['value']), cmyk=None,
-                         pantone=None, role=role, method=fact['method'], official=fact['method']=='official_vi',
+            entry = dict(value=fact['value'].upper(), rgb=rgb(fact['value']), cmyk=fact.get('cmyk'),
+                         pantone=fact.get('pantone'), label=fact.get('label'), role=role, method=fact['method'], official=fact['method']=='official_vi',
                          source=fact['source'], verified=fact['verified'], checked_at=fact['checked_at'],
                          availability='found', basis=fact.get('basis') or fact.get('note') or '现有附来源颜色字段。',
                          source_field='visual.'+key)
+            previous=next((item for item in profile['visual']['color_palette'] if
+                (item['source'],item['value'],item['method'])==(entry['source'],entry['value'],entry['method'])),{})
+            # Reprojecting scalar colours must retain the richer VI colour-card
+            # metadata collected later, including print standards and file hash.
+            for metadata_key in ('cmyk','pantone','label'):
+                if entry.get(metadata_key) is None and previous.get(metadata_key) is not None:
+                    entry[metadata_key]=previous[metadata_key]
+            entry=dict(previous,**entry)
             upsert(profile['visual']['color_palette'], entry, lambda x: (x['source'], x['value'], x['method']))
     for resource in profile['resources'].get('community_resources', []):
         for color in resource.get('palette', []):

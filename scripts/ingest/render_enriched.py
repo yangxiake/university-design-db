@@ -17,6 +17,7 @@ STATUS = {'unresearched':'尚未采集', 'not_found':'检索后未找到', 'conf
 METHODS = {'official_vi':'官方VI标准值', 'badge_sample':'校徽取样建议',
            'manual_derived':'官网标识取色/推导建议', 'community_theme':'社区主题配色',
            'community_logo_sample':'社区标识取色建议'}
+KINDS = {'badge':'校徽','wordmark':'校名文字','combination':'组合标识','anniversary':'校庆标识','site_identity':'官网页眉标识（构成待核验）'}
 BASE_FACTS = {
     'identity.name_en':'英文名称', 'identity.official_website':'官网',
     'culture.founded_year':'创办年份', 'culture.motto':'校训',
@@ -39,24 +40,26 @@ def render_visual(profile):
            '## 逐文件校徽与校名资源','','| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |','| --- | --- | --- | --- | --- | --- |']
     for asset in visual['logo_assets']:
         dimensions=('%s × %s'%(asset['width'],asset['height'])) if asset.get('width') and asset.get('height') else '未声明'
-        lines.append('| %s | [文件](%s) · [来源](%s) | %s | %s | %s | %s |'%(asset['kind'],asset['url'],asset['source'],asset.get('format') or '未知',dimensions,asset['access_status'],asset.get('asset_license') or '未独立声明'))
+        lines.append('| %s | [文件](%s) · [来源](%s) | %s | %s | %s | %s |'%(KINDS[asset['kind']],asset['url'],asset['source'],asset.get('format') or '未知',dimensions,asset['access_status'],asset.get('asset_license') or '未独立声明'))
     if not visual['logo_assets']:
         lines+=['','尚无逐文件校徽记录；可继续查官方VI入口或社区资源。']
-    lines+=['','仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。SVG的viewBox是内部坐标，不等于像素尺寸。','',
-            '## 调色板','','| HEX | RGB | 用途 | 取值方法 | 来源 |','| --- | --- | --- | --- | --- |']
+    lines+=['','仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。','',
+            '## 调色板','','| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |','| --- | --- | --- | --- | --- | --- | --- | --- |']
     for entry in visual['color_palette']:
-        lines.append('| `%s` | %s | %s | %s | [依据](%s) |'%(entry['value'],','.join(map(str,entry['rgb'])),entry['role'],METHODS[entry['method']],entry['source']))
+        role=entry['role']+('（历史参考）' if entry.get('current') is False else '')
+        lines.append('| %s | `%s` | %s | %s | %s | %s | %s | [依据](%s) |'%(cell(entry.get('label')),entry['value'],','.join(map(str,entry['rgb'])),role,cell(entry.get('cmyk')),cell(entry.get('pantone')),METHODS[entry['method']],entry['source']))
     if not visual['color_palette']:
         lines+=['','尚无附来源配色。']
-    primary=visual['color_primary']
-    if primary['availability']=='conflict':
-        lines+=['','主色来源存在差异：']
-        lines+=['- `%s`：[来源](%s)'%(item['value'],item['source']) for item in primary['candidates']]
-    lines+=['','建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。','', '## VI资源与下载条件','']
+    for key,label in [('color_primary','主色'),('color_secondary','辅色/并列色')]:
+        fact=visual[key]
+        if fact['availability']=='conflict':
+            lines+=['',label+'来源存在差异：'+fact.get('note','')]
+            lines+=['- `%s`：[来源](%s)；%s'%(item['value'],item['source'],item.get('basis','')) for item in fact['candidates']]
+    lines+=['','建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。','', '## VI资源与下载条件','']
     vi=visual['vi_url']
     if vi['availability']=='found':lines+=['- 现有VI入口：[%s](%s)'%(vi['value'],vi['value'])]
     for entry in visual['vi_resources']:
-        lines+=['- [%s](%s)：%s；格式 %s；访问条件 %s。社区记录[来源](%s)。'%(entry['title'],entry['url'],cell(entry['kinds']),','.join(entry['formats']) or '未知',cell(entry['access_requirement']),entry['source'])]
+        lines+=['- [%s](%s)：%s；格式 %s；访问条件 %s。%s[来源](%s)。'%(entry['title'],entry['url'],cell(entry['kinds']),','.join(entry['formats']) or '未知',cell(entry['access_requirement']),'官网记录' if entry.get('official') else '社区记录',entry['source'])]
     lines+=['','更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。','']
     return '\n'.join(lines)
 
@@ -107,7 +110,7 @@ def save(path,expected,check):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
-    indexes={key:[] for key in ('logo-assets','color-palettes','extended-facts','rankings','admission-cutoffs','subject-assessments')}
+    indexes={key:[] for key in ('logo-assets','color-palettes','color-conflicts','extended-facts','rankings','admission-cutoffs','subject-assessments')}
     enriched=[];exports=[]
     for path in sorted((ROOT/'universities').glob('*/*/profile.yaml')):
         p=yaml.safe_load(path.read_text(encoding='utf-8'));i=p['identity'];base=dict(school_code=i['school_code'],name_zh=i['name_zh'])
@@ -116,15 +119,21 @@ def main():
         exports.append(json.dumps(p,ensure_ascii=False,sort_keys=True)+'\n')
         for asset in p['visual']['logo_assets']:
             indexes['logo-assets'].append(dict(base,**{key:asset.get(key) for key in (
-                'asset_id','kind','url','source','file_name','upstream_path','official','format','width','height','intrinsic_width','intrinsic_height','vector','representation','has_alpha','transparent_background','access_status','repository_license','asset_license','rights_holder','repository','commit','sha256','byte_size')}))
+                'asset_id','kind','url','source','file_name','upstream_path','official','format','width','height','intrinsic_width','intrinsic_height','vector','representation','has_alpha','transparent_background','access_status','repository_license','asset_license','rights_holder','repository','commit','sha256','byte_size','source_type','resolved_url')}))
         for entry in p['visual']['color_palette']:
             indexes['color-palettes'].append(dict(base,**{key:cell(entry.get(key)) for key in (
-                'value','rgb','role','method','official','basis','source','cmyk','pantone')}))
+                'value','rgb','label','role','method','official','current','basis','source','cmyk','pantone')}))
+        for key in ('color_primary','color_secondary'):
+            fact=p['visual'][key]
+            if fact['availability']=='conflict':
+                for candidate in fact['candidates']:
+                    indexes['color-conflicts'].append(dict(base,field='visual.'+key,label=fact.get('label',''),value=candidate['value'],
+                        source=candidate['source'],basis=candidate.get('basis',''),reason=fact.get('note',''),checked_at=fact['checked_at']))
         found=0
         for dotted,(value_type,label) in FACTS.items():
             group,key=dotted.split('.');fact=p[group][key];found+=fact['availability']=='found'
             if fact['availability']=='found':
-                indexes['extended-facts'].append(dict(base,field=dotted,value=json.dumps(fact['value'],ensure_ascii=False),source=fact['source'],source_type=fact.get('source_type','official_or_curated'),source_as_of=fact.get('source_as_of',''),verified=fact['verified'],checked_at=fact['checked_at']))
+                indexes['extended-facts'].append(dict(base,field=dotted,value=json.dumps(fact['value'],ensure_ascii=False),source=fact['source'],source_type=fact.get('source_type','official_or_curated'),source_as_of=fact.get('source_as_of',''),basis=fact.get('basis',''),verified=fact['verified'],checked_at=fact['checked_at']))
         for name,group,key,columns in [
             ('rankings','rankings','entries',('publisher','ranking_name','year','scope','rank','score','indicators','source','source_as_of')),
             ('admission-cutoffs','admissions','cutoffs',('year','region','curriculum','batch','enrollment_type','minimum_score','minimum_rank','reference_only','source')),

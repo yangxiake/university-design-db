@@ -96,7 +96,52 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 0bb599405f34c4463b801c1f
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.qvtu.edu.cn/images/pic-logo.png
+    source: https://www.qvtu.edu.cn/
+    file_name: pic-logo.png
+    upstream_path: null
+    publisher: 泉州职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 泉州职业技术大学
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/pic-logo.png
+      label: '   '
+      context: ' header wp   logo  '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: Image pixel count exceeds limit
+    inspection_attempts:
+    - url: https://www.qvtu.edu.cn/images/pic-logo.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: Image pixel count exceeds limit
+    - url: http://www.qvtu.edu.cn/images/pic-logo.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: Image pixel count exceeds limit
   color_palette: []
   vi_resources: []
 culture:
@@ -160,12 +205,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.qvtu.edu.cn/zsw
+    availability: found
     search_sources: []
+    source: https://www.qvtu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生网
   career_url:
     value: null
     source: null
@@ -196,12 +245,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -232,12 +284,16 @@ location:
     availability: unresearched
     search_sources: []
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '362268'
+    availability: found
     search_sources: []
+    source: https://www.qvtu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:362268
   coordinates:
     value: null
     source: null

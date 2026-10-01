@@ -6,18 +6,22 @@
 
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | [文件](https://www.jlbtc.edu.cn/assets/gsxy_image/logo_white.png) · [来源](https://www.jlbtc.edu.cn/) | png | 427 × 91 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.jlbtc.edu.cn/assets/gsxy_image/waplogo.jpg) · [来源](https://www.jlbtc.edu.cn/) | jpeg | 406 × 115 | content_inspected | 未独立声明 |
 
-尚无逐文件校徽记录；可继续查官方VI入口或社区资源。
-
-仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。SVG的viewBox是内部坐标，不等于像素尺寸。
+仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
 ## 调色板
 
-| HEX | RGB | 用途 | 取值方法 | 来源 |
-| --- | --- | --- | --- | --- |
-| `#55056A` | 85,5,106 | primary | 官网标识取色/推导建议 | [依据](https://www.jlbtc.edu.cn/assets/gsxy_image/logo_white.png) |
+| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | `#55056A` | 85,5,106 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.jlbtc.edu.cn/assets/gsxy_image/logo_white.png) |
+|  | `#600870` | 96,8,112 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.jlbtc.edu.cn/assets/gsxy_image/logo_white.png) |
+|  | `#C8B0D0` | 200,176,208 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.jlbtc.edu.cn/assets/gsxy_image/logo_white.png) |
+|  | `#600870` | 96,8,112 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.jlbtc.edu.cn/assets/gsxy_image/waplogo.jpg) |
+|  | `#601070` | 96,16,112 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.jlbtc.edu.cn/assets/gsxy_image/waplogo.jpg) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

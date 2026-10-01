@@ -94,7 +94,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 16413c22dc827e4c3270f2f9
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.guit.edu.cn/lib/img/logo.png
+    source: https://www.guit.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 桂林信息科技学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 桂林信息科技学院
+    format: png
+    width: 356
+    height: 75
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: fec112b7b527d2ab852d6c585608b545931e5404809f77bcdd5559aaedc6468f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: lib/img/logo.png
+      label: '   '
+      context: 'h-middle w1350 mlra    logo-box clearfix  logo fl  block '
+      position: 4
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 13161
+    representation: raster
+    resolved_url: https://www.guit.edu.cn/lib/img/logo.png
+  - asset_id: dae78463239dfd620052dac7
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.guit.edu.cn/images/GIIT.png
+    source: https://www.guit.edu.cn/
+    file_name: GIIT.png
+    upstream_path: null
+    publisher: 桂林信息科技学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 桂林信息科技学院
+    format: png
+    width: 492
+    height: 73
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: a99e16f582f4ce94cdf5fc77b40359e5ccd5961e71cff9b68854f4d9ba96373c
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/GIIT.png
+      label: '   '
+      context: 'header pr  h-middle w1350 mlra    logo-box clearfix  fr cont-txt '
+      position: 5
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 31210
+    representation: raster
+    resolved_url: https://www.guit.edu.cn/images/GIIT.png
   color_palette: []
   vi_resources: []
 culture:
@@ -158,19 +228,27 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.guit.edu.cn/zs/
+    availability: found
     search_sources: []
+    source: https://www.guit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生网
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.guit.edu.cn/xjy/
+    availability: found
     search_sources: []
+    source: https://www.guit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业网
   english_website:
     value: null
     source: null
@@ -179,12 +257,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.guit.edu.cn/xxgkw
+    availability: found
     search_sources: []
+    source: https://www.guit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -194,12 +276,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -230,12 +315,16 @@ location:
     availability: unresearched
     search_sources: []
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '541100'
+    availability: found
     search_sources: []
+    source: https://www.guit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - '邮编: 541100'
   coordinates:
     value: null
     source: null
@@ -315,19 +404,28 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0773-8100519'
+    availability: found
     search_sources: []
+    source: https://www.guit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学校纪检监察电话:0773-8100519 邮箱:gxkjcs@126.com
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: gxkjcs@126.com；xkysdjc@163.com
+    availability: found
     search_sources: []
+    source: https://www.guit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学校纪检监察电话:0773-8100519 邮箱:gxkjcs@126.com
+    - 师德师风举报电话:0773-8101805 邮箱:xkysdjc@163.com
 rankings:
   entries: []
 admissions:

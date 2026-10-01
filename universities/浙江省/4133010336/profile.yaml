@@ -198,6 +198,84 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%20HDU.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%20HDU.svg
     attempts: []
+  - asset_id: 130ac192106eff0f793a87a9
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hdu.edu.cn/_upload/tpl/02/12/530/template530/images/logo_main.svg
+    source: https://www.hdu.edu.cn
+    file_name: logo_main.svg
+    upstream_path: null
+    publisher: 杭州电子科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 杭州电子科技大学
+    format: svg
+    width: 314.419
+    height: 70.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 023b2536ce71233eb0fad92136927dc51b784705fd2fff82f889d4c971438924
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/12/530/template530/images/logo_main.svg
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 74738
+    representation: vector
+    view_box: 0 0 314.419 70
+    encoding: utf-8-sig
+    intrinsic_width: '314.419'
+    intrinsic_height: '70'
+    resolved_url: https://www.hdu.edu.cn/_upload/tpl/02/12/530/template530/images/logo_main.svg
+  - asset_id: 384961fb6c343e2cf9ea779c
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hdu.edu.cn/_upload/tpl/02/12/530/template530/images/logo.svg
+    source: https://www.hdu.edu.cn
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 杭州电子科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 杭州电子科技大学
+    format: svg
+    width: 314.419
+    height: 70.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 5866a6702247866fe9fb026b71758e878d0af7ae5ee77a26bac93d37ea12b128
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/02/12/530/template530/images/logo.svg
+      label: '  none '
+      context: 'head-left  sitelogo  logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 74531
+    representation: vector
+    view_box: 0 0 314.419 70
+    encoding: utf-8-sig
+    intrinsic_width: '314.419'
+    intrinsic_height: '70'
+    resolved_url: https://www.hdu.edu.cn/_upload/tpl/02/12/530/template530/images/logo.svg
   color_palette:
   - value: '#163479'
     rgb:
@@ -233,6 +311,23 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 3878aae09a7e1314
+  - value: '#163479'
+    rgb:
+    - 22
+    - 52
+    - 121
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.hdu.edu.cn/_upload/tpl/02/12/530/template530/images/logo_main.svg
+    page_source: https://www.hdu.edu.cn
+    asset_id: 130ac192106eff0f793a87a9
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -333,19 +428,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://en.hdu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.hdu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.hdu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.hdu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工

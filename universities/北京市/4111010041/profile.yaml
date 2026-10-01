@@ -144,6 +144,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%85%AC%E5%AE%89%E5%A4%A7%E5%AD%A6%20PPSUC.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%85%AC%E5%AE%89%E5%A4%A7%E5%AD%A6%20PPSUC.svg
     attempts: []
+  - asset_id: 313b2a5f2d9066698b61e9bd
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ppsuc.edu.cn/images/rmga.png
+    source: https://www.ppsuc.edu.cn
+    file_name: rmga.png
+    upstream_path: null
+    publisher: 中国人民公安大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国人民公安大学
+    format: png
+    width: 262
+    height: 230
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b490cdc2f54fa5cc1e5ee168f6fe09da663ffd76f48952093ca3204be6c402d3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/rmga.png
+      label: '   '
+      context: 'wrapper  wp  logo   '
+      position: 8
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 36847
+    representation: raster
+    resolved_url: https://www.ppsuc.edu.cn/images/rmga.png
   color_palette:
   - value: '#174D8D'
     rgb:
@@ -163,6 +198,40 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 76d276ab13842129
+  - value: '#0058E0'
+    rgb:
+    - 0
+    - 88
+    - 224
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ppsuc.edu.cn/images/rmga.png
+    page_source: https://www.ppsuc.edu.cn
+    asset_id: 313b2a5f2d9066698b61e9bd
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#0048C0'
+    rgb:
+    - 0
+    - 72
+    - 192
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ppsuc.edu.cn/images/rmga.png
+    page_source: https://www.ppsuc.edu.cn
+    asset_id: 313b2a5f2d9066698b61e9bd
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -244,12 +313,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.ppsuc.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.ppsuc.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -258,19 +331,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://en.ppsuc.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ppsuc.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.ppsuc.edu.cn/xxgk1.htm
+    availability: found
     search_sources: []
+    source: https://www.ppsuc.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 政法
@@ -316,19 +397,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 北京市西城区木樨地南里1号
+    availability: found
     search_sources: []
+    source: https://www.ppsuc.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京市西城区木樨地南里1号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '100038'
+    availability: found
     search_sources: []
+    source: https://www.ppsuc.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:100038 Email:gadx@ppsuc.edu.cn
   coordinates:
     value:
       longitude: 116.36
@@ -428,12 +517,17 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: gadx@ppsuc.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.ppsuc.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:100038 Email:gadx@ppsuc.edu.cn
+    - gadx@ppsuc.edu.cn gadx@ppsuc.edu.cn
 rankings:
   entries: []
 admissions:

@@ -262,6 +262,41 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Southern_University_of_Science_and_Technology/svg/logo_orange.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Southern_University_of_Science_and_Technology/svg/logo_orange.svg
+  - asset_id: 1862da1832115ac3d995c594
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://sustech.edu.cn/static/images/sustech-logo-cn.png
+    source: https://sustech.edu.cn
+    file_name: sustech-logo-cn.png
+    upstream_path: null
+    publisher: 南方科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南方科技大学
+    format: png
+    width: 433
+    height: 86
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f39932e5426513bc51bcce0f1988697ce76d46333c9f3b256ce7112c5a39280b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /static/images/sustech-logo-cn.png
+      label: '   '
+      context: '  new_navpanle  ht-logo pc   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 29867
+    representation: raster
+    resolved_url: https://sustech.edu.cn/static/images/sustech-logo-cn.png
   color_palette:
   - value: '#EC6C00'
     rgb:
@@ -445,12 +480,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zs.sustech.edu.cn/
+    availability: found
     search_sources: []
+    source: https://sustech.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -459,19 +498,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://sustech.edu.cn/en/
+    availability: found
     search_sources: []
+    source: https://sustech.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://sustech.edu.cn/zh/information-open.html
+    availability: found
     search_sources: []
+    source: https://sustech.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -539,12 +586,16 @@ location:
     availability: unresearched
     search_sources: []
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '518055'
+    availability: found
     search_sources: []
+    source: https://sustech.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - '广东省深圳市南山区学苑大道1088号 电话: +86-755-88010114 邮编: 518055 © 2018 All Rights Reserved. 粤ICP备14051456号'
   coordinates:
     value:
       longitude: 113.991

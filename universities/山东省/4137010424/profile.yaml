@@ -230,6 +230,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shandong_University_of_Science_and_Technology/png/logo_blue_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Shandong_University_of_Science_and_Technology/png/logo_blue_800x800.png
     attempts: []
+  - asset_id: 81ede43b6658c3826da8b45b
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sdust.edu.cn/images/logo.png
+    source: https://www.sdust.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 山东科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东科技大学
+    format: png
+    width: 288
+    height: 65
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: e5997d4d70f33907b70e3d0a3007099a3247424dc0cb8acc721be4cab7ca6cc8
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 17434
+    representation: raster
+    resolved_url: https://www.sdust.edu.cn/images/logo.png
   color_palette:
   - value: '#005DA3'
     rgb:
@@ -319,6 +354,40 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: ab3d5f127896a569
+  - value: '#0058A0'
+    rgb:
+    - 0
+    - 88
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sdust.edu.cn/images/logo.png
+    page_source: https://www.sdust.edu.cn
+    asset_id: 81ede43b6658c3826da8b45b
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#0858A0'
+    rgb:
+    - 8
+    - 88
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sdust.edu.cn/images/logo.png
+    page_source: https://www.sdust.edu.cn
+    asset_id: 81ede43b6658c3826da8b45b
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -419,19 +488,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://en.sdust.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.sdust.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.sdust.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sdust.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -491,12 +568,16 @@ location:
     availability: unresearched
     search_sources: []
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '266590'
+    availability: found
     search_sources: []
+    source: https://www.sdust.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 山东省青岛市黄岛区前湾港路579号 邮编266590
   coordinates:
     value:
       longitude: 120.1

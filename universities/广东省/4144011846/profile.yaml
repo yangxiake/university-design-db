@@ -102,7 +102,77 @@ visual:
     search_sources: []
     note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: aff52153218904910685bad3
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gdufs.edu.cn/images/logo.png
+    source: https://www.gdufs.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 广东外语外贸大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广东外语外贸大学
+    format: png
+    width: 336
+    height: 73
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: a391614a0dc291e899ba9e68b6806ec5b505de8b5c1267bcafa221ee34f28036
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'wp  left   logo  '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 17974
+    representation: raster
+    resolved_url: https://www.gdufs.edu.cn/images/logo.png
+  - asset_id: 7f139bfc968923352bc7601b
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.gdufs.edu.cn/images/logo1.png
+    source: https://www.gdufs.edu.cn
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 广东外语外贸大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广东外语外贸大学
+    format: png
+    width: 241
+    height: 51
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 42dbe145ce2921aa1c9b5447618f129aeb27c8684d84de463808baefa74a7bea
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo1.png
+      label: '   '
+      context: 'wp  left   logo  '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 26272
+    representation: raster
+    resolved_url: https://www.gdufs.edu.cn/images/logo1.png
   color_palette:
   - value: '#004694'
     rgb:
@@ -120,6 +190,74 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#004090'
+    rgb:
+    - 0
+    - 64
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gdufs.edu.cn/images/logo.png
+    page_source: https://www.gdufs.edu.cn
+    asset_id: aff52153218904910685bad3
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#003890'
+    rgb:
+    - 0
+    - 56
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gdufs.edu.cn/images/logo.png
+    page_source: https://www.gdufs.edu.cn
+    asset_id: aff52153218904910685bad3
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#F0D0D0'
+    rgb:
+    - 240
+    - 208
+    - 208
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gdufs.edu.cn/images/logo1.png
+    page_source: https://www.gdufs.edu.cn
+    asset_id: 7f139bfc968923352bc7601b
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#E8C0C0'
+    rgb:
+    - 232
+    - 192
+    - 192
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gdufs.edu.cn/images/logo1.png
+    page_source: https://www.gdufs.edu.cn
+    asset_id: 7f139bfc968923352bc7601b
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -206,26 +344,38 @@ resources:
     availability: unresearched
     search_sources: []
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://career.gdufs.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.gdufs.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业指导
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.gdufs.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.gdufs.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.gdufs.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.gdufs.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

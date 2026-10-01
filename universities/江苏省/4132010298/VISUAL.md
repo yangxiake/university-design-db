@@ -6,20 +6,23 @@
 
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
-| badge | [文件](https://www.shanghairanking.cn/_uni/logo/34561912.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | png | 未声明 | indexed_not_fetched | 未独立声明 |
-| badge | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/NJFU.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/NJFU.svg) | svg | 128.0 × 128.0 | content_inspected | 未独立声明 |
+| 校徽 | [文件](https://www.shanghairanking.cn/_uni/logo/34561912.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | png | 未声明 | indexed_not_fetched | 未独立声明 |
+| 校徽 | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/NJFU.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/NJFU.svg) | svg | 128.0 × 128.0 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.njfu.edu.cn/DFS//template/2829//images/t_logo.png) · [来源](https://www.njfu.edu.cn/) | png | 340 × 81 | content_inspected | 未独立声明 |
 
-仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。SVG的viewBox是内部坐标，不等于像素尺寸。
+仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
 ## 调色板
 
-| HEX | RGB | 用途 | 取值方法 | 来源 |
-| --- | --- | --- | --- | --- |
-| `#006E4F` | 0,110,79 | primary | 官网标识取色/推导建议 | [依据](https://www.njfu.edu.cn/DFS//template/2829//images/t_logo.png) |
-| `#45B035` | 69,176,53 | reference | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/NJFU.svg) |
-| `#006F4F` | 0,111,79 | reference | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/NJFU.svg) |
+| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | `#006E4F` | 0,110,79 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.njfu.edu.cn/DFS//template/2829//images/t_logo.png) |
+|  | `#45B035` | 69,176,53 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/NJFU.svg) |
+|  | `#006F4F` | 0,111,79 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/NJFU.svg) |
+|  | `#006848` | 0,104,72 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.njfu.edu.cn/DFS//template/2829//images/t_logo.png) |
+|  | `#006040` | 0,96,64 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.njfu.edu.cn/DFS//template/2829//images/t_logo.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

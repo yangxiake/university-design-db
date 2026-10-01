@@ -255,6 +255,45 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/BeiJingLinYeDaXue_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/BeiJingLinYeDaXue_wordmark.svg
     attempts: []
+  - asset_id: 70cf8cc478bd6eb3ba65734b
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.bjfu.edu.cn/images/logo.svg
+    source: http://www.bjfu.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 北京林业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京林业大学
+    format: svg
+    width: 120.0
+    height: 120.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: dc1cdb829a1ccbe5010bafbb4bc5dc4106c871537913a87eeece83e340906886
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.svg
+      label: '   '
+      context: '  header pa-t  wrapTop row  logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 53452
+    representation: vector
+    view_box: 0 0 120 120
+    encoding: utf-8-sig
+    intrinsic_width: '120'
+    intrinsic_height: '120'
+    resolved_url: http://www.bjfu.edu.cn/images/logo.svg
   color_palette:
   - value: '#046335'
     rgb:
@@ -426,19 +465,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.bjfu.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.bjfu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.bjfu.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.bjfu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 林业
@@ -500,19 +547,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 北京市海淀区清华东路35号
+    availability: found
     search_sources: []
+    source: http://www.bjfu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京市海淀区清华东路35号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '100083'
+    availability: found
     search_sources: []
+    source: http://www.bjfu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:100083电话:010-62338279Email:service@bjfu.edu.cn
   coordinates:
     value:
       longitude: 116.348
@@ -685,19 +740,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 010-62338279'
+    availability: found
     search_sources: []
+    source: http://www.bjfu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:100083电话:010-62338279Email:service@bjfu.edu.cn
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: service@bjfu.edu.cn
+    availability: found
     search_sources: []
+    source: http://www.bjfu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:100083电话:010-62338279Email:service@bjfu.edu.cn
 rankings:
   entries:
   - publisher: ShanghaiRanking

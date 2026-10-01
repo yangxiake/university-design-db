@@ -265,6 +265,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Chongqing_University/png/logo_blue_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Chongqing_University/png/logo_blue_800x800.png
     attempts: []
+  - asset_id: ebbbc8ce2a83d5cf3bd28321
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.cqu.edu.cn/images/logo1.png
+    source: https://www.cqu.edu.cn
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 重庆大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 重庆大学
+    format: png
+    width: 226
+    height: 71
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: bc80c77bfd2701b89cbf91ad9a07c7b3d6102ae16247423c9c9ed5af7f410c8c
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo1.png
+      label: '   '
+      context: '  header  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 12302
+    representation: raster
+    resolved_url: https://www.cqu.edu.cn/images/logo1.png
   color_palette:
   - value: '#0253A0'
     rgb:
@@ -372,6 +407,40 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: 3dd6c05f60b91f48
+  - value: '#0050A0'
+    rgb:
+    - 0
+    - 80
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.cqu.edu.cn/images/logo1.png
+    page_source: https://www.cqu.edu.cn
+    asset_id: ebbbc8ce2a83d5cf3bd28321
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#005098'
+    rgb:
+    - 0
+    - 80
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.cqu.edu.cn/images/logo1.png
+    page_source: https://www.cqu.edu.cn
+    asset_id: ebbbc8ce2a83d5cf3bd28321
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -468,12 +537,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.cqu.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.cqu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: http://www.job.cqu.edu.cn/
     availability: found
@@ -489,19 +562,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.cqu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.cqu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://gongkai.cqu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.cqu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -571,12 +652,16 @@ location:
     availability: unresearched
     search_sources: []
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '400044'
+    availability: found
     search_sources: []
+    source: https://www.cqu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 重庆市沙坪坝区沙正街174号 邮编:400044
   coordinates:
     value:
       longitude: 106.46

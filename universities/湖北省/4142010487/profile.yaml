@@ -363,6 +363,41 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/svg/logo_blue.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Huazhong_University_of_Science_and_Technology/svg/logo_blue.svg
+  - asset_id: bda438c2dccd097e0caddae0
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hust.edu.cn:443/images/logo20240628.png
+    source: https://www.hust.edu.cn:443/
+    file_name: logo20240628.png
+    upstream_path: null
+    publisher: 华中科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 华中科技大学
+    format: png
+    width: 400
+    height: 94
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b818d74ac39eef4a0cd24720f148406736342718edbb7e9b35160611b0bb4e0f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo20240628.png
+      label: '   '
+      context: 'header   hd-b wp pore  logo flex-v-center   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 18235
+    representation: raster
+    resolved_url: https://www.hust.edu.cn:443/images/logo20240628.png
   color_palette:
   - value: '#00659F'
     rgb:
@@ -652,12 +687,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hust.edu.cn:443/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.hust.edu.cn:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: http://job.hust.edu.cn/
     availability: found
@@ -673,19 +712,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.hust.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.hust.edu.cn:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.hust.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.hust.edu.cn:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -748,19 +795,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 湖北省武汉市洪山区珞喻路1037号
+    availability: found
     search_sources: []
+    source: https://www.hust.edu.cn:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:湖北省武汉市洪山区珞喻路1037号邮政编码:430074电话:027-87541114
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '430074'
+    availability: found
     search_sources: []
+    source: https://www.hust.edu.cn:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:湖北省武汉市洪山区珞喻路1037号邮政编码:430074电话:027-87541114
   coordinates:
     value:
       longitude: 114.43
@@ -1176,12 +1231,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 027-87541114'
+    availability: found
     search_sources: []
+    source: https://www.hust.edu.cn:443/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:湖北省武汉市洪山区珞喻路1037号邮政编码:430074电话:027-87541114
   email:
     value: null
     source: null

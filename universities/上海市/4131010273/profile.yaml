@@ -95,7 +95,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 5e46702895c32741ce68379e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.suibe.edu.cn/_upload/tpl/05/88/1416/template1416/images/logo.png
+    source: https://www.suibe.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 上海对外经贸大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海对外经贸大学
+    format: png
+    width: 318
+    height: 69
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 627d2725e84969b93ba5f59834acd58faf9a29d6525a8fdb725d6de22a23fd94
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/05/88/1416/template1416/images/logo.png
+      label: '   '
+      context: 'mod clearfix  head-top  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 11942
+    representation: raster
+    resolved_url: https://www.suibe.edu.cn/_upload/tpl/05/88/1416/template1416/images/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -177,26 +212,38 @@ resources:
     availability: unresearched
     search_sources: []
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://job.suibe.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.suibe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业服务
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://eng.suibe.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.suibe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.suibe.edu.cn/xxgk/
+    availability: found
     search_sources: []
+    source: https://www.suibe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开网
 institution:
   school_type:
     value: null
@@ -235,12 +282,17 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 上海市松江区文翔路1900号；上海市长宁区古北路620号
+    availability: found
     search_sources: []
+    source: https://www.suibe.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©2018 地址:上海市松江区文翔路1900号，邮编:201620
+    - 古北校区地址:上海市长宁区古北路620号，邮编:200336 闵行校区地址:上海市闵行区漕宝路3349号，邮编:200235
   postal_code:
     value: null
     source: null

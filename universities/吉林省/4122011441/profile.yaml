@@ -94,7 +94,42 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 7e6ae3ea76cd665477d126ec
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.jljcxy.edu.cn/dfiles/10563/img/logo.png
+    source: https://www.jljcxy.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 吉林警察学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 吉林警察学院
+    format: png
+    width: 312
+    height: 71
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b6c9e71174260c4fd5da4e43a0ee41ad24e2944fb0665ffd3c7770dff6faa7bf
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/10563/img/logo.png
+      label: '   '
+      context: 'h1_main_1_1  h1_main_1_1_2  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 16467
+    representation: raster
+    resolved_url: https://www.jljcxy.edu.cn/dfiles/10563/img/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -157,12 +192,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.jljcxy.edu.cn/zsjy/zsgz.htm
+    availability: found
     search_sources: []
+    source: https://www.jljcxy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生工作
   career_url:
     value: null
     source: null
@@ -222,19 +261,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 吉林省长春市净月经济开发区博硕路1399号
+    availability: found
     search_sources: []
+    source: https://www.jljcxy.edu.cn/info/2881/30911.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学院地址:吉林省长春市净月经济开发区博硕路1399号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '130117'
+    availability: found
     search_sources: []
+    source: https://www.jljcxy.edu.cn/info/2881/30911.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学院邮编:130117
   coordinates:
     value: null
     source: null

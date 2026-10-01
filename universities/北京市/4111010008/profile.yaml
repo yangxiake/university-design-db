@@ -332,6 +332,76 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/University_of_Science_and_Technology_Beijing/svg/logo_blue.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/University_of_Science_and_Technology_Beijing/svg/logo_blue.svg
+  - asset_id: c3dfe75852261a5acd4e42de
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ustb.edu.cn/images/u_logo1.png?240103
+    source: https://www.ustb.edu.cn/
+    file_name: u_logo1.png
+    upstream_path: null
+    publisher: 北京科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京科技大学
+    format: png
+    width: 580
+    height: 112
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 56a3d6436e462e438debed03032fd600a4e97903623f95650e0f7beaf719390f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/u_logo1.png?240103
+      label: '   '
+      context: 'u_header   u_top   gp-clearFix   u_logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 26616
+    representation: raster
+    resolved_url: https://www.ustb.edu.cn/images/u_logo1.png?240103
+  - asset_id: d9bb8666faf9e946ed07df7f
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ustb.edu.cn/images/u_logo2.png?240103
+    source: https://www.ustb.edu.cn/
+    file_name: u_logo2.png
+    upstream_path: null
+    publisher: 北京科技大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京科技大学
+    format: png
+    width: 245
+    height: 47
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 24d5c1bf8d8fe5da16d643934da3e3d3a2505fda10fbedd81e0f3e6b4c4c874f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/u_logo2.png?240103
+      label: '   '
+      context: 'u_top   gp-clearFix   gp-container  u_logo   '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 9656
+    representation: raster
+    resolved_url: https://www.ustb.edu.cn/images/u_logo2.png?240103
   color_palette:
   - value: '#004A99'
     rgb:
@@ -457,6 +527,40 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: 8a2c3597d4f36393
+  - value: '#004898'
+    rgb:
+    - 0
+    - 72
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ustb.edu.cn/images/u_logo2.png?240103
+    page_source: https://www.ustb.edu.cn/
+    asset_id: d9bb8666faf9e946ed07df7f
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#0048A0'
+    rgb:
+    - 0
+    - 72
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ustb.edu.cn/images/u_logo2.png?240103
+    page_source: https://www.ustb.edu.cn/
+    asset_id: d9bb8666faf9e946ed07df7f
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources:
   - title: 视觉形象识别系统
     url: https://vi.ustb.edu.cn/
@@ -592,12 +696,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.ustb.edu.cn/zsjy/index.htm
+    availability: found
     search_sources: []
+    source: https://www.ustb.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: http://job.ustb.edu.cn/
     availability: found
@@ -613,19 +721,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://en.ustb.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ustb.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.ustb.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ustb.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工

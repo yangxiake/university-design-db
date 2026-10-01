@@ -156,6 +156,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8D%97%E4%BA%AC%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%20NJMU.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8D%97%E4%BA%AC%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%20NJMU.svg
     attempts: []
+  - asset_id: 97db802c385bf15781afe9a5
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.njmu.edu.cn/_upload/site/00/09/9/logo.png
+    source: https://www.njmu.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 南京医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京医科大学
+    format: png
+    width: 280
+    height: 64
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: db866557e1f640cfbdcd9bea77a46361efd334d0251c82961af1426843070850
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/site/00/09/9/logo.png
+      label: '   '
+      context: 'mod mod2 clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 231990
+    representation: raster
+    resolved_url: https://www.njmu.edu.cn/_upload/site/00/09/9/logo.png
   color_palette:
   - value: '#900001'
     rgb:
@@ -227,6 +262,40 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 835ff2da0358c282
+  - value: '#505880'
+    rgb:
+    - 80
+    - 88
+    - 128
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.njmu.edu.cn/_upload/site/00/09/9/logo.png
+    page_source: https://www.njmu.edu.cn/
+    asset_id: 97db802c385bf15781afe9a5
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#587838'
+    rgb:
+    - 88
+    - 120
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.njmu.edu.cn/_upload/site/00/09/9/logo.png
+    page_source: https://www.njmu.edu.cn/
+    asset_id: 97db802c385bf15781afe9a5
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -329,12 +398,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.njmu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.njmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 医药
@@ -388,19 +461,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 南京市江宁区龙眠大道101号
+    availability: found
     search_sources: []
+    source: https://www.njmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:南京市江宁区龙眠大道101号邮编:211166
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '211166'
+    availability: found
     search_sources: []
+    source: https://www.njmu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:南京市江宁区龙眠大道101号邮编:211166
   coordinates:
     value:
       longitude: 118.781

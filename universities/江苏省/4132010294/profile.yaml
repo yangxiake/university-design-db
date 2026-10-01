@@ -192,6 +192,45 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos/%E6%B2%B3%E6%B5%B7%E5%A4%A7%E5%AD%A6%20HHU.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos/%E6%B2%B3%E6%B5%B7%E5%A4%A7%E5%AD%A6%20HHU.svg
     attempts: []
+  - asset_id: 385a9a9c1174cedec126d467
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hhu.edu.cn/_upload/tpl/05/df/1503/template1503/images/logo.svg
+    source: https://www.hhu.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 河海大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河海大学
+    format: svg
+    width: 273.674
+    height: 70.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 2f68a99aa0d7be9686fd645047b0d413c1519daef76ba724c7c39df319cd95e9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/05/df/1503/template1503/images/logo.svg
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 34319
+    representation: vector
+    view_box: 0 0 273.674 70
+    encoding: utf-8-sig
+    intrinsic_width: '273.674'
+    intrinsic_height: '70'
+    resolved_url: https://www.hhu.edu.cn/_upload/tpl/05/df/1503/template1503/images/logo.svg
   color_palette:
   - value: '#007DBD'
     rgb:
@@ -306,12 +345,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hhu.edu.cn/zsjy/list.htm
+    availability: found
     search_sources: []
+    source: https://www.hhu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: http://hhu.91job.org.cn/
     availability: found
@@ -327,19 +370,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://en.hhu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.hhu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.hhu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.hhu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -401,12 +452,18 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 江苏省南京市西康路1号；江苏省南京市佛城西路8号；江苏省常州市金坛区河海大道1915号
+    availability: found
     search_sources: []
+    source: https://www.hhu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:江苏省南京市西康路1号
+    - 地址:江苏省南京市佛城西路8号
+    - 地址:江苏省常州市金坛区河海大道1915号
   postal_code:
     value: null
     source: null

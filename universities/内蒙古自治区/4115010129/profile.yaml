@@ -155,6 +155,76 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: c11506c5fe21951aff2c7e85
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.imau.edu.cn/images2024/logo-.png
+    source: https://www.imau.edu.cn/
+    file_name: logo-.png
+    upstream_path: null
+    publisher: 内蒙古农业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 内蒙古农业大学
+    format: png
+    width: 558
+    height: 160
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: d085c94e6368d81732035ed6e70a5bb345afa3b9ec0e0a2445625415bd3f1e29
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images2024/logo-.png
+      label: '  logo-img '
+      context: 'header animated fadeInDown  wp1  nav  logo '
+      position: 4
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 68534
+    representation: raster
+    resolved_url: https://www.imau.edu.cn/images2024/logo-.png
+  - asset_id: d6579396ba03107e1e952941
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.imau.edu.cn/images2024/mw.png
+    source: https://www.imau.edu.cn/
+    file_name: mw.png
+    upstream_path: null
+    publisher: 内蒙古农业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 内蒙古农业大学
+    format: png
+    width: 46
+    height: 32
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 291544789b0946b76f7f644a69ee52bb66e07fcb330a1dc4c23ba99b6c83c4dc
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images2024/mw.png
+      label: '   '
+      context: '  nav_logo  nav_link   '
+      position: 8
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 2827
+    representation: raster
+    resolved_url: https://www.imau.edu.cn/images2024/mw.png
   color_palette:
   - value: '#EF9900'
     rgb:
@@ -172,6 +242,40 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#B0D0B0'
+    rgb:
+    - 176
+    - 208
+    - 176
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.imau.edu.cn/images2024/logo-.png
+    page_source: https://www.imau.edu.cn/
+    asset_id: c11506c5fe21951aff2c7e85
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#A8C8A8'
+    rgb:
+    - 168
+    - 200
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.imau.edu.cn/images2024/logo-.png
+    page_source: https://www.imau.edu.cn/
+    asset_id: c11506c5fe21951aff2c7e85
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -233,12 +337,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zjc.imau.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.imau.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: https://job.imau.edu.cn/
     availability: found
@@ -418,12 +526,16 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: imaunews@126.com
+    availability: found
     search_sources: []
+    source: https://www.imau.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 新闻中心投稿邮箱:imaunews@126.com
 rankings:
   entries:
   - publisher: ShanghaiRanking

@@ -95,8 +95,103 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 5f1adca5b0018163f8f65774
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.jnmc.edu.cn/_upload/tpl/01/8f/399/template399/images/sitelogo.svg
+    source: https://www.jnmc.edu.cn/
+    file_name: sitelogo.svg
+    upstream_path: null
+    publisher: 济宁医学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 济宁医学院
+    format: svg
+    width: 320.822
+    height: 85.627
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 5b98fefcb660688fc7b94630808e7c20676bb41dc0fffeb2cf1cfb423a4c8da7
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/01/8f/399/template399/images/sitelogo.svg
+      label: '  white '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 111409
+    representation: vector
+    view_box: 0 0 320.822 85.627
+    encoding: utf-8-sig
+    intrinsic_width: '320.822'
+    intrinsic_height: '85.627'
+    resolved_url: https://www.jnmc.edu.cn/_upload/tpl/01/8f/399/template399/images/sitelogo.svg
+  - asset_id: 70e94894a376e3eb42faf01e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.jnmc.edu.cn/_upload/tpl/01/8f/399/template399/images/sitelogo-red.svg
+    source: https://www.jnmc.edu.cn/
+    file_name: sitelogo-red.svg
+    upstream_path: null
+    publisher: 济宁医学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 济宁医学院
+    format: svg
+    width: 320.822
+    height: 85.627
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 2cc21eb949d1adaaca8edcd8b2dc566ed49c5911b7e05825c7195e984f1531f9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/01/8f/399/template399/images/sitelogo-red.svg
+      label: '  red '
+      context: 'mod clearfix  head-left  sitelogo   '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 112342
+    representation: vector
+    view_box: 0 0 320.822 85.627
+    encoding: utf-8-sig
+    intrinsic_width: '320.822'
+    intrinsic_height: '85.627'
+    resolved_url: https://www.jnmc.edu.cn/_upload/tpl/01/8f/399/template399/images/sitelogo-red.svg
+  color_palette:
+  - value: '#A01416'
+    rgb:
+    - 160
+    - 20
+    - 22
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.jnmc.edu.cn/_upload/tpl/01/8f/399/template399/images/sitelogo-red.svg
+    page_source: https://www.jnmc.edu.cn/
+    asset_id: 70e94894a376e3eb42faf01e
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -180,12 +275,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://gk.jnmc.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.jnmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -224,12 +323,18 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 济宁市太白湖新区荷花路133号；济宁市任城区建设南路45号；日照市东港区学苑路669号
+    availability: found
     search_sources: []
+    source: https://www.jnmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - ｜太白湖校区 ｜ 地址:济宁市太白湖新区荷花路133号邮编:272067
+    - ｜任城校区 ｜ 地址:济宁市任城区建设南路45号邮编:272002
+    - '｜日照校区 ｜ 地址:日照市东港区学苑路669号邮编: 276826'
   postal_code:
     value: null
     source: null
@@ -316,19 +421,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0537-3616767'
+    availability: found
     search_sources: []
+    source: https://www.jnmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学院办公室:0537-3616019本专科招生:0537-3616888 研究生招生:0537-3616166信访电话:0537-3616767信访邮箱:jnyxyxf@163.com
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: jnyxyxf@163.com
+    availability: found
     search_sources: []
+    source: https://www.jnmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学院办公室:0537-3616019本专科招生:0537-3616888 研究生招生:0537-3616166信访电话:0537-3616767信访邮箱:jnyxyxf@163.com
 rankings:
   entries: []
 admissions:

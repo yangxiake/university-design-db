@@ -149,7 +149,76 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
-  color_palette: []
+  - asset_id: 6387fc32ec5d4bb9db6e99e2
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.htxy.edu.cn/images/logo.png
+    source: https://www.htxy.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 河套学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河套学院
+    format: png
+    width: 315
+    height: 116
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f8b994011ae3c3e0a0365f5d2b57cfc3071bc7894d840ec426af6de4d5d84452
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'htxy  head  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 24450
+    representation: raster
+    resolved_url: https://www.htxy.edu.cn/images/logo.png
+  color_palette:
+  - value: '#009840'
+    rgb:
+    - 0
+    - 152
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.htxy.edu.cn/images/logo.png
+    page_source: https://www.htxy.edu.cn
+    asset_id: 6387fc32ec5d4bb9db6e99e2
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#009038'
+    rgb:
+    - 0
+    - 144
+    - 56
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.htxy.edu.cn/images/logo.png
+    page_source: https://www.htxy.edu.cn
+    asset_id: 6387fc32ec5d4bb9db6e99e2
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -213,12 +282,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.htxy.edu.cn/zsxxw/
+    availability: found
     search_sources: []
+    source: https://www.htxy.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生网站
   career_url:
     value: null
     source: null
@@ -234,12 +307,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.htxy.edu.cn/xxgk1.htm
+    availability: found
     search_sources: []
+    source: https://www.htxy.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -292,12 +369,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 内蒙古巴彦淖尔市临河区云中大街河套学院
+    availability: found
     search_sources: []
+    source: https://www.htxy.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有 蒙ICP备13003451 地址:内蒙古巴彦淖尔市临河区云中大街河套学院 邮编:015000
   postal_code:
     value: null
     source: null

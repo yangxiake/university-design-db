@@ -94,8 +94,112 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: c9fcfd298d6a27e833fb72ca
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xtit.edu.cn/uploads/images/20230324/0ec9b65ba8c14651d9c8f52d6dfeecf4.png
+    source: https://www.xtit.edu.cn/
+    file_name: 0ec9b65ba8c14651d9c8f52d6dfeecf4.png
+    upstream_path: null
+    publisher: 湘潭理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湘潭理工学院
+    format: png
+    width: 397
+    height: 89
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: fdd8ce39159a284c6ba8f8e103746aac43d41f725ff792b2b41c1175e2b69ec3
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /uploads/images/20230324/0ec9b65ba8c14651d9c8f52d6dfeecf4.png
+      label: '   '
+      context: 'index    content jlth  logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 17319
+    representation: raster
+    resolved_url: https://www.xtit.edu.cn/uploads/images/20230324/0ec9b65ba8c14651d9c8f52d6dfeecf4.png
+  - asset_id: bd953d0975789cea65498220
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xtit.edu.cn/uploads/images/20230324/29f3fe90fe3760957df50cfe8debb127.png
+    source: https://www.xtit.edu.cn/
+    file_name: 29f3fe90fe3760957df50cfe8debb127.png
+    upstream_path: null
+    publisher: 湘潭理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湘潭理工学院
+    format: png
+    width: 400
+    height: 89
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: e91c3ecf3484eee9653cc0a686d1d5c845172b9fc1a861c96b4e55baf5e39abf
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /uploads/images/20230324/29f3fe90fe3760957df50cfe8debb127.png
+      label: '   '
+      context: 'index    content jlth  logo '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 32462
+    representation: raster
+    resolved_url: https://www.xtit.edu.cn/uploads/images/20230324/29f3fe90fe3760957df50cfe8debb127.png
+  color_palette:
+  - value: '#B03828'
+    rgb:
+    - 176
+    - 56
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xtit.edu.cn/uploads/images/20230324/29f3fe90fe3760957df50cfe8debb127.png
+    page_source: https://www.xtit.edu.cn/
+    asset_id: bd953d0975789cea65498220
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#B03020'
+    rgb:
+    - 176
+    - 48
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.xtit.edu.cn/uploads/images/20230324/29f3fe90fe3760957df50cfe8debb127.png
+    page_source: https://www.xtit.edu.cn/
+    asset_id: bd953d0975789cea65498220
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -158,12 +262,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.xtit.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.xtit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -179,12 +287,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.xtit.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xtit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -194,12 +306,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -223,19 +338,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 湘潭市九华示范区船形山路3号
+    availability: found
     search_sources: []
+    source: https://www.xtit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©湘潭理工学院地址:湘潭市九华示范区船形山路3号邮编:411100Email:xtlgxy2020@163.com湘ICP备2020023809号-2
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '411100'
+    availability: found
     search_sources: []
+    source: https://www.xtit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©湘潭理工学院地址:湘潭市九华示范区船形山路3号邮编:411100Email:xtlgxy2020@163.com湘ICP备2020023809号-2
   coordinates:
     value: null
     source: null
@@ -315,19 +438,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '咨询电话: 0731-52780977'
+    availability: found
     search_sources: []
+    source: https://www.xtit.edu.cn/lists/83.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 咨询电话:0731-52780977(龚老师)
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: xtlgxy2020@163.com
+    availability: found
     search_sources: []
+    source: https://www.xtit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©湘潭理工学院地址:湘潭市九华示范区船形山路3号邮编:411100Email:xtlgxy2020@163.com湘ICP备2020023809号-2
 rankings:
   entries: []
 admissions:

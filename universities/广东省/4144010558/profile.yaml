@@ -262,6 +262,76 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SYSU_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SYSU_wordmark.svg
     attempts: []
+  - asset_id: ae7e187bf49f24a13dca53fa
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sysu.edu.cn/images/zhuzhanLOGO.png
+    source: https://www.sysu.edu.cn/
+    file_name: zhuzhanLOGO.png
+    upstream_path: null
+    publisher: 中山大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中山大学
+    format: png
+    width: 500
+    height: 144
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 1b735c881675c9710c61d598c4b0ecc73aa5c7dee89b8792a88ad560f1d057ea
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/zhuzhanLOGO.png
+      label: '   '
+      context: 'd2  wp flex-fix  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 26468
+    representation: raster
+    resolved_url: https://www.sysu.edu.cn/images/zhuzhanLOGO.png
+  - asset_id: 38d42d92d0e76d856aa9f741
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sysu.edu.cn/images/logo1.png
+    source: https://www.sysu.edu.cn/
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 中山大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中山大学
+    format: png
+    width: 240
+    height: 69
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6725f365b51eb3427b79365af1abf3d375c442b74ec75dc6b733b79d7d47bb12
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo1.png
+      label: '   '
+      context: 'body_home  nav_mobile  logo   '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 10775
+    representation: raster
+    resolved_url: https://www.sysu.edu.cn/images/logo1.png
   color_palette:
   - value: '#005826'
     rgb:
@@ -315,6 +385,40 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: 016e8134028ee6a1
+  - value: '#005820'
+    rgb:
+    - 0
+    - 88
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sysu.edu.cn/images/logo1.png
+    page_source: https://www.sysu.edu.cn/
+    asset_id: 38d42d92d0e76d856aa9f741
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#005020'
+    rgb:
+    - 0
+    - 80
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.sysu.edu.cn/images/logo1.png
+    page_source: https://www.sysu.edu.cn/
+    asset_id: 38d42d92d0e76d856aa9f741
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -406,12 +510,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://admission.sysu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生网
   career_url:
     value: http://career.sysu.edu.cn/
     availability: found
@@ -427,19 +535,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.sysu.edu.cn/sysuen
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.sysu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -502,19 +618,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 广州市新港西路135号
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:广州市新港西路135号邮编:510275
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '510275'
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:广州市新港西路135号邮编:510275
   coordinates:
     value:
       longitude: 113.297
@@ -913,12 +1037,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 020-84112828'
+    availability: found
     search_sources: []
+    source: https://www.sysu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - '电话: 020-84112828'
   email:
     value: null
     source: null

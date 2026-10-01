@@ -103,7 +103,77 @@ visual:
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: e041ed826ab3736b21e4ea82
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.dlufl.edu.cn/static/picture/logo.png
+    source: https://www.dlufl.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 大连外国语大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 大连外国语大学
+    format: png
+    width: 240
+    height: 100
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3f52e4c55167a3f8d72697232b28eb77f7c8bce7cb909fa44a2cf15f2f9a8b4f
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: static/picture/logo.png
+      label: '   '
+      context: 'header-n fix  wp1400 fix  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 12511
+    representation: raster
+    resolved_url: https://www.dlufl.edu.cn/static/picture/logo.png
+  - asset_id: 622fe1933df3ddcf35722710
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.dlufl.edu.cn/static/picture/logo-n.png
+    source: https://www.dlufl.edu.cn
+    file_name: logo-n.png
+    upstream_path: null
+    publisher: 大连外国语大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 大连外国语大学
+    format: png
+    width: 519
+    height: 120
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 62395a62757f341f9f029c8a674686803cadee1214c9788396ea6ccbecaf17ba
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: static/picture/logo-n.png
+      label: '   '
+      context: 'box-main-inner  header-n fix  wp1400 fix  logo '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 27911
+    representation: raster
+    resolved_url: https://www.dlufl.edu.cn/static/picture/logo-n.png
   color_palette:
   - value: '#DAC8A2'
     rgb:
@@ -121,6 +191,74 @@ visual:
     availability: found
     basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
     source_field: visual.color_primary
+  - value: '#D8C8A0'
+    rgb:
+    - 216
+    - 200
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.dlufl.edu.cn/static/picture/logo.png
+    page_source: https://www.dlufl.edu.cn
+    asset_id: e041ed826ab3736b21e4ea82
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#D8C0A0'
+    rgb:
+    - 216
+    - 192
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.dlufl.edu.cn/static/picture/logo.png
+    page_source: https://www.dlufl.edu.cn
+    asset_id: e041ed826ab3736b21e4ea82
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#D8C8A0'
+    rgb:
+    - 216
+    - 200
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.dlufl.edu.cn/static/picture/logo-n.png
+    page_source: https://www.dlufl.edu.cn
+    asset_id: 622fe1933df3ddcf35722710
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#D8C0A0'
+    rgb:
+    - 216
+    - 192
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.dlufl.edu.cn/static/picture/logo-n.png
+    page_source: https://www.dlufl.edu.cn
+    asset_id: 622fe1933df3ddcf35722710
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -182,12 +320,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.dlufl.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.dlufl.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -196,19 +338,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.dlufl.edu.cn/en/
+    availability: found
     search_sources: []
+    source: https://www.dlufl.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - ENGLISH
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.dlufl.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.dlufl.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开网
 institution:
   school_type:
     value: null
@@ -247,19 +397,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 大连市旅顺南路西段6号
+    availability: found
     search_sources: []
+    source: https://www.dlufl.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:大连市旅顺南路西段6号 邮编:116044
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '116044'
+    availability: found
     search_sources: []
+    source: https://www.dlufl.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:大连市旅顺南路西段6号 邮编:116044
   coordinates:
     value: null
     source: null
@@ -346,12 +504,16 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: xzxx@dlufl.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.dlufl.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 反馈意见邮箱:xzxx@dlufl.edu.cn
 rankings:
   entries: []
 admissions:

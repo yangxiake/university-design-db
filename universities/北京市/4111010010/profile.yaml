@@ -254,6 +254,84 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/BUCT_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/BUCT_wordmark.svg
     attempts: []
+  - asset_id: f7f85d311aa378b5164246f1
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.buct.edu.cn/_upload/tpl/01/f4/500/template500/images/logo1.svg
+    source: https://www.buct.edu.cn/main.htm
+    file_name: logo1.svg
+    upstream_path: null
+    publisher: 北京化工大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京化工大学
+    format: svg
+    width: 365.0
+    height: 363.0
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: ed93ffff8df02909a84c06a051ca85cd3b089215a9efa63bd9efe678c1f3362c
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/01/f4/500/template500/images/logo1.svg
+      label: '   '
+      context: 'wrap-nav  container clearFix  logo1   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 130969
+    representation: vector
+    view_box: 113.14 219.445 365 363
+    encoding: utf-8-sig
+    intrinsic_width: 365px
+    intrinsic_height: 363px
+    resolved_url: https://www.buct.edu.cn/_upload/tpl/01/f4/500/template500/images/logo1.svg
+  - asset_id: 54b0ba7b1dcd65e9df07c06e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.buct.edu.cn/_upload/tpl/01/f4/500/template500/images/logo.svg
+    source: https://www.buct.edu.cn/main.htm
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 北京化工大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京化工大学
+    format: svg
+    width: null
+    height: null
+    vector: false
+    has_alpha: null
+    transparent_background: null
+    sha256: d346b15c547b62aa4b64d714c6f5dd1ad25677f4ea9a0b4e75b61ac4ca23f450
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/01/f4/500/template500/images/logo.svg
+      label: '   '
+      context: 'aos-all  header  logo   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 62877
+    representation: svg_with_raster
+    view_box: 0 0 513.5 153.09
+    encoding: utf-8-sig
+    intrinsic_width: null
+    intrinsic_height: null
+    resolved_url: https://www.buct.edu.cn/_upload/tpl/01/f4/500/template500/images/logo.svg
   color_palette:
   - value: '#263E6A'
     rgb:
@@ -380,12 +458,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.buct.edu.cn/zsjy_11437/list.htm
+    availability: found
     search_sources: []
+    source: https://www.buct.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: http://www.job.buct.edu.cn/
     availability: found
@@ -408,12 +490,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.buct.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.buct.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -475,19 +561,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 北京市朝阳区北三环东路15号
+    availability: found
     search_sources: []
+    source: https://www.buct.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京市朝阳区北三环东路15号|邮编:100029 |Email:news@mail.buct.edu.cn
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '100029'
+    availability: found
     search_sources: []
+    source: https://www.buct.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京市朝阳区北三环东路15号|邮编:100029 |Email:news@mail.buct.edu.cn
   coordinates:
     value:
       longitude: 116.349
@@ -649,12 +743,16 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: news@mail.buct.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.buct.edu.cn/main.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京市朝阳区北三环东路15号|邮编:100029 |Email:news@mail.buct.edu.cn
 rankings:
   entries:
   - publisher: ShanghaiRanking

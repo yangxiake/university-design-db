@@ -261,6 +261,76 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/PKU_wordmark.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/PKU_wordmark.svg
     attempts: []
+  - asset_id: d93b42cac333dba5d0997bbf
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.pku.edu.cn/Uploads/Picture/2019/12/26/s5e04147ee4a83.png
+    source: https://www.pku.edu.cn
+    file_name: s5e04147ee4a83.png
+    upstream_path: null
+    publisher: 北京大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京大学
+    format: png
+    width: 852
+    height: 240
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 797b434052f37a3f937e04f5e3979db3374b55b8980578017248f6f96558f9d9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /Uploads/Picture/2019/12/26/s5e04147ee4a83.png
+      label: '   '
+      context: 'd2  block  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 29002
+    representation: raster
+    resolved_url: https://www.pku.edu.cn/Uploads/Picture/2019/12/26/s5e04147ee4a83.png
+  - asset_id: 0591c1610ea86191aa2ce3f9
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.pku.edu.cn/Uploads/Picture/2019/12/08/s5decd8b95f388.png
+    source: https://www.pku.edu.cn
+    file_name: s5decd8b95f388.png
+    upstream_path: null
+    publisher: 北京大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京大学
+    format: png
+    width: 201
+    height: 58
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 10b8f354fefa465f1091c7953341d23084a102fe0b11d49907f3bc61150a9113
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /Uploads/Picture/2019/12/08/s5decd8b95f388.png
+      label: '   '
+      context: 'body_home  nav_mobile  logo   '
+      position: 9
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 6600
+    representation: raster
+    resolved_url: https://www.pku.edu.cn/Uploads/Picture/2019/12/08/s5decd8b95f388.png
   color_palette:
   - value: '#800000'
     rgb:
@@ -315,6 +385,40 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: 33cd99fe5666cb7e
+  - value: '#980000'
+    rgb:
+    - 152
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.pku.edu.cn/Uploads/Picture/2019/12/08/s5decd8b95f388.png
+    page_source: https://www.pku.edu.cn
+    asset_id: 0591c1610ea86191aa2ce3f9
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#A00000'
+    rgb:
+    - 160
+    - 0
+    - 0
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.pku.edu.cn/Uploads/Picture/2019/12/08/s5decd8b95f388.png
+    page_source: https://www.pku.edu.cn
+    asset_id: 0591c1610ea86191aa2ce3f9
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources:
   - title: 下载专区
     url: https://vim.pku.edu.cn/xzzq/index.htm
@@ -483,12 +587,16 @@ resources:
     source_as_of: '2026'
     note: 社区数据原值；没有认定为校方现行声明。
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.pku.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.pku.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -567,19 +675,29 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 北京市海淀区颐和园路5号
+    availability: found
     search_sources: []
+    source: https://www.pku.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©北京大学 |地址:北京市海淀区颐和园路5号 |邮编:100871 |反馈意见:its@pku.edu.cn |京ICP备05065075号-1 |京公网安备 110402430047
+      号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '100871'
+    availability: found
     search_sources: []
+    source: https://www.pku.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©北京大学 |地址:北京市海淀区颐和园路5号 |邮编:100871 |反馈意见:its@pku.edu.cn |京ICP备05065075号-1 |京公网安备 110402430047
+      号
   coordinates:
     value:
       longitude: 116.31

@@ -149,6 +149,41 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: b2ac22633b40d20af534eff5
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.cwxu.edu.cn/images/logo-new-2.png
+    source: https://www.cwxu.edu.cn/
+    file_name: logo-new-2.png
+    upstream_path: null
+    publisher: 无锡学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 无锡学院
+    format: png
+    width: 557
+    height: 175
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f0d22c59205310a603d9789498bba20fa89baf73119ac2ac6b6647f687eb28a2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo-new-2.png
+      label: '  logo1 '
+      context: 'head pc hide  head-top w1560  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 23784
+    representation: raster
+    resolved_url: https://www.cwxu.edu.cn/images/logo-new-2.png
   color_palette: []
   vi_resources: []
 culture:
@@ -211,12 +246,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.cwxu.edu.cn/zsjy.htm
+    availability: found
     search_sources: []
+    source: https://www.cwxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -232,12 +271,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.cwxu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.cwxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 综合
@@ -290,19 +333,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 无锡市锡山大道333号
+    availability: found
     search_sources: []
+    source: https://www.cwxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:214105通讯地址:无锡市锡山大道333号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '214105'
+    availability: found
     search_sources: []
+    source: https://www.cwxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:214105通讯地址:无锡市锡山大道333号
   coordinates:
     value: null
     source: null
@@ -389,12 +440,16 @@ contacts:
     availability: unresearched
     search_sources: []
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: xzbgs@cwxu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.cwxu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 招生办电话:0510-88532333 党委校长办公室电话:0510-88531333传真:0510-80560012邮箱:xzbgs@cwxu.edu.cn
 rankings:
   entries:
   - publisher: ShanghaiRanking

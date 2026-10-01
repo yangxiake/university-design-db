@@ -183,6 +183,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Hubei_University_of_Automotive_Technology/png/logo_blue_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Hubei_University_of_Automotive_Technology/png/logo_blue_800x800.png
     attempts: []
+  - asset_id: 39bc2303260b5eeb7148c75a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.huat.edu.cn/img/logo.png
+    source: https://www.huat.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 湖北汽车工业学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖北汽车工业学院
+    format: png
+    width: 380
+    height: 66
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: 6f3df3514b060313c735afc7ea014791df214c2a60483ed08682f6ea7c4476b1
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: img/logo.png
+      label: '   '
+      context: '  tops  logo  logo_a '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 10315
+    representation: raster
+    resolved_url: https://www.huat.edu.cn/img/logo.png
   color_palette:
   - value: '#00457F'
     rgb:
@@ -254,6 +289,40 @@ visual:
     repository: RoboMaster/university_logos
     commit: 3d645fc89869707bd7df8dba0f7e4bbcc4a60e14
     asset_id: 60dd1388a694457a
+  - value: '#004078'
+    rgb:
+    - 0
+    - 64
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.huat.edu.cn/img/logo.png
+    page_source: https://www.huat.edu.cn/
+    asset_id: 39bc2303260b5eeb7148c75a
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#003878'
+    rgb:
+    - 0
+    - 56
+    - 120
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.huat.edu.cn/img/logo.png
+    page_source: https://www.huat.edu.cn/
+    asset_id: 39bc2303260b5eeb7148c75a
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -321,12 +390,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.huat.edu.cn/zsjy/zsdh.htm
+    availability: found
     search_sources: []
+    source: https://www.huat.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -335,19 +408,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://en.huat.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.huat.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.huat.edu.cn/xxgklm.htm
+    availability: found
     search_sources: []
+    source: https://www.huat.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -400,19 +481,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 湖北省十堰市车城西路167号
+    availability: found
     search_sources: []
+    source: https://www.huat.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:湖北省十堰市车城西路167号 邮编:442002 接待/接访电话:0719-8238177 (08:00-11:30，14:30-17:30)
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '442002'
+    availability: found
     search_sources: []
+    source: https://www.huat.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:湖北省十堰市车城西路167号 邮编:442002 接待/接访电话:0719-8238177 (08:00-11:30，14:30-17:30)
   coordinates:
     value: null
     source: null
@@ -492,12 +581,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0719-8238177'
+    availability: found
     search_sources: []
+    source: https://www.huat.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:湖北省十堰市车城西路167号 邮编:442002 接待/接访电话:0719-8238177 (08:00-11:30，14:30-17:30)
   email:
     value: null
     source: null

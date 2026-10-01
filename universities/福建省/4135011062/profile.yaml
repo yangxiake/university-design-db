@@ -189,6 +189,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_of_Technology/png/logo_red_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_of_Technology/png/logo_red_800x800.png
     attempts: []
+  - asset_id: cf57e529c0bbe919bda60b4e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.xmut.edu.cn/images/logo.png
+    source: https://www.xmut.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 厦门理工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 厦门理工学院
+    format: png
+    width: 319
+    height: 70
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 3319a718f016638a8e7ede536d822f221ce0264d81d028617f1b904351dc0cdf
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: ./images/logo.png
+      label: '主站_2024 主站_2024  '
+      context: '  head_main  header w1400  logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 12126
+    representation: raster
+    resolved_url: https://www.xmut.edu.cn/images/logo.png
   color_palette:
   - value: '#B50D2C'
     rgb:
@@ -321,33 +356,49 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zsb.xmut.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xmut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://job.xmut.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xmut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业服务
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.xmut.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xmut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xxgk.xmut.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.xmut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -400,19 +451,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 厦门市集美区理工路600号
+    availability: found
     search_sources: []
+    source: https://www.xmut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:厦门市集美区理工路600号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '361024'
+    availability: found
     search_sources: []
+    source: https://www.xmut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:361024
   coordinates:
     value: null
     source: null

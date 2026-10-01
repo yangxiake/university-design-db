@@ -6,18 +6,20 @@
 
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | [文件](https://www.xjhtc.edu.cn/images/logonew.png) · [来源](https://www.xjhtc.edu.cn/) | png | 280 × 83 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.xjhtc.edu.cn/images/logo2.png) · [来源](https://www.xjhtc.edu.cn/) | 未知 | 未声明 | inspection_failed | 未独立声明 |
 
-尚无逐文件校徽记录；可继续查官方VI入口或社区资源。
-
-仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。SVG的viewBox是内部坐标，不等于像素尺寸。
+仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
 ## 调色板
 
-| HEX | RGB | 用途 | 取值方法 | 来源 |
-| --- | --- | --- | --- | --- |
-| `#F0ABB5` | 240,171,181 | primary | 官网标识取色/推导建议 | [依据](https://www.xjhtc.edu.cn/images/logonew.png) |
+| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | `#F0ABB5` | 240,171,181 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.xjhtc.edu.cn/images/logonew.png) |
+|  | `#D00020` | 208,0,32 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.xjhtc.edu.cn/images/logonew.png) |
+|  | `#D00018` | 208,0,24 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.xjhtc.edu.cn/images/logonew.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

@@ -134,6 +134,45 @@ visual:
     resolved_url: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SZTU.svg
     inspection_source: https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/SZTU.svg
     attempts: []
+  - asset_id: 152a32e1fcd2d5d75d982a52
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.sztu.edu.cn/images/logo.svg
+    source: https://www.sztu.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 深圳技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 深圳技术大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 25f41c1b0c9552556c2112ce4407e25a895b29a3022e48ff1ee3638303490a47
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.svg
+      label: '  img2 '
+      context: 'nav-r  nav-l  log   '
+      position: 6
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 21982
+    representation: vector
+    view_box: 0 0 373.51 260.07
+    encoding: utf-8-sig
+    intrinsic_width: null
+    intrinsic_height: null
+    resolved_url: https://www.sztu.edu.cn/images/logo.svg
   color_palette:
   - value: '#023692'
     rgb:
@@ -169,6 +208,40 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: f2e0086916b8d7a6
+  - value: '#003592'
+    rgb:
+    - 0
+    - 53
+    - 146
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.sztu.edu.cn/images/logo.svg
+    page_source: https://www.sztu.edu.cn/
+    asset_id: 152a32e1fcd2d5d75d982a52
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#083683'
+    rgb:
+    - 8
+    - 54
+    - 131
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。
+    source: https://www.sztu.edu.cn/images/logo.svg
+    page_source: https://www.sztu.edu.cn/
+    asset_id: 152a32e1fcd2d5d75d982a52
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -230,12 +303,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zs.sztu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sztu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 本科招生
   career_url:
     value: null
     source: null
@@ -244,19 +321,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.sztu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.sztu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - EN
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.sztu.edu.cn/ksrk/xxgk/jbxx.htm
+    availability: found
     search_sources: []
+    source: https://www.sztu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null

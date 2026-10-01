@@ -66,11 +66,14 @@ research:
   audit_key: '4150013589'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#079690'
+    source: https://xywh.ccibe.edu.cn/info/1462/1782.htm
+    method: official_vi
+    label: 2025版校园文化建设标准色
+    basis: 校园文化委员会2025年10月15日通知更新学校宣传、标识与校园网络等场景标准色；RGB与HEX一致。
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   color_secondary:
     value: null
@@ -80,12 +83,12 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://xywh.ccibe.edu.cn/info/1462/1782.htm
+    availability: found
     search_sources: []
+    source: https://xywh.ccibe.edu.cn/info/1462/1782.htm
+    verified: auto
+    checked_at: '2026-10-01'
   badge_description:
     value: null
     source: null
@@ -94,9 +97,184 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
-  vi_resources: []
+  logo_assets:
+  - asset_id: fa28617f378b1b75765148ec
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ccibe.edu.cn/style231107/img/logo_b.png
+    source: https://www.ccibe.edu.cn/
+    file_name: logo_b.png
+    upstream_path: null
+    publisher: 重庆对外经贸学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 重庆对外经贸学院
+    format: png
+    width: 301
+    height: 50
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 6aa32605c984ebec2fb92788dd2097c548ede7ddb51226aec3dffdcfcf70724d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: style231107/img/logo_b.png
+      label: '  image_38 logo '
+      context: 'box_1 flex-col  nav2 group_1_1 flex-col  block_2  block_2_1 flex-row '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 15431
+    representation: raster
+    resolved_url: https://www.ccibe.edu.cn/style231107/img/logo_b.png
+  - asset_id: e818132317810259b11f9101
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ccibe.edu.cn/style231107/img/logo.png
+    source: https://www.ccibe.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 重庆对外经贸学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 重庆对外经贸学院
+    format: png
+    width: 301
+    height: 50
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 80b3e6f2fb834d0bfc3cd6308a369ebfdb29cd991271fc2de75b270fc645f293
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: style231107/img/logo.png
+      label: '  image_38 logo '
+      context: 'group_1  nav1 group_1_1 flex-col  block_2  block_2_1 flex-row '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 13869
+    representation: raster
+    resolved_url: https://www.ccibe.edu.cn/style231107/img/logo.png
+  color_palette:
+  - value: '#080040'
+    rgb:
+    - 8
+    - 0
+    - 64
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ccibe.edu.cn/style231107/img/logo_b.png
+    page_source: https://www.ccibe.edu.cn/
+    asset_id: fa28617f378b1b75765148ec
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#080048'
+    rgb:
+    - 8
+    - 0
+    - 72
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ccibe.edu.cn/style231107/img/logo_b.png
+    page_source: https://www.ccibe.edu.cn/
+    asset_id: fa28617f378b1b75765148ec
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#807898'
+    rgb:
+    - 128
+    - 120
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ccibe.edu.cn/style231107/img/logo.png
+    page_source: https://www.ccibe.edu.cn/
+    asset_id: e818132317810259b11f9101
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#787090'
+    rgb:
+    - 120
+    - 112
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ccibe.edu.cn/style231107/img/logo.png
+    page_source: https://www.ccibe.edu.cn/
+    asset_id: e818132317810259b11f9101
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#079690'
+    rgb:
+    - 7
+    - 150
+    - 144
+    cmyk:
+    - 80
+    - 26
+    - 49
+    - 0
+    pantone: null
+    label: 2025版校园文化建设标准色
+    role: primary
+    method: official_vi
+    official: true
+    source: https://xywh.ccibe.edu.cn/info/1462/1782.htm
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 校园文化委员会2025年10月15日通知更新学校宣传、标识与校园网络等场景标准色；RGB与HEX一致。
+    source_field: visual.color_primary
+  vi_resources:
+  - title: 重庆对外经贸学院官方视觉规范
+    url: https://xywh.ccibe.edu.cn/info/1462/1782.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://xywh.ccibe.edu.cn/info/1462/1782.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 校园文化委员会2025年10月15日通知更新学校宣传、标识与校园网络等场景标准色；RGB与HEX一致。
 culture:
   founded_year:
     value: 2002
@@ -158,19 +336,27 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zs.ccibe.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ccibe.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生网
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://jy.ccibe.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ccibe.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业网
   english_website:
     value: null
     source: null
@@ -179,12 +365,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.ccibe.edu.cn/xwzx/xxgk/jxgl.htm
+    availability: found
     search_sources: []
+    source: https://www.ccibe.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -194,12 +384,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -223,12 +416,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 重庆市合川区学府路88号
+    availability: found
     search_sources: []
+    source: https://www.ccibe.edu.cn/xqzl/lxfs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系地址:重庆市合川区学府路88号
   postal_code:
     value: null
     source: null
@@ -315,12 +512,18 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 023-64289208；电话: 023-81603898；招生咨询电话: 023-42888768'
+    availability: found
     search_sources: []
+    source: https://www.ccibe.edu.cn/xqzl/lxfs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 合校区党政办电话:023-64289208 铜梁校区党政办电话:023-81603898
+    - 招生咨询电话:023-42888768、023-42888798
+    - 电话:023-64289208
   email:
     value: null
     source: null

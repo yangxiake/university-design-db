@@ -103,19 +103,31 @@ research:
   audit_key: '4123010213'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#005375'
+    source: https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf
+    method: official_vi
+    label: 哈工大蓝
+    basis: 校方域名VI手册PDF第14页，A-4-01标准色；AI逐项查看完整色卡，正常使用以哈工大蓝为主。
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
     search_sources: []
   color_secondary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: conflict
     search_sources: []
+    label: 庆典红（特殊用途）
+    note: 同一色卡的庆典红RGB R167 G33 B38与印出的HEX/WEB 005375不一致；手册说明红色仅在特殊情况下使用。保留两值，不自动纠正手册。
+    candidates:
+    - value: '#A72126'
+      basis: PDF第14页庆典红RGB R167 G33 B38换写HEX。
+      source: https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf
+    - value: '#005375'
+      basis: PDF第14页庆典红色卡直接印出的HEX/WEB；与同页哈工大蓝相同。
+      source: https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf
   vi_url:
     value: http://www.hit.edu.cn/11544/list.htm
     source: http://www.hit.edu.cn/11544/list.htm
@@ -327,6 +339,41 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_Institute_of_Technology/svg/logo_black.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Harbin_Institute_of_Technology/svg/logo_black.svg
+  - asset_id: 6b7e217b91ab54926449455a
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: http://www.hit.edu.cn/_upload/site/00/ee/238/logo.png
+    source: http://www.hit.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 哈尔滨工业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 哈尔滨工业大学
+    format: png
+    width: 2914
+    height: 678
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 4c770a1cde5e40588682c590a3d79ee1a32f1ebbd5efefc315243cfb028bcd13
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/site/00/ee/238/logo.png
+      label: '哈尔滨工业大学   '
+      context: 'header  wp  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 109992
+    representation: raster
+    resolved_url: http://www.hit.edu.cn/_upload/site/00/ee/238/logo.png
   color_palette:
   - value: '#085475'
     rgb:
@@ -364,7 +411,45 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: 5bda2fe90b3f27c2
-  vi_resources: []
+  - value: '#005375'
+    rgb:
+    - 0
+    - 83
+    - 117
+    cmyk:
+    - 90
+    - 60
+    - 35
+    - 15
+    pantone: 2392 C
+    label: 哈工大蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    basis: 校方域名VI手册PDF第14页，A-4-01标准色；AI逐项查看完整色卡，正常使用以哈工大蓝为主。
+    source_sha256: 655469e26a3c71f978dab908f768e164ec26f7d7e16abbc033f09442df0a2ff4
+    source_field: visual.color_primary
+  vi_resources:
+  - title: 哈尔滨工业大学官方视觉规范
+    url: https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://zri.hit.edu.cn/_upload/article/files/98/51/0533957a4593ace7556731065e61/375a362f-fbc3-4fc2-ba9e-2a62ab40d890.pdf
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+    note: 校方域名VI手册PDF第14页，A-4-01标准色；AI逐项查看完整色卡，正常使用以哈工大蓝为主。
 culture:
   founded_year:
     value: 1920
@@ -460,12 +545,16 @@ resources:
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.hit.edu.cn/11537/list.htm
+    availability: found
     search_sources: []
+    source: http://www.hit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: http://job.hit.edu.cn/
     availability: found
@@ -488,12 +577,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.hit.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.hit.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工

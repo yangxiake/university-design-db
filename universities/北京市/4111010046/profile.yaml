@@ -154,6 +154,76 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%AD%E5%9B%BD%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20CCM.png
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%AD%E5%9B%BD%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%20CCM.png
     attempts: []
+  - asset_id: 382f2da46d05e839af1f52c3
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ccmusic.edu.cn/images/logo2.png
+    source: https://www.ccmusic.edu.cn/
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 中国音乐学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国音乐学院
+    format: png
+    width: 245
+    height: 58
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 00b2daed1e16e01784fafcafefee27bfc81e29d67f2b53ae0aace0a27fd6550e
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo2.png
+      label: '   '
+      context: 'row  col-md-4  logo2   '
+      position: 3
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 15963
+    representation: raster
+    resolved_url: https://www.ccmusic.edu.cn/images/logo2.png
+  - asset_id: f54d395dbabc347a9cc6ab82
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ccmusic.edu.cn/images/logo.png
+    source: https://www.ccmusic.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 中国音乐学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国音乐学院
+    format: png
+    width: 298
+    height: 391
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: afb97a2f0f099e2b800597427c821135ce3c518e869fd7c03c2948e507845b67
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'container  row  col-xs-12 col-sm-4 col-md-4  logo '
+      position: 4
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 47979
+    representation: raster
+    resolved_url: https://www.ccmusic.edu.cn/images/logo.png
   color_palette:
   - value: '#C30D23'
     rgb:
@@ -225,6 +295,40 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 4c5642afdd5b9d82
+  - value: '#C00820'
+    rgb:
+    - 192
+    - 8
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ccmusic.edu.cn/images/logo2.png
+    page_source: https://www.ccmusic.edu.cn/
+    asset_id: 382f2da46d05e839af1f52c3
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#C80820'
+    rgb:
+    - 200
+    - 8
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.ccmusic.edu.cn/images/logo2.png
+    page_source: https://www.ccmusic.edu.cn/
+    asset_id: 382f2da46d05e839af1f52c3
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -397,19 +501,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 北京朝阳区安翔路一号
+    availability: found
     search_sources: []
+    source: https://www.ccmusic.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京朝阳区安翔路一号 邮编:100101 电话:010-64887561 传真:010-64874646
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '100101'
+    availability: found
     search_sources: []
+    source: https://www.ccmusic.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:北京朝阳区安翔路一号 邮编:100101 电话:010-64887561 传真:010-64874646
   coordinates:
     value:
       longitude: 116.394
@@ -530,12 +642,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 010-64887561'
+    availability: found
     search_sources: []
+    source: https://www.ccmusic.edu.cn/xyfw/lxwm/index.html
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:010-64887561
   email:
     value: null
     source: null

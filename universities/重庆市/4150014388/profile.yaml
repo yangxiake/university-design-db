@@ -141,6 +141,41 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 95fee887b2aa9cc30210e972
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.cque.edu.cn/2022-6-30/img/logo.png
+    source: https://www.cque.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 重庆第二师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 重庆第二师范学院
+    format: png
+    width: 380
+    height: 73
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ceadf3e0972fb35a59d8158b68a2f86be6e73a7a9aa5d0fa03c3e91c3c53cb5d
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: 2022-6-30/img/logo.png
+      label: '   '
+      context: 'nav  wrap  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 14391
+    representation: raster
+    resolved_url: https://www.cque.edu.cn/2022-6-30/img/logo.png
   color_palette: []
   vi_resources: []
 culture:
@@ -213,12 +248,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.cque.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.cque.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生信息网
   career_url:
     value: null
     source: null
@@ -234,12 +273,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.cque.edu.cn/xxgk/
+    availability: found
     search_sources: []
+    source: https://www.cque.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 师范

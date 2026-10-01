@@ -290,6 +290,80 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Dalian_University_of_Technology/png/logo_blue_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Dalian_University_of_Technology/png/logo_blue_800x800.png
     attempts: []
+  - asset_id: 0a6d8f8cd509191cc49acd2d
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.dlut.edu.cn/images/logo.svg
+    source: https://www.dlut.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 大连理工大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 大连理工大学
+    format: svg
+    width: null
+    height: null
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 527445a7292af809c870eed904896944cb2513b274310155727185862668c7da
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.svg
+      label: '   '
+      context: 'header   wp1600 flex pore  logo flex-v-center   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 33803
+    representation: vector
+    view_box: 0 0 282 74.13
+    encoding: utf-8-sig
+    intrinsic_width: null
+    intrinsic_height: null
+    resolved_url: https://www.dlut.edu.cn/images/logo.svg
+  - asset_id: d0275ef6fe5a311aff86e199
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.dlut.edu.cn/images/logo.png
+    source: https://www.dlut.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 大连理工大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 大连理工大学
+    format: png
+    width: 284
+    height: 75
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c4d0034235183ce5767e01562ae7753c83ec20b9263dfe74e3161074fc88d090
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo.png
+      label: '   '
+      context: 'body_home  headerm flex  logo zi3 flex-v-center   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 9977
+    representation: raster
+    resolved_url: https://www.dlut.edu.cn/images/logo.png
   color_palette:
   - value: '#0075BD'
     rgb:
@@ -506,19 +580,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://en.dlut.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.dlut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://info.dlut.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.dlut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -581,19 +663,27 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 中国·辽宁省大连市甘井子区凌工路2号
+    availability: found
     search_sources: []
+    source: https://www.dlut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有:大连理工大学 地址:中国·辽宁省大连市甘井子区凌工路2号 电话:0411-84708320 邮编:116024 辽ICP备05001357号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '116024'
+    availability: found
     search_sources: []
+    source: https://www.dlut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有:大连理工大学 地址:中国·辽宁省大连市甘井子区凌工路2号 电话:0411-84708320 邮编:116024 辽ICP备05001357号
   coordinates:
     value:
       longitude: 121.526
@@ -871,19 +961,30 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0411-84708320'
+    availability: found
     search_sources: []
+    source: https://www.dlut.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有:大连理工大学 地址:中国·辽宁省大连市甘井子区凌工路2号 电话:0411-84708320 邮编:116024 辽ICP备05001357号
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: general@dlut.edu.cn；shuji@dlut.edu.cn；office@dlut.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.dlut.edu.cn/xxgk/lxfs.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮箱:general@dlut.edu.cn
+    - 书记信箱 shuji@dlut.edu.cn
+    - 校长信箱 office@dlut.edu.cn
+    - general@dlut.edu.cn general@dlut.edu.cn
 rankings:
   entries:
   - publisher: ShanghaiRanking

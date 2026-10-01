@@ -95,7 +95,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 7dd4b95838f91f9cc34d85fc
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.muhn.edu.cn/images/logo06052.png
+    source: https://www.muhn.edu.cn
+    file_name: logo06052.png
+    upstream_path: null
+    publisher: 海南医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 海南医科大学
+    format: png
+    width: 450
+    height: 90
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: abcdbc836192f94248156aa2dcb87e493b0b5ce8c9a26ebc7ce46052ca3d08e7
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo06052.png
+      label: '   '
+      context: '  header   wp flex pore  logo flex-v-center '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 18425
+    representation: raster
+    resolved_url: https://www.muhn.edu.cn/images/logo06052.png
+  - asset_id: 8d14fb36281d5833df1c4c56
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.muhn.edu.cn/images/tpls20250904.png
+    source: https://www.muhn.edu.cn
+    file_name: tpls20250904.png
+    upstream_path: null
+    publisher: 海南医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 海南医科大学
+    format: png
+    width: 400
+    height: 26
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: d46f013dec7652a01e06f34060cd40d58301343914501b7c2b50fdf4dd65d960
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/tpls20250904.png
+      label: '   '
+      context: 'header   wp flex pore  logo flex-v-center   '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 2304
+    representation: raster
+    resolved_url: https://www.muhn.edu.cn/images/tpls20250904.png
   color_palette: []
   vi_resources: []
 culture:
@@ -158,12 +228,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.muhn.edu.cn/zsw/
+    availability: found
     search_sources: []
+    source: https://www.muhn.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生信息
   career_url:
     value: null
     source: null
@@ -223,19 +297,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 海口市龙华区椰海大道234号
+    availability: found
     search_sources: []
+    source: https://www.muhn.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学校地址:海口市龙华区椰海大道234号邮政编码:571199联系电话:0898-66893398
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '571199'
+    availability: found
     search_sources: []
+    source: https://www.muhn.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学校地址:海口市龙华区椰海大道234号邮政编码:571199联系电话:0898-66893398
   coordinates:
     value: null
     source: null
@@ -315,19 +397,28 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0898-66893398'
+    availability: found
     search_sources: []
+    source: https://www.muhn.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 学校地址:海口市龙华区椰海大道234号邮政编码:571199联系电话:0898-66893398
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: hy0209002@muhn.edu.cn；hy000001@muhn.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.muhn.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 书记信箱 hy0209002@muhn.edu.cn
+    - 校长信箱 hy000001@muhn.edu.cn
 rankings:
   entries: []
 admissions:

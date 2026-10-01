@@ -94,8 +94,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 89ad3a0abc4bca80b5733622
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://swxy.csuft.edu.cn/dfiles/14640/images/logo-swxy.png
+    source: https://swxy.csuft.edu.cn
+    file_name: logo-swxy.png
+    upstream_path: null
+    publisher: 中南林业科技大学涉外学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中南林业科技大学涉外学院
+    format: png
+    width: 495
+    height: 74
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: c810b1f988235bb34f4ea812b79f0365253ea924201c48cee8fb467837f66985
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/14640/images/logo-swxy.png
+      label: '涉外学院 涉外学院  '
+      context: 'top-event  cont-2  top-event-2 w container  cont-3 '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 52880
+    representation: raster
+    resolved_url: https://swxy.csuft.edu.cn/dfiles/14640/images/logo-swxy.png
+  color_palette:
+  - value: '#6080A8'
+    rgb:
+    - 96
+    - 128
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://swxy.csuft.edu.cn/dfiles/14640/images/logo-swxy.png
+    page_source: https://swxy.csuft.edu.cn
+    asset_id: 89ad3a0abc4bca80b5733622
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#5878A0'
+    rgb:
+    - 88
+    - 120
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://swxy.csuft.edu.cn/dfiles/14640/images/logo-swxy.png
+    page_source: https://swxy.csuft.edu.cn
+    asset_id: 89ad3a0abc4bca80b5733622
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -158,12 +227,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://swxy.csuft.edu.cn/zsw
+    availability: found
     search_sources: []
+    source: https://swxy.csuft.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -194,12 +267,15 @@ institution:
     availability: unresearched
     search_sources: []
   nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 民办
+    availability: found
     search_sources: []
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    source_type: official_registry
+    verified: auto
+    checked_at: '2026-10-01'
+    source_as_of: '2026-06-17'
+    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
   country:
     value: null
     source: null
@@ -223,12 +299,17 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 湖南省长沙市望城区丁字湾街道
+    availability: found
     search_sources: []
+    source: https://swxy.csuft.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - Copyright ©2011 - 2019 中南林业科技大学涉外学院 湘教QS4-201405-010072 湘ICP备09017705号 地址:湖南省长沙市望城区丁字湾街道 邮箱:znlswdzb@163.com
+    - 地址:湖南省长沙市望城区丁字湾街道
   postal_code:
     value: null
     source: null
@@ -315,19 +396,28 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0731-89814001'
+    availability: found
     search_sources: []
+    source: https://swxy.csuft.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:0731-89814001
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: znlswdzb@163.com
+    availability: found
     search_sources: []
+    source: https://swxy.csuft.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - Copyright ©2011 - 2019 中南林业科技大学涉外学院 湘教QS4-201405-010072 湘ICP备09017705号 地址:湖南省长沙市望城区丁字湾街道 邮箱:znlswdzb@163.com
+    - 邮箱:znlswdzb@163.com
 rankings:
   entries: []
 admissions:

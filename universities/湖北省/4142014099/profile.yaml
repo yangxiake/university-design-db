@@ -154,6 +154,41 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 2aec91e554d0af8b26f6e419
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.hue.edu.cn/_upload/tpl/0c/11/3089/template3089/images/logo7.png
+    source: https://www.hue.edu.cn
+    file_name: logo7.png
+    upstream_path: null
+    publisher: 湖北第二师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖北第二师范学院
+    format: png
+    width: 390
+    height: 89
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 59d26e7ae2b84c5294a7f6333a1553af394385d89dc06230cdc38bd24aaf7fb7
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/0c/11/3089/template3089/images/logo7.png
+      label: '   '
+      context: 'head-left fl  head-nav1 sitetitle     '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 14485
+    representation: raster
+    resolved_url: https://www.hue.edu.cn/_upload/tpl/0c/11/3089/template3089/images/logo7.png
   color_palette:
   - value: '#014099'
     rgb:
@@ -238,12 +273,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.hue.edu.cn/14803/list.htm
+    availability: found
     search_sources: []
+    source: https://www.hue.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -259,12 +298,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.hue.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.hue.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 师范
@@ -317,19 +360,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 武汉市东湖新技术开发区高新二路129号
+    availability: found
     search_sources: []
+    source: https://www.hue.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:武汉市东湖新技术开发区高新二路129号邮编:430205
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '430205'
+    availability: found
     search_sources: []
+    source: https://www.hue.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:武汉市东湖新技术开发区高新二路129号邮编:430205
   coordinates:
     value: null
     source: null
@@ -409,12 +460,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 027-87943556'
+    availability: found
     search_sources: []
+    source: https://www.hue.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 接待/接访电话:027-87943556(8:30-11:30 14:00-17:00)
   email:
     value: null
     source: null

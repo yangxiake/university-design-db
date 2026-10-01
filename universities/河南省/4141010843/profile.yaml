@@ -96,8 +96,112 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 99617c63ec51098aeb8c300f
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.zzrvtc.edu.cn/_upload/tpl/01/94/404/template404/images/logo2.png?v1
+    source: https://www.zzrvtc.edu.cn/
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 郑州铁路职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 郑州铁路职业技术大学
+    format: png
+    width: 430
+    height: 70
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 0354e21f65be5b0731a17d70507fda16ff77a57d282beccd8dca5249bc0aacd0
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/01/94/404/template404/images/logo2.png?v1
+      label: '   '
+      context: 'top inner flex flex-justify  aui-logo sitelogo     '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 16413
+    representation: raster
+    resolved_url: https://www.zzrvtc.edu.cn/_upload/tpl/01/94/404/template404/images/logo2.png?v1
+  - asset_id: 520e29b268c5e36a22576e2e
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.zzrvtc.edu.cn/_upload/tpl/01/94/404/template404/images/logo-single.png?v1
+    source: https://www.zzrvtc.edu.cn/
+    file_name: logo-single.png
+    upstream_path: null
+    publisher: 郑州铁路职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 郑州铁路职业技术大学
+    format: png
+    width: 115
+    height: 115
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 38ab325de5c6c78a781804df180542a0b6111069eec9331f206119d10eb9c650
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/01/94/404/template404/images/logo-single.png?v1
+      label: '   '
+      context: 'main-row main-mg30  main-pc12 main-m12 main-pad12 modeCon effect effect11  xinmeitishuo  xiaohui '
+      position: 5
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 13291
+    representation: raster
+    resolved_url: https://www.zzrvtc.edu.cn/_upload/tpl/01/94/404/template404/images/logo-single.png?v1
+  color_palette:
+  - value: '#205098'
+    rgb:
+    - 32
+    - 80
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.zzrvtc.edu.cn/_upload/tpl/01/94/404/template404/images/logo-single.png?v1
+    page_source: https://www.zzrvtc.edu.cn/
+    asset_id: 520e29b268c5e36a22576e2e
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#205090'
+    rgb:
+    - 32
+    - 80
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.zzrvtc.edu.cn/_upload/tpl/01/94/404/template404/images/logo-single.png?v1
+    page_source: https://www.zzrvtc.edu.cn/
+    asset_id: 520e29b268c5e36a22576e2e
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -159,12 +263,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.zzrvtc.edu.cn/zsjyc/
+    availability: found
     search_sources: []
+    source: https://www.zzrvtc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -173,19 +281,27 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.zzrvtc.edu.cn/yw/
+    availability: found
     search_sources: []
+    source: https://www.zzrvtc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.zzrvtc.edu.cn/yb/main.htm
+    availability: found
     search_sources: []
+    source: https://www.zzrvtc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -224,19 +340,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 河南省郑州市郑东新区通惠路298号
+    availability: found
     search_sources: []
+    source: https://www.zzrvtc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:河南省郑州市郑东新区通惠路298号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '451460'
+    availability: found
     search_sources: []
+    source: https://www.zzrvtc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:451460
   coordinates:
     value: null
     source: null
@@ -316,19 +440,27 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0371-60867945'
+    availability: found
     search_sources: []
+    source: https://www.zzrvtc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系电话:0371-60867945
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: zzrvtc10843@163.com
+    availability: found
     search_sources: []
+    source: https://www.zzrvtc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮箱:zzrvtc10843@163.com
 rankings:
   entries: []
 admissions:

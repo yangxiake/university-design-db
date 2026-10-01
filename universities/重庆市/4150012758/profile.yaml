@@ -96,8 +96,77 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 086f32c04d2265cdd2d40a8f
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.cswu.cn/_upload/tpl/05/ba/1466/template1466/images/logo.png
+    source: https://www.cswu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 重庆城市管理职业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 重庆城市管理职业大学
+    format: png
+    width: 846
+    height: 138
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b69dfea6327e9896c1465ed7fd4c15326802f6b1c28eebdb05a83dd47fe1f3b4
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/05/ba/1466/template1466/images/logo.png
+      label: '   '
+      context: 'mod  head-left  sitelogo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 52405
+    representation: raster
+    resolved_url: https://www.cswu.cn/_upload/tpl/05/ba/1466/template1466/images/logo.png
+  color_palette:
+  - value: '#F8D8D8'
+    rgb:
+    - 248
+    - 216
+    - 216
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.cswu.cn/_upload/tpl/05/ba/1466/template1466/images/logo.png
+    page_source: https://www.cswu.cn
+    asset_id: 086f32c04d2265cdd2d40a8f
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#E01820'
+    rgb:
+    - 224
+    - 24
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.cswu.cn/_upload/tpl/05/ba/1466/template1466/images/logo.png
+    page_source: https://www.cswu.cn
+    asset_id: 086f32c04d2265cdd2d40a8f
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -160,12 +229,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://zs.cswu.cn/
+    availability: found
     search_sources: []
+    source: https://www.cswu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生工作
   career_url:
     value: null
     source: null
@@ -181,12 +254,16 @@ resources:
     availability: unresearched
     search_sources: []
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxpt.cswu.cn:30342/
+    availability: found
     search_sources: []
+    source: https://www.cswu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: null
@@ -317,12 +394,17 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: (023)65626666；电话: (023)65626161'
+    availability: found
     search_sources: []
+    source: https://www.cswu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 电话:(023)65626666(招生咨询)(023) 86968793(就业咨询)
+    - 电话:(023)65626161(政务值班)
   email:
     value: null
     source: null

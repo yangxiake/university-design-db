@@ -225,6 +225,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Yanshan_University/png/logo_blue_800x800.png
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Yanshan_University/png/logo_blue_800x800.png
     attempts: []
+  - asset_id: ca01d129fac2e5051e8f6303
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ysu.edu.cn/images/blue/2x.png
+    source: https://www.ysu.edu.cn
+    file_name: 2x.png
+    upstream_path: null
+    publisher: 燕山大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 燕山大学
+    format: png
+    width: 676
+    height: 199
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 1ac8c96429bee915e29c370382f1cdcb3f8fcbc0f4b4aa5e38910f2fd1fa4a24
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/blue/2x.png
+      label: '   '
+      context: 'header headerid wp  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 20664
+    representation: raster
+    resolved_url: https://www.ysu.edu.cn/images/blue/2x.png
   color_palette:
   - value: '#1F296B'
     rgb:
@@ -398,19 +433,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.ysu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ysu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - ENGLISH
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.ysu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.ysu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -463,12 +506,16 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 河北省秦皇岛市河北大街西段438号
+    availability: found
     search_sources: []
+    source: https://www.ysu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©燕山大学 地址:河北省秦皇岛市河北大街西段438号 邮编:066000 联系电话:0335-8057100 0335-8057079(夜间)
   postal_code:
     value: null
     source: null
@@ -568,19 +615,28 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0335-8057100'
+    availability: found
     search_sources: []
+    source: https://www.ysu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有©燕山大学 地址:河北省秦皇岛市河北大街西段438号 邮编:066000 联系电话:0335-8057100 0335-8057079(夜间)
   email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: shuji@ysu.edu.cn；xiaozhang@ysu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.ysu.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 书记信箱 shuji@ysu.edu.cn
+    - 校长信箱 xiaozhang@ysu.edu.cn
 rankings:
   entries:
   - publisher: ShanghaiRanking

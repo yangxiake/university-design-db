@@ -198,6 +198,41 @@ visual:
     resolved_url: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8D%97%E4%BA%AC%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%20NJTECH.svg
     inspection_source: https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8D%97%E4%BA%AC%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%20NJTECH.svg
     attempts: []
+  - asset_id: d0bdedaf21cc24246bb2477d
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.njtech.edu.cn/dfiles/14435/public/home/image/f9e37ed3934a07b32103be32dbd94348_logo.jpg
+    source: https://www.njtech.edu.cn
+    file_name: f9e37ed3934a07b32103be32dbd94348_logo.jpg
+    upstream_path: null
+    publisher: 南京工业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京工业大学
+    format: png
+    width: 378
+    height: 124
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: cb95f582df258482e6587cb696deab59d63dce17b91ffe2e179b943d29c9b5ee
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: dfiles/14435/public/home/image/f9e37ed3934a07b32103be32dbd94348_logo.jpg
+      label: '   '
+      context: ' header  logo wrap   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 37633
+    representation: raster
+    resolved_url: https://www.njtech.edu.cn/dfiles/14435/public/home/image/f9e37ed3934a07b32103be32dbd94348_logo.jpg
   color_palette:
   - value: '#0093DD'
     rgb:
@@ -233,6 +268,40 @@ visual:
     repository: Magicdover/China-Universities-2026
     commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
     asset_id: 41f597d9a593c5dd
+  - value: '#0090D8'
+    rgb:
+    - 0
+    - 144
+    - 216
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.njtech.edu.cn/dfiles/14435/public/home/image/f9e37ed3934a07b32103be32dbd94348_logo.jpg
+    page_source: https://www.njtech.edu.cn
+    asset_id: d0bdedaf21cc24246bb2477d
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#0090E0'
+    rgb:
+    - 0
+    - 144
+    - 224
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.njtech.edu.cn/dfiles/14435/public/home/image/f9e37ed3934a07b32103be32dbd94348_logo.jpg
+    page_source: https://www.njtech.edu.cn
+    asset_id: d0bdedaf21cc24246bb2477d
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -328,19 +397,27 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://en.njtech.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.njtech.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://xxgk.njtech.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.njtech.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 信息公开
 institution:
   school_type:
     value: 理工
@@ -393,12 +470,18 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 江苏省南京市江北新区浦珠南路30号；江苏省南京市鼓楼区新模范马路5号；江苏省南京市鼓楼区中山北路200号
+    availability: found
     search_sources: []
+    source: https://www.njtech.edu.cn
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:江苏省南京市江北新区浦珠南路30号
+    - 地址:江苏省南京市鼓楼区新模范马路5号
+    - 地址:江苏省南京市鼓楼区中山北路200号
   postal_code:
     value: null
     source: null

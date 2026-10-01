@@ -157,6 +157,41 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 2fdc2ead5d20809052deaa2c
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.bucea.edu.cn/gbimages/logo.png
+    source: https://www.bucea.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 北京建筑大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京建筑大学
+    format: png
+    width: 623
+    height: 158
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 2680750da8b57898102918e8913d943aa80eae9eb965ac37a52161a35aabecb2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: gbimages/logo.png
+      label: '   '
+      context: 'nav-wrapper gp-clearFix  gp-container  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 97342
+    representation: raster
+    resolved_url: https://www.bucea.edu.cn/gbimages/logo.png
   color_palette: []
   vi_resources:
   - title: 视觉形象识别系统
@@ -246,12 +281,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.bucea.edu.cn/gbzsjy/index.htm
+    availability: found
     search_sources: []
+    source: https://www.bucea.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -260,12 +299,16 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://english.bucea.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.bucea.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - English
   information_disclosure_url:
     value: null
     source: null

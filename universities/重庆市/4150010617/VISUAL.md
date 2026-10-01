@@ -6,20 +6,26 @@
 
 | 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- |
-| badge | [文件](https://www.shanghairanking.cn/_uni/logo/60895367.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | png | 未声明 | indexed_not_fetched | 未独立声明 |
-| badge | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%20CQUPT.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%20CQUPT.svg) | svg | 未声明 | content_inspected | 未独立声明 |
+| 校徽 | [文件](https://www.shanghairanking.cn/_uni/logo/60895367.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | png | 未声明 | indexed_not_fetched | 未独立声明 |
+| 校徽 | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%20CQUPT.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%20CQUPT.svg) | svg | 未声明 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.cqupt.edu.cn/images/logo1.png) · [来源](https://www.cqupt.edu.cn) | png | 272 × 69 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | [文件](https://www.cqupt.edu.cn/images/logo2.png) · [来源](https://www.cqupt.edu.cn) | png | 277 × 70 | content_inspected | 未独立声明 |
 
-仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。SVG的viewBox是内部坐标，不等于像素尺寸。
+仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
 ## 调色板
 
-| HEX | RGB | 用途 | 取值方法 | 来源 |
-| --- | --- | --- | --- | --- |
-| `#FFEF85` | 255,239,133 | primary | 官网标识取色/推导建议 | [依据](https://www.cqupt.edu.cn/images/logo1.png) |
-| `#00784B` | 0,120,75 | reference | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%20CQUPT.svg) |
-| `#FFE57A` | 255,229,122 | reference | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%20CQUPT.svg) |
+| 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | `#FFEF85` | 255,239,133 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.cqupt.edu.cn/images/logo1.png) |
+|  | `#00784B` | 0,120,75 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%20CQUPT.svg) |
+|  | `#FFE57A` | 255,229,122 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6%20CQUPT.svg) |
+|  | `#F8E880` | 248,232,128 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.cqupt.edu.cn/images/logo1.png) |
+|  | `#007850` | 0,120,80 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.cqupt.edu.cn/images/logo1.png) |
+|  | `#F8E880` | 248,232,128 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.cqupt.edu.cn/images/logo2.png) |
+|  | `#007850` | 0,120,80 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.cqupt.edu.cn/images/logo2.png) |
 
-建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。
+建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 

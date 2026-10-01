@@ -335,6 +335,41 @@ visual:
     intrinsic_height: null
     resolved_url: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Yunnan_University/svg/logo_blue.svg
     inspection_source: https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Yunnan_University/svg/logo_blue.svg
+  - asset_id: a0f25ef20e9d4709d99f8c18
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.ynu.edu.cn/images/logo0430.png
+    source: https://www.ynu.edu.cn/
+    file_name: logo0430.png
+    upstream_path: null
+    publisher: 云南大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 云南大学
+    format: png
+    width: 394
+    height: 121
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 019985aff85f6c33c35cfd36baf6ccfd8c243a172af4da08b1faecd0c0f8d75a
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: images/logo0430.png
+      label: '   '
+      context: 'head header wp flex   logo  '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 13408
+    representation: raster
+    resolved_url: https://www.ynu.edu.cn/images/logo0430.png
   color_palette:
   - value: '#211E6E'
     rgb:
@@ -661,12 +696,16 @@ resources:
     source_as_of: '2019-10-21'
     note: 社区数据原值；没有认定为校方现行声明。
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://english.ynu.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.ynu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - En
   information_disclosure_url:
     value: null
     source: null
@@ -735,12 +774,17 @@ institution:
     note: 社区数据原值；没有认定为校方现行声明。
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 昆明市五华区翠湖北路2号；昆明市呈贡区大学城东外环南路
+    availability: found
     search_sources: []
+    source: https://www.ynu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:昆明市五华区翠湖北路2号
+    - 地址:昆明市呈贡区大学城东外环南路
   postal_code:
     value: null
     source: null

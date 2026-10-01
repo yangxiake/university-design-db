@@ -12,6 +12,7 @@
 | 复核工作表 | `review-queue-*`、`school-research-status-*`、`field-research-status-*`、`page-visits-*` | 按校和字段定位来源、缺项、冲突及下一步 |
 | GitHub字段并集 | `github-field-union-*` | 本轮实际读取字段、身份匹配和排除/仅保留快照的原因 |
 | v3覆盖 | `enriched-coverage-*` | 逐文件校徽、配色、学科、排名、招生及新增事实字段的当前计数 |
+| 官网扩展采集 | `official-extensions-*` | 页脚/联系页的地址、邮编、电话、邮箱、门户及页眉标识文件；保留短证据、哈希和访问错误 |
 
 `official-color-decisions-*` 是校方公布的数字色值判读；`sampled-color-decisions-*` 是标注用途的PPT建议色。两者不混用。图片临时预览不随仓库分发，可按图片来源重新读取并比对哈希。
 

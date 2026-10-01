@@ -94,8 +94,80 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 422ab8f04b0746f68494f1a0
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.fjpsc.edu.cn/images/logo.png
+    source: https://www.fjpsc.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 福建警察学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 福建警察学院
+    format: png
+    width: 395
+    height: 125
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ca5417c056d94838c31c09f8efde8133b6e34cbe1a50ca610d20cfa773a5283b
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /images/logo.png
+      label: '福建警察学院   '
+      context: 'header  s_header  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 38857
+    representation: raster
+    resolved_url: https://www.fjpsc.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: https://www.fjpsc.edu.cn/images/logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#A89888'
+    rgb:
+    - 168
+    - 152
+    - 136
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.fjpsc.edu.cn/images/logo.png
+    page_source: https://www.fjpsc.edu.cn/
+    asset_id: 422ab8f04b0746f68494f1a0
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
+  - value: '#908068'
+    rgb:
+    - 144
+    - 128
+    - 104
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.fjpsc.edu.cn/images/logo.png
+    page_source: https://www.fjpsc.edu.cn/
+    asset_id: 422ab8f04b0746f68494f1a0
+    verified: auto
+    checked_at: '2026-10-01'
+    availability: found
   vi_resources: []
 culture:
   founded_year:
@@ -157,19 +229,27 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://zsw.fjpsc.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.fjpsc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生网
   career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://jyw.fjpsc.edu.cn
+    availability: found
     search_sources: []
+    source: https://www.fjpsc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 就业网
   english_website:
     value: null
     source: null
@@ -222,19 +302,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 福建省福州市仓山区首山路59
+    availability: found
     search_sources: []
+    source: https://www.fjpsc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 联系地址:福建省福州市仓山区首山路59号闽ICP备05005457号闽公安备案号:35010402350156
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '350007'
+    availability: found
     search_sources: []
+    source: https://www.fjpsc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有 ©福建警察学院部门信息发布排行邮编:350007电话:0591-83443116
   coordinates:
     value: null
     source: null
@@ -314,12 +402,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '电话: 0591-83443116'
+    availability: found
     search_sources: []
+    source: https://www.fjpsc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 版权所有 ©福建警察学院部门信息发布排行邮编:350007电话:0591-83443116
   email:
     value: null
     source: null

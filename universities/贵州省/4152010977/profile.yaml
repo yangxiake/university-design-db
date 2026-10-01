@@ -149,6 +149,45 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 具体文件地址来自社区记录。仓库代码/数据许可不等于校徽图形或商标授权；素材只链接，使用时查看学校与上游说明。 上游2021年排名站点图片地址，未验证当前图形或访问状态。
+  - asset_id: 20e8f87240974c3beec6b2ca
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.lpssy.edu.cn/_upload/tpl/04/e1/1249/template1249/images/logo.svg
+    source: https://www.lpssy.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 六盘水师范学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 六盘水师范学院
+    format: svg
+    width: 342.321
+    height: 75.0
+    vector: false
+    has_alpha: null
+    transparent_background: null
+    sha256: 03dd01449cd512da0d8a0a9dc3e2a8956c97d3fceb09bdbefb2b31586c980c94
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-01'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/04/e1/1249/template1249/images/logo.svg
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 32323
+    representation: svg_with_raster
+    view_box: 0 0 342.321 75
+    encoding: utf-8-sig
+    intrinsic_width: '342.321'
+    intrinsic_height: '75'
+    resolved_url: https://www.lpssy.edu.cn/_upload/tpl/04/e1/1249/template1249/images/logo.svg
   color_palette: []
   vi_resources: []
 culture:
@@ -221,12 +260,16 @@ resources:
     availability: unresearched
     search_sources: []
   admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.lpssy.edu.cn/5933/list.htm
+    availability: found
     search_sources: []
+    source: https://www.lpssy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - 招生就业
   career_url:
     value: null
     source: null
@@ -235,12 +278,16 @@ resources:
     availability: unresearched
     search_sources: []
   english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.lpssy.edu.cn/english/
+    availability: found
     search_sources: []
+    source: https://www.lpssy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
+    evidence:
+    - english
   information_disclosure_url:
     value: null
     source: null
@@ -300,19 +347,27 @@ institution:
     search_sources: []
 location:
   address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 贵州省六盘水市钟山区明湖路288号
+    availability: found
     search_sources: []
+    source: https://www.lpssy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 地址:贵州省六盘水市钟山区明湖路288号
   postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '553004'
+    availability: found
     search_sources: []
+    source: https://www.lpssy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:553004联系电话:0858-8602969
   coordinates:
     value: null
     source: null
@@ -392,12 +447,16 @@ employment:
   outcomes: []
 contacts:
   phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '联系电话: 0858-8602969'
+    availability: found
     search_sources: []
+    source: https://www.lpssy.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
+    evidence:
+    - 邮编:553004联系电话:0858-8602969
   email:
     value: null
     source: null
