@@ -57,7 +57,7 @@ scripts/                              采集、导入、生成与校验脚本
 
 ## 本地生成与校验
 
-需 Python 3.9+。统一质量检查安装 `requirements-quality.txt`，包含生成、图像解析测试和JSON Schema校验依赖。CI拟验证Python 3.9与3.13，当前工作流已在本地准备，推送受GitHub `workflow`授权限制，尚未实际运行；检查已有数据时不联网采集。
+需 Python 3.9+。统一质量检查安装 `requirements-quality.txt`，包含生成、图像解析测试和JSON Schema校验依赖。GitHub CI已实际验证Python 3.9与3.13；检查已有数据时不联网采集。
 
 ```bash
 python3 -m venv .venv
@@ -79,7 +79,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/check.py
 ```
 
-统一检查执行档案语义、两套JSON Schema、单元测试、六项生成一致性及仓库只读检查。失败会显示学校标识码/字段或过期文件位置。完成凭据授权并推送工作流后，提交、PR和手动触发均运行[GitHub Actions](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)，实现与验收说明见[质量检查文档](docs/quality-checks.md)。
+统一检查执行档案语义、两套JSON Schema、单元测试、六项生成一致性及仓库只读检查。失败会显示学校标识码/字段或过期文件位置。提交、PR和手动触发均运行[GitHub Actions](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)，实现与验收说明见[质量检查文档](docs/quality-checks.md)。
 
 联网补采流程：
 
