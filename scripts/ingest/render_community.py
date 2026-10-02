@@ -2,7 +2,7 @@
 """Generate a separate view of source-labelled community resources."""
 import argparse
 import pathlib
-import yaml
+from yaml_io import load_yaml
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 
 def render(profile):
@@ -35,7 +35,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check',action='store_true');args=parser.parse_args();count=0
     for path in sorted((ROOT/'universities').glob('*/*/profile.yaml')):
-        expected=render(yaml.safe_load(path.read_text(encoding='utf-8')))
+        expected=render(load_yaml(path.read_text(encoding='utf-8')))
         output=path.with_name('COMMUNITY.md')
         if args.check:
             if expected is None and output.exists() or expected is not None and (not output.exists() or output.read_text(encoding='utf-8')!=expected):

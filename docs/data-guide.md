@@ -33,3 +33,7 @@
 `location.campuses`与`indexes/campuses.csv`按学校标识码列明已取得的官网校区名称。缺少地址/坐标的校区不填学校通讯地址；校区与校园数量保持层级区别。
 
 校徽的`download_kind=archive_member`表示文件在上游压缩包内，`url`不是PNG直链。下载`archive_url`并验证`archive_sha256`，选择`archive_member`，再核对成员文件`sha256`；不要用图像加载器直接读取ZIP，也不要把仓库MIT许可当作校徽图形授权。
+
+## PPT精简导出
+
+[`ppt-profiles.jsonl`](../indexes/ppt-profiles.jsonl)和[配套CSV](../indexes/ppt-profiles.csv)覆盖1412所学校，集中提供标识候选与推荐理由、官方/印刷/参考配色、模板及短简介的完整来源。按学校标识码、地区、名称和素材状态查询的方法见[PPT导出v1说明](ppt-export-v1.md)。

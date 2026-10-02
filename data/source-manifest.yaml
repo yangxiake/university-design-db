@@ -72,3 +72,12 @@ visual_gap_research:
   layout_sources: data/review/logo-layout-sources-2026.yaml
   layout_receipts: data/review/logo-layout-metadata-2026.json
   color_decisions: data/review/visual-gap-color-decisions-2026.yaml
+
+executable_profile_schema: data/profile-schema-v3.json
+ppt_export:
+  version: 1
+  schema: data/ppt-export-schema-v1.json
+  jsonl: indexes/ppt-profiles.jsonl
+  csv: indexes/ppt-profiles.csv
+  coverage: indexes/ppt-profiles-coverage.json
+quality_check_command: python scripts/check.py

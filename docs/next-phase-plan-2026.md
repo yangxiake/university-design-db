@@ -1,6 +1,6 @@
 # 下一阶段完善计划
 
-计划日期：2026-10-02。状态：待实施。
+计划日期：2026-10-02。状态：M1/M2已实施，正在完成GitHub运行验收；其余里程碑待实施。
 
 基线提交：`7c1fe1d5493c4f30535cec7c2c1c48cf396e972f`。本计划根据当前档案、索引和覆盖报告制定，里程碑完成后更新实际结果。
 
@@ -154,3 +154,7 @@ GitHub发布版本基于标签，可附带发布说明和下载文件；参考[G
 首批实施M1与M2：统一本地/CI校验、生成1412所PPT精简数据、验证标识与配色选择的边界场景。完成后提交代码、实际运行结果及字段样例，再推进M3的素材目录与预览。M4持续提供有来源的补采数据。
 
 借鉴方向：[Hipo](https://github.com/Hipo/university-domains-list)的简洁机器读取、[ROR](https://github.com/ror-community/ror-schema)的版本化字段约束、[SVGLOGO](https://github.com/HeyHuazi/SVGLOGO)的资产/元数据一致性，以及[北京高校VIS目录](https://github.com/CakeAL/beijing-univs-vis)对格式和访问条件的明确表达。已纳入来源的字段映射见[字段比较报告](github-field-union-2026.md)与[第三方来源说明](../data/external/README.md)。
+
+## M1/M2实施记录
+
+已增加统一本地检查、GitHub Actions、可执行字段规范、1412所PPT精简JSONL/CSV及标准库查询工具。导出保持来源、调查状态、官方/参考分层和空缺，未修改单校事实。用法见[PPT导出v1](ppt-export-v1.md)，验收记录见[质量检查](quality-checks.md)。M3作为下一批实施。

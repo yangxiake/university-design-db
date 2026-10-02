@@ -12,7 +12,7 @@
 
 示例：[清华大学](universities/北京市/4111010003/profile.yaml)、[北京大学](universities/北京市/4111010001/profile.yaml)、[西湖大学](universities/浙江省/4133014626/profile.yaml)。PPT 和 AI 助手的完整使用方法见[数据指南](docs/data-guide.md)。
 
-制作PPT可从[单校素材索引](indexes/ppt-starter.csv)开始，接着查[模板与素材入口](indexes/ppt-resources.csv)。学校通用、院系专用、社区PPTX/Marp/Beamer和TikZ标识源码分别标注；读取方法见[PPT使用指南](docs/ppt-guide.md)。
+制作PPT优先读取[精简JSONL](indexes/ppt-profiles.jsonl)或[配套CSV](indexes/ppt-profiles.csv)，包含全部1412所身份、标识推荐依据、分层配色、模板及短简介；字段与查询命令见[PPT导出v1说明](docs/ppt-export-v1.md)。也可从[单校素材索引](indexes/ppt-starter.csv)开始，接着查[模板与素材入口](indexes/ppt-resources.csv)。学校通用、院系专用、社区PPTX/Marp/Beamer和TikZ标识源码分别标注；读取方法见[PPT使用指南](docs/ppt-guide.md)。
 
 [下一阶段计划](docs/next-phase-plan-2026.md)明确统一校验、PPT精简数据、素材检索预览、针对性补采、版本交付和来源变更维护的顺序与验收标准。
 
@@ -57,16 +57,17 @@ scripts/                              采集、导入、生成与校验脚本
 
 ## 本地生成与校验
 
-需 Python 3.9+，联网研究另安装 `requirements-research.txt`。
+需 Python 3.9+。统一质量检查安装 `requirements-quality.txt`，包含生成、图像解析测试和JSON Schema校验依赖。CI验证Python 3.9与3.13；检查已有数据时不联网采集。
 
 ```bash
 python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+.venv/bin/pip install -r requirements-quality.txt
 .venv/bin/python scripts/ingest/render_official.py
 .venv/bin/python scripts/ingest/render_community.py
 .venv/bin/python scripts/ingest/render_enriched.py
 .venv/bin/python scripts/ingest/build_indexes.py
 .venv/bin/python scripts/ingest/build_ppt_indexes.py
+.venv/bin/python scripts/ingest/build_ppt_profiles.py
 .venv/bin/python scripts/validate/report_field_union.py
 .venv/bin/python scripts/validate/report_official_extensions.py
 .venv/bin/python scripts/validate/report_overview_progress.py
@@ -75,14 +76,10 @@ python3 -m venv .venv
 .venv/bin/python scripts/validate/report_coverage.py
 .venv/bin/python scripts/validate/report_research.py
 .venv/bin/python scripts/validate/build_review_queue.py
-.venv/bin/python scripts/validate/validate_profiles.py --automatic-draft
-.venv/bin/python scripts/ingest/build_indexes.py --check
-.venv/bin/python scripts/ingest/build_ppt_indexes.py --check
-.venv/bin/python scripts/ingest/render_official.py --check
-.venv/bin/python scripts/ingest/render_community.py --check
-.venv/bin/python scripts/ingest/render_enriched.py --check
-.venv/bin/python -m unittest discover -s scripts/validate -p 'test_*.py'
+.venv/bin/python scripts/check.py
 ```
+
+统一检查执行档案语义、两套JSON Schema、单元测试、六项生成一致性及仓库只读检查。失败会显示学校标识码/字段或过期文件位置。提交、PR和手动触发均运行[GitHub Actions](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)，实现与验收说明见[质量检查文档](docs/quality-checks.md)。
 
 联网补采流程：
 

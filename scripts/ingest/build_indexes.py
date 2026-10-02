@@ -7,7 +7,7 @@ import csv
 import io
 import pathlib
 
-import yaml
+from yaml_io import load_yaml
 
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -48,7 +48,7 @@ def main():
         profile_path = pathlib.Path("universities") / row["province"] / row["school_code"] / "profile.yaml"
         absolute = ROOT / profile_path
         if absolute.exists():
-            profile = yaml.safe_load(absolute.read_text(encoding="utf-8"))
+            profile = load_yaml(absolute.read_text(encoding="utf-8"))
             if profile["identity"]["school_code"] != row["school_code"]:
                 raise ValueError("Profile mismatch: " + row["school_code"])
             research_status = profile["research"]["status"]

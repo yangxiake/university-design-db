@@ -9,7 +9,7 @@ import pathlib
 import re
 import urllib.parse
 
-import yaml
+from yaml_io import load_yaml
 
 from profile_extensions import FACTS
 from build_indexes import write
@@ -138,7 +138,7 @@ def main():
     indexes={key:[] for key in ('logo-assets','color-palettes','color-conflicts','extended-facts','rankings','admission-cutoffs','subject-assessments','campuses')}
     enriched=[];exports=[]
     for path in sorted((ROOT/'universities').glob('*/*/profile.yaml')):
-        p=yaml.safe_load(path.read_text(encoding='utf-8'));i=p['identity'];base=dict(school_code=i['school_code'],name_zh=i['name_zh'])
+        p=load_yaml(path.read_text(encoding='utf-8'));i=p['identity'];base=dict(school_code=i['school_code'],name_zh=i['name_zh'])
         save(path.with_name('VISUAL.md'),render_visual(p),args.check)
         save(path.with_name('PROFILE.md'),render_profile(p),args.check)
         exports.append(json.dumps(p,ensure_ascii=False,sort_keys=True)+'\n')

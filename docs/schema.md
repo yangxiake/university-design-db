@@ -99,3 +99,7 @@ GitHub 数据填充的事实增加 `source_type: community_dataset`、`upstream_
 ### 上游快照与差异
 
 MIT上游匹配数据存于`data/external/<仓库>/matched-fields.jsonl`，保留原始字段、学校标识码、来源及独立LICENSE。`community.snapshots`保存`repository/commit/data_path/school_code/upstream_record_name/upstream_fields/source/license/data_as_of/verified/checked_at`；原字段有主观评价、旧数据、占位文字或错误链接时仍可从快照追溯，但不自动成为本库采纳的学校事实。没有兼容数据许可的仓库只提取资源链接事实，不再分发完整原数据。
+
+## 可执行规范
+
+[`profile-schema-v3.json`](../data/profile-schema-v3.json)校验单校档案结构、事实封套、来源、日期和视觉元数据；[`ppt-export-schema-v1.json`](../data/ppt-export-schema-v1.json)独立校验PPT导出。两者使用Draft 2020-12，解析时只用本地定义，不获取远程规范。历史VI目录的`kinds`兼容文本标签，新记录采用列表。身份与范围对应、RGB/HEX一致、统计口径、非未来日期、文件状态与结构关系等由自定义校验共同检查。统一命令为`python scripts/check.py`，详见[质量检查说明](quality-checks.md)。

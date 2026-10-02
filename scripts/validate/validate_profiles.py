@@ -14,6 +14,7 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts/ingest"))
+from yaml_io import load_yaml
 from render_official import render as render_official  # noqa: E402
 from profile_extensions import FACTS as EXTENDED_FACTS, COLLECTIONS, rgb  # noqa: E402
 SCOPE = ROOT / "data/universities-scope-2026.csv"
@@ -185,7 +186,7 @@ def check_list(items, key, label, errors, release=False):
 def validate_profile(path, row, release=False):
     errors = []
     try:
-        profile = yaml.safe_load(path.read_text(encoding="utf-8"))
+        profile = load_yaml(path.read_text(encoding="utf-8"))
     except (OSError, yaml.YAMLError) as exc:
         return [str(path) + ": " + str(exc)], 0, False
     if not isinstance(profile, dict) or profile.get("schema_version") not in {2,3}:
@@ -469,7 +470,7 @@ def main():
     populated = ready_count = 0
     for path in paths:
         code = path.parent.name
-        if args.automatic_draft and yaml.safe_load(path.read_text()).get('schema_version')!=3:
+        if args.automatic_draft and load_yaml(path.read_text()).get('schema_version')!=3:
             errors.append(str(path)+': automatic edition requires schema_version 3')
         if code in found_codes or code not in by_code:
             errors.append(str(path) + ": duplicate or out-of-scope school code")
@@ -483,7 +484,7 @@ def main():
         if not official.exists():
             errors.append(str(path.parent) + ": OFFICIAL.md missing")
         else:
-            profile = yaml.safe_load(path.read_text(encoding="utf-8"))
+            profile = load_yaml(path.read_text(encoding="utf-8"))
             if official.read_text(encoding="utf-8") != render_official(profile):
                 errors.append(str(official) + ": generated resource view is stale")
     if (args.release or args.automatic_draft) and found_codes != set(by_code):

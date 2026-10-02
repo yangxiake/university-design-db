@@ -4,7 +4,7 @@
 import argparse
 import pathlib
 
-import yaml
+from yaml_io import load_yaml
 
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -47,7 +47,7 @@ def main():
     mismatches = []
     paths = list((ROOT / "universities").glob("*/*/profile.yaml"))
     for path in paths:
-        expected = render(yaml.safe_load(path.read_text(encoding="utf-8")))
+        expected = render(load_yaml(path.read_text(encoding="utf-8")))
         output = path.with_name("OFFICIAL.md")
         if args.check:
             if not output.exists() or output.read_text(encoding="utf-8") != expected:

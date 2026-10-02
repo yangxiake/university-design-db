@@ -77,3 +77,7 @@ for resource in choices:
 ```
 
 批量读取全部字段使用 [`indexes/profiles.jsonl`](../indexes/profiles.jsonl)。需要筛选图形类型、透明信息与来源时，使用 `logo-assets.csv`；配色使用 `color-palettes.csv`。派生索引均由单校 `profile.yaml` 生成，不另建一份手工事实源。
+
+## PPT精简导出
+
+[`ppt-profiles.jsonl`](../indexes/ppt-profiles.jsonl)和[配套CSV](../indexes/ppt-profiles.csv)覆盖1412所学校，集中提供标识候选与推荐理由、官方/印刷/参考配色、模板及短简介的完整来源。按学校标识码、地区、名称和素材状态查询的方法见[PPT导出v1说明](ppt-export-v1.md)。

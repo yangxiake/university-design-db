@@ -5,7 +5,7 @@ import csv
 import io
 import pathlib
 import re
-import yaml
+from yaml_io import load_yaml
 
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 STARTER_FIELDS=['school_code','name_zh','province','official_website','profile_path','visual_path',
@@ -63,9 +63,10 @@ def rows_for(profile,path):
     base=dict(school_code=identity['school_code'],name_zh=identity['name_zh'],province=identity['province'])
     entries=[];files=[]
     for entry in visual['vi_resources']:
-        if not re.search(r'PPT|演示文[稿档]',entry['title']+' '+' '.join(entry['kinds']),re.I):continue
+        kinds = entry['kinds'] if isinstance(entry['kinds'], list) else [entry['kinds']]
+        if not re.search(r'PPT|演示文[稿档]',entry['title']+' '+' '.join(kinds),re.I):continue
         # A PPTX file containing only a logo is an asset, not a slide template.
-        template=any('PPT模板' in k for k in entry['kinds'])
+        template=any('PPT模板' in k for k in kinds)
         category=('official_template' if template else 'official_visual_resource') if entry['official'] else ('community_template_reference' if template else 'community_visual_resource')
         row=dict(base,category=category,title=re.sub(r'\s+',' ',entry['title']).strip(),url=entry['url'],publisher=entry.get('publisher') or identity['name_zh'],
             official=entry['official'],use_scope=entry.get('use_scope') or 'unspecified',formats=';'.join(entry['formats']),
@@ -122,7 +123,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
     starter=[];resources=[];files=[]
     for path in sorted((ROOT/'universities').glob('*/*/profile.yaml')):
-        s,r,f=rows_for(yaml.safe_load(path.read_text()),path);starter.append(s);resources+=r;files+=f
+        s,r,f=rows_for(load_yaml(path.read_text()),path);starter.append(s);resources+=r;files+=f
     files=list({(f['school_code'],f['url'],f['archive_member']):f for f in files}.values())
     for filename,rows,fields in [('ppt-starter.csv',starter,STARTER_FIELDS),('ppt-resources.csv',resources,RESOURCE_FIELDS),('ppt-template-files.csv',files,TEMPLATE_FIELDS)]:
         output=ROOT/'indexes'/filename;expected=csv_text(rows,fields)
