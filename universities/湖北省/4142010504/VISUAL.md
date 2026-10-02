@@ -23,10 +23,31 @@
 |  | `#107038` | 16,112,56 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#087038` | 8,112,56 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#107838` | 16,120,56 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 华农绿 | 未公布 | 未公布 | primary | [100, 0, 100, 40] |  | 官方VI标准值 | [依据](https://fzc.hzau.edu.cn/info/1042/1786.htm) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://fzc.hzau.edu.cn/info/1042/1786.htm](https://fzc.hzau.edu.cn/info/1042/1786.htm)
+- [华中农业大学官方视觉规范](https://fzc.hzau.edu.cn/info/1042/1786.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://fzc.hzau.edu.cn/info/1042/1786.htm)。
+- [蓝色模板1.pptx](https://coi.hzau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2084921059&wbfileid=14F2345DEFE34CDD36AC7D1FE7BB7768)：["PPT模板"]；格式 PPTX；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://coi.hzau.edu.cn/xygk/wh/dzmb.htm)。
+  - 发布者：华中农业大学；适用范围：院系专用。
+  - 文件结构已读取：2页；画幅18142:10205；声明字体Angsana New、Arial、Calibri、Calibri Light、Cordia New、DaunPenh、DokChampa、Estrangelo Edessa、Euphemia、Gautami、Iskoola Pota、Kalinga、Kartika、Latha、MV Boli、Mangal、Microsoft Himalaya、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Nyala、Plantagenet Cherokee、Raavi、Shruti、Sylfaen、Times New Roman、Tunga、Vrinda、新細明體、游ゴシック、游ゴシック Light、等线、等线 Light、맑은 고딕；可编辑文本节点0；文件SHA256 `ff477111ad77dbc3dc2843ce7d1affc2a8c13aec9c218d730811ffeb67c15974`。
+- [红色模板1.pptx](https://coi.hzau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2084921059&wbfileid=86F0CB80C80BE2623C2DDE7D71677688)：["PPT模板"]；格式 PPTX；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://coi.hzau.edu.cn/xygk/wh/dzmb.htm)。
+  - 发布者：华中农业大学；适用范围：院系专用。
+  - 文件结构已读取：2页；画幅18142:10205；声明字体Angsana New、Arial、Calibri、Calibri Light、Cordia New、DaunPenh、DokChampa、Estrangelo Edessa、Euphemia、Gautami、Iskoola Pota、Kalinga、Kartika、Latha、MV Boli、Mangal、Microsoft Himalaya、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Nyala、Plantagenet Cherokee、Raavi、Shruti、Sylfaen、Times New Roman、Tunga、Vrinda、新細明體、游ゴシック、游ゴシック Light、等线、等线 Light、맑은 고딕；可编辑文本节点0；文件SHA256 `509624e11bc44635ec2ebd5a5ff574e9a62508710023f452f560db13c64e5a52`。
+- [蓝色模板2.pptx](https://coi.hzau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2084921059&wbfileid=A18797D6108FF1EC9B222F015E78CD78)：["PPT模板"]；格式 PPTX；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://coi.hzau.edu.cn/xygk/wh/dzmb.htm)。
+  - 发布者：华中农业大学；适用范围：院系专用。
+  - 文件结构已读取：2页；画幅18142:10205；声明字体Angsana New、Arial、Calibri、Calibri Light、Cordia New、DaunPenh、DokChampa、Estrangelo Edessa、Euphemia、Gautami、Iskoola Pota、Kalinga、Kartika、Latha、MV Boli、Mangal、Microsoft Himalaya、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Nyala、Plantagenet Cherokee、Raavi、Shruti、Sylfaen、Times New Roman、Tunga、Vrinda、新細明體、游ゴシック、游ゴシック Light、等线、等线 Light、맑은 고딕；可编辑文本节点0；文件SHA256 `647b46f872dfe93f67068d02379d2e00ee0376dac6201c12592bfef4f7c09015`。
+- [蓝色模版3.pptx](https://coi.hzau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2084921059&wbfileid=A1E56CF43EFEEAD2DE29B001ED0495D1)：["PPT模板"]；格式 PPTX；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://coi.hzau.edu.cn/xygk/wh/dzmb.htm)。
+  - 发布者：华中农业大学；适用范围：院系专用。
+  - 文件读取结果：inspection_failed；错误与已尝试网址见profile.yaml。
+- [蓝色模板4.pptx](https://coi.hzau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2084921059&wbfileid=C9184147AF8A8565C1AA458F5D610803)：["PPT模板"]；格式 PPTX；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://coi.hzau.edu.cn/xygk/wh/dzmb.htm)。
+  - 发布者：华中农业大学；适用范围：院系专用。
+  - 文件读取结果：inspection_failed；错误与已尝试网址见profile.yaml。
+- [红色模版2.pptx](https://coi.hzau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2084921059&wbfileid=CA8A40E3249061C0E1B06311F947B715)：["PPT模板"]；格式 PPTX；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://coi.hzau.edu.cn/xygk/wh/dzmb.htm)。
+  - 发布者：华中农业大学；适用范围：院系专用。
+  - 文件结构已读取：2页；画幅3629:2041；声明字体Angsana New、Arial、Calibri、Cordia New、DaunPenh、DokChampa、Estrangelo Edessa、Euphemia、Gautami、Iskoola Pota、Kalinga、Kartika、Latha、MV Boli、Mangal、Microsoft Himalaya、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Nyala、Plantagenet Cherokee、Raavi、Shruti、Times New Roman、Tunga、Vrinda、宋体、新細明體、맑은 고딕、ＭＳ Ｐゴシック；可编辑文本节点0；文件SHA256 `984dca09d57bb6fe0fc35a9135c058016111e73a81ba8a269d8f1908ac2d06e5`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

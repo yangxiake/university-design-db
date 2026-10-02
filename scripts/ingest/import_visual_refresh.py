@@ -14,10 +14,11 @@ TODAY=dt.date.today().isoformat()
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--decisions',default='data/review/visual-refresh-decisions-2026.yaml')
+    parser.add_argument('--changes',default='data/review/visual-refresh-changes-2026.jsonl')
     args=parser.parse_args()
     decisions=yaml.safe_load((ROOT/args.decisions).read_text())
     paths={p.parent.name:p for p in (ROOT/'universities').glob('*/*/profile.yaml')}
-    log_path=ROOT/'data/review/visual-refresh-changes-2026.jsonl'
+    log_path=ROOT/args.changes
     log=[json.loads(line) for line in log_path.read_text().splitlines()] if log_path.exists() else []
     for d in decisions:
         path=paths[d['school_code']];p=yaml.safe_load(path.read_text())
@@ -51,6 +52,13 @@ def main():
                 if current['availability']!='unresearched':retain(key,current,'current_VI_internal_conflict_replaces_old_mark')
                 p['visual'][key]=dict(value=None,source=None,verified='auto',checked_at=TODAY,availability='conflict',search_sources=[],
                     label=spec['label'],note=spec['reason'],candidates=[dict(c,source=d['source']) for c in spec['candidates']])
+        for spec in d.get('fact_statuses',[]):
+            key=spec['field'];current=p['visual'][key]
+            if key not in {'color_primary','color_secondary'} or spec['availability']!='not_found' or not spec['search_sources']:
+                raise ValueError('Only documented negative screen-color findings are supported')
+            if current['availability']=='unresearched' and current.get('verified')!='human':
+                p['visual'][key]=dict(value=None,source=None,verified='auto',checked_at=TODAY,
+                    availability='not_found',search_sources=spec['search_sources'],note=spec['note'])
         vi=p['visual']['vi_url']
         if vi.get('verified')!='human' and vi.get('value') in d.get('replace_vi_sources',[]):
             retain('vi_url',vi,'current_navigation_replaces_old_visual_entry')

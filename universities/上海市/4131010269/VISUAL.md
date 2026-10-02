@@ -30,11 +30,28 @@
 |  | `#B02040` | 176,32,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#B82040` | 184,32,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#B82848` | 184,40,72 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 师大红 | `#A41F35` | 164,31,53 | primary | [0, 100, 63, 29] | 201 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助灰 | `#555759` | 85,87,89 | reference | [0, 0, 0, 77] | 425 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助金 | `#86754D` | 134,117,77 | reference | [55, 53, 74, 4] | 871 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助银 | `#8E9090` | 142,144,144 | reference | [51, 41, 39, 0] | 877 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助色1777 C | `#FF637D` | 255,99,125 | reference | [0, 58, 36, 0] | 1777 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助色2577 C | `#AA7BC9` | 170,123,201 | reference | [40, 45, 0, 0] | 2577 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助色298 C | `#40B4E5` | 64,180,229 | reference | [69, 7, 0, 0] | 298 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助色3255 C | `#22D3C5` | 34,211,197 | reference | [49, 0, 28, 0] | 3255 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助色381 C | `#CFDB00` | 207,219,0 | reference | [20, 0, 91, 0] | 381 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
+| 辅助色1235 C | `#FFB819` | 255,184,25 | reference | [0, 29, 91, 0] | 1235 C | 官方VI标准值 | [依据](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.ecnu.edu.cn/wzcd/xxgk/xxbs.htm](https://www.ecnu.edu.cn/wzcd/xxgk/xxbs.htm)
+- [华东师范大学官方视觉规范](https://www.ecnu.edu.cn/wzcd/xxgk/xxbs/bsxz/jcbf/bzssygf.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.ecnu.edu.cn/__local/D/30/8F/14F22DED8156E8BD0A0503C8C2F_3A38DE45_45079.jpg)。
+- [PPT模版 (4：3).pptx](https://geo.ecnu.edu.cn/_upload/article/files/04/76/01d5b1bd49729fb608d7a7a6d4ad/02774492-0d3a-4958-ad73-491605c949da.pptx)：["PPT模板"]；格式 PPTX；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://geo.ecnu.edu.cn/9c/02/c43032a564226/page.htm)。
+  - 发布者：华东师范大学；适用范围：院系专用。
+  - 文件读取结果：inspection_failed；错误与已尝试网址见profile.yaml。
+- [PPT模版 (16：9).pptx](https://geo.ecnu.edu.cn/_upload/article/files/04/76/01d5b1bd49729fb608d7a7a6d4ad/45003860-5e80-416c-be98-9cac577edd9b.pptx)：["PPT模板"]；格式 PPTX；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://geo.ecnu.edu.cn/9c/02/c43032a564226/page.htm)。
+  - 发布者：华东师范大学；适用范围：院系专用。
+  - 文件读取结果：inspection_failed；错误与已尝试网址见profile.yaml。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

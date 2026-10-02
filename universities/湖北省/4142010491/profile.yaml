@@ -121,17 +121,27 @@ visual:
     search_sources: []
     source_sha256: b0cc6568a725439a82af115f0347d51d093be22353bc914c4861c2864cc8d886
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#9EA7AB'
+    source: https://vis.cug.edu.cn/__local/6/27/3D/3B4E059639638549114164FF984_03DB7B64_A8041.jpg
+    method: official_vi
+    label: 灰色（中性色补充）
+    basis: '校方VIS色彩规范1.8.2校徽色彩规范图；AI核对灰色RGB 158/167/171、Web #9EA7AB及CMYK 10/0/0/45，作为地大蓝中性色补充。'
+    cmyk:
+    - 10
+    - 0
+    - 0
+    - 45
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: d6e5453843933e282ff3c5f8efc95d6f7f496c6db16f4ffb7b05d759fed60325
   vi_url:
     value: https://vis.cug.edu.cn/jcbf/scgf.htm
     availability: found
     search_sources: []
-    source: https://vis.cug.edu.cn/__local/B/0E/FE/CF446CA7058BCB7C6CF1758C690_0A0E44E7_973DB.jpg
+    source: https://vis.cug.edu.cn/__local/6/27/3D/3B4E059639638549114164FF984_03DB7B64_A8041.jpg
     verified: auto
     checked_at: '2026-10-02'
   badge_description:
@@ -541,6 +551,28 @@ visual:
     availability: found
     basis: 校方VIS辅助色规范图；AI查看完整原图，“地质褐”只公布CMYK0/20/40/40，未公布RGB/HEX，不通过图片像素或无配置换算补造。
     source_sha256: 38f06728bc4fbed7314b61992d94a3d2d6c490e7e29bbebe1a9b5a7e27215605
+  - value: '#9EA7AB'
+    rgb:
+    - 158
+    - 167
+    - 171
+    cmyk:
+    - 10
+    - 0
+    - 0
+    - 45
+    pantone: null
+    label: 灰色（中性色补充）
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vis.cug.edu.cn/__local/6/27/3D/3B4E059639638549114164FF984_03DB7B64_A8041.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: '校方VIS色彩规范1.8.2校徽色彩规范图；AI核对灰色RGB 158/167/171、Web #9EA7AB及CMYK 10/0/0/45，作为地大蓝中性色补充。'
+    source_sha256: d6e5453843933e282ff3c5f8efc95d6f7f496c6db16f4ffb7b05d759fed60325
+    source_field: visual.color_secondary
   vi_resources:
   - title: 中国地质大学(武汉)官方视觉规范
     url: https://vis.cug.edu.cn/jcbf/scgf.htm
@@ -670,6 +702,22 @@ visual:
     availability: found
     source_sha256: 03e72d11558cb757daddd61e265a85ba11683af415cc032561af64d23838d1b0
     note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+  - title: 中国地质大学(武汉)官方视觉规范
+    url: https://vis.cug.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vis.cug.edu.cn/__local/6/27/3D/3B4E059639638549114164FF984_03DB7B64_A8041.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: '校方VIS色彩规范1.8.2校徽色彩规范图；AI核对灰色RGB 158/167/171、Web #9EA7AB及CMYK 10/0/0/45，作为地大蓝中性色补充。'
 culture:
   founded_year:
     value: 1952

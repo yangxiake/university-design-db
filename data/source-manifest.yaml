@@ -89,3 +89,14 @@ viewer:
   regional_bundles: viewer/data/provinces
   source: indexes/ppt-profiles.jsonl
   policy: Derived metadata only; original-source image URLs; browser preview status does not rewrite historical inspection facts.
+targeted_collection_batches:
+  m4_01:
+    baseline: data/review/m4-batch01-baseline-2026.json
+    targets: data/review/m4-batch01-targets-2026.yaml
+    source_receipts: data/review/m4-batch01-sources-2026.jsonl
+    header_receipts: data/review/m4-batch01-header-marks-2026.jsonl
+    header_recovery: data/review/m4-batch01-header-recovery-2026.jsonl
+    color_decisions: data/review/m4-batch01-color-decisions-2026.yaml
+    resource_decisions: data/review/m4-batch01-resource-decisions-2026.yaml
+    report: docs/m4-batch01-progress-2026.md
+    policy: Official source links and metadata only; login pages are access gaps; PDF/image school identity and color roles require documented AI review before fact imports; CMYK-only colors retain null screen values.

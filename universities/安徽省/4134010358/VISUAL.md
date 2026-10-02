@@ -30,5 +30,10 @@
 
 ## VI资源与下载条件
 
+- [C-公用PPT模板01-06](https://djyszw.ustc.edu.cn/__local/E/E1/B5/0D96956F1ADD768318E8434497A_7F2FE324_32AD0D.zip?e=.zip)：["PPT模板"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://djyszw.ustc.edu.cn/info/1070/6829.htm)。
+  - 发布者：中国科学技术大学；适用范围：学校通用。
+  - 文件容器已读取：ZIP；3321101字节；读取类型archive_structure；文件SHA256 `da13b7c1e3b4283571863ffaa123626c8e973f331ce7c80108358a1ec460f589`。
+- [中国科学技术大学VIS识别手册及附件](https://djyszw.ustc.edu.cn/info/1070/6829.htm)：["标识规范"]；格式 HTML；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://djyszw.ustc.edu.cn/info/1070/6829.htm)。
+  - 发布者：中国科学技术大学；适用范围：未明确。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

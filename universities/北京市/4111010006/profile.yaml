@@ -112,12 +112,22 @@ research:
   audit_key: '4111010006'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#005BAC'
+    source: https://xcb.buaa.edu.cn/__local/2/AE/A5/C684CC4B6B32B1E4FC3EF7C22EB_832CC73A_D32E.jpg
+    method: official_vi
+    label: 北航蓝
+    basis: 校党委宣传部色彩规范A2-01原图；AI查看“北航蓝”RGB 0/91/172、CMYK 100/60/0/0及PANTONE 2935 C。
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 0
+    pantone: 2935 C
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: cedd273d6be06fb557b2cde8bd99296fada31e6b4c56a3cea756967f66893a6c
   color_secondary:
     value: null
     source: null
@@ -460,6 +470,112 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 06e1787a99b7d600
+  - value: '#005BAC'
+    rgb:
+    - 0
+    - 91
+    - 172
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 0
+    pantone: 2935 C
+    label: 北航蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://xcb.buaa.edu.cn/__local/2/AE/A5/C684CC4B6B32B1E4FC3EF7C22EB_832CC73A_D32E.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校党委宣传部色彩规范A2-01原图；AI查看“北航蓝”RGB 0/91/172、CMYK 100/60/0/0及PANTONE 2935 C。
+    source_sha256: cedd273d6be06fb557b2cde8bd99296fada31e6b4c56a3cea756967f66893a6c
+    source_field: visual.color_primary
+  - value: '#003DA6'
+    rgb:
+    - 0
+    - 61
+    - 166
+    cmyk:
+    - 100
+    - 80
+    - 10
+    - 0
+    pantone: 293 C
+    label: 星空蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校党委宣传部色彩规范A2-02原图；AI核对四种辅助色的RGB、CMYK和专色编号。辅助色不得替代标准色，不能自动认定为校级第二主色。
+    source_sha256: c3c16aac45886272a201416cd67edc9b4c05091020d3420c54fb451a1d344489
+  - value: '#009BDE'
+    rgb:
+    - 0
+    - 155
+    - 222
+    cmyk:
+    - 100
+    - 30
+    - 0
+    - 0
+    pantone: 2925 C
+    label: 天空蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校党委宣传部色彩规范A2-02原图；AI核对四种辅助色的RGB、CMYK和专色编号。辅助色不得替代标准色，不能自动认定为校级第二主色。
+    source_sha256: c3c16aac45886272a201416cd67edc9b4c05091020d3420c54fb451a1d344489
+  - value: '#C30D23'
+    rgb:
+    - 195
+    - 13
+    - 35
+    cmyk:
+    - 15
+    - 100
+    - 90
+    - 10
+    pantone: 186 C
+    label: 中国红
+    role: reference
+    method: official_vi
+    official: true
+    source: https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校党委宣传部色彩规范A2-02原图；AI核对四种辅助色的RGB、CMYK和专色编号。辅助色不得替代标准色，不能自动认定为校级第二主色。
+    source_sha256: c3c16aac45886272a201416cd67edc9b4c05091020d3420c54fb451a1d344489
+  - value: '#878787'
+    rgb:
+    - 135
+    - 135
+    - 135
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 60
+    pantone: 423 C
+    label: 品质灰
+    role: reference
+    method: official_vi
+    official: true
+    source: https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校党委宣传部色彩规范A2-02原图；AI核对四种辅助色的RGB、CMYK和专色编号。辅助色不得替代标准色，不能自动认定为校级第二主色。
+    source_sha256: c3c16aac45886272a201416cd67edc9b4c05091020d3420c54fb451a1d344489
   vi_resources:
   - title: VI 系统
     url: https://xcb.buaa.edu.cn/vixt.htm
@@ -508,6 +624,76 @@ visual:
     availability: found
     source_sha256: 69c61b8179700120171739e7dc6011103b82ba54dbd5ff73df73d4fb5b9569ba
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 北京航空航天大学官方视觉规范
+    url: https://xcb.buaa.edu.cn/info/1091/2057.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://xcb.buaa.edu.cn/__local/2/AE/A5/C684CC4B6B32B1E4FC3EF7C22EB_832CC73A_D32E.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校党委宣传部色彩规范A2-01原图；AI查看“北航蓝”RGB 0/91/172、CMYK 100/60/0/0及PANTONE 2935 C。
+  - title: 北京航空航天大学官方视觉规范
+    url: https://xcb.buaa.edu.cn/info/1091/2057.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校党委宣传部色彩规范A2-02原图；AI核对四种辅助色的RGB、CMYK和专色编号。辅助色不得替代标准色，不能自动认定为校级第二主色。
+  - title: 北京航空航天大学标志组合汇总（2026-09-03发布页）
+    url: https://xcb.buaa.edu.cn/info/1091/1481.htm
+    source: https://xcb.buaa.edu.cn/info/1091/1481.htm
+    kinds:
+    - 标识规范
+    formats:
+    - HTML
+    publisher: 北京航空航天大学
+    access_requirement: 公开入口，后续可用性及独立授权以原发布页为准
+    content_read: true
+    download_status: page_read
+    note: 已读发布页；2026年标志组合附件只保存入口，未认定每个图形文件已读取或获得再分发许可。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 4a4e78f6ac7dd11cea830f35a77bf431fa2493cf8082c7e0f010bc9bc64e1633
+  - title: 附件：北京航空航天大学标志组合汇总.zip
+    url: https://xcb.buaa.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1501914575&wbfileid=C69804B8D963F6B76D07F5AE8415FCB2
+    source: https://xcb.buaa.edu.cn/info/1091/1481.htm
+    kinds:
+    - 标识规范
+    formats:
+    - ZIP
+    publisher: 北京航空航天大学
+    access_requirement: 公开入口，后续可用性及独立授权以原发布页为准
+    content_read: false
+    download_status: indexed_not_fetched
+    note: 2026-09-03发布的附件；当前只读取发布页，未读取附件内容。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 4a4e78f6ac7dd11cea830f35a77bf431fa2493cf8082c7e0f010bc9bc64e1633
 culture:
   founded_year:
     value: 1952

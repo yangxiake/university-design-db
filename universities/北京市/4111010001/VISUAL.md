@@ -28,6 +28,17 @@
 |  | `#B00000` | 176,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#B80000` | 184,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#C00000` | 192,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 北大红（印刷标准；屏幕值冲突） | 未公布 | 未公布 | primary | [0, 100, 100, 45] | PMS DS 821C / DS 821U | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| 专色金 | 未公布 | 未公布 | reference |  | 875 C | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| 专色银 | 未公布 | 未公布 | reference |  | 877 C | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| A9辅助色CMYK [0, 0, 8, 55] | 未公布 | 未公布 | reference | [0, 0, 8, 55] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| A9辅助色CMYK [0, 20, 35, 30] | 未公布 | 未公布 | reference | [0, 20, 35, 30] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| A9辅助色CMYK [60, 50, 100, 45] | 未公布 | 未公布 | reference | [60, 50, 100, 45] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| A9辅助色CMYK [100, 60, 0, 50] | 未公布 | 未公布 | reference | [100, 60, 0, 50] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| A9辅助色CMYK [0, 35, 75, 5] | 未公布 | 未公布 | reference | [0, 35, 75, 5] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| A9辅助色CMYK [20, 0, 100, 15] | 未公布 | 未公布 | reference | [20, 0, 100, 15] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| A9辅助色CMYK [60, 35, 0, 40] | 未公布 | 未公布 | reference | [60, 35, 0, 40] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
+| A9辅助色CMYK [0, 70, 100, 0] | 未公布 | 未公布 | reference | [0, 70, 100, 0] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
 
 主色来源存在差异：同一官方常见问题页的 RGB 139,0,18 与十六进制 94070A 不一致，待人工确认标准色。
 - `#8B0012`：[来源](https://vim.pku.edu.cn/cjwt/index.htm)；
@@ -40,5 +51,6 @@
 - 现有VI入口：[https://vim.pku.edu.cn/](https://vim.pku.edu.cn/)
 - [下载专区](https://vim.pku.edu.cn/xzzq/index.htm)：校徽，校名，配色等；格式 png,eps；访问条件 否。社区记录[来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md)。
 - [视觉形象识别系统](https://vim.pku.edu.cn/bjdxsjxxsbxt/index.htm)：校徽，校名，配色等；格式 png,eps；访问条件 否。社区记录[来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md)。
+- [北京大学官方视觉规范](https://vim.pku.edu.cn/)：["标识规范", "标准色"]；格式 PDF；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://vim.pku.edu.cn/docs/20171026163443134569.pdf)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

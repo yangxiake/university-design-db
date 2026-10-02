@@ -21,9 +21,18 @@ TODAY=dt.date.today().isoformat()
 NOT_HEADER=re.compile(r'djlogo|djszzx|党建|党徽|教务|logo_jw|browser|modal|partner|friend|news-scroll',re.I)
 
 
+def excluded_header_mark(image):
+    # Some school headers wrap the actual logo in a menu-mod layout. The
+    # wrapper name does not make that logo a navigation button; direct image
+    # labels/paths containing menu, icon, search, etc. remain excluded.
+    context=re.sub(r'(?<!\S)menu-mod(?!\S)','',image.get('context') or '')
+    evidence=context+' '+(image.get('label') or '')+' '+(image.get('src') or '')
+    return bool(NOT_HEADER.search(evidence) or EXCLUDED_MARK.search(evidence))
+
+
 def is_header_reference(image):
     context=image.get('context') or '';label=image.get('label') or '';src=image.get('src') or ''
-    if NOT_HEADER.search(context+' '+label+' '+src) or EXCLUDED_MARK.search(context+' '+label+' '+src):return False
+    if excluded_header_mark(image):return False
     if image.get('css_url'):return bool(MARK.search(context))
     return image.get('position',99)<=10 or bool(MARK.search(context))
 
@@ -42,7 +51,7 @@ class HeaderPage(Page):
         if tag=='img' and self.image_count<=50:
             src=a.get('data-original') or a.get('data-lazy-src') or a.get('data-src') or a.get('src') or ''
             label=' '.join(a.get(k) or '' for k in ('alt','title','class','id'))
-            if MARK.search(src+' '+label+' '+context) and not EXCLUDED_MARK.search(src+' '+label+' '+context):
+            if MARK.search(src+' '+label+' '+context) and not excluded_header_mark(dict(src=src,label=label,context=context)):
                 self.extra_images.append(dict(src=src,label=label[:120],context=context[:160],position=self.image_count))
     def handle_data(self,data):
         super().handle_data(data)
@@ -113,14 +122,18 @@ def collect(identity):
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--workers',type=int,default=10)
     parser.add_argument('--collect-only',action='store_true');parser.add_argument('--import-only',action='store_true')
+    parser.add_argument('--output',default='data/review/header-css-marks-2026.jsonl',help='Separate batch ledger; earlier evidence stays intact')
+    parser.add_argument('--school-code',action='append',help='Read selected schools into this ledger')
     args=parser.parse_args();paths={p.parent.name:p for p in (ROOT/'universities').glob('*/*/profile.yaml')}
+    output=ROOT/args.output
     targets=[]
     for code,path in paths.items():
         p=yaml.load(path.read_text(),Loader=yaml.CSafeLoader)
         if not p['visual']['logo_assets'] and p['identity']['official_website'].get('value'):targets.append(p['identity'])
-    records={r['school_code']:r for r in map(json.loads,OUTPUT.read_text().splitlines())} if OUTPUT.exists() else {}
+    if args.school_code:targets=[i for i in targets if i['school_code'] in args.school_code]
+    records={r['school_code']:r for r in map(json.loads,output.read_text().splitlines())} if output.exists() else {}
     def save():
-        temporary=OUTPUT.with_suffix('.pending');temporary.write_text(''.join(json.dumps(records[c],ensure_ascii=False)+'\n' for c in sorted(records)));temporary.replace(OUTPUT)
+        temporary=output.with_suffix('.pending');temporary.write_text(''.join(json.dumps(records[c],ensure_ascii=False)+'\n' for c in sorted(records)));temporary.replace(output)
     if not args.import_only:
         pending=[i for i in targets if i['school_code'] not in records]
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:

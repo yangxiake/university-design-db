@@ -41,5 +41,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[http://vi.hust.edu.cn/](http://vi.hust.edu.cn/)
+- [华中科技大学视觉标识使用规范入口（2024版封面）](https://www.hust.edu.cn/xmxhxg.htm)：["标识规范"]；格式 HTML；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://www.hust.edu.cn/xmxhxg.htm)。
+  - 发布者：华中科技大学；适用范围：未明确。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

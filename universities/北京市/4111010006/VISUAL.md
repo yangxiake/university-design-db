@@ -25,6 +25,11 @@
 |  | `#004098` | 0,64,152 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0040A0` | 0,64,160 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#003898` | 0,56,152 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 北航蓝 | `#005BAC` | 0,91,172 | primary | [100, 60, 0, 0] | 2935 C | 官方VI标准值 | [依据](https://xcb.buaa.edu.cn/__local/2/AE/A5/C684CC4B6B32B1E4FC3EF7C22EB_832CC73A_D32E.jpg) |
+| 星空蓝 | `#003DA6` | 0,61,166 | reference | [100, 80, 10, 0] | 293 C | 官方VI标准值 | [依据](https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg) |
+| 天空蓝 | `#009BDE` | 0,155,222 | reference | [100, 30, 0, 0] | 2925 C | 官方VI标准值 | [依据](https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg) |
+| 中国红 | `#C30D23` | 195,13,35 | reference | [15, 100, 90, 10] | 186 C | 官方VI标准值 | [依据](https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg) |
+| 品质灰 | `#878787` | 135,135,135 | reference | [0, 0, 0, 60] | 423 C | 官方VI标准值 | [依据](https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -34,5 +39,11 @@
 - [VI 系统](https://xcb.buaa.edu.cn/vixt.htm)：校徽，校名，配色等；格式 ai；访问条件 否/。社区记录[来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md)。
 - [VI系统-党委宣传部](https://xcb.buaa.edu.cn/vixt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.buaa.edu.cn/vixt.htm)。
 - [北京航空航天大学视觉识别系统管理手册封面](https://xcb.buaa.edu.cn/info/1091/2059.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.buaa.edu.cn/info/1091/2059.htm)。
+- [北京航空航天大学官方视觉规范](https://xcb.buaa.edu.cn/info/1091/2057.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://xcb.buaa.edu.cn/__local/2/AE/A5/C684CC4B6B32B1E4FC3EF7C22EB_832CC73A_D32E.jpg)。
+- [北京航空航天大学官方视觉规范](https://xcb.buaa.edu.cn/info/1091/2057.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://xcb.buaa.edu.cn/__local/A/A3/47/9AE5ACA24D031E8B89096185333_443E9AC6_C7E1.jpg)。
+- [北京航空航天大学标志组合汇总（2026-09-03发布页）](https://xcb.buaa.edu.cn/info/1091/1481.htm)：["标识规范"]；格式 HTML；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://xcb.buaa.edu.cn/info/1091/1481.htm)。
+  - 发布者：北京航空航天大学；适用范围：未明确。
+- [附件：北京航空航天大学标志组合汇总.zip](https://xcb.buaa.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1501914575&wbfileid=C69804B8D963F6B76D07F5AE8415FCB2)：["标识规范"]；格式 ZIP；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://xcb.buaa.edu.cn/info/1091/1481.htm)。
+  - 发布者：北京航空航天大学；适用范围：未明确。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -84,10 +84,13 @@ visual:
   color_primary:
     value: null
     source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: not_found
+    search_sources:
+    - https://www.cafa.edu.cn/st/2018/10519466.htm
+    - https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg
+    note: 本次读完该视觉系统页13幅图；C_02给出五组CMYK，未在本页找到校级RGB/HEX或唯一主色排序。印刷色另见color_palette，不推断学校其他资料没有数字屏幕色。
   color_secondary:
     value: null
     source: null
@@ -96,12 +99,12 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.cafa.edu.cn/st/2018/10519466.htm
+    availability: found
     search_sources: []
+    source: https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg
+    verified: auto
+    checked_at: '2026-10-02'
   badge_description:
     value: null
     source: null
@@ -242,7 +245,127 @@ visual:
     height: 337
     has_alpha: true
     transparent_background: true
-  color_palette: []
+  - asset_id: 1b08f922bdd1aaf09329ead2
+    kind: wordmark
+    title: 中央美术学院中英文校名黑色展示稿（灰底JPG）
+    url: https://www.cafa.edu.cn/Library/dynamic.images/info/2018123204741973.jpg
+    source: https://www.cafa.edu.cn/st/2018/10519466.htm
+    file_name: 2018123204741973.jpg
+    publisher: 中央美术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中央美术学院
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    usage_note: 官网公开展示稿，JPEG灰色底，不是透明矢量源文件；未裁剪或重绘，按学校标识规则使用。本库保存链接与元数据。
+    source_type: official_website
+    identity_basis:
+      basis: AI查看官网CAFA LOGO栏目首幅图，确认中央美术学院中文手书和Central Academy of Fine Arts英文校名。
+    sha256: 961cccf2a16089b70ca0e42fe306e3262b129afb56653847b4360e6e8718ce91
+    access_status: content_inspected
+    byte_size: 10977
+    format: jpeg
+    vector: false
+    width: 700
+    representation: raster
+    height: 408
+    has_alpha: false
+    transparent_background: false
+  color_palette:
+  - value: null
+    rgb: null
+    cmyk:
+    - 48
+    - 29
+    - 26
+    - 76
+    pantone: null
+    label: 深灰（C_02）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉系统C_02“标志标准CMYK色彩”图；AI逐项查看五组数值。未公布RGB/HEX及唯一主色排序，保留印刷标准色，不从色块采样替代数字标准。
+    source_sha256: 8e04ddd450afb4afd99bb761141f4ad52a121e34bdc7417d94727fbc403e5fc2
+  - value: null
+    rgb: null
+    cmyk:
+    - 2
+    - 99
+    - 62
+    - 11
+    pantone: null
+    label: 红色（C_02）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉系统C_02“标志标准CMYK色彩”图；AI逐项查看五组数值。未公布RGB/HEX及唯一主色排序，保留印刷标准色，不从色块采样替代数字标准。
+    source_sha256: 8e04ddd450afb4afd99bb761141f4ad52a121e34bdc7417d94727fbc403e5fc2
+  - value: null
+    rgb: null
+    cmyk:
+    - 90
+    - 21
+    - 60
+    - 65
+    pantone: null
+    label: 深绿（C_02）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉系统C_02“标志标准CMYK色彩”图；AI逐项查看五组数值。未公布RGB/HEX及唯一主色排序，保留印刷标准色，不从色块采样替代数字标准。
+    source_sha256: 8e04ddd450afb4afd99bb761141f4ad52a121e34bdc7417d94727fbc403e5fc2
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: null
+    label: 白色（C_02）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉系统C_02“标志标准CMYK色彩”图；AI逐项查看五组数值。未公布RGB/HEX及唯一主色排序，保留印刷标准色，不从色块采样替代数字标准。
+    source_sha256: 8e04ddd450afb4afd99bb761141f4ad52a121e34bdc7417d94727fbc403e5fc2
+  - value: null
+    rgb: null
+    cmyk:
+    - 63
+    - 62
+    - 59
+    - 94
+    pantone: null
+    label: 黑色（C_02）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉系统C_02“标志标准CMYK色彩”图；AI逐项查看五组数值。未公布RGB/HEX及唯一主色排序，保留印刷标准色，不从色块采样替代数字标准。
+    source_sha256: 8e04ddd450afb4afd99bb761141f4ad52a121e34bdc7417d94727fbc403e5fc2
   vi_resources:
   - title: 视觉系统
     url: https://www.cafa.edu.cn/st/2018/10519466.htm#
@@ -353,6 +476,22 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 中央美术学院官方视觉规范
+    url: https://www.cafa.edu.cn/st/2018/10519466.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 官网视觉系统C_02“标志标准CMYK色彩”图；AI逐项查看五组数值。未公布RGB/HEX及唯一主色排序，保留印刷标准色，不从色块采样替代数字标准。
 culture:
   founded_year:
     value: 1918

@@ -30,6 +30,7 @@
 |  | `#0888C8` | 8,136,200 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 | 地大蓝 | `#006DB8` | 0,109,184 | primary | [100, 50, 0, 0] |  | 官方VI标准值 | [依据](https://vis.cug.edu.cn/__local/B/9A/0B/B78E49FE6150FD181792F99EEB3_4EE20266_AD90E.jpg) |
 | 地质褐 | 未公布 | 未公布 | accent | [0, 20, 40, 40] |  | 官方VI标准值 | [依据](https://vis.cug.edu.cn/__local/B/0E/FE/CF446CA7058BCB7C6CF1758C690_0A0E44E7_973DB.jpg) |
+| 灰色（中性色补充） | `#9EA7AB` | 158,167,171 | secondary | [10, 0, 0, 45] |  | 官方VI标准值 | [依据](https://vis.cug.edu.cn/__local/6/27/3D/3B4E059639638549114164FF984_03DB7B64_A8041.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -44,5 +45,6 @@
 - [校徽色彩规范-ai.zip](https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=3BAFC6AA235F70DFD580FDE0638100AA)：["色彩规范"]；格式 ZIP；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vis.cug.edu.cn/jcbf/scgf.htm)。
 - [校徽色彩规范-cdr.zip](https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=610305B6F92A8F12176DA14BB453EC21)：["色彩规范"]；格式 ZIP；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vis.cug.edu.cn/jcbf/scgf.htm)。
 - [校徽色彩规范-jpg.zip](https://vis.cug.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1763169110&wbfileid=ACBC879A82FE077EF2BA84D7BDE09346)：["色彩规范"]；格式 ZIP；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vis.cug.edu.cn/jcbf/scgf.htm)。
+- [中国地质大学(武汉)官方视觉规范](https://vis.cug.edu.cn/jcbf/scgf.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://vis.cug.edu.cn/__local/6/27/3D/3B4E059639638549114164FF984_03DB7B64_A8041.jpg)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

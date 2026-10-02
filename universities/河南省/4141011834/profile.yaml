@@ -66,19 +66,39 @@ research:
   audit_key: '4141011834'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#FF0000'
+    source: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    method: official_vi
+    label: 科大典雅红/中国红
+    basis: 官网视觉形象识别手册PDF第14—15页，A009/A010；AI核对标准色与辅助色印出的RGB/HEX和CMYK，按数值记录，不以色块外观纠正手册。
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 0
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 3ab63e9c392ce08821344418b22896718178459be87ee06b8dd1a76970a8a3dd
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#000000'
+    source: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    method: official_vi
+    label: 科大典雅黑/大地黑
+    basis: 官网视觉形象识别手册PDF第14—15页，A009/A010；AI核对标准色与辅助色印出的RGB/HEX和CMYK，按数值记录，不以色块外观纠正手册。
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 3ab63e9c392ce08821344418b22896718178459be87ee06b8dd1a76970a8a3dd
   vi_url:
     value: https://www.hhstu.edu.cn/xxgk/xxbz.htm
     source: https://www.hhstu.edu.cn/xxgk/xxbz.htm
@@ -237,6 +257,113 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
+  - value: '#FF0000'
+    rgb:
+    - 255
+    - 0
+    - 0
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 科大典雅红/中国红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉形象识别手册PDF第14—15页，A009/A010；AI核对标准色与辅助色印出的RGB/HEX和CMYK，按数值记录，不以色块外观纠正手册。
+    source_sha256: 3ab63e9c392ce08821344418b22896718178459be87ee06b8dd1a76970a8a3dd
+    source_field: visual.color_primary
+  - value: '#000000'
+    rgb:
+    - 0
+    - 0
+    - 0
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: null
+    label: 科大典雅黑/大地黑
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉形象识别手册PDF第14—15页，A009/A010；AI核对标准色与辅助色印出的RGB/HEX和CMYK，按数值记录，不以色块外观纠正手册。
+    source_sha256: 3ab63e9c392ce08821344418b22896718178459be87ee06b8dd1a76970a8a3dd
+    source_field: visual.color_secondary
+  - value: '#FFFFFF'
+    rgb:
+    - 255
+    - 255
+    - 255
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: null
+    label: 白色
+    role: reference
+    method: official_vi
+    official: true
+    source: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉形象识别手册PDF第14—15页，A009/A010；AI核对标准色与辅助色印出的RGB/HEX和CMYK，按数值记录，不以色块外观纠正手册。
+    source_sha256: 3ab63e9c392ce08821344418b22896718178459be87ee06b8dd1a76970a8a3dd
+  - value: '#E07F15'
+    rgb:
+    - 224
+    - 127
+    - 21
+    cmyk:
+    - 0
+    - 38
+    - 80
+    - 12
+    pantone: null
+    label: 黄河黄
+    role: reference
+    method: official_vi
+    official: true
+    source: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉形象识别手册PDF第14—15页，A009/A010；AI核对标准色与辅助色印出的RGB/HEX和CMYK，按数值记录，不以色块外观纠正手册。
+    source_sha256: 3ab63e9c392ce08821344418b22896718178459be87ee06b8dd1a76970a8a3dd
+  - value: '#0033FF'
+    rgb:
+    - 0
+    - 51
+    - 255
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 0
+    pantone: null
+    label: 蓝天蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网视觉形象识别手册PDF第14—15页，A009/A010；AI核对标准色与辅助色印出的RGB/HEX和CMYK，按数值记录，不以色块外观纠正手册。
+    source_sha256: 3ab63e9c392ce08821344418b22896718178459be87ee06b8dd1a76970a8a3dd
   vi_resources:
   - title: 学校标志-黄河科技学院
     url: http://www.hhstu.edu.cn/xxgk/xxbz.htm
@@ -270,6 +397,22 @@ visual:
     availability: found
     source_sha256: d2a7ce79d8b367a177ce12ab3e5363503c514f135ed6a2ac9aaa4f9eca244cb6
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 黄河科技学院官方视觉规范
+    url: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://xb.hhstu.edu.cn/__local/7/EB/02/D6B35921E92FFF7189C894524DC_8EFEE73F_32C8E0.pdf
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 官网视觉形象识别手册PDF第14—15页，A009/A010；AI核对标准色与辅助色印出的RGB/HEX和CMYK，按数值记录，不以色块外观纠正手册。
 culture:
   founded_year:
     value: 1984

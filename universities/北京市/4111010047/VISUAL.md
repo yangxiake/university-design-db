@@ -10,6 +10,7 @@
 | 校名文字 | CAFA_wordmark.svg | [文件](https://raw.githubusercontent.com/HeyHuazi/SVGLOGO/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/CAFA_wordmark.svg) · [来源](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/CAFA_wordmark.svg) | 社区 | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://www.cafa.edu.cn/library/image/logo.png) · [来源](https://www.cafa.edu.cn/) | 官网 | png | 194 × 70 | content_inspected | 未独立声明 |
 | 校徽 | central-academy-of-fine-arts-logo-1024px.png | [文件](https://cdn.urongda.com/images/normal/medium/central-academy-of-fine-arts-logo-1024px.png) · [来源](https://www.urongda.com/logos/4111010047) | 社区 | png | 1024 × 337 | content_inspected | 未独立声明 |
+| 校名文字 | 2018123204741973.jpg | [文件](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123204741973.jpg) · [来源](https://www.cafa.edu.cn/st/2018/10519466.htm) | 官网 | jpeg | 700 × 408 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -17,13 +18,17 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
-尚无附来源配色。
+| 深灰（C_02） | 未公布 | 未公布 | reference | [48, 29, 26, 76] |  | 官方VI标准值 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg) |
+| 红色（C_02） | 未公布 | 未公布 | reference | [2, 99, 62, 11] |  | 官方VI标准值 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg) |
+| 深绿（C_02） | 未公布 | 未公布 | reference | [90, 21, 60, 65] |  | 官方VI标准值 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg) |
+| 白色（C_02） | 未公布 | 未公布 | reference | [0, 0, 0, 0] |  | 官方VI标准值 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg) |
+| 黑色（C_02） | 未公布 | 未公布 | reference | [63, 62, 59, 94] |  | 官方VI标准值 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.cafa.edu.cn/st/2018/10519466.htm](https://www.cafa.edu.cn/st/2018/10519466.htm)
 - [视觉系统](https://www.cafa.edu.cn/st/2018/10519466.htm#)：校名，配色；格式 未知；访问条件 否。社区记录[来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md)。
 - [中央美术学院社区校徽目录](https://www.urongda.com/logos/4111010047)：["社区校徽目录"]；格式 HTML；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4111010047)。
   - 发布者：urongda 校徽大全；适用范围：未明确。
@@ -35,5 +40,6 @@
   - 发布者：urongda 校徽大全；适用范围：未明确。
 - [中央美术学院-logo-512px.png](https://url90.ctfile.com/f/56298190-1419151538-0abe2b?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4111010047)。
   - 发布者：urongda 校徽大全；适用范围：未明确。
+- [中央美术学院官方视觉规范](https://www.cafa.edu.cn/st/2018/10519466.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

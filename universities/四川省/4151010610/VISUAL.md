@@ -28,11 +28,17 @@
 |  | `#E00010` | 224,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#E80010` | 232,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#F00010` | 240,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 锦绣红 | 未公布 | 未公布 | primary | [12, 92, 95, 20] |  | 官方VI标准值 | [依据](https://scu.edu.cn/wj/1402363144357573-1402363144360249.pdf) |
+| 优雅灰 | 未公布 | 未公布 | secondary | [47, 37, 37, 0] |  | 官方VI标准值 | [依据](https://scu.edu.cn/wj/1402363144357573-1402363144360249.pdf) |
+| 宝石蓝 | 未公布 | 未公布 | reference | [100, 60, 0, 15] |  | 官方VI标准值 | [依据](https://scu.edu.cn/wj/1402363144357573-1402363144360249.pdf) |
+| 荷叶绿 | 未公布 | 未公布 | reference | [100, 0, 90, 15] |  | 官方VI标准值 | [依据](https://scu.edu.cn/wj/1402363144357573-1402363144360249.pdf) |
+| 银杏黄 | 未公布 | 未公布 | reference | [0, 40, 100, 15] |  | 官方VI标准值 | [依据](https://scu.edu.cn/wj/1402363144357573-1402363144360249.pdf) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.scu.edu.cn/xxgk/cdbs.htm](https://www.scu.edu.cn/xxgk/cdbs.htm)
+- [四川大学官方视觉规范](https://www.scu.edu.cn/xxgk/cdbs.htm)：["标识规范", "标准色"]；格式 PDF；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://scu.edu.cn/wj/1402363144357573-1402363144360249.pdf)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -66,12 +66,22 @@ research:
   audit_key: '4114013535'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#B11F24'
+    source: https://www.jzci.edu.cn/images/ny/xuexiaoVISshiyongshuoming.pdf
+    method: official_vi
+    label: 校徽中国红
+    basis: 官网VIS使用说明PDF第1页；AI查看学校名称及标准色卡，RGB 177/31/36，CMYK 38/99/99/4。
+    cmyk:
+    - 38
+    - 99
+    - 99
+    - 4
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 97bf5e1e0690168950d9a18f7b2b88dad0581dd09fdc908b8d5388577bc416a1
   color_secondary:
     value: null
     source: null
@@ -80,12 +90,12 @@ visual:
     availability: unresearched
     search_sources: []
   vi_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.jzci.edu.cn/images/ny/xuexiaoVISshiyongshuoming.pdf
+    availability: found
     search_sources: []
+    source: https://www.jzci.edu.cn/images/ny/xuexiaoVISshiyongshuoming.pdf
+    verified: auto
+    checked_at: '2026-10-02'
   badge_description:
     value: null
     source: null
@@ -130,8 +140,46 @@ visual:
     byte_size: 69553
     representation: raster
     resolved_url: https://www.jzci.edu.cn/images/logo1.png
-  color_palette: []
-  vi_resources: []
+  color_palette:
+  - value: '#B11F24'
+    rgb:
+    - 177
+    - 31
+    - 36
+    cmyk:
+    - 38
+    - 99
+    - 99
+    - 4
+    pantone: null
+    label: 校徽中国红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.jzci.edu.cn/images/ny/xuexiaoVISshiyongshuoming.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 官网VIS使用说明PDF第1页；AI查看学校名称及标准色卡，RGB 177/31/36，CMYK 38/99/99/4。
+    source_sha256: 97bf5e1e0690168950d9a18f7b2b88dad0581dd09fdc908b8d5388577bc416a1
+    source_field: visual.color_primary
+  vi_resources:
+  - title: 晋中信息学院官方视觉规范
+    url: https://www.jzci.edu.cn/images/ny/xuexiaoVISshiyongshuoming.pdf
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.jzci.edu.cn/images/ny/xuexiaoVISshiyongshuoming.pdf
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 官网VIS使用说明PDF第1页；AI查看学校名称及标准色卡，RGB 177/31/36，CMYK 38/99/99/4。
 culture:
   founded_year:
     value: null
