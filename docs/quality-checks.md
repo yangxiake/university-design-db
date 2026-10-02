@@ -23,7 +23,7 @@ Python 3.9+，依赖安装到本地虚拟环境：
 
 ## GitHub Actions
 
-工作流为[Data quality](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)。推送、PR及手动触发运行，Python矩阵为3.9、3.13；安装依赖后执行同一本地检查入口。标准校验不调用联网采集脚本。工作流只获仓库读取权限，官方checkout/setup-python操作固定到完整提交SHA。
+本地已准备`.github/workflows/quality.yml`；当前GitHub拒绝推送工作流，因为登录凭据缺少`workflow`权限。工作流尚未进入远端，GitHub运行验收未完成。授权并推送后，工作流为[Data quality](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)。推送、PR及手动触发运行，Python矩阵为3.9、3.13；安装依赖后执行同一本地检查入口。标准校验不调用联网采集脚本。工作流只获仓库读取权限，官方checkout/setup-python操作固定到完整提交SHA。
 
 jsonschema固定为4.25.1，以兼容Python 3.9最低版本，版本依据见[PyPI元数据](https://pypi.org/project/jsonschema/4.25.1/)。每套运行单独显示结果，超时或任何检查失败都不计为通过。
 
@@ -32,7 +32,7 @@ jsonschema固定为4.25.1，以兼容Python 3.9最低版本，版本依据见[Py
 - 全部1412份档案和1412条精简导出通过结构与语义检查。
 - 新增边界覆盖身份重复、无来源正向事实、RGB/HEX不一致、过期导出、仅印刷主色、来源冲突、访问失败、反白/灰色标识、压缩包成员、CSV完整结构、统计口径、社区标记及查询结果。
 - 本地Python 3.9完整检查通过：110项测试、11项质量关卡；仓库文件哈希保持一致。
-- GitHub两套Python运行结果将在实际完成后记录。
+- GitHub两套Python尚未运行：当前凭据只有repo/read:org/gist权限，工作流推送被GitHub拒绝；需完成workflow授权后继续实际运行验收。
 
 ## PPT导出实际数量
 
