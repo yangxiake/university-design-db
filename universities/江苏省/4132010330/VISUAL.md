@@ -4,11 +4,11 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.nsi.edu.cn/_upload/tpl/01/87/391/template391/images/logo.svg) · [来源](https://www.nsi.edu.cn/) | svg | 357.665 × 90.028 | content_inspected | 未独立声明 |
-| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/南京体育学院.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | jpeg | 500 × 500 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://www.nsi.edu.cn/_upload/site/00/5a/90/logo.png) · [来源](https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm) | png | 405 × 70 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | logo.svg | [文件](https://www.nsi.edu.cn/_upload/tpl/01/87/391/template391/images/logo.svg) · [来源](https://www.nsi.edu.cn/) | 官网 | svg | 357.665 × 90.028 | content_inspected | 未独立声明 |
+| 校徽 | 南京体育学院.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/南京体育学院.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | jpeg | 500 × 500 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://www.nsi.edu.cn/_upload/site/00/5a/90/logo.png) · [来源](https://www.nsi.edu.cn/xcb/5e/f3/c4433a89843/page.htm) | 官网 | png | 405 × 70 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

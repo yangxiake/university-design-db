@@ -4,11 +4,11 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.hbmzu.edu.cn/images/logo.png) · [来源](https://www.hbmzu.edu.cn/) | png | 169 × 186 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://www.hbmzu.edu.cn/images/logo2.png) · [来源](https://www.hbmzu.edu.cn/) | png | 338 × 92 | content_inspected | 未独立声明 |
-| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/湖北民族大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | jpeg | 1075 × 1075 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://www.hbmzu.edu.cn/images/logo.png) · [来源](https://www.hbmzu.edu.cn/) | 官网 | png | 169 × 186 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo2.png | [文件](https://www.hbmzu.edu.cn/images/logo2.png) · [来源](https://www.hbmzu.edu.cn/) | 官网 | png | 338 × 92 | content_inspected | 未独立声明 |
+| 校徽 | 湖北民族大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/湖北民族大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | jpeg | 1075 × 1075 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

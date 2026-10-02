@@ -20,6 +20,8 @@
 
 选校徽时，先筛`visual.logo_assets.kind=badge`。`wordmark`是校名文字，`site_identity`是具体构成待核验的官网页眉标识，不能假称纯校徽。标识条目的`official`只表明发布来源，颜色条目的`official`另由VI标准证据决定。`content_inspected`表示读到了文件结构，`indexed_not_fetched`仅表示来源提供了地址；文件名为.svg不保证内容是矢量。`vector/representation`、尺寸、透明信息不确定时为null；透明通道存在不表示整张图的背景已透明。独立图形许可与仓库代码许可分别查看。
 
+`combination`为徽名组合，`variant`保留横竖、蓝黑及双语标签。`source_type=community_website`是公开网站整理的预览图，即使目录声称“官方文件”，本库仍保留社区来源；无Git版本时看页面/文件哈希和日期。`dimensions_in_filename`只是上游文件名声明，实测尺寸看`width/height`。社区云盘条目为入口，未读取的文件不能称为已经下载。
+
 地址、邮编与联系方式保存官网页脚或学校联系页的短证据和`basis`。多校区地址不默认第一项为本部；多邮编无明确对应关系时不选一个替代全校。电话保留招生/办公等原标签；不把传真、举报或技术支持电话当作学校总机。门户网址记录官网导航出处，发现链接不等于目标页已成功访问。
 
 画地图时，`coordinates.crs=unspecified`的社区点不能与WGS84/GCJ02精确坐标混用；这些点可表示近似分布，不表示学校全部校区。排名只能按同一publisher/ranking_name/year/scope比较，不能拼成无年份的“学校排名”。学科评估是按round与completeness标注的节选，不以空列表推断学校未参评。

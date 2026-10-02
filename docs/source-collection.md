@@ -78,3 +78,13 @@ SVG支持UTF-8/UTF-16与受限的Illustrator命名空间字面量，不加载外
 `inspect_template_files.py`续查已索引的公开文件；使用固定Git提交或同校发布来源，保留不同协议和文件入口的访问结果。PPTX/ZIP只作为数据读取，不提取至成员路径，不运行上游代码、SKILL、宏或外部链接。XML拒绝实体声明并限制读取大小；只提取画幅、页数、声明字体、可编辑文本节点、主题内色值、外部关系数量与哈希。主题内色值不写成校方标准色。旧OLE/RAR仅识别文件头，不能声称已取得页数。错误、验证页、过大文件等保留原因，不绕过访问条件。
 
 运行其他资源导入后，可用`inspect_template_files.py --import-only`重新应用已有读取台账，再生成视图和PPT索引。实际PPTX文件及包内成员见`indexes/ppt-template-files.csv`；结构读取不等于视觉渲染、完整编辑能力或已确认授权。
+
+## 标识缺口的补充来源
+
+`collect_header_css_marks.py`针对缺标识资源的已确认学校官网，检查静态HTML、惰性加载图片和同校CSS的明确标识规则。相对URL按实际样式表地址解析；不执行JavaScript或递归加载CSS。学校完整名称须在页面标题或版权主体得到核对。党务、教务、新闻装饰、浏览器弹窗、页脚和二维码候选排除，并保留排除台账。CSS只提供图形文件路径，页面样式色不会自动成为学校主色。
+
+`collect_community_logo_gaps.py`只读取urongda公开目录与预览图；路径学校标识码、唯一完整现行校名H1、图片alt和当前同名文件列表须同时匹配。更名或暂停资源的目录排除，云盘只留文件入口。`source_type: community_website`、`official: false`、页面及文件SHA256明确来源；无Git提交时`repository/commit`为空。目录自称官方并不使本库条目成为官网来源。预览图色簇仅进入`community_logo_sample/reference`，灰色与反白图不补造颜色。临时网络故障可以尝试同站普通公开域名/协议，HTTP错误及身份排除不当作网络故障重试，先前成功证据与重试访问结果保留。
+
+`import_logo_layouts.py`按`logo-layout-sources-2026.yaml`固定Git提交读取README与文件树，区分`badge/wordmark/combination`及颜色、方向、语言版式。选定SVG/PNG实际检查，其余PDF/PNG仅索引；文件名的尺寸放在`dimensions_in_filename`，不当作实测宽高。社区代码许可和学校图形权利分别记录。
+
+社区PPT项目的固定版本README与目录读取可重试暂时连接错误，缓存只在忽略目录；已有PPTX结构数据仅在URL及Git blob都未改变时保留。新的文件仍须另行读取，不继承旧文件的页数或哈希。增量及剩余缺口由`report_visual_gaps.py`生成，不能以已建档学校数代替可用素材覆盖率。

@@ -49,4 +49,8 @@
 
 ## 追加采集的图形时间说明
 
+[haowang02/CQU-Logo](https://github.com/haowang02/CQU-Logo)按固定提交收录重庆大学校徽、中文校名及中英组合版式，保留SVG/PDF/PNG和颜色/方向标签；README与选定图形只读取数据。MIT是仓库许可，学校图形权利另列。[MikeHuang2000/SCUT-PPT-Template-HMK](https://github.com/MikeHuang2000/SCUT-PPT-Template-HMK)收录华南理工大学社区模板4.0入口与文件结构元数据，未声明独立许可，保持仅链接与元数据。
+
+[urongda](https://www.urongda.com)为社区网站来源，使用完整当前校名和学校标识码路径匹配；没有Git提交，不放入许可数据快照。这里只保留预览图和文件入口的元数据，排除更名暂停的旧图，不复制官网介绍、云盘内容或目录全文；图形现行版本与许可未独立确认。
+
 压缩包内763个图像只收链接、成员路径与文件元数据；图形版本日期为unspecified。2021排名年份和ZIP内部文件时间均不能当作学校标识设计年份。

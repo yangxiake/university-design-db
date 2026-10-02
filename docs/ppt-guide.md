@@ -46,6 +46,8 @@
 - `download_kind=archive_member` 时，主URL是压缩包入口。须同时读 `archive_url`、`archive_member`、`archive_sha256`，不能把它当作PNG直链。
 - 白色/反白标识适用于深色底。具体底色和禁用组合以校方VI说明为准。
 
+VISUAL.md的文件表直接显示版式/文件名及官网/社区发布层级。`logo-assets.csv`同时提供`title/variant/dimensions_in_filename`，可筛选蓝黑、横竖、中文与中英组合；文件名尺寸仍不代替实测宽高。日期、页面哈希和文件哈希分别用于追溯采集及文件内容。
+
 ## 模板访问与来源
 
 `content_read=true` 的HTML记录只表示读过该网页；附件 `indexed_not_fetched` 表示尚未读取文件。资源的`formats`保留发布标签，实际读取后的格式另见`file_format`。未知目标和动态端点可能实际返回PPTX，也可能返回网页或验证页，不能凭后缀判断。

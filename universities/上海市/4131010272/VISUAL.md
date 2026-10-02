@@ -4,13 +4,13 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 校徽 | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6%20SUFE.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6%20SUFE.svg) | svg | 88.0 × 88.0 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://www.sufe.edu.cn/_upload/tpl/02/d6/726/template726/images/logo.png) · [来源](https://www.sufe.edu.cn) | png | 702 × 142 | content_inspected | 未独立声明 |
-| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/上海财经大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 230 × 230 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo.png) · [来源](https://news.sufe.edu.cn/16673/list.htm) | png | 1028 × 180 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo_w.png) · [来源](https://news.sufe.edu.cn/16673/list.htm) | png | 1034 × 180 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 校徽 | 上海财经大学 SUFE.svg | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6%20SUFE.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%8A%E6%B5%B7%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6%20SUFE.svg) | 社区 | svg | 88.0 × 88.0 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://www.sufe.edu.cn/_upload/tpl/02/d6/726/template726/images/logo.png) · [来源](https://www.sufe.edu.cn) | 官网 | png | 702 × 142 | content_inspected | 未独立声明 |
+| 校徽 | 上海财经大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/上海财经大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 230 × 230 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo.png) · [来源](https://news.sufe.edu.cn/16673/list.htm) | 官网 | png | 1028 × 180 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo_w.png | [文件](https://news.sufe.edu.cn/_upload/tpl/02/db/731/template731/images/logo_w.png) · [来源](https://news.sufe.edu.cn/16673/list.htm) | 官网 | png | 1034 × 180 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

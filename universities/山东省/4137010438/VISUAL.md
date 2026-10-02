@@ -4,10 +4,10 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.sdsmu.edu.cn/_upload/tpl/04/64/1124/template1124/images/logo.svg) · [来源](https://www.sdsmu.edu.cn/) | svg | 342.68 × 58.436 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://www.sdsmu.edu.cn/_upload/article/images/0a/4d/3d198ca5441c8ad879efc1afc415/2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png) · [来源](https://www.sdsmu.edu.cn/4229/list.htm) | png | 768 × 150 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | logo.svg | [文件](https://www.sdsmu.edu.cn/_upload/tpl/04/64/1124/template1124/images/logo.svg) · [来源](https://www.sdsmu.edu.cn/) | 官网 | svg | 342.68 × 58.436 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | 2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png | [文件](https://www.sdsmu.edu.cn/_upload/article/images/0a/4d/3d198ca5441c8ad879efc1afc415/2ff3ba8e-067b-4cb4-8a09-033a0ac76687.png) · [来源](https://www.sdsmu.edu.cn/4229/list.htm) | 官网 | png | 768 × 150 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

@@ -96,9 +96,318 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
-  vi_resources: []
+  logo_assets:
+  - asset_id: 1471959cf155444ed0951ede
+    kind: badge
+    title: 仰恩大学社区校徽预览文件
+    url: https://cdn.urongda.com/images/normal/medium/yang-en-university-logo-1024px.png
+    source: https://www.urongda.com/logos/4135011784
+    file_name: yang-en-university-logo-1024px.png
+    upstream_path: null
+    publisher: urongda 校徽大全
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 仰恩大学
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: community_website
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    identity_basis: MOE school code in page route plus one exact current full-name H1, exact logo alt
+      and active named file listing
+    usage_note: 社区按当前完整学校名与标识码整理的预览；非校方直接发布，现行版本与图形授权未独立确认。文件只索引，颜色仅作参考。
+    sha256: d74464735538198db7b9d55ef0000af82a5c0014f059e3184f25c063934424a3
+    access_status: content_inspected
+    byte_size: 134247
+    format: png
+    vector: false
+    width: 1024
+    representation: raster
+    height: 1025
+    has_alpha: true
+    transparent_background: true
+  - asset_id: ddbf0ab6a604c2dcf498f91a
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://www.yeu.edu.cn/_upload/tpl/00/45/69/template69/images/logo.svg
+    source: https://www.yeu.edu.cn/main.psp
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 仰恩大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 仰恩大学
+    format: svg
+    width: 850.394
+    height: 188.385
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 8b0e86eb45a358ea80d6625fdb94b41fef5c7c5e401dabe809d06be5876bd057
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 3e29a5020c42cc90b15829a57c2a62d82dd63aa8c81696ef40a98c4ae55a25d8
+    identity_basis:
+      src: /_upload/tpl/00/45/69/template69/images/logo.svg
+      label: '  pc_logo '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    byte_size: 56540
+    representation: vector
+    view_box: 0 0 850.394 188.385
+    encoding: utf-8-sig
+    intrinsic_width: '850.394'
+    intrinsic_height: '188.385'
+    resolved_url: https://www.yeu.edu.cn/_upload/tpl/00/45/69/template69/images/logo.svg
+    inspection_attempts:
+    - url: https://www.yeu.edu.cn/_upload/tpl/00/45/69/template69/images/logo.svg
+      status: content_inspected
+  - asset_id: e575eefff67f099f79e685bc
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://www.yeu.edu.cn/_upload/tpl/00/45/69/template69/images/wap_logo.svg
+    source: https://www.yeu.edu.cn/main.psp
+    file_name: wap_logo.svg
+    upstream_path: null
+    publisher: 仰恩大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 仰恩大学
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 3e29a5020c42cc90b15829a57c2a62d82dd63aa8c81696ef40a98c4ae55a25d8
+    identity_basis:
+      src: /_upload/tpl/00/45/69/template69/images/wap_logo.svg
+      label: '   none wap_logo '
+      context: 'head-left  sitelogo  logo   '
+      position: 2
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    inspection_attempts:
+    - url: https://www.yeu.edu.cn/_upload/tpl/00/45/69/template69/images/wap_logo.svg
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+    - url: http://www.yeu.edu.cn/_upload/tpl/00/45/69/template69/images/wap_logo.svg
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
+  color_palette:
+  - value: '#005098'
+    rgb:
+    - 0
+    - 80
+    - 152
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://cdn.urongda.com/images/normal/medium/yang-en-university-logo-1024px.png
+    page_source: https://www.urongda.com/logos/4135011784
+    asset_id: 1471959cf155444ed0951ede
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区预览图取色，不是学校VI标准或指定主色。
+  - value: '#0050A0'
+    rgb:
+    - 0
+    - 80
+    - 160
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://cdn.urongda.com/images/normal/medium/yang-en-university-logo-1024px.png
+    page_source: https://www.urongda.com/logos/4135011784
+    asset_id: 1471959cf155444ed0951ede
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区预览图取色，不是学校VI标准或指定主色。
+  vi_resources:
+  - title: 仰恩大学社区校徽目录
+    url: https://www.urongda.com/logos/4135011784
+    kinds:
+    - 社区校徽目录
+    formats:
+    - HTML
+    access_requirement: 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件
+    source: https://www.urongda.com/logos/4135011784
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    repository: null
+    commit: null
+    publisher: urongda 校徽大全
+    official: false
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    content_read: true
+    download_status: page_read
+    note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 仰恩大学-logo.svg
+    url: https://url90.ctfile.com/f/56298190-1503309331-6dad30?p=urongda
+    kinds:
+    - 校徽文件入口
+    formats:
+    - SVG
+    access_requirement: 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件
+    source: https://www.urongda.com/logos/4135011784
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    repository: null
+    commit: null
+    publisher: urongda 校徽大全
+    official: false
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    content_read: false
+    download_status: indexed_not_fetched
+    note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 仰恩大学.svg
+    url: https://url90.ctfile.com/f/56298190-1503309334-4c2e02?p=urongda
+    kinds:
+    - 校徽文件入口
+    formats:
+    - SVG
+    access_requirement: 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件
+    source: https://www.urongda.com/logos/4135011784
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    repository: null
+    commit: null
+    publisher: urongda 校徽大全
+    official: false
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    content_read: false
+    download_status: indexed_not_fetched
+    note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 仰恩大学-logo-2048px.png
+    url: https://url90.ctfile.com/f/56298190-1503309322-a427e7?p=urongda
+    kinds:
+    - 校徽文件入口
+    formats:
+    - PNG
+    access_requirement: 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件
+    source: https://www.urongda.com/logos/4135011784
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    repository: null
+    commit: null
+    publisher: urongda 校徽大全
+    official: false
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    content_read: false
+    download_status: indexed_not_fetched
+    note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 仰恩大学-logo-1024px.png
+    url: https://url90.ctfile.com/f/56298190-1503309328-f098b1?p=urongda
+    kinds:
+    - 校徽文件入口
+    formats:
+    - PNG
+    access_requirement: 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件
+    source: https://www.urongda.com/logos/4135011784
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    repository: null
+    commit: null
+    publisher: urongda 校徽大全
+    official: false
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    content_read: false
+    download_status: indexed_not_fetched
+    note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 仰恩大学.png
+    url: https://url90.ctfile.com/f/56298190-1503309316-a05aae?p=urongda
+    kinds:
+    - 校徽文件入口
+    formats:
+    - PNG
+    access_requirement: 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件
+    source: https://www.urongda.com/logos/4135011784
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    repository: null
+    commit: null
+    publisher: urongda 校徽大全
+    official: false
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    content_read: false
+    download_status: indexed_not_fetched
+    note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 仰恩大学-logo-512px.png
+    url: https://url90.ctfile.com/f/56298190-1503309340-b41190?p=urongda
+    kinds:
+    - 校徽文件入口
+    formats:
+    - PNG
+    access_requirement: 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件
+    source: https://www.urongda.com/logos/4135011784
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    repository: null
+    commit: null
+    publisher: urongda 校徽大全
+    official: false
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    content_read: false
+    download_status: indexed_not_fetched
+    note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 仰恩大学.ai
+    url: https://url90.ctfile.com/f/56298190-1503309319-9bc198?p=urongda
+    kinds:
+    - 校徽文件入口
+    formats:
+    - AI
+    access_requirement: 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件
+    source: https://www.urongda.com/logos/4135011784
+    source_sha256: b28e358d2db525eacddf446648ce058a4fabdeb7f75f3a93f484b4deea1225e2
+    repository: null
+    commit: null
+    publisher: urongda 校徽大全
+    official: false
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    content_read: false
+    download_status: indexed_not_fetched
+    note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
 culture:
   founded_year:
     value: null

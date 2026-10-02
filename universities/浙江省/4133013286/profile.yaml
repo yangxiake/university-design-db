@@ -94,8 +94,85 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: d8395cdab21bc4a2f603e9b8
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: http://qjxy.hznu.edu.cn/template/static/picture/logo.png
+    source: http://qjxy.hznu.edu.cn
+    file_name: logo.png
+    upstream_path: null
+    publisher: 杭州师范大学钱江学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 杭州师范大学钱江学院
+    format: png
+    width: 435
+    height: 67
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: ea491f8b792051a4e99102768b35cd5cfb25ffce88d42af471f4cb70decd8dc6
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: c189cedcb67353d113b3bf2e5a6c164a15713fb9b4e2956b1c0973acdc9a81f6
+    identity_basis:
+      src: /template/static/picture/logo.png
+      label: '   '
+      context: 'swiper  top-zhezhao  swiper-top  logo '
+      position: 1
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    byte_size: 26088
+    representation: raster
+    resolved_url: https://qjxy.hznu.edu.cn/template/static/picture/logo.png
+    inspection_attempts:
+    - url: http://qjxy.hznu.edu.cn/template/static/picture/logo.png
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
+    - url: https://qjxy.hznu.edu.cn/template/static/picture/logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#2870B8'
+    rgb:
+    - 40
+    - 112
+    - 184
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://qjxy.hznu.edu.cn/template/static/picture/logo.png
+    page_source: http://qjxy.hznu.edu.cn
+    asset_id: d8395cdab21bc4a2f603e9b8
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#2860A8'
+    rgb:
+    - 40
+    - 96
+    - 168
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://qjxy.hznu.edu.cn/template/static/picture/logo.png
+    page_source: http://qjxy.hznu.edu.cn
+    asset_id: d8395cdab21bc4a2f603e9b8
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources: []
 culture:
   founded_year:

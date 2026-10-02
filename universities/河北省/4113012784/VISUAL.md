@@ -4,9 +4,9 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.hebic.cn/images/54154498-d9a8-4a2d-8099-b0d0fece27c8/202507/22/%E6%B2%B3%E5%8C%97%E4%BC%A0%E5%AA%92%E5%AD%A6%E9%99%A2logo-0320250722180414914.svg?sid=c7ad37e5-20cb-49fa-bb61-d69fdde2b5fd) · [来源](https://www.hebic.cn/) | svg | 未声明 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | 河北传媒学院logo-0320250722180414914.svg | [文件](https://www.hebic.cn/images/54154498-d9a8-4a2d-8099-b0d0fece27c8/202507/22/%E6%B2%B3%E5%8C%97%E4%BC%A0%E5%AA%92%E5%AD%A6%E9%99%A2logo-0320250722180414914.svg?sid=c7ad37e5-20cb-49fa-bb61-d69fdde2b5fd) · [来源](https://www.hebic.cn/) | 官网 | svg | 未声明 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

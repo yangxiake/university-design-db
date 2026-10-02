@@ -4,10 +4,10 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.naujsc.edu.cn/_upload/tpl/00/26/38/template38/images/logo.svg) · [来源](https://www.naujsc.edu.cn/) | svg | 474.462 × 56.813 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://www.naujsc.edu.cn/_upload/tpl/00/26/38/template38/images/logo_mobile.svg) · [来源](https://www.naujsc.edu.cn/) | svg | 357.935 × 67.496 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | logo.svg | [文件](https://www.naujsc.edu.cn/_upload/tpl/00/26/38/template38/images/logo.svg) · [来源](https://www.naujsc.edu.cn/) | 官网 | svg | 474.462 × 56.813 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo_mobile.svg | [文件](https://www.naujsc.edu.cn/_upload/tpl/00/26/38/template38/images/logo_mobile.svg) · [来源](https://www.naujsc.edu.cn/) | 官网 | svg | 357.935 × 67.496 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

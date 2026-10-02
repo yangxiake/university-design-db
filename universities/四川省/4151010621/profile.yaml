@@ -329,14 +329,33 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 10488fa90c5e7bdb
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 50
+    - 0
+    - 0
+    pantone: null
+    label: 校名、校标与校旗标准蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.cuit.edu.cn/index/cxwh/xxxb.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方学校校标页对校名字样、校标与校旗逐项明示标准色CMYK C100 M50 Y0 K0；未公布RGB或HEX，只记录原印刷标准，不转换屏幕色。
+    source_sha256: c69437bc71b5700c457b98080fc85911d9df365bdc43872ae7c559879cd4726e
   vi_resources:
-  - title: 学校校标
+  - title: 成都信息工程大学校标与标准色
     url: https://www.cuit.edu.cn/index/cxwh/xxxb.htm
     kinds:
-    - 校徽/校名介绍及资源
+    - 校标规范
+    - 标准色
     formats:
     - HTML
-    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
     source: https://www.cuit.edu.cn/index/cxwh/xxxb.htm
     repository: null
     commit: null
@@ -344,8 +363,7 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: c69437bc71b5700c457b98080fc85911d9df365bdc43872ae7c559879cd4726e
-    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    note: 校方学校校标页对校名字样、校标与校旗逐项明示标准色CMYK C100 M50 Y0 K0；未公布RGB或HEX，只记录原印刷标准，不转换屏幕色。
   - title: 成都信息工程大学校标logo发布.zip
     url: https://www.cuit.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2050111851&wbfileid=E5012E94A613E8E1EB77EA4A263F43D1
     kinds:

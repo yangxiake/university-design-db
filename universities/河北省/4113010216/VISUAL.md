@@ -4,13 +4,13 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 校徽 | [文件](https://www.shanghairanking.cn/_uni/logo/79375733.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | png | 未声明 | indexed_not_fetched | 未独立声明 |
-| 校徽 | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E7%87%95%E5%B1%B1%E5%A4%A7%E5%AD%A6%20YSU.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E7%87%95%E5%B1%B1%E5%A4%A7%E5%AD%A6%20YSU.svg) | svg | 831.0 × 832.0 | content_inspected | 未独立声明 |
-| 校徽 | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Yanshan_University/png/logo_blue_800x800.png) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Yanshan_University/png/logo_blue_800x800.png) | png | 800 × 800 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://www.ysu.edu.cn/images/blue/2x.png) · [来源](https://www.ysu.edu.cn) | png | 676 × 199 | content_inspected | 未独立声明 |
-| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/燕山大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 230 × 230 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 校徽 | 79375733.png | [文件](https://www.shanghairanking.cn/_uni/logo/79375733.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | 社区 | png | 未声明 | indexed_not_fetched | 未独立声明 |
+| 校徽 | 燕山大学 YSU.svg | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E7%87%95%E5%B1%B1%E5%A4%A7%E5%AD%A6%20YSU.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E7%87%95%E5%B1%B1%E5%A4%A7%E5%AD%A6%20YSU.svg) | 社区 | svg | 831.0 × 832.0 | content_inspected | 未独立声明 |
+| 校徽 | blue | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Yanshan_University/png/logo_blue_800x800.png) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Yanshan_University/png/logo_blue_800x800.png) | 社区 | png | 800 × 800 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | 2x.png | [文件](https://www.ysu.edu.cn/images/blue/2x.png) · [来源](https://www.ysu.edu.cn) | 官网 | png | 676 × 199 | content_inspected | 未独立声明 |
+| 校徽 | 燕山大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/燕山大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 230 × 230 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

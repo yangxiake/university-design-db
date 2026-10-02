@@ -4,11 +4,11 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.hebmu.edu.cn/template/f0c7d2d79aed4b839558895187913ede//images/new_logo.png) · [来源](https://www.hebmu.edu.cn) | png | 342 × 70 | content_inspected | 未独立声明 |
-| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/河北医科大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 230 × 230 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://m.hebmu.edu.cn/template/ab84f67f192d4f8da37ab0a45fa7b96d//images/logo.png) · [来源](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm) | png | 861 × 158 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | new_logo.png | [文件](https://www.hebmu.edu.cn/template/f0c7d2d79aed4b839558895187913ede//images/new_logo.png) · [来源](https://www.hebmu.edu.cn) | 官网 | png | 342 × 70 | content_inspected | 未独立声明 |
+| 校徽 | 河北医科大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/河北医科大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 230 × 230 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://m.hebmu.edu.cn/template/ab84f67f192d4f8da37ab0a45fa7b96d//images/logo.png) · [来源](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm) | 官网 | png | 861 × 158 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

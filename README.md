@@ -26,6 +26,7 @@ v3在原有学校身份、文化与官方资源字段上新增27个事实字段�
 - [AI用JSONL全集](indexes/profiles.jsonl)：从1412份档案生成，每行一校；可用`school_code`稳定关联各索引。
 - [官方视觉规范补采进度](docs/visual-completion-progress-2026.md)：新增标准色色卡、仅印刷色规范、数字冲突及补确认的官网入口。
 - [实际模板文件](indexes/ppt-template-files.csv)：已读取PPTX的页数、画幅、声明字体、可编辑文本节点与哈希；压缩包内模板逐文件列出。
+- [校徽、配色与PPT缺口补采](docs/visual-gap-progress-2026.md)：官网页头/CSS、当前校名社区目录、组合版式和实际文件读取的增量与剩余缺口。
 
 校徽图形只保存逐文件链接和内容元数据。社区仓库的代码/数据许可与学校标识的图形授权分别记录；文件可访问、格式已检查、图形为学校现行版本是不同状态。记录中的历史排名和招生参考值不自动成为现行官方结论。
 
@@ -68,6 +69,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/validate/report_official_extensions.py
 .venv/bin/python scripts/validate/report_overview_progress.py
 .venv/bin/python scripts/validate/report_visual_completion.py
+.venv/bin/python scripts/validate/report_visual_gaps.py
 .venv/bin/python scripts/validate/report_coverage.py
 .venv/bin/python scripts/validate/report_research.py
 .venv/bin/python scripts/validate/build_review_queue.py
@@ -106,6 +108,10 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/collect_ppt_resources.py
 .venv/bin/python scripts/ingest/import_cnlogo_metadata.py
 .venv/bin/python scripts/ingest/import_community_ppt_metadata.py
+.venv/bin/python scripts/ingest/import_logo_layouts.py
+.venv/bin/python scripts/ingest/collect_header_css_marks.py
+.venv/bin/python scripts/ingest/collect_community_logo_gaps.py
+.venv/bin/python scripts/ingest/import_visual_refresh.py --decisions data/review/visual-gap-color-decisions-2026.yaml
 .venv/bin/python scripts/ingest/inspect_template_files.py
 .venv/bin/python scripts/ingest/collect_official_overviews.py --resume
 .venv/bin/python scripts/ingest/import_overview_supplements.py
@@ -123,6 +129,8 @@ python3 -m venv .venv
 `collect_official_overviews.py --retry-missing`从已有台账缺项出发尝试不同简介入口和官网导航；`--collect-only`先保存证据台账，`--reparse-cache --import-only`用忽略目录中的HTML重新解析并导入，原文不发布。最后运行`import_overview_supplements.py`按固定证据规则核对统计卡片；页面内容变化导致证据不匹配时停止该导入。
 
 `inspect_template_files.py --retry-errors`重试未读取的模板文件；资源重新导入后运行`--import-only`恢复已有结构元数据，再生成PPT索引。读取有文件/展开大小及时间上限；公开文件仅存于忽略目录，仓库只发布URL、结构统计和哈希。
+
+`collect_header_css_marks.py`补查已确认官网的静态页头标识与CSS文件引用，支持`--collect-only`和`--import-only`。`collect_community_logo_gaps.py --retry-errors`只重试网络失败及尚未读到预览文件的社区目录；更名暂停、名称不匹配和不存在的页面不自动采纳。社区网页没有Git提交，以页面与图像哈希、学校标识码和现行完整校名追溯。
 
 ## 来源与许可
 

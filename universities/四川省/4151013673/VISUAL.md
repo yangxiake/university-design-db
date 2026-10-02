@@ -4,10 +4,10 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.cdisu.edu.cn/assets/images/header-logo.png) · [来源](https://www.cdisu.edu.cn/) | png | 395 × 78 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://www.cdisu.edu.cn/assets/images/top-logo.png) · [来源](https://www.cdisu.edu.cn/pages-view/xxbs/) | png | 318 × 60 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | header-logo.png | [文件](https://www.cdisu.edu.cn/assets/images/header-logo.png) · [来源](https://www.cdisu.edu.cn/) | 官网 | png | 395 × 78 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | top-logo.png | [文件](https://www.cdisu.edu.cn/assets/images/top-logo.png) · [来源](https://www.cdisu.edu.cn/pages-view/xxbs/) | 官网 | png | 318 × 60 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

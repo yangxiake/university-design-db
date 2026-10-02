@@ -45,6 +45,6 @@
 - 许可：MIT
 - 依据：[https://github.com/cita-777/hfut-awesome-marp-theme/blob/e0208c1076bf7f9f44531ff42bc45c82cc84d2c6/README.md](https://github.com/cita-777/hfut-awesome-marp-theme/blob/e0208c1076bf7f9f44531ff42bc45c82cc84d2c6/README.md)
 - 采集：2026-10-02（auto）
-- 使用说明：README和项目描述明确合肥工业大学HFUT；模板用途为课程汇报与答辩。 已读取固定版本README并确认文件目录；PPTX文件结构的读取结果逐文件列出，未渲染幻灯片、未运行上游脚本或SKILL、未镜像模板/字体/校徽。代码MIT许可不替代字体和图形权利，按上游及校方说明使用。
+- 使用说明：README和项目描述明确合肥工业大学HFUT；模板用途为课程汇报与答辩。 已读取固定版本README并确认文件目录；具体PPTX读取状态逐文件记录；未运行上游脚本或SKILL、未镜像模板/字体/校徽。代码MIT许可不替代字体和图形权利，按上游及校方说明使用。
 - 格式：Markdown/Marp、PPTX示例
 - 文件入口：[assets/example3.pptx](https://github.com/cita-777/hfut-awesome-marp-theme/blob/e0208c1076bf7f9f44531ff42bc45c82cc84d2c6/assets/example3.pptx)；PPTX；结构已读取：23页、16:9、可编辑文本节点0；字体Angsana New、Arial、Calibri、Calibri Light、Cordia New、DaunPenh、DokChampa、Estrangelo Edessa、Euphemia、Gautami、Iskoola Pota、Kalinga、Kartika、Latha、MV Boli、Mangal、Microsoft Himalaya、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Nyala、Plantagenet Cherokee、Raavi、Shruti、Sylfaen、Times New Roman、Tunga、Vrinda、新細明體、游ゴシック、游ゴシック Light、等线、等线 Light、맑은 고딕。

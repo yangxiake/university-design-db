@@ -4,10 +4,10 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://ys.sdufe.edu.cn/dfiles/14542/images/logo.png) · [来源](https://ys.sdufe.edu.cn/) | png | 460 × 77 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](http://ys.sdufe.edu.cn/dfiles/14542/images/logo.png) · [来源](http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm) | png | 460 × 77 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://ys.sdufe.edu.cn/dfiles/14542/images/logo.png) · [来源](https://ys.sdufe.edu.cn/) | 官网 | png | 460 × 77 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo.png | [文件](http://ys.sdufe.edu.cn/dfiles/14542/images/logo.png) · [来源](http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm) | 官网 | png | 460 × 77 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -24,5 +24,15 @@
 
 - 现有VI入口：[http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm](http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm)
 - [学院校徽下载](http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://ys.sdufe.edu.cn/xyfw1/xyxhxz1.htm)。
+- [山东财经大学燕山学院社区校徽目录](https://www.urongda.com/logos/4137013383)：["社区校徽目录"]；格式 HTML；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4137013383)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [山东财经大学燕山学院-logo.svg](https://url90.ctfile.com/f/56298190-1508324635-d53775?p=urongda)：["校徽文件入口"]；格式 SVG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4137013383)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [山东财经大学燕山学院-logo-2048px.png](https://url90.ctfile.com/f/56298190-1508324644-cdfd8a?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4137013383)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [山东财经大学燕山学院-logo-1024px.png](https://url90.ctfile.com/f/56298190-1508324638-45c56b?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4137013383)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [山东财经大学燕山学院-logo-512px.png](https://url90.ctfile.com/f/56298190-1508324647-446af7?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4137013383)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

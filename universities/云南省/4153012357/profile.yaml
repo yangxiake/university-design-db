@@ -96,7 +96,49 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: fef4c05bfda52daf40e7847c
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://www.ynjtc.edu.cn/images/chenggongxiaoqushuxian.png
+    source: https://www.ynjtc.edu.cn/
+    file_name: chenggongxiaoqushuxian.png
+    upstream_path: null
+    publisher: 云南交通职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 云南交通职业技术大学
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 007b2b38f34ec4d8452174a986dda12d39f1c2c3e0e13e9f22c56f1dff0b069f
+    identity_basis:
+      src: images/chenggongxiaoqushuxian.png
+      label: '  img1 '
+      context: ' header wp   logo  '
+      position: 1
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    inspection_attempts:
+    - url: https://www.ynjtc.edu.cn/images/chenggongxiaoqushuxian.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
   color_palette: []
   vi_resources: []
 culture:

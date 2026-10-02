@@ -96,7 +96,49 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 7cf4c32e961f84f5f583ff75
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: http://www.xjjtedu.com/images/new-logo70.png
+    source: http://www.xjjtedu.com
+    file_name: new-logo70.png
+    upstream_path: null
+    publisher: 新疆交通职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆交通职业技术大学
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 180cc7ad845b0054aa1ccfb3c3ba47ca7a92c4eebe69a2495bd6a29d0232c5dc
+    identity_basis:
+      src: images/new-logo70.png
+      label: '主站 主站  '
+      context: 'header  width header-top auto  logo fl   '
+      position: 2
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    inspection_attempts:
+    - url: http://www.xjjtedu.com/images/new-logo70.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
   color_palette: []
   vi_resources: []
 culture:

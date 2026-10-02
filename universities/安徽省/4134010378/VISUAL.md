@@ -4,12 +4,12 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.aufe.edu.cn/_upload/tpl/0a/e6/2790/template2790/images/logo.png) · [来源](https://www.aufe.edu.cn/) | png | 403 × 81 | content_inspected | 未独立声明 |
-| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/安徽财经大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 236 × 236 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/brand-logo-s-w.png) · [来源](https://aufevis.aufe.edu.cn/2022/0403/c12610a180336/page.htm) | png | 428 × 428 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/logo-s-w.png) · [来源](https://aufevis.aufe.edu.cn/) | png | 420 × 117 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://www.aufe.edu.cn/_upload/tpl/0a/e6/2790/template2790/images/logo.png) · [来源](https://www.aufe.edu.cn/) | 官网 | png | 403 × 81 | content_inspected | 未独立声明 |
+| 校徽 | 安徽财经大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/安徽财经大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 236 × 236 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | brand-logo-s-w.png | [文件](https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/brand-logo-s-w.png) · [来源](https://aufevis.aufe.edu.cn/2022/0403/c12610a180336/page.htm) | 官网 | png | 428 × 428 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo-s-w.png | [文件](https://aufevis.aufe.edu.cn/_upload/tpl/09/c8/2504/template2504/htmlRes/logo-s-w.png) · [来源](https://aufevis.aufe.edu.cn/) | 官网 | png | 420 × 117 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

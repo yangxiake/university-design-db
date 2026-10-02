@@ -4,9 +4,9 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 官网页眉标识（构成待核验） | [文件](https://www.ahua.edu.cn/_upload/tpl/00/ab/171/template171/images/logo.png) · [来源](https://www.ahua.edu.cn/) | png | 400 × 90 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://www.ahua.edu.cn/_upload/tpl/00/ab/171/template171/images/logo.png) · [来源](https://www.ahua.edu.cn/) | 官网 | png | 400 × 90 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -21,5 +21,25 @@
 
 ## VI资源与下载条件
 
+- [安徽艺术学院社区校徽目录](https://www.urongda.com/logos/4134014682)：["社区校徽目录"]；格式 HTML；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院-01.svg](https://url90.ctfile.com/f/56298190-1501694665-9901d6?p=urongda)：["校徽文件入口"]；格式 SVG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院-02.svg](https://url90.ctfile.com/f/56298190-1501694671-d04fb8?p=urongda)：["校徽文件入口"]；格式 SVG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院-logo.svg](https://url90.ctfile.com/f/56298190-1501694737-6c0dd8?p=urongda)：["校徽文件入口"]；格式 SVG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院-logo-2048px.png](https://url90.ctfile.com/f/56298190-1501694731-74d485?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院-logo-1024px.png](https://url90.ctfile.com/f/56298190-1501694728-d40c17?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院-02.png](https://url90.ctfile.com/f/56298190-1501694668-3bed7a?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院-01.png](https://url90.ctfile.com/f/56298190-1501694662-1104ec?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院-logo-512px.png](https://url90.ctfile.com/f/56298190-1501694722-fc5501?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
+- [安徽艺术学院.ai](https://url90.ctfile.com/f/56298190-1501694677-9ad800?p=urongda)：["校徽文件入口"]；格式 AI；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4134014682)。
+  - 发布者：urongda 校徽大全；适用范围：未明确。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

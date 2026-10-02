@@ -94,7 +94,49 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 59877ab680b2fe8a17ae4d2f
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://www.hrbcm.edu.cn/images/logo2.png
+    source: https://www.hrbcm.edu.cn/
+    file_name: logo2.png
+    upstream_path: null
+    publisher: 哈尔滨音乐学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 哈尔滨音乐学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 7fef42af219a95a8eb805588b4bedea00a7c8e8adf1bb7f0af83301c643a07b4
+    identity_basis:
+      src: images/logo2.png
+      label: '   '
+      context: '  w  logo   '
+      position: 1
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    inspection_attempts:
+    - url: https://www.hrbcm.edu.cn/images/logo2.png
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
   color_palette: []
   vi_resources: []
 culture:

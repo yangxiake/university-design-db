@@ -4,11 +4,11 @@
 
 ## 逐文件校徽与校名资源
 
-| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |
-| --- | --- | --- | --- | --- | --- |
-| 校徽 | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8C%97%E4%BA%AC%E8%AF%AD%E8%A8%80%E5%A4%A7%E5%AD%A6%20BLCU.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8C%97%E4%BA%AC%E8%AF%AD%E8%A8%80%E5%A4%A7%E5%AD%A6%20BLCU.svg) | svg | 未声明 | content_inspected | 未独立声明 |
-| 官网页眉标识（构成待核验） | [文件](https://www.blcu.edu.cn/images/logo.png) · [来源](https://www.blcu.edu.cn) | png | 264 × 70 | content_inspected | 未独立声明 |
-| 校徽 | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/北京语言大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | png | 200 × 200 | content_inspected | 未独立声明 |
+| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 校徽 | 北京语言大学 BLCU.svg | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8C%97%E4%BA%AC%E8%AF%AD%E8%A8%80%E5%A4%A7%E5%AD%A6%20BLCU.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8C%97%E4%BA%AC%E8%AF%AD%E8%A8%80%E5%A4%A7%E5%AD%A6%20BLCU.svg) | 社区 | svg | 未声明 | content_inspected | 未独立声明 |
+| 官网页眉标识（构成待核验） | logo.png | [文件](https://www.blcu.edu.cn/images/logo.png) · [来源](https://www.blcu.edu.cn) | 官网 | png | 264 × 70 | content_inspected | 未独立声明 |
+| 校徽 | 北京语言大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/北京语言大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 200 × 200 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 

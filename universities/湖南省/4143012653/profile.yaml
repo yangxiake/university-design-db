@@ -94,8 +94,81 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: aa355ac6362042ff2d745628
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://www.hnaues.com/images/header_logo.png
+    source: https://www.hnaues.com/
+    file_name: header_logo.png
+    upstream_path: null
+    publisher: 湖南农业大学东方科技学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 湖南农业大学东方科技学院
+    format: png
+    width: 649
+    height: 94
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 42492dd154c32ab703744b48b0d18f7824a3645328bc3a6a8ca4a4536d44fb94
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: aa02ea4014eba6391fcc4ffadd8c1ed983c30013b6eef600f59c5736dfb6ff7b
+    identity_basis:
+      src: https://www.hnaues.com/images/header_logo.png
+      label: 静态CSS标识规则
+      context: '#header_logo'
+      css_url: https://www.hnaues.com/images/main.css
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    byte_size: 35853
+    representation: raster
+    resolved_url: https://www.hnaues.com/images/header_logo.png
+    inspection_attempts:
+    - url: https://www.hnaues.com/images/header_logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#C0D8E8'
+    rgb:
+    - 192
+    - 216
+    - 232
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hnaues.com/images/header_logo.png
+    page_source: https://www.hnaues.com/
+    asset_id: aa355ac6362042ff2d745628
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#98C0D8'
+    rgb:
+    - 152
+    - 192
+    - 216
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.hnaues.com/images/header_logo.png
+    page_source: https://www.hnaues.com/
+    asset_id: aa355ac6362042ff2d745628
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources: []
 culture:
   founded_year:

@@ -692,6 +692,18 @@ repositories:
   directory_markdown: fuwu/yuanxiao.md
   notes: 作者大萌的2026目录。只作网址定位、记录链接事实，不镜像正文及完整目录，不将其内容重许可为CC BY。
 visual_metadata_repositories:
+- repository: haowang02/CQU-Logo
+  commit: ef76cefd3a90d8cdfe72163990298aa3b5c3751a
+  license: MIT
+  kind: logo_layouts
+  mode: metadata_only
+  receipts: data/review/logo-layout-metadata-2026.json
+- repository: MikeHuang2000/SCUT-PPT-Template-HMK
+  commit: 4fcf55148565ea328bc7102afd12f59a284995d1
+  license: null
+  kind: pptx_template
+  mode: metadata_only
+  receipts: data/review/community-ppt-metadata-2026.json
 - repository: huyingjiao/HIT-PPT-Theme
   commit: 9e9b01db3e11e6e6265bb858c4705a1638614608
   license: null
@@ -716,3 +728,10 @@ visual_metadata_repositories:
   kind: tikz_logo_source
   mode: metadata_only
   receipts: data/review/cnlogo-metadata-2026.json
+community_visual_websites:
+- publisher: urongda 校徽大全
+  url: https://www.urongda.com
+  receipts: data/review/community-logo-gaps-2026.jsonl
+  mode: metadata_only
+  identity_rule: exact MOE code route and full current name; suspended/renamed previews excluded
+  license: No independent logo redistribution license adopted

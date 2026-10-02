@@ -7,6 +7,7 @@ import io
 import json
 import pathlib
 import re
+import urllib.parse
 
 import yaml
 
@@ -38,11 +39,13 @@ def cell(value):
 def render_visual(profile):
     name=profile['identity']['name_zh'];visual=profile['visual']
     lines=['# '+name+'：校徽与配色','','由profile.yaml生成。自动采集资料；逐项查看来源、取值方法和资源使用条件。','',
-           '## 逐文件校徽与校名资源','','| 类型 | 文件 | 格式 | 尺寸 | 内容检查 | 图形许可 |','| --- | --- | --- | --- | --- | --- |']
+           '## 逐文件校徽与校名资源','','| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |','| --- | --- | --- | --- | --- | --- | --- | --- |']
     for asset in visual['logo_assets']:
         dimensions=('%s × %s'%(asset['width'],asset['height'])) if asset.get('width') and asset.get('height') else '未声明'
         link=('[压缩包](%s) 内 `%s`'%(asset['archive_url'],cell(asset['archive_member']))) if asset.get('download_kind')=='archive_member' else '[文件](%s)'%asset['url']
-        lines.append('| %s | %s · [来源](%s) | %s | %s | %s | %s |'%(KINDS[asset['kind']],link,asset['source'],asset.get('format') or '未知',dimensions,asset['access_status'],asset.get('asset_license') or '未独立声明'))
+        variant=asset.get('variant') or urllib.parse.unquote(asset.get('file_name') or '') or '未标注'
+        publisher='官网' if asset['official'] else '社区'
+        lines.append('| %s | %s | %s · [来源](%s) | %s | %s | %s | %s | %s |'%(KINDS[asset['kind']],cell(variant),link,asset['source'],publisher,asset.get('format') or '未知',dimensions,asset['access_status'],asset.get('asset_license') or '未独立声明'))
     if not visual['logo_assets']:
         lines+=['','尚无逐文件校徽记录；可继续查官方VI入口或社区资源。']
     lines+=['','仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。','',
@@ -141,7 +144,7 @@ def main():
         exports.append(json.dumps(p,ensure_ascii=False,sort_keys=True)+'\n')
         for asset in p['visual']['logo_assets']:
             indexes['logo-assets'].append(dict(base,**{key:asset.get(key) for key in (
-                'asset_id','kind','url','source','file_name','upstream_path','official','format','width','height','intrinsic_width','intrinsic_height','vector','representation','has_alpha','transparent_background','access_status','repository_license','asset_license','rights_holder','repository','commit','sha256','byte_size','source_type','resolved_url','download_kind','archive_url','archive_member','archive_sha256')}))
+                'asset_id','kind','title','variant','dimensions_in_filename','url','source','file_name','upstream_path','official','format','width','height','intrinsic_width','intrinsic_height','vector','representation','has_alpha','transparent_background','access_status','repository_license','asset_license','rights_holder','repository','commit','sha256','byte_size','source_type','source_sha256','verified','checked_at','resolved_url','download_kind','archive_url','archive_member','archive_sha256')}))
         for campus in p['location']['campuses']:
             indexes['campuses'].append(dict(base,**{key:cell(campus.get(key)) for key in ('name','address','coordinates','basis','source','checked_at')}))
         for entry in p['visual']['color_palette']:

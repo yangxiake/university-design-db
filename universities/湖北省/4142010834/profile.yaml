@@ -96,7 +96,53 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 529bed6c4c4c30067208924a
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://www.wtc.edu.cn/_upload/tpl/02/c5/709/template709/images/logo-b.png
+    source: https://www.wtc.edu.cn/
+    file_name: logo-b.png
+    upstream_path: null
+    publisher: 武汉职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉职业技术大学
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 8a7fe8af230c8e04577624f4daa6510fd8f563feaf58b6afae20d25dd58ac792
+    identity_basis:
+      src: /_upload/tpl/02/c5/709/template709/images/logo-b.png
+      label: '   '
+      context: 'mod mod2 clearfix  head-left  sitelogo   '
+      position: 1
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    inspection_attempts:
+    - url: https://www.wtc.edu.cn/_upload/tpl/02/c5/709/template709/images/logo-b.png
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+    - url: http://www.wtc.edu.cn/_upload/tpl/02/c5/709/template709/images/logo-b.png
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
   color_palette: []
   vi_resources: []
 culture:

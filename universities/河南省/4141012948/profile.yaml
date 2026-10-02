@@ -94,7 +94,53 @@ visual:
     availability: unresearched
     search_sources: []
   landmarks: []
-  logo_assets: []
+  logo_assets:
+  - asset_id: 41c3314b0d09f825d56cb8ed
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://www.zzsqmc.edu.cn/images/newlogo.png
+    source: https://www.zzsqmc.edu.cn/
+    file_name: newlogo.png
+    upstream_path: null
+    publisher: 郑州健康学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 郑州健康学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 91ed7c0629595bde6f79a1a791c317ac9834ac736a7d4771b61fa989fdeee3d3
+    identity_basis:
+      src: images/newlogo.png
+      label: '郑州澍青医学高等专科学校 郑州澍青医学高等专科学校  '
+      context: '  header clearfix  pull-left logo   '
+      position: 2
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    inspection_attempts:
+    - url: https://www.zzsqmc.edu.cn/images/newlogo.png
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+    - url: http://www.zzsqmc.edu.cn/images/newlogo.png
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
   color_palette: []
   vi_resources: []
 culture:

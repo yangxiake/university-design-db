@@ -90,6 +90,8 @@ GitHub 数据填充的事实增加 `source_type: community_dataset`、`upstream_
 
 `visual.vi_resources`记录学校资源链接、提供的资源种类、格式、校园认证要求和社区依据；社区目录指向官方页面不等于资源由该社区官方发布。
 
+公开社区网站的图形条目可用`source_type: community_website`，保留`source_sha256/sha256/identity_basis`与`official: false`；没有Git版本时`repository/commit`为空。目录中的校名和标识码匹配不认定现行图形版本。网站预览和云盘入口仍分别保存读取状态；社区目录的自述不能更改来源层级。
+
 模板入口可补充`publisher`、`use_scope=school/department`、`edition_year`、`content_read`、`download_status`与`source_sha256`。年份须来自明确版本标签；发布时间不自动当版本年。HTML的`content_read=true`只说明读过发布页，附件记录的`indexed_not_fetched`不能被当作成功下载。学校通用与院系专用分别保留。
 
 已读取模板的`file_metadata`保存实际格式、SHA256、字节数；PPTX另含`slide_count/width_emu/height_emu/aspect_ratio/font_names/theme_colors/editable_text_runs/textless_slides/media_count/external_relationship_count/macro_enabled`。ZIP保存`presentation_members`，每个成功读取的成员独立保存元数据。旧OLE/RAR/7Z只识别格式头，`read_kind=format_header_only`，不填页数或画幅。`file_inspection`保存日期、状态、各次URL与失败原因；社区项目的`files[]`也使用同一结构。派生实际文件索引为`indexes/ppt-template-files.csv`，内部主题色不会投影为学校官方配色。
