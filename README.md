@@ -6,6 +6,8 @@
 
 ## 找学校与资料
 
+浏览器中使用[素材目录](viewer/index.html)：检索1412所学校，比较标识、查看配色证据和模板条件，并复制单校资料给AI。下载仓库后先在根目录运行`python3 -m http.server 8765 --bind 127.0.0.1`，打开`http://127.0.0.1:8765/viewer/`；完整用法见[素材目录说明](docs/viewer-guide.md)。
+
 1. 在[总索引](indexes/catalog.csv)按校名、学校标识码、地区查找，也可浏览[地区](indexes/by-province.csv)、[类别](indexes/by-category.csv)、[标签](indexes/by-tag.csv)、[状态](indexes/by-status.csv)。
 2. 打开索引中的 `profile_path`，读取唯一事实源 `profile.yaml`。`PROFILE.md` 是逐校便读档案，`VISUAL.md` 汇总逐文件校徽、校名与配色，`OFFICIAL.md` 展示官方 PPT 入口；有社区资源的学校另有 `COMMUNITY.md`。
 3. 每字段先看 `availability`、`source`、`verified`、`checked_at`。自动采集标记为 `auto`，可按来源和用途使用；冲突、未调查和检索后未找到均显式保留。
@@ -49,6 +51,9 @@ universities/<省级地区>/<学校标识码>/
    OFFICIAL.md                         官方资源生成视图
    COMMUNITY.md                        有社区资源时生成的便读视图
 indexes/                              从范围表与档案派生的检索索引
+viewer/                               素材检索页面、匹配规则和测试
+   data/catalog.json                  轻量检索目录，含来源和格式等筛选描述
+   data/provinces/<地区>.json           按需载入的地区资料，保留完整PPT导出记录
 docs/                                 需求、字段、覆盖率、采集说明
 scripts/                              采集、导入、生成与校验脚本
 ```
@@ -57,7 +62,7 @@ scripts/                              采集、导入、生成与校验脚本
 
 ## 本地生成与校验
 
-需 Python 3.9+。统一质量检查安装 `requirements-quality.txt`，包含生成、图像解析测试和JSON Schema校验依赖。GitHub CI已实际验证Python 3.9与3.13；检查已有数据时不联网采集。
+需 Python 3.9+；统一质量检查还使用Node.js 24运行网页匹配规则测试，无npm依赖。安装 `requirements-quality.txt`，包含生成、图像解析测试和JSON Schema校验依赖。GitHub CI使用Python 3.9与3.13；检查已有数据时不联网采集。只浏览素材目录无需Node.js。
 
 ```bash
 python3 -m venv .venv
@@ -68,6 +73,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/build_indexes.py
 .venv/bin/python scripts/ingest/build_ppt_indexes.py
 .venv/bin/python scripts/ingest/build_ppt_profiles.py
+.venv/bin/python scripts/ingest/build_viewer.py
 .venv/bin/python scripts/validate/report_field_union.py
 .venv/bin/python scripts/validate/report_official_extensions.py
 .venv/bin/python scripts/validate/report_overview_progress.py
@@ -79,7 +85,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/check.py
 ```
 
-统一检查执行档案语义、两套JSON Schema、单元测试、六项生成一致性及仓库只读检查。失败会显示学校标识码/字段或过期文件位置。提交、PR和手动触发均运行[GitHub Actions](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)，实现与验收说明见[质量检查文档](docs/quality-checks.md)。
+统一检查执行档案语义、两套JSON Schema、Python与网页规则测试、七项生成一致性及仓库只读检查。失败会显示学校标识码/字段或过期文件位置。提交、PR和手动触发均运行[GitHub Actions](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)，实现与验收说明见[质量检查文档](docs/quality-checks.md)。
 
 联网补采流程：
 

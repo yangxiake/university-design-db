@@ -81,3 +81,11 @@ ppt_export:
   csv: indexes/ppt-profiles.csv
   coverage: indexes/ppt-profiles-coverage.json
 quality_check_command: python scripts/check.py
+viewer:
+  version: 1
+  entry: viewer/index.html
+  generator: scripts/ingest/build_viewer.py
+  catalog: viewer/data/catalog.json
+  regional_bundles: viewer/data/provinces
+  source: indexes/ppt-profiles.jsonl
+  policy: Derived metadata only; original-source image URLs; browser preview status does not rewrite historical inspection facts.

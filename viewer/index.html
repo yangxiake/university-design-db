@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: http:; connect-src 'self'; object-src 'none'; base-uri 'none'">
+  <title>高校 PPT 素材目录</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+<a class="skip" href="#detail">跳到学校资料</a>
+<header class="hero">
+  <div class="hero-inner"><div class="eyebrow">UNIVERSITY DESIGN DATABASE</div>
+    <h1>高校 PPT 素材目录<span class="hero-dot">.</span></h1>
+    <p>找到学校，比较标识，选有依据的配色。</p>
+    <div id="totals" class="hero-stats" aria-live="polite">正在载入检索目录…</div>
+  </div>
+</header>
+<main class="shell">
+  <form id="filters" class="filters" role="search" aria-label="学校与素材检索">
+    <div class="filter-primary">
+      <label class="search-label">查找学校<input id="query" name="query" type="search" placeholder="校名、别名或学校标识码" autocomplete="off"></label>
+      <label>地区<select id="province" name="province"><option value="">全部地区</option></select></label>
+      <label>分类标签<select id="tag" name="tag"><option value="">全部标签</option></select></label>
+    </div>
+    <details class="advanced"><summary>按素材条件筛选 <span>类型 · 来源 · 格式 · 读取状态</span></summary>
+      <div class="filter-grid">
+        <label>资料类型<select id="type" name="type"><option value="all">全部资料</option><option value="logo">标识图形</option><option value="color">配色</option><option value="template">模板与主题</option><option value="presentation">已读取 PPTX</option><option value="visual_file">PPT 等视觉文件</option></select></label>
+        <label>记录来源<select id="source" name="source"><option value="">全部来源</option><option value="official">校方发布 / 官方标准色</option><option value="reference">社区资料 / 设计参考色</option></select></label>
+        <label>文件格式<select id="format" name="format"><option value="">全部格式</option></select></label>
+        <label>标识构成<select id="kind" name="kind"><option value="">全部构成</option><option value="badge">纯校徽</option><option value="wordmark">校名文字</option><option value="combination">徽名组合</option><option value="site_identity">官网页眉标识（待判定）</option><option value="anniversary">纪念标识</option></select></label>
+        <label>标识背景<select id="transparent" name="transparent"><option value="">不限透明状态</option><option value="yes">已记录透明背景</option><option value="no">已记录非透明背景</option><option value="unknown">背景状态未记录</option></select></label>
+        <label>读取状态<select id="status" name="status"><option value="">全部状态</option><option value="content_inspected">文件内容已读取</option><option value="indexed_not_fetched">只有入口，文件未读取</option><option value="inspection_failed">历史读取失败</option><option value="page_read">发布网页已读取</option><option value="target_page_read">实际目标为网页</option><option value="source_text_read">源码文本已读</option><option value="format_only">只识别了文件格式</option></select></label>
+        <label>屏幕主色<select id="colorStatus" name="colorStatus"><option value="">全部主色状态</option><option value="official_vi">官方数字主色</option><option value="official_print_only">仅有印刷主色</option><option value="design_reference">设计参考主色</option><option value="conflict">主色来源冲突</option><option value="unresearched">主色待调查</option><option value="not_found">已检索未找到主色</option></select></label>
+      </div>
+      <p class="filter-note">标识与模板按发布方筛选，色卡按标准色证据筛选。多个素材条件须同时匹配同一条记录。</p>
+    </details>
+    <div class="filter-footer"><span id="result-count" role="status"></span><button type="reset" class="quiet">重置筛选</button></div>
+  </form>
+  <div class="workspace">
+    <aside class="school-panel" aria-label="学校检索结果">
+      <div id="school-list" class="school-list"></div>
+      <div class="pagination"><button id="prev" class="quiet" type="button">上一页</button><span id="page-info"></span><button id="next" class="quiet" type="button">下一页</button></div>
+    </aside>
+    <article id="detail" class="detail" tabindex="-1"><div class="welcome"><span class="section-kicker">从学校开始</span><h2>让资料成为你的下一页 PPT。</h2><p>选择一所学校，查看可用标识、配色证据、模板条件和短简介。图形直接由原来源载入，资料中的来源、日期与使用说明可随时查阅。</p></div></article>
+  </div>
+  <footer class="site-footer"><p>教育部 2026 本科范围 · 每校一份身份档案 · 自动采集资料保留来源及空缺</p><a href="../docs/ppt-export-v1.md">数据与使用说明</a><a href="../README.md">资料库说明</a></footer>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

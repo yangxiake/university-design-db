@@ -3,7 +3,9 @@
 import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import hashlib
+import os
 import pathlib
+import shutil
 import subprocess
 import sys
 import time
@@ -15,7 +17,7 @@ JOBS = [
     ('JSON schemas', [PYTHON, 'scripts/validate/validate_schemas.py']),
     ('unit tests', [PYTHON, '-m', 'unittest', 'discover', '-s', 'scripts/validate', '-p', 'test_*.py']),
     *[(name, [PYTHON, 'scripts/ingest/' + name + '.py', '--check']) for name in
-      ('render_official', 'render_community', 'render_enriched', 'build_indexes', 'build_ppt_indexes', 'build_ppt_profiles')],
+      ('render_official', 'render_community', 'render_enriched', 'build_indexes', 'build_ppt_indexes', 'build_ppt_profiles', 'build_viewer')],
     ('whitespace', ['git', 'diff', '--check']),
 ]
 
@@ -44,13 +46,18 @@ def run_job(name, command):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--jobs', type=int, default=2, help='Bounded independent checks (1–4)')
+    parser.add_argument('--node', default=os.environ.get('NODE_BINARY', 'node'), help='Node.js 24 executable for viewer checks')
     args = parser.parse_args()
     if not 1 <= args.jobs <= 4:
         parser.error('--jobs must be 1–4')
+    node = shutil.which(args.node)
+    if not node:
+        parser.error('Node.js 24 is required; install it or pass --node /absolute/path/to/node')
+    jobs = JOBS + [('viewer model tests', [node, '--test', 'viewer/tests/model.test.mjs'])]
     before = snapshot()
     failed = []
     with ThreadPoolExecutor(max_workers=args.jobs) as pool:
-        futures = [pool.submit(run_job, name, command) for name, command in JOBS]
+        futures = [pool.submit(run_job, name, command) for name, command in jobs]
         for future in as_completed(futures):
             name, code, output, seconds = future.result()
             print('[%s] %s (%.1fs)' % ('FAIL' if code else 'PASS', name, seconds), flush=True)
@@ -65,7 +72,7 @@ def main():
         print('[FAIL] Check modified files:', *changed[:20], sep='\n', flush=True)
     else:
         print('[PASS] Check left all repository files unchanged.', flush=True)
-    print('Quality gates: %d/%d passed.' % (len(JOBS) + 1 - len(failed), len(JOBS) + 1), flush=True)
+    print('Quality gates: %d/%d passed.' % (len(jobs) + 1 - len(failed), len(jobs) + 1), flush=True)
     raise SystemExit(bool(failed))
 
 
