@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4141012746'
   name_zh: 郑州科技学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Zhengzhou University of Science and Technology
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q15941250&oldid=2542363438
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2542363438
+    source_sha256: 67558a5951db1e947ded4c22719349552708550528e6bcc86c243095e8262c6e
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.zit.edu.cn/
     source: https://www.zit.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +64,20 @@ research:
   audit_key: '4141012746'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#004890'
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_39/a_1_2.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 0788c42a1e9628c035febcf2
+    source_sha256: f6ad103020fe4c4c690feb8c0f47351559907c749feedc6d7e2d2f517ac416ab
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +99,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: ced40b9d2cadfc18629d97c7
     kind: site_identity
@@ -130,7 +135,78 @@ visual:
     byte_size: 14424
     representation: raster
     resolved_url: https://www.zit.edu.cn/images/logo.png
-  color_palette: []
+  - asset_id: 0788c42a1e9628c035febcf2
+    title: 郑州科技学院社区校徽预览
+    kind: badge
+    url: https://www.chinaschool.com.cn/i_region/i_16_henan/a_39/a_1_2.png
+    source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_39/a_39.html
+    file_name: a_1_2.png
+    upstream_path: null
+    publisher: 大学志 chinaschool.com.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 郑州科技学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: c6ef858296a2aa068eb41e0011390efdc7c5de26992f6e10c557d316261c2679
+    identity_basis: 页面标题为当前完整校名且图像alt精确标注同校校徽；社区关联证据，现行版本未独立确认。
+    usage_note: 社区学校资料页校徽预览；不是校方直接发布，不认定现行VI或图形授权。只保存链接与实际文件元数据，不再分发图形。
+    sha256: f6ad103020fe4c4c690feb8c0f47351559907c749feedc6d7e2d2f517ac416ab
+    access_status: content_inspected
+    byte_size: 35378
+    format: png
+    vector: false
+    width: 140
+    representation: raster
+    height: 140
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形；校名字样对应当前学校，或该页专用图形具有独立学校标识。社区来源，未认定为官方现行VI。
+  color_palette:
+  - value: '#004890'
+    rgb:
+    - 0
+    - 72
+    - 144
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_39/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_39/a_39.html
+    asset_id: 0788c42a1e9628c035febcf2
+    source_sha256: f6ad103020fe4c4c690feb8c0f47351559907c749feedc6d7e2d2f517ac416ab
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  - value: '#004090'
+    rgb:
+    - 0
+    - 64
+    - 144
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_39/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_39/a_39.html
+    asset_id: 0788c42a1e9628c035febcf2
+    source_sha256: f6ad103020fe4c4c690feb8c0f47351559907c749feedc6d7e2d2f517ac416ab
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
   vi_resources:
   - title: 郑州科技学院社区校徽目录
     url: https://www.urongda.com/logos/4141012746
@@ -227,6 +303,7 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  landmarks: []
 culture:
   founded_year:
     value: 1988
@@ -243,7 +320,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -265,6 +341,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -287,248 +364,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://zs.zit.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://jycyfw.zit.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业信息网
-  english_website:
-    value: https://my.zit.edu.cn/home
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://www.zit.edu.cn/xxgk/bcxx.htm
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 郑州市二七区马寨工业园学院路1号
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:郑州市二七区马寨工业园学院路1号邮编:450064
-  postal_code:
-    value: '450064'
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:郑州市二七区马寨工业园学院路1号邮编:450064
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 二七校区
-    address: null
-    coordinates: null
-    source: https://www.zit.edu.cn/xygk/xyjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 万山湖校区
-    address: null
-    coordinates: null
-    source: https://www.zit.edu.cn/xygk/xyjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 郑州科技学院位于河南省郑州市，主管部门为河南省教育厅。官网列示在校生28738人（统计日期未注明）。官网列示专任教师1870人（统计日期未注明）。官网列示总占地面积4800余亩（统计日期未注明）。简介列出二七校区、万山湖校区。
+    value: 郑州科技学院位于河南省郑州市，教育部名单列为本科，主管部门为河南省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.zit.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 28738
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；原标注：在校生28738人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 在校生28738人
-  faculty_count:
-    value: 1870
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师1870人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 专任教师1870人
-  campus_area_hectares:
-    value: 320.0
-    availability: found
-    search_sources: []
-    source: https://www.zit.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：总占地面积4800余亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 总占地面积4800余亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

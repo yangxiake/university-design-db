@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4137010908'
   name_zh: 山东工艺美术学院
@@ -9,12 +9,16 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Shandong University of Art and Design
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_34/a_34.html
+    source_sha256: 3c2b9cad1901dba5fb87eccb9d244a5e74b4b08cf4957d5aff426f4d31dc9f29
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.sdada.edu.cn/
     source: https://www.sdada.edu.cn/
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -99,7 +95,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 458d9153b8e0203477f2a199
     kind: site_identity
@@ -188,6 +183,7 @@ visual:
     checked_at: '2026-10-01'
     availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 1973
@@ -204,7 +200,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -226,6 +221,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -248,233 +244,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: http://en.sdada.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.sdada.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - ENGLISH
-  information_disclosure_url:
-    value: http://xxgk.sdada.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.sdada.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 长清校区:山东省济南市长清区大学路1255号 千佛山校区:山东省济南市历下区千佛山东路23号 联系方式
-    availability: found
-    search_sources: []
-    source: https://www.sdada.edu.cn/zjxy/lxwm.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址 长清校区:山东省济南市长清区大学路1255号 千佛山校区:山东省济南市历下区千佛山东路23号 联系方式 电话:0531-89626616
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 山东工艺美术学院位于山东省济南市，主管部门为山东省。官网列示在校生10166人（统计日期未注明）。官网列示教职工787人（统计日期未注明）。
+    value: 山东工艺美术学院位于山东省济南市，教育部名单列为本科，主管部门为山东省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.sdada.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 10166
-    availability: found
-    search_sources: []
-    source: https://www.sdada.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；原标注：在校生10166人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 在校生10166人
-  faculty_count:
-    value: 787
-    availability: found
-    search_sources: []
-    source: https://www.sdada.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；原标注：教职工787人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职工787人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0531-89626616'
-    availability: found
-    search_sources: []
-    source: https://www.sdada.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0531-89626616
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4137010908'
-    upstream_record_name: Shandong University of Art and Design
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

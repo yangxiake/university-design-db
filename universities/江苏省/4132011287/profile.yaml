@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132011287'
   name_zh: 南京审计大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Nanjing Audit University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q10906757&oldid=2551442622
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2551442622
+    source_sha256: 165bdf33b056211804a8b324ce7eb65dbec5c543843f814f0974328612293e8c
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.nau.edu.cn
     source: https://www.nau.edu.cn
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -67,12 +65,20 @@ research:
   audit_key: '4132011287'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#507890'
+    availability: found
     search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 1ba1099e358834b1
+    source_sha256: 39d7c273d620365cd873280bb4a394fdca94c1b1447464827acb718b873fd408
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -94,7 +100,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 96dee57e00fd5327cc8ab100
     kind: site_identity
@@ -224,6 +229,7 @@ visual:
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 1ba1099e358834b1
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 1983
@@ -240,7 +246,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -262,6 +267,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -284,244 +290,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.nau.edu.cn/5722/list.htm
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://english.nau.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: https://xxgk.nau.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 江苏省南京市浦口区江浦街道雨山西路86号
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:江苏省南京市浦口区江浦街道雨山西路86号
-  postal_code:
-    value: '211815'
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:211815
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 浦口校区
-    address: null
-    coordinates: null
-    source: https://www.nau.edu.cn/18/list.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 莫愁校区
-    address: null
-    coordinates: null
-    source: https://www.nau.edu.cn/18/list.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 南京审计大学位于江苏省南京市，主管部门为江苏省。官网列示专任教师1100余名（统计日期未注明）。官网列示占地面积120万平方米（统计日期未注明）。简介列出浦口校区、莫愁校区。
+    value: 南京审计大学位于江苏省南京市，教育部名单列为本科，主管部门为江苏省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.nau.edu.cn/18/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: 1100
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn/18/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；近似/下界数，保留原标注：专任教师1100余名；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 专任教师1100余名
-  campus_area_hectares:
-    value: 120.0
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn/18/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积120万平方米；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地面积120万平方米
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 博士学位授权一级学科：2个；统计时间undated
-    - 硕士学位授权一级学科：8个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn/18/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: dzb@nau.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.nau.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 书记信箱 dzb@nau.edu.cn
-    - 校长信箱 dzb@nau.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

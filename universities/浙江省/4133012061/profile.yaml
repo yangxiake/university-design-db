@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4133012061'
   name_zh: 金华职业技术大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Jinhua University of Vocational Technology
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q15942821&oldid=2478759888
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2478759888
+    source_sha256: 97215a1c9f4f09f0f3d3a9187e00d72c4e3879024f46e5ea487854f854d76d58
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.jhc.edu.cn/
     source: https://www.jhc.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +66,20 @@ research:
   audit_key: '4133012061'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#00408B'
+    availability: found
     search_sources: []
+    source: https://www.jhc.edu.cn/_upload/tpl/01/fc/508/template508/images/logo.svg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: c2e8290f811258ef9ab8b2b4
+    source_sha256: 58c4ad3c0e99ae6bd340844a721f8525f19461bdd3fd943a469e5faa0147816b
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -96,7 +102,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: c2e8290f811258ef9ab8b2b4
     kind: site_identity
@@ -239,14 +244,21 @@ visual:
     availability: found
     source_sha256: af2f60cb258d2faac0e13b10663e6463b546edcc6e5f38a0aa47a5f92d93e654
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1994
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q15942821&oldid=2478759888
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2478759888
+    source_sha256: 97215a1c9f4f09f0f3d3a9187e00d72c4e3879024f46e5ea487854f854d76d58
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -254,7 +266,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -276,6 +287,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -298,194 +310,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://en.jhc.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.jhc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 浙江省金华市海棠西路888号
-    availability: found
-    search_sources: []
-    source: https://www.jhc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:浙江省金华市海棠西路888号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '招生咨询电话: 0579-82265035'
+    value: 金华职业技术大学位于浙江省金华市，教育部名单列为本科，主管部门为浙江省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.jhc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 招生咨询电话:0579-82265035
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

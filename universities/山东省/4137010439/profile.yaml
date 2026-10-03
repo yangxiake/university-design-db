@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4137010439'
   name_zh: 山东第一医科大学
@@ -43,14 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -67,12 +59,33 @@ research:
   audit_key: '4137010439'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#800E74'
+    source: https://vi.sdfmu.edu.cn/__local/B/90/8B/ECFD2A5A73D1AE7B7B57D94BEAA_E24E322E_1F489.jpg
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
     search_sources: []
+    method: manual_derived
+    official: false
+    basis: PPT屏幕设计建议：采用学校原文明确列出的WEB/HEX色值#800E74。原资料的RGB与HEX仍不一致，原始数值冲突完整保留；此为建议色选择，不是校方确认的唯一官方标准。已查看官网VI标准色色卡图片的HEX字段。
+    collector: declared_hex_ppt_suggestion
+    official_numeric_conflict:
+      value: null
+      source: null
+      verified: auto
+      checked_at: '2026-10-02'
+      availability: conflict
+      search_sources: []
+      label: 学校标准紫数值待核对
+      note: '同一官方标准色色卡写RGB 128/25/121（#801979）及HEX #800E74，未自动选定。'
+      candidates:
+      - value: '#801979'
+        basis: 原图RGB 128/25/121直接编码
+        source: https://vi.sdfmu.edu.cn/__local/B/90/8B/ECFD2A5A73D1AE7B7B57D94BEAA_E24E322E_1F489.jpg
+      - value: '#800E74'
+        basis: 原图HEX 800E74
+        source: https://vi.sdfmu.edu.cn/__local/B/90/8B/ECFD2A5A73D1AE7B7B57D94BEAA_E24E322E_1F489.jpg
   color_secondary:
     value: null
     source: null
@@ -96,7 +109,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: d994525b5b8764398404311e
     kind: site_identity
@@ -221,6 +233,318 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: e241e6cfc435c1b7
+  - value: '#801979'
+    rgb:
+    - 128
+    - 25
+    - 121
+    cmyk:
+    - 60
+    - 100
+    - 15
+    - 0
+    pantone: null
+    label: 标准紫RGB候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/B/90/8B/ECFD2A5A73D1AE7B7B57D94BEAA_E24E322E_1F489.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: '学校标准色原图RGB 128/25/121与HEX #800E74矛盾；该值由原RGB编码，待核对。'
+    source_sha256: e9de0404e931fefbf53cb56fcaf94e6d0e29e33fd2878d78fe82950c66b823ae
+  - value: '#800E74'
+    rgb:
+    - 128
+    - 14
+    - 116
+    cmyk:
+    - 60
+    - 100
+    - 15
+    - 0
+    pantone: null
+    label: 标准紫HEX候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/B/90/8B/ECFD2A5A73D1AE7B7B57D94BEAA_E24E322E_1F489.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: '学校标准色原图HEX #800E74与RGB 128/25/121矛盾；保留原HEX候选，待核对。'
+    source_sha256: e9de0404e931fefbf53cb56fcaf94e6d0e29e33fd2878d78fe82950c66b823ae
+  - value: '#0081CC'
+    rgb:
+    - 0
+    - 129
+    - 204
+    cmyk:
+    - 100
+    - 30
+    - 0
+    - 0
+    pantone: null
+    label: 辅助蓝
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/6/E0/7D/B116AF79A147D33EE98F64DDAC5_EB651165_28BA9.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 9400acf4a36e2bc8682d2339885b67ac5bd03fb4cfc278441bad4b2f25316584
+  - value: '#00A9BA'
+    rgb:
+    - 0
+    - 169
+    - 186
+    cmyk:
+    - 85
+    - 0
+    - 30
+    - 0
+    pantone: null
+    label: 辅助青
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/6/E0/7D/B116AF79A147D33EE98F64DDAC5_EB651165_28BA9.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 9400acf4a36e2bc8682d2339885b67ac5bd03fb4cfc278441bad4b2f25316584
+  - value: '#72AF2D'
+    rgb:
+    - 114
+    - 175
+    - 45
+    cmyk:
+    - 60
+    - 10
+    - 100
+    - 0
+    pantone: null
+    label: 辅助绿
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/6/E0/7D/B116AF79A147D33EE98F64DDAC5_EB651165_28BA9.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 9400acf4a36e2bc8682d2339885b67ac5bd03fb4cfc278441bad4b2f25316584
+  - value: '#F6AC2D'
+    rgb:
+    - 246
+    - 172
+    - 45
+    cmyk:
+    - 0
+    - 40
+    - 85
+    - 0
+    pantone: null
+    label: 辅助橙
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/6/E0/7D/B116AF79A147D33EE98F64DDAC5_EB651165_28BA9.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 9400acf4a36e2bc8682d2339885b67ac5bd03fb4cfc278441bad4b2f25316584
+  - value: '#C8161D'
+    rgb:
+    - 200
+    - 22
+    - 29
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 辅助红
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/6/E0/7D/B116AF79A147D33EE98F64DDAC5_EB651165_28BA9.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 9400acf4a36e2bc8682d2339885b67ac5bd03fb4cfc278441bad4b2f25316584
+  - value: '#BD9F68'
+    rgb:
+    - 189
+    - 159
+    - 104
+    cmyk:
+    - 25
+    - 35
+    - 60
+    - 10
+    pantone: null
+    label: 辅助金RGB候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 原图RGB189/159/104与HEX BB9E6E不一致，保留候选待核对。
+    source_sha256: f61d1d148167ae5432a8492f6a94f87345a688b571cc5e318cbec256474654dc
+  - value: '#BB9E6E'
+    rgb:
+    - 187
+    - 158
+    - 110
+    cmyk:
+    - 25
+    - 35
+    - 60
+    - 10
+    pantone: null
+    label: 辅助金HEX候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 原图HEX BB9E6E与RGB189/159/104不一致，保留候选待核对。
+    source_sha256: f61d1d148167ae5432a8492f6a94f87345a688b571cc5e318cbec256474654dc
+  - value: '#B5B5B6'
+    rgb:
+    - 181
+    - 181
+    - 182
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 辅助银RGB候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 原图RGB181/181/182与HEX B5B6B7不一致，保留候选待核对。
+    source_sha256: f61d1d148167ae5432a8492f6a94f87345a688b571cc5e318cbec256474654dc
+  - value: '#B5B6B7'
+    rgb:
+    - 181
+    - 182
+    - 183
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 辅助银HEX候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 原图HEX B5B6B7与RGB181/181/182不一致，保留候选待核对。
+    source_sha256: f61d1d148167ae5432a8492f6a94f87345a688b571cc5e318cbec256474654dc
+  - value: '#42403E'
+    rgb:
+    - 66
+    - 64
+    - 62
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 90
+    pantone: null
+    label: 辅助黑灰
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助金与辅助银的RGB/HEX也有矛盾。
+    source_sha256: f61d1d148167ae5432a8492f6a94f87345a688b571cc5e318cbec256474654dc
+  - value: '#1D2088'
+    rgb:
+    - 29
+    - 32
+    - 136
+    cmyk:
+    - 100
+    - 100
+    - 0
+    - 0
+    pantone: null
+    label: 辅助紫蓝
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助金与辅助银的RGB/HEX也有矛盾。
+    source_sha256: f61d1d148167ae5432a8492f6a94f87345a688b571cc5e318cbec256474654dc
+  - value: '#2C4198'
+    rgb:
+    - 44
+    - 65
+    - 152
+    cmyk:
+    - 90
+    - 80
+    - 0
+    - 0
+    pantone: null
+    label: 辅助深蓝
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助金与辅助银的RGB/HEX也有矛盾。
+    source_sha256: f61d1d148167ae5432a8492f6a94f87345a688b571cc5e318cbec256474654dc
+  - value: '#800E74'
+    source: https://vi.sdfmu.edu.cn/__local/B/90/8B/ECFD2A5A73D1AE7B7B57D94BEAA_E24E322E_1F489.jpg
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    method: manual_derived
+    official: false
+    basis: PPT屏幕设计建议：采用学校原文明确列出的WEB/HEX色值#800E74。原资料的RGB与HEX仍不一致，原始数值冲突完整保留；此为建议色选择，不是校方确认的唯一官方标准。已查看官网VI标准色色卡图片的HEX字段。
+    collector: declared_hex_ppt_suggestion
+    rgb:
+    - 128
+    - 14
+    - 116
+    cmyk: null
+    pantone: null
+    role: reference
+    label: 官网HEX的PPT屏幕建议色
   vi_resources:
   - title: 视觉形象识别系统
     url: https://vi.sdfmu.edu.cn/
@@ -238,14 +562,106 @@ visual:
     availability: found
     source_sha256: 99266cd9efb1dc008d94b4071fb43336213ac6cd56faee3148c9517fc21d039e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 视觉形象识别系统
+    url: https://vi.sdfmu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sdfmu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7c2e453c5a9cb1facd0ed4677bbdfc2adb83cd53fcc3c8e3d8f132808114bc18
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 山东第一医科大学官方视觉规范
+    url: https://vi.sdfmu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.sdfmu.edu.cn/__local/B/90/8B/ECFD2A5A73D1AE7B7B57D94BEAA_E24E322E_1F489.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。标准色原图RGB与HEX矛盾，主色字段标记conflict。
+  - title: 山东第一医科大学官方视觉规范
+    url: https://vi.sdfmu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.sdfmu.edu.cn/__local/6/E0/7D/B116AF79A147D33EE98F64DDAC5_EB651165_28BA9.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  - title: 山东第一医科大学官方视觉规范
+    url: https://vi.sdfmu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助金与辅助银的RGB/HEX也有矛盾。
+  - title: 视觉形象识别系统
+    url: https://vi.sdfmu.edu.cn/index.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sdfmu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 99266cd9efb1dc008d94b4071fb43336213ac6cd56faee3148c9517fc21d039e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1915
+    availability: found
     search_sources: []
+    source: https://www.sdfmu.edu.cn/xxgk1/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    source_sha256: bf3e166a88e5a3545ddd35ff319abd6e52388bad8604b573ef9f4692bcfb8008
+    collector: read_overview_identity_facts
+    basis: 官网以本校为主语明确记载创办/成立时间；不把筹建、更名或新校区年份代填。
+    previous_status: unresearched
   motto:
     value: 跬步千里，止于至善
     source: https://www.sdfmu.edu.cn/xxgk1/dxzc.htm
@@ -253,12 +669,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events:
-  - year: 2017
-    event: 山东省决定整合泰山医学院、省医学科学院及省立医院等资源，启动山东第一医科大学组建
-    source: https://www.sdfmu.edu.cn/xxgk1/dxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -280,6 +690,12 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 2017
+    event: 山东省决定整合泰山医学院、省医学科学院及省立医院等资源，启动山东第一医科大学组建
+    source: https://www.sdfmu.edu.cn/xxgk1/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -302,198 +718,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://enrollment.sdfmu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.sdfmu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 本科招生
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: http://english.sdfmu.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.sdfmu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://information.sdfmu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.sdfmu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0531-59556066'
+    value: 山东第一医科大学位于山东省济南市，教育部名单列为本科，主管部门为山东省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.sdfmu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 总值班室电话:0531-59556066
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

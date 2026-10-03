@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4143013925'
   name_zh: 湖南软件职业技术大学
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Hunan Software Vocational and Technical University
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_17_hunan/a_52/a_52.html
+    source_sha256: ac8c85c5f27504b3da13b80288512f98e0e37b3619d05f9515a600a5b531a561
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: null
     source: null
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -101,18 +97,23 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets: []
   color_palette: []
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2001
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E6%B9%96%E5%8D%97%E8%BD%AF%E4%BB%B6%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6&oldid=81792339
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: 3455041abe0ad2cf46bb62b4ddf0fbd68940f3fba4572384414784f6d9c21395
+    source_revision: 81792339
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
     value: null
     source: null
@@ -120,7 +121,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -142,6 +142,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -164,185 +165,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 湖南软件职业技术大学位于湖南省湘潭市，教育部名单列为本科，主管部门为湖南省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -8,6 +8,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://www.lumei.edu.cn/images/logo.png) · [来源](https://www.lumei.edu.cn) | 官网 | png | 366 × 100 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](http://www.lumei.edu.cn/images/logo.png) · [来源](http://www.lumei.edu.cn/xygk/xhxx.htm) | 官网 | png | 366 × 100 | content_inspected | 未独立声明 |
+| 校徽 | a_1_2.png | [文件](https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_33/a_1_2.png) · [来源](https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_33/a_33.html) | 社区 | png | 140 × 140 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -15,8 +16,8 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
-尚无附来源配色。
+| 社区校徽取色参考 | `#A00000` | 160,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_33/a_1_2.png) |
+| 社区校徽取色参考 | `#980000` | 152,0,0 | reference |  |  | 社区标识取色建议 | [依据](https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_33/a_1_2.png) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -24,5 +25,6 @@
 
 - 现有VI入口：[https://www.lumei.edu.cn/xygk/xhxx.htm](https://www.lumei.edu.cn/xygk/xhxx.htm)
 - [校徽校训](http://www.lumei.edu.cn/xygk/xhxx.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.lumei.edu.cn/xygk/xhxx.htm)。
+- [校徽校训](https://www.lumei.edu.cn/xygk/xhxx.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lumei.edu.cn/xygk/xhxx.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

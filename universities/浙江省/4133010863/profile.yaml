@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4133010863'
   name_zh: 宁波职业技术大学
@@ -9,12 +9,16 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Ningbo Polytechnic University
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_11_zhejiang/a_63/a_63.html
+    source_sha256: d4649664a54902c34b9325c600771241674c5d91268531e0b4072c0d64002f83
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.nbpu.edu.cn/
     source: https://www.nbpu.edu.cn/
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -95,7 +91,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 1b3bce1fc95886a91f234df9
     kind: site_identity
@@ -134,14 +129,21 @@ visual:
     resolved_url: https://www.nbpu.edu.cn/_upload/tpl/00/be/190/template190/images/logo.png
   color_palette: []
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1999
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q30264930&oldid=2474185862
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2474185862
+    source_sha256: 97215a1c9f4f09f0f3d3a9187e00d72c4e3879024f46e5ea487854f854d76d58
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: 勤、信、实
     source: https://xxgk.webs.nbpu.edu.cn/2023/1108/c1931a112032/page.htm
@@ -149,7 +151,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -171,6 +172,7 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -193,224 +195,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://zhaosheng.nbpu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.nbpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://en.nbpu.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.nbpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: https://xxgk.webs.nbpu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.nbpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 宁波经济技术开发区庐山东路388号
-    availability: found
-    search_sources: []
-    source: https://www.nbpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:宁波经济技术开发区庐山东路388号
-  postal_code:
-    value: '315800'
-    availability: found
-    search_sources: []
-    source: https://www.nbpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮政编码:315800
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 宁波职业技术大学位于浙江省宁波市，主管部门为浙江省。官网列示全日制在校生12000余人（统计日期未注明）。官网列示教职工800余名（统计日期未注明）。
+    value: 宁波职业技术大学位于浙江省宁波市，教育部名单列为本科，主管部门为浙江省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.nbpu.edu.cn/2638/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 12000
-    availability: found
-    search_sources: []
-    source: https://www.nbpu.edu.cn/2638/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生12000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校生12000余人
-  faculty_count:
-    value: 800
-    availability: found
-    search_sources: []
-    source: https://www.nbpu.edu.cn/2638/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工800余名；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工800余名
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0574-86891367'
-    availability: found
-    search_sources: []
-    source: https://www.nbpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0574-86891367
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

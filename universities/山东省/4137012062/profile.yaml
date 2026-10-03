@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4137012062'
   name_zh: 日照职业技术大学
@@ -44,14 +44,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -69,12 +61,21 @@ research:
   audit_key: '4137012062'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#006DCA'
+    availability: found
     search_sources: []
+    source: https://www.rzpt.cn/dfiles/18014/rzpt/web/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: 3db98eaf0be9757955b1f09c966cacd877586642ff0768fcdaa3459496eadd87
+    homepage_source: https://www.rzpt.cn/
+    homepage_sha256: 637e3ea23a215d561ed0f1effd809319815a9474cc240083fab7d02ade934611
+    css_selector: .header
+    css_declaration: '#006dca'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -96,7 +97,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 469fb6f5b6219c149ecd2d71
     kind: site_identity
@@ -133,8 +133,32 @@ visual:
     byte_size: 30546
     representation: raster
     resolved_url: https://www.rzpt.cn/dfiles/rzpu/images/logo.png
-  color_palette: []
+  color_palette:
+  - value: '#006DCA'
+    rgb:
+    - 0
+    - 109
+    - 202
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.rzpt.cn/dfiles/18014/rzpt/web/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: 3db98eaf0be9757955b1f09c966cacd877586642ff0768fcdaa3459496eadd87
+    homepage_source: https://www.rzpt.cn/
+    homepage_sha256: 637e3ea23a215d561ed0f1effd809319815a9474cc240083fab7d02ade934611
+    css_selector: .header
+    css_declaration: '#006dca'
+    collector: ppt_site_reference
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 1987
@@ -151,7 +175,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -173,6 +196,7 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -195,202 +219,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://gotorzu.rzpt.cn/
-    availability: found
-    search_sources: []
-    source: https://www.rzpt.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业处
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 中国·山东省日照市烟台北路16号学校
-    availability: found
-    search_sources: []
-    source: https://www.rzpt.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - Copyright © 2023 日照职业技术大学版权所有学校地址:中国·山东省日照市烟台北路16号学校电话:0633-7987001 邮编:276826邮箱:rzpt003@126.com
-  postal_code:
-    value: '276826'
-    availability: found
-    search_sources: []
-    source: https://www.rzpt.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - Copyright © 2023 日照职业技术大学版权所有学校地址:中国·山东省日照市烟台北路16号学校电话:0633-7987001 邮编:276826邮箱:rzpt003@126.com
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0633-7987001'
+    value: 日照职业技术大学位于山东省日照市，教育部名单列为本科，主管部门为山东省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.rzpt.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - Copyright © 2023 日照职业技术大学版权所有学校地址:中国·山东省日照市烟台北路16号学校电话:0633-7987001 邮编:276826邮箱:rzpt003@126.com
-  email:
-    value: rzpt003@126.com
-    availability: found
-    search_sources: []
-    source: https://www.rzpt.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - Copyright © 2023 日照职业技术大学版权所有学校地址:中国·山东省日照市烟台北路16号学校电话:0633-7987001 邮编:276826邮箱:rzpt003@126.com
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

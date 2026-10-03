@@ -33,5 +33,6 @@
 
 - 现有VI入口：[https://www.ncut.edu.cn/xxjs1/xxwh2/xh.htm](https://www.ncut.edu.cn/xxjs1/xxwh2/xh.htm)
 - [学校标识](https://www.ncut.edu.cn/xxjs1/xxbs.htm)：校徽，校名，配色；格式 jpg；访问条件 否。社区记录[来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md)。
+- [校徽](https://www.ncut.edu.cn/xxjs1/xxwh2/xh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ncut.edu.cn/xxjs1/xxwh2/xh.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -10,6 +10,7 @@
 | 官网页眉标识（构成待核验） | logo2.png | [文件](https://www.cqnu.edu.cn/2023xsy8/images/logo2.png) · [来源](https://www.cqnu.edu.cn) | 官网 | png | 282 × 58 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo11.png | [文件](https://www.cqnu.edu.cn/2023xsy8/images/logo11.png) · [来源](https://www.cqnu.edu.cn) | 官网 | png | 264 × 55 | content_inspected | 未独立声明 |
 | 校徽 | 重庆师范大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/重庆师范大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 236 × 236 | content_inspected | 未独立声明 |
+| 校名文字 | xm.png | [压缩包](https://www.cqnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1492027149&wbfileid=5205804) 内 `xm.png` · [来源](https://www.cqnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1492027149&wbfileid=5205804) | 官网 | png | 3103 × 552 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -31,6 +32,7 @@
 - [重庆师范大学校名.zip](https://www.cqnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1492027149&wbfileid=5205804)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cqnu.edu.cn/info/1364/22290.htm)。
 - [校徽校歌-重庆师范大学](https://www.cqnu.edu.cn/xxgl1/xhxg.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cqnu.edu.cn/xxgl1/xhxg.htm)。
 - [校徽.png](https://www.cqnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1492027149&wbfileid=5328048)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cqnu.edu.cn/xxgl1/xhxg.htm)。
-- [重庆师范大学校名.zip](https://www.cqnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1492027149&wbfileid=5205804)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cqnu.edu.cn/xxgl1/xhxg.htm)。
+- [重庆师范大学校名.zip](https://www.cqnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1492027149&wbfileid=5205804)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.cqnu.edu.cn/xxgl1/xhxg.htm)。
+  - 文件容器已读取：ZIP；66485字节；读取类型archive_structure；文件SHA256 `4d79caf9da13852168ec05ade8d9adc7ed28c35bd657c75cd854d219594fd170`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

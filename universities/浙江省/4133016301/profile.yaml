@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4133016301'
   name_zh: 宁波诺丁汉大学
@@ -9,12 +9,18 @@ identity:
   note: 中外合作办学及内地与港澳合作办学
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: University of Nottingham Ningbo
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q1075625&oldid=2515529453
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2515529453
+    source_sha256: e6d30a90acc3999a78b042c97fc2283c3e2e21c841fa957f428a206931c3bbe1
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: null
     source: null
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 合作办学本科
   scope_tags:
@@ -85,12 +83,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#104880'
+    availability: found
     search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 67ea684497e81e2f
+    source_sha256: d36f9d0b7097ca0380bd480b0255009fafc350ccb27236a6927c4e382f3a4d4b
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -112,7 +118,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 4aa4b4590c5b4df9
     title: 宁波诺丁汉大学校徽资源
@@ -267,6 +272,7 @@ visual:
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 67ea684497e81e2f
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 2004
@@ -284,7 +290,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -306,6 +311,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -328,197 +334,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4133016301'
-    upstream_record_name: 宁波诺丁汉大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
+    value: 宁波诺丁汉大学位于浙江省宁波市，教育部名单列为本科，主管部门为浙江省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
+    availability: found
+    search_sources: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

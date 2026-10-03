@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4111010002'
   name_zh: 中国人民大学
@@ -67,34 +67,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - renmin-university-of-china
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: ruc
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -146,7 +118,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: ff7dc134c2268216
     title: 中国人民大学校徽资源
@@ -379,6 +350,41 @@ visual:
     inspection_attempts:
     - url: https://www.ruc.edu.cn/template/1/out/imgs/logo.png
       status: content_inspected
+  - archive_url: https://www.ruc.edu.cn/cms-proxy/file/download?file=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6%E8%A7%86%E8%A7%89%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F.zip
+    archive_sha256: 57175947626c66192e76e22a15b9e461a6649d16dadd060f3f8e728ec6834697
+    archive_member: Σ╕¡σ¢╜Σ║║µ░æσñºσ¡ªΦºåΦºëΦ»åσê½τ│╗τ╗ƒ/µáçσ┐ù(σ╜⌐Φë▓)/µáçσ┐ù(σ╜⌐Φë▓).jpg
+    archive_member_display: 中国人民大学视觉识别系统/标志(彩色)/标志(彩色).jpg
+    checked_at: '2026-10-02'
+    sha256: 8948742bacdc587a3f40bcfc381c73cb639a535ff042eeb179f7038ae8a4c44d
+    access_status: content_inspected
+    byte_size: 1532558
+    format: jpeg
+    vector: false
+    width: 1304
+    representation: raster
+    height: 1304
+    has_alpha: false
+    transparent_background: false
+    asset_id: c21c23b14334b526fe42f980
+    kind: badge
+    title: 中国人民大学官方附件内标识：标志(彩色).jpg
+    url: https://www.ruc.edu.cn/cms-proxy/file/download?file=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6%E8%A7%86%E8%A7%89%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F.zip
+    source: https://www.ruc.edu.cn/cms-proxy/file/download?file=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6%E8%A7%86%E8%A7%89%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F.zip
+    publisher: 中国人民大学
+    official: true
+    download_kind: archive_member
+    file_name: 标志(彩色).jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国人民大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#E8D4A9'
     rgb:
@@ -552,13 +558,13 @@ visual:
     checked_at: '2026-10-01'
     availability: found
     note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
-  - title: 中国人民大学官网视觉资源页 PPT模板发布/下载页
+  - title: 中国人民大学-学校标识
     url: https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html
     kinds:
-    - PPT模板
+    - 校徽/校名介绍及资源
     formats:
     - HTML
-    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
     source: https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html
     repository: null
     commit: null
@@ -566,44 +572,14 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: f36b1dacbf551a4d1798c1005841b958af69fedb8bb5008385605e288b1439f1
-    note: 发布范围：学校通用；按发布页说明使用。
-    publisher: 中国人民大学官网视觉资源页
-    use_scope: school
+    source_sha256: 652235c3be7d891c083be831b5e2a31359824a358bf484f0823df9830d3d7e5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
     content_read: true
     download_status: page_read
   - title: PPT模板
     url: https://www.ruc.edu.cn/cms-proxy/file/download?file=ppt模板.zip
     kinds:
     - PPT模板
-    formats:
-    - ZIP
-    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
-    source: https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html
-    repository: null
-    commit: null
-    official: true
-    verified: auto
-    checked_at: '2026-10-02'
-    availability: found
-    source_sha256: f36b1dacbf551a4d1798c1005841b958af69fedb8bb5008385605e288b1439f1
-    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
-    publisher: 中国人民大学官网视觉资源页
-    use_scope: school
-    content_read: false
-    download_status: indexed_not_fetched
-    file_inspection:
-      status: inspection_failed
-      checked_at: '2026-10-02'
-      attempts:
-      - url: https://www.ruc.edu.cn/cms-proxy/file/download?file=ppt模板.zip
-        status: access_or_parse_gap
-        error_type: ValueError
-        detail: download_size_limit
-  - title: 中国人民大学视觉识别文件下载
-    url: https://www.ruc.edu.cn/cms-proxy/file/download?file=中国人民大学视觉识别系统.zip
-    kinds:
-    - 视觉识别规范/资源
     formats:
     - ZIP
     access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
@@ -614,8 +590,44 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: f36b1dacbf551a4d1798c1005841b958af69fedb8bb5008385605e288b1439f1
+    source_sha256: 652235c3be7d891c083be831b5e2a31359824a358bf484f0823df9830d3d7e5b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 中国人民大学视觉识别文件下载
+    url: https://www.ruc.edu.cn/cms-proxy/file/download?file=中国人民大学视觉识别系统.zip
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - ZIP
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.ruc.edu.cn/cms-proxy/file/download?file=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6%E8%A7%86%E8%A7%89%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F.zip
+        status: file_read
+        url: https://www.ruc.edu.cn/cms-proxy/file/download?file=中国人民大学视觉识别系统.zip
+      resolved_url: https://www.ruc.edu.cn/cms-proxy/file/download?file=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6%E8%A7%86%E8%A7%89%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F.zip
+    file_metadata:
+      byte_size: 7969911
+      format: ZIP
+      member_count: 76
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 57175947626c66192e76e22a15b9e461a6649d16dadd060f3f8e728ec6834697
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
     value: 1937
@@ -633,12 +645,6 @@ culture:
     availability: found
     checked_at: '2026-10-01'
     search_sources: []
-  history_events:
-  - year: 1939
-    event: 陕北公学总校迁入栒邑并与分校合并
-    source: https://www.ruc.edu.cn/lishiyange.html
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -660,6 +666,12 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 1939
+    event: 陕北公学总校迁入栒邑并与分校合并
+    source: https://www.ruc.edu.cn/lishiyange.html
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html
@@ -723,731 +735,14 @@ resources:
     - TeX/TikZ
     content_read: true
     usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: http://rdjy.ruc.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://en.ruc.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ruc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: https://xxgk.ruc.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ruc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '985'
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 116.317
-      latitude: 39.971
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: 中国人民大学位于北京市，主管部门为教育部。官网列示在学学生28633人（统计时间2025-11）。官网列示专任教师2004人（统计时间2025-11）。
+    value: 中国人民大学位于北京市北京市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.ruc.edu.cn/xuexiaojianjie.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 28633
-    availability: found
-    search_sources: []
-    source: https://www.ruc.edu.cn/xuexiaojianjie.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在学学生；原标注：在学学生28633人；截至2025年11月
-    source_as_of: 2025-11
-    date_basis: 截至2025年11月
-    approximate: false
-    original_notation: 在学学生28633人
-  faculty_count:
-    value: 2004
-    availability: found
-    search_sources: []
-    source: https://www.ruc.edu.cn/xuexiaojianjie.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师2004人；截至2025年11月
-    source_as_of: 2025-11
-    date_basis: 截至2025年11月
-    approximate: false
-    original_notation: 专任教师2004人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 理论经济学
-    - 应用经济学
-    - 法学
-    - 社会学
-    - 新闻传播学
-    - 工商管理
-    - 马克思主义理论
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value:
-    - 一级学科硕士学位授权点：37个；统计时间undated
-    - 一级学科博士学位授权点：28个；统计时间undated
-    - 专业学位类别硕士学位授权点：42个；统计时间undated
-    - 专业学位类别博士学位授权点：3个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.ruc.edu.cn/xuexiaojianjie.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments:
-  - subject: 理论经济学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 应用经济学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 法学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 社会学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 马克思主义理论
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 新闻传播学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 统计学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 工商管理
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 公共管理
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 哲学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 政治学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 中国史
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 图书情报与档案管理
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 中国语言文学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 18
-    score: 487.8
-    indicators:
-      school_level: 34.5
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 17
-    score: 558.1
-    indicators:
-      faculty: 50.7
-      research: 44.9
-      resources: 14
-      discipline: 59.1
-      top_talent: 45.1
-      school_level: 33
-      international: 15.1
-      major_projects: 52.1
-      social_service: 2.4
-      talent_training: 241.6
-    upstream_url: https://www.shanghairanking.cn/institution/renmin-university-of-china
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 672
-    minimum_rank: 680
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 648
-    minimum_rank: 260
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国人民大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4111010002'
-    upstream_record_name: 中国人民大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4111010002'
-    upstream_record_name: 中国人民大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4111010002'
-    upstream_record_name: 中国人民大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4111010002'
-    upstream_record_name: 中国人民大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4111010002'
-    upstream_record_name: 中国人民大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 就业概况
-    - 层次
-    - 师资概况
-    - 生源概况
-    - 科研概况
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4111010002'
-    upstream_record_name: Renmin University of China
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4121013621'
   name_zh: 沈阳科技学院
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Shenyang Institute of Science and Technology
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_61/a_61.html
+    source_sha256: 0a14671eb4c83a09144a231a0c6eb19c822a2d299567d17527c14cfd27de23c4
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.syist.cn
     source: https://www.syist.cn
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +62,20 @@ research:
   audit_key: '4121013621'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#004088'
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_61/a_1_2.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 95ab18cfd490e5d4c9004a9d
+    source_sha256: ad80c856cae784fc103c75da76c93df5442aa23df95f4d7e50ea67036907e1ab
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +97,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 3d042533fe0b17fe7eb5be35
     kind: site_identity
@@ -130,8 +133,98 @@ visual:
     byte_size: 16094
     representation: raster
     resolved_url: https://www.syist.cn/static/index/images/logo.png
-  color_palette: []
-  vi_resources: []
+  - asset_id: 95ab18cfd490e5d4c9004a9d
+    title: 沈阳科技学院社区校徽预览
+    kind: badge
+    url: https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_61/a_1_2.png
+    source: https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_61/a_61.html
+    file_name: a_1_2.png
+    upstream_path: null
+    publisher: 大学志 chinaschool.com.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 沈阳科技学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: 0a14671eb4c83a09144a231a0c6eb19c822a2d299567d17527c14cfd27de23c4
+    identity_basis: 页面标题为当前完整校名且图像alt精确标注同校校徽；社区关联证据，现行版本未独立确认。
+    usage_note: 社区学校资料页校徽预览；不是校方直接发布，不认定现行VI或图形授权。只保存链接与实际文件元数据，不再分发图形。
+    sha256: ad80c856cae784fc103c75da76c93df5442aa23df95f4d7e50ea67036907e1ab
+    access_status: content_inspected
+    byte_size: 27514
+    format: png
+    vector: false
+    width: 140
+    representation: raster
+    height: 140
+    has_alpha: true
+    transparent_background: true
+    visual_review: auto
+    visual_review_basis: 实际查看图形；校名字样对应当前学校，或该页专用图形具有独立学校标识。社区来源，未认定为官方现行VI。
+  color_palette:
+  - value: '#004088'
+    rgb:
+    - 0
+    - 64
+    - 136
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_61/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_61/a_61.html
+    asset_id: 95ab18cfd490e5d4c9004a9d
+    source_sha256: ad80c856cae784fc103c75da76c93df5442aa23df95f4d7e50ea67036907e1ab
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  - value: '#003080'
+    rgb:
+    - 0
+    - 48
+    - 128
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_61/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_6_liaoning/a_61/a_61.html
+    asset_id: 95ab18cfd490e5d4c9004a9d
+    source_sha256: ad80c856cae784fc103c75da76c93df5442aa23df95f4d7e50ea67036907e1ab
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  vi_resources:
+  - title: 学校标识-沈阳科技学院
+    url: https://www.syist.cn/article/index/category_id/91.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.syist.cn/article/index/category_id/91.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9ba63af6803b3c12d7dd934bb44c718051b9fef950d4068b97e2bff1303eecc1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
     value: 1999
@@ -148,7 +241,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -170,6 +262,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -192,222 +285,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 辽宁省沈阳市浑南区全运二西路30号
-    availability: found
-    search_sources: []
-    source: https://www.syist.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:辽宁省沈阳市浑南区全运二西路30号
-  postal_code:
-    value: '110167'
-    availability: found
-    search_sources: []
-    source: https://www.syist.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:110167 电话:024-31679767/31969585
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 沈阳科技学院位于辽宁省沈阳市，主管部门为辽宁省教育厅。官网列示在校生8466人（统计日期未注明）。官网列示专任教师483人（统计日期未注明）。官网列示校园占地面积41.96万平方米（统计日期未注明）。
+    value: 沈阳科技学院位于辽宁省沈阳市，教育部名单列为本科，主管部门为辽宁省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.syist.cn/article/index/category_id/90.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 8466
-    availability: found
-    search_sources: []
-    source: https://www.syist.cn/article/index/category_id/90.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；原标注：在校生8466人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 在校生8466人
-  faculty_count:
-    value: 483
-    availability: found
-    search_sources: []
-    source: https://www.syist.cn/article/index/category_id/90.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师483人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 专任教师483人
-  campus_area_hectares:
-    value: 41.96
-    availability: found
-    search_sources: []
-    source: https://www.syist.cn/article/index/category_id/90.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 校园占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：校园占地面积41.96万平方米；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 校园占地面积41.96万平方米
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 024-31679767'
-    availability: found
-    search_sources: []
-    source: https://www.syist.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:110167 电话:024-31679767/31969585
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

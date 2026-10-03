@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4122013161'
   name_zh: 长春职业技术大学
@@ -9,12 +9,16 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Changchun Polytechnic University
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_7_jilin/a_39/a_39.html
+    source_sha256: 3d05434a2697cdca3c20f31518488be9db7faaffd8a9c42759a10ee4da2be105
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.cvit.edu.cn
     source: https://www.cvit.edu.cn
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +64,20 @@ research:
   audit_key: '4122013161'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#182860'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/1616.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: beeae35d26fba8eaae172b51
+    source_sha256: 4c5b04bcc4dd8be33b610b6303d609f8c2c37fe9754c25319dff58dc7af71dd2
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,18 +99,178 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
+  logo_assets:
+  - asset_id: 1d0e97466206015a803f3fb1
+    kind: combination
+    title: 长春职业技术大学官网页头标识（实读）
+    url: https://www.cvit.edu.cn/img/logo.png
+    source: https://www.cvit.edu.cn
+    file_name: logo.png
+    publisher: 长春职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长春职业技术大学
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    usage_note: 校方网页公开发布。当前标识设计年份及独立图形许可未确认；按校方规范使用，图形只索引，不再分发。白色校徽与中英文当前校名组合；文件取色仅作PPT设计参考。
+    source_type: official_website
+    identity_basis:
+      basis: 已确认学校首页HTML中明确引用的页头文件，AI实读原图后核对当前学校完整名称与图形构成；白色校徽与中英文当前校名组合。
+    sha256: 534fecdd4ca9f18c82a13f080955d9958a1b8fc0bca1b247b01e92159b7baf91
+    access_status: content_inspected
+    byte_size: 18693
+    format: png
+    vector: false
+    width: 495
+    representation: raster
+    height: 84
+    has_alpha: true
+    transparent_background: true
+    source_sha256: bdb7354ad147a472ba8b213e8c853b423d82f305b6f9eeb1c2873ed75791c031
+  - asset_id: beeae35d26fba8eaae172b51
+    title: 长春职业技术大学教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/1616.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/1616/info.json
+    file_name: 1616.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长春职业技术大学
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: ca4218e15075abfdfeb2d8ebbf38d5cdb494123129991396b82343e89a9bb343
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: 4c5b04bcc4dd8be33b610b6303d609f8c2c37fe9754c25319dff58dc7af71dd2
+    access_status: content_inspected
+    byte_size: 17521
+    format: jpeg
+    vector: false
+    width: 200
+    representation: raster
+    height: 200
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#182860'
+    rgb:
+    - 24
+    - 40
+    - 96
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1616.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1616/info.json
+    asset_id: beeae35d26fba8eaae172b51
+    source_sha256: 4c5b04bcc4dd8be33b610b6303d609f8c2c37fe9754c25319dff58dc7af71dd2
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#182058'
+    rgb:
+    - 24
+    - 32
+    - 88
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1616.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1616/info.json
+    asset_id: beeae35d26fba8eaae172b51
+    source_sha256: 4c5b04bcc4dd8be33b610b6303d609f8c2c37fe9754c25319dff58dc7af71dd2
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  vi_resources:
+  - title: 学校标识-长春职业技术大学
+    url: https://www.cvit.edu.cn/xxgk/bs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cvit.edu.cn/xxgk/bs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9ccb38f76aad2d2891ad56ba19794a2febd56128a70b66de49d9e83fbef04dba
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校名
+    url: https://www.cvit.edu.cn/info/1192/2460.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cvit.edu.cn/info/1192/2460.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6f38f282741795c04008732df840bdc638fd0fdb8ab6934b4766011f015d53eb
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校徽
+    url: https://www.cvit.edu.cn/info/1192/2461.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cvit.edu.cn/info/1192/2461.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dd37c96197d89577c15d1bddd949fbbdde007cca0b7d6deec9216cc0f47616ae
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   landmarks: []
-  logo_assets: []
-  color_palette: []
-  vi_resources: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1952
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_7_jilin/a_39/a_39.html
+    source_sha256: 3d05434a2697cdca3c20f31518488be9db7faaffd8a9c42759a10ee4da2be105
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“创办时间”栏原值；社区二手记录，未独立确认前身、现名设立或升本口径。
   motto:
     value: null
     source: null
@@ -114,7 +278,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -136,6 +299,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -158,232 +322,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.cvit.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.cvit.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 卫星校区
-    address: null
-    coordinates: null
-    source: https://www.cvit.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 龙嘉校区
-    address: null
-    coordinates: null
-    source: https://www.cvit.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 世纪校区
-    address: null
-    coordinates: null
-    source: https://www.cvit.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 长春职业技术大学位于吉林省长春市，主管部门为吉林省。官网列示全日制在校生11193人（统计日期未注明）。官网列示教职工1001人（统计日期未注明）。官网列示占地面积1034.71亩（统计日期未注明）。简介列出卫星校区、龙嘉校区、世纪校区。
+    value: 长春职业技术大学位于吉林省长春市，教育部名单列为本科，主管部门为吉林省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.cvit.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 11193
-    availability: found
-    search_sources: []
-    source: https://www.cvit.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；原标注：全日制在校生11193人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 全日制在校生11193人
-  faculty_count:
-    value: 1001
-    availability: found
-    search_sources: []
-    source: https://www.cvit.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；原标注：教职工1001人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职工1001人
-  campus_area_hectares:
-    value: 68.980667
-    availability: found
-    search_sources: []
-    source: https://www.cvit.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积1034.71亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地面积1034.71亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4137010423'
   name_zh: 中国海洋大学
@@ -58,34 +58,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - ocean-university-of-china
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: ocean
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -103,19 +75,39 @@ research:
   audit_key: '4137010423'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#004098'
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/33b2a486-63be-4499-b566-36a10b2369ba.jpg
+    method: official_vi
+    label: 海大海蓝
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。三种基本标准色并列，字段顺序仅用于展示，不宣称蓝色等级高于红色。
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 0
+    pantone: P102-8 C
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: b09c0ccef2639843564472a211383aeac4c64ae0c994b28f587923db2d996afa
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#00A0E9'
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/33b2a486-63be-4499-b566-36a10b2369ba.jpg
+    method: official_vi
+    label: 海大天蓝
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。三种基本标准色并列，字段顺序仅用于展示，不宣称蓝色等级高于红色。
+    cmyk:
+    - 100
+    - 0
+    - 0
+    - 0
+    pantone: P115-8 C
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: b09c0ccef2639843564472a211383aeac4c64ae0c994b28f587923db2d996afa
   vi_url:
     value: https://news.ouc.edu.cn/15268/list.htm
     source: https://news.ouc.edu.cn/15268/list.htm
@@ -131,7 +123,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 817896be9ae1a855
     title: 中国海洋大学校徽资源
@@ -327,6 +318,356 @@ visual:
     source_as_of: unspecified
     byte_size: 12985
     representation: raster
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/1.png
+    archive_member_display: 1校徽png图片/1.png
+    checked_at: '2026-10-02'
+    sha256: d243995eff1825bb7f4d6bbca85f8c233476ee48aa3e9f6a5b5933bc9eba780c
+    access_status: content_inspected
+    byte_size: 365112
+    format: png
+    vector: false
+    width: 4962
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: 2f0a7fd968d227cade8f6dc1
+    kind: badge
+    title: 中国海洋大学官方附件内标识：1.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 1.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/10.png
+    archive_member_display: 1校徽png图片/10.png
+    checked_at: '2026-10-02'
+    sha256: c422c0e7e0980843f994761672996c5ac79e6644b7738847134d597c99bce7f6
+    access_status: content_inspected
+    byte_size: 296258
+    format: png
+    vector: false
+    width: 4962
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: 95a1fccfe809ed74d4c8047d
+    kind: badge
+    title: 中国海洋大学官方附件内标识：10.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 10.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/2.png
+    archive_member_display: 1校徽png图片/2.png
+    checked_at: '2026-10-02'
+    sha256: 30f70e2ff89f11a3d26a8c690f1c80fc0444572b8f797b8839e3944723a7f90d
+    access_status: content_inspected
+    byte_size: 289911
+    format: png
+    vector: false
+    width: 4962
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: 9798fa26f43b6a5694b0faa6
+    kind: badge
+    title: 中国海洋大学官方附件内标识：2.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 2.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/3.png
+    archive_member_display: 1校徽png图片/3.png
+    checked_at: '2026-10-02'
+    sha256: a88bf8a186b54e6e4ede80ce8a62e8108b028904d99a9c50e3efece13653fcc6
+    access_status: content_inspected
+    byte_size: 248401
+    format: png
+    vector: false
+    width: 4961
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: da250b472d93cb990b5871dd
+    kind: badge
+    title: 中国海洋大学官方附件内标识：3.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 3.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/4.png
+    archive_member_display: 1校徽png图片/4.png
+    checked_at: '2026-10-02'
+    sha256: 275b0806f84e16b9eced6bc9228652170a8319d0efea28846baefc05ed248460
+    access_status: content_inspected
+    byte_size: 283846
+    format: png
+    vector: false
+    width: 4962
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: 11b6d6bc67174170d7efe3e3
+    kind: badge
+    title: 中国海洋大学官方附件内标识：4.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 4.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/5.png
+    archive_member_display: 1校徽png图片/5.png
+    checked_at: '2026-10-02'
+    sha256: 51f91adece11910ae17efcde0005ae25c31d9a9446d8f203569bfbfce2f65e96
+    access_status: content_inspected
+    byte_size: 278815
+    format: png
+    vector: false
+    width: 4962
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: b67130a7aa3c7c48270ea55c
+    kind: badge
+    title: 中国海洋大学官方附件内标识：5.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 5.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/6.png
+    archive_member_display: 1校徽png图片/6.png
+    checked_at: '2026-10-02'
+    sha256: ec80af028ad8df43b8115f935882d339100ba839b3e537d44639969aabf4f20d
+    access_status: content_inspected
+    byte_size: 297718
+    format: png
+    vector: false
+    width: 4961
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: d5c64dd20a8db7b8de5f002d
+    kind: badge
+    title: 中国海洋大学官方附件内标识：6.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 6.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/7.png
+    archive_member_display: 1校徽png图片/7.png
+    checked_at: '2026-10-02'
+    sha256: 25278f634c105a611e20acc38482aaff3f595a3caffa446f8d4be11697ecceea
+    access_status: content_inspected
+    byte_size: 292231
+    format: png
+    vector: false
+    width: 4962
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: 4c00ae000c7fdd38e05fb241
+    kind: badge
+    title: 中国海洋大学官方附件内标识：7.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 7.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/8.png
+    archive_member_display: 1校徽png图片/8.png
+    checked_at: '2026-10-02'
+    sha256: f8f61a01ea04e053955b4d7de1a4d5f5bd135b4df772e5341fad1f1360eb57a4
+    access_status: content_inspected
+    byte_size: 295991
+    format: png
+    vector: false
+    width: 4962
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: 9d4db0f62204083880b92c74
+    kind: badge
+    title: 中国海洋大学官方附件内标识：8.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 8.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    archive_sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    archive_member: 1╨ú╗╒png═╝╞¼/9.png
+    archive_member_display: 1校徽png图片/9.png
+    checked_at: '2026-10-02'
+    sha256: 5dc21e1dcc7a93e018093abb3269c33f0c873e57008ff6463af8f2cdfabbbaea
+    access_status: content_inspected
+    byte_size: 305910
+    format: png
+    vector: false
+    width: 4962
+    representation: raster
+    height: 3509
+    has_alpha: true
+    transparent_background: true
+    asset_id: a493bbe43c5be2340707937b
+    kind: badge
+    title: 中国海洋大学官方附件内标识：9.png
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    official: true
+    download_kind: archive_member
+    file_name: 9.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 中国海洋大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#004098'
     rgb:
@@ -490,6 +831,155 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 1b3179780271dac2
+  - value: '#004098'
+    rgb:
+    - 0
+    - 64
+    - 152
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 0
+    pantone: P102-8 C
+    label: 海大海蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/33b2a486-63be-4499-b566-36a10b2369ba.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。三种基本标准色并列，字段顺序仅用于展示，不宣称蓝色等级高于红色。
+    source_sha256: b09c0ccef2639843564472a211383aeac4c64ae0c994b28f587923db2d996afa
+    source_field: visual.color_primary
+  - value: '#00A0E9'
+    rgb:
+    - 0
+    - 160
+    - 233
+    cmyk:
+    - 100
+    - 0
+    - 0
+    - 0
+    pantone: P115-8 C
+    label: 海大天蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/33b2a486-63be-4499-b566-36a10b2369ba.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。三种基本标准色并列，字段顺序仅用于展示，不宣称蓝色等级高于红色。
+    source_sha256: b09c0ccef2639843564472a211383aeac4c64ae0c994b28f587923db2d996afa
+    source_field: visual.color_secondary
+  - value: '#C81528'
+    rgb:
+    - 200
+    - 21
+    - 40
+    cmyk:
+    - 20
+    - 100
+    - 90
+    - 0
+    pantone: P53-8 C
+    label: 海大红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/33b2a486-63be-4499-b566-36a10b2369ba.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。三种基本标准色并列，字段顺序仅用于展示，不宣称蓝色等级高于红色。
+    source_sha256: b09c0ccef2639843564472a211383aeac4c64ae0c994b28f587923db2d996afa
+  - value: '#F9D2D4'
+    rgb:
+    - 249
+    - 210
+    - 212
+    cmyk:
+    - 0
+    - 25
+    - 10
+    - 0
+    pantone: P65-2 C
+    label: 樱绽粉
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/1c4424d2-5c0e-47aa-a8e3-9b1d876dd203.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: fec0edd3ed645dbbd11bc2c22db54b7adcd0821b8fc38ce86ef2c235b02aa470
+  - value: '#794F2F'
+    rgb:
+    - 121
+    - 79
+    - 47
+    cmyk:
+    - 0
+    - 50
+    - 60
+    - 60
+    pantone: 7567 C
+    label: 文脉棕
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/1c4424d2-5c0e-47aa-a8e3-9b1d876dd203.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: fec0edd3ed645dbbd11bc2c22db54b7adcd0821b8fc38ce86ef2c235b02aa470
+  - value: '#CCAD69'
+    rgb:
+    - 204
+    - 173
+    - 105
+    cmyk:
+    - 0
+    - 20
+    - 55
+    - 27
+    pantone: P16-4 C
+    label: 专金
+    role: reference
+    method: official_vi
+    official: true
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/1c4424d2-5c0e-47aa-a8e3-9b1d876dd203.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: fec0edd3ed645dbbd11bc2c22db54b7adcd0821b8fc38ce86ef2c235b02aa470
+  - value: '#CFD0D0'
+    rgb:
+    - 207
+    - 208
+    - 208
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 27
+    pantone: P179-4 C
+    label: 专银
+    role: reference
+    method: official_vi
+    official: true
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/1c4424d2-5c0e-47aa-a8e3-9b1d876dd203.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: fec0edd3ed645dbbd11bc2c22db54b7adcd0821b8fc38ce86ef2c235b02aa470
   vi_resources:
   - title: 学校徽标
     url: http://www.ouc.edu.cn/6698/list.htm
@@ -523,6 +1013,287 @@ visual:
     availability: found
     source_sha256: efc3608e5f83506d643c9282aaddd43ebe9d8567583232952d79d39d0a5dd9e6
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 中国海洋大学形象识别系统
+    url: https://news.ouc.edu.cn/15268/list.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.ouc.edu.cn/15268/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8733e62342e02bf7a22faf4996b6f79fe0889dfa7fc43d978765111578fb15d5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 学校徽标
+    url: https://www.ouc.edu.cn/6698/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ouc.edu.cn/6698/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7157739fd40a44f686cbbae2351db739c71265d48ecef731ac0d88b4aff1b773
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 中国海洋大学形象识别系统
+    url: https://news.ouc.edu.cn/2021/0610/c321a105822/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.ouc.edu.cn/2021/0610/c321a105822/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5159b722c82e565f682c6b06e1a487af5d02107814ad9eeca2e38836680f6dee
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 【点击下载】学校徽标源文件
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/ab4673d7-3b75-43b7-9ca7-92782e8875e1.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.ouc.edu.cn/2021/0610/c321a105822/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5159b722c82e565f682c6b06e1a487af5d02107814ad9eeca2e38836680f6dee
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 【点击下载】学校徽标PNG文件
+    url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.ouc.edu.cn/2021/0610/c321a105822/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5159b722c82e565f682c6b06e1a487af5d02107814ad9eeca2e38836680f6dee
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 中国海洋大学形象识别系统
+    url: https://news.ouc.edu.cn/2021/0610/c321a105824/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.ouc.edu.cn/2021/0610/c321a105824/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dc892a7987e17d0665c99d8d3f8b09e13051404851fe230340e1da314a459f35
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 【点击下载】标准色源文件
+    url: https://news.ouc.edu.cn/_upload/article/files/92/35/7f16d29e4fd7b5fac91cf59e7a06/c2cff992-b289-4bf9-8341-f5136cd4b1e3.zip
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.ouc.edu.cn/2021/0610/c321a105824/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dc892a7987e17d0665c99d8d3f8b09e13051404851fe230340e1da314a459f35
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 中国海洋大学形象识别系统
+    url: https://news.ouc.edu.cn/2021/1209/c321a107950/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.ouc.edu.cn/2021/1209/c321a107950/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ea0590584107e2e4c79ae0009fac84a6f98b7b3639d5eec53de32455ae41dd7d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 【点击下载】PPT模板源文件
+    url: https://news.ouc.edu.cn/_upload/article/files/77/24/15cd05214efe8e3c53ffff051729/980e17fe-4bf4-45cd-bee9-245c17fd7e9d.rar
+    kinds:
+    - PPT模板
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://news.ouc.edu.cn/2021/1209/c321a107950/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ea0590584107e2e4c79ae0009fac84a6f98b7b3639d5eec53de32455ae41dd7d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 学校徽标
+    url: https://www.ouc.edu.cn/31235/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ouc.edu.cn/31235/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: efc3608e5f83506d643c9282aaddd43ebe9d8567583232952d79d39d0a5dd9e6
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 中国海洋大学官方视觉规范
+    url: https://news.ouc.edu.cn/2021/0610/c321a105824/page.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/33b2a486-63be-4499-b566-36a10b2369ba.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。三种基本标准色并列，字段顺序仅用于展示，不宣称蓝色等级高于红色。
+  - title: 中国海洋大学官方视觉规范
+    url: https://news.ouc.edu.cn/2021/0610/c321a105824/page.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/1c4424d2-5c0e-47aa-a8e3-9b1d876dd203.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  - url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/ab4673d7-3b75-43b7-9ca7-92782e8875e1.zip
+    title: 【点击下载】学校徽标源文件
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/ab4673d7-3b75-43b7-9ca7-92782e8875e1.zip
+    publisher: 中国海洋大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/ab4673d7-3b75-43b7-9ca7-92782e8875e1.zip
+        status: file_read
+        url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/ab4673d7-3b75-43b7-9ca7-92782e8875e1.zip
+      resolved_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/ab4673d7-3b75-43b7-9ca7-92782e8875e1.zip
+    file_metadata:
+      byte_size: 2553244
+      format: ZIP
+      member_count: 1
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: d6bd395c069af8a83a0ea92fa976e146bf5d584340defe61283143ca40111f32
+    content_read: true
+    download_status: content_inspected
+  - url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    title: 【点击下载】学校徽标PNG文件
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    publisher: 中国海洋大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+        status: file_read
+        url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+      resolved_url: https://news.ouc.edu.cn/_upload/article/files/97/43/ccdff39d4f55937fce11dffa385d/f30b28c9-760f-4185-b23a-5f1e09be6f70.zip
+    file_metadata:
+      byte_size: 2441937
+      format: ZIP
+      member_count: 11
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 259748a9de0eac42b2790851746fab7920f92a62ac65e6ebe5fe3d4cd5bb47d9
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
     value: 1924
@@ -538,6 +1309,27 @@ culture:
     verified: auto
     checked_at: '2026-09-30'
     availability: found
+    search_sources: []
+  flower:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  mascot:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  anthem:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
     search_sources: []
   history_events:
   - year: 1924
@@ -560,27 +1352,6 @@ culture:
     source: http://www.ouc.edu.cn/31001/list.htm
     verified: auto
     checked_at: '2026-10-01'
-  flower:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  mascot:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
 resources:
   official_templates_url:
     value: null
@@ -654,554 +1425,14 @@ resources:
     - TeX/TikZ
     content_read: true
     usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: http://eweb.ouc.edu.cn/
-    availability: found
-    search_sources: []
-    source: http://www.ouc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - En
-  information_disclosure_url:
-    value: https://dxb.ouc.edu.cn/xxgk/
-    availability: found
-    search_sources: []
-    source: http://www.ouc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '985'
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: 青岛市松岭路238号
-    availability: found
-    search_sources: []
-    source: http://www.ouc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:青岛市松岭路238号 邮政编码:266100
-  postal_code:
-    value: '266100'
-    availability: found
-    search_sources: []
-    source: http://www.ouc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:青岛市松岭路238号 邮政编码:266100
-  coordinates:
-    value:
-      longitude: 120.339
-      latitude: 36.16
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: 中国海洋大学位于山东省青岛市，主管部门为教育部。官网列示在校生39000余人（统计日期未注明）。官网列示教职工4380余人（统计日期未注明）。
+    value: 中国海洋大学位于山东省青岛市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://www.ouc.edu.cn/31000/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 39000
-    availability: found
-    search_sources: []
-    source: http://www.ouc.edu.cn/31000/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；近似/下界数，保留原标注：在校生39000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校生39000余人
-  faculty_count:
-    value: 4380
-    availability: found
-    search_sources: []
-    source: http://www.ouc.edu.cn/31000/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工4380余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工4380余人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 海洋科学
-    - 水产
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 海洋科学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 水产
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 食品科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 药学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: news@ouc.edu.cn
-    availability: found
-    search_sources: []
-    source: http://www.ouc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - Email:news@ouc.edu.cn
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 56
-    score: 311.0
-    indicators:
-      school_level: 30.3
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 51
-    score: 359.2
-    indicators:
-      faculty: 46.3
-      research: 34.1
-      resources: 8.1
-      discipline: 20.2
-      top_talent: 20.9
-      school_level: 31.7
-      international: 18.1
-      major_projects: 11.1
-      social_service: 6
-      talent_training: 162.6
-    upstream_url: https://www.shanghairanking.cn/institution/ocean-university-of-china
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 605
-    minimum_rank: 16000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 595
-    minimum_rank: 3200
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国海洋大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4137010423'
-    upstream_record_name: 中国海洋大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4137010423'
-    upstream_record_name: 中国海洋大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4137010423'
-    upstream_record_name: 中国海洋大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4137010423'
-    upstream_record_name: 中国海洋大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4137010423'
-    upstream_record_name: 中国海洋大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 就业概况
-    - 层次
-    - 师资概况
-    - 生源概况
-    - 科研概况
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4137010423'
-    upstream_record_name: Ocean University of China
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

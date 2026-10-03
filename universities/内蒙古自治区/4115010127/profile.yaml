@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4115010127'
   name_zh: 内蒙古科技大学
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - inner-mongolia-university-of-science-technology
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 内蒙古科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: inner-mongolia-5
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 内蒙古科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -94,12 +66,20 @@ research:
   audit_key: '4115010127'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#C83028'
+    availability: found
     search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 0cd41019d0bf80fe
+    source_sha256: 434eee1c63a34e551e9eba8aa758896e32dddaac868cb9eb8d793b6f50d98db2
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -121,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: fdd1645d13320c97
     title: 内蒙古科技大学校徽资源
@@ -273,6 +252,7 @@ visual:
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0cd41019d0bf80fe
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 1956
@@ -289,12 +269,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1957
-    event: 前身学校合并成立包头工业学校
-    source: https://www.imust.edu.cn/xxgk/lsyg.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -316,6 +290,12 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 1957
+    event: 前身学校合并成立包头工业学校
+    source: https://www.imust.edu.cn/xxgk/lsyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -338,319 +318,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.imust.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.imust.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://dadm.imust.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 内蒙古科技大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 内蒙古科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 内蒙古科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 内蒙古包头市阿尔丁大街7号
-    availability: found
-    search_sources: []
-    source: https://www.imust.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:内蒙古包头市阿尔丁大街7号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 内蒙古科技大学位于内蒙古自治区包头市，主管部门为内蒙古自治区。官网列示各类在校生30000余人（统计日期未注明）。官网列示教职工1900余人（统计日期未注明）。
+    value: 内蒙古科技大学位于内蒙古自治区包头市，教育部名单列为本科，主管部门为内蒙古自治区。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.imust.edu.cn/xxgk/xqgl.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 30000
-    availability: found
-    search_sources: []
-    source: https://www.imust.edu.cn/xxgk/xqgl.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 各类在校生；近似/下界数，保留原标注：各类在校生30000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 各类在校生30000余人
-  faculty_count:
-    value: 1900
-    availability: found
-    search_sources: []
-    source: https://www.imust.edu.cn/xxgk/xqgl.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工1900余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工1900余人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 一级学科博士学位授权点：4个；统计时间undated
-    - 一级学科硕士学位授权点：19个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.imust.edu.cn/xxgk/xqgl.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: webmaster@imust.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.imust.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 与我们联系Email:webmaster@imust.edu.cn
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 323
-    score: 124.2
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 内蒙古科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 314
-    score: 149
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/inner-mongolia-university-of-science-technology
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 内蒙古科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4115010127'
-    upstream_record_name: 内蒙古科技大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4115010127'
-    upstream_record_name: 内蒙古科技大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

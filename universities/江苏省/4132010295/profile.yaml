@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132010295'
   name_zh: 江南大学
@@ -67,34 +67,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - jiangnan-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: jiangnan
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -113,12 +85,20 @@ research:
   audit_key: '4132010295'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#005D7F'
+    availability: found
     search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B1%9F%E5%8D%97%E5%A4%A7%E5%AD%A6%20JNU.svg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: not_found
+    original_palette_method: community_logo_sample
+    asset_id: 06ff0eeb67ec2dc8
+    source_sha256: 0b6f86b8d6f0c71eb2fd2018954bba1612185ad0a06dc737c4ce57755eea9737
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -142,7 +122,6 @@ visual:
     availability: found
     search_sources: []
     note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 11bef35c9947b4e3
     title: 江南大学校徽资源
@@ -235,6 +214,41 @@ visual:
     source_as_of: unspecified
     byte_size: 14136
     representation: raster
+  - archive_url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
+    archive_sha256: b25004d7a7078f73bb69ef6cf528bcfce65f45a90058cdef79ad6986bba89953
+    archive_member: ╨ú▒Ω/logo╨ú▒Ω║═╫╓.png
+    archive_member_display: 校标/logo校标和字.png
+    checked_at: '2026-10-02'
+    sha256: 67622ca2c04efe5dd34269b06737cf2dbb2c6a24515ee2f88b68d5a20754cad3
+    access_status: content_inspected
+    byte_size: 89696
+    format: png
+    vector: false
+    width: 717
+    representation: raster
+    height: 301
+    has_alpha: true
+    transparent_background: true
+    asset_id: 500c28d6965a6b95eac80531
+    kind: combination
+    title: 江南大学官方附件内标识：logo校标和字.png
+    url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
+    source: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
+    publisher: 江南大学
+    official: true
+    download_kind: archive_member
+    file_name: logo校标和字.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江南大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI逐张实读图形：完整当前中文校名、对应学校徽形及英文文字一致。分别为徽名组合、纯校徽、徽名组合；非规范示意页或纪念徽。学校官网原ZIP明确发布。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#005D7F'
     rgb:
@@ -308,6 +322,24 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 66f8413024f54bcd
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 10
+    - 10
+    - 60
+    pantone: null
+    label: 江南绿
+    role: primary
+    method: official_vi
+    official: true
+    source: https://news.jiangnan.edu.cn/info/1132/88886.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 2023年校方学校章程第六十二条明确校标标准色江南绿C100 M10 Y10 K60；只保留原印刷色，不换算屏幕值。
+    source_sha256: c7b9700ca6da55b04aafa50da53a06d0c86a737785b8d58e4efb103879cd478d
   vi_resources:
   - title: 学校标识
     url: https://www.jiangnan.edu.cn/xxgk/xxbs.htm
@@ -325,6 +357,8 @@ visual:
     availability: found
     source_sha256: ac5a94d03a2704a5a86a0c233900e11b7404f6e26f8a1de0411205ba5b148bbc
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 65周年校庆logo.png
     url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142679
     kinds:
@@ -342,6 +376,8 @@ visual:
     availability: found
     source_sha256: ac5a94d03a2704a5a86a0c233900e11b7404f6e26f8a1de0411205ba5b148bbc
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。本条为校庆专用资料，不作为通用VI或学校主题色。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 65周年logo文件.zip
     url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142684
     kinds:
@@ -359,7 +395,9 @@ visual:
     availability: found
     source_sha256: ac5a94d03a2704a5a86a0c233900e11b7404f6e26f8a1de0411205ba5b148bbc
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。本条为校庆专用资料，不作为通用VI或学校主题色。
-  - title: 学校标识
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 江南大学校标
     url: https://www.jiangnan.edu.cn/xxgk/xxbs1.htm
     kinds:
     - 校徽/校名介绍及资源
@@ -375,6 +413,8 @@ visual:
     availability: found
     source_sha256: 995a3a533d45ac6a8d2075e9fc1baaac7ed608e36c83f1a129b6548d81ceaccf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 学校标识
     url: https://www.jiangnan.edu.cn/info/1906/11171.htm
     kinds:
@@ -391,6 +431,8 @@ visual:
     availability: found
     source_sha256: be51f125b37e6574bcccc70cfbbc40aef6a694c189e6b47f4a12e91412c9d571
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校标.zip
     url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
     kinds:
@@ -407,6 +449,59 @@ visual:
     availability: found
     source_sha256: be51f125b37e6574bcccc70cfbbc40aef6a694c189e6b47f4a12e91412c9d571
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 江南大学官方视觉规范
+    url: https://news.jiangnan.edu.cn/info/1132/88886.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://news.jiangnan.edu.cn/info/1132/88886.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 2023年校方学校章程第六十二条明确校标标准色江南绿C100 M10 Y10 K60；只保留原印刷色，不换算屏幕值。
+  - url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
+    source: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
+    title: 校标.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    publisher: 江南大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 实际读取容器结构并记录哈希；本记录不表示所有文件都已逐张核验，也不表示其中有可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
+        status: file_read
+        url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
+      resolved_url: https://www.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1973082756&wbfileid=13142339
+    file_metadata:
+      byte_size: 1193245
+      format: ZIP
+      member_count: 3
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: b25004d7a7078f73bb69ef6cf528bcfce65f45a90058cdef79ad6986bba89953
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
     value: 1902
@@ -430,22 +525,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1902
-    event: 校方追溯办学源头至三江师范学堂
-    source: https://www.jiangnan.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 1952
-    event: 多校相关食品与农化系科整合为南京工学院食品工业系
-    source: https://www.jiangnan.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 1958
-    event: 该系迁至无锡独立成立无锡轻工业学院
-    source: https://www.jiangnan.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -467,6 +546,22 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 1902
+    event: 校方追溯办学源头至三江师范学堂
+    source: https://www.jiangnan.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1952
+    event: 多校相关食品与农化系科整合为南京工学院食品工业系
+    source: https://www.jiangnan.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1958
+    event: 该系迁至无锡独立成立无锡轻工业学院
+    source: https://www.jiangnan.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -529,544 +624,14 @@ resources:
     - TeX/TikZ
     content_read: true
     usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
-  admissions_url:
-    value: http://admission.jiangnan.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.jiangnan.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 本科招生
-  career_url:
-    value: http://zsjyc.jiangnan.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://english.jiangnan.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.jiangnan.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: http://xxgk.jiangnan.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.jiangnan.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 120.272
-      latitude: 31.49
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: 江南大学位于江苏省无锡市，主管部门为教育部。官网列示在校本科生2.1万余人（统计日期未注明）。官网列示教职员工3420人（统计日期未注明）。官网列示总占地面积4591亩（统计日期未注明）。
+    value: 江南大学位于江苏省无锡市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.jiangnan.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 21000
-    availability: found
-    search_sources: []
-    source: https://www.jiangnan.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校本科生；近似/下界数，保留原标注：在校本科生2.1万余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校本科生2.1万余人
-  faculty_count:
-    value: 3420
-    availability: found
-    search_sources: []
-    source: https://www.jiangnan.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职员工；原标注：教职员工3420人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职员工3420人
-  campus_area_hectares:
-    value: 306.066667
-    availability: found
-    search_sources: []
-    source: https://www.jiangnan.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：总占地面积4591亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 总占地面积4591亩
-academics:
-  double_first_class_disciplines:
-    value:
-    - 轻工技术与工程
-    - 食品科学与工程
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value:
-    - 硕士学位授权一级学科：35个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.jiangnan.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments:
-  - subject: 食品科学与工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 轻工技术与工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 设计学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 纺织科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 控制科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 65
-    score: 292.9
-    indicators:
-      school_level: 27.4
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 52
-    score: 355.8
-    indicators:
-      faculty: 43.7
-      research: 30.1
-      resources: 6.3
-      discipline: 19.5
-      top_talent: 16.4
-      school_level: 29.6
-      international: 14.1
-      major_projects: 15.6
-      social_service: 24.1
-      talent_training: 156.4
-    upstream_url: https://www.shanghairanking.cn/institution/jiangnan-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 590
-    minimum_rank: 22000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 583
-    minimum_rank: 5000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 江南大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4132010295'
-    upstream_record_name: 江南大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4132010295'
-    upstream_record_name: 江南大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4132010295'
-    upstream_record_name: 江南大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4132010295'
-    upstream_record_name: 江南大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

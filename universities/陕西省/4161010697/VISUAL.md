@@ -30,5 +30,25 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[http://www.nwu.edu.cn/xxgk/xxbs.htm](http://www.nwu.edu.cn/xxgk/xxbs.htm)
+- [2019年西北大学视觉形象提升设计](http://www.nwu.edu.cn/xxgk/xxbs.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs.htm)。
+- [点击下载](http://www.nwu.edu.cn/images/xxbs-xg.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs.htm)。
+- [本科生校徽](http://www.nwu.edu.cn/images/xqxh-img2.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs.htm)。
+- [研究生校徽](http://www.nwu.edu.cn/images/xqxh-img3.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs.htm)。
+- [教职工校徽](http://www.nwu.edu.cn/images/xqxh-img4.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs.htm)。
+- [2019年西北大学视觉形象提升设计](http://www.nwu.edu.cn/xxgk/xxbs/xb.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xb.htm)。
+- [点击下载](http://www.nwu.edu.cn/images/xxbs-xg.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xb.htm)。
+- [本科生校徽](http://www.nwu.edu.cn/images/xqxh-img2.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xb.htm)。
+- [研究生校徽](http://www.nwu.edu.cn/images/xqxh-img3.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xb.htm)。
+- [教职工校徽](http://www.nwu.edu.cn/images/xqxh-img4.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xb.htm)。
+- [2019年西北大学视觉形象提升设计](http://www.nwu.edu.cn/xxgk/xxbs/xm.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xm.htm)。
+- [点击下载](http://www.nwu.edu.cn/images/xxbs-xg.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xm.htm)。
+- [本科生校徽](http://www.nwu.edu.cn/images/xqxh-img2.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xm.htm)。
+- [研究生校徽](http://www.nwu.edu.cn/images/xqxh-img3.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xm.htm)。
+- [教职工校徽](http://www.nwu.edu.cn/images/xqxh-img4.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xm.htm)。
+- [2019年西北大学视觉形象提升设计](http://www.nwu.edu.cn/xxgk/xxbs/xqxh.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xqxh.htm)。
+- [点击下载](http://www.nwu.edu.cn/images/xxbs-xg.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xqxh.htm)。
+- [本科生校徽](http://www.nwu.edu.cn/images/xqxh-img2.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xqxh.htm)。
+- [研究生校徽](http://www.nwu.edu.cn/images/xqxh-img3.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xqxh.htm)。
+- [教职工校徽](http://www.nwu.edu.cn/images/xqxh-img4.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.nwu.edu.cn/xxgk/xxbs/xqxh.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

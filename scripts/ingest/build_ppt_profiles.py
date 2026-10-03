@@ -19,7 +19,7 @@ LOGO_FIELDS = (
     'intrinsic_width', 'intrinsic_height', 'dimensions_in_filename', 'vector',
     'representation', 'transparent_background', 'has_alpha', 'access_status',
     'sha256', 'byte_size', 'resolved_url', 'inspection_source', 'view_box',
-    'download_kind', 'archive_url', 'archive_member', 'archive_sha256',
+    'download_kind', 'archive_url', 'archive_member', 'archive_member_display', 'archive_sha256',
     'repository', 'commit', 'repository_license', 'asset_license', 'rights_holder',
     'usage_note', 'source_type', 'source_as_of', 'source_sha256', 'upstream_path',
 )
@@ -118,7 +118,7 @@ def templates_for(profile, path):
                 if key not in {'school_code', 'name_zh', 'province'}}
         item['formats'] = item['formats'].split(';')
         original = originals.get((item['url'], item['source']), profile['resources']['official_templates_url'])
-        for key in ('verified', 'checked_at', 'availability', 'file_metadata', 'file_inspection',
+        for key in ('verified', 'checked_at', 'availability', 'file_metadata', 'file_inspection', 'document_metadata',
                     'source_type', 'source_as_of', 'upstream_path', 'note'):
             if key in original:
                 item[key] = copy.deepcopy(original[key])

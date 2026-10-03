@@ -24,6 +24,7 @@
 |  | `#007838` | 0,120,56 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#007830` | 0,120,48 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#007030` | 0,112,48 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 植物绿色 | 未公布 | 未公布 | primary | [100, 0, 100, 20] |  | 官方VI标准值 | [依据](https://www.tjutcm.edu.cn/tzgk/xxbs.htm) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -35,7 +36,7 @@
 - [2.天津中医药大学校标.jpg](https://www.tjutcm.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109944276&wbfileid=14894823)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjutcm.edu.cn/info/1046/1855.htm)。
 - [3.天津中医药大学中英文校名、校标组合规范.jpg](https://www.tjutcm.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109944276&wbfileid=14894824)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjutcm.edu.cn/info/1046/1855.htm)。
 - [学校标识（含原图及竖版-需严格按标准使用，勿自行修改）.rar](https://www.tjutcm.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109944276&wbfileid=14908065)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjutcm.edu.cn/info/1046/1855.htm)。
-- [学校标识](https://www.tjutcm.edu.cn/tzgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjutcm.edu.cn/tzgk/xxbs.htm)。
+- [天津中医药大学官方视觉规范](https://www.tjutcm.edu.cn/tzgk/xxbs.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.tjutcm.edu.cn/tzgk/xxbs.htm)。
 - [1.天津中医药大学中文校名、英文校名标准字体.jpg](https://www.tjutcm.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109944276&wbfileid=14896874)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjutcm.edu.cn/tzgk/xxbs.htm)。
 - [2.天津中医药大学校标.jpg](https://www.tjutcm.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109944276&wbfileid=14896877)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjutcm.edu.cn/tzgk/xxbs.htm)。
 - [3.天津中医药大学中英文校名、校标组合规范.jpg](https://www.tjutcm.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109944276&wbfileid=14896878)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tjutcm.edu.cn/tzgk/xxbs.htm)。

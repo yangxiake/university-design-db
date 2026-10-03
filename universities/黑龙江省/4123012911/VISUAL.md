@@ -14,8 +14,7 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
-尚无附来源配色。
+| PPT中性参考色 | `#8E8E8F` | 142,142,143 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.hrbzy.edu.cn/_upload/tpl/02/d5/725/template725/images/logo.svg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 

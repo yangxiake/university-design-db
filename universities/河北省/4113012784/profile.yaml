@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4113012784'
   name_zh: 河北传媒学院
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Heibei Institute Of Communications
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_3_hebei/a_35/a_35.html
+    source_sha256: a3cb5b5493ba096b9e1f920dee330f7ed516347b721bc5eb13984116dc693121
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.hebic.cn/
     source: https://www.hebic.cn/
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +62,20 @@ research:
   audit_key: '4113012784'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#92181E'
+    availability: found
     search_sources: []
+    source: https://www.hebic.cn/images/54154498-d9a8-4a2d-8099-b0d0fece27c8/202507/22/%E6%B2%B3%E5%8C%97%E4%BC%A0%E5%AA%92%E5%AD%A6%E9%99%A2logo-0320250722180414914.svg?sid=c7ad37e5-20cb-49fa-bb61-d69fdde2b5fd
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: 3d248b711d107ff6b231c8cf
+    source_sha256: 6480ceceef3284865b3dd2eed49682245b74ab225f13f095735311f2af0349d7
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +97,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 3d248b711d107ff6b231c8cf
     kind: site_identity
@@ -153,6 +156,7 @@ visual:
     checked_at: '2026-10-01'
     availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 2000
@@ -169,7 +173,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -191,6 +194,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -213,225 +217,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.hebic.cn/columns/0a5dba8e-2e46-4d2e-9ea4-1c5b0b6efe7b/index.html
-    availability: found
-    search_sources: []
-    source: https://www.hebic.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 校务公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 河北省石家庄市栾城区兴安大街 109号
-    availability: found
-    search_sources: []
-    source: https://www.hebic.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - '地址: 河北省石家庄市栾城区兴安大街 109号'
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 兴安校区
-    address: null
-    coordinates: null
-    source: https://www.hebic.cn/columns/de9b9d68-526f-4d18-b301-37570803f7a2/index.html
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 警安校区
-    address: null
-    coordinates: null
-    source: https://www.hebic.cn/columns/de9b9d68-526f-4d18-b301-37570803f7a2/index.html
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 鹿泉校区
-    address: null
-    coordinates: null
-    source: https://www.hebic.cn/columns/de9b9d68-526f-4d18-b301-37570803f7a2/index.html
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 河北传媒学院位于河北省石家庄市，主管部门为河北省教育厅。官网列示全日制在校生26000余人（统计日期未注明）。简介列出兴安校区、警安校区、鹿泉校区。
+    value: 河北传媒学院位于河北省石家庄市，教育部名单列为本科，主管部门为河北省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.hebic.cn/columns/de9b9d68-526f-4d18-b301-37570803f7a2/index.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 26000
-    availability: found
-    search_sources: []
-    source: https://www.hebic.cn/columns/de9b9d68-526f-4d18-b301-37570803f7a2/index.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生26000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校生26000余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

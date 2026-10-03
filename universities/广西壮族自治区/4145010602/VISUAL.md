@@ -35,5 +35,17 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.gxnu.edu.cn/1374/list.htm](https://www.gxnu.edu.cn/1374/list.htm)
+- [学校视觉形象识别系统](https://www.gxnu.edu.cn/1374/list.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gxnu.edu.cn/1374/list.htm)。
+- [校歌 校训 校徽](https://www.gxnu.edu.cn/1371/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gxnu.edu.cn/1371/list.htm)。
+- [学校视觉形象识别系统](https://www.gxnu.edu.cn/2018/1213/c1374a108270/page.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gxnu.edu.cn/2018/1213/c1374a108270/page.htm)。
+- [下载：广西师范大学校训字体标准组合.zip](https://www.gxnu.edu.cn/_upload/article/files/01/b9/beaae1f745d2b0bc5bbd482397e4/b97012d1-a321-4ff7-8851-4fd8204af0ec.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gxnu.edu.cn/2018/1213/c1374a108270/page.htm)。
+- [下载：广西师范大学校徽 PSD 格式.zip](https://www.gxnu.edu.cn/_upload/article/files/01/b9/beaae1f745d2b0bc5bbd482397e4/233193f7-bb50-433c-8d71-c40e81621b04.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gxnu.edu.cn/2018/1213/c1374a108270/page.htm)。
+- [下载：广西师范大学 校名PSD格式 各种排列.zip](https://www.gxnu.edu.cn/_upload/article/files/01/b9/beaae1f745d2b0bc5bbd482397e4/57436adb-f82e-4575-9ef0-327203565512.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gxnu.edu.cn/2018/1213/c1374a108270/page.htm)。
+- [下载：广西师范大学校徽 PSD 格式.zip](https://www.gxnu.edu.cn/_upload/article/files/01/b9/beaae1f745d2b0bc5bbd482397e4/233193f7-bb50-433c-8d71-c40e81621b04.zip)：["官方视觉资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.gxnu.edu.cn/_upload/article/files/01/b9/beaae1f745d2b0bc5bbd482397e4/233193f7-bb50-433c-8d71-c40e81621b04.zip)。
+  - 发布者：广西师范大学；适用范围：学校通用。
+  - 文件容器已读取：ZIP；497833字节；读取类型archive_structure；文件SHA256 `2980176f59cc9cce61575df2cef734229d14a8425b4c6fafb3a68a5cb277e304`。
+- [下载：广西师范大学 校名PSD格式 各种排列.zip](https://www.gxnu.edu.cn/_upload/article/files/01/b9/beaae1f745d2b0bc5bbd482397e4/57436adb-f82e-4575-9ef0-327203565512.zip)：["官方视觉资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.gxnu.edu.cn/_upload/article/files/01/b9/beaae1f745d2b0bc5bbd482397e4/57436adb-f82e-4575-9ef0-327203565512.zip)。
+  - 发布者：广西师范大学；适用范围：学校通用。
+  - 文件容器已读取：ZIP；421701字节；读取类型archive_structure；文件SHA256 `716c6c60c568e034f139bbd71c45aafa53c31c56b364d58c8973a86bc93b4c48`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

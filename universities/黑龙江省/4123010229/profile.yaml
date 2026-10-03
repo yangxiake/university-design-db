@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4123010229'
   name_zh: 牡丹江医科大学
@@ -43,14 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -67,12 +59,20 @@ research:
   audit_key: '4123010229'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#E81000'
+    availability: found
     search_sources: []
+    source: https://www.mdjmu.cn/images/mdjyk0625.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: 58eb4dde8c46c030f7412bb9
+    source_sha256: 153dd4f0dedf3f3815224463f6cc9e4369a0c4d09be4faf9f7ccc029a27ee296
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +95,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 58eb4dde8c46c030f7412bb9
     kind: site_identity
@@ -256,6 +255,9 @@ visual:
     availability: found
     source_sha256: 6d85d30d35b181216461bfb37ed869c793f6f09ba898642721ed6d3bfc3d2e22
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
     value: 1958
@@ -274,12 +276,6 @@ culture:
     availability: found
     search_sources: []
     note: AI依据公开检索返回的校级或政府页面文字判读；本地直连原页受限或尚未完成，最终核验需打开原URL比对。
-  history_events:
-  - year: 2024
-    event: 教育部公布同意更名为牡丹江医科大学的批复
-    source: https://www.moe.gov.cn/srcsite/A03/s181/202406/t20240612_1135110.html
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -301,6 +297,12 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 2024
+    event: 教育部公布同意更名为牡丹江医科大学的批复
+    source: https://www.moe.gov.cn/srcsite/A03/s181/202406/t20240612_1135110.html
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -323,224 +325,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.mdjmu.cn/bkzsw
-    availability: found
-    search_sources: []
-    source: https://www.mdjmu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 本科招生
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://www.mdjmu.cn/xxgkw/
-    availability: found
-    search_sources: []
-    source: https://www.mdjmu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 黑龙江省牡丹江市爱民区通乡街3号
-    availability: found
-    search_sources: []
-    source: https://www.mdjmu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:黑龙江省牡丹江市爱民区通乡街3号 邮编:157011
-  postal_code:
-    value: '157011'
-    availability: found
-    search_sources: []
-    source: https://www.mdjmu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:黑龙江省牡丹江市爱民区通乡街3号 邮编:157011
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 牡丹江医科大学位于黑龙江省牡丹江市，主管部门为黑龙江省。官网列示全日制本科生13000余人（统计日期未注明）。官网列示校园占地面积70万余平方米（统计日期未注明）。
+    value: 牡丹江医科大学位于黑龙江省牡丹江市，教育部名单列为本科，主管部门为黑龙江省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.mdjmu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 13000
-    availability: found
-    search_sources: []
-    source: https://www.mdjmu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制本科生；近似/下界数，保留原标注：全日制本科生13000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制本科生13000余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 70.0
-    availability: found
-    search_sources: []
-    source: https://www.mdjmu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 校园占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：校园占地面积70万余平方米；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 校园占地面积70万余平方米
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 硕士专业学位授权点：5个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.mdjmu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '招生电话: 0453-6984830'
-    availability: found
-    search_sources: []
-    source: https://www.mdjmu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 本科招生电话:0453-6984830
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

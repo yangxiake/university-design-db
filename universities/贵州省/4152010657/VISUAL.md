@@ -28,10 +28,13 @@
 |  | `#C01820` | 192,24,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#C81820` | 200,24,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#C01818` | 192,24,24 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 贵大红 | 未公布 | 未公布 | primary | [30, 100, 100, 10] |  | 官方VI标准值 | [依据](https://www.gzu.edu.cn/_upload/article/files/5c/ad/b3ed42ae4fc89063a59e37706359/662e301c-a9aa-4b90-a552-2c41b2b3be06.pdf) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.gzu.edu.cn/_upload/article/files/5c/ad/b3ed42ae4fc89063a59e37706359/662e301c-a9aa-4b90-a552-2c41b2b3be06.pdf](https://www.gzu.edu.cn/_upload/article/files/5c/ad/b3ed42ae4fc89063a59e37706359/662e301c-a9aa-4b90-a552-2c41b2b3be06.pdf)
+- [贵州大学官方视觉规范](https://www.gzu.edu.cn/_upload/article/files/5c/ad/b3ed42ae4fc89063a59e37706359/662e301c-a9aa-4b90-a552-2c41b2b3be06.pdf)：["标识规范", "标准色"]；格式 PDF；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.gzu.edu.cn/_upload/article/files/5c/ad/b3ed42ae4fc89063a59e37706359/662e301c-a9aa-4b90-a552-2c41b2b3be06.pdf)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

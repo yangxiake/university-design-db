@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132011276'
   name_zh: 南京工程学院
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - nanjing-institute-of-technology
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京工程学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: nanjing-5
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京工程学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -93,12 +65,20 @@ research:
   audit_key: '4132011276'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#C01820'
+    availability: found
     search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 61ccf2fce0b0ae39
+    source_sha256: 1ecaa937d1a90797e45eecfc8f0b7c23ea37d9caa3588ab06c73ef38c8288bc2
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -120,7 +100,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: bc0af16f86d39a52
     title: 南京工程学院校徽资源
@@ -271,15 +250,114 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 61ccf2fce0b0ae39
-  vi_resources: []
+  vi_resources:
+  - title: 视觉形象识别系统-南京工程学院
+    url: https://www.njit.edu.cn/xywh/sjxxsbxt.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njit.edu.cn/xywh/sjxxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 01bd338522618a31b1a9805dbaed53fba508f3cf12f3d51293ea1f519508901e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 南工程VIS基础系统.pdf
+    url: https://www.njit.edu.cn/__local/4/A5/21/2973BAD47B974EB0090AC568EC9_20731215_DD2AE0.pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njit.edu.cn/xywh/sjxxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 01bd338522618a31b1a9805dbaed53fba508f3cf12f3d51293ea1f519508901e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 南工程VIS基础系统.zip
+    url: https://www.njit.edu.cn/__local/1/FB/89/704093AA36E5FEF7882B793C331_2D072520_257678E.zip
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njit.edu.cn/xywh/sjxxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 01bd338522618a31b1a9805dbaed53fba508f3cf12f3d51293ea1f519508901e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 南京工程学院办学110周年暨合并组建25周年视觉形象识别手册.pdf
+    url: https://www.njit.edu.cn/__local/A/37/D2/65D2CE890F6CBB42440CE4566F0_EAC636C7_7A3D92.pdf
+    kinds:
+    - 视觉识别规范/资源
+    - 校庆专用
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njit.edu.cn/xywh/sjxxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 01bd338522618a31b1a9805dbaed53fba508f3cf12f3d51293ea1f519508901e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。本条为校庆专用资料，不作为通用VI或学校主题色。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 南京工程学院办学110周年暨合并组建25周年视觉形象识别手册.zip
+    url: https://www.njit.edu.cn/__local/6/20/1B/A92F10627AE2C66051F172715FB_5346EFDD_C4330DB.zip
+    kinds:
+    - 视觉识别规范/资源
+    - 校庆专用
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njit.edu.cn/xywh/sjxxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 01bd338522618a31b1a9805dbaed53fba508f3cf12f3d51293ea1f519508901e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。本条为校庆专用资料，不作为通用VI或学校主题色。
+    content_read: false
+    download_status: indexed_not_fetched
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1915
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q10906763&oldid=2474182641
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2474182641
+    source_sha256: 1be5db6cb09fbcce43a3a903609258df82473a9cd4c2f58f7d8541625f683a34
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: 学以致用
     source: https://www.njit.edu.cn/xywh/xxjd.htm
@@ -287,17 +365,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events:
-  - year: 2000
-    event: 南京机械高等专科学校与南京电力高等专科学校合并
-    source: https://www.njit.edu.cn/xxgk/lsyg.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 2001
-    event: 南京工业学校并入
-    source: https://www.njit.edu.cn/xxgk/lsyg.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -319,6 +386,17 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 2000
+    event: 南京机械高等专科学校与南京电力高等专科学校合并
+    source: https://www.njit.edu.cn/xxgk/lsyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 2001
+    event: 南京工业学校并入
+    source: https://www.njit.edu.cn/xxgk/lsyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -341,297 +419,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://zsb.njit.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.njit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://www.njit.edu.cn/en/
-    availability: found
-    search_sources: []
-    source: https://www.njit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: http://info.njit.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.njit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 南京工程学院
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京工程学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 南京市江宁区弘景大道1号
-    availability: found
-    search_sources: []
-    source: https://www.njit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:南京市江宁区弘景大道1号
-  postal_code:
-    value: '211167'
-    availability: found
-    search_sources: []
-    source: https://www.njit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:211167
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 258
-    score: 142.7
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    value: 南京工程学院位于江苏省南京市，教育部名单列为本科，主管部门为江苏省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 南京工程学院
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 273
-    score: 164
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/nanjing-institute-of-technology
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京工程学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4132011276'
-    upstream_record_name: 南京工程学院
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4132011276'
-    upstream_record_name: 南京工程学院
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
+    availability: found
+    search_sources: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

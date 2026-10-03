@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4133011842'
   name_zh: 浙江树人学院
@@ -43,14 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +58,21 @@ research:
   audit_key: '4133011842'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0D812E'
+    availability: found
     search_sources: []
+    source: https://www.zjsru.edu.cn/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: dd0642e5f08bb6e418f4777fa0ac8aa608fb60398b019dbc4911f56947b7347c
+    homepage_source: https://www.zjsru.edu.cn/
+    homepage_sha256: dd88586c4ef20e985eb1f9cb179e8ae1263cd16e61796746af04719110de7b1b
+    css_selector: .header-phone
+    css_declaration: '#0d812e'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -93,7 +94,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 85ca6114b0275d28d27ec6b0
     kind: site_identity
@@ -175,7 +175,30 @@ visual:
     byte_size: 9186
     representation: raster
     resolved_url: https://www.zjsru.edu.cn/images/logox.png
-  color_palette: []
+  color_palette:
+  - value: '#0D812E'
+    rgb:
+    - 13
+    - 129
+    - 46
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.zjsru.edu.cn/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: dd0642e5f08bb6e418f4777fa0ac8aa608fb60398b019dbc4911f56947b7347c
+    homepage_source: https://www.zjsru.edu.cn/
+    homepage_sha256: dd88586c4ef20e985eb1f9cb179e8ae1263cd16e61796746af04719110de7b1b
+    css_selector: .header-phone
+    css_declaration: '#0d812e'
+    collector: ppt_site_reference
   vi_resources:
   - title: 浙江树人学院社区校徽目录
     url: https://www.urongda.com/logos/4133011842
@@ -272,14 +295,20 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1984
+    availability: found
     search_sources: []
+    source: https://www.zjsru.edu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    source_sha256: 4e4a2c5e0044327018ba7fbf3abf652a825b19f16e6343401b75f0eb68d20b6d
+    collector: read_overview_identity_facts
+    basis: 官网以本校为主语明确记载创办/成立时间；不把筹建、更名或新校区年份代填。
+    previous_status: unresearched
   motto:
     value: 崇德重智，树人为本
     source: https://www.zjsru.edu.cn/xxgk/xxzc.htm
@@ -287,7 +316,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -309,6 +337,7 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -331,203 +360,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: http://english.zjsru.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.zjsru.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://www.zjsru.edu.cn/xxgk1.htm
-    availability: found
-    search_sources: []
-    source: https://www.zjsru.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 杭州市树人街8号；绍兴市柯桥区杨汛桥街道江夏路2016号
-    availability: found
-    search_sources: []
-    source: https://www.zjsru.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 杭州拱宸桥校区|地址:杭州市树人街8号电话:0571-88297000(招生办公室)/ 0571-88297011(学校办公室)邮编:310015
-    - 绍兴杨汛桥校区|地址:绍兴市柯桥区杨汛桥街道江夏路2016号电话:0571-88297000(招生办公室)/0575-85324517(学校办公室)邮编:312028
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0571-88297000'
+    value: 浙江树人学院位于浙江省杭州市，教育部名单列为本科，主管部门为浙江省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.zjsru.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 杭州拱宸桥校区|地址:杭州市树人街8号电话:0571-88297000(招生办公室)/ 0571-88297011(学校办公室)邮编:310015
-    - 绍兴杨汛桥校区|地址:绍兴市柯桥区杨汛桥街道江夏路2016号电话:0571-88297000(招生办公室)/0575-85324517(学校办公室)邮编:312028
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

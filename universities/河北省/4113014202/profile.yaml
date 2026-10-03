@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4113014202'
   name_zh: 沧州交通学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Cangzhou Jiaotong College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q15926191&oldid=2548495567
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548495567
+    source_sha256: 189c885d6cbb4b60f5b69e4ac14bf4cec8f526a068a17f5a26448568ac768f59
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.czjtu.edu.cn/
     source: https://www.czjtu.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +64,20 @@ research:
   audit_key: '4113014202'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#2868C0'
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_3_hebei/a_57/a_1_2.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 9aefadeb3f8ba72ddc2f6c9e
+    source_sha256: 8c0675e4cc71921094c88ada8d179767024d098dc5216c75b5f03e364fd2d0f5
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +99,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 0032a3260528c64fa34ec5c9
     kind: site_identity
@@ -130,8 +135,80 @@ visual:
     byte_size: 165986
     representation: raster
     resolved_url: https://www.czjtu.edu.cn/images/zhuyelogo.png
-  color_palette: []
+  - asset_id: 9aefadeb3f8ba72ddc2f6c9e
+    title: 沧州交通学院社区校徽预览
+    kind: badge
+    url: https://www.chinaschool.com.cn/i_region/i_3_hebei/a_57/a_1_2.png
+    source: https://www.chinaschool.com.cn/i_region/i_3_hebei/a_57/a_57.html
+    file_name: a_1_2.png
+    upstream_path: null
+    publisher: 大学志 chinaschool.com.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 沧州交通学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: 756bb0954523a21e0b184f94282cdbca31c8f96b554d9b6a85ae7afa62b54fc8
+    identity_basis: 页面标题为当前完整校名且图像alt精确标注同校校徽；社区关联证据，现行版本未独立确认。
+    usage_note: 社区学校资料页校徽预览；不是校方直接发布，不认定现行VI或图形授权。只保存链接与实际文件元数据，不再分发图形。
+    sha256: 8c0675e4cc71921094c88ada8d179767024d098dc5216c75b5f03e364fd2d0f5
+    access_status: content_inspected
+    byte_size: 24730
+    format: png
+    vector: false
+    width: 140
+    representation: raster
+    height: 140
+    has_alpha: true
+    transparent_background: true
+    visual_review: auto
+    visual_review_basis: 实际查看图形；校名字样对应当前学校，或该页专用图形具有独立学校标识。社区来源，未认定为官方现行VI。
+  color_palette:
+  - value: '#2868C0'
+    rgb:
+    - 40
+    - 104
+    - 192
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_3_hebei/a_57/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_3_hebei/a_57/a_57.html
+    asset_id: 9aefadeb3f8ba72ddc2f6c9e
+    source_sha256: 8c0675e4cc71921094c88ada8d179767024d098dc5216c75b5f03e364fd2d0f5
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  - value: '#2068B8'
+    rgb:
+    - 32
+    - 104
+    - 184
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_3_hebei/a_57/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_3_hebei/a_57/a_57.html
+    asset_id: 9aefadeb3f8ba72ddc2f6c9e
+    source_sha256: 8c0675e4cc71921094c88ada8d179767024d098dc5216c75b5f03e364fd2d0f5
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 2008
@@ -148,7 +225,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -170,6 +246,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -192,212 +269,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://zsb.czjtu.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.czjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://job.czjtu.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.czjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业信息网
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.czjtu.edu.cn/xxgk1.htm
-    availability: found
-    search_sources: []
-    source: https://www.czjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 河北省黄骅市学院路2009号
-    availability: found
-    search_sources: []
-    source: https://www.czjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:河北省黄骅市学院路2009号 邮编061199
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 沧州交通学院位于河北省沧州市，主管部门为河北省教育厅。官网列示在校生超2.7万名（统计日期未注明）。
+    value: 沧州交通学院位于河北省沧州市，教育部名单列为本科，主管部门为河北省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.czjtu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 27000
-    availability: found
-    search_sources: []
-    source: https://www.czjtu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；近似/下界数，保留原标注：在校生超2.7万名；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校生超2.7万名
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -578,6 +578,17 @@
                     "minLength": 1
                   }
                 }
+              },
+              {
+                "required": [
+                  "cmyk_text"
+                ],
+                "properties": {
+                  "cmyk_text": {
+                    "type": "string",
+                    "pattern": "^\\s*(?:[CMYK]\\s*:?\\s*(?:100(?:\\.0+)?|\\d{1,2}(?:\\.\\d+)?)%?\\s*)+$"
+                  }
+                }
               }
             ]
           }
@@ -639,7 +650,10 @@
       "const": 1
     },
     "profile_schema_version": {
-      "const": 3
+      "enum": [
+        3,
+        4
+      ]
     },
     "school_code": {
       "type": "string",

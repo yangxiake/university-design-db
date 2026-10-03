@@ -28,5 +28,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.jssnu.edu.cn/4453/list.htm](https://www.jssnu.edu.cn/4453/list.htm)
+- [学校标识](https://www.jssnu.edu.cn/4453/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jssnu.edu.cn/4453/list.htm)。
+- [江苏第二师范学院校标.rar](https://www.jssnu.edu.cn/_upload/article/files/d4/61/b55c91954ca6977dc7b008f08ba3/89e572e0-5fbe-459b-9fb3-ff981f00db9d.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jssnu.edu.cn/4453/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

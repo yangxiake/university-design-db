@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132010316'
   name_zh: 中国药科大学
@@ -68,14 +68,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -93,12 +85,20 @@ research:
   audit_key: '4132010316'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#263C92'
+    availability: found
     search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%AD%E5%9B%BD%E8%8D%AF%E7%A7%91%E5%A4%A7%E5%AD%A6%20CPU.svg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 9b3fadc266bf71bd
+    source_sha256: 1ed66f9a22015bcd8be9ca9a2f438a03cf19491db937000d4290b5856beecc03
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -120,7 +120,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 9b3fadc266bf71bd
     title: 中国药科大学校徽资源
@@ -296,6 +295,7 @@ visual:
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: dbaa0fa3d9e43ec0
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 1936
@@ -313,7 +313,6 @@ culture:
     availability: found
     search_sources: []
     note: AI核对公开检索返回的学校章程、信息公开或学校提交招生资料文字；未作人工签核，需打开原页复核。
-  history_events: []
   flower:
     value: null
     source: null
@@ -335,6 +334,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -380,394 +380,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
-  admissions_url:
-    value: http://zjc.cpu.edu.cn/
-    availability: found
-    search_sources: []
-    source: http://www.cpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业处
-  career_url:
-    value: http://cpu.91job.org.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 中国药科大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: http://en.cpu.edu.cn/
-    availability: found
-    search_sources: []
-    source: http://www.cpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: http://xxgk.cpu.edu.cn/
-    availability: found
-    search_sources: []
-    source: http://www.cpu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 医药
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国药科大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - '211'
-    - 双一流
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国药科大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 118.923
-      latitude: 31.932
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国药科大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses:
-  - name: 玄武门校区
-    address: null
-    coordinates: null
-    source: http://www.cpu.edu.cn/11459/list.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 江宁校区
-    address: null
-    coordinates: null
-    source: http://www.cpu.edu.cn/11459/list.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 中国药科大学位于江苏省南京市，主管部门为教育部。官网列示全日制在校生20756人（统计日期未注明）。官网列示在职教职工2083人（统计日期未注明）。简介列出玄武门校区、江宁校区。
+    value: 中国药科大学位于江苏省南京市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://www.cpu.edu.cn/11459/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 20756
-    availability: found
-    search_sources: []
-    source: http://www.cpu.edu.cn/11459/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；原标注：全日制在校生20756人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 全日制在校生20756人
-  faculty_count:
-    value: 2083
-    availability: found
-    search_sources: []
-    source: http://www.cpu.edu.cn/11459/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在职教职工；原标注：在职教职工2083人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 在职教职工2083人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 中药学
-    - 药学
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国药科大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 药学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国药科大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 中药学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国药科大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 595
-    minimum_rank: 20000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国药科大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4132010316'
-    upstream_record_name: 中国药科大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4132010316'
-    upstream_record_name: 中国药科大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4132010316'
-    upstream_record_name: China Pharmaceutical University Nanjing
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

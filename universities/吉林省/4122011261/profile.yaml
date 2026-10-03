@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4122011261'
   name_zh: 吉林工商学院
@@ -9,12 +9,17 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Jilin Bussiness and Technology College
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E6%9E%97%E5%B7%A5%E5%95%86%E5%AD%A6%E9%99%A2&oldid=94450918
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: fb05d2799f45ce8ff267158edab800d3406fff093a1a027c9ffcb2f3982c39cd
+    source_revision: 94450918
+    collector: wikipedia_core_infobox
+    basis: 当前完整校名的中文维基百科大学信息框EnglishName/外文名称字段；社区记录，非校方命名证明。
   official_website:
     value: https://www.jlbtc.edu.cn/
     source: https://www.jlbtc.edu.cn/
@@ -43,14 +48,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -100,7 +97,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 65888e83aaa79a078ec4a103
     kind: site_identity
@@ -206,6 +202,111 @@ visual:
     source_as_of: unspecified
     byte_size: 22027
     representation: raster
+  - archive_url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    archive_sha256: 1c981f33cb39a6d5ca99e14129deecb50bf3993618daa416e92230a385e160c2
+    archive_member: ╨ú╗╒íó╨ú├√═¿╡└═╝╝░╩╕┴┐═╝/╝¬┴╓╣ñ╔╠╤º╘║ú¿╡Ñ╨ú╗╒ú⌐.png
+    archive_member_display: 校徽、校名通道图及矢量图/吉林工商学院（单校徽）.png
+    checked_at: '2026-10-02'
+    sha256: d9bf8a305a4a999e91b0458593972cd2ebfd6ff7b081a789f39584e7cc4afa67
+    access_status: content_inspected
+    byte_size: 301903
+    format: png
+    vector: false
+    width: 2347
+    representation: raster
+    height: 2347
+    has_alpha: true
+    transparent_background: true
+    asset_id: 782570edb44ee71065aeda35
+    kind: badge
+    title: 吉林工商学院官方附件内标识：吉林工商学院（单校徽）.png
+    url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    source: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    publisher: 吉林工商学院
+    official: true
+    download_kind: archive_member
+    file_name: 吉林工商学院（单校徽）.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 吉林工商学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    archive_sha256: 1c981f33cb39a6d5ca99e14129deecb50bf3993618daa416e92230a385e160c2
+    archive_member: ╨ú╗╒íó╨ú├√═¿╡└═╝╝░╩╕┴┐═╝/╝¬┴╓╣ñ╔╠╤º╘║ú¿╨ú├√ú⌐.png
+    archive_member_display: 校徽、校名通道图及矢量图/吉林工商学院（校名）.png
+    checked_at: '2026-10-02'
+    sha256: 7a857ef45b50db92804fe7aca97c3b5084585d276d0205d8b60c27c05d18c9f3
+    access_status: content_inspected
+    byte_size: 85076
+    format: png
+    vector: false
+    width: 3534
+    representation: raster
+    height: 771
+    has_alpha: true
+    transparent_background: true
+    asset_id: ea830981b2a6192b1d7de5f9
+    kind: wordmark
+    title: 吉林工商学院官方附件内标识：吉林工商学院（校名）.png
+    url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    source: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    publisher: 吉林工商学院
+    official: true
+    download_kind: archive_member
+    file_name: 吉林工商学院（校名）.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 吉林工商学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    archive_sha256: 1c981f33cb39a6d5ca99e14129deecb50bf3993618daa416e92230a385e160c2
+    archive_member: ╨ú╗╒íó╨ú├√═¿╡└═╝╝░╩╕┴┐═╝/╝¬┴╓╣ñ╔╠╤º╘║ú¿╫Θ║╧2ú⌐.png
+    archive_member_display: 校徽、校名通道图及矢量图/吉林工商学院（组合2）.png
+    checked_at: '2026-10-02'
+    sha256: 39988ef06da3f85040b463ae150e2e23413b92fafbb68fc5532347df2d720ede
+    access_status: content_inspected
+    byte_size: 289210
+    format: png
+    vector: false
+    width: 3534
+    representation: raster
+    height: 3328
+    has_alpha: true
+    transparent_background: true
+    asset_id: 7bd8df1b3a5759a7d8c5d544
+    kind: combination
+    title: 吉林工商学院官方附件内标识：吉林工商学院（组合2）.png
+    url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    source: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    publisher: 吉林工商学院
+    official: true
+    download_kind: archive_member
+    file_name: 吉林工商学院（组合2）.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 吉林工商学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#55056A'
     rgb:
@@ -362,13 +463,15 @@ visual:
     availability: found
     source_sha256: 093d4540fc70a8e167bc42ce7f1048b0346f77562e87ccc0a9dba66df8f7857e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校徽、校名通道图及矢量图.zip
     url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=C66ADE5901C256F74B7FEFA2086001DB
     kinds:
     - 校徽/校名介绍及资源
     formats:
     - ZIP
-    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
     source: https://www.jlbtc.edu.cn/xxgk/xhxbxx.htm
     repository: null
     commit: null
@@ -376,8 +479,25 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: 093d4540fc70a8e167bc42ce7f1048b0346f77562e87ccc0a9dba66df8f7857e
-    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=C66ADE5901C256F74B7FEFA2086001DB
+        status: file_read
+        url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=C66ADE5901C256F74B7FEFA2086001DB
+      resolved_url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=C66ADE5901C256F74B7FEFA2086001DB
+    file_metadata:
+      byte_size: 2834166
+      format: ZIP
+      member_count: 9
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 1c981f33cb39a6d5ca99e14129deecb50bf3993618daa416e92230a385e160c2
+    content_read: true
+    download_status: content_inspected
   - title: 校徽、校名-吉林工商学院
     url: https://www.jlbtc.edu.cn/xxgk/xhxbxx/xh_xm.htm
     kinds:
@@ -394,6 +514,8 @@ visual:
     availability: found
     source_sha256: d1c47bcaf6fdef928fe755f56b1a05edb2ff92903df271e17049f2c0689e656a
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校徽、校名通道图及矢量图.zip
     url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
     kinds:
@@ -410,6 +532,8 @@ visual:
     availability: found
     source_sha256: d1c47bcaf6fdef928fe755f56b1a05edb2ff92903df271e17049f2c0689e656a
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽、校名组合效果-吉林工商学院
     url: https://www.jlbtc.edu.cn/xxgk/xhxbxx/xh_xmzhxg.htm
     kinds:
@@ -426,14 +550,56 @@ visual:
     availability: found
     source_sha256: f63a6e60507e7edcc8283b1d06e645a795637c4a150f9cd903332b3cf7392212
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    title: 校徽、校名通道图及矢量图.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    publisher: 吉林工商学院
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+        status: file_read
+        url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+      resolved_url: https://www.jlbtc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1768628782&wbfileid=292EFB41B302D8CC7793DB3A730B1F67
+    file_metadata:
+      byte_size: 2834166
+      format: ZIP
+      member_count: 9
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 1c981f33cb39a6d5ca99e14129deecb50bf3993618daa416e92230a385e160c2
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1958
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E6%9E%97%E5%B7%A5%E5%95%86%E5%AD%A6%E9%99%A2&oldid=94450918
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: fb05d2799f45ce8ff267158edab800d3406fff093a1a027c9ffcb2f3982c39cd
+    source_revision: 94450918
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
     value: 博学善思、厚德自强
     source: https://www.jlbtc.edu.cn/xxgk/xyjj.htm
@@ -441,7 +607,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -463,6 +628,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -485,216 +651,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://zsxxw.jlbtc.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.jlbtc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生信息网
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://xxgk.jlbtc.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.jlbtc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 长春九台经济开发区卡伦湖大街1666号
-    availability: found
-    search_sources: []
-    source: https://www.jlbtc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:长春九台经济开发区卡伦湖大街1666号
-  postal_code:
-    value: '130507'
-    availability: found
-    search_sources: []
-    source: https://www.jlbtc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:130507
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 吉林工商学院位于吉林省长春市，主管部门为吉林省。官网列示在校生14947人（统计时间2026-08-31）。官网列示专任教师684人（统计时间2026-08-31）。
+    value: 吉林工商学院位于吉林省长春市，教育部名单列为本科，主管部门为吉林省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.jlbtc.edu.cn/xxgk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 14947
-    availability: found
-    search_sources: []
-    source: https://www.jlbtc.edu.cn/xxgk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制本专科在校生；原标注：在校生14947人；截至2026年8月31日
-    source_as_of: '2026-08-31'
-    date_basis: 截至2026年8月31日
-    approximate: false
-    original_notation: 在校生14947人
-  faculty_count:
-    value: 684
-    availability: found
-    search_sources: []
-    source: https://www.jlbtc.edu.cn/xxgk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师684人；截至2026年8月31日
-    source_as_of: '2026-08-31'
-    date_basis: 截至2026年8月31日
-    approximate: false
-    original_notation: 专任教师684人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

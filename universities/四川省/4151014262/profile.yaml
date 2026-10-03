@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4151014262'
   name_zh: 西南交通大学希望学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Southwest Jiaotong University Hope College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q19856238&oldid=2474189542
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2474189542
+    source_sha256: 86b55e75f07bd6315dce62084a94538918524c01c4d23d95080498780bafd8f3
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.swjtuhc.cn/
     source: https://www.swjtuhc.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +64,20 @@ research:
   audit_key: '4151014262'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#103880'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/2503.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 14e985b1d2cfda25b73f3fb1
+    source_sha256: 61ec01962a1c04983dda5dd1cf6b8eec108ca52144a475f03a0ce8ddc992e5ae
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,18 +99,95 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 14e985b1d2cfda25b73f3fb1
+    title: 西南交通大学希望学院教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/2503.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/2503/info.json
+    file_name: 2503.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 西南交通大学希望学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: e87cf996c481313fe9b7d24c64ce31b8623b2ceb87f73dc16c1adb01faca3b53
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: 61ec01962a1c04983dda5dd1cf6b8eec108ca52144a475f03a0ce8ddc992e5ae
+    access_status: content_inspected
+    byte_size: 30208
+    format: jpeg
+    vector: false
+    width: 230
+    representation: raster
+    height: 230
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#103880'
+    rgb:
+    - 16
+    - 56
+    - 128
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2503.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2503/info.json
+    asset_id: 14e985b1d2cfda25b73f3fb1
+    source_sha256: 61ec01962a1c04983dda5dd1cf6b8eec108ca52144a475f03a0ce8ddc992e5ae
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#083080'
+    rgb:
+    - 8
+    - 48
+    - 128
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2503.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2503/info.json
+    asset_id: 14e985b1d2cfda25b73f3fb1
+    source_sha256: 61ec01962a1c04983dda5dd1cf6b8eec108ca52144a475f03a0ce8ddc992e5ae
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2009
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%9B%9B%E5%B7%9D%E7%9C%81%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%88%97%E8%A1%A8&oldid=94059570
+    source_sha256: 73aed02f60378b7cd97b16781ae28333276dc1370b09bc97777feb0e29ad3e94
+    source_revision: 94059570
+    checked_at: '2026-10-02'
+    verified: auto
+    source_type: community_website
+    collector: wikipedia_labelled_year_column
+    basis: 中文维基百科省级高校列表的明确建校/创办时间栏，按完整现校名匹配；社区数据，未独立确认前身与现名设立口径。
+    evidence: 2009年
   motto:
     value: null
     source: null
@@ -112,7 +195,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -134,6 +216,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -156,185 +239,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 西南交通大学希望学院位于四川省南充市，教育部名单列为本科，主管部门为四川省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4141014982'
   name_zh: 河南应用工程学院
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Henan University of Applied Engineering
+    availability: found
     search_sources: []
+    source: https://bkso.baidu.com/item/%E6%B2%B3%E5%8D%97%E5%BA%94%E7%94%A8%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/64522111?fromModule=lemma_inlink
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-03'
+    evidence: 河南应用工程学院（Henan University of Applied Engineering）
+    collector: curated_ppt_core
+    retrieval: direct_http
+    source_sha256: b712f4183a29db4596363882d16d9a71caef9149ad833e1d35b2a7af30145acc
+    basis: 搜索服务返回的当前完整中文校名页面摘录明确英文括注；社区百科来源，原网页多网址直读未成功，保存摘录取证方式，不称为校方英文命名证明。
   official_website:
     value: https://hyg.smxpt.edu.cn/
     source: https://hyg.smxpt.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -66,12 +64,21 @@ research:
   audit_key: '4141014982'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0265B2'
+    availability: found
     search_sources: []
+    source: https://hyg.smxpt.edu.cn/_upload/tpl/00/0a/10/template10/css/media.css
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: 8275ba12dfe8d50bf94f5e8ad6d3f1b837790399da296713976da3dd3aaf1909
+    homepage_source: https://hyg.smxpt.edu.cn/
+    homepage_sha256: 88321579aa0f2e051067aa37a44be5dafacd83ed9bf1b650eb81fb5a0aad48b4
+    css_selector: '#nav'
+    css_declaration: '#0265b2'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -93,7 +100,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 63b660be81830cbac85a80d4
     kind: site_identity
@@ -130,8 +136,32 @@ visual:
     byte_size: 29465
     representation: raster
     resolved_url: https://hyg.smxpt.edu.cn/_upload/tpl/00/0a/10/template10/images/yygclogo.png
-  color_palette: []
+  color_palette:
+  - value: '#0265B2'
+    rgb:
+    - 2
+    - 101
+    - 178
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://hyg.smxpt.edu.cn/_upload/tpl/00/0a/10/template10/css/media.css
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: 8275ba12dfe8d50bf94f5e8ad6d3f1b837790399da296713976da3dd3aaf1909
+    homepage_source: https://hyg.smxpt.edu.cn/
+    homepage_sha256: 88321579aa0f2e051067aa37a44be5dafacd83ed9bf1b650eb81fb5a0aad48b4
+    css_selector: '#nav'
+    css_declaration: '#0265b2'
+    collector: ppt_site_reference
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 2015
@@ -148,7 +178,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -170,6 +199,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -192,194 +222,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://hyg.smxpt.edu.cn/zsjy/list.htm
-    availability: found
-    search_sources: []
-    source: https://hyg.smxpt.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 河南省三门峡市城乡一体化示范区(高新区)学府路3号
-    availability: found
-    search_sources: []
-    source: https://hyg.smxpt.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:河南省三门峡市城乡一体化示范区(高新区)学府路3号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '联系电话: 0398-2820188'
+    value: 河南应用工程学院位于河南省三门峡市，教育部名单列为本科，主管部门为河南省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://hyg.smxpt.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 联系电话:0398-2820188
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

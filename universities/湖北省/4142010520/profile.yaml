@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4142010520'
   name_zh: 中南财经政法大学
@@ -67,14 +67,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -92,12 +84,20 @@ research:
   audit_key: '4142010520'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#006060'
+    availability: found
     search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%AD%E5%8D%97%E8%B4%A2%E7%BB%8F%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6%20ZUEL.svg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: da71f0721284c409
+    source_sha256: cfdeb33138c13ab83df39f1f221acbf75741786d4f8c11843a661d88387519c4
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；SVG内嵌位图取样；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -120,7 +120,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: da71f0721284c409
     title: 中南财经政法大学校徽资源
@@ -317,7 +316,26 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: c60da20f0b571e0f
-  vi_resources: []
+  vi_resources:
+  - title: 校训校徽
+    url: https://www.zuel.edu.cn/motto_ui/
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zuel.edu.cn/motto_ui/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7176df9c5608ba75c7ea193dd672568137a0b46cebedc40e3369ea5b57974cec
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
     value: 1948
@@ -328,24 +346,16 @@ culture:
     search_sources: []
     basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
   motto:
-    value: null
-    source: null
+    value: 博文明理，厚德济世
+    source: https://www.zuel.edu.cn/intro/
     verified: auto
-    checked_at: '2026-10-01'
-    availability: conflict
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-    candidates:
-    - value: 博文明理，厚德济世
-      source: https://www.zuel.edu.cn/intro/
-    - value: 博文明理厚德济世释义
-      source: https://www.zuel.edu.cn/motto_ui/
-    note: 已存AI草稿与本轮官网候选不一致；两者均保留，等待核对原页和历史口径
-  history_events:
-  - year: 1958
-    event: 中南财经学院、中南政法学院等与武汉大学法律系合并成立湖北大学
-    source: https://www.zuel.edu.cn/dxzc/
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_website
+    source_sha256: b723af83be6c5c5488ba7175ae9a6c2c893254ab632aacf8c6ccf0b66789c742
+    basis: 剔除解析误并入的释义标题。
+    collector: ppt_core_source_reconciliation
   flower:
     value: null
     source: null
@@ -367,6 +377,12 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 1958
+    event: 中南财经学院、中南政法学院等与武汉大学法律系合并成立湖北大学
+    source: https://www.zuel.edu.cn/dxzc/
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -423,442 +439,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
-  admissions_url:
-    value: https://www.zuel.edu.cn/recruit_jobs/
-    availability: found
-    search_sources: []
-    source: https://www.zuel.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://jyzx.zuel.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://english.zuel.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.zuel.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://xxgk.zuel.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.zuel.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 财经
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - '211'
-    - 双一流
-    - 政法五院
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 114.35
-      latitude: 30.47
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: 中南财经政法大学位于湖北省武汉市，主管部门为教育部。官网列示全日制本科生21000余人（统计日期未注明）。官网列示教职工2500余人（统计日期未注明）。
+    value: 中南财经政法大学位于湖北省武汉市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.zuel.edu.cn/about/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 21000
-    availability: found
-    search_sources: []
-    source: https://www.zuel.edu.cn/about/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制本科生；近似/下界数，保留原标注：全日制本科生21000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制本科生21000余人
-  faculty_count:
-    value: 2500
-    availability: found
-    search_sources: []
-    source: https://www.zuel.edu.cn/about/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工2500余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工2500余人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 法学
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value:
-    - 一级学科博士学位授权点：7个；统计时间undated
-    - 一级学科硕士学位授权点：18个；统计时间undated
-    - 博士专业学位授权点：2个；统计时间undated
-    - 硕士专业学位授权点：21个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.zuel.edu.cn/about/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments:
-  - subject: 法学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 应用经济学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 工商管理
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 统计学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 600
-    minimum_rank: 17000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 595
-    minimum_rank: 3500
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中南财经政法大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4142010520'
-    upstream_record_name: 中南财经政法大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4142010520'
-    upstream_record_name: 中南财经政法大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4142010520'
-    upstream_record_name: Zhongnan University of Economics and Law
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -22,7 +22,7 @@ import yaml
 from discover_official_pages import AGENT, matches_school_title, read_bounded
 from research_all_schools import Policy, SCHOOL_NAMES, same_school, foreign_article
 from expand_repository_fields import inspect_bytes
-from profile_extensions import put_fact, upsert, rgb
+from profile_extensions import put_fact, upsert, rgb, official_name_variants
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / 'data/review/official-extensions-2026.jsonl'
@@ -33,6 +33,7 @@ FOOT = re.compile(r'footer|copyright|(?:^|[ _-])foot(?:$|[ _-])|bottom|copy(?:ri
 MARK = re.compile(r'logo|xiaohui|badge|校徽|校标|校名|标识', re.I)
 EXCLUDED_MARK = re.compile(r'sydw|事业单位|党政|政务|beian|备案|国徽|公安|微信|微博|weibo|wechat|qrcode|二维码|anniversary|校庆|\d{2,3}周年|favicon|icon|footer|bottom|logo_banner|logo_bg|logo-bg|slogan|spacer|(?:top|header)[_-]?(?:slog|bg)|menu|close|search|arrow|搜索', re.I)
 EMAIL = r'[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}'
+SPECIAL_EMAIL = re.compile(r'网络安全|信息安全|举报|违法|廉政|监督|技术支持|扫黑', re.I)
 PORTALS = {
     'resources.admissions_url': re.compile(r'^(?:本科招生(?:网|信息网|信息|网站)?|招生(?:网|信息网|信息|网站|工作|就业)|招生就业(?:网|处|信息网)?|本专科招生)$'),
     'resources.career_url': re.compile(r'^(?:就业(?:网|信息网|指导|服务|服务网|创业|中心)|就业创业网|就业指导中心)$'),
@@ -110,15 +111,15 @@ def decode(data,charset):
     return data.decode('utf-8','replace')
 
 
-def fetch(url,home,policy,limit=3_000_000):
+def fetch(url,home,policy,limit=3_000_000,timeout=10):
     if not same_school(url,home):raise ValueError('cross_school_url')
     if not policy.allowed(url):raise ValueError('robots_disallowed')
     request=urllib.request.Request(url,headers={'User-Agent':AGENT})
-    with urllib.request.urlopen(request,timeout=10) as response:
+    with urllib.request.urlopen(request,timeout=timeout) as response:
         final=response.geturl()
         if not same_school(final,home):raise ValueError('cross_school_redirect')
         if not policy.allowed(final):raise ValueError('redirect_robots_disallowed')
-        return final,read_bounded(response,limit,12),response.headers.get_content_charset(),response.headers.get_content_type()
+        return final,read_bounded(response,limit,max(12,timeout)),response.headers.get_content_charset(),response.headers.get_content_type()
 
 
 def inspect_official_asset(asset,home,policy):
@@ -135,6 +136,8 @@ def inspect_official_asset(asset,home,policy):
             meta=inspect_bytes(body,asset['file_name'])
             if meta.get('width') and meta.get('height') and (min(meta['width'],meta['height'])<15 or meta['width']*meta['height']>3_000_000):raise ValueError('not_identity_mark_dimensions')
             attempt['status']='content_inspected';asset.update(meta,resolved_url=final,inspection_attempts=attempts)
+            cache = ROOT / 'tmp/targeted-vi'; cache.mkdir(parents=True, exist_ok=True)
+            (cache / (meta['sha256'] + '.graphic')).write_bytes(body)
             if raw and urllib.parse.urljoin(asset['source'],raw.strip())==url:asset['url']=url
             asset.pop('inspection_error',None)
             return asset
@@ -170,11 +173,12 @@ def contact_claims(page,kind):
         if phone_safe:
             for m in re.finditer(r'(?P<label>(?:联系|咨询|招生咨询|招生|办公|办公室|总机|值班)?电话|Tel(?:ephone)?\.?)\s*:?\s*(?P<phone>\(?0\d{2,3}\)?[ -]*\d{7,8}(?:\s*转\s*\d{1,5})?)(?!\d)',line,re.I):
                 phones.append((m.group('label')+': '+m.group('phone'),line[:260]))
-        for m in re.finditer(r'(?:电子邮箱|电子邮件|联系邮箱|邮箱|E-?mail)\s*:?\s*('+EMAIL+')',line,re.I):emails.append((m.group(1),line[:260]))
+        if not SPECIAL_EMAIL.search(line):
+            for m in re.finditer(r'(?:电子邮箱|电子邮件|联系邮箱|邮箱|E-?mail)\s*:?\s*('+EMAIL+')',line,re.I):emails.append((m.group(1),line[:260]))
     for a in page.links:
         if a['href'].lower().startswith('mailto:') and (a['footer'] or kind=='contacts'):
             email=urllib.parse.unquote(a['href'][7:].split('?')[0])
-            if re.fullmatch(EMAIL,email):emails.append((email,(a['label']+' '+email)[:260]))
+            if re.fullmatch(EMAIL,email) and not SPECIAL_EMAIL.search(a['label']):emails.append((email,(a['label']+' '+email)[:260]))
     # Preserve multi-address pages as one labelled communications field; do not
     # invent which campus is the headquarters or pair unlabelled postal codes.
     for field,items in [('location.address',addresses),('location.postal_code',postal),('contacts.phone',phones),('contacts.email',emails)]:
@@ -216,12 +220,19 @@ def collect(school,discovery):
     for url in dict.fromkeys(variants):
         attempt=dict(requested_url=url,kind='homepage');result['pages'].append(attempt)
         try:
-            final,body,charset,mime=fetch(url,website,policy)
+            cached=school.get('_cached_home')
+            if cached and url==cached['url']:
+                body=pathlib.Path(cached['path']).read_bytes()
+                if hashlib.sha256(body).hexdigest()!=cached['sha256']:raise ValueError('homepage_cache_hash_mismatch')
+                final,charset,mime=cached['url'],None,'text/html'
+                attempt.update(retrieval='hash_matched_previous_homepage',retrieved_at=cached['checked_at'])
+            else:
+                final,body,charset,mime=fetch(url,website,policy)
             if mime not in {'text/html','application/xhtml+xml'}:raise ValueError('not_html')
             page=Page();page.feed(decode(body,charset));page.finish()
-            if not matches_school_title(name,page.title,SCHOOL_NAMES):
+            if not any(matches_school_title(n,page.title,SCHOOL_NAMES) for n in school.get('_official_names',[name])):
                 from collect_homepage_identity import ownership_evidence
-                if not school.get('home') or not ownership_evidence(name,[t for _,t in page.lines],SCHOOL_NAMES):
+                if not school.get('home') or not any(ownership_evidence(n,[t for _,t in page.lines],SCHOOL_NAMES)for n in school.get('_official_names',[name])):
                     raise ValueError('homepage_identity_mismatch')
             attempt.update(status='read',source_url=final,title=page.title.strip()[:180],sha256=hashlib.sha256(body).hexdigest())
             home_page=page;final_home=final;break
@@ -274,6 +285,13 @@ def sanitize_record(record):
     """Reapply current exclusions to a saved ledger, preserving rejected evidence."""
     retained=[];rejected=record.setdefault('excluded_claims',[])
     for claim in record['claims']:
+        if claim['field']=='contacts.email' and claim.get('evidence'):
+            safe=[e for e in claim['evidence'] if not SPECIAL_EMAIL.search(e)]
+            if not safe:
+                rejected.append(dict(claim,reason='special_purpose_email_not_office_contact'));continue
+            values=list(dict.fromkeys(e for line in safe for e in re.findall(EMAIL,line)))
+            if values and '；'.join(values[:4])!=claim['value']:
+                claim['previous_value']=claim['value'];claim['value']='；'.join(values[:4]);claim['evidence']=safe
         if claim['field']=='location.address':
             old=claim['value'];clean=re.split(r'(?:[\u4e00-\u9fff]{0,4}公网安备|[\u4e00-\u9fff]{0,2}ICP备|版权所有|备案)',old,maxsplit=1)[0].strip()
             if claim.get('evidence'):
@@ -335,6 +353,9 @@ def apply_record(profile,record):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workers',type=int,default=16);parser.add_argument('--limit',type=int)
+    parser.add_argument('--output',default='data/review/official-extensions-2026.jsonl',help='Separate ledger for a new collection batch')
+    parser.add_argument('--collect-only',action='store_true')
+    parser.add_argument('--homepage-cache-receipts',help='Reuse reviewed homepages only when school, canonical URL and SHA256 match')
     parser.add_argument('--school-code',action='append',help='Collect only these schools; preserve the rest of the ledger')
     parser.add_argument('--resume',action='store_true');parser.add_argument('--retry-gaps',action='store_true');parser.add_argument('--import-only',action='store_true')
     parser.add_argument('--retry-asset-errors',action='store_true',help='Retry only failed official image files from the saved ledger')
@@ -347,13 +368,25 @@ def main():
     for school in schools:
         fact=profiles[school['school_code']]['identity']['official_website']
         school['home']=fact.get('value') if fact.get('availability')=='found' else None
-    results={r['school_code']:r for r in map(json.loads,OUTPUT.read_text().splitlines())} if OUTPUT.exists() else {}
+        school['_official_names']=official_name_variants(profiles[school['school_code']]['identity'])
+    if args.homepage_cache_receipts:
+        bycode={s['school_code']:s for s in schools}
+        for r in map(json.loads,(ROOT/args.homepage_cache_receipts).read_text().splitlines()):
+            school=bycode[r['school_code']]
+            if r.get('status')!='ownership_confirmed' or r['name_zh']!=school['name_zh'] or r['homepage_url']!=school['home']:raise ValueError('reviewed_homepage_cache_identity_mismatch')
+            sha=r.get('homepage_sha256')or r['source_sha256']
+            candidates=[ROOT/'tmp/targeted-vi'/(sha+'.html'),ROOT/'tmp/homepage-identity'/(r['school_code']+'.html')]
+            cached=next((p for p in candidates if p.exists()and hashlib.sha256(p.read_bytes()).hexdigest()==sha),None)
+            if not cached:raise ValueError('reviewed_homepage_cache_missing_or_changed')
+            school['_cached_home']=dict(url=r['homepage_url'],sha256=sha,path=str(cached),checked_at=r['checked_at'])
+    output=ROOT/args.output
+    results={r['school_code']:r for r in map(json.loads,output.read_text().splitlines())} if output.exists() else {}
     selected=schools[:args.limit] if args.limit else schools
     if args.school_code:selected=[s for s in selected if s['school_code'] in args.school_code]
     pending=[s for s in selected if (not args.resume or s['school_code'] not in results) and
              (not args.retry_gaps or results.get(s['school_code'],{}).get('status')=='homepage_access_gap')]
     def save():
-        temp=OUTPUT.with_suffix('.jsonl.tmp');temp.write_text(''.join(json.dumps(results[s['school_code']],ensure_ascii=False)+'\n' for s in schools if s['school_code'] in results),encoding='utf-8');temp.replace(OUTPUT)
+        temp=output.with_suffix('.jsonl.tmp');temp.write_text(''.join(json.dumps(results[s['school_code']],ensure_ascii=False)+'\n' for s in schools if s['school_code'] in results),encoding='utf-8');temp.replace(output)
     if not args.import_only and not args.retry_asset_errors:
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
             futures={pool.submit(collect,s,discovery.get(s['school_code'],{})):s['school_code'] for s in pending}
@@ -370,6 +403,7 @@ def main():
         print('Retried %d official identity files.'%len(jobs))
     for record in results.values():sanitize_record(record)
     save()
+    if args.collect_only:return
     touched=0
     for code,record in results.items():
         if args.school_code and code not in args.school_code:continue

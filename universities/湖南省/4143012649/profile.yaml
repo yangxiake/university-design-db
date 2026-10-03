@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4143012649'
   name_zh: 湖南科技大学潇湘学院
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: xiaoxiang college of hunan university of science and technology
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_17_hunan/a_35/a_35.html
+    source_sha256: a1bbc6662e4ea55201bbb0d6681822911fcc8e5def8adbc78c8f82b1d8129107
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://xxxy.hnust.edu.cn
     source: https://xxxy.hnust.edu.cn
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +62,21 @@ research:
   audit_key: '4143012649'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#1177BF'
+    availability: found
     search_sources: []
+    source: https://xxxy.hnust.edu.cn/cssGB/style.css
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: 8a74de18f30b393be648129e2ad6bab76e741b28aceec120216484a02adfa3cb
+    homepage_source: https://xxxy.hnust.edu.cn
+    homepage_sha256: e8f1686123749f46d153563f748c529c3b2c6d23be2d5d0697d367acfe9f97e3
+    css_selector: .nav
+    css_declaration: '#1177bf'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -93,7 +98,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: ecaa6f05104365bbdad90e46
     kind: site_identity
@@ -130,16 +134,46 @@ visual:
     byte_size: 19566
     representation: raster
     resolved_url: https://xxxy.hnust.edu.cn/images/xxlogo.png
-  color_palette: []
+  color_palette:
+  - value: '#1177BF'
+    rgb:
+    - 17
+    - 119
+    - 191
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://xxxy.hnust.edu.cn/cssGB/style.css
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: 8a74de18f30b393be648129e2ad6bab76e741b28aceec120216484a02adfa3cb
+    homepage_source: https://xxxy.hnust.edu.cn
+    homepage_sha256: e8f1686123749f46d153563f748c529c3b2c6d23be2d5d0697d367acfe9f97e3
+    css_selector: .nav
+    css_declaration: '#1177bf'
+    collector: ppt_site_reference
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2001
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q15929803&oldid=2548508747
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548508747
+    source_sha256: 542a4d83bd674401054170a7204c4b6a30dc25a9a4b431d442d164bfd533a209
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -147,7 +181,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -169,6 +202,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -191,201 +225,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: https://xxxy.hnust.edu.cn/jyfw/index.htm
-    availability: found
-    search_sources: []
-    source: https://xxxy.hnust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业服务
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://xxgk.hnust.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://xxxy.hnust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 湖南·湘潭市桃园路湖南科技大学立德楼[411201]
-    availability: found
-    search_sources: []
-    source: https://xxxy.hnust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:湖南·湘潭市桃园路湖南科技大学立德楼[411201]
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '招生咨询电话: 0731-58889999'
+    value: 湖南科技大学潇湘学院位于湖南省湘潭市，教育部名单列为本科，主管部门为湖南省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://xxxy.hnust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 招生咨询电话:0731-58889999
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

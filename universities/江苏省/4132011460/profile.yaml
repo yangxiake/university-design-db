@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132011460'
   name_zh: 南京晓庄学院
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - nanjing-xiaozhuang-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京晓庄学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: nanjing-xiaozhuang
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京晓庄学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -93,12 +65,20 @@ research:
   audit_key: '4132011460'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#004898'
+    availability: found
     search_sources: []
+    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 0b1ce72822c4b77d
+    source_sha256: 6a19ac7c9c54ef31be88160a2c3ba873f14fe98e2b36aefab8f6c935486b50f0
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -121,7 +101,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: b7af9dc2fe117b4c
     title: 南京晓庄学院校徽资源
@@ -217,6 +196,321 @@ visual:
     source_as_of: unspecified
     byte_size: 72877
     representation: raster
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/jpg ╬─╝■/1.RGB╕±╩╜ú¿╙├╙┌╞┴╧╘═╝╧±ú⌐/logo-08.jpg
+    archive_member_display: 南京晓庄学院校标（logo）标准件/jpg 文件/1.RGB格式（用于屏显图像）/logo-08.jpg
+    checked_at: '2026-10-02'
+    sha256: a749346e49c27411c4017286dd47f28eef886c02e5a91796172292d18e56a0de
+    access_status: content_inspected
+    byte_size: 572272
+    format: jpeg
+    vector: false
+    width: 1951
+    representation: raster
+    height: 1726
+    has_alpha: false
+    transparent_background: false
+    asset_id: 258540299a67b8e93e3972fa
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo-08.jpg
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo-08.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/jpg ╬─╝■/1.RGB╕±╩╜ú¿╙├╙┌╞┴╧╘═╝╧±ú⌐/logo-09.jpg
+    archive_member_display: 南京晓庄学院校标（logo）标准件/jpg 文件/1.RGB格式（用于屏显图像）/logo-09.jpg
+    checked_at: '2026-10-02'
+    sha256: a35a9f585995d02cc0354e01133e899692bd1afeb77b99fce561230322610deb
+    access_status: content_inspected
+    byte_size: 662440
+    format: jpeg
+    vector: false
+    width: 3488
+    representation: raster
+    height: 1238
+    has_alpha: false
+    transparent_background: false
+    asset_id: f952237152122abf517e2077
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo-09.jpg
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo-09.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/jpg ╬─╝■/1.RGB╕±╩╜ú¿╙├╙┌╞┴╧╘═╝╧±ú⌐/logo-10.jpg
+    archive_member_display: 南京晓庄学院校标（logo）标准件/jpg 文件/1.RGB格式（用于屏显图像）/logo-10.jpg
+    checked_at: '2026-10-02'
+    sha256: df82f525c35bfa111aacb669c8b3828e62775fc75856f892d73246acb0d814b8
+    access_status: content_inspected
+    byte_size: 560950
+    format: jpeg
+    vector: false
+    width: 1163
+    representation: raster
+    height: 3225
+    has_alpha: false
+    transparent_background: false
+    asset_id: 35d1d86876cd364a9c9072a2
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo-10.jpg
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo-10.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/jpg ╬─╝■/2.CMYK╕±╩╜ú¿╙├╙┌╙í╦ó╞╖ú⌐/logo -08.jpg
+    archive_member_display: 南京晓庄学院校标（logo）标准件/jpg 文件/2.CMYK格式（用于印刷品）/logo -08.jpg
+    checked_at: '2026-10-02'
+    sha256: 451e9ff71bffcf90a1062e6ef5d4e3f5c1e9ea43cf3f16cd207beb8690c9a20f
+    access_status: content_inspected
+    byte_size: 581851
+    format: jpeg
+    vector: false
+    width: 1951
+    representation: raster
+    height: 1726
+    has_alpha: false
+    transparent_background: false
+    asset_id: df63eeee4ba197a2153ad069
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo -08.jpg
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo -08.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/jpg ╬─╝■/2.CMYK╕±╩╜ú¿╙├╙┌╙í╦ó╞╖ú⌐/logo -09.jpg.jpg
+    archive_member_display: 南京晓庄学院校标（logo）标准件/jpg 文件/2.CMYK格式（用于印刷品）/logo -09.jpg.jpg
+    checked_at: '2026-10-02'
+    sha256: f59a2976b56531811a15e83f1627437cfb338bc84a980b0adecbe333ea9d997b
+    access_status: content_inspected
+    byte_size: 676451
+    format: jpeg
+    vector: false
+    width: 3488
+    representation: raster
+    height: 1238
+    has_alpha: false
+    transparent_background: false
+    asset_id: d10c95af6fae23c4a39ff0da
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo -09.jpg.jpg
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo -09.jpg.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/jpg ╬─╝■/2.CMYK╕±╩╜ú¿╙├╙┌╙í╦ó╞╖ú⌐/logo -10.jpg.jpg
+    archive_member_display: 南京晓庄学院校标（logo）标准件/jpg 文件/2.CMYK格式（用于印刷品）/logo -10.jpg.jpg
+    checked_at: '2026-10-02'
+    sha256: 137056006c25275de40cc9efbbdffa56228b19bf2e1a58e9498aa7cc4e968ccc
+    access_status: content_inspected
+    byte_size: 572471
+    format: jpeg
+    vector: false
+    width: 1163
+    representation: raster
+    height: 3225
+    has_alpha: false
+    transparent_background: false
+    asset_id: bea2dd12cc5f7e6a1844c68f
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo -10.jpg.jpg
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo -10.jpg.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/png ╬─╝■/logo-08.png
+    archive_member_display: 南京晓庄学院校标（logo）标准件/png 文件/logo-08.png
+    checked_at: '2026-10-02'
+    sha256: b96f98e76add09848924bfe38c9a7cacfee888546ce3432af0b8e5b4455574a7
+    access_status: content_inspected
+    byte_size: 140255
+    format: png
+    vector: false
+    width: 1951
+    representation: raster
+    height: 1726
+    has_alpha: true
+    transparent_background: true
+    asset_id: d68e9a5d84f07045a3b774b4
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo-08.png
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo-08.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/png ╬─╝■/logo-09.png
+    archive_member_display: 南京晓庄学院校标（logo）标准件/png 文件/logo-09.png
+    checked_at: '2026-10-02'
+    sha256: 597be75edb5dc6578791f3eb485e0e82b73657d4d7cc6c14166eea737af1aafe
+    access_status: content_inspected
+    byte_size: 172878
+    format: png
+    vector: false
+    width: 3488
+    representation: raster
+    height: 1238
+    has_alpha: true
+    transparent_background: true
+    asset_id: b73a28c657e482b9a0f98b6b
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo-09.png
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo-09.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    archive_sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    archive_member: ─╧╛⌐╧■╫»╤º╘║╨ú▒Ωú¿logoú⌐▒Ω╫╝╝■/png ╬─╝■/logo-10.png
+    archive_member_display: 南京晓庄学院校标（logo）标准件/png 文件/logo-10.png
+    checked_at: '2026-10-02'
+    sha256: 249a3aaa7e869f97c0c29e16f70bb0591530a4d017fd25615bb88cc54365a9e5
+    access_status: content_inspected
+    byte_size: 152232
+    format: png
+    vector: false
+    width: 1163
+    representation: raster
+    height: 3225
+    has_alpha: true
+    transparent_background: true
+    asset_id: f3bd7a1cd43f33a0634c1064
+    kind: combination
+    title: 南京晓庄学院官方附件内标识：logo-10.png
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    source: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    publisher: 南京晓庄学院
+    official: true
+    download_kind: archive_member
+    file_name: logo-10.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京晓庄学院
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#004898'
     rgb:
@@ -272,7 +566,59 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0b1ce72822c4b77d
-  vi_resources: []
+  vi_resources:
+  - title: 学校标识
+    url: https://www.njxzc.edu.cn/xxbs/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njxzc.edu.cn/xxbs/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 446c6507562cd24c82567411a802be0c7ed1c8f4556143d85f3331e7158feed9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 南京晓庄学院校标（logo）标准件下载.zip
+    url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.njxzc.edu.cn/xxbs/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+        status: file_read
+        url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+      resolved_url: https://www.njxzc.edu.cn/_upload/article/files/5d/2f/d8d77d2c445588c929a76857ca22/ee9f4776-4673-4af0-b125-a3423c82b19c.zip
+    file_metadata:
+      byte_size: 4646648
+      format: ZIP
+      member_count: 16
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: ef7f19938070982ca343323fabe92950974711b251a7f2f50e0d7e93feb6d402
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
     value: 1927
@@ -289,12 +635,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 2000
-    event: 南京师范专科学校、南京教育学院、晓庄师范学校合并组建学校
-    source: https://www.njxzc.edu.cn/xxzc/list.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -316,6 +656,12 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 2000
+    event: 南京师范专科学校、南京教育学院、晓庄师范学校合并组建学校
+    source: https://www.njxzc.edu.cn/xxzc/list.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -338,316 +684,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: http://www.njxzc.edu.cn/wnglish/list.htm
-    availability: found
-    search_sources: []
-    source: https://www.njxzc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: http://xxgk.njxzc.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.njxzc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 师范
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 南京晓庄学院
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京晓庄学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 南京市江宁区弘景大道3601号；南京市建邺区汉中门大街123号；南京市栖霞区晓庄中心村132号
-    availability: found
-    search_sources: []
-    source: https://www.njxzc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:南京市江宁区弘景大道3601号
-    - 地址:南京市建邺区汉中门大街123号
-    - 地址:南京市栖霞区晓庄中心村132号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 南京晓庄学院位于江苏省南京市，主管部门为江苏省。官网列示全日制在校本科生1.9万余人（统计日期未注明）。官网列示教职工约1500人（统计日期未注明）。官网列示占地总面积近1500亩（统计日期未注明）。
+    value: 南京晓庄学院位于江苏省南京市，教育部名单列为本科，主管部门为江苏省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.njxzc.edu.cn//xxjj/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 19000
-    availability: found
-    search_sources: []
-    source: https://www.njxzc.edu.cn//xxjj/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校本科生；近似/下界数，保留原标注：全日制在校本科生1.9万余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校本科生1.9万余人
-  faculty_count:
-    value: 1500
-    availability: found
-    search_sources: []
-    source: https://www.njxzc.edu.cn//xxjj/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工约1500人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工约1500人
-  campus_area_hectares:
-    value: 100.0
-    availability: found
-    search_sources: []
-    source: https://www.njxzc.edu.cn//xxjj/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地总面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地总面积近1500亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 占地总面积近1500亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 331
-    score: 121.3
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 南京晓庄学院
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 333
-    score: 143.6
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/nanjing-xiaozhuang-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京晓庄学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4132011460'
-    upstream_record_name: 南京晓庄学院
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4132011460'
-    upstream_record_name: 南京晓庄学院
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

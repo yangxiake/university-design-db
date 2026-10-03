@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4134012072'
   name_zh: 安徽应用技术职业大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Anhui University of Applied Sciences
+    availability: found
     search_sources: []
+    source: https://ccvea.wzvtc.cn/284493/list.htm
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    evidence: 安徽应用技术职业大学Anhui University of Applied Sciences
+    collector: curated_ppt_core
+    retrieval: hash_matched_same_source
+    source_sha256: 45fed499a53d4cf67092b84fc5f3e1abba6f436ca313f6aa82bcdc025862162d
+    basis: 温州职业技术大学运营的中柬联盟成员目录按“学校/英文名”列对照当前完整中文校名；第三方院校发布，非本校命名证明。
   official_website:
     value: https://www.abc.edu.cn/
     source: https://www.abc.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +66,20 @@ research:
   audit_key: '4134012072'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#084090'
+    availability: found
     search_sources: []
+    source: https://www.abc.edu.cn/images/LOGORIGHT0.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: f81404ffc3443bf5b55ee86c
+    source_sha256: b922b2c086d3fc35f6f2f152aa1c3080ae0904af87c97a3b6440eae88ea21653
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: da4bfd14b5d6f5025ad19051
     kind: site_identity
@@ -203,14 +208,20 @@ visual:
     checked_at: '2026-10-01'
     availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1903
+    availability: found
     search_sources: []
+    source: https://www.abc.edu.cn/xxgk1.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    source_sha256: 5c3eb7576f55ea69912347e04212a4c5d4e355b159e3f3581ce3c4f5e7aac95f
+    collector: read_overview_identity_facts
+    basis: 官网明确记载本校办学来源或前身起点；该年不等同现名设立年。
+    previous_status: unresearched
   motto:
     value: null
     source: null
@@ -218,7 +229,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -240,6 +250,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -262,204 +273,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.abc.edu.cn/zsjy1.htm
-    availability: found
-    search_sources: []
-    source: https://www.abc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://old.abc.edu.cn/ENGLISH/
-    availability: found
-    search_sources: []
-    source: https://www.abc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - ENGLISH
-  information_disclosure_url:
-    value: https://www.abc.edu.cn/xxgk2.htm
-    availability: found
-    search_sources: []
-    source: https://www.abc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 安徽省芜湖市弋江区文昌西路24号、文津西路16号；安徽省芜湖市繁昌区繁阳大道
-    availability: found
-    search_sources: []
-    source: https://www.abc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 文昌校区地址:安徽省芜湖市弋江区文昌西路24号、文津西路16号 邮编:241002
-    - 繁昌校区地址:安徽省芜湖市繁昌区繁阳大道 邮编:241200
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: xcl@ahcme.edu.cn；principal@ahcme.edu.cn
+    value: 安徽应用技术职业大学位于安徽省芜湖市，教育部名单列为本科，主管部门为安徽省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.abc.edu.cn/xysh1/lxwm.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 书记信箱 xcl@ahcme.edu.cn
-    - 校长信箱 principal@ahcme.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

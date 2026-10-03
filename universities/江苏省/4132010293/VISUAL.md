@@ -26,5 +26,14 @@
 
 ## VI资源与下载条件
 
+- 现有VI入口：[https://www.njupt.edu.cn/12/list.htm](https://www.njupt.edu.cn/12/list.htm)
+- [校标校训](https://www.njupt.edu.cn/12/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.njupt.edu.cn/12/list.htm)。
+- [南京邮电大学视觉形象（VI）管理手册.zip](https://www.njupt.edu.cn/_upload/article/files/5d/06/708647f045b4a4318e465bb51b4f/f3f9b9a4-1d3d-4d3a-88ec-ad281db6cd2e.zip)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.njupt.edu.cn/12/list.htm)。
+  - 文件容器已读取：ZIP；21364611字节；读取类型archive_structure；文件SHA256 `49d09fc79681341ccb713e9f4a640d38884e47ee9721046db5cbcfdb96b86974`。
+- [校标校训](https://www.njupt.edu.cn/17223/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.njupt.edu.cn/17223/list.htm)。
+- [南京邮电大学视觉形象（VI）管理手册.zip](https://www.njupt.edu.cn/_upload/article/files/d9/3b/6b08b1d0409daf144ae91e96a324/f3f9b9a4-1d3d-4d3a-88ec-ad281db6cd2e.zip)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.njupt.edu.cn/17223/list.htm)。
+- [南京邮电大学视觉形象（VI）管理手册.zip](https://www.njupt.edu.cn/_upload/article/files/d9/3b/6b08b1d0409daf144ae91e96a324/f3f9b9a4-1d3d-4d3a-88ec-ad281db6cd2e.zip)：["官方视觉资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.njupt.edu.cn/_upload/article/files/d9/3b/6b08b1d0409daf144ae91e96a324/f3f9b9a4-1d3d-4d3a-88ec-ad281db6cd2e.zip)。
+  - 发布者：南京邮电大学；适用范围：学校通用。
+  - 文件容器已读取：ZIP；21364611字节；读取类型archive_structure；文件SHA256 `49d09fc79681341ccb713e9f4a640d38884e47ee9721046db5cbcfdb96b86974`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

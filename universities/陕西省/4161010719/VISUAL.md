@@ -29,6 +29,7 @@
 
 - 现有VI入口：[https://www.yau.edu.cn/xqzl/xxbz.htm](https://www.yau.edu.cn/xqzl/xxbz.htm)
 - [学校标志](https://www.yau.edu.cn/xqzl/xxbz.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.yau.edu.cn/xqzl/xxbz.htm)。
-- [新版校徽.zip](https://www.yau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2064896135&wbfileid=80E459FC8B1D8721EE60DD4B6E8549BA)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.yau.edu.cn/xqzl/xxbz.htm)。
+- [新版校徽.zip](https://www.yau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2064896135&wbfileid=80E459FC8B1D8721EE60DD4B6E8549BA)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.yau.edu.cn/xqzl/xxbz.htm)。
+  - 文件容器已读取：ZIP；423367字节；读取类型archive_structure；文件SHA256 `1a2637fea563c54633547016594b61be13c772acc1c8b04c379c05e4996513e2`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -39,10 +39,7 @@
 | A9辅助色CMYK [20, 0, 100, 15] | 未公布 | 未公布 | reference | [20, 0, 100, 15] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
 | A9辅助色CMYK [60, 35, 0, 40] | 未公布 | 未公布 | reference | [60, 35, 0, 40] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
 | A9辅助色CMYK [0, 70, 100, 0] | 未公布 | 未公布 | reference | [0, 70, 100, 0] |  | 官方VI标准值 | [依据](https://vim.pku.edu.cn/docs/20171026163443134569.pdf) |
-
-主色来源存在差异：同一官方常见问题页的 RGB 139,0,18 与十六进制 94070A 不一致，待人工确认标准色。
-- `#8B0012`：[来源](https://vim.pku.edu.cn/cjwt/index.htm)；
-- `#94070A`：[来源](https://vim.pku.edu.cn/cjwt/index.htm)；
+| 官网HEX的PPT屏幕建议色 | `#94070A` | 148,7,10 | reference |  |  | 官网标识取色/推导建议 | [依据](https://vim.pku.edu.cn/cjwt/index.htm) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 

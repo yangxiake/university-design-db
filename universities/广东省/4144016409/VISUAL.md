@@ -29,5 +29,12 @@
 - [视觉形象识别](https://www.smbu.edu.cn/sjxxsb/sjxxgf.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/sjxxsb/sjxxgf.htm)。
 - [视觉形象识别](https://www.smbu.edu.cn/info/1430/5907.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5907.htm)。
 - [深北莫logo.rar](https://www.smbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1947387246&wbfileid=5E44CFE1D28682ED49E01D828B286FC0)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5907.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/info/1430/5908.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5908.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/info/1430/5909.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5909.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/info/1430/5910.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5910.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/info/1430/5911.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5911.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/info/1430/5912.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5912.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/info/1430/5913.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5913.htm)。
+- [视觉形象识别](https://www.smbu.edu.cn/info/1430/5914.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.smbu.edu.cn/info/1430/5914.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

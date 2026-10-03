@@ -30,5 +30,7 @@
 
 - 现有VI入口：[https://www.blcu.edu.cn/zjby/dxwh/xh.htm](https://www.blcu.edu.cn/zjby/dxwh/xh.htm)
 - [视觉识别系统](https://xchb.blcu.edu.cn/art/2015/5/18/art_3464_1096880.html)：校徽，校名，配色等；格式 pdf,ppt；访问条件 否。社区记录[来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md)。
+- [校徽](https://www.blcu.edu.cn/zjby/dxwh/xh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.blcu.edu.cn/zjby/dxwh/xh.htm)。
+- [北语logo.pdf](https://www.blcu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2140179592&wbfileid=6BE37A6C09373EDE98A7F4C95AB8C53C)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.blcu.edu.cn/zjby/dxwh/xh.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Report official visual evidence, missing homepages and this batch's changes."""
 import collections
+import datetime as dt
 import json
 import pathlib
 import yaml
@@ -20,9 +21,6 @@ LABELS={
     'vi_entries':'标识介绍、VI规范及文件入口条目',
     'official_template_schools':'官方PPT主入口字段覆盖学校',
     'summary_zh':'附来源中文短摘要',
-    'student_count':'附口径学生人数',
-    'faculty_count':'附口径教职工/教师人数',
-    'campus_area_hectares':'附口径校园占地面积',
 }
 
 
@@ -39,14 +37,13 @@ def main():
                       print_only_palette_entries=sum(c.get('value') is None for c in official),
                       vi_schools=bool(p['visual']['vi_resources']),vi_entries=len(p['visual']['vi_resources']),
                       official_template_schools=p['resources']['official_templates_url']['availability']=='found',
-                      summary_zh=p['overview']['summary_zh']['availability']=='found',student_count=p['statistics']['student_count']['availability']=='found',
-                      faculty_count=p['statistics']['faculty_count']['availability']=='found',campus_area_hectares=p['statistics']['campus_area_hectares']['availability']=='found')
+                      summary_zh=p['overview']['summary_zh']['availability']=='found')
     delta={key:counts[key]-baseline['counts'][key] for key in LABELS}
     homes=[json.loads(s) for s in (ROOT/'data/review/homepage-identity-2026.jsonl').read_text().splitlines()]
     guides=json.loads((ROOT/'data/review/official-visual-guides-2026.json').read_text())
     decisions=yaml.safe_load((ROOT/'data/review/visual-guides-decisions-2026.yaml').read_text())
     attachments=json.loads((ROOT/'data/review/visual-attachments-2026.json').read_text())
-    date=max(r['checked_at'] for r in homes)
+    date=dt.date.today().isoformat()
     lines=['# 官方视觉规范与官网入口补采','','本报告从当前单校事实源生成。范围保持教育部2026名单内1412所本科院校；所有新记录仍为AI自动核对，未认定为人工签核。','',
            '采集日期：'+date+'。对比基线提交：`'+baseline['reference_commit']+'`。','',
            '## 覆盖变化','','| 项目 | 本批前 | 当前 | 净变化 |','| --- | ---: | ---: | ---: |']
@@ -77,8 +74,8 @@ def main():
             '## 补确认学校主站','','候选网站只在完整学校名明确出现在版权声明且页面可定位为主站时采用。母校名称、新闻提及、旧版权名、英文/招生部门站点不足以确认。','']
     for r in homes:
         if r['status']=='ownership_confirmed':lines.append('- [%s](%s)：完整版权主体已自动匹配。'%(r['name_zh'],r['homepage_url']))
-    lines+=['','哈尔滨学院另确认校方招生门户，写入招生入口，不作为主站。已变成小说站的历史海都学院候选地址仍排除。',
-            '新增入口已继续采集联系方式、标识文件和学校简介。简介提到的“在校本专科生”保留该人口口径；工程规划和一期建设容量不作实际在校人数或全校占地面积，并对缓存资料重新解析清理同类误读。','',
+    lines+=['','已变成小说站的历史海都学院候选地址仍排除。',
+            '新增入口继续用于英文校名、建校年及标识文件补采。人数、占地、就业、招生和联系方式等高维护字段已从当前档案及派生索引移除；当前覆盖以PPT主字段报告为准。','',
             '## 仍待补采','','- 学校主站尚未确认：%s所。'%(counts['profiles']-counts['official_website']),
             '- 暂无逐文件校徽/校名资源：%s所。'%(counts['profiles']-counts['logo_schools']),
             '- 暂无结构化配色：%s所。'%(counts['profiles']-counts['palette_schools']),

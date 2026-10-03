@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4131010248'
   name_zh: 上海交通大学
@@ -68,34 +68,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - shanghai-jiao-tong-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: sjtu
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -151,7 +123,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 46d111b106f0caa9
     title: 上海交通大学校徽资源
@@ -640,10 +611,10 @@ visual:
   - title: 标准色规范.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/150
     kinds:
-    - 色彩规范
+    - 视觉识别规范/资源
     formats:
     - AI
-    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
     source: https://vi.sjtu.edu.cn/index.php/articles/base/3
     repository: null
     commit: null
@@ -652,7 +623,9 @@ visual:
     checked_at: '2026-10-02'
     availability: found
     source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
-    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 辅助色规范.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/151
     kinds:
@@ -720,10 +693,10 @@ visual:
   - title: A3-色彩规范-01标准色规范（含色阶）.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/34
     kinds:
-    - 色彩规范
+    - 视觉识别规范/资源
     formats:
     - AI
-    access_requirement: 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
     source: https://vi.sjtu.edu.cn/index.php/articles/base/3
     repository: null
     commit: null
@@ -732,7 +705,9 @@ visual:
     checked_at: '2026-10-02'
     availability: found
     source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
-    note: 只索引下载入口，不再分发文件；链接可能指向学校明确使用的外部文件主机，图形使用须遵守校方规范。
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A3-色彩规范-02-01辅助色彩规范（含色阶）.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/35
     kinds:
@@ -829,6 +804,8 @@ visual:
     availability: found
     source_sha256: bb5bb7f81964de291330ebe6609928d44552dad3a64d85ec38c257eee8b9522e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校徽规范
     url: https://vi.sjtu.edu.cn/index.php/articles/base/1
     kinds:
@@ -845,6 +822,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 标准彩色校徽.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/148
     kinds:
@@ -861,6 +840,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 常用校标PNG格式下载.rar
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/164
     kinds:
@@ -877,6 +858,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽释义.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/149
     kinds:
@@ -893,6 +876,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽制图与视觉修正.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/40
     kinds:
@@ -909,6 +894,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽制图与视觉修正2.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/41
     kinds:
@@ -925,6 +912,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽墨稿反白稿.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/43
     kinds:
@@ -941,6 +930,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽的最小使用规范.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/42
     kinds:
@@ -957,6 +948,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽的安全空间.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/45
     kinds:
@@ -973,6 +966,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽的禁止使用形式.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/47
     kinds:
@@ -989,6 +984,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1-校徽规范-01标准彩色校徽.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/8
     kinds:
@@ -1005,6 +1002,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1-校徽规范-02校徽释义.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/9
     kinds:
@@ -1021,6 +1020,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1-校徽规范-03-01校徽制图及视觉修正.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/10
     kinds:
@@ -1037,6 +1038,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1-校徽规范-03-02校徽制图及视觉修正.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/11
     kinds:
@@ -1053,6 +1056,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1-校徽规范-04校徽墨稿反白稿.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/12
     kinds:
@@ -1069,6 +1074,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1-校徽规范-05校徽的最小使用规范.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/13
     kinds:
@@ -1085,6 +1092,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1-校徽规范-06校徽的安全空间.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/14
     kinds:
@@ -1101,6 +1110,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1-校徽规范-07校徽的禁止使用形式.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/15
     kinds:
@@ -1117,6 +1128,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 常用校标PNG格式下载.rar
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/125
     kinds:
@@ -1133,6 +1146,8 @@ visual:
     availability: found
     source_sha256: 16641d1abc269d3c8dc67cb094c67509b9afbcf677b064e7b6a7065eae6a2b0f
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校标组合规范
     url: https://vi.sjtu.edu.cn/index.php/articles/base/4
     kinds:
@@ -1149,6 +1164,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校标组合彩色稿.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/60
     kinds:
@@ -1165,6 +1182,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 常用校标PNG格式下载.rar
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/164
     kinds:
@@ -1181,6 +1200,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校标组合反白稿.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/66
     kinds:
@@ -1197,6 +1218,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校标组合墨稿.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/70
     kinds:
@@ -1213,6 +1236,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽与中英文校名全称横式组合.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/64
     kinds:
@@ -1229,6 +1254,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽与中英文校名全称竖式组合.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/59
     kinds:
@@ -1245,6 +1272,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽与中英文校名全称上下组合.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/62
     kinds:
@@ -1261,6 +1290,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽与英文校名全称组合.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/63
     kinds:
@@ -1277,6 +1308,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校标组合的最小使用规范.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/116
     kinds:
@@ -1293,6 +1326,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校标组合的安全空间.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/74
     kinds:
@@ -1309,6 +1344,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校标组合的错误示例.ai
     url: http://vi.sjtu.edu.cn/index.php/downloads/files/136
     kinds:
@@ -1325,6 +1362,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-扉页.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/39
     kinds:
@@ -1341,6 +1380,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-01常用校标组合列表彩色稿.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/40
     kinds:
@@ -1357,6 +1398,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-02常用校标组合列表反白稿.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/41
     kinds:
@@ -1373,6 +1416,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-03常用校标组合列表墨稿.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/42
     kinds:
@@ -1389,6 +1434,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-04校徽与中英文校名全称横式组合.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/43
     kinds:
@@ -1405,6 +1452,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-05校徽与中英文校名全称竖式组合.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/44
     kinds:
@@ -1421,6 +1470,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-06校徽与中英文校名全称上下组合.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/45
     kinds:
@@ -1437,6 +1488,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-07校徽与英文校名全称组合.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/46
     kinds:
@@ -1453,6 +1506,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-08二级机构中英文名称横式组合.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/47
     kinds:
@@ -1469,6 +1524,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-09二级机构中英文名称上下组合.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/48
     kinds:
@@ -1485,6 +1542,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-10-01衍生应用中英文标准字组合.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/49
     kinds:
@@ -1501,6 +1560,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-10-02衍生应用中英文标准字组合.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/50
     kinds:
@@ -1517,6 +1578,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-11校标组合的最小使用规范.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/51
     kinds:
@@ -1533,6 +1596,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-12校标组合的安全空间.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/52
     kinds:
@@ -1549,6 +1614,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4-校标组合规范-13校标组合的错误示例.ai
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/53
     kinds:
@@ -1565,6 +1632,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 常用校标PNG格式下载.rar
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/127
     kinds:
@@ -1581,6 +1650,8 @@ visual:
     availability: found
     source_sha256: 1e49267bebfa74071290e010c6ed343d795bfb5fa3ccab9e015b40cd28a22cdf
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 上海交通大学视觉形象识别系统管理办法 （试行）
     url: https://vi.sjtu.edu.cn/index.php/articles/bulletin/16
     kinds:
@@ -1597,6 +1668,8 @@ visual:
     availability: found
     source_sha256: ec7282017b97a82dfaf1daf36c6fed2e60f28ee899f9c5438013f21b60c42d4b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 上海交通大学视觉形象识别系统使用手册.pptx
     url: https://vi.sjtu.edu.cn/index.php/downloads/attachments/139
     kinds:
@@ -1613,6 +1686,27 @@ visual:
     availability: found
     source_sha256: ec7282017b97a82dfaf1daf36c6fed2e60f28ee899f9c5438013f21b60c42d4b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 标准色规范（含色阶）
+    url: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.sjtu.edu.cn/index.php/articles/base/3
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1b43d05751073b940ffd9ebeab9a73df277afe0910cbfe3558bafb024e78942d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
     value: 1896
@@ -1631,7 +1725,6 @@ culture:
     availability: found
     search_sources: []
     note: AI核对公开检索返回的学校章程、信息公开或学校提交招生资料文字；未作人工签核，需打开原页复核。
-  history_events: []
   flower:
     value: null
     source: null
@@ -1653,6 +1746,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -1746,802 +1840,14 @@ resources:
     - TeX/TikZ
     content_read: true
     usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: http://www.job.sjtu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://gk.sjtu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.sjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: 公办
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value:
-    - Chinese
-    - English
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  groups:
-    value:
-    - 双一流
-    - '985'
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 121.434
-      latitude: 31.025
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 机械工程
-    - 船舶与海洋工程
-    - 生物医学工程
-    - 临床医学
-    - 计算机科学与技术
-    - 工商管理
+    value: 上海交通大学位于上海市上海市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 船舶与海洋工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 生物学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 机械工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 数学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 材料科学与工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 信息与通信工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 控制科学与工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 计算机科学与技术
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 临床医学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 口腔医学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 工商管理
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 药学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 电气工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 土木工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 环境科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 生物医学工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 管理科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 基础医学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 4
-    score: 723.4
-    indicators:
-      school_level: 35.5
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 4
-    score: 894.2
-    indicators:
-      faculty: 54.5
-      research: 132.9
-      resources: 31.6
-      discipline: 71
-      top_talent: 102.3
-      school_level: 35.7
-      international: 68.5
-      major_projects: 92.1
-      social_service: 22.1
-      talent_training: 283.6
-    upstream_url: https://www.shanghairanking.cn/institution/shanghai-jiao-tong-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 686
-    minimum_rank: 230
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 648
-    minimum_rank: 260
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 上海交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4131010248'
-    upstream_record_name: 上海交通大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4131010248'
-    upstream_record_name: 上海交通大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4131010248'
-    upstream_record_name: 上海交通大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4131010248'
-    upstream_record_name: 上海交通大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4131010248'
-    upstream_record_name: 上海交通大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 就业概况
-    - 层次
-    - 师资概况
-    - 生源概况
-    - 科研概况
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4131010248'
-    upstream_record_name: Shanghai Jiaotong University
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4131010248'
-    upstream_record_name: Shanghai Jiao Tong University
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4152013818'
   name_zh: 贵州轻工职业大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Guizhou Light Industry Technical College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q17039426&oldid=2548497934
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548497934
+    source_sha256: 86b55e75f07bd6315dce62084a94538918524c01c4d23d95080498780bafd8f3
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.gzqy.cn/
     source: https://www.gzqy.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +66,20 @@ research:
   audit_key: '4152013818'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#084898'
+    availability: found
     search_sources: []
+    source: https://www.gzqy.cn/images/logo202604.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: 315111e24d727bb8b0c35493
+    source_sha256: 43662f24ead2e222b3c8b1a02191ca7f222393d0a1a5dde80467d56431653832
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,18 +101,88 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 315111e24d727bb8b0c35493
+    kind: combination
+    title: 贵州轻工职业大学官网页头标识（实读）
+    url: https://www.gzqy.cn/images/logo202604.png
+    source: https://www.gzqy.cn/
+    file_name: logo202604.png
+    publisher: 贵州轻工职业大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 贵州轻工职业大学
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    usage_note: 校方网页公开发布。当前标识设计年份及独立图形许可未确认；按校方规范使用，图形只索引，不再分发。蓝色徽标、白色当前校名及曾用名说明的组合；文件取色仅作PPT设计参考。
+    source_type: official_website
+    identity_basis:
+      basis: 已确认学校首页HTML中明确引用的页头文件，AI实读原图后核对当前学校完整名称与图形构成；蓝色徽标、白色当前校名及曾用名说明的组合。
+    sha256: 43662f24ead2e222b3c8b1a02191ca7f222393d0a1a5dde80467d56431653832
+    access_status: content_inspected
+    byte_size: 37770
+    format: png
+    vector: false
+    width: 636
+    representation: raster
+    height: 144
+    has_alpha: true
+    transparent_background: true
+    source_sha256: 3cac2a153bd049ae785b0d8b7a317343e9302e70e7ef7e34e55bd4b1a706d21f
+  color_palette:
+  - value: '#084898'
+    rgb:
+    - 8
+    - 72
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gzqy.cn/images/logo202604.png
+    page_source: https://www.gzqy.cn/
+    asset_id: 315111e24d727bb8b0c35493
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#1050A0'
+    rgb:
+    - 16
+    - 80
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.gzqy.cn/images/logo202604.png
+    page_source: https://www.gzqy.cn/
+    asset_id: 315111e24d727bb8b0c35493
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1977
+    availability: found
     search_sources: []
+    source: https://www.gzqy.edu.cn/qygk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    evidence: 1977年创建的贵州省轻工业学校
+    collector: curated_ppt_core
+    retrieval: web_text_view
+    basis: 本校简介明确两条前身：1977年贵州省轻工业学校、1979年贵州省二轻工业学校；采用最早办学起点，区别2004合并与2025升本。
   motto:
     value: 明德修身、精技立业
     source: https://www.gzqy.cn/qygk/xxjj.htm
@@ -114,7 +190,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -136,6 +211,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -158,198 +234,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.gzqy.cn/xwgk.htm
-    availability: found
-    search_sources: []
-    source: https://www.gzqy.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 校务公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 贵州省贵阳市贵安新区云安路1号贵州轻工职业大学科技新城校区
-    availability: found
-    search_sources: []
-    source: https://www.gzqy.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:贵州省贵阳市贵安新区云安路1号贵州轻工职业大学科技新城校区
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0851-88506060'
+    value: 贵州轻工职业大学位于贵州省贵阳市，教育部名单列为本科，主管部门为贵州省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.gzqy.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0851-88506060
-  email:
-    value: gzqgzyyx@163.com
-    availability: found
-    search_sources: []
-    source: https://www.gzqy.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮箱:gzqgzyyx@163.com
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

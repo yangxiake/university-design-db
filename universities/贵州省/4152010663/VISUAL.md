@@ -30,5 +30,6 @@
 
 - 现有VI入口：[https://www.gznu.edu.cn/xxgk/xxbs/xb.htm](https://www.gznu.edu.cn/xxgk/xxbs/xb.htm)
 - [【校标说明】](https://news.gznu.edu.cn/jlm/xiaoqing/xqgg/xhd.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.gznu.edu.cn/jlm/xiaoqing/xqgg/xhd.htm)。
+- [校标-贵州师范大学](https://www.gznu.edu.cn/xxgk/xxbs/xb.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gznu.edu.cn/xxgk/xxbs/xb.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

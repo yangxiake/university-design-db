@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4115014531'
   name_zh: 内蒙古艺术学院
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Inner Mongolia Arts University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q48936392&oldid=2548502852
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548502852
+    source_sha256: 690eca2dee4d86b8fe4025578100aab7323ad538d98cad8cb6ab734f8bdc6784
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.imac.edu.cn/
     source: https://www.imac.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -99,7 +97,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: c97dd4e7ddbd992ac412f48f
     kind: site_identity
@@ -188,22 +185,32 @@ visual:
     checked_at: '2026-10-01'
     availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1957
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%86%85%E8%92%99%E5%8F%A4%E8%89%BA%E6%9C%AF%E5%AD%A6%E9%99%A2&oldid=82040762
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: cf570936b677ee0176b59f3dbd6d7ffc334378eb5fe16a3fe51d692f7b693f3f
+    source_revision: 82040762
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 德高艺美智圆行方
+    availability: found
     search_sources: []
-  history_events: []
+    source: https://www.imac.edu.cn/nyjj.shtml
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    source_sha256: 0be06572d2caeaef23e3392ad40bf3528c2f7f2b30770036b5c7539b9c14da91
+    collector: read_overview_identity_facts
+    basis: 学校官网简介页直接记载的本校事实
+    previous_status: unresearched
   flower:
     value: null
     source: null
@@ -225,6 +232,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -247,215 +255,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://zs.imac.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.imac.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生工作
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 内蒙古呼和浩特市新城区新华大街101号
-    availability: found
-    search_sources: []
-    source: https://www.imac.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 版权所有 内蒙古艺术学院 地址:内蒙古呼和浩特市新城区新华大街101号 备案号:蒙ICP备17004919号-1浏览总量 本月浏览总量 今日浏览总量
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 内蒙古艺术学院位于内蒙古自治区呼和浩特市，主管部门为内蒙古自治区。官网列示在校生5190人（统计日期未注明）。官网列示教职工690人（统计日期未注明）。官网列示占地面积756.35亩（统计日期未注明）。
+    value: 内蒙古艺术学院位于内蒙古自治区呼和浩特市，教育部名单列为本科，主管部门为内蒙古自治区。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.imac.edu.cn/nyjj.shtml
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 5190
-    availability: found
-    search_sources: []
-    source: https://www.imac.edu.cn/nyjj.shtml
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；原标注：在校生5190人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 在校生5190人
-  faculty_count:
-    value: 690
-    availability: found
-    search_sources: []
-    source: https://www.imac.edu.cn/nyjj.shtml
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；原标注：教职工690人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职工690人
-  campus_area_hectares:
-    value: 50.423333
-    availability: found
-    search_sources: []
-    source: https://www.imac.edu.cn/nyjj.shtml
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积756.35亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地面积756.35亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

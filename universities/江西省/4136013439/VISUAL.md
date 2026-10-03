@@ -22,5 +22,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://ky.gnnu.edu.cn/xxgk/xxbs.htm](https://ky.gnnu.edu.cn/xxgk/xxbs.htm)
+- [学校标识](https://ky.gnnu.edu.cn/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://ky.gnnu.edu.cn/xxgk/xxbs.htm)。
+- [赣南师范大学科技学院视觉识别系统2025版-JPG.zip](https://ky.gnnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2028882231&wbfileid=DB88149B176AD836875780FC50FAEE32)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://ky.gnnu.edu.cn/xxgk/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

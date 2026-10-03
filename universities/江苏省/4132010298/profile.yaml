@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132010298'
   name_zh: 南京林业大学
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - nanjing-forestry-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: nanjing-forestry
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -95,18 +67,22 @@ research:
   audit_key: '4132010298'
 visual:
   color_primary:
-    value: '#006E4F'
-    source: https://www.njfu.edu.cn/DFS//template/2829//images/t_logo.png
+    value: '#346E50'
+    source: https://www.njfu.edu.cn/bcms/DFS//network/c1148/i188700/162118442917869u68z.jpg
+    method: official_vi
+    label: 南林绿
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。南林绿按原图RGB 52/110/80与CMYK 100/45/85/0分别记录；辅助色原图仅标C70Y100及K75，缺少通道不补零。
+    cmyk:
+    - 100
+    - 45
+    - 85
+    - 0
+    pantone: null
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.njfu.edu.cn/
-    image_sha256: 7b3b29b235132cf62ea8068512331f414e1b73a42bf31cc6b392c66308c32013
+    source_sha256: 732de3f0bcf4176e9309fa95a66ce119251bf3981a8a40d376d2d94ad3aa1313
   color_secondary:
     value: null
     source: null
@@ -128,7 +104,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 583bb14631919228
     title: 南京林业大学校徽资源
@@ -264,15 +239,16 @@ visual:
     - 79
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: https://www.njfu.edu.cn/DFS//template/2829//images/t_logo.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    source_field: visual.color_primary
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
   - value: '#45B035'
     rgb:
     - 69
@@ -397,15 +373,486 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 7503409fb7ba729f
-  vi_resources: []
+  - value: '#346E50'
+    rgb:
+    - 52
+    - 110
+    - 80
+    cmyk:
+    - 100
+    - 45
+    - 85
+    - 0
+    pantone: null
+    label: 南林绿
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.njfu.edu.cn/bcms/DFS//network/c1148/i188700/162118442917869u68z.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。南林绿按原图RGB 52/110/80与CMYK 100/45/85/0分别记录；辅助色原图仅标C70Y100及K75，缺少通道不补零。
+    source_sha256: 732de3f0bcf4176e9309fa95a66ce119251bf3981a8a40d376d2d94ad3aa1313
+    source_field: visual.color_primary
+  - value: '#6BB240'
+    rgb:
+    - 107
+    - 178
+    - 64
+    cmyk: null
+    pantone: null
+    label: 辅助绿
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.njfu.edu.cn/bcms/DFS//network/c1148/i188700/162118442917869u68z.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。南林绿按原图RGB 52/110/80与CMYK 100/45/85/0分别记录；辅助色原图仅标C70Y100及K75，缺少通道不补零。
+    cmyk_text: C70 Y100
+    source_sha256: 732de3f0bcf4176e9309fa95a66ce119251bf3981a8a40d376d2d94ad3aa1313
+  - value: '#555555'
+    rgb:
+    - 85
+    - 85
+    - 85
+    cmyk: null
+    pantone: null
+    label: 辅助灰
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.njfu.edu.cn/bcms/DFS//network/c1148/i188700/162118442917869u68z.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。南林绿按原图RGB 52/110/80与CMYK 100/45/85/0分别记录；辅助色原图仅标C70Y100及K75，缺少通道不补零。
+    cmyk_text: K75
+    source_sha256: 732de3f0bcf4176e9309fa95a66ce119251bf3981a8a40d376d2d94ad3aa1313
+  vi_resources:
+  - title: 校徽
+    url: https://www.njfu.edu.cn/xywh/xh/index.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 01 校徽标准型
+    url: https://www.njfu.edu.cn/uploads/vi/01.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 02 校徽标准型应用于不同底色规范
+    url: https://www.njfu.edu.cn/uploads/vi/02.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 03 校徽单色 黑白正负形应用规范一
+    url: https://www.njfu.edu.cn/uploads/vi/03.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 04 校徽单色 黑白正负形应用规范二
+    url: https://www.njfu.edu.cn/uploads/vi/04.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 05 校名标准字体（尉天池体）
+    url: https://www.njfu.edu.cn/uploads/vi/05.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 06 校徽与校名左右组合规范
+    url: https://www.njfu.edu.cn/uploads/vi/06.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 07 校徽与校名上下组合规范
+    url: https://www.njfu.edu.cn/uploads/vi/07.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 08 校徽与校名竖式排列组合规范
+    url: https://www.njfu.edu.cn/uploads/vi/08.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 09 校徽与校名英文组合规范
+    url: https://www.njfu.edu.cn/uploads/vi/09.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/xh/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 0667db63f98c07032c603fd9e310ca122375f92ce88eff0bdfb77200336d2f65
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 标准色
+    url: https://www.njfu.edu.cn/xywh/bzs/index.html
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.njfu.edu.cn/xywh/bzs/index.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 8d12b8f5f2f66a9ca97d209f2819c39925cc574dffeeab0613ba68ba1dbe6fa9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 01 校徽标准型
+    url: https://www.njfu.edu.cn/uploads/vi/01.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    - PDF
+    access_requirement: 公开校方页面或文件，无需登录；请遵守原发布单位图形/模板使用规范
+    source: https://www.njfu.edu.cn/uploads/vi/01.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4a464be195de0f24aa8cbe0c6e58532ee426e401eb87f9eb12835e3d73ed85d8
+    note: 原发布文件后缀AI，实际为PDF兼容矢量页面；核对本校完整校名/校徽身份，具体版式保留原页，不称作完整VI手册。
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 4a464be195de0f24aa8cbe0c6e58532ee426e401eb87f9eb12835e3d73ed85d8
+      byte_size: 2979168
+  - title: 02 校徽标准型应用于不同底色规范
+    url: https://www.njfu.edu.cn/uploads/vi/02.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    - PDF
+    access_requirement: 公开校方页面或文件，无需登录；请遵守原发布单位图形/模板使用规范
+    source: https://www.njfu.edu.cn/uploads/vi/02.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 21733178c14b90eaac175d4c742c70d38c2b7726ff43061073004a2bcacc5fc7
+    note: 原发布文件后缀AI，实际为PDF兼容矢量页面；核对本校完整校名/校徽身份，具体版式保留原页，不称作完整VI手册。
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 21733178c14b90eaac175d4c742c70d38c2b7726ff43061073004a2bcacc5fc7
+      byte_size: 25435190
+  - title: 03 校徽单色 黑白正负形应用规范一
+    url: https://www.njfu.edu.cn/uploads/vi/03.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    - PDF
+    access_requirement: 公开校方页面或文件，无需登录；请遵守原发布单位图形/模板使用规范
+    source: https://www.njfu.edu.cn/uploads/vi/03.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 175aebf0fee032c2410b0977cab8e106d061e03748f31a29cdcd4723ea211939
+    note: 原发布文件后缀AI，实际为PDF兼容矢量页面；核对本校完整校名/校徽身份，具体版式保留原页，不称作完整VI手册。
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 175aebf0fee032c2410b0977cab8e106d061e03748f31a29cdcd4723ea211939
+      byte_size: 2913470
+  - title: 04 校徽单色 黑白正负形应用规范二
+    url: https://www.njfu.edu.cn/uploads/vi/04.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    - PDF
+    access_requirement: 公开校方页面或文件，无需登录；请遵守原发布单位图形/模板使用规范
+    source: https://www.njfu.edu.cn/uploads/vi/04.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b5cedb9b2577515575b2c75ab6db4fd094a41560a2d4ce6c635fb4e98b3f9092
+    note: 原发布文件后缀AI，实际为PDF兼容矢量页面；核对本校完整校名/校徽身份，具体版式保留原页，不称作完整VI手册。
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: b5cedb9b2577515575b2c75ab6db4fd094a41560a2d4ce6c635fb4e98b3f9092
+      byte_size: 2307121
+  - title: 05 校名标准字体（尉天池体）
+    url: https://www.njfu.edu.cn/uploads/vi/05.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    - PDF
+    access_requirement: 公开校方页面或文件，无需登录；请遵守原发布单位图形/模板使用规范
+    source: https://www.njfu.edu.cn/uploads/vi/05.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 315ab53eafa4c007621ba1a77d2fec68645253333784eb3866fb96bc05b107d4
+    note: 原发布文件后缀AI，实际为PDF兼容矢量页面；核对本校完整校名/校徽身份，具体版式保留原页，不称作完整VI手册。
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 315ab53eafa4c007621ba1a77d2fec68645253333784eb3866fb96bc05b107d4
+      byte_size: 2223950
+  - title: 06 校徽与校名左右组合规范
+    url: https://www.njfu.edu.cn/uploads/vi/06.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    - PDF
+    access_requirement: 公开校方页面或文件，无需登录；请遵守原发布单位图形/模板使用规范
+    source: https://www.njfu.edu.cn/uploads/vi/06.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7f8ada2c881953241caac7259d8f47057bb0d402f58a7df13a77a61098d44a03
+    note: 原发布文件后缀AI，实际为PDF兼容矢量页面；核对本校完整校名/校徽身份，具体版式保留原页，不称作完整VI手册。
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 7f8ada2c881953241caac7259d8f47057bb0d402f58a7df13a77a61098d44a03
+      byte_size: 2854255
+  - title: 07 校徽与校名上下组合规范
+    url: https://www.njfu.edu.cn/uploads/vi/07.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    - PDF
+    access_requirement: 公开校方页面或文件，无需登录；请遵守原发布单位图形/模板使用规范
+    source: https://www.njfu.edu.cn/uploads/vi/07.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f85a94ba1c082f46ae74a8dbe8bdf122ba1ea86c8cca57ee983f8073a084700f
+    note: 原发布文件后缀AI，实际为PDF兼容矢量页面；核对本校完整校名/校徽身份，具体版式保留原页，不称作完整VI手册。
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: f85a94ba1c082f46ae74a8dbe8bdf122ba1ea86c8cca57ee983f8073a084700f
+      byte_size: 2864788
+  - title: 09 校徽与校名英文组合规范
+    url: https://www.njfu.edu.cn/uploads/vi/09.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    - PDF
+    access_requirement: 公开校方页面或文件，无需登录；请遵守原发布单位图形/模板使用规范
+    source: https://www.njfu.edu.cn/uploads/vi/09.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 24b464185fc26066f6cdc26c070db4c8913a80baac4d0601e6c73e327feeb47a
+    note: 原发布文件后缀AI，实际为PDF兼容矢量页面；核对本校完整校名/校徽身份，具体版式保留原页，不称作完整VI手册。
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 24b464185fc26066f6cdc26c070db4c8913a80baac4d0601e6c73e327feeb47a
+      byte_size: 2440266
+  - title: 南京林业大学官方视觉规范
+    url: https://www.njfu.edu.cn/xywh/bzs/index.html
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.njfu.edu.cn/bcms/DFS//network/c1148/i188700/162118442917869u68z.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。南林绿按原图RGB 52/110/80与CMYK 100/45/85/0分别记录；辅助色原图仅标C70Y100及K75，缺少通道不补零。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1902
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q6963657&oldid=2551429886
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2551429886
+    source_sha256: 165bdf33b056211804a8b324ce7eb65dbec5c543843f814f0974328612293e8c
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: 诚朴雄伟、树木树人
     source: https://www.njfu.edu.cn/nlgk/xxjj/index.html
@@ -413,7 +860,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -435,6 +881,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -480,379 +927,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: http://njfu.91job.org.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 南京林业大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://eng.njfu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.njfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: 林业
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 南京林业大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: 南京市龙蟠路159号
-    availability: found
-    search_sources: []
-    source: https://www.njfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - '地址: 南京市龙蟠路159号'
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
 overview:
   summary_zh:
-    value: 南京林业大学位于江苏省南京市，主管部门为江苏省。官网列示全日制在校学生4万余人（统计日期未注明）。官网列示专任教师2030人（统计日期未注明）。
+    value: 南京林业大学位于江苏省南京市，教育部名单列为本科，主管部门为江苏省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.njfu.edu.cn/nlgk/xxjj/index.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 40000
-    availability: found
-    search_sources: []
-    source: https://www.njfu.edu.cn/nlgk/xxjj/index.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校学生；近似/下界数，保留原标注：全日制在校学生4万余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校学生4万余人
-  faculty_count:
-    value: 2030
-    availability: found
-    search_sources: []
-    source: https://www.njfu.edu.cn/nlgk/xxjj/index.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师2030人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 专任教师2030人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: nfu@njfu.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.njfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - '校园地理信息系统 | 邮箱: nfu@njfu.edu.cn'
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 108
-    score: 225.3
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 南京林业大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 93
-    score: 280.3
-    indicators:
-      faculty: 41.4
-      research: 18.8
-      resources: 4.5
-      discipline: 14.6
-      top_talent: 5.1
-      school_level: 27.4
-      international: 11.6
-      major_projects: 4.1
-      social_service: 5.1
-      talent_training: 147.7
-    upstream_url: https://www.shanghairanking.cn/institution/nanjing-forestry-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4132010298'
-    upstream_record_name: 南京林业大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4132010298'
-    upstream_record_name: 南京林业大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4132010298'
-    upstream_record_name: 南京林业大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4132010298'
-    upstream_record_name: 南京林业大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4132010298'
-    upstream_record_name: Nanjing Forestry University
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

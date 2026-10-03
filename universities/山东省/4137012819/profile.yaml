@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4137012819'
   name_zh: 山东科技职业大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Shandong Polytechnic University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q48728480&oldid=2548512236
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548512236
+    source_sha256: 67558a5951db1e947ded4c22719349552708550528e6bcc86c243095e8262c6e
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.sdvcst.edu.cn/
     source: https://www.sdvcst.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +66,21 @@ research:
   audit_key: '4137012819'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0066CC'
+    availability: found
     search_sources: []
+    source: https://www.sdvcst.edu.cn/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: cad6b58cbabe343d08340badeb5dd56aea6761a70714a3c4331d1e99d0fdfc82
+    homepage_source: https://www.sdvcst.edu.cn/
+    homepage_sha256: 4cf174f1372f567bc78d1ae9139898a511af08c82d0d7f1aadd2c5d10a675475
+    css_selector: .header-index
+    css_declaration: rgb(0, 102, 204)
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -95,7 +102,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: ff560386b76079a1870de70d
     kind: site_identity
@@ -167,8 +173,68 @@ visual:
     byte_size: 89584
     representation: raster
     resolved_url: https://www.sdvcst.edu.cn/images/logo_d20260803.png
-  color_palette: []
-  vi_resources: []
+  color_palette:
+  - value: '#0066CC'
+    rgb:
+    - 0
+    - 102
+    - 204
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.sdvcst.edu.cn/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: cad6b58cbabe343d08340badeb5dd56aea6761a70714a3c4331d1e99d0fdfc82
+    homepage_source: https://www.sdvcst.edu.cn/
+    homepage_sha256: 4cf174f1372f567bc78d1ae9139898a511af08c82d0d7f1aadd2c5d10a675475
+    css_selector: .header-index
+    css_declaration: rgb(0, 102, 204)
+    collector: ppt_site_reference
+  vi_resources:
+  - title: 学校标识-山东科技职业大学
+    url: https://www.sdvcst.edu.cn/xxgk/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sdvcst.edu.cn/xxgk/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d911435f86b483016cd8f64d19c21f42129fba4066392347b943b633afed6b94
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校徽校歌-山东科技职业大学
+    url: https://www.sdvcst.edu.cn/xxgk/xhxg.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.sdvcst.edu.cn/xxgk/xhxg.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b1baa1a696917d6cc57081e3e4dd3e478b5722c76761335d384613dfb3968f4c
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
     value: 1978
@@ -185,7 +251,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -207,6 +272,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -229,231 +295,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.sdvcst.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.sdvcst.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://xxgkw.sdvcst.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.sdvcst.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 山东省潍坊市潍城区浮烟山路19777号
-    availability: found
-    search_sources: []
-    source: https://www.sdvcst.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:山东省潍坊市潍城区浮烟山路19777号邮编:261053 邮箱:sdkjzydx@shandong.cn
-  postal_code:
-    value: '261053'
-    availability: found
-    search_sources: []
-    source: https://www.sdvcst.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:山东省潍坊市潍城区浮烟山路19777号邮编:261053 邮箱:sdkjzydx@shandong.cn
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 浮烟山校区
-    address: null
-    coordinates: null
-    source: https://www.sdvcst.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 滨海校区
-    address: null
-    coordinates: null
-    source: https://www.sdvcst.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 山东科技职业大学位于山东省潍坊市，主管部门为山东省。官网列示全日制在校生15750余人（统计日期未注明）。简介列出浮烟山校区、滨海校区。
+    value: 山东科技职业大学位于山东省潍坊市，教育部名单列为本科，主管部门为山东省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.sdvcst.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 15750
-    availability: found
-    search_sources: []
-    source: https://www.sdvcst.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生15750余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校生15750余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '办公室电话: 0536-8187766；招生电话: 0536-8187758'
-    availability: found
-    search_sources: []
-    source: https://www.sdvcst.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 党委(院长)办公室电话:0536-8187766 招生电话:0536-8187758
-  email:
-    value: sdkjzydx@shandong.cn
-    availability: found
-    search_sources: []
-    source: https://www.sdvcst.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:山东省潍坊市潍城区浮烟山路19777号邮编:261053 邮箱:sdkjzydx@shandong.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

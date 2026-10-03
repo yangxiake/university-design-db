@@ -1,39 +1,28 @@
-# 人和 AI 助手如何使用资料
+# 人和AI助手如何使用PPT资料
 
-1. 查 `indexes/catalog.csv`，按学校标识码打开 `profile_path`。全量本科已建档；更名、同名和独立学院身份以教育部原表及标识码区分。
-2. 使用 `availability: found` 的资料，查看来源、时间及 `verified`。本轮资料主要为 `auto`，不要求先人工签核；在 PPT 备注或参考页保留来源，按实际证据表述。
-3. `conflict` 保留多种来源值，暂停采用该字段；`unresearched` 和 `not_found` 不能说成“学校没有”。访问失败是采集状态，不是不存在的证据。
-4. `source_type: community_dataset/community_directory` 的资料是社区记录，注意上游时间和现行名称。发生更名时优先找学校现行章程或英文官网。原始字段见`community.snapshots`所指的许可子集；社区与官方资料不同时保留来源差异，不覆盖已有学校事实。
-5. 色值 `official_vi` 按 `basis` 区分标准色、辅助色、校徽色；RGB转HEX供屏幕使用，印刷按官方规范。`badge_sample/manual_derived/community_logo_sample` 标注为建议色；`community_theme`是社区主题参考色。完整配色位于`visual.color_palette`，不能因有HEX就当作官方标准；CMYK/Pantone空值不自行补造。仅公布印刷色时`value/rgb`为空，CMYK/Pantone仍可使用；AI不得把这些空值自动换算成“官方屏幕色”。
-6. `PROFILE.md`供便读完整档案，`VISUAL.md`供逐文件校徽/校名与配色，`OFFICIAL.md`供官方PPT入口，`COMMUNITY.md`供社区主题。Beamer需要LaTeX，Marp采用Markdown/CSS，不应告诉用户它们是直接可编辑的PPTX。
-7. 下载模板、字体、校徽前查看上游使用规则。本库只保留资料和入口，独立第三方数据许可见 `data/external/`。
+## 读取顺序
 
-## 给 AI 助手的简短指令
+1. 从 `indexes/ppt-profiles.jsonl` 或配套CSV按 `school_code` 读取一校；范围是教育部1412所本科，军校不纳入。
+2. 用 `identity` 识别学校，用 `logos` 取校徽/校名标识，用 `colors` 选择主题色，用 `content` 取建校年和校训，用 `templates` 查模板。
+3. 完整主字段与可选校史见单校 `profile.yaml` / `PROFILE.md`；图形、色卡与VI见 `VISUAL.md`，官方和开源模板见 `OFFICIAL.md` / `COMMUNITY.md`。
 
-> 按学校标识码读档案，仅引用找到且有来源的字段，保留来源链接与历史起点。自动与社区资料如实标明出处；未调查、未找到、访问失败不能写成学校不存在该内容。配色明确区分官方VI、PPT建议色与社区主题色；不要补造校史或把社区主题认作学校官方模板。
+## 必备与可选
 
-字段数量、调查覆盖与尚待补采的内容见[覆盖率报告](coverage-2026.md)及[逐字段调查表](../data/review/field-research-status-2026.csv)。
+学校身份、英文名、可读标识、附来源主色、建校年及口径是必备主字段；校训、辅色、VI、校史节点、校园意象、校花/吉祥物/校歌和模板是可选材料。缺口见[主字段覆盖](ppt-core-coverage-2026.md)，采集只按[主字段队列](../data/review/ppt-core-queue-2026.csv)推进。
 
-## AI批量读取与素材选择
+招生、就业、排名、人数、面积、地址坐标、联系方式及学科统计已从现行数据剔除。简称与别名仅用于检索；短简介只从学校身份字段生成。
 
-`indexes/profiles.jsonl`每行一校，是从`profile.yaml`生成的JSON全文；`indexes/enriched-catalog.csv`可先筛选哪些学校有校徽、配色、排名或学科记录。各表以`school_code`关联，不以简称作为唯一键。
+## 使用依据
 
-选校徽时，先筛`visual.logo_assets.kind=badge`。`wordmark`是校名文字，`site_identity`是具体构成待核验的官网页眉标识，不能假称纯校徽。标识条目的`official`只表明发布来源，颜色条目的`official`另由VI标准证据决定。`content_inspected`表示读到了文件结构，`indexed_not_fetched`仅表示来源提供了地址；文件名为.svg不保证内容是矢量。`vector/representation`、尺寸、透明信息不确定时为null；透明通道存在不表示整张图的背景已透明。独立图形许可与仓库代码许可分别查看。
+- `availability=found` 才有正向事实；查看 `source`、`checked_at`、`verified`、`basis`。自动采集标为 `auto`，社区数据保留社区来源和固定版本。
+- `conflict` 暂停自动采用；未调查、未找到和访问错误不能表述为学校没有该信息。不要为填满PPT编造年份、校训或官方英文译名。
+- `official_vi` 才是校方数值标准；`badge_sample` / `manual_derived` 是PPT设计建议，`community_theme` / `community_logo_sample` 是社区参考。仅印刷CMYK/Pantone保留空HEX/RGB；有冲突时不换算择一。
+- `badge`、`wordmark`、`combination` 分别表示校徽、校名文字、徽名组合；`site_identity` 的具体构成仍待确认。`content_inspected` 表示实际读取文件，文件后缀不能代替真实格式检查。
+- `archive_member` 的URL是压缩包入口。先核对 `archive_sha256`，按原 `archive_member` 读取成员，再核对成员 `sha256`。`archive_member_display` 只为可读显示，不用于索引包内成员。
+- 仓库代码许可与校徽、字体、模板授权分别查看。模板分学校通用、院系专用与社区主题；Beamer/Marp不是直接可编辑PPTX。
 
-`combination`为徽名组合，`variant`保留横竖、蓝黑及双语标签。`source_type=community_website`是公开网站整理的预览图，即使目录声称“官方文件”，本库仍保留社区来源；无Git版本时看页面/文件哈希和日期。`dimensions_in_filename`只是上游文件名声明，实测尺寸看`width/height`。社区云盘条目为入口，未读取的文件不能称为已经下载。
+## 给AI助手的简短指令
 
-地址、邮编与联系方式保存官网页脚或学校联系页的短证据和`basis`。多校区地址不默认第一项为本部；多邮编无明确对应关系时不选一个替代全校。电话保留招生/办公等原标签；不把传真、举报或技术支持电话当作学校总机。门户网址记录官网导航出处，发现链接不等于目标页已成功访问。
+> 按学校标识码读取PPT主字段，仅使用有来源的事实。校方发布、社区记录和设计建议分别标记；保留历史起点和颜色方法。缺资料时明确留空；不得虚构校训、年份、官方色值或授权。
 
-画地图时，`coordinates.crs=unspecified`的社区点不能与WGS84/GCJ02精确坐标混用；这些点可表示近似分布，不表示学校全部校区。排名只能按同一publisher/ranking_name/year/scope比较，不能拼成无年份的“学校排名”。学科评估是按round与completeness标注的节选，不以空列表推断学校未参评。
-
-录取参考必须同时带地区、年份、科类、批次和专业组口径。当前社区数据是2025重庆整理参考值，不能代替学校或考试院公布的实际录取数据；就业评论保留在社区快照中，不转成就业率或统计结论。
-
-学生、教职工人数和校园面积读取`basis`与`source_as_of`：本科生、专任教师是各自人群口径，不能当成全校总量。`source_as_of=undated`表示原文未标明统计时间，`checked_at`是采集日期；不把未注明年份的数值称为2026最新统计。`approximate=true`的约数/下界保留`original_notation`，不可按精确整数比较。面积统一为公顷，原单位和换算在basis中。空值表示尚无可导入来源，不表示0。
-
-`location.campuses`与`indexes/campuses.csv`按学校标识码列明已取得的官网校区名称。缺少地址/坐标的校区不填学校通讯地址；校区与校园数量保持层级区别。
-
-校徽的`download_kind=archive_member`表示文件在上游压缩包内，`url`不是PNG直链。下载`archive_url`并验证`archive_sha256`，选择`archive_member`，再核对成员文件`sha256`；不要用图像加载器直接读取ZIP，也不要把仓库MIT许可当作校徽图形授权。
-
-## PPT精简导出
-
-[`ppt-profiles.jsonl`](../indexes/ppt-profiles.jsonl)和[配套CSV](../indexes/ppt-profiles.csv)覆盖1412所学校，集中提供标识候选与推荐理由、官方/印刷/参考配色、模板及短简介的完整来源。按学校标识码、地区、名称和素材状态查询的方法见[PPT导出v1说明](ppt-export-v1.md)。
+查询命令和字段结构见[PPT精简导出v1](ppt-export-v1.md)。原创与第三方许可见[来源说明](../data/external/README.md)。

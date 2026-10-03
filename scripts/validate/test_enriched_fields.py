@@ -30,6 +30,17 @@ class EnrichedFieldsTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 (extract_assignment(text,'LOGOS') if 'LOGOS' in text else extract_universities(text))
 
+    def test_partial_print_channels_are_preserved_without_invented_zeroes(self):
+        color = dict(value=None, rgb=None, cmyk=None, cmyk_text='C85 M50', pantone=None,
+                     label='辅助蓝', role='secondary', method='official_vi', official=True,
+                     basis='原图仅标C/M', source='https://example.edu.cn/colors.png',
+                     verified='auto', checked_at='2026-10-02', availability='found')
+        errors = []; check_extended_entry('visual.color_palette', color, 'color', errors)
+        self.assertEqual(errors, [])
+        for notation in ('C101', 'C40 C50', 'Cgarbage'):
+            errors = []; check_extended_entry('visual.color_palette', dict(color, cmyk_text=notation), 'color', errors)
+            self.assertTrue(errors)
+
     def test_duplicate_literal_keys_are_rejected(self):
         with self.assertRaises(ValueError):extract_assignment("window.LOGOS = {x:1,x:2};",'LOGOS')
 

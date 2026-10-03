@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4115012443'
   name_zh: 兴安职业技术大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Xingan Vocational and Technical College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q112676285&oldid=2548497726
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548497726
+    source_sha256: 690eca2dee4d86b8fe4025578100aab7323ad538d98cad8cb6ab734f8bdc6784
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.nmxzy.cn/
     source: https://www.nmxzy.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +66,20 @@ research:
   audit_key: '4115012443'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#901018'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/1625.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: b8838c62131e51b881de377f
+    source_sha256: 1699fc51391469c33898c449b0bd1c36185f7c29e228c3728d4236c3b7c58879
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 992b5a328f91343a344f5a3b
     kind: site_identity
@@ -168,16 +173,93 @@ visual:
     byte_size: 70290
     representation: raster
     resolved_url: https://www.nmxzy.cn/_upload/site/00/02/2/logo.webp
-  color_palette: []
+  - asset_id: b8838c62131e51b881de377f
+    title: 兴安职业技术大学教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/1625.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/1625/info.json
+    file_name: 1625.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 兴安职业技术大学
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: a158eb1c1714ccf17a5a67931e107a6290b9a232b797dd0c66f1e74e3134c399
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: 1699fc51391469c33898c449b0bd1c36185f7c29e228c3728d4236c3b7c58879
+    access_status: content_inspected
+    byte_size: 18346
+    format: jpeg
+    vector: false
+    width: 200
+    representation: raster
+    height: 200
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#901018'
+    rgb:
+    - 144
+    - 16
+    - 24
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1625.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1625/info.json
+    asset_id: b8838c62131e51b881de377f
+    source_sha256: 1699fc51391469c33898c449b0bd1c36185f7c29e228c3728d4236c3b7c58879
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#006838'
+    rgb:
+    - 0
+    - 104
+    - 56
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1625.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1625/info.json
+    asset_id: b8838c62131e51b881de377f
+    source_sha256: 1699fc51391469c33898c449b0bd1c36185f7c29e228c3728d4236c3b7c58879
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1952
+    availability: found
     search_sources: []
+    source: https://www.nmxzy.cn/55/list.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    source_sha256: 24feaa141b848a0c9b5cdfeb8f8a7299c0942ddf43669115d6ee26e5fcd609d4
+    collector: read_overview_identity_facts
+    basis: 官网明确记载本校办学来源或前身起点；该年不等同现名设立年。
+    previous_status: unresearched
   motto:
     value: null
     source: null
@@ -185,7 +267,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -207,6 +288,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -229,223 +311,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.nmxzy.cn/zsjyc
-    availability: found
-    search_sources: []
-    source: https://www.nmxzy.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业处
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 内蒙古自治区兴安盟科尔沁右翼前旗都林西街
-    availability: found
-    search_sources: []
-    source: https://www.nmxzy.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:内蒙古自治区兴安盟科尔沁右翼前旗都林西街
-  postal_code:
-    value: '137700'
-    availability: found
-    search_sources: []
-    source: https://www.nmxzy.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:137700
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 兴安职业技术大学位于内蒙古自治区兴安盟，主管部门为内蒙古自治区。官网列示全日制在校生8097人（统计日期未注明）。官网列示教职员工733人（统计日期未注明）。官网列示学校占地面积1517.77亩（统计日期未注明）。
+    value: 兴安职业技术大学位于内蒙古自治区兴安盟，教育部名单列为本科，主管部门为内蒙古自治区。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.nmxzy.cn/55/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 8097
-    availability: found
-    search_sources: []
-    source: https://www.nmxzy.cn/55/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；原标注：全日制在校生8097人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 全日制在校生8097人
-  faculty_count:
-    value: 733
-    availability: found
-    search_sources: []
-    source: https://www.nmxzy.cn/55/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职员工；原标注：教职员工733人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职员工733人
-  campus_area_hectares:
-    value: 101.184667
-    availability: found
-    search_sources: []
-    source: https://www.nmxzy.cn/55/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 学校占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：学校占地面积1517.77亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 学校占地面积1517.77亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: xaxyrcyj@163.com
-    availability: found
-    search_sources: []
-    source: https://www.nmxzy.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 人才引进邮箱:xaxyrcyj@163.com
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -28,5 +28,7 @@
 - 现有VI入口：[https://www.hbnu.edu.cn/2528/list.htm](https://www.hbnu.edu.cn/2528/list.htm)
 - [学校标识](http://www.hbnu.edu.cn/2528/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.hbnu.edu.cn/2528/list.htm)。
 - [湖北师范大学校名校徽校训](http://www.hbnu.edu.cn/_upload/article/files/df/8b/67d98df442aa8558d5998ae122ce/484d85bd-a40f-4e6e-a34f-3fc7628a781b.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.hbnu.edu.cn/2528/list.htm)。
+- [学校标识](https://www.hbnu.edu.cn/2528/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hbnu.edu.cn/2528/list.htm)。
+- [湖北师范大学校名校徽校训](https://www.hbnu.edu.cn/_upload/article/files/df/8b/67d98df442aa8558d5998ae122ce/484d85bd-a40f-4e6e-a34f-3fc7628a781b.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hbnu.edu.cn/2528/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -33,5 +33,7 @@
 - [中国医科大学新标志标准规范.zip](https://www.cmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1262668528&wbfileid=260360)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cmu.edu.cn/info/1152/2025.htm)。
 - [校名](https://www.cmu.edu.cn/xqzl/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cmu.edu.cn/xqzl/xxbs.htm)。
 - [校名](https://www.cmu.edu.cn/info/1015/1496.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cmu.edu.cn/info/1015/1496.htm)。
+- [校徽](https://www.cmu.edu.cn/info/1015/1286.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cmu.edu.cn/info/1015/1286.htm)。
+- [中国医科大学新标志标准规范.zip](https://www.cmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1262668528&wbfileid=255453)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cmu.edu.cn/info/1015/1286.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -17,8 +17,7 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
-尚无附来源配色。
+| 官网页眉/导航PPT建议色 | `#890303` | 137,3,3 | reference |  |  | 官网标识取色/推导建议 | [依据](https://gcxy.hbut.edu.cn/style/public.css) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -26,5 +25,6 @@
 
 - 现有VI入口：[https://gcxy.hbut.edu.cn/xqzl/xxbs.htm](https://gcxy.hbut.edu.cn/xqzl/xxbs.htm)
 - [学校标识](http://gcxy.hbut.edu.cn/xqzl/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://gcxy.hbut.edu.cn/xqzl/xxbs.htm)。
+- [学校标识](https://gcxy.hbut.edu.cn/xqzl/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://gcxy.hbut.edu.cn/xqzl/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

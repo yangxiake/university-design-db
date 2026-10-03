@@ -22,7 +22,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzgf.htm](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzgf.htm)
-- [学校标志规范](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzgf.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzgf.htm)。
-- [学校标志规范](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzsgf.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzsgf.htm)。
+- [学校标志规范-欢迎光临全日制综合性本科层次职业院校—南宁职业技术大学](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzgf.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzgf.htm)。
+- [学校标准色规范-欢迎光临全日制综合性本科层次职业院校—南宁职业技术大学](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzsgf.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nnvtu.edu.cn/xxgk1/xxVI/xxbzsgf.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

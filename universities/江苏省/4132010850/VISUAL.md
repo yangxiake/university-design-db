@@ -17,6 +17,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 社区校徽取色参考 | `#004088` | 0,64,136 | reference |  |  | 社区标识取色建议 | [依据](https://cdn.urongda.com/images/normal/medium/nanjing-university-of-industry-technology-logo-1024px.png) |
 | 社区校徽取色参考 | `#004890` | 0,72,144 | reference |  |  | 社区标识取色建议 | [依据](https://cdn.urongda.com/images/normal/medium/nanjing-university-of-industry-technology-logo-1024px.png) |
+| 校标标准蓝 | `#045592` | 4,85,146 | primary | [100, 75, 15, 0] |  | 官方VI标准值 | [依据](https://www.niit.edu.cn/4055/list.htm) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -33,5 +34,6 @@
   - 发布者：urongda 校徽大全；适用范围：未明确。
 - [南京工业职业技术大学-logo-512px.png](https://url90.ctfile.com/f/56298190-8405796667-daf457?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4132010850)。
   - 发布者：urongda 校徽大全；适用范围：未明确。
+- [南京工业职业技术大学官方视觉规范](https://www.niit.edu.cn/4055/list.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.niit.edu.cn/4055/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

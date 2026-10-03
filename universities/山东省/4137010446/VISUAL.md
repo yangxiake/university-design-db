@@ -18,12 +18,19 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | `#F5CA95` | 245,202,149 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.qfnu.edu.cn/images/logo.png) |
+|  | `#F5CA95` | 245,202,149 | reference（历史参考） |  |  | 官网标识取色/推导建议 | [依据](https://www.qfnu.edu.cn/images/logo.png) |
 |  | `#E8C098` | 232,192,152 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.qfnu.edu.cn/images/logo.png) |
 |  | `#F0D0A0` | 240,208,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.qfnu.edu.cn/images/logo.png) |
 |  | `#682808` | 104,40,8 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#F0E0C0` | 240,224,192 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#602800` | 96,40,0 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 标识标准棕 | `#702C07` | 112,44,7 | primary | [36, 80, 100, 48] |  | 官方VI标准值 | [依据](https://www.qfnu.edu.cn/images/xxbs_pic4.jpg) |
+| 标识米白 | `#F8E9D6` | 248,233,214 | secondary | C4 M810 Y18 K0 |  | 官方VI标准值 | [依据](https://www.qfnu.edu.cn/images/xxbs_pic4.jpg) |
+| 标识黑 | `#000000` | 0,0,0 | reference | [0, 0, 0, 100] |  | 官方VI标准值 | [依据](https://www.qfnu.edu.cn/images/xxbs_pic4.jpg) |
+| 曲园蓝 | 未公布 | 未公布 | secondary | [90, 73, 14, 0] |  | 官方VI标准值 | [依据](https://www.qfnu.edu.cn/images/xxbs_pic5.jpg) |
+| 曲园绿 | 未公布 | 未公布 | secondary | [85, 40, 60, 0] |  | 官方VI标准值 | [依据](https://www.qfnu.edu.cn/images/xxbs_pic5.jpg) |
+| 儒雅灰 | 未公布 | 未公布 | secondary | [0, 0, 0, 19] |  | 官方VI标准值 | [依据](https://www.qfnu.edu.cn/images/xxbs_pic5.jpg) |
+| 曲园红 | 未公布 | 未公布 | secondary | [35, 100, 75, 0] |  | 官方VI标准值 | [依据](https://www.qfnu.edu.cn/images/xxbs_pic5.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -32,5 +39,8 @@
 - 现有VI入口：[https://www.qfnu.edu.cn/ljxx/xxbs.htm](https://www.qfnu.edu.cn/ljxx/xxbs.htm)
 - [学校标识-曲阜师范大学](https://www.qfnu.edu.cn/ljxx/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qfnu.edu.cn/ljxx/xxbs.htm)。
 - [曲阜师范大学视觉形象识别系统使用手册.PDF](https://www.qfnu.edu.cn/files/2019bs.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qfnu.edu.cn/ljxx/xxbs.htm)。
+- [校歌文件下载.PDF](https://www.qfnu.edu.cn/files/2019xg.pdf)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.qfnu.edu.cn/ljxx/xxbs.htm)。
+- [曲阜师范大学官方视觉规范](https://www.qfnu.edu.cn/ljxx/xxbs.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.qfnu.edu.cn/images/xxbs_pic4.jpg)。
+- [曲阜师范大学官方视觉规范](https://www.qfnu.edu.cn/ljxx/xxbs.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.qfnu.edu.cn/images/xxbs_pic5.jpg)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

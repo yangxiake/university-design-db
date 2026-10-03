@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4165013926'
   name_zh: 新疆交通职业技术大学
@@ -9,12 +9,17 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Xinjiang Vocational & Technical College of Communications
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E6%96%B0%E7%96%86%E4%BA%A4%E9%80%9A%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6&oldid=91797876
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: abf35d0426937fe81b80a252a89fac261ff86342a4fa08ffd8cb5d5a4d48e714
+    source_revision: 91797876
+    collector: wikipedia_core_infobox
+    basis: 当前完整校名的中文维基百科大学信息框EnglishName/外文名称字段；社区记录，非校方命名证明。
   official_website:
     value: http://www.xjjtedu.com
     source: http://www.xjjtedu.com
@@ -43,14 +48,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +65,20 @@ research:
   audit_key: '4165013926'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#2050A0'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/1372.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 40fc20cdf62938946cf69428
+    source_sha256: d2a419a276fea0bd58681a4c371d06f42f66f16d1d577f2e817652ef4fb24566
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +100,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 7cf4c32e961f84f5f583ff75
     kind: site_identity
@@ -123,7 +127,7 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     source_type: official_website
-    source_sha256: 180cc7ad845b0054aa1ccfb3c3ba47ca7a92c4eebe69a2495bd6a29d0232c5dc
+    source_sha256: 663fd8322ccc78f111dd71f008a92727a77033e74fdc6894371adddf0d0b3842
     identity_basis:
       src: images/new-logo70.png
       label: '主站 主站  '
@@ -133,22 +137,122 @@ visual:
     inspection_attempts:
     - url: http://www.xjjtedu.com/images/new-logo70.png
       status: access_or_parse_gap
+      error_type: TimeoutError
+      detail: response_body_deadline
+    - url: https://www.xjjtedu.com/images/new-logo70.png
+      status: access_or_parse_gap
       error_type: ValueError
-      detail: not_identity_mark_dimensions
+      detail: robots_disallowed
     inspection_error:
       status: access_or_parse_gap
       error_type: ValueError
-      detail: not_identity_mark_dimensions
-  color_palette: []
-  vi_resources: []
+      detail: robots_disallowed
+  - asset_id: 40fc20cdf62938946cf69428
+    title: 新疆交通职业技术大学教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/1372.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/1372/info.json
+    file_name: 1372.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 新疆交通职业技术大学
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: 4b5fd089bf1cea3f1fde1430bf100f8a0d513ae94b2ec51beb73e85cf2537fe3
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: d2a419a276fea0bd58681a4c371d06f42f66f16d1d577f2e817652ef4fb24566
+    access_status: content_inspected
+    byte_size: 32328
+    format: jpeg
+    vector: false
+    width: 200
+    representation: raster
+    height: 200
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#2050A0'
+    rgb:
+    - 32
+    - 80
+    - 160
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1372.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1372/info.json
+    asset_id: 40fc20cdf62938946cf69428
+    source_sha256: d2a419a276fea0bd58681a4c371d06f42f66f16d1d577f2e817652ef4fb24566
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#2050A8'
+    rgb:
+    - 32
+    - 80
+    - 168
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1372.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1372/info.json
+    asset_id: 40fc20cdf62938946cf69428
+    source_sha256: d2a419a276fea0bd58681a4c371d06f42f66f16d1d577f2e817652ef4fb24566
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  vi_resources:
+  - title: 学校标识-新疆交通职业技术大学
+    url: http://www.xjjtedu.com/xxjj/xxwh/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://www.xjjtedu.com/xxjj/xxwh/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1431f60dc38ba0c3f2bbae22edf92a74f5ccafe1177fc3e88d9513adc564366d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1953
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q15924572&oldid=2548511689
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548511689
+    source_sha256: 949c818b31af72cee690a998a252e4412e9ab1c50051f9d9d4d167b43edd9ad9
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: 励学 笃行
     source: http://www.xjjtedu.com/xxjj.htm
@@ -156,7 +260,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -178,6 +281,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -200,209 +304,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.xjjtedu.com/zsjy.htm
-    availability: found
-    search_sources: []
-    source: http://www.xjjtedu.com
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://www.xjjtedu.com/xxgk.htm
-    availability: found
-    search_sources: []
-    source: http://www.xjjtedu.com
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 乌鲁木齐市米东区永顺街478号
-    availability: found
-    search_sources: []
-    source: http://www.xjjtedu.com
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0991-3392666邮编:831401传真:0991-6861430联系地址:乌鲁木齐市米东区永顺街478号
-  postal_code:
-    value: '831401'
-    availability: found
-    search_sources: []
-    source: http://www.xjjtedu.com
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0991-3392666邮编:831401传真:0991-6861430联系地址:乌鲁木齐市米东区永顺街478号
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 新疆交通职业技术大学位于新疆维吾尔自治区乌鲁木齐市，主管部门为新疆维吾尔自治区。官网列示专任教师570余人（统计日期未注明）。
+    value: 新疆交通职业技术大学位于新疆维吾尔自治区乌鲁木齐市，教育部名单列为本科，主管部门为新疆维吾尔自治区。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://www.xjjtedu.com/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: 570
-    availability: found
-    search_sources: []
-    source: http://www.xjjtedu.com/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；近似/下界数，保留原标注：专任教师570余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 专任教师570余人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

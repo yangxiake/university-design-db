@@ -23,6 +23,12 @@
 |  | `#106088` | 16,96,136 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#106090` | 16,96,144 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#106890` | 16,104,144 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 标准蓝 | 未公布 | 未公布 | primary | [100, 80, 0, 20] |  | 官方VI标准值 | [依据](https://sjxxsbxt.nenu.edu.cn/__local/7/86/D7/F9459E7770B09D7AE0A1B033BBA_35FE54A9_25E0.png) |
+| 辅助红 | 未公布 | 未公布 | reference | [0, 100, 100, 15] |  | 官方VI标准值 | [依据](https://sjxxsbxt.nenu.edu.cn/__local/F/C1/C2/72A28457AB88783864A3800F226_F2608784_7452.png) |
+| 辅助绿 | 未公布 | 未公布 | reference | [100, 0, 40, 75] |  | 官方VI标准值 | [依据](https://sjxxsbxt.nenu.edu.cn/__local/F/C1/C2/72A28457AB88783864A3800F226_F2608784_7452.png) |
+| 辅助灰 | 未公布 | 未公布 | reference | [0, 0, 0, 70] |  | 官方VI标准值 | [依据](https://sjxxsbxt.nenu.edu.cn/__local/F/C1/C2/72A28457AB88783864A3800F226_F2608784_7452.png) |
+| 专金 | 未公布 | 未公布 | reference |  | 873C | 官方VI标准值 | [依据](https://sjxxsbxt.nenu.edu.cn/__local/B/27/1E/4761C965DE7134E1B6E599740C9_D4F7C8B4_1D93.png) |
+| 专银 | 未公布 | 未公布 | reference |  | 877C | 官方VI标准值 | [依据](https://sjxxsbxt.nenu.edu.cn/__local/B/27/1E/4761C965DE7134E1B6E599740C9_D4F7C8B4_1D93.png) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -35,5 +41,8 @@
 - [视觉形象识别系统](https://sjxxsbxt.nenu.edu.cn/index.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sjxxsbxt.nenu.edu.cn/index.htm)。
 - [东师校标.png](https://sjxxsbxt.nenu.edu.cn/dfiles/9934/img/fastdown1.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sjxxsbxt.nenu.edu.cn/index.htm)。
 - [东师校徽.png](https://sjxxsbxt.nenu.edu.cn/dfiles/9934/img/fastdown2.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sjxxsbxt.nenu.edu.cn/index.htm)。
+- [东北师范大学官方视觉规范](https://sjxxsbxt.nenu.edu.cn/jcyybf/xxscxtgf.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://sjxxsbxt.nenu.edu.cn/__local/7/86/D7/F9459E7770B09D7AE0A1B033BBA_35FE54A9_25E0.png)。
+- [东北师范大学官方视觉规范](https://sjxxsbxt.nenu.edu.cn/jcyybf/xxscxtgf.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://sjxxsbxt.nenu.edu.cn/__local/F/C1/C2/72A28457AB88783864A3800F226_F2608784_7452.png)。
+- [东北师范大学官方视觉规范](https://sjxxsbxt.nenu.edu.cn/jcyybf/xxscxtgf.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://sjxxsbxt.nenu.edu.cn/__local/B/27/1E/4761C965DE7134E1B6E599740C9_D4F7C8B4_1D93.png)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

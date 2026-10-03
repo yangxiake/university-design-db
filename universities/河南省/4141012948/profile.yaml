@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4141012948'
   name_zh: 郑州健康学院
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Zhengzhou Health College
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_61/a_61.html
+    source_sha256: dd4faede66d7477e7754ca3f9f7529d511736cd02d8b6d8990a08b450c5d5273
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.zzsqmc.edu.cn/
     source: https://www.zzsqmc.edu.cn/
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +62,21 @@ research:
   audit_key: '4141012948'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#228A3B'
+    availability: found
     search_sources: []
+    source: https://www.zzsqmc.edu.cn/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 70bbbb0035045ee3926c2164e110d712a53a99767e37a8a32640d1af9fcf1a85
+    homepage_source: https://www.zzsqmc.edu.cn/
+    homepage_sha256: 91ed7c0629595bde6f79a1a791c317ac9834ac736a7d4771b61fa989fdeee3d3
+    css_selector: .nav-down
+    css_declaration: '#228a3b'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -93,7 +98,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 41c3314b0d09f825d56cb8ed
     kind: site_identity
@@ -135,22 +139,139 @@ visual:
       detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
     - url: http://www.zzsqmc.edu.cn/images/newlogo.png
       status: access_or_parse_gap
-      error_type: timeout
-      detail: timed out
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
     inspection_error:
       status: access_or_parse_gap
-      error_type: timeout
-      detail: timed out
-  color_palette: []
-  vi_resources: []
+      error_type: ValueError
+      detail: not_identity_mark_dimensions
+  - asset_id: 1c8f64647345dd2e9dc014a2
+    title: 郑州健康学院教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/1942.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/1942/info.json
+    file_name: 1942.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 郑州健康学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: dabb6cb8233dea8adff644fc518e45bc1800ba3ad648668435a8effec4c69246
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: e0c12b2273c80e00441a54f6a28a7f643f001dbfa40b0e138d2925137c6f68b5
+    access_status: content_inspected
+    byte_size: 86606
+    format: jpeg
+    vector: false
+    width: 640
+    representation: raster
+    height: 640
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#228A3B'
+    rgb:
+    - 34
+    - 138
+    - 59
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.zzsqmc.edu.cn/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 70bbbb0035045ee3926c2164e110d712a53a99767e37a8a32640d1af9fcf1a85
+    homepage_source: https://www.zzsqmc.edu.cn/
+    homepage_sha256: 91ed7c0629595bde6f79a1a791c317ac9834ac736a7d4771b61fa989fdeee3d3
+    css_selector: .nav-down
+    css_declaration: '#228a3b'
+    collector: ppt_site_reference
+  - value: '#008038'
+    rgb:
+    - 0
+    - 128
+    - 56
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1942.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1942/info.json
+    asset_id: 1c8f64647345dd2e9dc014a2
+    source_sha256: e0c12b2273c80e00441a54f6a28a7f643f001dbfa40b0e138d2925137c6f68b5
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#007830'
+    rgb:
+    - 0
+    - 120
+    - 48
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1942.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1942/info.json
+    asset_id: 1c8f64647345dd2e9dc014a2
+    source_sha256: e0c12b2273c80e00441a54f6a28a7f643f001dbfa40b0e138d2925137c6f68b5
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  vi_resources:
+  - title: 校徽校训-郑州健康学院
+    url: https://www.zzsqmc.edu.cn/xxgk/xhxx.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zzsqmc.edu.cn/xxgk/xhxx.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 39d1cc880bf9fa5988789e6ae0257e7795d9468b8a3fb193d3b121b0c4b76a4b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1984
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_61/a_61.html
+    source_sha256: dd4faede66d7477e7754ca3f9f7529d511736cd02d8b6d8990a08b450c5d5273
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“创办时间”栏原值；社区二手记录，未独立确认前身、现名设立或升本口径。
   motto:
     value: null
     source: null
@@ -158,7 +279,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -180,6 +300,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -202,208 +323,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.zzsqmc.edu.cn/zsc
-    availability: found
-    search_sources: []
-    source: https://www.zzsqmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生信息网
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.zzsqmc.edu.cn/index/xxgk.htm
-    availability: found
-    search_sources: []
-    source: https://www.zzsqmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 郑州市二七区公明路6号
-    availability: found
-    search_sources: []
-    source: https://www.zzsqmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:郑州市二七区公明路6号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 郑州健康学院位于河南省郑州市，主管部门为河南省教育厅。官网列示在校生15000余人（统计日期未注明）。
+    value: 郑州健康学院位于河南省郑州市，教育部名单列为本科，主管部门为河南省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.zzsqmc.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 15000
-    availability: found
-    search_sources: []
-    source: https://www.zzsqmc.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；近似/下界数，保留原标注：在校生15000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校生15000余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

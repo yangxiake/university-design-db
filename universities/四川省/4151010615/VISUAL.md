@@ -25,5 +25,8 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.swpu.edu.cn/xqzl/xxgk/xh.htm](https://www.swpu.edu.cn/xqzl/xxgk/xh.htm)
+- [校徽-西南石油大学门户网站](http://www.swpu.edu.cn/xqzl/xxgk/xh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.swpu.edu.cn/xqzl/xxgk/xh.htm)。
+- [校名-西南石油大学门户网站](http://www.swpu.edu.cn/xqzl/xxgk/xm.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.swpu.edu.cn/xqzl/xxgk/xm.htm)。
+- [LOGO打包下载.zip](http://www.swpu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1645096081&wbfileid=9856CBE028D47EEB00ABF41DF7A69663)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.swpu.edu.cn/xqzl/xxgk/xm.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

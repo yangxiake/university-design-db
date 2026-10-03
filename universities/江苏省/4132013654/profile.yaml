@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132013654'
   name_zh: 南京理工大学紫金学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Nanjing University of Science and Technology Zijin College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q10906876&oldid=2474190732
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2474190732
+    source_sha256: 1be5db6cb09fbcce43a3a903609258df82473a9cd4c2f58f7d8541625f683a34
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://zj.njust.edu.cn/
     source: https://zj.njust.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +64,20 @@ research:
   audit_key: '4132013654'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#900090'
+    availability: found
     search_sources: []
+    source: https://zj.njust.edu.cn/_upload/tpl/0a/49/2633/template2633/images/logo.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: c6fd295478e7b4bba1af8009
+    source_sha256: d5534906e1ced3912d730c5b0a206ec8660be59f85f8dc2914826d1b8d24c793
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,10 +99,87 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: c6fd295478e7b4bba1af8009
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://zj.njust.edu.cn/_upload/tpl/0a/49/2633/template2633/images/logo.png
+    source: https://zj.njust.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 南京理工大学紫金学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南京理工大学紫金学院
+    format: png
+    width: 346
+    height: 57
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: d5534906e1ced3912d730c5b0a206ec8660be59f85f8dc2914826d1b8d24c793
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 06831cc95d8efbb42826d1de292741a818cb954ec31947026ca42f736abf01ac
+    identity_basis:
+      src: /_upload/tpl/0a/49/2633/template2633/images/logo.png
+      label: '  site-logo '
+      context: 'inner clearfix  panel logo-panel panel-1  window logo-window window-1  site-url '
+      position: 1
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    byte_size: 19464
+    representation: raster
+    resolved_url: http://zj.njust.edu.cn/_upload/tpl/0a/49/2633/template2633/images/logo.png
+    inspection_attempts:
+    - url: https://zj.njust.edu.cn/_upload/tpl/0a/49/2633/template2633/images/logo.png
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+    - url: http://zj.njust.edu.cn/_upload/tpl/0a/49/2633/template2633/images/logo.png
+      status: content_inspected
+  color_palette:
+  - value: '#900090'
+    rgb:
+    - 144
+    - 0
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://zj.njust.edu.cn/_upload/tpl/0a/49/2633/template2633/images/logo.png
+    page_source: https://zj.njust.edu.cn/
+    asset_id: c6fd295478e7b4bba1af8009
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#900890'
+    rgb:
+    - 144
+    - 8
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://zj.njust.edu.cn/_upload/tpl/0a/49/2633/template2633/images/logo.png
+    page_source: https://zj.njust.edu.cn/
+    asset_id: c6fd295478e7b4bba1af8009
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 1999
@@ -113,7 +196,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -135,6 +217,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -157,196 +240,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 南京理工大学紫金学院位于江苏省南京市，主管部门为江苏省教育厅。官网列示在校生15000余人（统计日期未注明）。
+    value: 南京理工大学紫金学院位于江苏省南京市，教育部名单列为本科，主管部门为江苏省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://zj.njust.edu.cn/6879/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 15000
-    availability: found
-    search_sources: []
-    source: http://zj.njust.edu.cn/6879/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；近似/下界数，保留原标注：在校生15000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校生15000余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

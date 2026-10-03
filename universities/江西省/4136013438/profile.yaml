@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4136013438'
   name_zh: 江西师范大学科学技术学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Jiangxi Normal University Science and Technology College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q112676584&oldid=2548510320
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548510320
+    source_sha256: 41b8581070d2d8b42c55ea99c9c59ec6665b557716718cd579576a72a9276be1
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.jxsdky.edu.cn
     source: https://www.jxsdky.edu.cn
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +64,21 @@ research:
   audit_key: '4136013438'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#004098'
+    availability: found
     search_sources: []
+    source: https://www.jxsdky.edu.cn/css/style20250521.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 7011bc72f7e0ef169379ff87e7fb7f992f35f4c179b2ac57df1e3387e5fb3b6d
+    homepage_source: https://www.jxsdky.edu.cn
+    homepage_sha256: 63bca61aadf5a2c1641df7cd0cf7172f6e216e0044bb3545aacb0ec320cdd0bc
+    css_selector: .nav-down
+    css_declaration: '#004098'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -93,7 +100,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: f02c69b17f6ed91f94217914
     kind: site_identity
@@ -130,8 +136,32 @@ visual:
     byte_size: 17862
     representation: raster
     resolved_url: https://www.jxsdky.edu.cn/images/logo.png
-  color_palette: []
+  color_palette:
+  - value: '#004098'
+    rgb:
+    - 0
+    - 64
+    - 152
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.jxsdky.edu.cn/css/style20250521.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 7011bc72f7e0ef169379ff87e7fb7f992f35f4c179b2ac57df1e3387e5fb3b6d
+    homepage_source: https://www.jxsdky.edu.cn
+    homepage_sha256: 63bca61aadf5a2c1641df7cd0cf7172f6e216e0044bb3545aacb0ec320cdd0bc
+    css_selector: .nav-down
+    css_declaration: '#004098'
+    collector: ppt_site_reference
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 2001
@@ -148,7 +178,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -170,6 +199,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -192,223 +222,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.jxsdky.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.jxsdky.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 江西省共青城市青年大道78号；江西省共青城市科教城青年大道78号大学生活动中心208/205办公室
-    availability: found
-    search_sources: []
-    source: https://www.jxsdky.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:江西省共青城市青年大道78号
-    - 招生就业处地址:江西省共青城市科教城青年大道78号大学生活动中心208/205办公室邮编:330027
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 江西师范大学科学技术学院位于江西省南昌市，主管部门为江西省教育厅。官网列示在校生15000余人（统计时间2025-12）。官网列示专任教师800余名（统计时间2025-12）。官网列示占地面积800亩（统计时间2025-12）。
+    value: 江西师范大学科学技术学院位于江西省南昌市，教育部名单列为本科，主管部门为江西省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.jxsdky.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 15000
-    availability: found
-    search_sources: []
-    source: https://www.jxsdky.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；近似/下界数，保留原标注：在校生15000余人；数据截至2025年12月
-    source_as_of: 2025-12
-    date_basis: 数据截至2025年12月
-    approximate: true
-    original_notation: 在校生15000余人
-  faculty_count:
-    value: 800
-    availability: found
-    search_sources: []
-    source: https://www.jxsdky.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；近似/下界数，保留原标注：专任教师800余名；数据截至2025年12月
-    source_as_of: 2025-12
-    date_basis: 数据截至2025年12月
-    approximate: true
-    original_notation: 专任教师800余名
-  campus_area_hectares:
-    value: 53.333333
-    availability: found
-    search_sources: []
-    source: https://www.jxsdky.edu.cn/xygk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积800亩；数据截至2025年12月
-    source_as_of: 2025-12
-    date_basis: 数据截至2025年12月
-    approximate: false
-    original_notation: 占地面积800亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0792-3561700'
-    availability: found
-    search_sources: []
-    source: https://www.jxsdky.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0792-3561700 0792-3561701
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

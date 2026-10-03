@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4111010858'
   name_zh: 北京科技职业大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Beijing Polytechnic University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q55453818&oldid=2474184349
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2474184349
+    source_sha256: e5af498edde5c46e8994dbcc8b1a8776d9d6bfa612d434f7309c294b5021aa19
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.bpu.edu.cn
     source: https://www.bpu.edu.cn
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +66,20 @@ research:
   audit_key: '4111010858'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#001048'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/818.jpg
+    checked_at: '2026-10-03'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 503eb1ecf38ff8b23f73485a
+    source_sha256: e1bc2d600df2c58ca1f85f329809938632eee763c26cd37c575bec4bdd9fa01b
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 706d78455adec9511b8b44c4
     kind: site_identity
@@ -132,8 +137,80 @@ visual:
     byte_size: 17342
     representation: raster
     resolved_url: https://www.bpu.edu.cn/images/logo.png
-  color_palette: []
+  - asset_id: 503eb1ecf38ff8b23f73485a
+    title: 北京科技职业大学教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/818.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/818/info.json
+    file_name: 818.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 北京科技职业大学
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    source_type: community_website
+    source_sha256: cbbeb5c2b8a1a37d30ca59d2c2ddaa8a14bf8b8635d07c3efe96e0cb36e4e692
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: e1bc2d600df2c58ca1f85f329809938632eee763c26cd37c575bec4bdd9fa01b
+    access_status: content_inspected
+    byte_size: 84019
+    format: jpeg
+    vector: false
+    width: 640
+    representation: raster
+    height: 640
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 逐图查看实际文件，图形使用当前完整中文校名或本校独立标识；平台来源，未认定本校直接发布、现行VI或授权。
+  color_palette:
+  - value: '#001048'
+    rgb:
+    - 0
+    - 16
+    - 72
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/818.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/818/info.json
+    asset_id: 503eb1ecf38ff8b23f73485a
+    source_sha256: e1bc2d600df2c58ca1f85f329809938632eee763c26cd37c575bec4bdd9fa01b
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#0068B0'
+    rgb:
+    - 0
+    - 104
+    - 176
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/818.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/818/info.json
+    asset_id: 503eb1ecf38ff8b23f73485a
+    source_sha256: e1bc2d600df2c58ca1f85f329809938632eee763c26cd37c575bec4bdd9fa01b
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 1958
@@ -150,7 +227,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -172,6 +248,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -194,221 +271,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://www.bpu.edu.cn/wwwz/
-    availability: found
-    search_sources: []
-    source: https://www.bpu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 北京经济技术开发区凉水河一街9号
-    availability: found
-    search_sources: []
-    source: https://www.bpu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:100176地址:北京经济技术开发区凉水河一街9号
-  postal_code:
-    value: '100176'
-    availability: found
-    search_sources: []
-    source: https://www.bpu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:100176地址:北京经济技术开发区凉水河一街9号
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 北京科技职业大学位于北京市，主管部门为北京市。官网列示全日制在校生10037人（统计日期未注明）。官网列示教职工885人（统计日期未注明）。
+    value: 北京科技职业大学位于北京市北京市，教育部名单列为本科，主管部门为北京市。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.bpu.edu.cn/xxgk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 10037
-    availability: found
-    search_sources: []
-    source: https://www.bpu.edu.cn/xxgk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；原标注：全日制在校生10037人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 全日制在校生10037人
-  faculty_count:
-    value: 885
-    availability: found
-    search_sources: []
-    source: https://www.bpu.edu.cn/xxgk/xyjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；原标注：教职工885人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职工885人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '联系电话: 010-87220669；招生咨询电话: 010-87220979'
-    availability: found
-    search_sources: []
-    source: https://www.bpu.edu.cn/xxgk/lxwm.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 联系电话:010-87220669，010-84612856
-    - 招生咨询电话:010-87220979，010-87220709
-  email:
-    value: zhaoshengban@bpu.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.bpu.edu.cn/xxgk/lxwm.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 招办邮箱:zhaoshengban@bpu.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -37,5 +37,8 @@
 - [南京信息工程大学标准色、辅助色.rar点击下载](https://www.nuist.edu.cn/wj/xybs/xybs4.rar)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nuist.edu.cn/xxgk/xybs.htm)。
 - [南京信息工程大学校徽、中英文校名全称组合规范.rar点击下载](https://www.nuist.edu.cn/wj/xybs/xybs5.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nuist.edu.cn/xxgk/xybs.htm)。
 - [南京信息工程大学校徽、中英文校名全称组合与二级单位名称组合规范.rar点击下载](https://www.nuist.edu.cn/wj/xybs/xybs7.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nuist.edu.cn/xxgk/xybs.htm)。
+- [南京信息工程大学校训、校风全称规范.rar点击下载](https://www.nuist.edu.cn/wj/xybs/xybs6.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nuist.edu.cn/xxgk/xybs.htm)。
+- [辅助图形（一）、辅助图形（二）.rar点击下载](https://www.nuist.edu.cn/wj/xybs/xybs8.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nuist.edu.cn/xxgk/xybs.htm)。
+- [矢量文件.rar点击下载](https://www.nuist.edu.cn/wj/xybs/xybs9.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nuist.edu.cn/xxgk/xybs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4144013810'
   name_zh: 肇庆医学院
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Zhaoqing Medical College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q85883598&oldid=2548501658
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548501658
+    source_sha256: 7cb536ebe6f5fa6edb8316afbb20d646db937cbdbb1ebea12baaa33535558d38
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.zqmc.edu.cn/
     source: https://www.zqmc.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -100,7 +98,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 33d51d9dfd1d842255fb4e36
     kind: site_identity
@@ -189,22 +186,20 @@ visual:
     checked_at: '2026-10-01'
     availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: auto
-    checked_at: '2026-10-01'
-    availability: conflict
+    value: 1958
+    availability: found
     search_sources: []
-    candidates:
-    - value: 1958
-      source: https://www.zqmc.edu.cn/xxgk/xxzc.htm
-      basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
-    - value: 2004
-      source: https://www.zqmc.edu.cn/xxgk/xxzc.htm
-      basis: 官网charter以本校为主语，描述所在地或性质后明确记载成立年份；未采用前身或院系的年份
-    note: 已存AI草稿与本轮官网候选不一致；两者均保留，等待核对原页和历史口径
+    basis: 本校现官网简介明确1958为历史办学起点，2004升格高专、2024升格本科；历史起点与升格年份分别保存于证据说明和纠错审计。
+    source: https://www.zqmc.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    evidence: 学校办学历史可追溯至1958年创建的中山医学院肇庆分院
+    collector: curated_ppt_core
+    retrieval: web_text_view
   motto:
     value: 大医精诚、知行合一
     source: https://www.zqmc.edu.cn/xxgk.htm
@@ -212,22 +207,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1958
-    event: 前身中山医学院肇庆分院创建
-    source: https://www.zqmc.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 2004
-    event: 升格为肇庆医学高等专科学校
-    source: https://www.zqmc.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 2024
-    event: 以原专科学校为基础设立肇庆医学院
-    source: https://www.zqmc.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -249,6 +228,22 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 1958
+    event: 前身中山医学院肇庆分院创建
+    source: https://www.zqmc.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 2004
+    event: 升格为肇庆医学高等专科学校
+    source: https://www.zqmc.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 2024
+    event: 以原专科学校为基础设立肇庆医学院
+    source: https://www.zqmc.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -271,236 +266,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.zqmc.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.zqmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://sxjy.zqmc.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.zqmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业指导
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 广东省肇庆市端州区西江南路6号；广东省肇庆市鼎湖区新城北18区团结路1号；广东省肇庆市肇庆新区丰乐路12号
-    availability: found
-    search_sources: []
-    source: https://www.zqmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 端州校区地址:广东省肇庆市端州区西江南路6号
-    - 鼎湖校区地址:广东省肇庆市鼎湖区新城北18区团结路1号
-    - 新区校区地址:广东省肇庆市肇庆新区丰乐路12号
-  postal_code:
-    value: '526020'
-    availability: found
-    search_sources: []
-    source: https://www.zqmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0758-2857135 传真:0758-2833484 邮编:526020
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 新区校区
-    address: null
-    coordinates: null
-    source: https://www.zqmc.edu.cn/xxgk.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 鼎湖校区
-    address: null
-    coordinates: null
-    source: https://www.zqmc.edu.cn/xxgk.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 端州校区
-    address: null
-    coordinates: null
-    source: https://www.zqmc.edu.cn/xxgk.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 肇庆医学院位于广东省肇庆市，主管部门为广东省。官网列示全日制在校生17958人（统计日期未注明）。简介列出新区校区、鼎湖校区、端州校区。
+    value: 肇庆医学院位于广东省肇庆市，教育部名单列为本科，主管部门为广东省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.zqmc.edu.cn/xxgk.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 17958
-    availability: found
-    search_sources: []
-    source: https://www.zqmc.edu.cn/xxgk.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；原标注：全日制在校生17958人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 全日制在校生17958人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: cwc@zqmc.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.zqmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 教育乱收费投诉举报邮箱:cwc@zqmc.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

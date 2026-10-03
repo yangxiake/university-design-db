@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4135012631'
   name_zh: 厦门医学院
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Xiamen Medical College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q17022954&oldid=2474186179
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2474186179
+    source_sha256: 8fd6da164f79b464d75c33d83604140fb2501a1a70dc2ac853d9266dac75b8eb
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.xmmc.edu.cn/
     source: https://www.xmmc.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -102,7 +100,6 @@ visual:
     availability: found
     search_sources: []
     note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: ed747078a80c62bdda36662e
     kind: site_identity
@@ -260,14 +257,21 @@ visual:
     availability: found
     source_sha256: f4ca294e7fcbc1022a31fd8877f38bda50e1b706b907a06d3128133d043b25d5
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1953
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q17022954&oldid=2474186179
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2474186179
+    source_sha256: 8fd6da164f79b464d75c33d83604140fb2501a1a70dc2ac853d9266dac75b8eb
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: 德厚立人、术湛立业
     source: https://www.xmmc.edu.cn/
@@ -275,7 +279,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -297,6 +300,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -319,231 +323,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.xmmc.edu.cn/zsjy/zsxx.htm
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: https://www.xmmc.edu.cn/jyw/
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业服务
-  english_website:
-    value: https://www.xmmc.edu.cn/index/English.htm
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://www.xmmc.edu.cn/xxgkw/
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: '361023'
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地 址:福建省厦门市集美区灌口中路1999号 邮编:361023
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 厦门医学院位于福建省厦门市，主管部门为福建省。官网列示在校生8400人（统计时间2026-04-30）。官网列示校园总占地面积885亩（统计时间2026-04-30）。
+    value: 厦门医学院位于福建省厦门市，教育部名单列为本科，主管部门为福建省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.xmmc.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 8400
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；原标注：在校生8400人；数据截至2026年4月30日
-    source_as_of: '2026-04-30'
-    date_basis: 数据截至2026年4月30日
-    approximate: false
-    original_notation: 在校生8400人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 59.0
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 校园总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：校园总占地面积885亩；数据截至2026年4月30日
-    source_as_of: '2026-04-30'
-    date_basis: 数据截至2026年4月30日
-    approximate: false
-    original_notation: 校园总占地面积885亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '联系电话: 0592-2103085；招生电话: 0592-6275566'
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 联系电话:0592-2103085 (党政办公室) 0592-2022885(总值班室) 传 真:0592-2070806
-    - '招生电话:0592-6275566、0592-6375566 党政办邮箱: bgs@xmmc.edu.cn'
-  email:
-    value: bgs@xmmc.edu.cn；shuji@xmmc.edu.cn；xiaozhang@xmmc.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.xmmc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - '招生电话:0592-6275566、0592-6375566 党政办邮箱: bgs@xmmc.edu.cn'
-    - 书记邮箱 shuji@xmmc.edu.cn
-    - 校长邮箱 xiaozhang@xmmc.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

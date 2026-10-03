@@ -23,6 +23,8 @@
 |  | `#009840` | 0,152,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#00A040` | 0,160,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#00A048` | 0,160,72 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 校徽主色绿 | 未公布 | 未公布 | primary | [95, 45, 95, 5] |  | 官方VI标准值 | [依据](https://www.gpnu.edu.cn/xxgk/xhxxxg.htm) |
+| 校徽主色红 | 未公布 | 未公布 | primary | [0, 100, 100, 0] |  | 官方VI标准值 | [依据](https://www.gpnu.edu.cn/xxgk/xhxxxg.htm) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -33,5 +35,6 @@
 - [3.校名（3色）.pdf](https://news.gpnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1351749006&wbfileid=2187261)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.gpnu.edu.cn/info/1081/3195.htm)。
 - [4.校徽（3色）.pdf](https://news.gpnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1351749006&wbfileid=2187260)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.gpnu.edu.cn/info/1081/3195.htm)。
 - [1.校徽（常用）.pdf](https://news.gpnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1351749006&wbfileid=2187258)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.gpnu.edu.cn/info/1081/3195.htm)。
+- [广东技术师范大学官方视觉规范](https://www.gpnu.edu.cn/xxgk/xhxxxg.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.gpnu.edu.cn/xxgk/xhxxxg.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -36,5 +36,7 @@
   - 发布者：urongda 校徽大全；适用范围：未明确。
 - [兰州资源环境职业技术大学vis.pdf](https://url90.ctfile.com/f/56298190-1447143844-9210b0?p=urongda)：["校徽文件入口"]；格式 PDF；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4162016208)。
   - 发布者：urongda 校徽大全；适用范围：未明确。
+- [校标-兰州资源环境职业技术大学](https://www.lzre.edu.cn/xywh1/yxzh/xb.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lzre.edu.cn/xywh1/yxzh/xb.htm)。
+- [校徽矢量图.rar](https://www.lzre.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2037682119&wbfileid=7963248)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lzre.edu.cn/xywh1/yxzh/xb.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

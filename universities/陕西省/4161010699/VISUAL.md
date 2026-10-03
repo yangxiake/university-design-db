@@ -41,5 +41,9 @@
 
 - 现有VI入口：[https://news.nwpu.edu.cn/xcb/index/xxsbxt.htm](https://news.nwpu.edu.cn/xcb/index/xxsbxt.htm)
 - [形象识别VIS-视窗-西北工业大学新闻网](https://news.nwpu.edu.cn/zdzy/link/xxsbvis/xxsb.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.nwpu.edu.cn/zdzy/link/xxsbvis/xxsb.htm)。
+- [形象识别系统-视窗-西北工业大学新闻网](https://news.nwpu.edu.cn/xcb/index/xxsbxt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.nwpu.edu.cn/xcb/index/xxsbxt.htm)。
+- [【下载】校标校名标准字标准色矢量图](https://news.nwpu.edu.cn/20180109.zip)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.nwpu.edu.cn/xcb/index/xxsbxt.htm)。
+- [西北工业大学校标-视窗-西北工业大学新闻网](https://news.nwpu.edu.cn/info/1210/46709.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.nwpu.edu.cn/info/1210/46709.htm)。
+- [下载校标大图](https://news.nwpu.edu.cn/biaoshi.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.nwpu.edu.cn/info/1210/46709.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

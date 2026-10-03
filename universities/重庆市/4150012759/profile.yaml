@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4150012759'
   name_zh: 重庆工程职业技术大学
@@ -9,12 +9,17 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Chongqing Polytechnic University of Engineering
+    availability: found
     search_sources: []
+    source: https://ccvea.wzvtc.cn/284493/list.htm
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    source_sha256: 45fed499a53d4cf67092b84fc5f3e1abba6f436ca313f6aa82bcdc025862162d
+    evidence: 重庆工程职业技术大学Chongqing Polytechnic University of Engineering
+    collector: curated_ppt_core
+    basis: 温州职业技术大学运营的中柬联盟成员目录按“学校/英文名”列对照当前完整中文校名；第三方院校发布，非本校命名证明。
   official_website:
     value: null
     source: null
@@ -43,14 +48,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -74,12 +71,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0050B0'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/1595.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 93eb4688ea3db01796f77a23
+    source_sha256: aaa2d7565b82b0fff86f4f9eebe943a55d1f1b9b6c8a3f37336f847eaedef306
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -101,18 +106,93 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 93eb4688ea3db01796f77a23
+    title: 重庆工程职业技术大学教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/1595.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/1595/info.json
+    file_name: 1595.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 重庆工程职业技术大学
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: e03f1fa8ef998ce5dd52c6ff8cdf145fa6d9da44e6513bf7f97e1921bc4781fd
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: aaa2d7565b82b0fff86f4f9eebe943a55d1f1b9b6c8a3f37336f847eaedef306
+    access_status: content_inspected
+    byte_size: 130935
+    format: jpeg
+    vector: false
+    width: 800
+    representation: raster
+    height: 800
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#0050B0'
+    rgb:
+    - 0
+    - 80
+    - 176
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1595.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1595/info.json
+    asset_id: 93eb4688ea3db01796f77a23
+    source_sha256: aaa2d7565b82b0fff86f4f9eebe943a55d1f1b9b6c8a3f37336f847eaedef306
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#0048A8'
+    rgb:
+    - 0
+    - 72
+    - 168
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1595.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1595/info.json
+    asset_id: 93eb4688ea3db01796f77a23
+    source_sha256: aaa2d7565b82b0fff86f4f9eebe943a55d1f1b9b6c8a3f37336f847eaedef306
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1951
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/www/2.0/school/1595/info.json
+    source_sha256: e03f1fa8ef998ce5dd52c6ff8cdf145fa6d9da44e6513bf7f97e1921bc4781fd
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: eol_core
+    basis: 教育在线同校资料缓存create_date原值；平台整理记录，未独立确认前身、现名设立或升本口径。
   motto:
     value: null
     source: null
@@ -120,7 +200,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -142,6 +221,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -164,182 +244,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 重庆工程职业技术大学位于重庆市重庆市，教育部名单列为本科，主管部门为重庆市。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

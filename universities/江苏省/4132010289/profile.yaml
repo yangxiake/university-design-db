@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132010289'
   name_zh: 江苏科技大学
@@ -43,34 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - jiangsu-university-of-science-and-technology
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江苏科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: jiangsu-3
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江苏科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -87,12 +59,20 @@ research:
   audit_key: '4132010289'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0090D0'
+    availability: found
     search_sources: []
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Jiangsu_University_of_Science_and_Technology/png/logo_blue_800x800.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 592e31788e97db92
+    source_sha256: b1414a3a1da7c8faf5489b46acb8b5f059ce30ffc2f8759b616d6858e4f18f04
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -116,7 +96,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 854fca629da07be0
     title: 江苏科技大学校徽资源
@@ -322,6 +301,76 @@ visual:
     inspection_attempts:
     - url: https://www.just.edu.cn/_upload/tpl/02/23/547/template547/images/nylogo.png
       status: content_inspected
+  - archive_url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    archive_sha256: 5e87bc3e52cf24232c0c308e9ab05a71c98d82ef07cbea478d30e66cfdc5eb0b
+    archive_member: ╨ú├√║═╨ú╗╒PNG╬─╝■/╜¡╦╒┐╞╝╝┤≤╤ºPNG.png
+    archive_member_display: 校名和校徽PNG文件/江苏科技大学PNG.png
+    checked_at: '2026-10-02'
+    sha256: edc6293f7e962e5486adffbc2ffe5435f4d5063c959003f35f798494b72e9e83
+    access_status: content_inspected
+    byte_size: 154017
+    format: png
+    vector: false
+    width: 1577
+    representation: raster
+    height: 323
+    has_alpha: true
+    transparent_background: true
+    asset_id: e91adb2dbb0c415eabbdc9c9
+    kind: combination
+    title: 江苏科技大学官方附件内标识：江苏科技大学PNG.png
+    url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    source: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    publisher: 江苏科技大学
+    official: true
+    download_kind: archive_member
+    file_name: 江苏科技大学PNG.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江苏科技大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI逐张实读图形：完整当前中文校名、对应学校徽形及英文文字一致。分别为徽名组合、纯校徽、徽名组合；非规范示意页或纪念徽。学校官网原ZIP明确发布。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    archive_sha256: 5e87bc3e52cf24232c0c308e9ab05a71c98d82ef07cbea478d30e66cfdc5eb0b
+    archive_member: ╨ú├√║═╨ú╗╒PNG╬─╝■/╨ú╗╒.png
+    archive_member_display: 校名和校徽PNG文件/校徽.png
+    checked_at: '2026-10-02'
+    sha256: 46d7e3153194efda80c19d334f5e68efb6db8df4b004b2d02f2f997ce80b7c62
+    access_status: content_inspected
+    byte_size: 158356
+    format: png
+    vector: false
+    width: 972
+    representation: raster
+    height: 750
+    has_alpha: true
+    transparent_background: true
+    asset_id: 1e3f2bf4f8efb73a22476103
+    kind: badge
+    title: 江苏科技大学官方附件内标识：校徽.png
+    url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    source: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    publisher: 江苏科技大学
+    official: true
+    download_kind: archive_member
+    file_name: 校徽.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江苏科技大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI逐张实读图形：完整当前中文校名、对应学校徽形及英文文字一致。分别为徽名组合、纯校徽、徽名组合；非规范示意页或纪念徽。学校官网原ZIP明确发布。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#0090D0'
     rgb:
@@ -516,8 +565,10 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: ec3c7773c652b677a920a1a475be6b513b3c54a0ac823de48082998e0724d6af
+    source_sha256: 1d626c65f331f3e44b558193d47500654165dee61bfb375be716d4a7e33d6f1c
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 视觉形象识别系统
     url: https://www.just.edu.cn/UIS/
     kinds:
@@ -532,8 +583,10 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: acdf6dbda9afb5e13c8632ee63be5411ffdd87860e9c76d44fde639bd6f59973
+    source_sha256: b60aec74f7c890173fd39ae23ac0c1a8f8dbcabccfe08ef7889cb74d1d7ead3e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校标校训
     url: https://www.just.edu.cn/12022/list.htm
     kinds:
@@ -548,9 +601,11 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: 092678cb4c3a2d27b621da535e3b89f04d3434521a6314d87ad5d6753724e8d1
+    source_sha256: 4a26ce5f37cd8d78bb3cc148513c84412892f3dc1c37720fdb4061b1932a91b9
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
-  - title: 校徽规范
+    content_read: true
+    download_status: page_read
+  - title: 标准彩色校徽
     url: https://www.just.edu.cn/UIS/10392/list.htm
     kinds:
     - 校徽/校名介绍及资源
@@ -564,8 +619,10 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: 5cf76360513b97c74b585406c7ec6b4d593c507ccfe9d5e053da43806f4cdc1f
+    source_sha256: a83eb49fe0bbf32e47136bcbbda229a493107ea9f9b77b0b71102a53904c52f0
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校徽AI文件.zip
     url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/8cb70f13-9613-4a62-aea6-c546caadec03.zip
     kinds:
@@ -580,8 +637,10 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: 5cf76360513b97c74b585406c7ec6b4d593c507ccfe9d5e053da43806f4cdc1f
+    source_sha256: a83eb49fe0bbf32e47136bcbbda229a493107ea9f9b77b0b71102a53904c52f0
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校名AI文件.zip
     url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/e902360b-0dc7-4b04-8f60-e4e124f7b3dc.zip
     kinds:
@@ -596,8 +655,10 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: 5cf76360513b97c74b585406c7ec6b4d593c507ccfe9d5e053da43806f4cdc1f
+    source_sha256: a83eb49fe0bbf32e47136bcbbda229a493107ea9f9b77b0b71102a53904c52f0
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校名和校徽PNG文件.zip
     url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
     kinds:
@@ -612,21 +673,259 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: 5cf76360513b97c74b585406c7ec6b4d593c507ccfe9d5e053da43806f4cdc1f
+    source_sha256: a83eb49fe0bbf32e47136bcbbda229a493107ea9f9b77b0b71102a53904c52f0
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 常用文件下载发布时间：2022-01-18
+    url: https://www.just.edu.cn/_upload/article/files/2e/f1/072d08bd43aab579c0cdffbf7fa0/c7799304-7a32-4af7-a795-9e83205489a4.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b60aec74f7c890173fd39ae23ac0c1a8f8dbcabccfe08ef7889cb74d1d7ead3e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 常用校标组合列表彩色稿
+    url: https://www.just.edu.cn/UIS/10395/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/10395/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 272d8f46d200225d2970e74a76a06471f0fffb6e7adb7ebe183b7b5344a8b402
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校标组合规范.zip
+    url: https://www.just.edu.cn/_upload/article/files/98/6e/f9efe7fb4ced9367e44b39755978/2f25ffaa-da91-4ccf-8453-32674150b59f.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/10395/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 272d8f46d200225d2970e74a76a06471f0fffb6e7adb7ebe183b7b5344a8b402
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 江苏科技大学视觉形象识别系统使用规范
+    url: https://www.just.edu.cn/UIS/2022/0118/c10429a301487/page.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.just.edu.cn/UIS/2022/0118/c10429a301487/page.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ff60361be365cf599f03fc984c29069f3fa2713fc810ae2d54604e4543f75052
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    source: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    title: 校名和校徽PNG文件.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    publisher: 江苏科技大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 实际读取容器结构并记录哈希；本记录不表示所有文件都已逐张核验，也不表示其中有可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+        status: file_read
+        url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+      resolved_url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/4d291d7d-f2b7-4f14-b356-cdafcc5228d9.zip
+    file_metadata:
+      byte_size: 310062
+      format: ZIP
+      member_count: 2
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 5e87bc3e52cf24232c0c308e9ab05a71c98d82ef07cbea478d30e66cfdc5eb0b
+    content_read: true
+    download_status: content_inspected
+  - url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/8cb70f13-9613-4a62-aea6-c546caadec03.zip
+    source: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/8cb70f13-9613-4a62-aea6-c546caadec03.zip
+    title: 校徽AI文件.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    publisher: 江苏科技大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 实际读取容器结构并记录哈希；本记录不表示所有文件都已逐张核验，也不表示其中有可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/8cb70f13-9613-4a62-aea6-c546caadec03.zip
+        status: file_read
+        url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/8cb70f13-9613-4a62-aea6-c546caadec03.zip
+      resolved_url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/8cb70f13-9613-4a62-aea6-c546caadec03.zip
+    file_metadata:
+      byte_size: 370194
+      format: ZIP
+      member_count: 1
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: bbb8e463719a3c769a954a15d78a2a6fbd8897d333c0ec3330a67dea45d8878e
+    content_read: true
+    download_status: content_inspected
+  - url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/e902360b-0dc7-4b04-8f60-e4e124f7b3dc.zip
+    source: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/e902360b-0dc7-4b04-8f60-e4e124f7b3dc.zip
+    title: 校名AI文件.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    publisher: 江苏科技大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 实际读取容器结构并记录哈希；本记录不表示所有文件都已逐张核验，也不表示其中有可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/e902360b-0dc7-4b04-8f60-e4e124f7b3dc.zip
+        status: file_read
+        url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/e902360b-0dc7-4b04-8f60-e4e124f7b3dc.zip
+      resolved_url: https://www.just.edu.cn/_upload/article/files/70/55/cd5b78d744309983be657e74ca36/e902360b-0dc7-4b04-8f60-e4e124f7b3dc.zip
+    file_metadata:
+      byte_size: 218590
+      format: ZIP
+      member_count: 1
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 8b761f9e2390acf518cabdc95982f201fcf13250fcfff9926b9003572198fe6f
+    content_read: true
+    download_status: content_inspected
+  - url: https://www.just.edu.cn/_upload/article/files/98/6e/f9efe7fb4ced9367e44b39755978/2f25ffaa-da91-4ccf-8453-32674150b59f.zip
+    source: https://www.just.edu.cn/_upload/article/files/98/6e/f9efe7fb4ced9367e44b39755978/2f25ffaa-da91-4ccf-8453-32674150b59f.zip
+    title: 校标组合规范.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    publisher: 江苏科技大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 实际读取容器结构并记录哈希；本记录不表示所有文件都已逐张核验，也不表示其中有可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.just.edu.cn/_upload/article/files/98/6e/f9efe7fb4ced9367e44b39755978/2f25ffaa-da91-4ccf-8453-32674150b59f.zip
+        status: file_read
+        url: https://www.just.edu.cn/_upload/article/files/98/6e/f9efe7fb4ced9367e44b39755978/2f25ffaa-da91-4ccf-8453-32674150b59f.zip
+      resolved_url: https://www.just.edu.cn/_upload/article/files/98/6e/f9efe7fb4ced9367e44b39755978/2f25ffaa-da91-4ccf-8453-32674150b59f.zip
+    file_metadata:
+      byte_size: 6602149
+      format: ZIP
+      member_count: 1
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: f2db89ff265bb8b0c2a91898fbff78a2773aa7bd5b3a9cd4abfcabd773afefef
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
+    value: 1933
+    availability: found
+    search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q11135052&oldid=2527385270
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2527385270
+    source_sha256: 165bdf33b056211804a8b324ce7eb65dbec5c543843f814f0974328612293e8c
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
+  motto:
+    value: 笃学明德、经世致用
+    source: https://www.just.edu.cn/11991/list.htm
+    verified: auto
+    checked_at: '2026-09-30'
+    availability: found
+    search_sources: []
+  flower:
     value: null
     source: null
     verified: unverified
     checked_at: null
     availability: unresearched
     search_sources: []
-  motto:
-    value: 笃学明德、经世致用
-    source: https://www.just.edu.cn/11991/list.htm
+  mascot:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  anthem:
+    value: 《江苏科技大学校歌》
+    source: https://www.just.edu.cn/11995/list.htm
     verified: auto
-    checked_at: '2026-09-30'
+    checked_at: '2026-10-01'
     availability: found
     search_sources: []
   history_events:
@@ -655,27 +954,6 @@ culture:
     source: https://www.just.edu.cn/11995/list.htm
     verified: auto
     checked_at: '2026-10-01'
-  flower:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  mascot:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  anthem:
-    value: 《江苏科技大学校歌》
-    source: https://www.just.edu.cn/11995/list.htm
-    verified: auto
-    checked_at: '2026-10-01'
-    availability: found
-    search_sources: []
 resources:
   official_templates_url:
     value: null
@@ -710,340 +988,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: http://just.91job.org.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 江苏科技大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://en.just.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.just.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: https://xxgknew.just.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.just.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 江苏科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江苏科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
 overview:
   summary_zh:
-    value: 江苏科技大学位于江苏省镇江市，主管部门为江苏省。官网列示在校学生5000余人（统计日期未注明）。官网列示教职工2500余人（统计日期未注明）。官网列示占地面积2650亩（统计日期未注明）。
+    value: 江苏科技大学位于江苏省镇江市，教育部名单列为本科，主管部门为江苏省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.just.edu.cn/11991/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 5000
-    availability: found
-    search_sources: []
-    source: https://www.just.edu.cn/11991/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校学生；近似/下界数，保留原标注：在校学生5000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校学生5000余人
-  faculty_count:
-    value: 2500
-    availability: found
-    search_sources: []
-    source: https://www.just.edu.cn/11991/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工2500余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工2500余人
-  campus_area_hectares:
-    value: 176.666667
-    availability: found
-    search_sources: []
-    source: https://www.just.edu.cn/11991/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积2650亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地面积2650亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 一级学科博士学位授权点：6个；统计时间undated
-    - 博士专业学位授权点：1个；统计时间undated
-    - 一级学科硕士学位授权点：26个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.just.edu.cn/11991/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 156
-    score: 186.8
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 江苏科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 141
-    score: 224.9
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/jiangsu-university-of-science-and-technology
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 江苏科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4132010289'
-    upstream_record_name: 江苏科技大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4132010289'
-    upstream_record_name: 江苏科技大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4132010289'
-    upstream_record_name: Jiangsu University of Science and Technology
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

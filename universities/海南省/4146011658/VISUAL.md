@@ -32,5 +32,6 @@
 
 - 现有VI入口：[https://xctzb.hainnu.edu.cn/2023/1129/c127a500/page.htm](https://xctzb.hainnu.edu.cn/2023/1129/c127a500/page.htm)
 - [海南师范大学学校标识](https://xctzb.hainnu.edu.cn/2023/1129/c127a500/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xctzb.hainnu.edu.cn/2023/1129/c127a500/page.htm)。
+- [点击下载标准图形](https://xctzb.hainnu.edu.cn/_upload/article/files/57/45/0247f9d9433b88dd4e44ffdd43f0/4050325c-8ad1-4ec9-8cca-660592b94f7f.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xctzb.hainnu.edu.cn/2023/1129/c127a500/page.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

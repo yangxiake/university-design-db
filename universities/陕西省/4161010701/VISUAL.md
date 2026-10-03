@@ -15,6 +15,10 @@
 | 校徽 | 西安电子科技大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/西安电子科技大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 230 × 230 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://news.xidian.edu.cn/mobile/images/logo.png) · [来源](https://news.xidian.edu.cn/info/1016/4376.htm) | 官网 | png | 726 × 126 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://news.xidian.edu.cn/images/logo.png) · [来源](https://news.xidian.edu.cn/info/1016/4376.htm) | 官网 | png | 518 × 97 | content_inspected | 未独立声明 |
+| 校徽 | 西电新标志1.jpg | [压缩包](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F) 内 `西安电子科技大学校徽校名（JPG版本）/西电新标志1.jpg` · [来源](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F) | 官网 | jpeg | 1870 × 1870 | content_inspected | 未独立声明 |
+| 组合标识 | 西电新标志2.jpg | [压缩包](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F) 内 `西安电子科技大学校徽校名（JPG版本）/西电新标志2.jpg` · [来源](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F) | 官网 | jpeg | 2469 × 718 | content_inspected | 未独立声明 |
+| 组合标识 | 西电新标志3.jpg | [压缩包](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F) 内 `西安电子科技大学校徽校名（JPG版本）/西电新标志3.jpg` · [来源](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F) | 官网 | jpeg | 1591 × 1621 | content_inspected | 未独立声明 |
+| 校名文字 | 西电新标志4.jpg | [压缩包](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F) 内 `西安电子科技大学校徽校名（JPG版本）/西电新标志4.jpg` · [来源](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F) | 官网 | jpeg | 4403 × 1285 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -41,5 +45,8 @@
 
 - 现有VI入口：[https://news.xidian.edu.cn/info/1016/4376.htm](https://news.xidian.edu.cn/info/1016/4376.htm)
 - [关于启用西安电子科技大学视觉识别系统的通知-西安电子科技大学新闻网](https://news.xidian.edu.cn/info/1016/4376.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.xidian.edu.cn/info/1016/4376.htm)。
+- [西安电子科技大学校徽校名（JPG版本）-西安电子科技大学—党委宣传网](https://xcb.xidian.edu.cn/info/1008/1094.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.xidian.edu.cn/info/1008/1094.htm)。
+- [西安电子科技大学校徽校名（JPG版本）.zip](https://xcb.xidian.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1238761813&wbfileid=631EE5D8F03E36FD8F94468CB9AB701F)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://xcb.xidian.edu.cn/info/1008/1094.htm)。
+  - 文件容器已读取：ZIP；2103508字节；读取类型archive_structure；文件SHA256 `a6a9634c44ecc83cee5864fd3fb8b930a7def04883fe12090d0926e0a331fb4b`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

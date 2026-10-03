@@ -30,6 +30,7 @@
 
 - 现有VI入口：[https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)
 - [学校视觉识别系统](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)。
-- [赣南师范大学校名校徽规范样式](https://www.gnnu.edu.cn/__local/8/8B/37/72BD839E14D40B545BF0F23BB52_862CB3FF_127E790.zip?e=.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)。
+- [赣南师范大学校名校徽规范样式](https://www.gnnu.edu.cn/__local/8/8B/37/72BD839E14D40B545BF0F23BB52_862CB3FF_127E790.zip?e=.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.gnnu.edu.cn/xxgk/xxsjsbxt.htm)。
+  - 文件容器已读取：ZIP；19392400字节；读取类型archive_structure；文件SHA256 `6374abe5e0c1559d6d15641a0ceb37e6ea2416cfe9075b3660592111df3283d1`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

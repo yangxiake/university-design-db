@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4134014203'
   name_zh: 皖江工学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Wanjiang University of Technology
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q28412552&oldid=2548513657
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548513657
+    source_sha256: 97215a1c9f4f09f0f3d3a9187e00d72c4e3879024f46e5ea487854f854d76d58
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.wjut.edu.cn/
     source: https://www.wjut.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -67,12 +65,20 @@ research:
   audit_key: '4134014203'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0020B0'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/2415.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: b4b7f1f1f4df1c40e657f8b5
+    source_sha256: 59ad77df86cbf267800a6f433a5d91b8ead6bde8aac624682c307f075e27c0af
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -94,18 +100,126 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 8596854f83ae774a356f767e
+    kind: combination
+    title: 皖江工学院官网页头标识（实读）
+    url: https://www.wjut.edu.cn/2022img/logo-theme-white.png
+    source: https://www.wjut.edu.cn/
+    file_name: logo-theme-white.png
+    publisher: 皖江工学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 皖江工学院
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    usage_note: 校方网页公开发布。当前标识设计年份及独立图形许可未确认；按校方规范使用，图形只索引，不再分发。反白校徽与中英文校名组合；文件取色仅作PPT设计参考。
+    source_type: official_website
+    identity_basis:
+      basis: 已确认学校首页HTML中明确引用的页头文件，AI实读原图后核对当前学校完整名称与图形构成；反白校徽与中英文校名组合。
+    sha256: 68e5a8a27fac9eeceeb7dc3fa3ce66651dbec5223e0998fd53badac06db6e9c8
+    access_status: content_inspected
+    byte_size: 29567
+    format: png
+    vector: false
+    width: 280
+    representation: raster
+    height: 63
+    has_alpha: true
+    transparent_background: true
+    source_sha256: 3bdb878b12fe2228b1e0aa6a43845b1b12d96bf10eeb8b6c85dae04d20c3a035
+  - asset_id: b4b7f1f1f4df1c40e657f8b5
+    title: 皖江工学院教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/2415.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/2415/info.json
+    file_name: 2415.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 皖江工学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: 54fbb101fb3b1cd2ddd09c3f18e772d11cc1b7504d77d704901db639d48cc746
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: 59ad77df86cbf267800a6f433a5d91b8ead6bde8aac624682c307f075e27c0af
+    access_status: content_inspected
+    byte_size: 13890
+    format: jpeg
+    vector: false
+    width: 200
+    representation: raster
+    height: 200
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#0020B0'
+    rgb:
+    - 0
+    - 32
+    - 176
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2415.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2415/info.json
+    asset_id: b4b7f1f1f4df1c40e657f8b5
+    source_sha256: 59ad77df86cbf267800a6f433a5d91b8ead6bde8aac624682c307f075e27c0af
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#0020B8'
+    rgb:
+    - 0
+    - 32
+    - 184
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2415.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2415/info.json
+    asset_id: b4b7f1f1f4df1c40e657f8b5
+    source_sha256: 59ad77df86cbf267800a6f433a5d91b8ead6bde8aac624682c307f075e27c0af
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2008
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q28412552&oldid=2548513657
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548513657
+    source_sha256: 97215a1c9f4f09f0f3d3a9187e00d72c4e3879024f46e5ea487854f854d76d58
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -113,7 +227,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -135,6 +248,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -157,194 +271,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.wjut.edu.cn/gonggongfuwu/xinxigongkai
-    availability: found
-    search_sources: []
-    source: https://www.wjut.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '办公室电话: (0555)5222015；招生咨询电话: (0555)5222666'
+    value: 皖江工学院位于安徽省马鞍山市，教育部名单列为本科，主管部门为安徽省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.wjut.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 校办公室电话:(0555)5222015
-    - 招生咨询电话:(0555)5222666/(0555)5228888
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

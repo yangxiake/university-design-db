@@ -37,5 +37,6 @@
 - [中央财经大学视觉形象识别系统(点击可下载）](https://www.cufe.edu.cn/cufeshijuexingxiangshibiexitong.rar)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cufe.edu.cn/info/1033/1072.htm)。
 - [校名](https://www.cufe.edu.cn/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cufe.edu.cn/xxgk/xxbs.htm)。
 - [中央财经大学视觉形象识别系统(点击可下载）](https://www.cufe.edu.cn/cufeshijuexingxiangshibiexitong.rar)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cufe.edu.cn/xxgk/xxbs.htm)。
+- [点击此处下载](https://www.cufe.edu.cn/Logo.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cufe.edu.cn/xxgk/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

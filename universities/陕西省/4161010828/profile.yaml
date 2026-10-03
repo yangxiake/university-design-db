@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4161010828'
   name_zh: 陕西工业职业技术大学
@@ -9,19 +9,27 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Shaanxi Polytechnic University
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_27_shanxi/a_60/a_60.html
+    source_sha256: be37ba51a72595c065e1f1cd25f669080fa8816b71036d5306b1c3b9f7e14b75
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://www.sxpi.edu.cn/
+    availability: found
     search_sources: []
+    source: http://www.sxpi.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 候选学校网站明确版权主体为教育部名单中的完整校名；主页或同主机明确首页链接。标题简称、新闻提及与旧名不作为独立确认依据。
+    evidence: 版权所有2026陕西工业职业技术大学信息化建设中心陕ICP备08104344号
+    source_sha256: 5197ac0a08a68fd9e3b9a8c1d2ab91b0494614d0dd5028c0fa81ef501c29cc7c
   short_name_zh:
     value: null
     source: null
@@ -43,14 +51,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -74,12 +74,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#284090'
+    availability: found
     search_sources: []
+    source: http://www.sxpi.edu.cn/images/logos.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: 8490f54322e574b684cc1b78
+    source_sha256: b4e25684c56f54a10e1f61e0a93e4d39c3929e965a5e061bd9de35c4674ff8d2
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -101,26 +109,147 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: e3c0796e77bad6b18dba34cb
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: http://www.sxpi.edu.cn/images/logo.png
+    source: http://www.sxpi.edu.cn/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 陕西工业职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 陕西工业职业技术大学
+    format: png
+    width: 419
+    height: 103
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: 85c48cda03e034d98771f43ee1070cf2712aad18b604f4330481a42068ce1eea
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 5197ac0a08a68fd9e3b9a8c1d2ab91b0494614d0dd5028c0fa81ef501c29cc7c
+    identity_basis:
+      src: images/logo.png
+      label: '  i1 '
+      context: 'header header1  wp flexjs  logo   '
+      position: 1
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    byte_size: 15192
+    representation: raster
+    resolved_url: http://www.sxpi.edu.cn/images/logo.png
+    inspection_attempts:
+    - url: http://www.sxpi.edu.cn/images/logo.png
+      status: content_inspected
+  - asset_id: 8490f54322e574b684cc1b78
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: http://www.sxpi.edu.cn/images/logos.png
+    source: http://www.sxpi.edu.cn/
+    file_name: logos.png
+    upstream_path: null
+    publisher: 陕西工业职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 陕西工业职业技术大学
+    format: png
+    width: 419
+    height: 103
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: b4e25684c56f54a10e1f61e0a93e4d39c3929e965a5e061bd9de35c4674ff8d2
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 5197ac0a08a68fd9e3b9a8c1d2ab91b0494614d0dd5028c0fa81ef501c29cc7c
+    identity_basis:
+      src: images/logos.png
+      label: '  i1 '
+      context: 'header header2  wp flexjs  logo  a '
+      position: 11
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    byte_size: 30213
+    representation: raster
+    resolved_url: http://www.sxpi.edu.cn/images/logos.png
+    inspection_attempts:
+    - url: http://www.sxpi.edu.cn/images/logos.png
+      status: content_inspected
+  color_palette:
+  - value: '#284090'
+    rgb:
+    - 40
+    - 64
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.sxpi.edu.cn/images/logos.png
+    page_source: http://www.sxpi.edu.cn/
+    asset_id: 8490f54322e574b684cc1b78
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#284098'
+    rgb:
+    - 40
+    - 64
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.sxpi.edu.cn/images/logos.png
+    page_source: http://www.sxpi.edu.cn/
+    asset_id: 8490f54322e574b684cc1b78
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1950
+    availability: found
     search_sources: []
+    source: http://www.sxpi.edu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    source_sha256: 171b8eb5e2fbeb4b0e0cc21d7e97d8d39feebfcd17e3d7b3693da1c1d96fc35f
+    collector: read_overview_identity_facts
+    basis: 官网overview页直接记载学校成立年份；未将更名年份或院系年份当作建校年
+    previous_status: unresearched
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 明德、笃学、精艺、强身
+    availability: found
     search_sources: []
-  history_events: []
+    source: http://www.sxpi.edu.cn/xxgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    source_sha256: 171b8eb5e2fbeb4b0e0cc21d7e97d8d39feebfcd17e3d7b3693da1c1d96fc35f
+    collector: read_overview_identity_facts
+    basis: 学校官网简介页直接记载的本校事实
+    previous_status: unresearched
   flower:
     value: null
     source: null
@@ -142,6 +271,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -164,182 +294,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 陕西工业职业技术大学位于陕西省咸阳市，教育部名单列为本科，主管部门为陕西省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

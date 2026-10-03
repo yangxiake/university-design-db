@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4142010495'
   name_zh: 武汉纺织大学
@@ -43,34 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - wuhan-textile-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 武汉纺织大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: wuhan-textile
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 武汉纺织大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -87,19 +59,39 @@ research:
   audit_key: '4142010495'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#003378'
+    source: https://vi.wtu.edu.cn/__local/B/36/FC/E1C91F1C351BA76A5F49C8DC414_4E9D1FBC_59417.jpg
+    method: official_vi
+    label: 纺大蓝
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。蓝红均为标准色；RGB与HEX相符，导出顺序不表示级别。
+    cmyk:
+    - 100
+    - 72
+    - 0
+    - 38
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 1a7c83a0c750c17eb563964ed8e86fa91bae479e7e7005e4a49551cf06a2a0fe
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#A61625'
+    source: https://vi.wtu.edu.cn/__local/B/36/FC/E1C91F1C351BA76A5F49C8DC414_4E9D1FBC_59417.jpg
+    method: official_vi
+    label: 纺大红
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。蓝红均为标准色；RGB与HEX相符，导出顺序不表示级别。
+    cmyk:
+    - 41
+    - 100
+    - 98
+    - 8
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 1a7c83a0c750c17eb563964ed8e86fa91bae479e7e7005e4a49551cf06a2a0fe
   vi_url:
     value: https://vi.wtu.edu.cn/index.htm
     source: https://vi.wtu.edu.cn/index.htm
@@ -115,7 +107,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: dd4c87a2ce34ae62
     title: 武汉纺织大学校徽资源
@@ -342,8 +333,241 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 8e07fd183121a2e1
+  - value: '#003378'
+    rgb:
+    - 0
+    - 51
+    - 120
+    cmyk:
+    - 100
+    - 72
+    - 0
+    - 38
+    pantone: null
+    label: 纺大蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/B/36/FC/E1C91F1C351BA76A5F49C8DC414_4E9D1FBC_59417.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。蓝红均为标准色；RGB与HEX相符，导出顺序不表示级别。
+    source_sha256: 1a7c83a0c750c17eb563964ed8e86fa91bae479e7e7005e4a49551cf06a2a0fe
+    source_field: visual.color_primary
+  - value: '#A61625'
+    rgb:
+    - 166
+    - 22
+    - 37
+    cmyk:
+    - 41
+    - 100
+    - 98
+    - 8
+    pantone: null
+    label: 纺大红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/B/36/FC/E1C91F1C351BA76A5F49C8DC414_4E9D1FBC_59417.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。蓝红均为标准色；RGB与HEX相符，导出顺序不表示级别。
+    source_sha256: 1a7c83a0c750c17eb563964ed8e86fa91bae479e7e7005e4a49551cf06a2a0fe
+    source_field: visual.color_secondary
+  - value: '#9DAFBE'
+    rgb:
+    - 157
+    - 175
+    - 190
+    cmyk:
+    - 44
+    - 26
+    - 19
+    - 0
+    pantone: null
+    label: 染纺灰HEX候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/4/F5/F1/2A37CFFC5C2C8F04A4DD269C835_5B28C652_35A64.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。染纺灰原图HEX9DAFBE与原RGB91/193/216（对应5BC1D8）冲突，两项保留为辅助候选；其他项RGB/HEX一致，辅助候选不影响蓝红标准色。
+    source_sha256: 20944e6d5c930cadaac7d223f26d5b2f36a9598c69d5295cd91cb2a16100e061
+  - value: '#5BC1D8'
+    rgb:
+    - 91
+    - 193
+    - 216
+    cmyk:
+    - 44
+    - 26
+    - 19
+    - 0
+    pantone: null
+    label: 染纺灰RGB候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/4/F5/F1/2A37CFFC5C2C8F04A4DD269C835_5B28C652_35A64.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。染纺灰原图HEX9DAFBE与原RGB91/193/216（对应5BC1D8）冲突，两项保留为辅助候选；其他项RGB/HEX一致，辅助候选不影响蓝红标准色。
+    source_sha256: 20944e6d5c930cadaac7d223f26d5b2f36a9598c69d5295cd91cb2a16100e061
+  - value: '#5BC1D8'
+    rgb:
+    - 91
+    - 193
+    - 216
+    cmyk:
+    - 62
+    - 8
+    - 18
+    - 0
+    pantone: null
+    label: 松石青
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/4/F5/F1/2A37CFFC5C2C8F04A4DD269C835_5B28C652_35A64.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。染纺灰原图HEX9DAFBE与原RGB91/193/216（对应5BC1D8）冲突，两项保留为辅助候选；其他项RGB/HEX一致，辅助候选不影响蓝红标准色。
+    source_sha256: 20944e6d5c930cadaac7d223f26d5b2f36a9598c69d5295cd91cb2a16100e061
+  - value: '#0080CB'
+    rgb:
+    - 0
+    - 128
+    - 203
+    cmyk:
+    - 82
+    - 44
+    - 2
+    - 0
+    pantone: null
+    label: 锦湖蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/4/F5/F1/2A37CFFC5C2C8F04A4DD269C835_5B28C652_35A64.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。染纺灰原图HEX9DAFBE与原RGB91/193/216（对应5BC1D8）冲突，两项保留为辅助候选；其他项RGB/HEX一致，辅助候选不影响蓝红标准色。
+    source_sha256: 20944e6d5c930cadaac7d223f26d5b2f36a9598c69d5295cd91cb2a16100e061
+  - value: '#B8A8D0'
+    rgb:
+    - 184
+    - 168
+    - 208
+    cmyk:
+    - 33
+    - 36
+    - 4
+    - 0
+    pantone: null
+    label: 经纬紫
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/4/F5/F1/2A37CFFC5C2C8F04A4DD269C835_5B28C652_35A64.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。染纺灰原图HEX9DAFBE与原RGB91/193/216（对应5BC1D8）冲突，两项保留为辅助候选；其他项RGB/HEX一致，辅助候选不影响蓝红标准色。
+    source_sha256: 20944e6d5c930cadaac7d223f26d5b2f36a9598c69d5295cd91cb2a16100e061
+  - value: '#F7CCD7'
+    rgb:
+    - 247
+    - 204
+    - 215
+    cmyk:
+    - 3
+    - 28
+    - 7
+    - 0
+    pantone: null
+    label: 锦绣粉
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/4/F5/F1/2A37CFFC5C2C8F04A4DD269C835_5B28C652_35A64.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。染纺灰原图HEX9DAFBE与原RGB91/193/216（对应5BC1D8）冲突，两项保留为辅助候选；其他项RGB/HEX一致，辅助候选不影响蓝红标准色。
+    source_sha256: 20944e6d5c930cadaac7d223f26d5b2f36a9598c69d5295cd91cb2a16100e061
+  - value: '#B09D60'
+    rgb:
+    - 176
+    - 157
+    - 96
+    cmyk:
+    - 20
+    - 25
+    - 60
+    - 25
+    pantone: null
+    label: 黄旦金（专金）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/8/BB/15/16B2488792562A8261BD8199264_2F4C5913_543E4.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。特殊工艺用色，原图提供RGB/HEX及CMYK，均作为参考色。
+    source_sha256: a06b1a4092bd9f92f725ffedbad2a776fa31836b3ffdc8b3d1d6fd3dc5154843
+  - value: '#B5B5B6'
+    rgb:
+    - 181
+    - 181
+    - 182
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 经纬银（专银）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/8/BB/15/16B2488792562A8261BD8199264_2F4C5913_543E4.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。特殊工艺用色，原图提供RGB/HEX及CMYK，均作为参考色。
+    source_sha256: a06b1a4092bd9f92f725ffedbad2a776fa31836b3ffdc8b3d1d6fd3dc5154843
+  - value: '#BE8A3A'
+    rgb:
+    - 190
+    - 138
+    - 58
+    cmyk:
+    - 30
+    - 50
+    - 85
+    - 0
+    pantone: null
+    label: 飞梭铜（专铜）
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.wtu.edu.cn/__local/8/BB/15/16B2488792562A8261BD8199264_2F4C5913_543E4.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。特殊工艺用色，原图提供RGB/HEX及CMYK，均作为参考色。
+    source_sha256: a06b1a4092bd9f92f725ffedbad2a776fa31836b3ffdc8b3d1d6fd3dc5154843
   vi_resources:
-  - title: 视觉识别系统
+  - title: 视觉识别系统手册-武汉纺织vi视觉识别系统
     url: https://vi.wtu.edu.cn/zyxz/sjsbxtsc.htm
     kinds:
     - 视觉识别规范/资源
@@ -359,6 +583,8 @@ visual:
     availability: found
     source_sha256: f2daa61b7dbe7112837befe2fe79cf4d9a3e929082b9bebe961b1d416d55367e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 【公开】武汉纺织大学VI手册PDF版.zip
     url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=7C4119A9F1FBE2C7EBF44B212161611B
     kinds:
@@ -375,6 +601,8 @@ visual:
     availability: found
     source_sha256: f2daa61b7dbe7112837befe2fe79cf4d9a3e929082b9bebe961b1d416d55367e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 【公开】A-01标志规范.pdf
     url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=AB44CDBE8643A36592E8A948E7CDEA59
     kinds:
@@ -391,6 +619,8 @@ visual:
     availability: found
     source_sha256: f2daa61b7dbe7112837befe2fe79cf4d9a3e929082b9bebe961b1d416d55367e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 【公开】A-04标志的标准组合.pdf
     url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=B4DD70CE71782B8C634C4C292F45D679
     kinds:
@@ -407,6 +637,8 @@ visual:
     availability: found
     source_sha256: f2daa61b7dbe7112837befe2fe79cf4d9a3e929082b9bebe961b1d416d55367e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 武汉纺织大学视觉识别系统手册
     url: https://vi.wtu.edu.cn/index.htm
     kinds:
@@ -423,6 +655,178 @@ visual:
     availability: found
     source_sha256: ea98afd932a1645493440c20576821caf98009d5665423c20927e55f3d90a266
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 武汉纺织大学官方视觉规范
+    url: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.wtu.edu.cn/__local/B/36/FC/E1C91F1C351BA76A5F49C8DC414_4E9D1FBC_59417.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。蓝红均为标准色；RGB与HEX相符，导出顺序不表示级别。
+  - title: 武汉纺织大学官方视觉规范
+    url: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.wtu.edu.cn/__local/4/F5/F1/2A37CFFC5C2C8F04A4DD269C835_5B28C652_35A64.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。染纺灰原图HEX9DAFBE与原RGB91/193/216（对应5BC1D8）冲突，两项保留为辅助候选；其他项RGB/HEX一致，辅助候选不影响蓝红标准色。
+  - title: 武汉纺织大学官方视觉规范
+    url: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.wtu.edu.cn/__local/8/BB/15/16B2488792562A8261BD8199264_2F4C5913_543E4.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。特殊工艺用色，原图提供RGB/HEX及CMYK，均作为参考色。
+  - title: A-01 标志规范-武汉纺织vi视觉识别系统
+    url: https://vi.wtu.edu.cn/jcbf/A_01_bzgf.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.wtu.edu.cn/jcbf/A_01_bzgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4c2cd1808cf0417c50e77d36c48b648b63b18c80cc430a85e9533138a03d4cee
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 【公开】A-01标志规范.zip
+    url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=4F3F7F03764050B47ECD29B8E4AA7AF8
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.wtu.edu.cn/jcbf/A_01_bzgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4c2cd1808cf0417c50e77d36c48b648b63b18c80cc430a85e9533138a03d4cee
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A-02色彩规范-武汉纺织vi视觉识别系统
+    url: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f5df7d1dbb2c63779f0424cbc57be95c12c5e58af733311f86f530b8c2192f28
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 【公开】A-02 色彩规范.zip
+    url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=C58C514C94883B3A6C098041E609FE2E
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=C58C514C94883B3A6C098041E609FE2E
+        status: file_read
+        url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=C58C514C94883B3A6C098041E609FE2E
+      resolved_url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=C58C514C94883B3A6C098041E609FE2E
+    file_metadata:
+      byte_size: 7669066
+      format: ZIP
+      member_count: 1
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: c04fbbc58df0cd6fd583b0718a3ffd924d511067061db448aff511d9d6958c8a
+    content_read: true
+    download_status: content_inspected
+  - url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=7C4119A9F1FBE2C7EBF44B212161611B
+    title: 【公开】武汉纺织大学VI手册PDF版.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=7C4119A9F1FBE2C7EBF44B212161611B
+    publisher: 武汉纺织大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=7C4119A9F1FBE2C7EBF44B212161611B
+        status: file_read
+        url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=7C4119A9F1FBE2C7EBF44B212161611B
+      resolved_url: https://vi.wtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2121959556&wbfileid=7C4119A9F1FBE2C7EBF44B212161611B
+    file_metadata:
+      byte_size: 30872970
+      format: ZIP
+      member_count: 14
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 1746e11b40732c4b8e29e3f68fcc7aca1148123d21d9991b87f34e45aa6c1f10
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
     value: 1958
@@ -439,17 +843,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1999
-    event: 更名为武汉科技学院
-    source: https://www.wtu.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 2002
-    event: 湖北省对外贸易学校并入
-    source: https://www.wtu.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -471,6 +864,17 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 1999
+    event: 更名为武汉科技学院
+    source: https://www.wtu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 2002
+    event: 湖北省对外贸易学校并入
+    source: https://www.wtu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -493,307 +897,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.wtu.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.wtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://xwgk.wtu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.wtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 武汉纺织大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 武汉纺织大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 武汉纺织大学位于湖北省武汉市，主管部门为湖北省。官网列示全日制在校生近27000人（统计日期未注明）。官网列示教职工2400余人（统计日期未注明）。
+    value: 武汉纺织大学位于湖北省武汉市，教育部名单列为本科，主管部门为湖北省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.wtu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 27000
-    availability: found
-    search_sources: []
-    source: https://www.wtu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生近27000人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校生近27000人
-  faculty_count:
-    value: 2400
-    availability: found
-    search_sources: []
-    source: https://www.wtu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工2400余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工2400余人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 027-59367511'
-    availability: found
-    search_sources: []
-    source: https://www.wtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 阳光校区:武汉市江夏区阳光大道1号 430200 南湖校区:武汉市洪山区纺织路1号 430073 东湖校区:武汉市武昌区东湖梨园渔光村1号 430077 接待/接访电话:027-59367511
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 182
-    score: 170.4
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 武汉纺织大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 159
-    score: 214
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/wuhan-textile-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 武汉纺织大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4142010495'
-    upstream_record_name: 武汉纺织大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4142010495'
-    upstream_record_name: 武汉纺织大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

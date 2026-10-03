@@ -35,5 +35,8 @@
 - [河北科技大学形象识别系统之三： 视觉识别系统](https://news.hebust.edu.cn/xxsbxt/16666.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.hebust.edu.cn/xxsbxt/16666.htm)。
 - [河北科技大学 >> 形象识别系统](https://news.hebust.edu.cn/xxsbxt/index.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.hebust.edu.cn/xxsbxt/index.htm)。
 - [河北科技大学形象识别系统之二： 行为识别系统](https://news.hebust.edu.cn/xxsbxt/16667.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.hebust.edu.cn/xxsbxt/16667.htm)。
+- [形象识别](https://www.hebust.edu.cn/xqzl/xxsb/index.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hebust.edu.cn/xqzl/xxsb/index.htm)。
+- [视觉识别](https://www.hebust.edu.cn/xqzl/xxsb/sjsb/index.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hebust.edu.cn/xqzl/xxsb/sjsb/index.htm)。
+- [学校标识](https://www.hebust.edu.cn/xqzl/xxsb/sjsb/7533f68f0186478b9f0ec8ae494c3a99.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hebust.edu.cn/xqzl/xxsb/sjsb/7533f68f0186478b9f0ec8ae494c3a99.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

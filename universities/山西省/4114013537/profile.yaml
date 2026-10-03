@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4114013537'
   name_zh: 山西电子科技学院
@@ -9,12 +9,16 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Shanxi University of Electronic Science and Technology
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_4_shanxi/a_24/a_24.html
+    source_sha256: 2a1e81cb06a61387595f16683279fd3963846c0dd27637b820ff724d44d4b090
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.sxdzkj.edu.cn/
     source: https://www.sxdzkj.edu.cn/
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -66,12 +62,21 @@ research:
   audit_key: '4114013537'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#AA0018'
+    availability: found
     search_sources: []
+    source: https://www.sxdzkj.edu.cn/css/common.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 0167cf3886f5b8fbdc8052ff6809cfeda788286be7c2de098d696c2da954b914
+    homepage_source: https://www.sxdzkj.edu.cn/
+    homepage_sha256: 2643b253146458f7bc882063aaeb1efad9aa18d9b542dee449c61ad65ab93ada
+    css_selector: .header-top
+    css_declaration: '#aa0018'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -94,7 +99,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: c922b3b04347e6bb7963cc33
     kind: site_identity
@@ -166,7 +170,30 @@ visual:
     byte_size: 66704
     representation: raster
     resolved_url: https://www.sxdzkj.edu.cn/img/logo.png
-  color_palette: []
+  color_palette:
+  - value: '#AA0018'
+    rgb:
+    - 170
+    - 0
+    - 24
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.sxdzkj.edu.cn/css/common.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 0167cf3886f5b8fbdc8052ff6809cfeda788286be7c2de098d696c2da954b914
+    homepage_source: https://www.sxdzkj.edu.cn/
+    homepage_sha256: 2643b253146458f7bc882063aaeb1efad9aa18d9b542dee449c61ad65ab93ada
+    css_selector: .header-top
+    css_declaration: '#aa0018'
+    collector: ppt_site_reference
   vi_resources:
   - title: 学校标识-山西电子科技学院【官网】
     url: https://www.sxdzkj.edu.cn/xxgk1/xxbs.htm
@@ -184,14 +211,21 @@ visual:
     availability: found
     source_sha256: 666ae251fcb4a8adc9b2a8de525e36210e380561adf8be25b149202d2185c4ed
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2023
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_4_shanxi/a_24/a_24.html
+    source_sha256: 2a1e81cb06a61387595f16683279fd3963846c0dd27637b820ff724d44d4b090
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“创办时间”栏原值；社区二手记录，未独立确认前身、现名设立或升本口径。
   motto:
     value: null
     source: null
@@ -199,7 +233,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -221,6 +254,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -243,206 +277,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.sxdzkj.edu.cn/zsw
-    availability: found
-    search_sources: []
-    source: https://www.sxdzkj.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: https://www.sxdzkj.edu.cn/zsjy/jyfw.htm
-    availability: found
-    search_sources: []
-    source: https://www.sxdzkj.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业服务
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://www.sxdzkj.edu.cn/xxgkw
-    availability: found
-    search_sources: []
-    source: https://www.sxdzkj.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 中国·山西·临汾 尧都区滨河西路501号
-    availability: found
-    search_sources: []
-    source: https://www.sxdzkj.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:中国·山西·临汾 尧都区滨河西路501号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0357-5909026'
+    value: 山西电子科技学院位于山西省临汾市，教育部名单列为本科，主管部门为山西省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.sxdzkj.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0357-5909026
-  email:
-    value: sxuest@sxdzkj.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.sxdzkj.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮箱:sxuest@sxdzkj.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

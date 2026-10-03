@@ -1,88 +1,40 @@
-# 上海戏剧学院：资料档案
+# 上海戏剧学院：PPT资料档案
 
 学校标识码：`4131010279`；上海市 / 上海市；本科；主管部门：上海市。
 
-逐字段资料来自官方或标注的社区来源。自动采集状态不表示全部字段完整，历史记录不等于现行数据。
+仅保留PPT主字段与素材依据。自动采集状态、来源和设计建议分别标记。
 
-## 有来源的信息
+## 已取得的主字段与可选补充
 
-| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
-| --- | --- | --- | --- | --- |
-| 英文名称 | Shanghai Theatre Academy | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 英文名称资料时间 | 2026-06-09 | | | |
-| 官网 | https://www.sta.edu.cn | official_or_curated | 2026-09-30 | [来源](https://www.sta.edu.cn) |
-| 创办年份 | 1945 | official_or_curated | 2026-09-30 | [来源](https://www.sta.edu.cn/1534/list.htm) |
-| 创办年份口径 | 官网学校简介将1945年记为学校创建年份 | | | |
-| 中文简称 | 上戏 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 中文简称资料时间 | 2026-06-09 | | | |
-| 英文简称 | STA | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 英文简称资料时间 | 2026-06-09 | | | |
-| 综合、理工、师范等院校类型 | 艺术 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
-| 院校群与历史项目标签，非排名 | ["双一流"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 院校群与历史项目标签，非排名资料时间 | 2026-06-09 | | | |
-| 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 31.271, "location_kind": "community_map_point", "longitude": 121.461, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
-| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
-| 中文简介，短摘要 | 上海戏剧学院位于上海市，主管部门为上海市。官网列示本科生2420人（统计时间2025-10）。官网列示教职工701人（统计时间2025-10）。 | official_website | 2026-10-01 | [来源](https://www.sta.edu.cn/1534/list.htm) |
-| 中文简介，短摘要口径 | 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文 | | | |
-| 中文简介，短摘要资料时间 | mixed | | | |
-| 学生人数，需统计日期和口径 | 2420 | official_website | 2026-10-01 | [来源](https://www.sta.edu.cn/1534/list.htm) |
-| 学生人数，需统计日期和口径口径 | 本科生；原标注：本科生2420人；截至2025年10月 | | | |
-| 学生人数，需统计日期和口径资料时间 | 2025-10 | | | |
-| 教职工人数，需统计日期和口径 | 701 | official_website | 2026-10-01 | [来源](https://www.sta.edu.cn/1534/list.htm) |
-| 教职工人数，需统计日期和口径口径 | 教职工；原标注：教职工701人；截至2025年10月 | | | |
-| 教职工人数，需统计日期和口径资料时间 | 2025-10 | | | |
-| 双一流建设学科，注明名单年份及是否节选 | ["戏剧与影视学"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
-| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
-| 学位授权，需年份与层次口径 | ["一级学科博士学位授权点：1个；统计时间2025-10", "专业博士学位授权点：3个；统计时间2025-10", "一级学科硕士学位授权点：2个；统计时间2025-10", "专业硕士学位授权点：5个；统计时间2025-10"] | official_website | 2026-10-01 | [来源](https://www.sta.edu.cn/1534/list.htm) |
-| 学位授权，需年份与层次口径口径 | 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated | | | |
-| 招生入口 | https://zs.sta.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.sta.edu.cn) |
-| 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-| 就业入口 | https://jy.sta.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.sta.edu.cn) |
-| 就业入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-| 英文网站入口 | https://en.sta.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.sta.edu.cn) |
-| 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-| 信息公开入口 | https://xxgk.sta.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.sta.edu.cn) |
-| 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-
-## 官网列示校区
-
-| 校区 | 地址 | 来源 |
-| --- | --- | --- |
-| 尚未取得明确校区列表 | | |
-
-## 视觉资料
-
-- [校徽、校名文件与调色板](VISUAL.md)
-- [官方PPT入口](OFFICIAL.md)
-- [社区主题与参考资料](COMMUNITY.md)
-
-## 排名历史
-
-| 发布方/榜单 | 年份 | 范围 | 名次 | 分数 | 来源 |
-| --- | --- | --- | --- | --- | --- |
-
-## 学科评估记录
-
-| 学科 | 轮次 | 等级 | 来源 |
+| 字段 | 值 | 采集日期 | 来源 |
 | --- | --- | --- | --- |
-| 戏剧与影视学 | 4 | A | [社区节选](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文校名 | Shanghai Theatre Academy | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 建校年及历史起点口径 | 1945 | 2026-09-30 | [来源](https://www.sta.edu.cn/1534/list.htm) |
+| 口径 / 方法 | 官网学校简介将1945年记为学校创建年份 | | |
+| 屏幕主色；官方标准与设计建议分别标记 | #78024B | 2026-10-01 | [来源](https://www.sta.edu.cn/_upload/tpl/00/80/128/template128/images/logo.png) |
+| 口径 / 方法 | 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡 | | |
+| 学校官网及取证入口 | https://www.sta.edu.cn | 2026-09-30 | [来源](https://www.sta.edu.cn) |
+| 中文简称；用于检索 | 上戏 | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文简称；用于检索 | STA | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 从主字段生成的短简介；不另采动态统计 | 上海戏剧学院位于上海市上海市，教育部名单列为本科，主管部门为上海市。 | 2026-10-02 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
+| 口径 / 方法 | 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。 | | |
+| 校训 | 至善至美 | 2026-10-02 | [来源](https://www.sta.edu.cn/55/d7/c1549a21975/page.htm) |
+| 口径 / 方法 | 剔除后续解释句，保留明确校训。 | | |
 
-## 录取历史参考
+## 制作PPT所需素材
 
-社区参考值带地区、年份、科类和批次；请查招生官方记录后用于实际报考。
+- [校徽、校名标识、色卡与VI手册](VISUAL.md)
+- [官方模板入口与使用条件](OFFICIAL.md)
+- [开源演示主题与参考标识](COMMUNITY.md)
 
-| 年份 | 地区 | 科类 | 批次 | 最低分 | 最低位次 | 来源 |
-| --- | --- | --- | --- | --- | --- | --- |
+## 校史节点
 
-## 可追溯社区快照
+| 年份 | 事件 | 来源 |
+| --- | --- | --- |
+| 1949 | 更名为上海市立戏剧专科学校 | [来源](https://www.sta.edu.cn/1547/list.htm) |
 
-- [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
+## 必备字段缺口
 
-## 尚未确认的信息
+主字段已有附来源记录；使用前查看取值方法。
 
-校训：来源存在差异、校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、社区检索标识，不能当作正式校名：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、所在国家或地区：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、邮政编码：尚未采集、英文简介，短摘要：尚未采集、校园面积，公顷，需日期和口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
-
-完整字段与出处见[profile.yaml](profile.yaml)。
+模板、辅色、校歌等可选项不作为全校必须存在的资料。机器字段与出处见[profile.yaml](profile.yaml)。

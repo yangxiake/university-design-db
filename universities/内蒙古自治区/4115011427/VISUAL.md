@@ -29,6 +29,7 @@
 
 - 现有VI入口：[https://www.jnnu.edu.cn/xxjj/xxbs.htm](https://www.jnnu.edu.cn/xxjj/xxbs.htm)
 - [学校标识](https://www.jnnu.edu.cn/xxjj/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jnnu.edu.cn/xxjj/xxbs.htm)。
-- [校徽设计.zip](https://www.jnnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2033743153&wbfileid=74D6E9FFCEEA314E97190B61C39B26E2)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jnnu.edu.cn/xxjj/xxbs.htm)。
+- [校徽设计.zip](https://www.jnnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2033743153&wbfileid=74D6E9FFCEEA314E97190B61C39B26E2)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.jnnu.edu.cn/xxjj/xxbs.htm)。
+  - 文件容器已读取：ZIP；6171843字节；读取类型archive_structure；文件SHA256 `d6e60c8555bb8be976515c3f6bbb07816fed4b993e4a53942c4700444ad53ce1`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

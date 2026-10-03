@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4142010517'
   name_zh: 湖北民族大学
@@ -43,14 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -67,18 +59,22 @@ research:
   audit_key: '4142010517'
 visual:
   color_primary:
-    value: '#0D6CD1'
-    source: https://www.hbmzu.edu.cn/images/logo.png
+    value: '#0061AE'
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LNUCiMzG4M4G4MQzLsMm7anmffUzAq2LmUiUlrknRQknRG0gihFp2hmCIa0L1h7UYhRU1yZMz7YnRV2nmvsM4UZoRCPUz98Umv4Uz7YM8QFLmNPnRV2LmVFM7LaUYbaptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    method: official_vi
+    label: 民大蓝
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 0
+    pantone: null
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.hbmzu.edu.cn/
-    image_sha256: 6fef539e59af5032d65af22ec7503d2c84ed1bceb2eabe27276d1197463651bd
+    source_sha256: 794de2c1c93db18d25134092de0b8372adf5b7a3c1a765e6b0415b500916772e
   color_secondary:
     value: null
     source: null
@@ -88,9 +84,9 @@ visual:
     search_sources: []
   vi_url:
     value: https://www.hbmzu.edu.cn/xxgk/xxbs1.htm
-    source: https://www.hbmzu.edu.cn/xxgk/xxbs1.htm
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
   badge_description:
@@ -101,7 +97,6 @@ visual:
     availability: found
     search_sources: []
     note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 2b503765dfa8d24e6803cba3
     kind: site_identity
@@ -214,15 +209,16 @@ visual:
     - 209
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: https://www.hbmzu.edu.cn/images/logo.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    source_field: visual.color_primary
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
   - value: '#0868D0'
     rgb:
     - 8
@@ -311,7 +307,216 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: b243ce378a4988e1
-  vi_resources: []
+  - value: '#0061AE'
+    rgb:
+    - 0
+    - 97
+    - 174
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 0
+    pantone: null
+    label: 民大蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LNUCiMzG4M4G4MQzLsMm7anmffUzAq2LmUiUlrknRQknRG0gihFp2hmCIa0L1h7UYhRU1yZMz7YnRV2nmvsM4UZoRCPUz98Umv4Uz7YM8QFLmNPnRV2LmVFM7LaUYbaptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 794de2c1c93db18d25134092de0b8372adf5b7a3c1a765e6b0415b500916772e
+    source_field: visual.color_primary
+  - value: null
+    rgb: null
+    cmyk: null
+    pantone: 875C
+    label: 专色金
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+    source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  - value: null
+    rgb: null
+    cmyk: null
+    pantone: 877C
+    label: 专色银
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+    source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 70
+    - 100
+    - 0
+    pantone: null
+    label: 辅助色1
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+    source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  - value: null
+    rgb: null
+    cmyk:
+    - 40
+    - 0
+    - 100
+    - 0
+    pantone: null
+    label: 辅助色2
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+    source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  - value: null
+    rgb: null
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 辅助色3
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+    source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 20
+    - 60
+    - 20
+    pantone: null
+    label: 辅助色4
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+    source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  - value: null
+    rgb: null
+    cmyk:
+    - 60
+    - 50
+    - 75
+    - 0
+    pantone: null
+    label: 辅助色5
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+    source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 35
+    - 90
+    - 0
+    pantone: null
+    label: 辅助色6
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+    source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  vi_resources:
+  - title: 学校标识
+    url: https://www.hbmzu.edu.cn/xxgk/xxbs1.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hbmzu.edu.cn/xxgk/xxbs1.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 3f259bbf8e81aa276c7a8402e7701043c0612a8d60bc4e17dc7a33e7c2d1f49a
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 湖北民族大学官方视觉规范
+    url: https://www.hbmzu.edu.cn/xxgk/xxbs1.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LNUCiMzG4M4G4MQzLsMm7anmffUzAq2LmUiUlrknRQknRG0gihFp2hmCIa0L1h7UYhRU1yZMz7YnRV2nmvsM4UZoRCPUz98Umv4Uz7YM8QFLmNPnRV2LmVFM7LaUYbaptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  - title: 湖北民族大学官方视觉规范
+    url: https://www.hbmzu.edu.cn/xxgk/xxbs1.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+  landmarks: []
 culture:
   founded_year:
     value: 1938
@@ -328,12 +533,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1998
-    event: 湖北民族学院与恩施医学高等专科学校合并
-    source: https://www.hbmzu.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -355,6 +554,12 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 1998
+    event: 湖北民族学院与恩施医学高等专科学校合并
+    source: https://www.hbmzu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -377,216 +582,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.hbmzu.edu.cn/zsjyw1
-    availability: found
-    search_sources: []
-    source: https://www.hbmzu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.hbmzu.edu.cn/xxgkw/
-    availability: found
-    search_sources: []
-    source: https://www.hbmzu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 湖北省恩施市学院路39号
-    availability: found
-    search_sources: []
-    source: https://www.hbmzu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:湖北省恩施市学院路39号
-  postal_code:
-    value: '445000'
-    availability: found
-    search_sources: []
-    source: https://www.hbmzu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:445000
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 湖北民族大学位于湖北省恩施土家族苗族自治州，主管部门为湖北省。官网列示全日制在校学生20000余人（统计日期未注明）。官网列示专任教师1219人（统计日期未注明）。
+    value: 湖北民族大学位于湖北省恩施土家族苗族自治州，教育部名单列为本科，主管部门为湖北省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.hbmzu.edu.cn/xxgk/xxjj1.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 20000
-    availability: found
-    search_sources: []
-    source: https://www.hbmzu.edu.cn/xxgk/xxjj1.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校学生；近似/下界数，保留原标注：全日制在校学生20000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校学生20000余人
-  faculty_count:
-    value: 1219
-    availability: found
-    search_sources: []
-    source: https://www.hbmzu.edu.cn/xxgk/xxjj1.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师1219人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 专任教师1219人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

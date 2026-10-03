@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4143010543'
   name_zh: 湖南理工大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Hunan Institute of Science and Technology
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q5942002&oldid=2511239888
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2511239888
+    source_sha256: 261d7774887a13e3f8287cdc9081fe9600923bd4599162b25cdcae522204969e
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.hnist.edu.cn/
     source: https://www.hnist.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -67,12 +65,21 @@ research:
   audit_key: '4143010543'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#671482'
+    availability: found
     search_sources: []
+    source: https://www.hnist.edu.cn/css/media.css?t=0510
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: d098881b3dcc4becb8f023ed31bb1556ab4acc047b3115cc99796d0e6b72c73d
+    homepage_source: https://www.hnist.edu.cn/
+    homepage_sha256: f58fad4d28630b7374dae5c5b25b79b0f16844cad5765ee9b841b6c399f3508a
+    css_selector: .header
+    css_declaration: '#671482'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -94,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: e9bc571cc3e10dee78748149
     kind: site_identity
@@ -131,16 +137,99 @@ visual:
     byte_size: 31778
     representation: raster
     resolved_url: https://www.hnist.edu.cn/images/logo.png
-  color_palette: []
-  vi_resources: []
+  color_palette:
+  - value: '#671482'
+    rgb:
+    - 103
+    - 20
+    - 130
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.hnist.edu.cn/css/media.css?t=0510
+    source_type: official_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    source_sha256: d098881b3dcc4becb8f023ed31bb1556ab4acc047b3115cc99796d0e6b72c73d
+    homepage_source: https://www.hnist.edu.cn/
+    homepage_sha256: f58fad4d28630b7374dae5c5b25b79b0f16844cad5765ee9b841b6c399f3508a
+    css_selector: .header
+    css_declaration: '#671482'
+    collector: ppt_site_reference
+  vi_resources:
+  - title: 学校标志-湖南理工大学
+    url: https://www.hnist.edu.cn/xxgk/xxbz.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hnist.edu.cn/xxgk/xxbz.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5a6aca1d83cf9a053ecb1c47b4466db7485e3637eb6c9239a8b7e2094b67d23b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 湖南理工大学校徽校名
+    url: https://www.hnist.edu.cn/info/1013/1749.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hnist.edu.cn/info/1013/1749.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 21bf2e42562a580eba16febe4d01a3bc6d8c489ff66f9e360b66d9bb7ea9a511
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 湖南理工大学校徽校名标准色彩与组合.rar
+    url: https://www.hnist.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2051977945&wbfileid=16091905
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.hnist.edu.cn/info/1013/1749.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 21bf2e42562a580eba16febe4d01a3bc6d8c489ff66f9e360b66d9bb7ea9a511
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1903
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E6%B9%96%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6&oldid=93682818
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: 16f66a2d5910f300e5c6b68a86d11fe5f51382bf5258eb7c5c624ad64ccf8cd8
+    source_revision: 93682818
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
     value: 至善穷理
     source: https://www.hnist.edu.cn/xxgk/xxjj.htm
@@ -148,12 +237,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1999
-    event: 岳阳师专、岳阳大学与岳阳教育学院合并为岳阳师范学院
-    source: https://www.hnist.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -175,6 +258,12 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 1999
+    event: 岳阳师专、岳阳大学与岳阳教育学院合并为岳阳师范学院
+    source: https://www.hnist.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -197,216 +286,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 湖南省岳阳市湘北大道
-    availability: found
-    search_sources: []
-    source: https://www.hnist.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:湖南省岳阳市湘北大道
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 湖南理工大学位于湖南省岳阳市，主管部门为湖南省。官网列示在职教职员工近1500人（统计日期未注明）。官网列示校园占地面积1800余亩（统计日期未注明）。
+    value: 湖南理工大学位于湖南省岳阳市，教育部名单列为本科，主管部门为湖南省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.hnist.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: 1500
-    availability: found
-    search_sources: []
-    source: https://www.hnist.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在职教职员工；近似/下界数，保留原标注：在职教职员工近1500人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在职教职员工近1500人
-  campus_area_hectares:
-    value: 120.0
-    availability: found
-    search_sources: []
-    source: https://www.hnist.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 校园占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：校园占地面积1800余亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 校园占地面积1800余亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 硕士专业学位授权点：26个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.hnist.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0730-8640001'
-    availability: found
-    search_sources: []
-    source: https://www.hnist.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0730-8640001
-  email:
-    value: dzb@hnist.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.hnist.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮箱:dzb@hnist.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

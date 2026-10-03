@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4123012911'
   name_zh: 哈尔滨职业技术大学
@@ -9,12 +9,16 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Harbin Polytechnic
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_8_heilongjiang/a_40/a_40.html
+    source_sha256: 520f25b3acb6e19bffb57a4fc60b76f340134421ec283c3ff407e1840310f575
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.hrbzy.edu.cn/
     source: https://www.hrbzy.edu.cn/
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +64,18 @@ research:
   audit_key: '4123012911'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#8E8E8F'
+    availability: found
     search_sources: []
+    source: https://www.hrbzy.edu.cn/_upload/tpl/02/d5/725/template725/images/logo.svg
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    method: manual_derived
+    asset_id: 4a65780125f88348f42546d5
+    source_sha256: a0fb733c91bc14fc179a965a0771aec833e33432b6f0c7d9611d7e76edabf092
+    collector: ppt_core_neutral_sample
+    basis: 原标识为单色/灰度；SVG明确标注的中性填充色；未按绘制面积加权。仅作为PPT中性设计建议色，不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +97,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 4a65780125f88348f42546d5
     kind: site_identity
@@ -136,16 +137,42 @@ visual:
     intrinsic_width: '412.651'
     intrinsic_height: '67.932'
     resolved_url: https://www.hrbzy.edu.cn/_upload/tpl/02/d5/725/template725/images/logo.svg
-  color_palette: []
+  color_palette:
+  - value: '#8E8E8F'
+    rgb:
+    - 142
+    - 142
+    - 143
+    cmyk: null
+    pantone: null
+    label: PPT中性参考色
+    role: reference
+    official: false
+    availability: found
+    basis: 原标识为单色/灰度；SVG明确标注的中性填充色；未按绘制面积加权。仅作为PPT中性设计建议色，不是学校官方VI标准色。
+    source: https://www.hrbzy.edu.cn/_upload/tpl/02/d5/725/template725/images/logo.svg
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    method: manual_derived
+    asset_id: 4a65780125f88348f42546d5
+    source_sha256: a0fb733c91bc14fc179a965a0771aec833e33432b6f0c7d9611d7e76edabf092
+    collector: ppt_core_neutral_sample
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2002
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%93%88%E5%B0%94%E6%BB%A8%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6&oldid=85102199
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: a3c21f702b0eeca7be80ef70cc262249b16e666fb990a0073eaa6d7db4dce59f
+    source_revision: 85102199
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
     value: null
     source: null
@@ -153,7 +180,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -175,6 +201,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -197,236 +224,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 黑龙江省哈尔滨市香坊区哈平路217号
-    availability: found
-    search_sources: []
-    source: https://www.hrbzy.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学院地址:黑龙江省哈尔滨市香坊区哈平路217号联系电话:0451-86635992黑ICP备案号:05001149
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 总校校区
-    address: null
-    coordinates: null
-    source: https://www.hrbzy.edu.cn/xxjj/list.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 学府校区
-    address: null
-    coordinates: null
-    source: https://www.hrbzy.edu.cn/xxjj/list.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 新阳校区
-    address: null
-    coordinates: null
-    source: https://www.hrbzy.edu.cn/xxjj/list.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 景阳校区
-    address: null
-    coordinates: null
-    source: https://www.hrbzy.edu.cn/xxjj/list.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 哈尔滨职业技术大学位于黑龙江省哈尔滨市，主管部门为黑龙江省。官网列示教职工845人（统计日期未注明）。官网列示占地面积116.6万平方米（统计日期未注明）。简介列出总校校区、学府校区、新阳校区、景阳校区。
+    value: 哈尔滨职业技术大学位于黑龙江省哈尔滨市，教育部名单列为本科，主管部门为黑龙江省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.hrbzy.edu.cn/xxjj/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: 845
-    availability: found
-    search_sources: []
-    source: https://www.hrbzy.edu.cn/xxjj/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；原标注：教职工845人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职工845人
-  campus_area_hectares:
-    value: 116.6
-    availability: found
-    search_sources: []
-    source: https://www.hrbzy.edu.cn/xxjj/list.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积116.6万平方米；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地面积116.6万平方米
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '联系电话: 0451-86635992'
-    availability: found
-    search_sources: []
-    source: https://www.hrbzy.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学院地址:黑龙江省哈尔滨市香坊区哈平路217号联系电话:0451-86635992黑ICP备案号:05001149
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

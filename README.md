@@ -2,6 +2,8 @@
 
 为个人和 AI 助手制作高校主题 PPT 整理可检索的学校事实、视觉线索和资源入口。
 
+最新主字段资料更新：[v0.4.0-20261003](https://github.com/yangxiake/university-design-db/releases/tag/v0.4.0-20261003)。交接、覆盖和使用方法见[本批说明](docs/releases/2026-10-03-ppt-core.md)。这是附来源的自动整理预发布版，剩余缺口明确保留。
+
 **当前范围：教育部 2026 年名单中的全部 1,412 所本科院校，均已建档。** 含普通本科、职业本科、民办与合作办学院校；不再采用旧版 933 所选校过滤。资料持续自动补采，本轮不要求人工签核。建档数量与字段覆盖率分别统计，见[覆盖率报告](docs/coverage-2026.md)。
 
 ## 找学校与资料
@@ -18,25 +20,26 @@
 
 [下一阶段计划](docs/next-phase-plan-2026.md)明确统一校验、PPT精简数据、素材检索预览、针对性补采、版本交付和来源变更维护的顺序与验收标准。
 
-最新补采见[M4首批报告](docs/m4-batch01-progress-2026.md)：官方数字色与印刷标准、官网标识及实际模板文件结构分别计数，记录访问限制和剩余缺口。每批入口、回执、判读与前后基线位于`data/review/m4-batch01-*`，统一索引和素材目录由学校档案重新生成。
+**当前采集范围已收窄为PPT主字段。** 必备：学校身份与英文名、可读校徽/校名标识、附来源主题主色、建校年。校训、模板、VI、校史节点等为可选补充。招生、就业、排名、人数、面积、地址与联系方式等高维护成本数据已从现行档案和索引剔除，结构升级为v4。
 
-## GitHub字段并集与视觉资料
+逐校完成状态见[主字段覆盖报告](docs/ppt-core-coverage-2026.md)，补采只按[主字段队列](data/review/ppt-core-queue-2026.csv)推进；范围定义见[ppt-core-fields.yaml](data/ppt-core-fields.yaml)。最新图形、色值与文件证据见[M4第二批报告](docs/m4-batch02-progress-2026.md)。
 
-v3在原有学校身份、文化与官方资源字段上新增27个事实字段、12个结构化集合，纳入中英文简称、类型与性质、授课语言、地址/坐标、学科、人数/面积、历史排名、招生/就业数据的完整口径，并保留可追溯社区快照。实际填充数量和上游字段逐项落点见[字段比较与覆盖报告](docs/github-field-union-2026.md)，有字段不表示已取得对应数据。
+## 开源来源与视觉资料
+
+仅保留对PPT身份、配色和模板有帮助的上游字段，固定提交并保留许可。字段比较见[开源来源与核心映射](docs/github-field-union-2026.md)。未取得独立图形授权的资源保留原链接，代码许可不作为校徽授权。
 
 - [校徽文件索引](indexes/logo-assets.csv)：具体文件URL、实际格式、宽高、矢量/透明信息、文件哈希、访问状态和权利说明。
 - [调色板索引](indexes/color-palettes.csv)：HEX、RGB、用途与取值方法；官方标准、社区主题、取色建议分别标明。没有依据的CMYK/Pantone保持空值。
 - [色值冲突索引](indexes/color-conflicts.csv)：主色与辅色/并列色的各来源候选、差异原因，保留RGB和HEX不一致等问题。
-- [扩展目录](indexes/enriched-catalog.csv)、[新增事实](indexes/extended-facts.csv)、[排名历史](indexes/rankings.csv)、[学科评估](indexes/subject-assessments.csv)、[录取参考](indexes/admission-cutoffs.csv)。
-- [校区索引](indexes/campuses.csv)与[官网简介及开源补采报告](docs/overview-enrichment-progress-2026.md)：短摘要、人数、面积与授权点；看统计日期、近似标注及总数/子群口径。
+- [核心资料目录](indexes/enriched-catalog.csv)与[主字段事实索引](indexes/core-facts.csv)：按学校和字段查询附来源记录。
 - [AI用JSONL全集](indexes/profiles.jsonl)：从1412份档案生成，每行一校；可用`school_code`稳定关联各索引。
 - [官方视觉规范补采进度](docs/visual-completion-progress-2026.md)：新增标准色色卡、仅印刷色规范、数字冲突及补确认的官网入口。
 - [实际模板文件](indexes/ppt-template-files.csv)：已读取PPTX的页数、画幅、声明字体、可编辑文本节点与哈希；压缩包内模板逐文件列出。
 - [校徽、配色与PPT缺口补采](docs/visual-gap-progress-2026.md)：官网页头/CSS、当前校名社区目录、组合版式和实际文件读取的增量与剩余缺口。
 
-校徽图形只保存逐文件链接和内容元数据。社区仓库的代码/数据许可与学校标识的图形授权分别记录；文件可访问、格式已检查、图形为学校现行版本是不同状态。记录中的历史排名和招生参考值不自动成为现行官方结论。
+校徽图形只保存逐文件链接和内容元数据。社区仓库的代码/数据许可与学校标识的图形授权分别记录；文件可访问、格式已检查、图形为学校现行版本是不同状态。
 
-`download_kind=archive_member` 表示校徽位于上游压缩包，需按 `archive_url` 和 `archive_member` 读取，主URL不是PNG直链。统计 `source_as_of=undated` 表示原文未注明统计日期；`checked_at` 是采集日期。约数保留 `approximate` 与 `original_notation`，使用人数或面积时读取 `basis`。
+`download_kind=archive_member` 表示校徽位于上游压缩包，需按 `archive_url` 和 `archive_member` 读取，主URL不是PNG直链。`checked_at` 是读取日期；`source_revision`、上游提交与哈希用于追溯当时版本。
 
 ## 分类和层级
 
@@ -48,7 +51,7 @@ data/external/                         已匹配的许可数据子集、上游�
 data/review/                           检索台账、候选、来源差异与补采队列
 universities/<省级地区>/<学校标识码>/
    profile.yaml                        单校唯一事实源
-   PROFILE.md                          全字段便读档案
+   PROFILE.md                          PPT主字段便读档案
    VISUAL.md                           逐文件视觉资源与配色
    OFFICIAL.md                         官方资源生成视图
    COMMUNITY.md                        有社区资源时生成的便读视图
@@ -77,11 +80,10 @@ python3 -m venv .venv
 .venv/bin/python scripts/ingest/build_ppt_profiles.py
 .venv/bin/python scripts/ingest/build_viewer.py
 .venv/bin/python scripts/validate/report_field_union.py
-.venv/bin/python scripts/validate/report_official_extensions.py
-.venv/bin/python scripts/validate/report_overview_progress.py
 .venv/bin/python scripts/validate/report_visual_completion.py
 .venv/bin/python scripts/validate/report_visual_gaps.py
 .venv/bin/python scripts/validate/report_coverage.py
+.venv/bin/python scripts/validate/report_ppt_core.py
 .venv/bin/python scripts/validate/report_research.py
 .venv/bin/python scripts/validate/build_review_queue.py
 .venv/bin/python scripts/check.py
@@ -89,51 +91,25 @@ python3 -m venv .venv
 
 统一检查执行档案语义、两套JSON Schema、Python与网页规则测试、七项生成一致性及仓库只读检查。失败会显示学校标识码/字段或过期文件位置。提交、PR和手动触发均运行[GitHub Actions](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)，实现与验收说明见[质量检查文档](docs/quality-checks.md)。
 
-联网补采流程：
+主字段补采流程（只采缺项）：
 
 ```bash
-.venv/bin/python scripts/ingest/build_2026.py
-.venv/bin/python scripts/ingest/seed_profiles.py --all
-.venv/bin/python scripts/ingest/collect_wikidata_candidates.py
-.venv/bin/python scripts/ingest/import_public_repositories.py
-.venv/bin/python scripts/ingest/expand_repository_fields.py
-.venv/bin/python scripts/ingest/import_additional_public_data.py
-.venv/bin/python scripts/validate/build_review_queue.py
-.venv/bin/python scripts/ingest/discover_official_pages.py --priority 2 --resume
-.venv/bin/python scripts/ingest/import_confirmed_homepages.py
+.venv/bin/python scripts/ingest/collect_ppt_core.py --resume --collect-only
+.venv/bin/python scripts/ingest/collect_ppt_core.py --import-only
+.venv/bin/python scripts/ingest/collect_wikidata_core.py --include-label-only --apply
+.venv/bin/python scripts/ingest/collect_wikipedia_core.py --collect-only
+.venv/bin/python scripts/ingest/collect_wikipedia_core.py --import-only
+.venv/bin/python scripts/ingest/collect_chinaschool_core.py --collect-only
+.venv/bin/python scripts/ingest/collect_chinaschool_core.py --import-only
 .venv/bin/python scripts/ingest/collect_homepage_identity.py
-.venv/bin/python scripts/ingest/research_all_schools.py --resume
-.venv/bin/python scripts/ingest/apply_context_corrections.py
-.venv/bin/python scripts/ingest/import_research_claims.py
-.venv/bin/python scripts/ingest/import_scope_extensions.py
-.venv/bin/python scripts/ingest/collect_official_extensions.py --resume
-.venv/bin/python scripts/ingest/import_visual_refresh.py
-.venv/bin/python scripts/ingest/import_visual_refresh.py --decisions data/review/visual-guides-decisions-2026.yaml
-.venv/bin/python scripts/ingest/collect_visual_attachments.py
-.venv/bin/python scripts/ingest/collect_visual_directory.py --resume
-.venv/bin/python scripts/ingest/collect_visual_directory.py --import-only --recover-confirmed-host
-.venv/bin/python scripts/ingest/collect_ppt_resources.py
-.venv/bin/python scripts/ingest/import_cnlogo_metadata.py
-.venv/bin/python scripts/ingest/import_community_ppt_metadata.py
-.venv/bin/python scripts/ingest/import_logo_layouts.py
 .venv/bin/python scripts/ingest/collect_header_css_marks.py
-.venv/bin/python scripts/ingest/collect_community_logo_gaps.py
-.venv/bin/python scripts/ingest/import_visual_refresh.py --decisions data/review/visual-gap-color-decisions-2026.yaml
-.venv/bin/python scripts/ingest/inspect_template_files.py
-.venv/bin/python scripts/ingest/collect_official_overviews.py --resume
-.venv/bin/python scripts/ingest/import_overview_supplements.py
-.venv/bin/python scripts/ingest/sync_source_candidates.py
+.venv/bin/python scripts/ingest/fill_ppt_reference_colors.py
+.venv/bin/python scripts/ingest/collect_ppt_site_colors.py --collect-only
+.venv/bin/python scripts/ingest/collect_ppt_site_colors.py --import-only
+.venv/bin/python scripts/validate/report_ppt_core.py
 ```
 
-范围构建校验官方附件哈希，也支持本地附件。社区导入按[仓库清单](data/external/repositories.yaml)锁定上游提交；只读数据，不执行上游代码。采集结果会随网站变化，详见[采集说明](docs/source-collection.md)。采集完成后重新执行生成与校验命令。可选的 `validate_profiles.py --release` 专供未来人工审定版本使用，本轮验收使用 `--automatic-draft`。
-
-视觉文件检查需要`requirements-research.txt`中的Pillow。只重试解析/访问失败的视觉文件可运行`.venv/bin/python scripts/ingest/expand_repository_fields.py --retry-visual-errors`，再重新生成视图、索引和覆盖报告。
-
-`collect_official_extensions.py`补采已确认官网的地址、邮编、公开办公/招生联系方式、门户入口和页眉标识链接；原始网页/图片不入库。`--resume`继续未完成学校，`--retry-gaps`重试首页访问失败的学校，`--import-only`从已有台账重建导入。官网标识取色只进入参考调色板，保留已有官方主色结论。
-
-失败的官网标识文件可用`collect_official_extensions.py --retry-asset-errors`单独重试原链接及同路径另一协议；尺寸不符合标识要求的图片进入排除记录。联系与门户进度见[官网扩展报告](docs/official-extension-progress-2026.md)。
-
-`collect_official_overviews.py --retry-missing`从已有台账缺项出发尝试不同简介入口和官网导航；`--collect-only`先保存证据台账，`--reparse-cache --import-only`用忽略目录中的HTML重新解析并导入，原文不发布。最后运行`import_overview_supplements.py`按固定证据规则核对统计卡片；页面内容变化导致证据不匹配时停止该导入。
+官网来源优先；社区来源与取样建议明确标记。只填尚未取得的字段，保留已有冲突和人工决定。标识、VI、模板按已有公开入口补查；不再运行旧版全字段扩展、统计和就业采集器。上游数据按[固定版本清单](data/external/repositories.yaml)读取；导入主字段子集后运行 `prune_ppt_data.py` 约束当前档案。采集完成后重建七项派生内容并执行统一检查。
 
 `inspect_template_files.py --retry-errors`重试未读取的模板文件；资源重新导入后运行`--import-only`恢复已有结构元数据，再生成PPT索引。读取有文件/展开大小及时间上限；公开文件仅存于忽略目录，仓库只发布URL、结构统计和哈希。
 
@@ -141,6 +117,6 @@ python3 -m venv .venv
 
 ## 来源与许可
 
-学校官网、教育部门及校方提交的招生资料优先。公开 GitHub 数据按完整校名匹配到教育部标识码，记录来源类型、上游版本和日期。社区英文名不自动等同现行官方译名；社区配色仅写入资源参考，官方 VI 标准色、标识取样建议色分别标记方法。访问失败会尝试不同域名或页面入口，仍失败时保留记录，不能将其写成“学校没有”。
+学校官网、教育部门及校方正式文件优先。公开 GitHub 数据按完整校名匹配到教育部标识码，记录来源类型、上游版本和日期。社区英文名不自动等同现行官方译名；社区配色仅写入资源参考，官方 VI 标准色、标识取样建议色分别标记方法。访问失败会尝试不同域名或页面入口，仍失败时保留记录，不能将其写成“学校没有”。
 
 原创脚本按 [MIT](LICENSE)，原创数据整理按 [CC BY 4.0](LICENSE-DATA.md)。[第三方数据说明](data/external/README.md)列出独立许可；本库许可不替学校或社区作者授权校徽、字体、照片与模板。贡献方法见[贡献指南](CONTRIBUTING.md)。

@@ -12,6 +12,7 @@ import urllib.parse
 from yaml_io import load_yaml
 
 from profile_extensions import FACTS
+from ppt_scope import FACT_FIELDS, REQUIRED
 from build_indexes import write
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -42,7 +43,7 @@ def render_visual(profile):
            '## 逐文件校徽与校名资源','','| 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |','| --- | --- | --- | --- | --- | --- | --- | --- |']
     for asset in visual['logo_assets']:
         dimensions=('%s × %s'%(asset['width'],asset['height'])) if asset.get('width') and asset.get('height') else '未声明'
-        link=('[压缩包](%s) 内 `%s`'%(asset['archive_url'],cell(asset['archive_member']))) if asset.get('download_kind')=='archive_member' else '[文件](%s)'%asset['url']
+        link=('[压缩包](%s) 内 `%s`'%(asset['archive_url'],cell(asset.get('archive_member_display') or asset['archive_member']))) if asset.get('download_kind')=='archive_member' else '[文件](%s)'%asset['url']
         variant=asset.get('variant') or urllib.parse.unquote(asset.get('file_name') or '') or '未标注'
         publisher='官网' if asset['official'] else '社区'
         lines.append('| %s | %s | %s · [来源](%s) | %s | %s | %s | %s | %s |'%(KINDS[asset['kind']],cell(variant),link,asset['source'],publisher,asset.get('format') or '未知',dimensions,asset['access_status'],asset.get('asset_license') or '未独立声明'))
@@ -54,7 +55,7 @@ def render_visual(profile):
         role=entry['role']+('（历史参考）' if entry.get('current') is False else '')
         hex_value='`%s`'%entry['value'] if entry.get('value') else '未公布'
         rgb_value=','.join(map(str,entry['rgb'])) if entry.get('rgb') else '未公布'
-        lines.append('| %s | %s | %s | %s | %s | %s | %s | [依据](%s) |'%(cell(entry.get('label')),hex_value,rgb_value,role,cell(entry.get('cmyk')),cell(entry.get('pantone')),METHODS[entry['method']],entry['source']))
+        lines.append('| %s | %s | %s | %s | %s | %s | %s | [依据](%s) |'%(cell(entry.get('label')),hex_value,rgb_value,role,cell(entry.get('cmyk') or entry.get('cmyk_text')),cell(entry.get('pantone')),METHODS[entry['method']],entry['source']))
     if not visual['color_palette']:
         lines+=['','尚无附来源配色。']
     for key,label in [('color_primary','主色'),('color_secondary','辅色/并列色')]:
@@ -77,6 +78,9 @@ def render_visual(profile):
             lines+=['  - 文件容器已读取：%s；%s字节；读取类型%s；文件SHA256 `%s`。'%(meta['format'],meta['byte_size'],meta['read_kind'],meta['sha256'])]
             for member in meta.get('presentation_members',[]):
                 if member['status']=='content_inspected':lines+=['    - 包内 `%s`：%s页；画幅%s。'%(cell(member['path']),member['slide_count'],member['aspect_ratio'])]
+        elif entry.get('document_metadata'):
+            document=entry['document_metadata']
+            lines+=['  - PDF文档已读取：%s页；%s字节；文件SHA256 `%s`；具体用途及核对范围见记录说明。'%(document['page_count'],document['byte_size'],document['sha256'])]
         elif entry.get('file_inspection'):
             lines+=['  - 文件读取结果：%s；错误与已尝试网址见profile.yaml。'%entry['file_inspection']['status']]
     lines+=['','更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。','']
@@ -84,6 +88,8 @@ def render_visual(profile):
 
 
 def render_profile(profile):
+    if profile['schema_version'] == 4:
+        return render_core_profile(profile)
     identity=profile['identity'];labels=dict(BASE_FACTS,**{key:value[1] for key,value in FACTS.items()})
     lines=['# '+identity['name_zh']+'：资料档案','',
            '学校标识码：`'+identity['school_code']+'`；'+identity['province']+' / '+identity['city']+'；'+identity['level']+'；主管部门：'+identity['authority']+'。','',
@@ -126,6 +132,38 @@ def render_profile(profile):
     return '\n'.join(lines)
 
 
+def render_core_profile(profile):
+    identity = profile['identity']
+    lines = ['# ' + identity['name_zh'] + '：PPT资料档案', '',
+             '学校标识码：`' + identity['school_code'] + '`；' + identity['province'] + ' / ' + identity['city'] +
+             '；' + identity['level'] + '；主管部门：' + identity['authority'] + '。', '',
+             '仅保留PPT主字段与素材依据。自动采集状态、来源和设计建议分别标记。', '',
+             '## 已取得的主字段与可选补充', '',
+             '| 字段 | 值 | 采集日期 | 来源 |', '| --- | --- | --- | --- |']
+    missing = []
+    for dotted, label in FACT_FIELDS.items():
+        group, key = dotted.split('.'); fact = profile[group][key]
+        if fact['availability'] == 'found':
+            lines.append('| %s | %s | %s | [来源](%s) |' % (cell(label), cell(fact['value']), fact['checked_at'], fact['source']))
+            if fact.get('basis'):
+                lines.append('| 口径 / 方法 | %s | | |' % cell(fact['basis']))
+        elif dotted in REQUIRED:
+            missing.append('%s：%s' % (label, STATUS[fact['availability']]))
+    lines += ['', '## 制作PPT所需素材', '', '- [校徽、校名标识、色卡与VI手册](VISUAL.md)',
+              '- [官方模板入口与使用条件](OFFICIAL.md)']
+    if profile['resources']['community_resources']:
+        lines += ['- [开源演示主题与参考标识](COMMUNITY.md)']
+    if profile['culture']['history_events']:
+        lines += ['', '## 校史节点', '', '| 年份 | 事件 | 来源 |', '| --- | --- | --- |']
+        for item in profile['culture']['history_events']:
+            lines.append('| %s | %s | [来源](%s) |' % (item['year'], cell(item['event']), item['source']))
+    if not any(a.get('access_status') == 'content_inspected' for a in profile['visual']['logo_assets']):
+        missing.append('校徽 / 校名标识：尚无实际读取的文件')
+    lines += ['', '## 必备字段缺口', '', '；'.join(missing) + '。' if missing else '主字段已有附来源记录；使用前查看取值方法。', '',
+              '模板、辅色、校歌等可选项不作为全校必须存在的资料。机器字段与出处见[profile.yaml](profile.yaml)。', '']
+    return '\n'.join(lines)
+
+
 def save(path,expected,check):
     if check:
         if not path.exists() or path.read_text(encoding='utf-8')!=expected:
@@ -135,7 +173,7 @@ def save(path,expected,check):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
-    indexes={key:[] for key in ('logo-assets','color-palettes','color-conflicts','extended-facts','rankings','admission-cutoffs','subject-assessments','campuses')}
+    indexes={key:[] for key in ('logo-assets','color-palettes','color-conflicts','core-facts')}
     enriched=[];exports=[]
     for path in sorted((ROOT/'universities').glob('*/*/profile.yaml')):
         p=load_yaml(path.read_text(encoding='utf-8'));i=p['identity'];base=dict(school_code=i['school_code'],name_zh=i['name_zh'])
@@ -144,12 +182,10 @@ def main():
         exports.append(json.dumps(p,ensure_ascii=False,sort_keys=True)+'\n')
         for asset in p['visual']['logo_assets']:
             indexes['logo-assets'].append(dict(base,**{key:asset.get(key) for key in (
-                'asset_id','kind','title','variant','dimensions_in_filename','url','source','file_name','upstream_path','official','format','width','height','intrinsic_width','intrinsic_height','vector','representation','has_alpha','transparent_background','access_status','repository_license','asset_license','rights_holder','repository','commit','sha256','byte_size','source_type','source_sha256','verified','checked_at','resolved_url','download_kind','archive_url','archive_member','archive_sha256')}))
-        for campus in p['location']['campuses']:
-            indexes['campuses'].append(dict(base,**{key:cell(campus.get(key)) for key in ('name','address','coordinates','basis','source','checked_at')}))
+                'asset_id','kind','title','variant','dimensions_in_filename','url','source','file_name','upstream_path','official','format','width','height','intrinsic_width','intrinsic_height','vector','representation','has_alpha','transparent_background','access_status','repository_license','asset_license','rights_holder','repository','commit','sha256','byte_size','source_type','source_sha256','verified','checked_at','resolved_url','download_kind','archive_url','archive_member','archive_member_display','archive_sha256')}))
         for entry in p['visual']['color_palette']:
             indexes['color-palettes'].append(dict(base,**{key:cell(entry.get(key)) for key in (
-                'value','rgb','label','role','method','official','current','basis','source','cmyk','pantone')}))
+                'value','rgb','label','role','method','official','current','basis','source','cmyk','cmyk_text','pantone')}))
         for key in ('color_primary','color_secondary'):
             fact=p['visual'][key]
             if fact['availability']=='conflict':
@@ -157,19 +193,11 @@ def main():
                     indexes['color-conflicts'].append(dict(base,field='visual.'+key,label=fact.get('label',''),value=candidate['value'],
                         source=candidate['source'],basis=candidate.get('basis',''),reason=fact.get('note',''),checked_at=fact['checked_at']))
         found=0
-        for dotted,(value_type,label) in FACTS.items():
+        for dotted,label in FACT_FIELDS.items():
             group,key=dotted.split('.');fact=p[group][key];found+=fact['availability']=='found'
             if fact['availability']=='found':
-                indexes['extended-facts'].append(dict(base,field=dotted,value=json.dumps(fact['value'],ensure_ascii=False),source=fact['source'],source_type=fact.get('source_type','official_or_curated'),source_as_of=fact.get('source_as_of',''),basis=fact.get('basis',''),original_notation=fact.get('original_notation',''),approximate=fact.get('approximate',''),date_basis=fact.get('date_basis',''),verified=fact['verified'],checked_at=fact['checked_at']))
-        for name,group,key,columns in [
-            ('rankings','rankings','entries',('publisher','ranking_name','year','scope','rank','score','indicators','source','source_as_of')),
-            ('admission-cutoffs','admissions','cutoffs',('year','region','curriculum','batch','enrollment_type','minimum_score','minimum_rank','reference_only','source')),
-            ('subject-assessments','academics','subject_assessments',('subject','grade','availability','candidates','round','assessment_year','publisher','completeness','source'))]:
-            for entry in p[group][key]:
-                indexes[name].append(dict(base,**{key:cell(entry.get(key)) for key in columns}))
-        enriched.append(dict(base,extended_fact_count=found,logo_asset_count=len(p['visual']['logo_assets']),palette_count=len(p['visual']['color_palette']),
-                             ranking_count=len(p['rankings']['entries']),admission_count=len(p['admissions']['cutoffs']),
-                             subject_assessment_count=len(p['academics']['subject_assessments']),snapshot_count=len(p['community']['snapshots']),
+                indexes['core-facts'].append(dict(base,field=dotted,value=json.dumps(fact['value'],ensure_ascii=False),source=fact['source'],source_type=fact.get('source_type','official_or_curated'),basis=fact.get('basis',''),verified=fact['verified'],checked_at=fact['checked_at']))
+        enriched.append(dict(base,core_fact_count=found,logo_asset_count=len(p['visual']['logo_assets']),palette_count=len(p['visual']['color_palette']),
                              profile_view_path=path.with_name('PROFILE.md').relative_to(ROOT).as_posix(),visual_view_path=path.with_name('VISUAL.md').relative_to(ROOT).as_posix()))
     for name,rows in indexes.items():
         if not rows:raise ValueError('Expected populated index: '+name)

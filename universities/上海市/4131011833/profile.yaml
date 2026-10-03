@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4131011833'
   name_zh: 上海杉达学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Sanda University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q7415930&oldid=2511252740
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2511252740
+    source_sha256: 165bdf33b056211804a8b324ce7eb65dbec5c543843f814f0974328612293e8c
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: null
     source: null
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -76,12 +74,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0018C0'
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_9_shanghai/a_28/a_1_2.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: b006085a6394558cb2c72cba
+    source_sha256: 7e146ed07e9130b336a7d16540119d04d2bd584105f5c4dd546b4485b1ecf5cf
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -103,9 +109,79 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: b006085a6394558cb2c72cba
+    title: 上海杉达学院社区校徽预览
+    kind: badge
+    url: https://www.chinaschool.com.cn/i_region/i_9_shanghai/a_28/a_1_2.png
+    source: https://www.chinaschool.com.cn/i_region/i_9_shanghai/a_28/a_28.html
+    file_name: a_1_2.png
+    upstream_path: null
+    publisher: 大学志 chinaschool.com.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 上海杉达学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: c8a7534880cc0736550153ff554485562c9a641959939f421721cba377b4ebb0
+    identity_basis: 页面标题为当前完整校名且图像alt精确标注同校校徽；社区关联证据，现行版本未独立确认。
+    usage_note: 社区学校资料页校徽预览；不是校方直接发布，不认定现行VI或图形授权。只保存链接与实际文件元数据，不再分发图形。
+    sha256: 7e146ed07e9130b336a7d16540119d04d2bd584105f5c4dd546b4485b1ecf5cf
+    access_status: content_inspected
+    byte_size: 34124
+    format: png
+    vector: false
+    width: 140
+    representation: raster
+    height: 140
+    has_alpha: true
+    transparent_background: true
+    visual_review: auto
+    visual_review_basis: 实际查看图形；校名字样对应当前学校，或该页专用图形具有独立学校标识。社区来源，未认定为官方现行VI。
+  color_palette:
+  - value: '#0018C0'
+    rgb:
+    - 0
+    - 24
+    - 192
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_9_shanghai/a_28/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_9_shanghai/a_28/a_28.html
+    asset_id: b006085a6394558cb2c72cba
+    source_sha256: 7e146ed07e9130b336a7d16540119d04d2bd584105f5c4dd546b4485b1ecf5cf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  - value: '#0018B8'
+    rgb:
+    - 0
+    - 24
+    - 184
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_9_shanghai/a_28/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_9_shanghai/a_28/a_28.html
+    asset_id: b006085a6394558cb2c72cba
+    source_sha256: 7e146ed07e9130b336a7d16540119d04d2bd584105f5c4dd546b4485b1ecf5cf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
   vi_resources:
   - title: 上海杉达学院社区校徽目录
     url: https://www.urongda.com/logos/4131011833
@@ -259,14 +335,21 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1992
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q7415930&oldid=2511252740
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2511252740
+    source_sha256: 165bdf33b056211804a8b324ce7eb65dbec5c543843f814f0974328612293e8c
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -274,7 +357,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -296,6 +378,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -318,185 +401,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 上海杉达学院位于上海市上海市，教育部名单列为本科，主管部门为上海市教委。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

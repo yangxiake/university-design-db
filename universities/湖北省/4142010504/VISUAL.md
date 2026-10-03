@@ -49,5 +49,8 @@
 - [红色模版2.pptx](https://coi.hzau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2084921059&wbfileid=CA8A40E3249061C0E1B06311F947B715)：["PPT模板"]；格式 PPTX；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://coi.hzau.edu.cn/xygk/wh/dzmb.htm)。
   - 发布者：华中农业大学；适用范围：院系专用。
   - 文件结构已读取：2页；画幅3629:2041；声明字体Angsana New、Arial、Calibri、Cordia New、DaunPenh、DokChampa、Estrangelo Edessa、Euphemia、Gautami、Iskoola Pota、Kalinga、Kartika、Latha、MV Boli、Mangal、Microsoft Himalaya、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Nyala、Plantagenet Cherokee、Raavi、Shruti、Times New Roman、Tunga、Vrinda、宋体、新細明體、맑은 고딕、ＭＳ Ｐゴシック；可编辑文本节点0；文件SHA256 `984dca09d57bb6fe0fc35a9135c058016111e73a81ba8a269d8f1908ac2d06e5`。
+- [校名校徽标准图形](https://xchb.hzau.edu.cn/info/1023/1115.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xchb.hzau.edu.cn/info/1023/1115.htm)。
+- [点击下载附件：校徽+校名.zip](https://xchb.hzau.edu.cn/xiaohui.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://xchb.hzau.edu.cn/info/1023/1115.htm)。
+  - 文件容器已读取：ZIP；1229347字节；读取类型archive_structure；文件SHA256 `0db19b95a66b03cb43725c9e3939d03a46ddd75036ee653a91bf5055bb3db327`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

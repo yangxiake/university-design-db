@@ -1,0 +1,42 @@
+- school_code: '4143010542'
+  name_zh: 湖南师范大学
+  value: '#C8161D'
+  expected_candidates:
+  - '#C8161E'
+  - '#C8161D'
+  evidence_basis: 已实际读取官网学校标识页的WEB色值，与同页RGB记录并存。
+- school_code: '4132016403'
+  name_zh: 西交利物浦大学
+  value: '#010544'
+  expected_candidates:
+  - '#000042'
+  - '#010544'
+  evidence_basis: 已实际读取官网标识说明页的HEX字段。
+- school_code: '4132010292'
+  name_zh: 常州大学
+  value: '#CB3C38'
+  expected_candidates:
+  - '#C03F37'
+  - '#CB3C38'
+  evidence_basis: 已查看官网当前VIS手册第11页，按原图所印HEX选作屏幕建议。
+- school_code: '4137010439'
+  name_zh: 山东第一医科大学
+  value: '#800E74'
+  expected_candidates:
+  - '#801979'
+  - '#800E74'
+  evidence_basis: 已查看官网VI标准色色卡图片的HEX字段。
+- school_code: '4137013320'
+  name_zh: 青岛黄海学院
+  value: '#0C3386'
+  expected_candidates:
+  - '#0F3285'
+  - '#0C3386'
+  evidence_basis: 已查看官网VI手册第33页蓝色色卡的HEX字段。
+- school_code: '4111010001'
+  name_zh: 北京大学
+  value: '#94070A'
+  expected_candidates:
+  - '#8B0012'
+  - '#94070A'
+  evidence_basis: 已实际读取官方VI常见问题页的十六进制字段。

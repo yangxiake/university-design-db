@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4151013665'
   name_zh: 电子科技大学成都学院
@@ -9,12 +9,17 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Chengdu College of University of Electronic Science And Technology of China
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E6%88%90%E9%83%BD%E5%AD%A6%E9%99%A2&oldid=91916448
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: c329959309d4f49551e551dede4e18ea7b7e50478ec85f408786b3d2d0b8557d
+    source_revision: 91916448
+    collector: wikipedia_core_infobox
+    basis: 当前完整校名的中文维基百科大学信息框EnglishName/外文名称字段；社区记录，非校方命名证明。
   official_website:
     value: https://www.cduestc.cn/
     source: https://www.cduestc.cn/
@@ -43,14 +48,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +63,20 @@ research:
   audit_key: '4151013665'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#1840D8'
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_23_sichuan/a_36/a_1_2.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 60d3915addf3317a70ff31df
+    source_sha256: e31f14ffd7ca96129a86c5c0f70db9ee2f04876e8998a078427af25b2f660c91
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +98,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 4d3294d9d8245ebdd937fe9c
     kind: site_identity
@@ -130,8 +134,80 @@ visual:
     byte_size: 14089
     representation: raster
     resolved_url: https://www.cduestc.cn/image/main/logo-have-yuan.png
-  color_palette: []
+  - asset_id: 60d3915addf3317a70ff31df
+    title: 电子科技大学成都学院社区校徽预览
+    kind: badge
+    url: https://www.chinaschool.com.cn/i_region/i_23_sichuan/a_36/a_1_2.png
+    source: https://www.chinaschool.com.cn/i_region/i_23_sichuan/a_36/a_36.html
+    file_name: a_1_2.png
+    upstream_path: null
+    publisher: 大学志 chinaschool.com.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 电子科技大学成都学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: 3088e871660d5a422322b2f9b05aed36a9af83a9e1c184d90ab0d614a027cf4a
+    identity_basis: 页面标题为当前完整校名且图像alt精确标注同校校徽；社区关联证据，现行版本未独立确认。
+    usage_note: 社区学校资料页校徽预览；不是校方直接发布，不认定现行VI或图形授权。只保存链接与实际文件元数据，不再分发图形。
+    sha256: e31f14ffd7ca96129a86c5c0f70db9ee2f04876e8998a078427af25b2f660c91
+    access_status: content_inspected
+    byte_size: 34910
+    format: png
+    vector: false
+    width: 140
+    representation: raster
+    height: 140
+    has_alpha: true
+    transparent_background: true
+    visual_review: auto
+    visual_review_basis: 实际查看图形；校名字样对应当前学校，或该页专用图形具有独立学校标识。社区来源，未认定为官方现行VI。
+  color_palette:
+  - value: '#1840D8'
+    rgb:
+    - 24
+    - 64
+    - 216
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_23_sichuan/a_36/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_23_sichuan/a_36/a_36.html
+    asset_id: 60d3915addf3317a70ff31df
+    source_sha256: e31f14ffd7ca96129a86c5c0f70db9ee2f04876e8998a078427af25b2f660c91
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  - value: '#2040D8'
+    rgb:
+    - 32
+    - 64
+    - 216
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_23_sichuan/a_36/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_23_sichuan/a_36/a_36.html
+    asset_id: 60d3915addf3317a70ff31df
+    source_sha256: e31f14ffd7ca96129a86c5c0f70db9ee2f04876e8998a078427af25b2f660c91
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
     value: 2001
@@ -148,7 +224,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -170,6 +245,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -192,210 +268,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.cduestc.cn/cduestc/init_1040100/list-enrollment-job
-    availability: found
-    search_sources: []
-    source: https://www.cduestc.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://en.cduestc.cn/
-    availability: found
-    search_sources: []
-    source: https://www.cduestc.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4151013665'
-    upstream_record_name: Chengdu College of University of Electronic Science and Technology of China
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
+    value: 电子科技大学成都学院位于四川省成都市，教育部名单列为本科，主管部门为四川省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
+    availability: found
+    search_sources: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -36,5 +36,7 @@
 - [视觉形象识别系统 2008 年版](https://xcb.bnu.edu.cn/fwzn/xzzx/index.html)：校徽，校名，配色等；格式 jpg,eps；访问条件 否。社区记录[来源](https://github.com/CakeAL/beijing-univs-vis/blob/9d61ae50d24885331c70fdabf796d9bcfcac6e7b/README.md)。
 - [当前位置： 首页 » 服务指南 » 北京师范大学视觉形象识别系统(2008年版)](https://xcb.bnu.edu.cn/fwzn/xzzx/index.html)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.bnu.edu.cn/fwzn/xzzx/index.html)。
 - [北京师范大学视觉形象识别系统（2008年版）](https://xcb.bnu.edu.cn/docs/20160504105152612778.rar)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.bnu.edu.cn/fwzn/xzzx/index.html)。
+- [当前位置： 首页 » 服务指南 » 北京师范大学视觉形象识别系统(2008年版)](https://xcb.bnu.edu.cn/fwzn/xzzx/)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.bnu.edu.cn/fwzn/xzzx/)。
+- [北京师范大学视觉形象识别系统（2008年版）](https://xcb.bnu.edu.cn/docs/20160504105152612778.rar)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.bnu.edu.cn/fwzn/xzzx/)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

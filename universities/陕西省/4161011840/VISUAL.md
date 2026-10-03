@@ -24,5 +24,19 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.xiyi.edu.cn/xywh/sj.htm](https://www.xiyi.edu.cn/xywh/sj.htm)
+- [视觉形象识别系统-西安医学院](https://www.xiyi.edu.cn/xywh/sj.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/xywh/sj.htm)。
+- [校徽](https://www.xiyi.edu.cn/info/1123/19387.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19387.htm)。
+- [校徽.png](https://www.xiyi.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1691382519&wbfileid=14887460)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19387.htm)。
+- [校徽释义](https://www.xiyi.edu.cn/info/1123/19388.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19388.htm)。
+- [校徽.png](https://www.xiyi.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1691382519&wbfileid=14887457)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19388.htm)。
+- [英文校名](https://www.xiyi.edu.cn/info/1123/19402.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19402.htm)。
+- [英文校名.png](https://www.xiyi.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1691382519&wbfileid=14887467)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19402.htm)。
+- [中文校名](https://www.xiyi.edu.cn/info/1123/19403.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19403.htm)。
+- [中文校名.png](https://www.xiyi.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1691382519&wbfileid=14887468)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19403.htm)。
+- [辅助色校徽](https://www.xiyi.edu.cn/info/1123/19788.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19788.htm)。
+- [辅助色校徽.rar](https://www.xiyi.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1691382519&wbfileid=14893774)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19788.htm)。
+- [辅助色标识校名横式组合](https://www.xiyi.edu.cn/info/1123/19789.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19789.htm)。
+- [辅助色标识校名横式组合.rar](https://www.xiyi.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1691382519&wbfileid=14893775)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19789.htm)。
+- [关于印发《西安医学院视觉形象识别系统管理办法（试行）》的通知](https://www.xiyi.edu.cn/info/1123/19907.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xiyi.edu.cn/info/1123/19907.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

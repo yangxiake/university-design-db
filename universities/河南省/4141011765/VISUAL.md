@@ -29,6 +29,7 @@
 
 - 现有VI入口：[https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm](https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm)
 - [校训校徽](https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm)。
-- [点此下载校徽校名源文件](https://www.huuc.edu.cn/wj/logo.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm)。
+- [点此下载校徽校名源文件](https://www.huuc.edu.cn/wj/logo.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.huuc.edu.cn/xxgk/whcj/xxxh.htm)。
+  - 文件容器已读取：ZIP；826514字节；读取类型archive_structure；文件SHA256 `d9bb955a7c3c0b630294e8cb71742e1b02e174e86cc758f50bda691aec4fcb6a`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

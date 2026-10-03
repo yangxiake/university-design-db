@@ -31,5 +31,8 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.csust.edu.cn/xywh/jswh/xhxm.htm](https://www.csust.edu.cn/xywh/jswh/xhxm.htm)
+- [校徽校名](https://www.csust.edu.cn/xywh/jswh/xhxm.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.csust.edu.cn/xywh/jswh/xhxm.htm)。
+- [校徽校名标识系统制作文件（2020年9月）.zip](https://www.csust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1352677379&wbfileid=1766462)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.csust.edu.cn/xywh/jswh/xhxm.htm)。
+  - 文件容器已读取：ZIP；16357942字节；读取类型archive_structure；文件SHA256 `7f2bf2ff3af5b54f001ff0d56bcf788d2382bd08e41abea174b14a686fb0b7e9`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

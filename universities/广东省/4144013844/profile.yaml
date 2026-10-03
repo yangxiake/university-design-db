@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4144013844'
   name_zh: 东莞城市学院
@@ -9,12 +9,19 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: DONGGUAN CITY UNIVERSITY
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/2483.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2483/info.json
+    asset_id: bfb4d134a2f1445f222cf468
+    source_sha256: b88a080bec7dbd4e918a302be0a8c229daea9f173c90161c522e0181cbf53abe
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-03'
+    collector: inspected_logo_english_inscription
+    evidence: DONGGUAN CITY UNIVERSITY
+    basis: 实际查看图形所印完整英文名，保留图中拼写；教育在线平台存储的当前中文校名徽章/徽名组合；属于平台图形上的英文文字，不等同本校章程命名证明，未自行翻译。
   official_website:
     value: https://www.dgcu.edu.cn/
     source: https://www.dgcu.edu.cn/
@@ -43,14 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +65,20 @@ research:
   audit_key: '4144013844'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#108038'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/2483.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: bfb4d134a2f1445f222cf468
+    source_sha256: b88a080bec7dbd4e918a302be0a8c229daea9f173c90161c522e0181cbf53abe
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +100,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 22653590b0bda62e96a979d8
     kind: site_identity
@@ -130,7 +136,78 @@ visual:
     byte_size: 29439
     representation: raster
     resolved_url: https://www.dgcu.edu.cn/phone/images/index_ico_03.png?v=1
-  color_palette: []
+  - asset_id: bfb4d134a2f1445f222cf468
+    title: 东莞城市学院教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/2483.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/2483/info.json
+    file_name: 2483.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 东莞城市学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: cacef0452aa871943db4fc650c864d03e6393a686b3176b9cf810bbb8c541dfa
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: b88a080bec7dbd4e918a302be0a8c229daea9f173c90161c522e0181cbf53abe
+    access_status: content_inspected
+    byte_size: 11400
+    format: jpeg
+    vector: false
+    width: 200
+    representation: raster
+    height: 200
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#108038'
+    rgb:
+    - 16
+    - 128
+    - 56
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2483.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2483/info.json
+    asset_id: bfb4d134a2f1445f222cf468
+    source_sha256: b88a080bec7dbd4e918a302be0a8c229daea9f173c90161c522e0181cbf53abe
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#107838'
+    rgb:
+    - 16
+    - 120
+    - 56
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2483.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2483/info.json
+    asset_id: bfb4d134a2f1445f222cf468
+    source_sha256: b88a080bec7dbd4e918a302be0a8c229daea9f173c90161c522e0181cbf53abe
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources:
   - title: 东莞城市学院社区校徽目录
     url: https://www.urongda.com/logos/4144013844
@@ -265,14 +342,38 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 校徽校训
+    url: https://www.dgcu.edu.cn/about/001006.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.dgcu.edu.cn/about/001006.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 246eb3beeb64c04afc172ca24529eda75c4c576f2c9dc7f5bdc4e48fc7017720
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2004
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E4%B8%9C%E8%8E%9E%E5%9F%8E%E5%B8%82%E5%AD%A6%E9%99%A2&oldid=91813487
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: fb05d2799f45ce8ff267158edab800d3406fff093a1a027c9ffcb2f3982c39cd
+    source_revision: 91813487
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
     value: 厚德务实，知行合一
     source: https://www.dgcu.edu.cn/about.html
@@ -280,7 +381,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -302,6 +402,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -324,205 +425,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://zsw.dgcu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.dgcu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: http://en.dgcu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.dgcu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://www.dgcu.edu.cn/info.html
-    availability: found
-    search_sources: []
-    source: https://www.dgcu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 广东·东莞市寮步镇文昌路1号
-    availability: found
-    search_sources: []
-    source: https://www.dgcu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学院地址:广东·东莞市寮步镇文昌路1号
-  postal_code:
-    value: '523419'
-    availability: found
-    search_sources: []
-    source: https://www.dgcu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - '邮编: 523419'
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 东莞城市学院位于广东省东莞市，教育部名单列为本科，主管部门为广东省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

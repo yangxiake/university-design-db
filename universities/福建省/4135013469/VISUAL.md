@@ -58,5 +58,6 @@
 - [红色古典风格PPT模版](https://www.jgxy.xmu.edu.cn/down/9223d299ac3de5d6b6018c494edfc1ca.html)：["PPT模板"]；格式 未知（未读取目标）；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.jgxy.xmu.edu.cn/xxgk2/mb.html)。
   - 发布者：厦门大学嘉庚学院；适用范围：学校通用。
   - 文件结构已读取：23页；画幅16:9；声明字体Angsana New、Arial、Calibri、Calibri Light、Century Gothic、Cordia New、DaunPenh、DokChampa、Estrangelo Edessa、Euphemia、Gautami、Impact、Iskoola Pota、Kalinga、Kartika、Latha、MV Boli、Mangal、Microsoft Himalaya、Microsoft Uighur、Microsoft Yi Baiti、Mongolian Baiti、MoolBoran、Nyala、PT Sans、Plantagenet Cherokee、Raavi、Shruti、Sigmar One、Sylfaen、Times New Roman、Tunga、Vrinda、仓耳玄三M W05、宋体、微软雅黑、思源黑体 CN Light、思源黑体 CN Medium、思源黑体 CN Normal、新細明體、方正姚体、方正盛世楷书简体_大、方正粗宋简体、方正苏新诗柳楷简体、맑은 고딕、ＭＳ Ｐゴシック；可编辑文本节点339；文件SHA256 `26f586b2bd9f7240aaee787aa6a88c72a19fe4d16bdb72c123da5608230292f2`。
+- [学校标识](https://www.jgxy.xmu.edu.cn/info/3dno774z.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jgxy.xmu.edu.cn/info/3dno774z.html)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

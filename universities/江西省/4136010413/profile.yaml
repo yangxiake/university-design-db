@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4136010413'
   name_zh: 赣南医科大学
@@ -44,14 +44,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -68,12 +60,20 @@ research:
   audit_key: '4136010413'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#209050'
+    availability: found
     search_sources: []
+    source: https://www.gmu.edu.cn/images25/logo.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: f1decb6f398dd46887049ce9
+    source_sha256: 88f480dd152eea332851e31ba5f3904f97faf9aad176de5bbfc66830fcc49057
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +95,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: f1decb6f398dd46887049ce9
     kind: site_identity
@@ -170,6 +169,76 @@ visual:
     inspection_attempts:
     - url: http://www.gmu.edu.cn/images25/logo.png
       status: content_inspected
+  - archive_url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=37D94203CC2652C41A013F2AE3DA67E0
+    archive_sha256: cbe6c6b3e369d3895a5d0081f8e924828d7e5e0531aebab7bb0a116fdb4317d3
+    archive_member: ╨ú╗╒.png
+    archive_member_display: 校徽.png
+    checked_at: '2026-10-02'
+    sha256: b143939f232aac23da80e9edd14f32b154bb5168aca523a59130428c658899d6
+    access_status: content_inspected
+    byte_size: 363009
+    format: png
+    vector: false
+    width: 1219
+    representation: raster
+    height: 1218
+    has_alpha: true
+    transparent_background: true
+    asset_id: 2f2d282a752f164bbd1fdcd4
+    kind: badge
+    title: 赣南医科大学官方附件内标识：校徽.png
+    url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=37D94203CC2652C41A013F2AE3DA67E0
+    source: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=37D94203CC2652C41A013F2AE3DA67E0
+    publisher: 赣南医科大学
+    official: true
+    download_kind: archive_member
+    file_name: 校徽.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 赣南医科大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=7BF05498118F0B4EA7A45352765B6EBF
+    archive_sha256: 99f0113c012a4c65023bf7770218ab43390688cfb78564a10b3deb863d58a684
+    archive_member: ╨ú├√.png
+    archive_member_display: 校名.png
+    checked_at: '2026-10-02'
+    sha256: 9ccfef39c51bbc023e72bf63704d24d518f26ad4fedb240acbec9e8ba5c3b045
+    access_status: content_inspected
+    byte_size: 324517
+    format: png
+    vector: false
+    width: 4095
+    representation: raster
+    height: 1157
+    has_alpha: true
+    transparent_background: true
+    asset_id: 6fb999fd8119819cbc405cde
+    kind: combination
+    title: 赣南医科大学官方附件内标识：校名.png
+    url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=7BF05498118F0B4EA7A45352765B6EBF
+    source: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=7BF05498118F0B4EA7A45352765B6EBF
+    publisher: 赣南医科大学
+    official: true
+    download_kind: archive_member
+    file_name: 校名.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 赣南医科大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#209050'
     rgb:
@@ -288,6 +357,91 @@ visual:
     availability: found
     source_sha256: f307cf3f2ce2387e9ad82b7aace1f5ef344017db4c343441779e4714e86b23ac
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 学校标识
+    url: https://www.gmu.edu.cn/xxgk1/xxbs.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.gmu.edu.cn/xxgk1/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f307cf3f2ce2387e9ad82b7aace1f5ef344017db4c343441779e4714e86b23ac
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校名.zip
+    url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=7BF05498118F0B4EA7A45352765B6EBF
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.gmu.edu.cn/xxgk1/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=7BF05498118F0B4EA7A45352765B6EBF
+        status: file_read
+        url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=7BF05498118F0B4EA7A45352765B6EBF
+      resolved_url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=7BF05498118F0B4EA7A45352765B6EBF
+    file_metadata:
+      byte_size: 314811
+      format: ZIP
+      member_count: 1
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 99f0113c012a4c65023bf7770218ab43390688cfb78564a10b3deb863d58a684
+    content_read: true
+    download_status: content_inspected
+  - title: 校徽.zip
+    url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=37D94203CC2652C41A013F2AE3DA67E0
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.gmu.edu.cn/xxgk1/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=37D94203CC2652C41A013F2AE3DA67E0
+        status: file_read
+        url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=37D94203CC2652C41A013F2AE3DA67E0
+      resolved_url: https://www.gmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1508127756&wbfileid=37D94203CC2652C41A013F2AE3DA67E0
+    file_metadata:
+      byte_size: 362144
+      format: ZIP
+      member_count: 1
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: cbe6c6b3e369d3895a5d0081f8e924828d7e5e0531aebab7bb0a116fdb4317d3
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
     value: 1941
@@ -304,7 +458,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -326,6 +479,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -348,216 +502,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.gmu.edu.cn/zsjy1.htm
-    availability: found
-    search_sources: []
-    source: https://www.gmu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 赣南医科大学位于江西省赣州市，主管部门为江西省。官网列示全日制在校生18257人（统计时间2025）。官网列示专任教师1000余人（统计时间2025）。官网列示学校占地总面积2600余亩（统计时间2025）。
+    value: 赣南医科大学位于江西省赣州市，教育部名单列为本科，主管部门为江西省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://gmu.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 18257
-    availability: found
-    search_sources: []
-    source: https://gmu.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；原标注：全日制在校生18257人；截至2025
-    source_as_of: '2025'
-    date_basis: 截至2025
-    approximate: false
-    original_notation: 全日制在校生18257人
-  faculty_count:
-    value: 1000
-    availability: found
-    search_sources: []
-    source: https://gmu.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；近似/下界数，保留原标注：专任教师1000余人；截至2025
-    source_as_of: '2025'
-    date_basis: 截至2025
-    approximate: true
-    original_notation: 专任教师1000余人
-  campus_area_hectares:
-    value: 173.333333
-    availability: found
-    search_sources: []
-    source: https://gmu.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 学校占地总面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：学校占地总面积2600余亩；截至2025
-    source_as_of: '2025'
-    date_basis: 截至2025
-    approximate: true
-    original_notation: 学校占地总面积2600余亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 硕士学位授权一级学科：4个；统计时间2025
-    - 硕士专业学位授权点：7个；统计时间2025
-    availability: found
-    search_sources: []
-    source: https://gmu.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

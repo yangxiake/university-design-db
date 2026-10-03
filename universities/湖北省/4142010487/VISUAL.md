@@ -43,5 +43,13 @@
 - 现有VI入口：[http://vi.hust.edu.cn/](http://vi.hust.edu.cn/)
 - [华中科技大学视觉标识使用规范入口（2024版封面）](https://www.hust.edu.cn/xmxhxg.htm)：["标识规范"]；格式 HTML；访问条件 公开入口，后续可用性及独立授权以原发布页为准。官网记录[来源](https://www.hust.edu.cn/xmxhxg.htm)。
   - 发布者：华中科技大学；适用范围：未明确。
+- [华科大-标识系统](http://vi.hust.edu.cn/)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://vi.hust.edu.cn/)。
+- [VI手册-华科大-标识系统](http://vi.hust.edu.cn/info/1005/1377.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://vi.hust.edu.cn/info/1005/1377.htm)。
+- [学校标准色](http://vi.hust.edu.cn/jcbf/scgf/scxl.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://vi.hust.edu.cn/jcbf/scgf/scxl.htm)。
+- [标准彩色校徽及释义](http://vi.hust.edu.cn/jcbf/bzgf/xhgf.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://vi.hust.edu.cn/jcbf/bzgf/xhgf.htm)。
+- [A-1 标志规范.pdf](http://vi.hust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2025452816&wbfileid=13130186)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://vi.hust.edu.cn/jcbf/bzgf/xhgf.htm)。
+- [A-1 标志规范 图片文件.zip](http://vi.hust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2025452816&wbfileid=13130187)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://vi.hust.edu.cn/jcbf/bzgf/xhgf.htm)。
+- [校徽与中英文校名左右组合](http://vi.hust.edu.cn/jcbf/zhgf/xhybzz.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://vi.hust.edu.cn/jcbf/zhgf/xhybzz.htm)。
+- [A-4 标志组合规范.pdf](http://vi.hust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2025452816&wbfileid=13130198)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://vi.hust.edu.cn/jcbf/zhgf/xhybzz.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

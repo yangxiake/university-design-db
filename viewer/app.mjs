@@ -196,7 +196,8 @@ function logoCard(asset,recommended) {
   body.append(metadata([['文件读取',ACCESS[asset.access_status] || asset.access_status],['格式',asset.format?.toUpperCase()],
     ['尺寸',asset.width && asset.height?`${asset.width} × ${asset.height}`:'未记录完整实测尺寸'],['矢量表示',yesNo(asset.vector)],
     ['透明背景',yesNo(asset.transparent_background)],['版式/文件',asset.file_name],
-    ...(asset.archive_member?[['包内路径',asset.archive_member]]:[])]));
+    ...(asset.archive_member?[['包内路径',asset.archive_member_display || asset.archive_member]]:[])]));
+  if(asset.archive_member_display && asset.archive_member_display!==asset.archive_member)body.append(el('p','可读路径已恢复中文编码；程序读取请使用复制资料中的 archive_member 原值。','section-desc'));
   if(asset.preview_background_hint)body.append(el('p',asset.preview_background_hint.basis,'section-desc'));
   const links=el('div','','small-links');links.append(link(mode==='archive'?'原压缩包 ↗':'原文件 ↗',asset.archive_url || asset.url),link('发布来源 ↗',asset.source));body.append(links,provenance(asset));card.append(box,body);return card;
 }
@@ -222,6 +223,8 @@ function colorCard(color) {
   body.append(el('div',valid?color.value:'屏幕值为空','hex'),el('p',!valid && color.method==='official_vi'?'校方VI印刷证据':METHODS[color.method] || '来源存在冲突'));
   if(color.rgb)body.append(el('p','RGB '+color.rgb.join(' / ')));
   if(color.cmyk)body.append(el('p','CMYK '+color.cmyk.join(' / ')));
+  if(color.cmyk_text)body.append(el('p','原印刷记法：'+color.cmyk_text));
+  if(color.archive_member)body.append(el('p','包内依据：'+(color.archive_member_display || color.archive_member)));
   if(color.pantone)body.append(el('p','Pantone '+color.pantone));
   if(valid)body.append(button('复制 HEX',()=>copy(color.value),'quiet'));
   body.append(provenance(color));card.append(swatch,body);return card;

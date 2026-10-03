@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4141010459'
   name_zh: 郑州大学
@@ -74,34 +74,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - zhengzhou-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: zhengzhou
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -120,25 +92,39 @@ research:
   audit_key: '4141010459'
 visual:
   color_primary:
-    value: '#1D4144'
-    source: https://www.zzu.edu.cn/template_files/1/img/mobile-nav-logo.png
+    value: '#880000'
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    method: official_vi
+    label: 标准红
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 50
+    pantone: null
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.zzu.edu.cn/index.htm
-    image_sha256: 0b435176574e7f9f8f2fae2c4520202bb4a6941f0b4c50d99ceef5a40607373d
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#1B4142'
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    method: official_vi
+    label: 标准蓝绿
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    cmyk:
+    - 90
+    - 70
+    - 70
+    - 30
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
   vi_url:
     value: https://www5.zzu.edu.cn/xuan/info/1017/1157.htm
     availability: found
@@ -154,7 +140,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 9635e9367dc35588
     title: 郑州大学校徽资源
@@ -468,15 +453,16 @@ visual:
     - 68
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: https://www.zzu.edu.cn/template_files/1/img/mobile-nav-logo.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    source_field: visual.color_primary
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
   - value: '#284345'
     rgb:
     - 40
@@ -657,6 +643,218 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 159d5380391b705f
+  - value: '#880000'
+    rgb:
+    - 136
+    - 0
+    - 0
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 50
+    pantone: null
+    label: 标准红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+    source_field: visual.color_primary
+  - value: '#1B4142'
+    rgb:
+    - 27
+    - 65
+    - 66
+    cmyk:
+    - 90
+    - 70
+    - 70
+    - 30
+    pantone: null
+    label: 标准蓝绿
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+    source_field: visual.color_secondary
+  - value: '#90001A'
+    rgb:
+    - 144
+    - 0
+    - 26
+    cmyk:
+    - 0
+    - 100
+    - 70
+    - 50
+    pantone: '483'
+    label: 辅助色 PANTONE 483
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+  - value: '#004338'
+    rgb:
+    - 0
+    - 67
+    - 56
+    cmyk:
+    - 100
+    - 10
+    - 60
+    - 70
+    pantone: '561'
+    label: 辅助色 PANTONE 561
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+  - value: '#005C60'
+    rgb:
+    - 0
+    - 92
+    - 96
+    cmyk:
+    - 100
+    - 30
+    - 50
+    - 40
+    pantone: '3155'
+    label: 辅助色 PANTONE 3155
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+  - value: '#004464'
+    rgb:
+    - 0
+    - 68
+    - 100
+    cmyk:
+    - 100
+    - 60
+    - 40
+    - 60
+    pantone: '468'
+    label: 辅助色 PANTONE 468
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+  - value: '#4F2A1A'
+    rgb:
+    - 79
+    - 42
+    - 26
+    cmyk:
+    - 60
+    - 80
+    - 90
+    - 50
+    pantone: '7519'
+    label: 辅助色 PANTONE 7519
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+  - value: '#E27E00'
+    rgb:
+    - 226
+    - 126
+    - 0
+    cmyk:
+    - 10
+    - 70
+    - 100
+    - 10
+    pantone: '1525'
+    label: 辅助色 PANTONE 1525
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+  - value: '#BC7E00'
+    rgb:
+    - 188
+    - 126
+    - 0
+    cmyk:
+    - 10
+    - 50
+    - 100
+    - 30
+    pantone: '146'
+    label: 辅助色 PANTONE 146
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+  - value: '#EFEADE'
+    rgb:
+    - 239
+    - 234
+    - 222
+    cmyk:
+    - 10
+    - 0
+    - 0
+    - 10
+    pantone: '7528'
+    label: 辅助色 PANTONE 7528
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+    source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
   vi_resources:
   - title: 关于进一步规范使用郑州大学校徽的通知-党委宣传部
     url: https://www5.zzu.edu.cn/xuan/info/1017/1157.htm
@@ -690,6 +888,23 @@ visual:
     availability: found
     source_sha256: 0dfb611309f9b253534209f6eb380f650e56076712c4390e81f1b6370e48bac6
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 郑州大学官方视觉规范
+    url: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+  landmarks: []
 culture:
   founded_year:
     value: 1956
@@ -713,12 +928,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 2000
-    event: 原郑州大学、郑州工业大学与河南医科大学合并
-    source: https://www.zzu.edu.cn/xxgk/lsyg.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -740,6 +949,12 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 2000
+    event: 原郑州大学、郑州工业大学与河南医科大学合并
+    source: https://www.zzu.edu.cn/xxgk/lsyg.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -813,515 +1028,14 @@ resources:
     - TeX/TikZ
     content_read: true
     usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
-  admissions_url:
-    value: https://www.zzu.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.zzu.edu.cn/index.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://job.zzu.edu.cn/p/page/index.html
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 113.535
-      latitude: 34.819
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: 郑州大学位于河南省郑州市，主管部门为河南省。官网列示全日制普通本科生4.3万余人（统计日期未注明）。官网列示学校总占地面积8500余亩（统计日期未注明）。
+    value: 郑州大学位于河南省郑州市，教育部名单列为本科，主管部门为河南省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.zzu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 43000
-    availability: found
-    search_sources: []
-    source: https://www.zzu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制普通本科生；近似/下界数，保留原标注：全日制普通本科生4.3万余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制普通本科生4.3万余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 566.666667
-    availability: found
-    search_sources: []
-    source: https://www.zzu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 学校总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：学校总占地面积8500余亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 学校总占地面积8500余亩
-academics:
-  double_first_class_disciplines:
-    value:
-    - 临床医学
-    - 材料科学与工程
-    - 化学
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 材料科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 化学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 临床医学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0371-67780000；电话: 0371-67762001；电话: 0371-63887041；电话: 0371-66658007'
-    availability: found
-    search_sources: []
-    source: https://www.zzu.edu.cn/lxwm.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0371-67780000
-    - 电话:0371-67762001
-    - 电话:0371-63887041
-    - 电话:0371-66658007
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 53
-    score: 312.8
-    indicators:
-      school_level: 26.3
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 44
-    score: 380
-    indicators:
-      faculty: 44.3
-      research: 48.1
-      resources: 7.4
-      discipline: 28.9
-      top_talent: 14.3
-      school_level: 29.7
-      international: 19.5
-      major_projects: 6.2
-      social_service: 7
-      talent_training: 174.8
-    upstream_url: https://www.shanghairanking.cn/institution/zhengzhou-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 585
-    minimum_rank: 24000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 578
-    minimum_rank: 6000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 郑州大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4141010459'
-    upstream_record_name: 郑州大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4141010459'
-    upstream_record_name: 郑州大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4141010459'
-    upstream_record_name: 郑州大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4141010459'
-    upstream_record_name: 郑州大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4141010459'
-    upstream_record_name: 郑州大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 生源概况
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

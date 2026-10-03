@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4153013326'
   name_zh: 滇池学院
@@ -9,12 +9,19 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: DIANCHI COLLEGE
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/2523.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2523/info.json
+    asset_id: 4f6348c5486eb32168fd5820
+    source_sha256: dead573dd1e143231fa855502454999dfc6e157e0791ae0a15d0e856e8797c2e
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-03'
+    collector: inspected_logo_english_inscription
+    evidence: DIANCHI COLLEGE
+    basis: 实际查看图形所印完整英文名，保留图中拼写；教育在线平台存储的当前中文校名徽章/徽名组合；属于平台图形上的英文文字，不等同本校章程命名证明，未自行翻译。
   official_website:
     value: https://www.dcc.edu.cn/
     source: https://www.dcc.edu.cn/
@@ -43,14 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -67,12 +66,20 @@ research:
   audit_key: '4153013326'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#184098'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/2523.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 4f6348c5486eb32168fd5820
+    source_sha256: dead573dd1e143231fa855502454999dfc6e157e0791ae0a15d0e856e8797c2e
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -94,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: a102a177918064c3720c1c1b
     kind: site_identity
@@ -131,16 +137,92 @@ visual:
     byte_size: 111487
     representation: raster
     resolved_url: https://www.dcc.edu.cn/imgs/logo2026.png
-  color_palette: []
+  - asset_id: 4f6348c5486eb32168fd5820
+    title: 滇池学院教育在线标识预览
+    kind: wordmark
+    url: https://static-data.gaokao.cn/upload/logo/2523.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/2523/info.json
+    file_name: 2523.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 滇池学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: 7cb111811902039544819713f2e849783fda571c6e2b1c4d936cd76575c40eb0
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: dead573dd1e143231fa855502454999dfc6e157e0791ae0a15d0e856e8797c2e
+    access_status: content_inspected
+    byte_size: 39356
+    format: png
+    vector: false
+    width: 477
+    representation: raster
+    height: 476
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#184098'
+    rgb:
+    - 24
+    - 64
+    - 152
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2523.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2523/info.json
+    asset_id: 4f6348c5486eb32168fd5820
+    source_sha256: dead573dd1e143231fa855502454999dfc6e157e0791ae0a15d0e856e8797c2e
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#104098'
+    rgb:
+    - 16
+    - 64
+    - 152
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2523.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2523/info.json
+    asset_id: 4f6348c5486eb32168fd5820
+    source_sha256: dead573dd1e143231fa855502454999dfc6e157e0791ae0a15d0e856e8797c2e
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2001
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/www/2.0/school/2523/info.json
+    source_sha256: 7cb111811902039544819713f2e849783fda571c6e2b1c4d936cd76575c40eb0
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: eol_core
+    basis: 教育在线同校资料缓存create_date原值；平台整理记录，未独立确认前身、现名设立或升本口径。
   motto:
     value: null
     source: null
@@ -148,7 +230,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -170,6 +251,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -192,239 +274,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.dcc.edu.cn/news/xinxigongkai.html
-    availability: found
-    search_sources: []
-    source: https://www.dcc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 昆明杨林校区
-    address: null
-    coordinates: null
-    source: https://www.dcc.edu.cn/news/article/202607/1783067942143/
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 昆明阳宗海校区
-    address: null
-    coordinates: null
-    source: https://www.dcc.edu.cn/news/article/202607/1783067942143/
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 滇池学院位于云南省昆明市，主管部门为云南省教育厅。官网列示全日制在校学生26000余人（统计日期未注明）。官网列示专任教师1384人（统计日期未注明）。官网列示占地面积1288亩（统计日期未注明）。简介列出昆明杨林校区、昆明阳宗海校区。
+    value: 滇池学院位于云南省昆明市，教育部名单列为本科，主管部门为云南省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.dcc.edu.cn/news/article/202607/1783067942143/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 26000
-    availability: found
-    search_sources: []
-    source: https://www.dcc.edu.cn/news/article/202607/1783067942143/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校学生；近似/下界数，保留原标注：全日制在校学生26000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校学生26000余人
-  faculty_count:
-    value: 1384
-    availability: found
-    search_sources: []
-    source: https://www.dcc.edu.cn/news/article/202607/1783067942143/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师1384人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 专任教师1384人
-  campus_area_hectares:
-    value: 85.866667
-    availability: found
-    search_sources: []
-    source: https://www.dcc.edu.cn/news/article/202607/1783067942143/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积1288亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地面积1288亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '咨询电话: 0871-64315215；咨询电话: 0871-64572682；咨询电话: 0871-64316369；咨询电话: 0871-64312817'
-    availability: found
-    search_sources: []
-    source: https://www.dcc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 咨询电话:0871-64315215
-    - 咨询电话:0871-64572682
-    - 咨询电话:0871-64316369
-    - 咨询电话:0871-64312817
-  email:
-    value: dcxy@dcc.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.dcc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电子邮箱:dcxy@dcc.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

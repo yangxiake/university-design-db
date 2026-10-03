@@ -27,15 +27,15 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm](https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm)
-- [浙江外国语学院官网视觉资源页 PPT模板发布/下载页](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)：["PPT模板"]；格式 HTML；访问条件 校方公开HTML页已读取；页面内附件或外部下载目标另行索引。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)。
-  - 发布者：浙江外国语学院官网视觉资源页；适用范围：学校通用。
-- [浙江外国语学院PPT模板（蓝色16：9）.pptx](https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150817)：["PPT模板"]；格式 PPTX；访问条件 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)。
-  - 发布者：浙江外国语学院官网视觉资源页；适用范围：学校通用。
-  - 文件读取结果：inspection_failed；错误与已尝试网址见profile.yaml。
-- [浙江外国语学院PPT模板（紫色16：9）.pptx](https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150818)：["PPT模板"]；格式 PPTX；访问条件 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)。
-  - 发布者：浙江外国语学院官网视觉资源页；适用范围：学校通用。
-  - 文件读取结果：inspection_failed；错误与已尝试网址见profile.yaml。
-- [学校标识](https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm)。
-- [学校标识](https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm)。
+- [形象识别系统](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)。
+- [浙江外国语学院PPT模板（蓝色16：9）.pptx](https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150817)：["PPT模板"]；格式 PPTX；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)。
+- [浙江外国语学院PPT模板（紫色16：9）.pptx](https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150818)：["PPT模板"]；格式 PPTX；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)。
+- [校标](https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm)。
+- [校名](https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm)。
+- [下载PSD图像文件](https://www.zisu.edu.cn/xiaobiaopdf.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm)。
+- [下载CDR图形文件](https://www.zisu.edu.cn/xiaobiao.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm)。
+- [下载PDF图像文件](https://www.zisu.edu.cn/xiaomingpdf.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm)。
+- [下载CDR图形文件](https://www.zisu.edu.cn/xiaomingcdr.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm)。
+- [一、基础部分.pdf](https://www.zisu.edu.cn/images/20140505_154215_998_286.pdf)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -28,5 +28,9 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.lnist.edu.cn/xxgk/xxbs.htm](https://www.lnist.edu.cn/xxgk/xxbs.htm)
+- [学校标识-辽宁科技学院](https://www.lnist.edu.cn/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lnist.edu.cn/xxgk/xxbs.htm)。
+- [校歌下载](https://www.lnist.edu.cn/fujian/xiaoge.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lnist.edu.cn/xxgk/xxbs.htm)。
+- [校歌伴奏(有旋律)下载](https://www.lnist.edu.cn/fujian/xgbz.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lnist.edu.cn/xxgk/xxbs.htm)。
+- [校歌伴奏(无旋律)下载](https://www.lnist.edu.cn/fujian/xgbz_wxl.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lnist.edu.cn/xxgk/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

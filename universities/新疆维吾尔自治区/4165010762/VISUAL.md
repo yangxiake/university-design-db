@@ -28,5 +28,6 @@
 - 现有VI入口：[https://www.xjnu.edu.cn/xxgk/xxbs.htm](https://www.xjnu.edu.cn/xxgk/xxbs.htm)
 - [新疆师范大学校徽](https://dllyxy.xjnu.edu.cn/info/1053/3779.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://dllyxy.xjnu.edu.cn/info/1053/3779.htm)。
 - [新疆师范大学校徽三种抠图版.rar](https://dllyxy.xjnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2066846961&wbfileid=C88924133218E9E4753594CC45AC18ED)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://dllyxy.xjnu.edu.cn/info/1053/3779.htm)。
+- [学校标识](https://www.xjnu.edu.cn/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xjnu.edu.cn/xxgk/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

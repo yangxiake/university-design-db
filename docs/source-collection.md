@@ -25,7 +25,7 @@
 
 只有印刷CMYK/Pantone的官方规范仍可完整进入`visual.color_palette`，保留原色名，`value/rgb`同时为空；不把无色彩配置的印刷值换算成官方屏幕色。`visual-guides-decisions-2026.yaml`保存逐条判读、原手册页码及来源哈希；通过`import_visual_refresh.py --decisions data/review/visual-guides-decisions-2026.yaml`复现导入。`collect_visual_attachments.py`按网页明确标签索引AI/CDR/PDF/压缩包下载入口，动态下载端点也可记录；声明格式不代表已读取附件内容。
 
-`collect_homepage_identity.py`补查现有候选网站，要求完整校名明确出现在网站版权声明中，并记录URL、极短证据、哈希和每次访问结果。新闻提及、旧版权名和母校名不足以确认；招生、英文、信息公开等部门门户不能写为学校主站。新确认入口后可用`collect_official_extensions.py --school-code <标识码>`及`collect_official_overviews.py --school-code <标识码>`单独补采；台账与未选学校的档案保留。
+`collect_homepage_identity.py`补查有来源的网站候选，要求主首页的现校完整名称或版权主体明确，记录URL、短依据、哈希及访问结果。新闻提及、旧版权名和母校名不足以确认；部门门户不作为学校主站。新确认入口后使用主字段采集器及`collect_header_css_marks.py`补英文名、建校年和标识；台账保留。
 
 `extract_badge_palette_leads.py` 收集同校官网标识图片的像素色簇，作为PPT建议色线索。先逐图排除二维码、社交平台图标、媒体标识、事业单位页脚标识、校庆专用图和装饰背景，再填写取色判读文件。`import_sampled_colors.py` 只填未调查的主色字段，保留已有标准色、冲突和检索后未找到记录；始终用 `badge_sample` 或 `manual_derived`，附图片来源、入口、哈希、取样依据和“PPT建议色”用途说明。AI看过图片仍标 `verified: auto`。建议数值不作为校方标准值，也不推断官方辅助色。
 
@@ -43,31 +43,17 @@
 
 运行结果与缺口见 [覆盖率报告](coverage-2026.md)，逐校工作入口见 [复核队列](../data/review/review-queue-2026.csv)。本轮验收采用自动资料校验，不要求人工签核；人工审定版本可在后续另行制作。
 
-## 不同网址与 GitHub 资料
+## 当前主字段采集
 
-发现程序优先尝试不同主机，再尝试 HTTP/HTTPS、首页和已知页面等变体，每校至多8个候选网址。`attempted_urls` 保存本次实际尝试的地址，仍无法访问则保留错误；可读robots禁止的路径不绕过。资料访查会沿同校简介、章程、文化、历史等入口继续调查。
+范围清单为 `data/ppt-core-fields.yaml`，当前档案为v4。先处理 `ppt-core-queue-2026.csv` 中缺英文名、建校年、校训、主色和可读标识的学校；可选模板、VI与校史资料随同校来源补充。
 
-`import_public_repositories.py`按`data/external/repositories.yaml`的提交锁定版本，只读JSON、README、CSS等文本，不运行下载的代码。原基础导入补英文名和网址候选；`expand_repository_fields.py`另导入v3字段并集、MIT原字段快照、逐文件校徽元数据及历史排名/学科/招生的明确社区记录。两份582校数据集不能当作两份独立官方证明。图库照片伪装成校徽的条目已排除；主观梯队、宣传简介、就业评论和占位学科文本只保留在原快照中，不作为客观学校事实。无许可目录仅提取带出处的资源链接事实；可再分发的匹配数据子集附原许可。
+`collect_ppt_core.py` 只读取同校简介、章程、文化、历史与英文页，保留实际访问和SHA256；只导入单一明确值，冲突不自动择一。`collect_wikidata_core.py` 读取条目固定修订，中文名精确匹配；未预先确认类别的条目还须有大学/学院教育机构描述。只导入无时期限定且无不同值的成立年份、中文校训和英文标签，保持社区来源。
 
-社区资源链接保存到单校档案并生成独立便读视图。主题色保留在资源项，同时可投影到`visual.color_palette`，方法仍为community_theme；社区标识取色为community_logo_sample。两者不覆盖官方主色结论，也不当作学校标准色。
+`fill_ppt_reference_colors.py` 从已有实际读取标识的色卡选PPT建议主色，不重新宣称为校方VI。官网标识、社区标识与灰度参考保持原来源。仅有官方印刷色时仍不生成官方屏幕标准色。
 
-校徽学校身份以完整中文名或唯一完整英文名匹配，不做模糊归母校。GitHub素材先尝试固定提交的raw链接，失败再尝试同提交的另一文件入口；读取成功后仅保存尺寸、格式、哈希、透明信息及建议色，不将文件纳入再分发目录。实际格式通过文件内容识别；SVG内嵌位图与纯矢量分别记录。静态JavaScript资料仅解析字符串、数值、数组和对象字面量，遇到函数、网络调用或赋值后的额外代码则拒绝。
+`prune_ppt_data.py` 按白名单投影档案和许可子集，删除招生、就业、排名、学科统计、人数、面积、位置和联系方式。来源、版本、图形许可、格式与哈希保留。旧版全字段扩展采集停止使用，标准CI只检查数据，不联网补采。
 
-SVG支持UTF-8/UTF-16与受限的Illustrator命名空间字面量，不加载外部DTD、不处理外部或递归实体。内嵌图像只读已有字节作元数据/取色，不运行脚本或呈现外部HTML。`--retry-visual-errors`可仅重试已有失败条目，保留其他学校和字段。
-
-## 官网联系与标识扩展
-
-`collect_official_extensions.py`从已确认的官网首页补采v3字段；页面须以教育部完整校名匹配。已确认主站的通用标题页也可按完整校名版权主体核对；未确认候选没有这项例外。独立院校不能归入名称包含的母校。仅在请求失败后尝试相同路径的另一协议，robots禁止、身份不符或跨学校跳转立即停止。网页不执行JavaScript，图片只读取内容元数据。
-
-既有但尚未确认的主页候选也可尝试访问，仍须通过同一完整校名检查才采字段；未通过时只保留访问/身份缺口。`--retry-asset-errors`单独重试已有失败文件，成功记录请求路径、最终URL与内容哈希；小图标、装饰背景、页脚标识等进入排除台账。
-
-联系方式限定首页页脚/末尾或同主机、明确标作“联系我们”的学校联系页；保留标签、短证据与通讯信息口径，不导入新闻中的个人联系方式、传真或技术支持/举报电话。多邮编不选择一个代替全校。门户须有明确导航名称且属于同校域名；只确认官网链接出处。
-
-图片只取前部带logo/校徽/校名语义的页眉元素，排除页脚政务、菜单、社交、二维码与校庆标识。未明确细分的图片归为site_identity，不称作纯校徽；official表示官网发布，不表示现行VI版本或授权。自动取色只进入非官方参考调色板，不修改已有主色、辅助色或冲突。台账为data/review/official-extensions-2026.jsonl，未找到值的字段继续保留未采集。
-
-`import_visual_refresh.py`应用逐校判读的`visual-refresh-decisions-2026.yaml`：官方手册可以取代明确列出的自动建议色或旧版本入口，原值与来源保留在替换台账。RGB与HEX内部不一致不自动纠错，主色与辅色均保存冲突。当前常州大学官网嵌入的新VIS与旧龙形校标页不同；旧色只作历史参考。哈工大庆典红的数字冲突与特殊用途单独保留。PDF文件只用于本地阅读，档案保存URL、页码依据及读取哈希。
-
-`apply_context_corrections.py`应用附来源的明确语境决定，并在台账保留被排除的历史候选；例如前身学校的校训不能作为现行校训的冲突值。新设院校的独立设置年份与前身起点分别说明，不混用。网址候选可用`sync_source_candidates.py`同步到尚未确认官网的单校档案。
+访问失败尝试已知不同页面、主站和公开协议入口；登录、验证页、robots限制分别记录，不绕过。每批主字段真实覆盖由 `report_ppt_core.py` 计算，不能以1412个档案或可选字段数量宣称全部补齐。
 
 ## 视觉目录与PPT补采
 
@@ -88,3 +74,13 @@ SVG支持UTF-8/UTF-16与受限的Illustrator命名空间字面量，不加载外
 `import_logo_layouts.py`按`logo-layout-sources-2026.yaml`固定Git提交读取README与文件树，区分`badge/wordmark/combination`及颜色、方向、语言版式。选定SVG/PNG实际检查，其余PDF/PNG仅索引；文件名的尺寸放在`dimensions_in_filename`，不当作实测宽高。社区代码许可和学校图形权利分别记录。
 
 社区PPT项目的固定版本README与目录读取可重试暂时连接错误，缓存只在忽略目录；已有PPTX结构数据仅在URL及Git blob都未改变时保留。新的文件仍须另行读取，不继承旧文件的页数或哈希。增量及剩余缺口由`report_visual_gaps.py`生成，不能以已建档学校数代替可用素材覆盖率。
+
+## M4第二批的证据重放
+
+`collect_targeted_vi.py`保存官方HTML、PDF与图像的独立回执，PDF记录实际页数、字节数和SHA-256；AI后缀中的PDF兼容内容只证明PDF页已读，不证明原生AI结构可编辑。`replay_official_vi_receipts.py`从哈希一致的缓存页重放明确视觉标题及附件链接，继续发现其他有效入口。链接发现不继承文件实读状态。
+
+`collect_official_archive_logos.py`仅以受限字节流读取ZIP成员，不按成员名解压到磁盘。图形解析成功后仍需逐张判读完整当前校名及图形类型。`archive_member`保存ZIP解析器的真实成员字符串；`archive_member_display`恢复中文编码供阅读，不能替代程序查找用的原字符串。容器`archive_sha256`与图形`sha256`分别核对；包内色卡同样保留`source_sha256`容器哈希及`member_sha256`成员哈希。
+
+标准色保留原RGB、HEX、CMYK与Pantone。原文只写局部印刷通道时，`cmyk`留空，`cmyk_text`保存原记法；遇到内部数值矛盾或疑似排印错误不补零、不猜色。新的正向规范证据可以解决有检索台账的`not_found`，原先负向判断保留于替换记录。
+
+`replay_overview_identity_facts.py`从已读简介补英文名、建校年与文化字段。当前只处理主字段；原动态字段补采记录已清理。

@@ -23,8 +23,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.hhdu.edu.cn/info/1648/4435.htm](https://www.hhdu.edu.cn/info/1648/4435.htm)
-- [哈尔滨华德学院官网视觉资源页 PPT模板发布/下载页](https://www.hhdu.edu.cn/xxgk/bsxt.htm)：["PPT模板"]；格式 HTML；访问条件 校方公开HTML页已读取；页面内附件或外部下载目标另行索引。官网记录[来源](https://www.hhdu.edu.cn/xxgk/bsxt.htm)。
-  - 发布者：哈尔滨华德学院官网视觉资源页；适用范围：学校通用。
+- [标识系统](https://www.hhdu.edu.cn/xxgk/bsxt.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.hhdu.edu.cn/xxgk/bsxt.htm)。
 - [哈尔滨华德学院PPT模版下载](https://www.hhdu.edu.cn/info/1648/4436.htm)：["PPT模板"]；格式 HTML；访问条件 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码。官网记录[来源](https://www.hhdu.edu.cn/xxgk/bsxt.htm)。
   - 发布者：哈尔滨华德学院官网视觉资源页；适用范围：学校通用。
   - 文件读取结果：target_page_read；错误与已尝试网址见profile.yaml。

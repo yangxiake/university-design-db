@@ -137,27 +137,10 @@ def main():
               f"- 其中Beamer主题：{community['beamer_theme']}；Marp主题：{community['marp_theme']}；校徽参考：{community['logo_reference']}；校史参考：{community['history_reference']}",
               f"- 社区数据补充的事实：{community['dataset_facts']}（已计入关键字段，非校方现行声明）", '',
               '资源索引见indexes/community-resources.csv。社区配色不计入学校主题色统计。']
-    enriched_path=ROOT/'data/review/enriched-coverage-2026.json'
-    if enriched_path.exists():
-        import json
-        enriched=json.loads(enriched_path.read_text())['counts']
-        lines += ['', '## v3字段并集与视觉文件', '',
-                  f"- 逐文件校徽/校名资源：{enriched['logo_schools']}所、{enriched['logo_entries']}条",
-                  f"- 结构化配色：{enriched['palette_schools']}所、{enriched['palette_entries']}条（包含建议色，不等于官方标准覆盖）",
-                  f"- 历史排名：{enriched['ranking_schools']}所、{enriched['ranking_entries']}条",
-                  f"- 学科评估节选：{enriched['subject_schools']}所、{enriched['subject_entries']}条",
-                  f"- 重庆2025社区录取参考：{enriched['admission_schools']}所、{enriched['admission_entries']}条",
-                  '', '新增27个事实字段和12个集合的逐项填充及上游字段落点见[字段并集报告](github-field-union-2026.md)。']
-    official_path=ROOT/'data/review/official-extension-coverage-2026.json'
-    if official_path.exists():
-        import json
-        official=json.loads(official_path.read_text())
-        counts=official['current_facts']
-        lines+=['','## 官网联系与门户补采','',
-                '| 字段 | 有来源学校数 |','| --- | ---: |']
-        for field in ('institution.nature','location.address','location.postal_code','contacts.phone','contacts.email','resources.admissions_url','resources.information_disclosure_url','resources.english_website'):
-            lines.append('| %s | %s |'%(field,counts.get(field,0)))
-        lines+=['','字段保存原标签、短证据与口径；门户是官网导航链接。实际访问状态、官网标识文件与取色覆盖见[官网扩展报告](official-extension-progress-2026.md)。']
+    lines += ['', '## PPT主字段验收', '',
+              '当前为v4主字段结构；招生、就业、排名、人数、面积和联系方式等扩展数据已剔除。',
+              '全校必备完成状态以[主字段覆盖](ppt-core-coverage-2026.md)和[data/review/ppt-core-coverage-2026.json](../data/review/ppt-core-coverage-2026.json)为准。',
+              '模板、VI、辅色与其他文化素材为可选材料，不以每校存在为前提。']
     overrides_path=ROOT/'data/review/official-site-overrides-2026.csv'
     if overrides_path.exists():
         with overrides_path.open(encoding='utf-8-sig',newline='') as handle:

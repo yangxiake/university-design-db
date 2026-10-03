@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4137013373'
   name_zh: 聊城大学东昌学院
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Liaocheng University Dongchang College
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_51/a_51.html
+    source_sha256: f80631a3d13eb779ee371046f4eceffbd50060a0a74ad3ac1dcf8592b7b262ac
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.lcudcc.edu.cn/
     source: https://www.lcudcc.edu.cn/
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +62,20 @@ research:
   audit_key: '4137013373'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#D0D8F0'
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_51/a_1_2.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: bb5b44b9de64d8ebec4212b4
+    source_sha256: 04ca278ff718430ea6c2f8f372ea30aa5587b5dbe1881ae2eb0e2a674df7fa9e
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +97,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 1584be47cf4b2abdd8fffd13
     kind: site_identity
@@ -130,24 +133,92 @@ visual:
     byte_size: 39507
     representation: raster
     resolved_url: https://www.lcudcc.edu.cn/images/web3.png
-  color_palette: []
+  - asset_id: bb5b44b9de64d8ebec4212b4
+    title: 聊城大学东昌学院社区校徽预览
+    kind: badge
+    url: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_51/a_1_2.png
+    source: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_51/a_51.html
+    file_name: a_1_2.png
+    upstream_path: null
+    publisher: 大学志 chinaschool.com.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 聊城大学东昌学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: f80631a3d13eb779ee371046f4eceffbd50060a0a74ad3ac1dcf8592b7b262ac
+    identity_basis: 页面标题为当前完整校名且图像alt精确标注同校校徽；社区关联证据，现行版本未独立确认。
+    usage_note: 社区学校资料页校徽预览；不是校方直接发布，不认定现行VI或图形授权。只保存链接与实际文件元数据，不再分发图形。
+    sha256: 04ca278ff718430ea6c2f8f372ea30aa5587b5dbe1881ae2eb0e2a674df7fa9e
+    access_status: content_inspected
+    byte_size: 36812
+    format: png
+    vector: false
+    width: 140
+    representation: raster
+    height: 140
+    has_alpha: true
+    transparent_background: true
+    visual_review: auto
+    visual_review_basis: 实际查看图形；校名字样对应当前学校，或该页专用图形具有独立学校标识。社区来源，未认定为官方现行VI。
+  color_palette:
+  - value: '#D0D8F0'
+    rgb:
+    - 208
+    - 216
+    - 240
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_51/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_51/a_51.html
+    asset_id: bb5b44b9de64d8ebec4212b4
+    source_sha256: 04ca278ff718430ea6c2f8f372ea30aa5587b5dbe1881ae2eb0e2a674df7fa9e
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  - value: '#68C0B0'
+    rgb:
+    - 104
+    - 192
+    - 176
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_51/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_15_shandong/a_51/a_51.html
+    asset_id: bb5b44b9de64d8ebec4212b4
+    source_sha256: 04ca278ff718430ea6c2f8f372ea30aa5587b5dbe1881ae2eb0e2a674df7fa9e
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
+    value: 2002
+    source: https://www.lcudcc.edu.cn/xygk1/xyjj.htm
     verified: auto
-    checked_at: '2026-10-01'
-    availability: conflict
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-    candidates:
-    - value: 2002
-      source: https://www.lcudcc.edu.cn/xxgk1/xxjj.htm
-      basis: 官网overview页直接记载学校成立年份；未将更名年份或院系年份当作建校年
-    - value: 2005
-      source: https://www.lcudcc.edu.cn/xxgk1/xxjj.htm
-      basis: 官网overview页直接记载学校成立年份；未将更名年份或院系年份当作建校年
-    note: 已访问官网页面给出不同候选；需核对名称、标点或历史口径
+    source_type: official_website
+    source_sha256: 4b2e108b64d0695ef95d74a0570061c2257191d4d61322eee8186ea0076d6f60
+    basis: 官网学院简介明确区分2002始建与2005独立学院批准及并校；采用始建口径。另一简介采用2005成立口径，原候选及差异台账保留。
+    collector: ppt_core_source_reconciliation
   motto:
     value: null
     source: null
@@ -155,7 +226,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -177,6 +247,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -199,212 +270,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://zsb.lcudcc.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.lcudcc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://xxgk.lcudcc.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.lcudcc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 山东省聊城市北外环路266号
-    availability: found
-    search_sources: []
-    source: https://www.lcudcc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:山东省聊城市北外环路266号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 聊城大学东昌学院位于山东省聊城市，主管部门为山东省教育厅。官网列示教职工617人（统计日期未注明）。
+    value: 聊城大学东昌学院位于山东省聊城市，教育部名单列为本科，主管部门为山东省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.lcudcc.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: 617
-    availability: found
-    search_sources: []
-    source: https://www.lcudcc.edu.cn/xxgk1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；原标注：教职工617人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职工617人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '招生电话: (0635)8520223'
-    availability: found
-    search_sources: []
-    source: https://www.lcudcc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 招生电话:(0635)8520223 8520226
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

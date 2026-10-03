@@ -20,8 +20,8 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | `#003F88` | 0,63,136 | primary |  |  | 官方VI标准值 | [依据](https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp) |
-|  | `#B01F24` | 176,31,36 | secondary |  |  | 官方VI标准值 | [依据](https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp) |
+| 求是蓝 | `#003F88` | 0,63,136 | primary | [100, 70, 0, 25] |  | 官方VI标准值 | [依据](https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp) |
+| 创新红 | `#B01F24` | 176,31,36 | secondary | [35, 100, 100, 0] |  | 官方VI标准值 | [依据](https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp) |
 |  | `#1B4285` | 27,66,133 | reference |  |  | 社区主题配色 | [依据](https://github.com/CouesF/marp-theme-zju/blob/5c5f362b78ac2c899b982af8a110172bacb4265e/zju-academic.css) |
 |  | `#004EA2` | 0,78,162 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%20ZJU.svg) |
 |  | `#004EA2` | 0,78,162 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/ZJU.svg) |
@@ -47,5 +47,6 @@
 - [浙江大学校标.png](https://www.zju.edu.cn/_upload/article/images/c3/98/1fb1d281492eb477a098ef7a2901/05966b26-ab45-470d-94c1-99b1e02d12f4.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zju.edu.cn/572/list.htm)。
 - [浙江大学校标规范.zip](https://www.zju.edu.cn/_upload/article/files/c3/98/1fb1d281492eb477a098ef7a2901/ee6d4e77-ffef-4e32-b76b-be8658698d98.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zju.edu.cn/572/list.htm)。
 - [浙江大学校标与二级单位标准组合规范.zip](https://www.zju.edu.cn/_upload/article/files/c3/98/1fb1d281492eb477a098ef7a2901/cfd07e56-ff20-4512-989e-76e78b65cb45.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zju.edu.cn/572/list.htm)。
+- [浙江大学官方视觉规范](https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

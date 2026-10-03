@@ -22,5 +22,8 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://sjxxsb.nhmu.edu.cn/](https://sjxxsb.nhmu.edu.cn/)
+- [视觉形象识别](https://sjxxsb.nhmu.edu.cn/)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sjxxsb.nhmu.edu.cn/)。
+- [豫北医学院视觉形象识别系统的管理原则](https://sjxxsb.nhmu.edu.cn/2021/0106/c7018a84507/page.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sjxxsb.nhmu.edu.cn/2021/0106/c7018a84507/page.htm)。
+- [视觉形象识别](https://sjxxsb.nhmu.edu.cn/main.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sjxxsb.nhmu.edu.cn/main.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

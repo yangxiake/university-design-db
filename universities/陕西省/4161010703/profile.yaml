@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4161010703'
   name_zh: 西安建筑科技大学
@@ -43,34 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - xian-university-of-architecture-and-technology
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安建筑科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: xi-architecture
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安建筑科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -87,18 +59,22 @@ research:
   audit_key: '4161010703'
 visual:
   color_primary:
-    value: '#AB763D'
-    source: https://www.xauat.edu.cn/images/logo0715.png
+    value: '#A5733C'
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    method: official_vi
+    label: 标准金棕
+    basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+    cmyk:
+    - 30
+    - 55
+    - 80
+    - 15
+    pantone: 7574C
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.xauat.edu.cn/
-    image_sha256: 9cdbac7a7af15e30ec8c020dce85c54f4cf047fb2ece7b6f3d9284680824854f
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
   color_secondary:
     value: null
     source: null
@@ -122,7 +98,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: c3b44e0f3453013f
     title: 西安建筑科技大学校徽资源
@@ -226,15 +201,16 @@ visual:
     - 61
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: https://www.xauat.edu.cn/images/logo0715.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    source_field: visual.color_primary
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
   - value: '#A87038'
     rgb:
     - 168
@@ -323,6 +299,196 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 5a186bbcd9ecc67f
+  - value: '#A5733C'
+    rgb:
+    - 165
+    - 115
+    - 60
+    cmyk:
+    - 30
+    - 55
+    - 80
+    - 15
+    pantone: 7574C
+    label: 标准金棕
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+    source_field: visual.color_primary
+  - value: '#EBE6D7'
+    rgb:
+    - 235
+    - 230
+    - 215
+    cmyk:
+    - 5
+    - 10
+    - 15
+    - 0
+    pantone: 7527C
+    label: 标准米白
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+  - value: '#F5F0D2'
+    rgb:
+    - 245
+    - 240
+    - 210
+    cmyk:
+    - 5
+    - 5
+    - 20
+    - 0
+    pantone: 7506C
+    label: 标准浅黄
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+  - value: '#B92D0F'
+    rgb:
+    - 185
+    - 45
+    - 15
+    cmyk:
+    - 35
+    - 95
+    - 100
+    - 0
+    pantone: 7574C
+    label: 自强红
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+  - value: '#EBE6D7'
+    rgb:
+    - 235
+    - 230
+    - 215
+    cmyk:
+    - 5
+    - 10
+    - 15
+    - 0
+    pantone: 7527C
+    label: 笃实黄原文候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: PDF第10页笃实黄RGB235/230/215及PANTONE7527C与第9页标准米白数值重复，但色块不同；原文保留待核验。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+  - value: '#F5F0D2'
+    rgb:
+    - 245
+    - 240
+    - 210
+    cmyk:
+    - 5
+    - 5
+    - 20
+    - 0
+    pantone: 7506C
+    label: 创新蓝原文候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: PDF第10页创新蓝RGB245/240/210及PANTONE7506C与第9页标准浅黄数值重复，但色块不同；原文保留待核验。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+  - value: '#3C6E2D'
+    rgb:
+    - 60
+    - 110
+    - 45
+    cmyk:
+    - 80
+    - 50
+    - 100
+    - 10
+    pantone: 7742C
+    label: 求源绿
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+  - value: '#FFD700'
+    rgb:
+    - 255
+    - 215
+    - 0
+    cmyk:
+    - 50
+    - 20
+    - 20
+    - 0
+    pantone: null
+    label: 专金
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+  - value: '#C0C0C0'
+    rgb:
+    - 192
+    - 192
+    - 192
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 60
+    pantone: null
+    label: 专银
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+    source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
   vi_resources:
   - title: 学校标识
     url: https://www.xauat.edu.cn/xywh/xxbs.htm
@@ -340,6 +506,8 @@ visual:
     availability: found
     source_sha256: c319731b5f669796e21002b7b2a741b62915e30934e47556a611862db54762b7
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 【 西安建筑科技大学校标位图文件png 格式下载 】
     url: https://www.xauat.edu.cn/wj/xxbs.rar
     kinds:
@@ -356,6 +524,8 @@ visual:
     availability: found
     source_sha256: c319731b5f669796e21002b7b2a741b62915e30934e47556a611862db54762b7
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 【 西安建筑科技大学视觉形象识别系统手册下载 】
     url: https://www.xauat.edu.cn/wj/bssc.pdf
     kinds:
@@ -372,6 +542,8 @@ visual:
     availability: found
     source_sha256: c319731b5f669796e21002b7b2a741b62915e30934e47556a611862db54762b7
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 【 校庆视觉形象识别系统手册CDR 格式下载】
     url: https://www.xauat.edu.cn/wj/cdr0506.zip
     kinds:
@@ -389,6 +561,8 @@ visual:
     availability: found
     source_sha256: c319731b5f669796e21002b7b2a741b62915e30934e47556a611862db54762b7
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。本条为校庆专用资料，不作为通用VI或学校主题色。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 【 西安建筑科技大学办学130年并校70周年校庆视觉形象识别系统手册】
     url: https://www.xauat.edu.cn/wj/sc0508.pdf
     kinds:
@@ -406,14 +580,93 @@ visual:
     availability: found
     source_sha256: c319731b5f669796e21002b7b2a741b62915e30934e47556a611862db54762b7
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。本条为校庆专用资料，不作为通用VI或学校主题色。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 【 西安建筑科技大学徽标矢量文件CDR 格式下载 】
+    url: https://www.xauat.edu.cn/wj/bswj.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xauat.edu.cn/xywh/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c319731b5f669796e21002b7b2a741b62915e30934e47556a611862db54762b7
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 【 西安建筑科技大学办学130年并校70周年校庆标识文件（PNG）格式下载 】
+    url: https://www.xauat.edu.cn/wj/png0506.rar
+    kinds:
+    - 校徽/校名介绍及资源
+    - 校庆专用
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xauat.edu.cn/xywh/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c319731b5f669796e21002b7b2a741b62915e30934e47556a611862db54762b7
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。本条为校庆专用资料，不作为通用VI或学校主题色。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 【校歌下载】
+    url: https://www.xauat.edu.cn/wj/xg.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xauat.edu.cn/xywh/xxbs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c319731b5f669796e21002b7b2a741b62915e30934e47556a611862db54762b7
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 西安建筑科技大学官方视觉规范
+    url: https://www.xauat.edu.cn/wj/bssc.pdf
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.xauat.edu.cn/wj/bssc.pdf
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1895
+    availability: found
     search_sources: []
+    source: https://www.xauat.edu.cn/jdgk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    source_sha256: 85068e26fd3afff93c69bd9873dc60e9dced14e13bee4dd6f7f0063f35b1c0f6
+    collector: read_overview_identity_facts
+    basis: 官网以本校为主语明确记载创办/成立时间；不把筹建、更名或新校区年份代填。
+    previous_status: unresearched
   motto:
     value: 自强、笃实、求源、创新
     source: https://www.xauat.edu.cn/
@@ -421,12 +674,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1994
-    event: 更名为西安建筑科技大学
-    source: https://www.xauat.edu.cn/jdgk/dxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -448,6 +695,12 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 1994
+    event: 更名为西安建筑科技大学
+    source: https://www.xauat.edu.cn/jdgk/dxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -482,351 +735,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
-  admissions_url:
-    value: https://www.xauat.edu.cn/zsjy/bkszs.htm
-    availability: found
-    search_sources: []
-    source: https://www.xauat.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://job.xauat.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 西安建筑科技大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://www.xauat.edu.cn/gwyw/
-    availability: found
-    search_sources: []
-    source: https://www.xauat.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 西安建筑科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安建筑科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 陕西省西安市碑林区雁塔路中段13号；陕西省西安市高新区学府路1号；西安市新城区幸福南路109号
-    availability: found
-    search_sources: []
-    source: https://www.xauat.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:陕西省西安市碑林区雁塔路中段13号
-    - 地址:陕西省西安市高新区学府路1号
-    - 地址:西安市新城区幸福南路109号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 雁塔校区
-    address: null
-    coordinates: null
-    source: https://www.xauat.edu.cn/jdgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 草堂校区
-    address: null
-    coordinates: null
-    source: https://www.xauat.edu.cn/jdgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 西安建筑科技大学位于陕西省西安市，主管部门为陕西省。官网列示本科生21000余名（统计日期未注明）。官网列示专任教师2100余名（统计日期未注明）。简介列出雁塔校区、草堂校区。
+    value: 西安建筑科技大学位于陕西省西安市，教育部名单列为本科，主管部门为陕西省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.xauat.edu.cn/jdgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 21000
-    availability: found
-    search_sources: []
-    source: https://www.xauat.edu.cn/jdgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 本科生；近似/下界数，保留原标注：本科生21000余名；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 本科生21000余名
-  faculty_count:
-    value: 2100
-    availability: found
-    search_sources: []
-    source: https://www.xauat.edu.cn/jdgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；近似/下界数，保留原标注：专任教师2100余名；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 专任教师2100余名
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: news@xauat.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.xauat.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 版权所有:西安建筑科技大学 | 站点维护:党委宣传部 | 联系邮箱:news@xauat.edu.cn | 陕ICP备05001615 V8.0-2014
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 117
-    score: 215.5
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 西安建筑科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 118
-    score: 251.7
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/xian-university-of-architecture-and-technology
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安建筑科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4161010703'
-    upstream_record_name: 西安建筑科技大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4161010703'
-    upstream_record_name: 西安建筑科技大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4161010703'
-    upstream_record_name: Xi'an University of Architecture and Technology
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

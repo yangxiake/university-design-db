@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4136014403'
   name_zh: 九江科技职业大学
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Jiujiang Polytechnic University of Science and Technology
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q112676637&oldid=2548508195
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548508195
+    source_sha256: 41b8581070d2d8b42c55ea99c9c59ec6665b557716718cd579576a72a9276be1
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: http://www.jjput.edu.cn/
     source: http://www.jjput.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +66,20 @@ research:
   audit_key: '4136014403'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0020A0'
+    availability: found
     search_sources: []
+    source: http://www.jjput.edu.cn/skin/school02/cms/../core/header2/images/logo.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: edd394f8dcae1fe2b45c7823
+    source_sha256: f66990dc3bbdf5d784705dd493d27ddde93ed4610d05fce4a1134d4c134196d2
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,11 +101,10 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: edd394f8dcae1fe2b45c7823
     kind: site_identity
-    title: 学校官网页眉标识
+    title: 学校官网HTML/CSS页眉标识
     url: http://www.jjput.edu.cn/skin/school02/cms/../core/header2/images/logo.png
     source: http://www.jjput.edu.cn/
     file_name: logo.png
@@ -111,43 +116,82 @@ visual:
     repository_license: null
     asset_license: null
     rights_holder: 九江科技职业大学
-    format: null
-    width: null
-    height: null
-    vector: null
-    has_alpha: null
-    transparent_background: null
-    sha256: null
-    access_status: inspection_failed
+    format: png
+    width: 375
+    height: 71
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: f66990dc3bbdf5d784705dd493d27ddde93ed4610d05fce4a1134d4c134196d2
+    access_status: content_inspected
     availability: found
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     source_type: official_website
+    source_sha256: b979174e8e43b35fecc999440c7cd7d65e2d7d4d5de1f578eadc6159a42aacfc
     identity_basis:
       src: http://www.jjput.edu.cn/skin/school02/cms/../core/header2/images/logo.png
       label: '   '
       context: 'container  header clearfix  navbar-header  navbar-brand navbar-logo '
       position: 1
-    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
-    inspection_error:
-      status: access_or_parse_gap
-      error_type: ValueError
-      detail: robots_disallowed
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    byte_size: 38187
+    representation: raster
+    resolved_url: http://www.jjput.edu.cn/skin/school02/cms/../core/header2/images/logo.png
     inspection_attempts:
     - url: http://www.jjput.edu.cn/skin/school02/cms/../core/header2/images/logo.png
-      status: access_or_parse_gap
-      error_type: ValueError
-      detail: robots_disallowed
-  color_palette: []
+      status: content_inspected
+  color_palette:
+  - value: '#0020A0'
+    rgb:
+    - 0
+    - 32
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.jjput.edu.cn/skin/school02/cms/../core/header2/images/logo.png
+    page_source: http://www.jjput.edu.cn/
+    asset_id: edd394f8dcae1fe2b45c7823
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#0028A0'
+    rgb:
+    - 0
+    - 40
+    - 160
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://www.jjput.edu.cn/skin/school02/cms/../core/header2/images/logo.png
+    page_source: http://www.jjput.edu.cn/
+    asset_id: edd394f8dcae1fe2b45c7823
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2012
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q112676637&oldid=2548508195
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548508195
+    source_sha256: 41b8581070d2d8b42c55ea99c9c59ec6665b557716718cd579576a72a9276be1
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: 励志、博学、厚德、创新
     source: http://www.jjput.edu.cn/s.php/xxgk/item-view-id-16623.html
@@ -155,7 +199,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -177,6 +220,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -199,223 +243,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.jjput.edu.cn/index.php/cms/item-list-category-157.shtml
-    availability: found
-    search_sources: []
-    source: http://www.jjput.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://www.jjput.edu.cn/s.php/xxgk
-    availability: found
-    search_sources: []
-    source: http://www.jjput.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 江西省九江市共青城市共青大道1号和共青城市科技一大道以东、高新八路以北
-    availability: found
-    search_sources: []
-    source: http://www.jjput.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:江西省九江市共青城市共青大道1号和共青城市科技一大道以东、高新八路以北
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 九江科技职业大学位于江西省九江市，主管部门为江西省教育厅。官网列示在校学生11000余人（统计时间2025-12）。官网列示校园占地面积97.26万平方米（统计时间2025-12）。
+    value: 九江科技职业大学位于江西省九江市，教育部名单列为本科，主管部门为江西省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://www.jjput.edu.cn/index.php/cms/item-list-category-934.shtml
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 11000
-    availability: found
-    search_sources: []
-    source: http://www.jjput.edu.cn/index.php/cms/item-list-category-934.shtml
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校学生；近似/下界数，保留原标注：在校学生11000余人；截至2025年12月
-    source_as_of: 2025-12
-    date_basis: 截至2025年12月
-    approximate: true
-    original_notation: 在校学生11000余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 97.26
-    availability: found
-    search_sources: []
-    source: http://www.jjput.edu.cn/index.php/cms/item-list-category-934.shtml
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 校园占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：校园占地面积97.26万平方米；截至2025年12月
-    source_as_of: 2025-12
-    date_basis: 截至2025年12月
-    approximate: false
-    original_notation: 校园占地面积97.26万平方米
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '招生咨询电话: 0792-4372788'
-    availability: found
-    search_sources: []
-    source: http://www.jjput.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 招生咨询电话:0792-4372788、4372780、4372781、4372782
-  email:
-    value: gqkj@gqkj.com.cn
-    availability: found
-    search_sources: []
-    source: http://www.jjput.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮箱:gqkj@gqkj.com.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

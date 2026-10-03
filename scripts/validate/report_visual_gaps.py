@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Report gap-focused logo, color and presentation enrichment from profiles."""
 import collections
+import datetime as dt
 import csv
 import json
 import pathlib
@@ -56,7 +57,7 @@ def main():
     layout_status=collections.Counter(a.get('inspection',{}).get('access_status','indexed_not_fetched') for r in layouts for a in r['assets'])
     excluded=sum(len(r.get('excluded_assets',[])) for r in header)
     paused=sum(r.get('detail')=='renamed_or_suspended_logo' for r in community)
-    date=max(r['checked_at'] for r in community+header)
+    date=dt.date.today().isoformat()
     delta={k:counts[k]-baseline['counts'][k] for k in LABELS}
     summary=dict(checked_at=date,baseline_commit=baseline['reference_commit'],counts=dict(counts),net_changes=delta,
                  community_candidates=len(community),community_results=community_status,renamed_or_suspended_excluded=paused,

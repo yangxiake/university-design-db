@@ -40,5 +40,9 @@
 - 现有VI入口：[https://www.scut.edu.cn/new/9017/list.htm](https://www.scut.edu.cn/new/9017/list.htm)
 - [学校标识](https://www.scut.edu.cn/new/9017/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.scut.edu.cn/new/9017/list.htm)。
 - [校徽解读](https://www.scut.edu.cn/new/2022/1116/c316a49741/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.scut.edu.cn/new/2022/1116/c316a49741/page.htm)。
+- [高清图片下载](https://www.scut.edu.cn/_upload/article/images/16/02/3166fd1b4c8cb0148ec56c04f071/546dc7ee-73d7-42f4-8f4e-57a23c3705ae.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.scut.edu.cn/new/9017/list.htm)。
+- [高清图片下载](https://www.scut.edu.cn/_upload/article/images/16/02/3166fd1b4c8cb0148ec56c04f071/8ab1bcf6-62d8-47c0-bff4-0ce88872dbd7.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.scut.edu.cn/new/9017/list.htm)。
+- [高清图片下载](https://www.scut.edu.cn/_upload/article/images/16/02/3166fd1b4c8cb0148ec56c04f071/b48704f7-29c6-4423-be0d-39a983265941.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.scut.edu.cn/new/9017/list.htm)。
+- [《华南理工大学之歌》五线谱下载](https://www.scut.edu.cn/_upload/article/images/16/02/3166fd1b4c8cb0148ec56c04f071/c69a7832-3857-4700-95ba-76bdf41a95a1.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.scut.edu.cn/new/9017/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

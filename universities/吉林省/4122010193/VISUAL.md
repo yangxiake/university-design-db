@@ -33,5 +33,6 @@
 - [14标志标准色1副本.jpg](https://xxbgs.jlau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1603644607&wbfileid=3803262)：["视觉识别规范/资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xxbgs.jlau.edu.cn/info/1020/1321.htm)。
 - [1校徽 校名 矢量图.rar](https://xxbgs.jlau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1603644607&wbfileid=3803263)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xxbgs.jlau.edu.cn/info/1020/1321.htm)。
 - [1校徽 校名 矢量图.jpg](https://xxbgs.jlau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1603644607&wbfileid=3803264)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xxbgs.jlau.edu.cn/info/1020/1321.htm)。
+- [学校标识-吉林农业大学](https://www.jlau.edu.cn/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jlau.edu.cn/xxgk/xxbs.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

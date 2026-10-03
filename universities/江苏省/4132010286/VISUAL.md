@@ -22,8 +22,8 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | `#4D7C2C` | 77,124,44 | primary |  |  | 官方VI标准值 | [依据](https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf) |
-|  | `#FDD000` | 253,208,0 | secondary |  |  | 官方VI标准值 | [依据](https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf) |
+| 东大绿 | `#4D7C2C` | 77,124,44 | primary | [70, 30, 100, 20] |  | 官方VI标准值 | [依据](https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf) |
+| 辅助黄 | `#FDD000` | 253,208,0 | secondary | [0, 20, 100, 0] |  | 官方VI标准值 | [依据](https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf) |
 |  | `#517A34` | 81,122,52 | reference |  |  | 社区主题配色 | [依据](https://github.com/TouchFishPioneer/SEU-Beamer-Slide/blob/a387c719a000956ea47071b30c225f7822203b94/seu.sty) |
 |  | `#F9C623` | 249,198,35 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%20SEU.svg) |
 |  | `#474926` | 71,73,38 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%20SEU.svg) |
@@ -41,6 +41,7 @@
 |  | `#F8D020` | 248,208,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#F8D000` | 248,208,0 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.seu.edu.cn/_upload/tpl/0b/59/2905/template2905/images/listLogo.png) |
 |  | `#487828` | 72,120,40 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.seu.edu.cn/_upload/tpl/0b/59/2905/template2905/images/listLogo.png) |
+| 辅助黑 | `#231815` | 35,24,21 | reference | [0, 0, 0, 100] |  | 官方VI标准值 | [依据](https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -58,5 +59,6 @@
 - [校标](https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm)。
 - [校标标准.pdf](https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.seu.edu.cn/2017/0531/c17410a190411/page.htm)。
 - [标识系统 - 东南大学](https://www.seu.edu.cn/bsxtwxw/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.seu.edu.cn/bsxtwxw/list.htm)。
+- [东南大学官方视觉规范](https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf)：["标识规范", "标准色"]；格式 PDF；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

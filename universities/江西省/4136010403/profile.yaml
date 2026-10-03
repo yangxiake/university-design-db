@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4136010403'
   name_zh: 南昌大学
@@ -67,34 +67,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - nanchang-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: nanchang
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -147,7 +119,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 893c94f278739d2b
     title: 南昌大学校徽资源
@@ -346,6 +317,461 @@ visual:
     source_as_of: unspecified
     byte_size: 49973
     representation: raster
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ░╫╔½.png
+    archive_member_display: 白色.png
+    checked_at: '2026-10-02'
+    sha256: 3e6f95707b64593c84b02a07b6fb8a019907fa21b349c3f76fada8bbfe4bd3b6
+    access_status: content_inspected
+    byte_size: 70079
+    format: png
+    vector: false
+    width: 2842
+    representation: raster
+    height: 500
+    has_alpha: true
+    transparent_background: false
+    asset_id: 01b444d8d32f80ed2d84a3c3
+    kind: wordmark
+    title: 南昌大学官方附件内标识：白色.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 白色.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ▒Ω╫╝.png
+    archive_member_display: 标准.png
+    checked_at: '2026-10-02'
+    sha256: 1dbccabce88b1a1ad56ed72c23b1d371683bb6b9c0f7cc5f57dcf05b9f06d128
+    access_status: content_inspected
+    byte_size: 529841
+    format: png
+    vector: false
+    width: 4116
+    representation: raster
+    height: 1158
+    has_alpha: true
+    transparent_background: true
+    asset_id: 973f0100bbbffc531399ed17
+    kind: combination
+    title: 南昌大学官方附件内标识：标准.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 标准.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ▒Ω╫╝-═╕├≈ú¼╖┤░╫.png
+    archive_member_display: 标准-透明，反白.png
+    checked_at: '2026-10-02'
+    sha256: 6e0df83a173a44384dc37a1ddf680e07bbb21978269f72276cd60454bbd3e14c
+    access_status: content_inspected
+    byte_size: 473141
+    format: png
+    vector: false
+    width: 4116
+    representation: raster
+    height: 1158
+    has_alpha: true
+    transparent_background: true
+    asset_id: 0abeb5ee17ef75a853ee085f
+    kind: combination
+    title: 南昌大学官方附件内标识：标准-透明，反白.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 标准-透明，反白.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ▒Ω╫╝-═╝.png
+    archive_member_display: 标准-图.png
+    checked_at: '2026-10-02'
+    sha256: 17d1925e628efeb3fc267028cadef8f690672f9c0f735a2985d9f32cedee3709
+    access_status: content_inspected
+    byte_size: 327166
+    format: png
+    vector: false
+    width: 1216
+    representation: raster
+    height: 1263
+    has_alpha: true
+    transparent_background: true
+    asset_id: 347092c28d0fca5b77dadc39
+    kind: badge
+    title: 南昌大学官方附件内标识：标准-图.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 标准-图.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ▒Ω╫╝-╓╨╙ó╬─.png
+    archive_member_display: 标准-中英文.png
+    checked_at: '2026-10-02'
+    sha256: fc92bf4712504684b269237e3ef978b1aa73c0ced53b87136ee5ceb6ca505773
+    access_status: content_inspected
+    byte_size: 191581
+    format: png
+    vector: false
+    width: 2901
+    representation: raster
+    height: 1158
+    has_alpha: true
+    transparent_background: true
+    asset_id: 7bcae22bd267d3929276513f
+    kind: wordmark
+    title: 南昌大学官方附件内标识：标准-中英文.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 标准-中英文.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ╖┤░╫-═╝.png
+    archive_member_display: 反白-图.png
+    checked_at: '2026-10-02'
+    sha256: 928a6e10eec19dd70a2335581a7a1f8c792bd8014c0b4c396a5028ac6e702c3f
+    access_status: content_inspected
+    byte_size: 308462
+    format: png
+    vector: false
+    width: 1337
+    representation: raster
+    height: 1313
+    has_alpha: true
+    transparent_background: true
+    asset_id: 1376b799e1d3f11ad95a33a5
+    kind: badge
+    title: 南昌大学官方附件内标识：反白-图.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 反白-图.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ╖┤░╫-╓╨╙ó╬─.png
+    archive_member_display: 反白-中英文.png
+    checked_at: '2026-10-02'
+    sha256: ebe1cebc9f8abaa22536d7eb6ffeef4c26073ed9ab1183f88eb6add48ba7b1d1
+    access_status: content_inspected
+    byte_size: 163620
+    format: png
+    vector: false
+    width: 2932
+    representation: raster
+    height: 1158
+    has_alpha: true
+    transparent_background: true
+    asset_id: d6e73e41e48d5bc778ab28de
+    kind: wordmark
+    title: 南昌大学官方附件内标识：反白-中英文.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 反白-中英文.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ─╧▓²┤≤╤ºNANCHANG UNIVERSITY.png
+    archive_member_display: 南昌大学NANCHANG UNIVERSITY.png
+    checked_at: '2026-10-02'
+    sha256: 7a7d1bd50c34facc05b424c3a0352a5657822d2c5bf7d26d657dae2ec4f9ebac
+    access_status: content_inspected
+    byte_size: 52134
+    format: png
+    vector: false
+    width: 2650
+    representation: raster
+    height: 216
+    has_alpha: true
+    transparent_background: true
+    asset_id: b6ee9a978d8d9c2e79c724ea
+    kind: wordmark
+    title: 南昌大学官方附件内标识：南昌大学NANCHANG UNIVERSITY.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 南昌大学NANCHANG UNIVERSITY.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ─╧▓²┤≤╤ºNANCHANG UNIVERSITY-░╫.png
+    archive_member_display: 南昌大学NANCHANG UNIVERSITY-白.png
+    checked_at: '2026-10-02'
+    sha256: 9b09bdc23efd292b6e9b693dae012d1a813b39a27831d4577e9d4aeee0c582a2
+    access_status: content_inspected
+    byte_size: 48071
+    format: png
+    vector: false
+    width: 2209
+    representation: raster
+    height: 189
+    has_alpha: true
+    transparent_background: true
+    asset_id: 58843c5872a5abbefff5aef8
+    kind: wordmark
+    title: 南昌大学官方附件内标识：南昌大学NANCHANG UNIVERSITY-白.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 南昌大学NANCHANG UNIVERSITY-白.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ╩·░µ░╫.png
+    archive_member_display: 竖版白.png
+    checked_at: '2026-10-02'
+    sha256: e6fa3e5f811dbb87b34c913ff4779ded0c51036007091640b1fc1cadadca4f51
+    access_status: content_inspected
+    byte_size: 55047
+    format: png
+    vector: false
+    width: 300
+    representation: raster
+    height: 1112
+    has_alpha: true
+    transparent_background: true
+    asset_id: 7f458d5a5d546a22180bfb3d
+    kind: combination
+    title: 南昌大学官方附件内标识：竖版白.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 竖版白.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ╩·░µ▒Ω.png
+    archive_member_display: 竖版标.png
+    checked_at: '2026-10-02'
+    sha256: c3a3e927bd19bf6a3103b7b2182fa4e74e6141e920ab9366bad0876647c99300
+    access_status: content_inspected
+    byte_size: 120793
+    format: png
+    vector: false
+    width: 428
+    representation: raster
+    height: 2004
+    has_alpha: true
+    transparent_background: true
+    asset_id: 0ced11280fbe53fa4cd07b62
+    kind: combination
+    title: 南昌大学官方附件内标识：竖版标.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 竖版标.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ═╝+NANCHANG UNIVERSITY.png
+    archive_member_display: ͼ+NANCHANG UNIVERSITY.png
+    checked_at: '2026-10-02'
+    sha256: f588fa2a7944f12489ae6b103338fa4a01b20d90c9fd4df2010e722544e0f526
+    access_status: content_inspected
+    byte_size: 95412
+    format: png
+    vector: false
+    width: 2834
+    representation: raster
+    height: 212
+    has_alpha: true
+    transparent_background: true
+    asset_id: 9abf0af2e4fd05ef401f9202
+    kind: combination
+    title: 南昌大学官方附件内标识：ͼ+NANCHANG UNIVERSITY.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: ͼ+NANCHANG UNIVERSITY.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    archive_sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    archive_member: ═╝+NANCHANG UNIVERSITY-░╫.png
+    archive_member_display: 图+NANCHANG UNIVERSITY-白.png
+    checked_at: '2026-10-02'
+    sha256: 3dad9bdd0f85d3b6380da6b20e0ee4c58092586f4b05511e1ad1c7aad00fbf1d
+    access_status: content_inspected
+    byte_size: 41836
+    format: png
+    vector: false
+    width: 1589
+    representation: raster
+    height: 166
+    has_alpha: true
+    transparent_background: true
+    asset_id: b9cbb5d9b6d53ce58516bde2
+    kind: combination
+    title: 南昌大学官方附件内标识：图+NANCHANG UNIVERSITY-白.png
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    source: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    publisher: 南昌大学
+    official: true
+    download_kind: archive_member
+    file_name: 图+NANCHANG UNIVERSITY-白.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 南昌大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#12368F'
     rgb:
@@ -543,7 +969,59 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: fbc802c2392ea942
-  vi_resources: []
+  vi_resources:
+  - title: 校徽
+    url: https://www.ncu.edu.cn/xxgk/xxxh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.ncu.edu.cn/xxgk/xxxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7657cb1a5ea3431a1682f4b74e3a55119c5a58ddf6b495d4a7fa140cbf445d23
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 南昌大学2022新版全套校徽
+    url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.ncu.edu.cn/xxgk/xxxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+        status: file_read
+        url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+      resolved_url: https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip
+    file_metadata:
+      byte_size: 5968991
+      format: ZIP
+      member_count: 14
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9
+    content_read: true
+    download_status: content_inspected
+  landmarks: []
 culture:
   founded_year:
     value: 1921
@@ -567,17 +1045,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1993
-    event: 江西大学与江西工业大学合并组建南昌大学
-    source: https://www.ncu.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 2005
-    event: 与江西医学院合并组建新的南昌大学
-    source: https://www.ncu.edu.cn/xxgk/xxzc.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -599,6 +1066,17 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 1993
+    event: 江西大学与江西工业大学合并组建南昌大学
+    source: https://www.ncu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 2005
+    event: 与江西医学院合并组建新的南昌大学
+    source: https://www.ncu.edu.cn/xxgk/xxzc.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -661,526 +1139,14 @@ resources:
     - TeX/TikZ
     content_read: true
     usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
-  admissions_url:
-    value: https://www.ncu.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.ncu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://jy.ncu.edu.cn/index
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: http://english.ncu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ncu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: https://www.ncu.edu.cn/xxgk/xxgk.htm
-    availability: found
-    search_sources: []
-    source: https://www.ncu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 115.799
-      latitude: 28.659
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses:
-  - name: 前湖校区
-    address: null
-    coordinates: null
-    source: https://www.ncu.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 青山湖校区
-    address: null
-    coordinates: null
-    source: https://www.ncu.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 东湖校区
-    address: null
-    coordinates: null
-    source: https://www.ncu.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 南昌大学位于江西省南昌市，主管部门为江西省。官网列示全日制本科学生37060余人（统计日期未注明）。官网列示教职工4216人（统计日期未注明）。官网列示占地面积4260余亩（统计日期未注明）。简介列出前湖校区、青山湖校区、东湖校区。
+    value: 南昌大学位于江西省南昌市，教育部名单列为本科，主管部门为江西省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.ncu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 37060
-    availability: found
-    search_sources: []
-    source: https://www.ncu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制本科学生；近似/下界数，保留原标注：全日制本科学生37060余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制本科学生37060余人
-  faculty_count:
-    value: 4216
-    availability: found
-    search_sources: []
-    source: https://www.ncu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；原标注：教职工4216人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职工4216人
-  campus_area_hectares:
-    value: 284.0
-    availability: found
-    search_sources: []
-    source: https://www.ncu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地面积4260余亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 占地面积4260余亩
-academics:
-  double_first_class_disciplines:
-    value:
-    - 材料科学与工程
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 材料科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 食品科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 78
-    score: 268.9
-    indicators:
-      school_level: 27.3
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 74
-    score: 314.5
-    indicators:
-      faculty: 37.4
-      research: 30.2
-      resources: 6.3
-      discipline: 19.7
-      top_talent: 9.8
-      school_level: 27.9
-      international: 11.8
-      major_projects: 4.2
-      social_service: 7.2
-      talent_training: 159.8
-    upstream_url: https://www.shanghairanking.cn/institution/nanchang-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 575
-    minimum_rank: 29000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 570
-    minimum_rank: 6800
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 南昌大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4136010403'
-    upstream_record_name: 南昌大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4136010403'
-    upstream_record_name: 南昌大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4136010403'
-    upstream_record_name: 南昌大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4136010403'
-    upstream_record_name: 南昌大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4136010403'
-    upstream_record_name: Nanchang University
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

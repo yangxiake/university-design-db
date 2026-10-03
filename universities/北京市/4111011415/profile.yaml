@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4111011415'
   name_zh: 中国地质大学(北京)
@@ -57,26 +57,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: geosciences-beijing
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -93,12 +73,20 @@ research:
   audit_key: '4111011415'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#004E97'
+    availability: found
     search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E8%B4%A8%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%8C%97%E4%BA%AC%EF%BC%89%20CUGB.svg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: b1049bac85798498
+    source_sha256: ba2ea3fb504fa2927fccff79adab77730a4b84eb0daf4f9c26ffaf7e55c28f96
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -121,7 +109,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 96db4606a002ec59
     title: 中国地质大学（北京）校徽资源
@@ -322,6 +309,42 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 94b6aaf41a3bf5ab
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 20
+    pantone: null
+    label: 标准蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/01.ai
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。标准色页印刷页39只有CMYK；未从蓝色色块转换出RGB。
+    source_sha256: f52d815c1a9a463cc17dadd635dfbac7a069e4226a42b5f1bfcaf69589814c60
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: null
+    label: 标准白
+    role: primary
+    method: official_vi
+    official: true
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/01.ai
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。标准色页印刷页39只有CMYK；未从蓝色色块转换出RGB。
+    source_sha256: f52d815c1a9a463cc17dadd635dfbac7a069e4226a42b5f1bfcaf69589814c60
   vi_resources:
   - title: 视觉形象识别系统
     url: https://bm.cugb.edu.cn/vis/
@@ -339,6 +362,730 @@ visual:
     checked_at: '2026-10-01'
     availability: found
     note: 社区索引指向学校页面；格式与访问限制为上游记录，未认定当前仍可下载。
+  - title: 校徽规范
+    url: https://bm.cugb.edu.cn/vis/
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973c5354ef858f5232584bf46f60f6440d4336231953de75a7865007457965c5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: PPT模板
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/pptmb/pptmb.zip
+    kinds:
+    - PPT模板
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 973c5354ef858f5232584bf46f60f6440d4336231953de75a7865007457965c5
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽规范
+    url: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校徽（黑色）.png
+    url: https://bm.cugb.edu.cn/vis/upload/resources/image/xhgf/01.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽（蓝色）.png
+    url: https://bm.cugb.edu.cn/vis/upload/resources/image/xhgf/02.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽（轮廓）.png
+    url: https://bm.cugb.edu.cn/vis/upload/resources/image/xhgf/03.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽（线稿）.png
+    url: https://bm.cugb.edu.cn/vis/upload/resources/image/xhgf/04.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽（白色）.png
+    url: https://bm.cugb.edu.cn/vis/upload/resources/image/xhgf/05.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽校名组合（反白）.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/11.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/12.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽反白稿.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/13.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽线稿.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/14.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽与英文标准字组合多种样式.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/15.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽与中文标准字组合多种样式.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/16.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽与中英文标准字横式组合.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/17.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽与中英文标准字竖式组合.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/18.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽与中英文标准字中轴式组合.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/19.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493361.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 59c8e5f2248559e76312959e614daac27cc44dab7bd966e8fd91d7e3de2be4a4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校名规范
+    url: https://bm.cugb.edu.cn/vis/c/2017/05/22/493469.shtml
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493469.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 9bf6ff46383b360ad3c2e20398f6af5372b5df0899f4d364c8553d90debf4918
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 标准色
+    url: https://bm.cugb.edu.cn/vis/c/2017/05/22/493491.shtml
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493491.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b60707367d20f36673bfe9bd785ebad16cadc5b34c7792664b41a8381d04a9bc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 标准色.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/01.ai
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493491.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b60707367d20f36673bfe9bd785ebad16cadc5b34c7792664b41a8381d04a9bc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽特定色彩展示.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/07.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493491.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b60707367d20f36673bfe9bd785ebad16cadc5b34c7792664b41a8381d04a9bc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽与中英文标准字组合特定色彩效果展示.ai
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/08.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2017/05/22/493491.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b60707367d20f36673bfe9bd785ebad16cadc5b34c7792664b41a8381d04a9bc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 标准色
+    url: https://bm.cugb.edu.cn/vis/c/2020/10/14/637038.shtml
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2020/10/14/637038.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: fc2a4691423de0e52953fc2439d55bd26fe7fc940922802295ba96e125a69b4e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 标准色.ai
+    url: https://bm.cugb.edu.cn/cms/contentcore/resource/download?ID=75499
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://bm.cugb.edu.cn/vis/c/2020/10/14/637038.shtml
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: fc2a4691423de0e52953fc2439d55bd26fe7fc940922802295ba96e125a69b4e
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 中国地质大学(北京)官方视觉规范
+    url: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/01.ai
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/01.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。标准色页印刷页39只有CMYK；未从蓝色色块转换出RGB。
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/07.ai
+    title: 校徽特定色彩展示.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/07.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 59bc89aa3ba09ed37ac6c5dde76de888e49a059074e13799ec7c2fd34c4d1e22
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 59bc89aa3ba09ed37ac6c5dde76de888e49a059074e13799ec7c2fd34c4d1e22
+      byte_size: 2060747
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/08.ai
+    title: 校徽与中英文标准字组合特定色彩效果展示.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/08.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: e1a7d993dbe1d9752d352ee1e77b89411c0ccab9072030a48e2f450c1f0780cb
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: e1a7d993dbe1d9752d352ee1e77b89411c0ccab9072030a48e2f450c1f0780cb
+      byte_size: 1784121
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/11.ai
+    title: 校徽校名组合（反白）.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/11.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: bbe4008cf0b8eef37a29dbcbd141c723c98cfaf2b02468d45b81578828f9441b
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 2
+      sha256: bbe4008cf0b8eef37a29dbcbd141c723c98cfaf2b02468d45b81578828f9441b
+      byte_size: 3078338
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/12.ai
+    title: 校徽.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/12.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: d9067b95c7a862d1fe5f1b4817920ffe4a987d3e3e684053c017060662094031
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: d9067b95c7a862d1fe5f1b4817920ffe4a987d3e3e684053c017060662094031
+      byte_size: 1302027
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/13.ai
+    title: 校徽反白稿.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/13.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 4a6eea696b46a2f70387b308d1dfb7f5896803a05c5ca99fe078d56dc4042fc4
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 4a6eea696b46a2f70387b308d1dfb7f5896803a05c5ca99fe078d56dc4042fc4
+      byte_size: 1268336
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/14.ai
+    title: 校徽线稿.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/14.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 623186b90072cc2d796808a5acd9d877faec20e4f0c8b4b200f49e439a06150f
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 623186b90072cc2d796808a5acd9d877faec20e4f0c8b4b200f49e439a06150f
+      byte_size: 1309917
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/15.ai
+    title: 校徽与英文标准字组合多种样式.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/15.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 843af43c9253866d535267bdbb915c4509cc04b4a1cf9c9412ac717f8cb306b7
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 843af43c9253866d535267bdbb915c4509cc04b4a1cf9c9412ac717f8cb306b7
+      byte_size: 1643859
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/16.ai
+    title: 校徽与中文标准字组合多种样式.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/16.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 998f9978ee5a950f5300e86f30d1740a3615286de21f5d7b6d27c3548b354267
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 998f9978ee5a950f5300e86f30d1740a3615286de21f5d7b6d27c3548b354267
+      byte_size: 1590817
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/17.ai
+    title: 校徽与中英文标准字横式组合.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/17.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: d85bc616acd3e34163ea81cf793c4d4280cff898b2f7658d019e1dc779474a9a
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: d85bc616acd3e34163ea81cf793c4d4280cff898b2f7658d019e1dc779474a9a
+      byte_size: 1359042
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/18.ai
+    title: 校徽与中英文标准字竖式组合.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/18.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 1117b672357828c625d0c84c9b1fe61e4de0b80f1f03c16d0c63a1ce57e06412
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 1117b672357828c625d0c84c9b1fe61e4de0b80f1f03c16d0c63a1ce57e06412
+      byte_size: 1359361
+  - url: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/19.ai
+    title: 校徽与中英文标准字中轴式组合.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://bm.cugb.edu.cn/vis/upload/resources/file/xhgf/19.ai
+    publisher: 中国地质大学(北京)
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 1c8b3da5c365f1933b83fa1b8b3de579e7a6a92ace3d3e697f8776674946afa0
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 1c8b3da5c365f1933b83fa1b8b3de579e7a6a92ace3d3e697f8776674946afa0
+      byte_size: 1374529
+  landmarks: []
 culture:
   founded_year:
     value: 1952
@@ -362,12 +1109,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1952
-    event: 多校地质系科合并创建前身北京地质学院
-    source: https://www.cugb.edu.cn/xxzc.jhtml
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -389,6 +1130,12 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 1952
+    event: 多校地质系科合并创建前身北京地质学院
+    source: https://www.cugb.edu.cn/xxzc.jhtml
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -411,455 +1158,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: http://jiuye.cugb.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 中国地质大学(北京)
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://en.cugb.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.cugb.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://bm.cugb.edu.cn/info/
-    availability: found
-    search_sources: []
-    source: https://www.cugb.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - '211'
-    - 双一流
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 116.353
-      latitude: 39.991
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 地质学
-    - 地质资源与地质工程
+    value: 中国地质大学(北京)位于北京市北京市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 地质学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 地质资源与地质工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 石油与天然气工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 测绘科学与技术
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 63
-    score: 295.5
-    indicators:
-      school_level: 32.7
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 585
-    minimum_rank: 24000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中国地质大学（北京）
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4111011415'
-    upstream_record_name: 中国地质大学（北京）
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4111011415'
-    upstream_record_name: 中国地质大学（北京）
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4111011415'
-    upstream_record_name: 中国地质大学（北京）
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4111011415'
-    upstream_record_name: 中国地质大学（北京）
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4111011415'
-    upstream_record_name: China University of Geoscience Beijing
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

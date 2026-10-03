@@ -35,5 +35,6 @@
 - [上海海事大学校徽( PNG格式）](https://scm.shmtu.edu.cn/photo/2022/0609/c10555a175554/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://scm.shmtu.edu.cn/photo/2022/0609/c10555a175554/page.htm)。
 - [logopng.fw.png](https://scm.shmtu.edu.cn/_upload/article/images/db/3f/f91698804c8fa1d3a81e28e0454d/497c3e37-0a7a-4e54-ab0c-6b23f6db97cb.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://scm.shmtu.edu.cn/photo/2022/0609/c10555a175554/page.htm)。
 - [上海海事大学校徽带文字.png](https://scm.shmtu.edu.cn/_upload/article/images/db/3f/f91698804c8fa1d3a81e28e0454d/20f14a83-6ded-4961-8c42-b11c32f551d7.png)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://scm.shmtu.edu.cn/photo/2022/0609/c10555a175554/page.htm)。
+- [上海海事大学校徽原稿](https://museum.shmtu.edu.cn/2018/1114/c8124a72083/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://museum.shmtu.edu.cn/2018/1114/c8124a72083/page.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

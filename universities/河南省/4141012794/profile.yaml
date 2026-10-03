@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4141012794'
   name_zh: 河南工业职业技术大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Henan University of Industry Technology
+    availability: found
     search_sources: []
+    source: https://bkso.baidu.com/item/%E6%B2%B3%E5%8D%97%E5%B7%A5%E4%B8%9A%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6/65207487?fromModule=lemma_inlink
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-03'
+    evidence: 河南工业职业技术大学（Henan University of Industry Technology）
+    collector: curated_ppt_core
+    retrieval: direct_http
+    source_sha256: 45b7bc724acf664b8f6edc37d28f3fe87a4b43e0216b500294336a87c74ae541
+    basis: 搜索服务返回的当前完整中文校名页面摘录明确英文括注；社区百科来源，原网页多网址直读未成功，保存摘录取证方式，不称为校方英文命名证明。
   official_website:
     value: http://www.hnpi.edu.cn/
     availability: found
@@ -47,14 +53,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -78,12 +76,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#C02830'
+    availability: found
     search_sources: []
+    source: http://www.hnpi.edu.cn/_upload/tpl/00/39/57/template57/images/logo.svg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: f12201e211e4743985e25f6e
+    source_sha256: 1da990d1e5ead27658a3a782b2a96f454687fbf3da7b3c550c2ce7b428dd1df6
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；SVG内嵌位图取样；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -105,7 +111,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: f12201e211e4743985e25f6e
     kind: site_identity
@@ -185,14 +190,19 @@ visual:
     checked_at: '2026-10-02'
     availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1973
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/www/2.0/school/1547/info.json
+    source_sha256: d68844fe61628e0b63d5e9c948cd61f7522c710ad03eac476dbab15484ceb6db
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: eol_core
+    basis: 教育在线同校资料缓存create_date原值；平台整理记录，未独立确认前身、现名设立或升本口径。
   motto:
     value: null
     source: null
@@ -200,7 +210,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -222,6 +231,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -244,226 +254,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.hnpi.edu.cn/189/list.htm
-    availability: found
-    search_sources: []
-    source: http://www.hnpi.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://job.hnpi.edu.cn/career/index
-    availability: found
-    search_sources: []
-    source: http://www.hnpi.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业创业
-  english_website:
-    value: http://www.hnpi.edu.cn/276/list.htm
-    availability: found
-    search_sources: []
-    source: http://www.hnpi.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - ENGLISH
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 孔明校区
-    address: null
-    coordinates: null
-    source: http://www.hnpi.edu.cn/
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 光武校区
-    address: null
-    coordinates: null
-    source: http://www.hnpi.edu.cn/
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 方城校区
-    address: null
-    coordinates: null
-    source: http://www.hnpi.edu.cn/
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 河南工业职业技术大学位于河南省南阳市，主管部门为河南省。官网列示总占地面积1763.77余亩（统计日期未注明）。简介列出孔明校区、光武校区、方城校区。
-    availability: found
-    search_sources: []
-    source: http://www.hnpi.edu.cn/
-    source_type: official_website
+    value: 河南工业职业技术大学位于河南省南阳市，教育部名单列为本科，主管部门为河南省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     verified: auto
     checked_at: '2026-10-02'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 117.584667
     availability: found
     search_sources: []
-    source: http://www.hnpi.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    collector: official_overview
-    basis: 总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：总占地面积1763.77余亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 总占地面积1763.77余亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

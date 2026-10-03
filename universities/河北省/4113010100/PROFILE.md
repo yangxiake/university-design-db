@@ -1,81 +1,31 @@
-# 廊坊师范学院：资料档案
+# 廊坊师范学院：PPT资料档案
 
 学校标识码：`4113010100`；河北省 / 廊坊市；本科；主管部门：河北省。
 
-逐字段资料来自官方或标注的社区来源。自动采集状态不表示全部字段完整，历史记录不等于现行数据。
+仅保留PPT主字段与素材依据。自动采集状态、来源和设计建议分别标记。
 
-## 有来源的信息
+## 已取得的主字段与可选补充
 
-| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
-| --- | --- | --- | --- | --- |
-| 英文名称 | Langfang Teachers University | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
-| 英文名称资料时间 | 2021 | | | |
-| 官网 | https://www.lfnu.edu.cn/ | official_or_curated | 2026-10-01 | [来源](https://www.lfnu.edu.cn/) |
-| 校训 | 厚德博学弘毅致远 | official_or_curated | 2026-10-01 | [来源](https://www.lfnu.edu.cn/col/1387254001593/index.html) |
-| 社区检索标识，不能当作正式校名 | ["langfang-teachers-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
-| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
-| 综合、理工、师范等院校类型 | 师范 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
-| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
-| 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
-| 所在国家或地区资料时间 | 2026 | | | |
-| 通讯地址，不能代替全部校区地址 | 河北省廊坊市爱民西道100号 | official_website | 2026-10-01 | [来源](https://www.lfnu.edu.cn/) |
-| 通讯地址，不能代替全部校区地址口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
-| 中文简介，短摘要 | 廊坊师范学院位于河北省廊坊市，主管部门为河北省。官网列示全日制本科生18000余人（统计日期未注明）。官网列示在职教职员工1362人（统计日期未注明）。官网列示占地面积103万平方米（统计日期未注明）。 | official_website | 2026-10-01 | [来源](https://www.lfnu.edu.cn/col/1387254001593/index.html) |
-| 中文简介，短摘要口径 | 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文 | | | |
-| 中文简介，短摘要资料时间 | mixed | | | |
-| 学生人数，需统计日期和口径 | 18000 | official_website | 2026-10-01 | [来源](https://www.lfnu.edu.cn/col/1387254001593/index.html) |
-| 学生人数，需统计日期和口径口径 | 全日制本科生；近似/下界数，保留原标注：全日制本科生18000余人；页面未标注此项统计日期；采集日不等于统计日 | | | |
-| 学生人数，需统计日期和口径资料时间 | 统计日期未标注 | | | |
-| 教职工人数，需统计日期和口径 | 1362 | official_website | 2026-10-01 | [来源](https://www.lfnu.edu.cn/col/1387254001593/index.html) |
-| 教职工人数，需统计日期和口径口径 | 在职教职员工；原标注：在职教职员工1362人；页面未标注此项统计日期；采集日不等于统计日 | | | |
-| 教职工人数，需统计日期和口径资料时间 | 统计日期未标注 | | | |
-| 校园面积，公顷，需日期和口径 | 103.0 | official_website | 2026-10-01 | [来源](https://www.lfnu.edu.cn/col/1387254001593/index.html) |
-| 校园面积，公顷，需日期和口径口径 | 占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积103万平方米；页面未标注此项统计日期；采集日不等于统计日 | | | |
-| 校园面积，公顷，需日期和口径资料时间 | 统计日期未标注 | | | |
-| 招生入口 | https://www.lfnu.edu.cn/zsk/ | official_website | 2026-10-01 | [来源](https://www.lfnu.edu.cn/) |
-| 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-| 信息公开入口 | https://www.lfnu.edu.cn/xxgk/ | official_website | 2026-10-01 | [来源](https://www.lfnu.edu.cn/) |
-| 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-| 公开办公或招生电话 | 值班电话: 0316-2188251；电话: 0316-2188211 | official_website | 2026-10-01 | [来源](https://www.lfnu.edu.cn/) |
-| 公开办公或招生电话口径 | 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。 | | | |
-
-## 官网列示校区
-
-| 校区 | 地址 | 来源 |
-| --- | --- | --- |
-| 尚未取得明确校区列表 | | |
-
-## 视觉资料
-
-- [校徽、校名文件与调色板](VISUAL.md)
-- [官方PPT入口](OFFICIAL.md)
-
-## 排名历史
-
-| 发布方/榜单 | 年份 | 范围 | 名次 | 分数 | 来源 |
-| --- | --- | --- | --- | --- | --- |
-| ShanghaiRanking / 软科中国大学排名 | 2021 | 中国大学主榜 | 452 | 95.2 | [社区记录](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
-| ShanghaiRanking / 软科中国大学排名 | 2026 | 中国大学主榜 | 466 | 119.4 | [社区记录](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
-
-## 学科评估记录
-
-| 学科 | 轮次 | 等级 | 来源 |
+| 字段 | 值 | 采集日期 | 来源 |
 | --- | --- | --- | --- |
+| 英文校名 | Langfang Teachers University | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
+| 建校年及历史起点口径 | 1956 | 2026-10-02 | [来源](https://zh.wikipedia.org/w/index.php?title=%E6%B2%B3%E5%8C%97%E7%9C%81%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%88%97%E8%A1%A8&oldid=93747985) |
+| 口径 / 方法 | 中文维基百科省级高校列表的明确建校/创办时间栏，按完整现校名匹配；社区数据，未独立确认前身与现名设立口径。 | | |
+| 屏幕主色；官方标准与设计建议分别标记 | #003090 | 2026-10-02 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 口径 / 方法 | 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。 | | |
+| 学校官网及取证入口 | https://www.lfnu.edu.cn/ | 2026-10-01 | [来源](https://www.lfnu.edu.cn/) |
+| 从主字段生成的短简介；不另采动态统计 | 廊坊师范学院位于河北省廊坊市，教育部名单列为本科，主管部门为河北省。 | 2026-10-02 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
+| 口径 / 方法 | 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。 | | |
+| 校训 | 厚德博学弘毅致远 | 2026-10-01 | [来源](https://www.lfnu.edu.cn/col/1387254001593/index.html) |
+| 官方VI入口 | http://www.lfnu.edu.cn/col/1387254021656/index.html | 2026-10-01 | [来源](http://www.lfnu.edu.cn/col/1387254021656/index.html) |
 
-## 录取历史参考
+## 制作PPT所需素材
 
-社区参考值带地区、年份、科类和批次；请查招生官方记录后用于实际报考。
+- [校徽、校名标识、色卡与VI手册](VISUAL.md)
+- [官方模板入口与使用条件](OFFICIAL.md)
 
-| 年份 | 地区 | 科类 | 批次 | 最低分 | 最低位次 | 来源 |
-| --- | --- | --- | --- | --- | --- | --- |
+## 必备字段缺口
 
-## 可追溯社区快照
+主字段已有附来源记录；使用前查看取值方法。
 
-- [xioajiumi/Chinese_Universities](../../../data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl)：`e088fddc329a`；资料年份/版本 2021，保留原字段及许可。
-- [damitheswitch/china-universities-dataset](../../../data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl)：`5eaa2a93f86a`；资料年份/版本 2026，保留原字段及许可。
-
-## 尚未确认的信息
-
-创办年份：尚未采集、校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、中文简称：尚未采集、英文简称：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、院校群与历史项目标签，非排名：尚未采集、邮政编码：尚未采集、经纬度及坐标系、位置精度：尚未采集、英文简介，短摘要：尚未采集、双一流建设学科，注明名单年份及是否节选：尚未采集、学位授权，需年份与层次口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、就业入口：尚未采集、英文网站入口：尚未采集、公开办公邮箱：尚未采集。
-
-完整字段与出处见[profile.yaml](profile.yaml)。
+模板、辅色、校歌等可选项不作为全校必须存在的资料。机器字段与出处见[profile.yaml](profile.yaml)。

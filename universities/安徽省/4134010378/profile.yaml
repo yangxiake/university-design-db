@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4134010378'
   name_zh: 安徽财经大学
@@ -43,14 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -103,19 +95,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks:
-  - name: 明德楼
-    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
-    verified: auto
-    checked_at: '2026-10-01'
-  - name: 图书馆
-    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
-    verified: auto
-    checked_at: '2026-10-01'
-  - name: 西门
-    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
-    verified: auto
-    checked_at: '2026-10-01'
   logo_assets:
   - asset_id: cada9b271c4e57fcf33b1100
     kind: site_identity
@@ -479,6 +458,19 @@ visual:
     availability: found
     source_sha256: cad8a0189e0984f23773effb1b9159572e0f10dba71927249720b39b53477161
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  landmarks:
+  - name: 明德楼
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 图书馆
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 西门
+    source: https://aufevis.aufe.edu.cn/_upload/article/files/d3/12/519adc744ebb8e0916fd62ed0e86/9a3aadf5-3d22-4825-b144-75e01959e162.pdf
+    verified: auto
+    checked_at: '2026-10-01'
 culture:
   founded_year:
     value: 1959
@@ -495,7 +487,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -517,6 +508,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -539,222 +531,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://zsjy.aufe.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.aufe.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://aufe.ahbys.com/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 安徽财经大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://xxgk2019.aufe.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.aufe.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 安徽省蚌埠市曹山路962号(龙湖东校区)安徽省蚌埠市宏业路255号(龙湖西校区)
-    availability: found
-    search_sources: []
-    source: https://www.aufe.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:安徽省蚌埠市曹山路962号(龙湖东校区)安徽省蚌埠市宏业路255号(龙湖西校区)
-  postal_code:
-    value: '233030'
-    availability: found
-    search_sources: []
-    source: https://www.aufe.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 版权所有:安徽财经大学邮编:233030
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4134010378'
-    upstream_record_name: Anhui University of Finance and Economics
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
+    value: 安徽财经大学位于安徽省蚌埠市，教育部名单列为本科，主管部门为安徽省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
+    availability: found
+    search_sources: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -5,7 +5,7 @@ import unittest
 
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parents[1]/'ingest'))
 from collect_official_extensions import Page,contact_claims,portal_claims,apply_record,sanitize_record
-from profile_extensions import migrate
+from profile_extensions import migrate, official_name_variants
 from render_enriched import render_visual
 
 
@@ -14,6 +14,21 @@ def page(html):
 
 
 class OfficialExtensionTests(unittest.TestCase):
+    def test_home_alias_requires_current_official_same_school_provenance(self):
+        identity=dict(name_zh='福建福耀科技大学',official_website=dict(value='https://www.fyust.edu.cn/'),
+            short_name_zh=dict(value='福耀科技大学',availability='found',verified='auto',source_type='official_website',source='https://fyust.edu.cn/xxjj.htm'))
+        self.assertEqual(official_name_variants(identity),['福建福耀科技大学','福耀科技大学'])
+        for updates in [dict(source_type='community_dataset'),dict(source='https://another.edu.cn/'),dict(verified='unverified')]:
+            other=dict(identity,short_name_zh=dict(identity['short_name_zh'],**updates))
+            self.assertEqual(official_name_variants(other),['福建福耀科技大学'])
+    def test_security_and_reporting_mailboxes_are_not_office_contacts(self):
+        p=page('<footer>网站信息安全受理邮箱：security@test.edu.cn<br>扫黑除恶举报邮箱：report@test.edu.cn<br>招生邮箱：admission@test.edu.cn</footer>')
+        claims={c['field']:c['value'] for c in contact_claims(p,'homepage')}
+        self.assertEqual(claims['contacts.email'],'admission@test.edu.cn')
+        record=dict(claims=[dict(field='contacts.email',value='security@test.edu.cn',source='https://test.edu.cn',evidence=['信息安全受理邮箱：security@test.edu.cn'])],assets=[])
+        self.assertFalse(sanitize_record(record)['claims'])
+        self.assertEqual(record['excluded_claims'][0]['reason'],'special_purpose_email_not_office_contact')
+
     def test_inline_contact_labels_survive_and_news_contacts_are_excluded(self):
         p=page('<title>测试大学</title><article>地址：别处路1号 电话：010-12345678</article>'
                '<footer><p><span>地址：</span><b>测试市大学路2号</b> | 邮编：100084</p>'

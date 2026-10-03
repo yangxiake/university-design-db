@@ -87,8 +87,8 @@ def main():
             "schema_version": schema_version,
             "logo_asset_count": logo_count,
             "palette_count": palette_count,
-            "profile_view_path": (profile_path.parent / "PROFILE.md").as_posix() if schema_version==3 else "",
-            "visual_path": (profile_path.parent / "VISUAL.md").as_posix() if schema_version==3 else "",
+            "profile_view_path": (profile_path.parent / "PROFILE.md").as_posix() if schema_version in {3,4} else "",
+            "visual_path": (profile_path.parent / "VISUAL.md").as_posix() if schema_version in {3,4} else "",
             "profile_path": profile_path.as_posix() if absolute.exists() else "",
         })
         province_count[row["province"]] += 1

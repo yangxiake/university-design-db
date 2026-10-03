@@ -33,5 +33,9 @@
 - [广大标识下载](https://www.gzhu.edu.cn/wj/xiaohui.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gzhu.edu.cn/xxgk/xxxhxg.htm)。
 - [广大标识下载](https://www.gzhu.edu.cn/images/mmexport1528334410762.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gzhu.edu.cn/xxgk/xxxhxg.htm)。
 - [广大标识下载](https://www.gzhu.edu.cn/images/xgcp.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gzhu.edu.cn/xxgk/xxxhxg.htm)。
+- [学校标识](http://www.gzhu.edu.cn/xxgk/xxxhxg.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.gzhu.edu.cn/xxgk/xxxhxg.htm)。
+- [广大标识下载](http://www.gzhu.edu.cn/wj/xiaohui.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.gzhu.edu.cn/xxgk/xxxhxg.htm)。
+- [广大标识下载](http://www.gzhu.edu.cn/images/mmexport1528334410762.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.gzhu.edu.cn/xxgk/xxxhxg.htm)。
+- [广大标识下载](http://www.gzhu.edu.cn/images/xgcp.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.gzhu.edu.cn/xxgk/xxxhxg.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

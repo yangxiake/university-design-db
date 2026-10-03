@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4133010349'
   name_zh: 绍兴大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Shaoxing University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q7489192&oldid=2511253868
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2511253868
+    source_sha256: 165bdf33b056211804a8b324ce7eb65dbec5c543843f814f0974328612293e8c
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.usx.edu.cn/
     source: https://www.usx.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -68,19 +66,39 @@ research:
   audit_key: '4133010349'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#8E1537'
+    source: https://www.usx.edu.cn/__local/0/15/D2/2272CEE7E3E163DA91007BD004D_E5BD6ECB_29732.jpg
+    method: official_vi
+    label: 脊梁红
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三项校方标准色，HEX直接编码RGB142/21/55、51/94/105、35/24/21；Pantone保留原图记法。
+    cmyk:
+    - 48
+    - 100
+    - 75
+    - 16
+    pantone: P1955 C
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: b73138ff746e9b5ba3c53c016ccf3f7f7a21f10951c8a35b26e9ba0832065b20
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#335E69'
+    source: https://www.usx.edu.cn/__local/0/15/D2/2272CEE7E3E163DA91007BD004D_E5BD6ECB_29732.jpg
+    method: official_vi
+    label: 瓷水青
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三项校方标准色，HEX直接编码RGB142/21/55、51/94/105、35/24/21；Pantone保留原图记法。
+    cmyk:
+    - 84
+    - 60
+    - 54
+    - 9
+    pantone: P8762 C
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: b73138ff746e9b5ba3c53c016ccf3f7f7a21f10951c8a35b26e9ba0832065b20
   vi_url:
     value: https://www.usx.edu.cn/xxsbxt/yysbxt/xh.htm
     source: https://www.usx.edu.cn/xxsbxt/yysbxt/xh.htm
@@ -95,7 +113,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 6d03f9ffef85a39481f2a625
     kind: site_identity
@@ -169,16 +186,270 @@ visual:
     byte_size: 9534
     representation: raster
     resolved_url: https://www.usx.edu.cn/image/logo1.png
-  color_palette: []
-  vi_resources: []
+  color_palette:
+  - value: '#8E1537'
+    rgb:
+    - 142
+    - 21
+    - 55
+    cmyk:
+    - 48
+    - 100
+    - 75
+    - 16
+    pantone: P1955 C
+    label: 脊梁红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.usx.edu.cn/__local/0/15/D2/2272CEE7E3E163DA91007BD004D_E5BD6ECB_29732.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三项校方标准色，HEX直接编码RGB142/21/55、51/94/105、35/24/21；Pantone保留原图记法。
+    source_sha256: b73138ff746e9b5ba3c53c016ccf3f7f7a21f10951c8a35b26e9ba0832065b20
+    source_field: visual.color_primary
+  - value: '#335E69'
+    rgb:
+    - 51
+    - 94
+    - 105
+    cmyk:
+    - 84
+    - 60
+    - 54
+    - 9
+    pantone: P8762 C
+    label: 瓷水青
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.usx.edu.cn/__local/0/15/D2/2272CEE7E3E163DA91007BD004D_E5BD6ECB_29732.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三项校方标准色，HEX直接编码RGB142/21/55、51/94/105、35/24/21；Pantone保留原图记法。
+    source_sha256: b73138ff746e9b5ba3c53c016ccf3f7f7a21f10951c8a35b26e9ba0832065b20
+    source_field: visual.color_secondary
+  - value: '#231815'
+    rgb:
+    - 35
+    - 24
+    - 21
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: P179-16 C
+    label: 书文墨
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.usx.edu.cn/__local/0/15/D2/2272CEE7E3E163DA91007BD004D_E5BD6ECB_29732.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三项校方标准色，HEX直接编码RGB142/21/55、51/94/105、35/24/21；Pantone保留原图记法。
+    source_sha256: b73138ff746e9b5ba3c53c016ccf3f7f7a21f10951c8a35b26e9ba0832065b20
+  - value: '#BF9262'
+    rgb:
+    - 191
+    - 146
+    - 98
+    cmyk:
+    - 0
+    - 33
+    - 53
+    - 32
+    pantone: P29-11 C
+    label: 金色
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.usx.edu.cn/__local/D/77/3E/B1A18F56C33ECFEFA88CE3EA9AC_D8D1B849_2E3CA.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助金银色RGB与印刷值分别保存。
+    source_sha256: 5cb05453b4b3fe05b4dc2015ba7a3f975f03dd3de51f91ffcebdfb47934f0aed
+  - value: '#B5B5B6'
+    rgb:
+    - 181
+    - 181
+    - 182
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: P179-6 C
+    label: 银色
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.usx.edu.cn/__local/D/77/3E/B1A18F56C33ECFEFA88CE3EA9AC_D8D1B849_2E3CA.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助金银色RGB与印刷值分别保存。
+    source_sha256: 5cb05453b4b3fe05b4dc2015ba7a3f975f03dd3de51f91ffcebdfb47934f0aed
+  vi_resources:
+  - title: 绍兴大学官方视觉规范
+    url: https://www.usx.edu.cn/xxsbxt/jcsbxt/bzs.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.usx.edu.cn/__local/0/15/D2/2272CEE7E3E163DA91007BD004D_E5BD6ECB_29732.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三项校方标准色，HEX直接编码RGB142/21/55、51/94/105、35/24/21；Pantone保留原图记法。
+  - title: 绍兴大学官方视觉规范
+    url: https://www.usx.edu.cn/xxsbxt/jcsbxt/bzs.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.usx.edu.cn/__local/D/77/3E/B1A18F56C33ECFEFA88CE3EA9AC_D8D1B849_2E3CA.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助金银色RGB与印刷值分别保存。
+  - title: 标准色-绍兴大学
+    url: https://www.usx.edu.cn/xxsbxt/jcsbxt/bzs.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.usx.edu.cn/xxsbxt/jcsbxt/bzs.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: ea3070898f8ec7eaad8eb82127ffa46d2cd03690a4cee2cf7f0408d0a934d1c9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校徽-绍兴大学
+    url: https://www.usx.edu.cn/xxsbxt/yysbxt/xh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.usx.edu.cn/xxsbxt/yysbxt/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a38aa39764b678d95f6eda2d6a2dc3de92e53a611133dc72a6d6a11ecef50cfc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 2-17校徽.jpg
+    url: https://www.usx.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1232802696&wbfileid=5437131
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - JPG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.usx.edu.cn/xxsbxt/yysbxt/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a38aa39764b678d95f6eda2d6a2dc3de92e53a611133dc72a6d6a11ecef50cfc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 2-17校徽2.jpg
+    url: https://www.usx.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1232802696&wbfileid=5437130
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - JPG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.usx.edu.cn/xxsbxt/yysbxt/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a38aa39764b678d95f6eda2d6a2dc3de92e53a611133dc72a6d6a11ecef50cfc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 2-17校徽3.jpg
+    url: https://www.usx.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1232802696&wbfileid=5437132
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - JPG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.usx.edu.cn/xxsbxt/yysbxt/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: a38aa39764b678d95f6eda2d6a2dc3de92e53a611133dc72a6d6a11ecef50cfc
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校标校徽-绍兴大学
+    url: https://www.usx.edu.cn/xxsbxt/jcsbxt/xbxh.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.usx.edu.cn/xxsbxt/jcsbxt/xbxh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 84716c56d3d2c3780b6c0bc95085d1897ab783f585aec6c4f9fe8c0cd797acc4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1996
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q7489192&oldid=2511253868
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2511253868
+    source_sha256: 165bdf33b056211804a8b324ce7eb65dbec5c543843f814f0974328612293e8c
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: 修德求真
     source: https://www.usx.edu.cn/xxgk/xxjj.htm
@@ -186,7 +457,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -208,6 +478,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -230,231 +501,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://www.usx.edu.cn/en/About_USX.htm
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://www.usx.edu.cn/xwzx/xxgk.htm
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 绍兴市城南大道1077号
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:绍兴市城南大道1077号|邮编:312000|IPV6
-  postal_code:
-    value: '312000'
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:绍兴市城南大道1077号|邮编:312000|IPV6
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 绍兴大学位于浙江省绍兴市，主管部门为浙江省。官网列示全日制在校学生1.9万余人（统计日期未注明）。官网列示教职工2000余人（统计日期未注明）。官网列示占地面积2493.71亩（统计日期未注明）。
+    value: 绍兴大学位于浙江省绍兴市，教育部名单列为本科，主管部门为浙江省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.usx.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 19000
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校学生；近似/下界数，保留原标注：全日制在校学生1.9万余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校学生1.9万余人
-  faculty_count:
-    value: 2000
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工2000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工2000余人
-  campus_area_hectares:
-    value: 166.247333
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积2493.71亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地面积2493.71亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 一级学科硕士学位授权点：10个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: office@usx.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.usx.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 书记校长信箱 office@usx.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

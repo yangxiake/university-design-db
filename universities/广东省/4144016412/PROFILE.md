@@ -1,67 +1,31 @@
-# 香港科技大学(广州)：资料档案
+# 香港科技大学(广州)：PPT资料档案
 
 学校标识码：`4144016412`；广东省 / 广州市；本科；主管部门：广东省教育厅。
 
-逐字段资料来自官方或标注的社区来源。自动采集状态不表示全部字段完整，历史记录不等于现行数据。
+仅保留PPT主字段与素材依据。自动采集状态、来源和设计建议分别标记。
 
-## 有来源的信息
+## 已取得的主字段与可选补充
 
-| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
-| --- | --- | --- | --- | --- |
-| 英文名称 | The Hong Kong University of Science and Technology (Guangzhou) | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 英文名称资料时间 | 2026-06-09 | | | |
-| 官网 | https://www.hkust-gz.edu.cn/zh/ | official_or_curated | 2026-10-01 | [来源](https://www.hkust-gz.edu.cn/zh/) |
-| 创办年份 | 2022 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 创办年份口径 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | | |
-| 创办年份资料时间 | 2026-06-09 | | | |
-| 中文简称 | 港科广 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 中文简称资料时间 | 2026-06-09 | | | |
-| 英文简称 | HKUSTGZ | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 英文简称资料时间 | 2026-06-09 | | | |
-| 综合、理工、师范等院校类型 | 理工 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 综合、理工、师范等院校类型资料时间 | 2026-06-09 | | | |
-| 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 22.761, "location_kind": "community_map_point", "longitude": 113.601, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
-| 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
-| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
-| 招生入口 | https://ugadmissions.hkust-gz.edu.cn/zh-CN/ | official_website | 2026-10-01 | [来源](https://www.hkust-gz.edu.cn/zh/) |
-| 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-| 信息公开入口 | https://www.hkust-gz.edu.cn/zh/information-disclosure/?variant=zh-cn | official_website | 2026-10-01 | [来源](https://www.hkust-gz.edu.cn/zh/) |
-| 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-
-## 官网列示校区
-
-| 校区 | 地址 | 来源 |
-| --- | --- | --- |
-| 尚未取得明确校区列表 | | |
-
-## 视觉资料
-
-- [校徽、校名文件与调色板](VISUAL.md)
-- [官方PPT入口](OFFICIAL.md)
-
-## 排名历史
-
-| 发布方/榜单 | 年份 | 范围 | 名次 | 分数 | 来源 |
-| --- | --- | --- | --- | --- | --- |
-
-## 学科评估记录
-
-| 学科 | 轮次 | 等级 | 来源 |
+| 字段 | 值 | 采集日期 | 来源 |
 | --- | --- | --- | --- |
+| 英文校名 | The Hong Kong University of Science and Technology (Guangzhou) | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 建校年及历史起点口径 | 2022 | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 口径 / 方法 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | |
+| 屏幕主色；官方标准与设计建议分别标记 | #A38138 | 2026-10-02 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%20HKUSTGZ.svg) |
+| 口径 / 方法 | 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。；不是学校官方VI标准色。 | | |
+| 学校官网及取证入口 | https://www.hkust-gz.edu.cn/zh/ | 2026-10-01 | [来源](https://www.hkust-gz.edu.cn/zh/) |
+| 中文简称；用于检索 | 港科广 | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 英文简称；用于检索 | HKUSTGZ | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-extra2.js) |
+| 从主字段生成的短简介；不另采动态统计 | 香港科技大学(广州)位于广东省广州市，教育部名单列为本科，主管部门为广东省教育厅。 | 2026-10-02 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
+| 口径 / 方法 | 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。 | | |
 
-## 录取历史参考
+## 制作PPT所需素材
 
-社区参考值带地区、年份、科类和批次；请查招生官方记录后用于实际报考。
+- [校徽、校名标识、色卡与VI手册](VISUAL.md)
+- [官方模板入口与使用条件](OFFICIAL.md)
 
-| 年份 | 地区 | 科类 | 批次 | 最低分 | 最低位次 | 来源 |
-| --- | --- | --- | --- | --- | --- | --- |
+## 必备字段缺口
 
-## 可追溯社区快照
+主字段已有附来源记录；使用前查看取值方法。
 
-- [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
-
-## 尚未确认的信息
-
-校训：尚未采集、校花：尚未采集、吉祥物：尚未采集、校歌：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、学校别名及曾用名，需保留时期说明：尚未采集、社区检索标识，不能当作正式校名：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、所在国家或地区：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、院校群与历史项目标签，非排名：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、邮政编码：尚未采集、中文简介，短摘要：尚未采集、英文简介，短摘要：尚未采集、学生人数，需统计日期和口径：尚未采集、教职工人数，需统计日期和口径：尚未采集、校园面积，公顷，需日期和口径：尚未采集、双一流建设学科，注明名单年份及是否节选：尚未采集、学位授权，需年份与层次口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、就业入口：尚未采集、英文网站入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
-
-完整字段与出处见[profile.yaml](profile.yaml)。
+模板、辅色、校歌等可选项不作为全校必须存在的资料。机器字段与出处见[profile.yaml](profile.yaml)。

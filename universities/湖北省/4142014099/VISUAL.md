@@ -35,5 +35,14 @@
 - [校园视觉形象](https://vis.hue.edu.cn/main.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/main.htm)。
 - [标准色](https://vis.hue.edu.cn/23779/list.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/23779/list.htm)。
 - [视觉形象识别系统解读说明](https://vis.hue.edu.cn/2024/0307/c23775a171791/page.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/2024/0307/c23775a171791/page.htm)。
+- [附件下载](https://vis.hue.edu.cn/_upload/article/files/b5/f0/1bcf50784deca26a4e06eb55af1e/0c1ea4de-ead6-4d2e-b29c-ed0a334eb989.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/23779/list.htm)。
+- [标准色](https://vis.hue.edu.cn/2024/0419/c23901a173306/page.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/2024/0419/c23901a173306/page.htm)。
+- [建筑标准色](https://vis.hue.edu.cn/2024/0419/c23904a173309/page.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/2024/0419/c23904a173309/page.htm)。
+- [标准色色阶—蓝](https://vis.hue.edu.cn/2024/0419/c23905a173310/page.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/2024/0419/c23905a173310/page.htm)。
+- [标准色色阶—红](https://vis.hue.edu.cn/2024/0419/c23906a173311/page.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/2024/0419/c23906a173311/page.htm)。
+- [校园视觉形象](https://vis.hue.edu.cn/23901/list.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/23901/list.htm)。
+- [校园视觉形象](https://vis.hue.edu.cn/23904/list.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/23904/list.htm)。
+- [校园视觉形象](https://vis.hue.edu.cn/23905/list.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/23905/list.htm)。
+- [校园视觉形象](https://vis.hue.edu.cn/23906/list.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vis.hue.edu.cn/23906/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

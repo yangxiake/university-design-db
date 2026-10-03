@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4121010150'
   name_zh: 大连交通大学
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - dalian-jiaotong-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 大连交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: dalian-jiaotong
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 大连交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -95,17 +67,21 @@ research:
 visual:
   color_primary:
     value: '#25598B'
-    source: http://www.djtu.edu.cn/Content/img/logo.png
+    source: http://www.djtu.edu.cn/Upload/image/20190606/8ef15fc6-129c-4a94-9d4b-ac279ddac24d.jpg
+    method: official_vi
+    label: 交大蓝
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    cmyk:
+    - 80
+    - 50
+    - 10
+    - 30
+    pantone: P108-7C
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: http://www.djtu.edu.cn/
-    image_sha256: 7e42db9ba2df820d44528afdda0f2e966faad3150392a952c67f408ecabe7a89
+    source_sha256: e79729debe72988af05b9033121b686851a39bdabfbf456a483bc37ce232f7b6
   color_secondary:
     value: null
     source: null
@@ -128,7 +104,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: f7aed6cb59d2a3a7
     title: 大连交通大学校徽资源
@@ -232,15 +207,16 @@ visual:
     - 139
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: http://www.djtu.edu.cn/Content/img/logo.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    source_field: visual.color_primary
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
   - value: '#A02828'
     rgb:
     - 160
@@ -349,6 +325,238 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 04fb9a82c9a72222
+  - value: '#25598B'
+    rgb:
+    - 37
+    - 89
+    - 139
+    cmyk:
+    - 80
+    - 50
+    - 10
+    - 30
+    pantone: P108-7C
+    label: 交大蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/8ef15fc6-129c-4a94-9d4b-ac279ddac24d.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: e79729debe72988af05b9033121b686851a39bdabfbf456a483bc37ce232f7b6
+    source_field: visual.color_primary
+  - value: '#C6A86F'
+    rgb:
+    - 198
+    - 168
+    - 111
+    cmyk:
+    - 0
+    - 20
+    - 50
+    - 30
+    pantone: 874C/U
+    label: 专金
+    role: reference
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/3278fe54-1c9e-43f7-aa1c-46cffa6989a0.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 8409f77507a3f0cc5cded50da2f428f360f007bcd18a44a912ace6ed2153023f
+  - value: '#B5B5B6'
+    rgb:
+    - 181
+    - 181
+    - 182
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: 877C/U
+    label: 专银
+    role: reference
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/3278fe54-1c9e-43f7-aa1c-46cffa6989a0.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 8409f77507a3f0cc5cded50da2f428f360f007bcd18a44a912ace6ed2153023f
+  - value: '#FFF000'
+    rgb:
+    - 255
+    - 240
+    - 0
+    cmyk:
+    - 0
+    - 0
+    - 100
+    - 0
+    pantone: Yellow C
+    label: 辅助黄
+    role: secondary
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助红与辅助深蓝有RGB/HEX矛盾，未择一替代；不影响另图标准色交大蓝。
+    source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
+  - value: '#EC6C1F'
+    rgb:
+    - 236
+    - 108
+    - 31
+    cmyk:
+    - 0
+    - 70
+    - 90
+    - 0
+    pantone: 159C
+    label: 辅助橙
+    role: secondary
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助红与辅助深蓝有RGB/HEX矛盾，未择一替代；不影响另图标准色交大蓝。
+    source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
+  - value: '#0096E0'
+    rgb:
+    - 0
+    - 150
+    - 224
+    cmyk:
+    - 100
+    - 10
+    - 0
+    - 0
+    pantone: 1005C/U
+    label: 辅助青
+    role: secondary
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助红与辅助深蓝有RGB/HEX矛盾，未择一替代；不影响另图标准色交大蓝。
+    source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
+  - value: '#00A56F'
+    rgb:
+    - 0
+    - 165
+    - 111
+    cmyk:
+    - 80
+    - 5
+    - 70
+    - 0
+    pantone: 2249C
+    label: 辅助绿
+    role: secondary
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助红与辅助深蓝有RGB/HEX矛盾，未择一替代；不影响另图标准色交大蓝。
+    source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
+  - value: '#8F0108'
+    rgb:
+    - 143
+    - 1
+    - 8
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 40
+    pantone: 682C
+    label: 辅助红RGB候选
+    role: reference
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: '原图RGB 143/1/8与HEX #231815不一致；保留RGB直接编码的候选值，待核对。'
+    source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
+  - value: '#231815'
+    rgb:
+    - 35
+    - 24
+    - 21
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 40
+    pantone: 682C
+    label: 辅助红HEX候选
+    role: reference
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: '原图HEX #231815与RGB 143/1/8不一致；保留原HEX候选值，待核对。'
+    source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
+  - value: '#0E357F'
+    rgb:
+    - 14
+    - 53
+    - 127
+    cmyk:
+    - 100
+    - 90
+    - 20
+    - 0
+    pantone: 661C
+    label: 辅助深蓝RGB候选
+    role: reference
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: '原图RGB 14/53/127与HEX #0D347E不一致，保留候选待核对。'
+    source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
+  - value: '#0D347E'
+    rgb:
+    - 13
+    - 52
+    - 126
+    cmyk:
+    - 100
+    - 90
+    - 20
+    - 0
+    pantone: 661C
+    label: 辅助深蓝HEX候选
+    role: reference
+    method: official_vi
+    official: true
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: '原图HEX #0D347E与RGB 14/53/127不一致，保留候选待核对。'
+    source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
   vi_resources:
   - title: 大连交通大学 - 品牌标识规范
     url: http://www.djtu.edu.cn/vi-logo.html
@@ -366,13 +574,15 @@ visual:
     availability: found
     source_sha256: 6762d69044d5ece237258720a408ff66c2323feb76987e9feab59853fae2b942
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 附件：1.品牌标识规范（AI文件）
     url: http://www.djtu.edu.cn/Upload/file/20190605/6cc61dcf-42fa-48bf-adc5-0955f1eaed06.zip
     kinds:
     - 校徽/校名介绍及资源
     formats:
     - ZIP
-    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
     source: http://www.djtu.edu.cn/vi-logo.html
     repository: null
     commit: null
@@ -380,8 +590,25 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: 6762d69044d5ece237258720a408ff66c2323feb76987e9feab59853fae2b942
-    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: http://www.djtu.edu.cn/Upload/file/20190605/6cc61dcf-42fa-48bf-adc5-0955f1eaed06.zip
+        status: file_read
+        url: http://www.djtu.edu.cn/Upload/file/20190605/6cc61dcf-42fa-48bf-adc5-0955f1eaed06.zip
+      resolved_url: http://www.djtu.edu.cn/Upload/file/20190605/6cc61dcf-42fa-48bf-adc5-0955f1eaed06.zip
+    file_metadata:
+      byte_size: 50254631
+      format: ZIP
+      member_count: 2
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: bc28e0d8aa681877f70814b85df6d00664cd3050670dbd859965bf7b2f58696a
+    content_read: true
+    download_status: content_inspected
   - title: 2.校标红版（jpg格式、png格式透明底）
     url: http://www.djtu.edu.cn/Upload/file/20191105/05e5524b-0b2f-47b2-9cff-9b197dcca5d2.rar
     kinds:
@@ -398,6 +625,8 @@ visual:
     availability: found
     source_sha256: 6762d69044d5ece237258720a408ff66c2323feb76987e9feab59853fae2b942
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 3.校标蓝版（jpg格式、png格式透明底）
     url: http://www.djtu.edu.cn/Upload/file/20191105/26107372-ef2d-4284-97e7-057ecd283859.rar
     kinds:
@@ -414,6 +643,8 @@ visual:
     availability: found
     source_sha256: 6762d69044d5ece237258720a408ff66c2323feb76987e9feab59853fae2b942
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 大连交通大学 - 品牌标识规范
     url: http://www.djtu.edu.cn/vi-logo
     kinds:
@@ -430,6 +661,8 @@ visual:
     availability: found
     source_sha256: 6762d69044d5ece237258720a408ff66c2323feb76987e9feab59853fae2b942
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 附件：1.品牌标识规范（AI文件）
     url: http://www.djtu.edu.cn/Upload/file/20190605/6cc61dcf-42fa-48bf-adc5-0955f1eaed06.zip
     kinds:
@@ -446,6 +679,8 @@ visual:
     availability: found
     source_sha256: 6762d69044d5ece237258720a408ff66c2323feb76987e9feab59853fae2b942
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 2.校标红版（jpg格式、png格式透明底）
     url: http://www.djtu.edu.cn/Upload/file/20191105/05e5524b-0b2f-47b2-9cff-9b197dcca5d2.rar
     kinds:
@@ -462,6 +697,8 @@ visual:
     availability: found
     source_sha256: 6762d69044d5ece237258720a408ff66c2323feb76987e9feab59853fae2b942
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 3.校标蓝版（jpg格式、png格式透明底）
     url: http://www.djtu.edu.cn/Upload/file/20191105/26107372-ef2d-4284-97e7-057ecd283859.rar
     kinds:
@@ -478,14 +715,71 @@ visual:
     availability: found
     source_sha256: 6762d69044d5ece237258720a408ff66c2323feb76987e9feab59853fae2b942
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 大连交通大学官方视觉规范
+    url: http://www.djtu.edu.cn/vi-color.html
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: http://www.djtu.edu.cn/Upload/image/20190606/8ef15fc6-129c-4a94-9d4b-ac279ddac24d.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  - title: 大连交通大学官方视觉规范
+    url: http://www.djtu.edu.cn/vi-color.html
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: http://www.djtu.edu.cn/Upload/image/20190606/3278fe54-1c9e-43f7-aa1c-46cffa6989a0.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  - title: 大连交通大学官方视觉规范
+    url: http://www.djtu.edu.cn/vi-color.html
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助红与辅助深蓝有RGB/HEX矛盾，未择一替代；不影响另图标准色交大蓝。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1956
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q3467518&oldid=2510841136
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2510841136
+    source_sha256: 80db5fe1da9fa8056f2b83403f143391c11688edff42a0c280c5409684d49d4c
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: 明德求索、锲而不舍
     source: http://www.djtu.edu.cn/intro.html
@@ -493,7 +787,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -515,6 +808,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -537,340 +831,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.djtu.edu.cn/Redirect?mid=53
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 本科招生
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://www.djtu.edu.cn/Redirect?mid=17&fid=4
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 大连交通大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 大连交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 大连市沙河口区黄河路794号
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:大连市沙河口区黄河路794号 邮编:116028 联系电话:0411-84106969版权所有©2006 - 2024大连交通大学 辽ICP备17001419号-1辽公网安备 21020402000368号
-  postal_code:
-    value: '116028'
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:大连市沙河口区黄河路794号 邮编:116028 联系电话:0411-84106969版权所有©2006 - 2024大连交通大学 辽ICP备17001419号-1辽公网安备 21020402000368号
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 沙河口校区
-    address: null
-    coordinates: null
-    source: http://www.djtu.edu.cn/intro.html
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 旅顺口校区
-    address: null
-    coordinates: null
-    source: http://www.djtu.edu.cn/intro.html
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 大连交通大学位于辽宁省大连市，主管部门为辽宁省。官网列示全日制在校生20669人（统计日期未注明）。官网列示教职工1399人（统计日期未注明）。官网列示占地总面积82.1万平方米（统计日期未注明）。简介列出沙河口校区、旅顺口校区。
+    value: 大连交通大学位于辽宁省大连市，教育部名单列为本科，主管部门为辽宁省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://www.djtu.edu.cn/intro.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 20669
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/intro.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；原标注：全日制在校生20669人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 全日制在校生20669人
-  faculty_count:
-    value: 1399
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/intro.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；原标注：教职工1399人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 教职工1399人
-  campus_area_hectares:
-    value: 82.1
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/intro.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地总面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：占地总面积82.1万平方米；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地总面积82.1万平方米
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 硕士专业学位授权点：8个；统计时间undated
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/intro.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '联系电话: 0411-84106969'
-    availability: found
-    search_sources: []
-    source: http://www.djtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:大连市沙河口区黄河路794号 邮编:116028 联系电话:0411-84106969版权所有©2006 - 2024大连交通大学 辽ICP备17001419号-1辽公网安备 21020402000368号
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 244
-    score: 148.1
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 大连交通大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 249
-    score: 171.7
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/dalian-jiaotong-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 大连交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4121010150'
-    upstream_record_name: 大连交通大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4121010150'
-    upstream_record_name: 大连交通大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

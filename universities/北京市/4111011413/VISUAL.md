@@ -9,6 +9,10 @@
 | 校徽 | 61910568.png | [文件](https://www.shanghairanking.cn/_uni/logo/61910568.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | 社区 | png | 未声明 | indexed_not_fetched | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo-20191228.png | [文件](https://www.cumtb.edu.cn/images/logo-20191228.png) · [来源](https://www.cumtb.edu.cn/) | 官网 | png | 460 × 80 | content_inspected | 未独立声明 |
 | 校徽 | 中国矿业大学（北京）.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/中国矿业大学（北京）.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 180 × 180 | content_inspected | 未独立声明 |
+| 校徽 | 校徽.jpg | [压缩包](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=F1B49BBCC7C8E67ED596C2165F21A786) 内 `中国矿业大学（北京）校徽/校徽.jpg` · [来源](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=F1B49BBCC7C8E67ED596C2165F21A786) | 官网 | jpeg | 2000 × 2000 | content_inspected | 未独立声明 |
+| 校徽 | 校徽.png | [压缩包](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=F1B49BBCC7C8E67ED596C2165F21A786) 内 `中国矿业大学（北京）校徽/校徽.png` · [来源](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=F1B49BBCC7C8E67ED596C2165F21A786) | 官网 | png | 2000 × 2000 | content_inspected | 未独立声明 |
+| 组合标识 | 校名.jpg | [压缩包](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=B493D17A187F8E8D278F4C99F27C29D2) 内 `中国矿业大学（北京）校名/校名.jpg` · [来源](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=B493D17A187F8E8D278F4C99F27C29D2) | 官网 | jpeg | 5566 × 1147 | content_inspected | 未独立声明 |
+| 组合标识 | 校名.png | [压缩包](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=B493D17A187F8E8D278F4C99F27C29D2) 内 `中国矿业大学（北京）校名/校名.png` · [来源](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=B493D17A187F8E8D278F4C99F27C29D2) | 官网 | png | 5566 × 1147 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -28,5 +32,13 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.cumtb.edu.cn/xxgk/xxbs/xh.htm](https://www.cumtb.edu.cn/xxgk/xxbs/xh.htm)
+- [校徽-中国矿业大学（北京）](https://www.cumtb.edu.cn/xxgk/xxbs/xh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cumtb.edu.cn/xxgk/xxbs/xh.htm)。
+- [中国矿业大学（北京）校徽.zip](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=F1B49BBCC7C8E67ED596C2165F21A786)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.cumtb.edu.cn/xxgk/xxbs/xh.htm)。
+  - 文件容器已读取：ZIP；1185097字节；读取类型archive_structure；文件SHA256 `656c22ee03211052a4dbe0e28f7bb2fd6bce543bf7b25406bbf1caf823a35f4e`。
+- [校名-中国矿业大学（北京）](https://www.cumtb.edu.cn/xxgk/xxbs/xm.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cumtb.edu.cn/xxgk/xxbs/xm.htm)。
+- [中国矿业大学（北京）校名.zip](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=B493D17A187F8E8D278F4C99F27C29D2)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cumtb.edu.cn/xxgk/xxbs/xm.htm)。
+- [中国矿业大学（北京）校名.zip](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=B493D17A187F8E8D278F4C99F27C29D2)：["官方视觉资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.cumtb.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1400454094&wbfileid=B493D17A187F8E8D278F4C99F27C29D2)。
+  - 发布者：中国矿业大学(北京)；适用范围：学校通用。
+  - 文件容器已读取：ZIP；2332358字节；读取类型archive_structure；文件SHA256 `b5776c7fe691880fd8b0e40b6dfec5e7c41fd72d9deeb4e8bcf21e4312280465`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

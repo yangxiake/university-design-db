@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4111010045'
   name_zh: 中央音乐学院
@@ -58,14 +58,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -82,12 +74,22 @@ research:
   audit_key: '4111010045'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#8F002F'
+    source: https://www.ccom.edu.cn/images/scgf/scgf04.jpg
+    method: official_vi
+    label: 音乐红
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    cmyk:
+    - 20
+    - 100
+    - 60
+    - 40
+    pantone: 7420C / 200U
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 99876295f838c3ea6f70ad748ebb5e9fa44b4c8e995367603ab10048702f026c
   color_secondary:
     value: null
     source: null
@@ -110,7 +112,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 21b1ebd63f749ef5
     title: 中央音乐学院校徽资源
@@ -280,6 +281,196 @@ visual:
     repository: HeyHuazi/SVGLOGO
     commit: 142498f527ac2dd3116cc1feccb9670879839f74
     asset_id: 5f0e967c1a04f625
+  - value: '#8F002F'
+    rgb:
+    - 143
+    - 0
+    - 47
+    cmyk:
+    - 20
+    - 100
+    - 60
+    - 40
+    pantone: 7420C / 200U
+    label: 音乐红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf04.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 99876295f838c3ea6f70ad748ebb5e9fa44b4c8e995367603ab10048702f026c
+    source_field: visual.color_primary
+  - value: '#D92825'
+    rgb:
+    - 217
+    - 40
+    - 37
+    cmyk:
+    - 10
+    - 95
+    - 90
+    - 0
+    pantone: 1797C / 1795U
+    label: 辅助红
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
+  - value: '#552277'
+    rgb:
+    - 85
+    - 34
+    - 119
+    cmyk:
+    - 80
+    - 100
+    - 20
+    - 0
+    pantone: 526C / 526U
+    label: 辅助紫
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
+  - value: '#666666'
+    rgb:
+    - 102
+    - 102
+    - 102
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 60
+    pantone: null
+    label: 辅助灰60
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
+  - value: '#999999'
+    rgb:
+    - 153
+    - 153
+    - 153
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 辅助灰40
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
+  - value: '#CCCCCC'
+    rgb:
+    - 204
+    - 204
+    - 204
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 20
+    pantone: null
+    label: 辅助灰20
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
+  - value: '#D5B445'
+    rgb:
+    - 213
+    - 180
+    - 69
+    cmyk:
+    - 20
+    - 30
+    - 80
+    - 0
+    pantone: null
+    label: 辅助金黄
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
+  - value: '#F5E6B4'
+    rgb:
+    - 245
+    - 230
+    - 180
+    cmyk:
+    - 5
+    - 10
+    - 35
+    - 0
+    pantone: 461C / 461U
+    label: 辅助淡黄
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
+  - value: '#FFF5D7'
+    rgb:
+    - 255
+    - 245
+    - 215
+    cmyk:
+    - 0
+    - 5
+    - 20
+    - 0
+    pantone: 7499C / 7499U
+    label: 辅助浅黄
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
   vi_resources:
   - title: 标识规范
     url: https://www.ccom.edu.cn/xysh/yybs/bsgf.htm
@@ -297,6 +488,41 @@ visual:
     availability: found
     source_sha256: 6bb92911bcb9d630a4ebb936eb33508562037cb23c92676f2e1e274208d5a975
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 中央音乐学院官方视觉规范
+    url: https://www.ccom.edu.cn/xysh/yybs/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.ccom.edu.cn/images/scgf/scgf04.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  - title: 中央音乐学院官方视觉规范
+    url: https://www.ccom.edu.cn/xysh/yybs/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  landmarks: []
 culture:
   founded_year:
     value: 1949
@@ -314,7 +540,6 @@ culture:
     availability: found
     search_sources: []
     note: AI核对公开检索返回的学校章程、信息公开或学校提交招生资料文字；未作人工签核，需打开原页复核。
-  history_events: []
   flower:
     value: null
     source: null
@@ -336,6 +561,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -381,342 +607,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
-  admissions_url:
-    value: https://zhaoban.ccom.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ccom.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 本科招生
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://en.ccom.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.ccom.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: http://zhuanti.ccom.edu.cn/xxgkwnew
-    availability: found
-    search_sources: []
-    source: https://www.ccom.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 艺术
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中央音乐学院
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中央音乐学院
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: '100031'
-    availability: found
-    search_sources: []
-    source: https://www.ccom.edu.cn/ljxx/lxwm.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编100031
-  coordinates:
-    value:
-      longitude: 116.323
-      latitude: 39.901
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中央音乐学院
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: 中央音乐学院位于北京市，主管部门为教育部。官网列示全日制在校生2208人（统计时间2024-12）。官网列示专任教师468人（统计时间2024-12）。官网列示占地面积79423平方米（统计时间2024-12）。
+    value: 中央音乐学院位于北京市北京市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.ccom.edu.cn/ljxx/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 2208
-    availability: found
-    search_sources: []
-    source: https://www.ccom.edu.cn/ljxx/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；原标注：全日制在校生2208人；截至2024年12月
-    source_as_of: 2024-12
-    date_basis: 截至2024年12月
-    approximate: false
-    original_notation: 全日制在校生2208人
-  faculty_count:
-    value: 468
-    availability: found
-    search_sources: []
-    source: https://www.ccom.edu.cn/ljxx/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师468人；截至2024年12月
-    source_as_of: 2024-12
-    date_basis: 截至2024年12月
-    approximate: false
-    original_notation: 专任教师468人
-  campus_area_hectares:
-    value: 7.9423
-    availability: found
-    search_sources: []
-    source: https://www.ccom.edu.cn/ljxx/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积79423平方米；截至2024年12月
-    source_as_of: 2024-12
-    date_basis: 截至2024年12月
-    approximate: false
-    original_notation: 占地面积79423平方米
-academics:
-  double_first_class_disciplines:
-    value:
-    - 音乐与舞蹈学
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中央音乐学院
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 音乐与舞蹈学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 中央音乐学院
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4111010045'
-    upstream_record_name: 中央音乐学院
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4111010045'
-    upstream_record_name: 中央音乐学院
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4111010045'
-    upstream_record_name: 中央音乐学院
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

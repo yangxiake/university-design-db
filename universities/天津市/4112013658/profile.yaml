@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4112013658'
   name_zh: 天津外国语大学滨海外事学院
@@ -9,19 +9,26 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: BinHai School of Foreign Affairs of Tianjin Foreign Studies University
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_2_tianjin/a_21/a_21.html
+    source_sha256: 2a95b087dcf50226d4a9081e2d14601f40d61a3cc5667b88fa71b3b2947239c3
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: http://bhws.tjfsu.edu.cn/
+    availability: found
     search_sources: []
+    source: http://bhws.tjfsu.edu.cn/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    source_sha256: 0c319e0ca7e621eca0396b7d32806aa9de9c2c885bd042b8c9af1de0d623cde8
+    basis: 已有来源候选实际返回本校主页，当前完整校名标题或版权主体匹配；同时读取并核对该页引用的现行校名标识。
   short_name_zh:
     value: null
     source: null
@@ -43,14 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -72,12 +71,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#283868'
+    availability: found
     search_sources: []
+    source: http://bhws.tjfsu.edu.cn/images/newlogo.png
+    checked_at: '2026-10-03'
+    verified: auto
+    method: badge_sample
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: 59e40dd0b09850c655066071
+    source_sha256: fb6f5025fc4fd03d360d6c0cb5fd98e577f26eda4935214bcdf0e688952e82f9
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -99,18 +106,97 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 59e40dd0b09850c655066071
+    kind: combination
+    title: 学校官网HTML/CSS页眉标识
+    url: http://bhws.tjfsu.edu.cn/images/newlogo.png
+    source: http://bhws.tjfsu.edu.cn/
+    file_name: newlogo.png
+    upstream_path: null
+    publisher: 天津外国语大学滨海外事学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 天津外国语大学滨海外事学院
+    format: png
+    width: 1220
+    height: 230
+    vector: false
+    has_alpha: false
+    transparent_background: false
+    sha256: fb6f5025fc4fd03d360d6c0cb5fd98e577f26eda4935214bcdf0e688952e82f9
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-03'
+    source_type: official_website
+    source_sha256: 0c319e0ca7e621eca0396b7d32806aa9de9c2c885bd042b8c9af1de0d623cde8
+    identity_basis:
+      src: http://bhws.tjfsu.edu.cn/images/newlogo.png
+      label: 静态CSS标识规则
+      context: .newlogo
+      css_url: http://bhws.tjfsu.edu.cn/
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。；当前图形已按学校完整名称作内容核对：实际图形为本校蓝色圆徽与当前完整中英文校名组合；未采用母校单独标识，图中现校名为天津外国语大学滨海外事学院。
+    byte_size: 108833
+    representation: raster
+    resolved_url: http://bhws.tjfsu.edu.cn/images/newlogo.png
+    inspection_attempts:
+    - url: http://bhws.tjfsu.edu.cn/images/newlogo.png
+      status: content_inspected
+    visual_review: auto
+    visual_review_basis: 实际图形为本校蓝色圆徽与当前完整中英文校名组合；未采用母校单独标识，图中现校名为天津外国语大学滨海外事学院。
+  color_palette:
+  - value: '#283868'
+    rgb:
+    - 40
+    - 56
+    - 104
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://bhws.tjfsu.edu.cn/images/newlogo.png
+    page_source: http://bhws.tjfsu.edu.cn/
+    asset_id: 59e40dd0b09850c655066071
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+  - value: '#203868'
+    rgb:
+    - 32
+    - 56
+    - 104
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: http://bhws.tjfsu.edu.cn/images/newlogo.png
+    page_source: http://bhws.tjfsu.edu.cn/
+    asset_id: 59e40dd0b09850c655066071
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2004
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_2_tianjin/a_21/a_21.html
+    source_sha256: 2a95b087dcf50226d4a9081e2d14601f40d61a3cc5667b88fa71b3b2947239c3
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“创办时间”栏原值；社区二手记录，未独立确认前身、现名设立或升本口径。
   motto:
     value: null
     source: null
@@ -118,7 +204,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -140,6 +225,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -162,185 +248,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 天津外国语大学滨海外事学院位于天津市天津市，教育部名单列为本科，主管部门为天津市教委。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

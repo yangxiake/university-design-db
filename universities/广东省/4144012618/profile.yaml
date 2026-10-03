@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4144012618'
   name_zh: 广州软件学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Guangzhou University of Software
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q11062059&oldid=2514743863
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2514743863
+    source_sha256: 6c3b64135db92fd7e4b844f237251c348e989de5d54a11de37ef95e585320693
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.gzus.edu.cn/
     source: https://www.gzus.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +64,21 @@ research:
   audit_key: '4144012618'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#244CB2'
+    availability: found
     search_sources: []
+    source: https://www.gzus.edu.cn/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 46f592e0036798fd17bcc1d33823321c3eeafb4006eb16fe66bf1eb28debd7fe
+    homepage_source: https://www.gzus.edu.cn/
+    homepage_sha256: 94945c92292bc95c3e99dc7b6de8f1e6d0fb56feb51caa2cf54389b876701487
+    css_selector: .m_header_box header
+    css_declaration: '#244cb2'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -94,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 444583fb28164185572c2a13
     kind: site_identity
@@ -141,7 +147,101 @@ visual:
       status: access_or_parse_gap
       error_type: URLError
       detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
-  color_palette: []
+  - asset_id: 45c319f2c0a8dc71bfe36bdf
+    title: 广州软件学院社区校徽预览
+    kind: badge
+    url: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_41/a_1_2.png
+    source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_41/a_41.html
+    file_name: a_1_2.png
+    upstream_path: null
+    publisher: 大学志 chinaschool.com.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广州软件学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: 13d2081467e7a926cc7103dbd4dbb9de4beb4c831e523d6df5ca418984f5ec70
+    identity_basis: 页面标题为当前完整校名且图像alt精确标注同校校徽；社区关联证据，现行版本未独立确认。
+    usage_note: 社区学校资料页校徽预览；不是校方直接发布，不认定现行VI或图形授权。只保存链接与实际文件元数据，不再分发图形。
+    sha256: 7011b64da3d7725833772b1231c64f2dcb721144b382cf4b3dab1d56f9a6aed3
+    access_status: content_inspected
+    byte_size: 33633
+    format: png
+    vector: false
+    width: 140
+    representation: raster
+    height: 140
+    has_alpha: true
+    transparent_background: true
+    visual_review: auto
+    visual_review_basis: 实际查看图形；校名字样对应当前学校，或该页专用图形具有独立学校标识。社区来源，未认定为官方现行VI。
+  color_palette:
+  - value: '#244CB2'
+    rgb:
+    - 36
+    - 76
+    - 178
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.gzus.edu.cn/css/style.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 46f592e0036798fd17bcc1d33823321c3eeafb4006eb16fe66bf1eb28debd7fe
+    homepage_source: https://www.gzus.edu.cn/
+    homepage_sha256: 94945c92292bc95c3e99dc7b6de8f1e6d0fb56feb51caa2cf54389b876701487
+    css_selector: .m_header_box header
+    css_declaration: '#244cb2'
+    collector: ppt_site_reference
+  - value: '#384888'
+    rgb:
+    - 56
+    - 72
+    - 136
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_41/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_41/a_41.html
+    asset_id: 45c319f2c0a8dc71bfe36bdf
+    source_sha256: 7011b64da3d7725833772b1231c64f2dcb721144b382cf4b3dab1d56f9a6aed3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  - value: '#385088'
+    rgb:
+    - 56
+    - 80
+    - 136
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_41/a_1_2.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_41/a_41.html
+    asset_id: 45c319f2c0a8dc71bfe36bdf
+    source_sha256: 7011b64da3d7725833772b1231c64f2dcb721144b382cf4b3dab1d56f9a6aed3
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
   vi_resources:
   - title: 学校标识
     url: https://www.gzus.edu.cn/xxgk/xxbs.htm
@@ -175,6 +275,7 @@ visual:
     availability: found
     source_sha256: f3d0f709297616ab3ca4742e466231ff88790bcc33c2393ab1c1dbb8e59ccf48
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  landmarks: []
 culture:
   founded_year:
     value: 2002
@@ -185,13 +286,16 @@ culture:
     search_sources: []
     basis: 官网overview页直接记载学校成立年份；未将更名年份或院系年份当作建校年
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 明德日新 知行合一
+    availability: found
     search_sources: []
-  history_events: []
+    source: https://www.gzus.edu.cn/xxgk/xxxf.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 4d21de9e39829baeec72b97670923ba6d7a9e2bf1787de63ce74d0167b059a04
+    collector: ppt_core_only
+    basis: 学校公开页面明确记载的主字段；未采集动态统计
   flower:
     value: null
     source: null
@@ -213,6 +317,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -235,225 +340,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.gzus.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.gzus.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.gzus.edu.cn/xxgkw/
-    availability: found
-    search_sources: []
-    source: https://www.gzus.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开网
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 广州校区
-    address: null
-    coordinates: null
-    source: https://www.gzus.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 江门校区
-    address: null
-    coordinates: null
-    source: https://www.gzus.edu.cn/xxgk/xxjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 广州软件学院位于广东省广州市，主管部门为广东省教育厅。官网列示在校生约20000人（统计日期未注明）。官网列示教职工近1400人（统计日期未注明）。简介列出广州校区、江门校区。
+    value: 广州软件学院位于广东省广州市，教育部名单列为本科，主管部门为广东省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.gzus.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 20000
-    availability: found
-    search_sources: []
-    source: https://www.gzus.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；近似/下界数，保留原标注：在校生约20000人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校生约20000人
-  faculty_count:
-    value: 1400
-    availability: found
-    search_sources: []
-    source: https://www.gzus.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工近1400人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工近1400人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

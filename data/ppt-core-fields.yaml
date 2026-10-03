@@ -1,0 +1,65 @@
+scope_version: 1
+effective_date: '2026-10-02'
+purpose: 高校主题PPT制作；以原始主字段为采集范围
+schema_version: 4
+identity_keys:
+- school_code
+- name_zh
+- province
+- city
+- level
+- authority
+- note
+- registry_source
+required_facts:
+  identity.name_en: 英文校名
+  culture.founded_year: 建校年及历史起点口径
+  visual.color_primary: 屏幕主色；官方标准与设计建议分别标记
+required_collections:
+  visual.logo_assets: 校徽、校名文字或徽名组合；至少一个实际读取的标识
+support_facts:
+  identity.official_website: 学校官网及取证入口
+  identity.short_name_zh: 中文简称；用于检索
+  identity.short_name_en: 英文简称；用于检索
+  identity.aliases: 曾用名或别名；用于同校检索
+  overview.summary_zh: 从主字段生成的短简介；不另采动态统计
+optional_facts:
+  culture.motto: 校训
+  visual.color_secondary: 辅色
+  visual.vi_url: 官方VI入口
+  visual.badge_description: 校徽简述
+  culture.flower: 校花
+  culture.mascot: 吉祥物
+  culture.anthem: 校歌
+  resources.official_templates_url: 官方PPT模板入口
+  resources.official_template_publisher: 模板发布方
+  resources.official_template_terms: 模板使用说明
+optional_collections:
+  visual.color_palette: 完整色卡及印刷值；主色的依据
+  visual.vi_resources: VI手册与下载资源
+  visual.landmarks: 校园视觉意象
+  culture.history_events: 三至五个有来源的校史节点
+  resources.community_resources: 开源PPT、Beamer、Marp及标识参考入口
+excluded_groups:
+- institution
+- location
+- statistics
+- academics
+- employment
+- contacts
+- rankings
+- admissions
+- community
+excluded_identity_keys:
+- slug_aliases
+- external_identifiers
+excluded_resource_keys:
+- admissions_url
+- career_url
+- english_website
+- information_disclosure_url
+policy:
+  optional_fields_are_completion_gates: false
+  missing_facts_may_be_invented: false
+  official_color_may_be_inferred_from_sampling: false
+  provenance_and_rights_metadata_are_required: true

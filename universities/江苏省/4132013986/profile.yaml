@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132013986'
   name_zh: 江苏大学京江学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Jiangsu University Jingjiang College
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q11134913&oldid=2548500558
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548500558
+    source_sha256: 1be5db6cb09fbcce43a3a903609258df82473a9cd4c2f58f7d8541625f683a34
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://jjxy.ujs.edu.cn/
     availability: found
@@ -47,14 +53,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -80,12 +78,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#101068'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/1437.jpg
+    checked_at: '2026-10-03'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 8d780adda7b049e924881ae5
+    source_sha256: fbd8a0cd03530b139e433cbe93af1265e9954dad6ac7c10fb4acaa6fce8bf648
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -108,7 +114,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 6b4cfaca1d1331871a6ecce5
     kind: site_identity
@@ -149,6 +154,39 @@ visual:
     inspection_attempts:
     - url: https://jjxy.ujs.edu.cn/pic/logo-white.png
       status: content_inspected
+  - asset_id: 8d780adda7b049e924881ae5
+    title: 江苏大学京江学院教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/1437.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/1437/info.json
+    file_name: 1437.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江苏大学京江学院
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    source_type: community_website
+    source_sha256: a8d21f60c44bdac25e8fba1dcbfce87a7e0c4d97e32e33f7ac6dff5440b9073e
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: fbd8a0cd03530b139e433cbe93af1265e9954dad6ac7c10fb4acaa6fce8bf648
+    access_status: content_inspected
+    byte_size: 46512
+    format: jpeg
+    vector: false
+    width: 474
+    representation: raster
+    height: 474
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 逐图查看实际文件，图形使用当前完整中文校名或本校独立标识；平台来源，未认定本校直接发布、现行VI或授权。
   color_palette:
   - value: null
     rgb: null
@@ -168,6 +206,44 @@ visual:
     availability: found
     basis: 学院官网校徽页面明确标准色C100% M100% Y0% K0%；没有RGB或HEX。
     source_sha256: 1c2e20860c335d93a4054f1dd676695e5a32884558723c65e2d348b7a9a638a0
+  - value: '#101068'
+    rgb:
+    - 16
+    - 16
+    - 104
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1437.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1437/info.json
+    asset_id: 8d780adda7b049e924881ae5
+    source_sha256: fbd8a0cd03530b139e433cbe93af1265e9954dad6ac7c10fb4acaa6fce8bf648
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#181870'
+    rgb:
+    - 24
+    - 24
+    - 112
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1437.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/1437/info.json
+    asset_id: 8d780adda7b049e924881ae5
+    source_sha256: fbd8a0cd03530b139e433cbe93af1265e9954dad6ac7c10fb4acaa6fce8bf648
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources:
   - title: 校名校标
     url: https://jjxy.ujs.edu.cn/dy2024.jsp?urltype=tree.TreeTempUrl&wbtreeid=1458
@@ -185,14 +261,21 @@ visual:
     availability: found
     source_sha256: 1c2e20860c335d93a4054f1dd676695e5a32884558723c65e2d348b7a9a638a0
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1999
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q11134913&oldid=2548500558
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548500558
+    source_sha256: 1be5db6cb09fbcce43a3a903609258df82473a9cd4c2f58f7d8541625f683a34
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -200,7 +283,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -222,6 +304,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -244,209 +327,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://jjxy.ujs.edu.cn/zsjy/zs.htm
-    availability: found
-    search_sources: []
-    source: https://jjxy.ujs.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://jjxy.ujs.edu.cn/English.htm
-    availability: found
-    search_sources: []
-    source: https://jjxy.ujs.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://jjxy.ujs.edu.cn/xxgk.htm
-    availability: found
-    search_sources: []
-    source: https://jjxy.ujs.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 江苏省镇江市丹徒区长香西大道537号
-    availability: found
-    search_sources: []
-    source: https://jjxy.ujs.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:江苏省镇江市丹徒区长香西大道537号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0511-88620111'
-    availability: found
-    search_sources: []
-    source: https://jjxy.ujs.edu.cn/
-    source_type: official_website
+    value: 江苏大学京江学院位于江苏省镇江市，教育部名单列为本科，主管部门为江苏省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     verified: auto
     checked_at: '2026-10-02'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:0511-88620111
-  email:
-    value: jjxyyb@ujs.edu.cn
     availability: found
     search_sources: []
-    source: https://jjxy.ujs.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮箱:jjxyyb@ujs.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -22,7 +22,7 @@ class PPTExportTests(unittest.TestCase):
     def setUpClass(cls):
         cls.path = ROOT / 'universities/北京市/4111010003/profile.yaml'
         cls.profile = load_yaml(cls.path.read_text(encoding='utf-8'))
-        cls.canonical = schema_validator('profile-schema-v3.json')
+        cls.canonical = schema_validator('profile-schema-v4.json')
         cls.export = schema_validator('ppt-export-schema-v1.json')
 
     def setUp(self):
@@ -84,6 +84,21 @@ class PPTExportTests(unittest.TestCase):
         self.assertEqual(result['primary_fact'], primary)
         self.assertEqual(result['official_print_only'], [printing])
 
+    def test_partial_print_notation_exports_without_screen_conversion(self):
+        self.profile['visual']['color_primary'] = self.fact(method='badge_sample', basis='Header sample')
+        self.profile['visual']['color_palette'] = [dict(
+            self.fact(method='official_vi', basis='Published partial CMYK'),
+            value=None, rgb=None, cmyk=None, cmyk_text='C85 M50', pantone=None,
+            label='辅助蓝', official=True, role='primary')]
+        record = record_for(self.profile, self.path)
+        self.assertEqual(record['colors']['screen_status'], 'official_print_only')
+        self.assertIsNone(record['colors']['screen_primary'])
+        self.assertEqual(record['colors']['official_print_only'][0]['cmyk_text'], 'C85 M50')
+        self.assertEqual(diagnostics(self.export, record, record['school_code']), [])
+        for notation in ('C101 M50', 'Cgarbage', ''):
+            record['colors']['official_print_only'][0]['cmyk_text'] = notation
+            self.assertTrue(diagnostics(self.export, record, record['school_code']))
+
     def test_conflict_preserves_both_sources(self):
         conflict = dict(self.fact(), value=None, source=None, availability='conflict',
                         candidates=[{'value': '#123456', 'source': 'https://example.edu/one'},
@@ -116,9 +131,10 @@ class PPTExportTests(unittest.TestCase):
     def test_archive_member_metadata_preserved(self):
         asset = {'asset_id': 'a', 'access_status': 'content_inspected', 'download_kind': 'archive_member',
                  'archive_url': 'https://example.edu/logo.zip', 'url': 'https://example.edu/logo.zip',
-                 'archive_member': 'logo/name.png', 'archive_sha256': 'a' * 64, 'sha256': 'b' * 64}
+                 'archive_member': 'logo/name.png', 'archive_member_display': '标识/name.png', 'archive_sha256': 'a' * 64, 'sha256': 'b' * 64}
         result = logos_for(self.visual(assets=[asset]))
         self.assertEqual(result['candidates'][0]['archive_member'], 'logo/name.png')
+        self.assertEqual(result['candidates'][0]['archive_member_display'], '标识/name.png')
         self.assertIn('压缩包入口', result['reason'])
         self.assertEqual(result['candidates'][0]['archive_sha256'], 'a' * 64)
 
@@ -151,11 +167,11 @@ class PPTExportTests(unittest.TestCase):
             for key in ('identity', 'logos', 'colors', 'templates', 'content'):
                 self.assertEqual(json.loads(row[key + '_json']), record[key])
 
-    def test_statistics_require_date_and_basis(self):
-        self.profile['statistics']['student_count'] = self.fact()
+    def test_dynamic_statistics_excluded_from_core_profile(self):
+        self.profile['statistics'] = {'student_count': self.fact()}
         self.profile['statistics']['student_count']['value'] = 10
         errors = diagnostics(self.canonical, self.profile, '4111010003')
-        self.assertTrue(any('statistics.student_count' in e and 'required' in e for e in errors))
+        self.assertTrue(any('statistics' in e and 'Additional properties' in e for e in errors))
 
     def test_relabelled_community_color_is_rejected(self):
         self.profile['visual']['color_palette'] = [dict(self.fact(method='community_theme', basis='Community CSS'),

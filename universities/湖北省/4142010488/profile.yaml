@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4142010488'
   name_zh: 武汉科技大学
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - wuhan-university-of-science-and-technology
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 武汉科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: wuhan-3
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 武汉科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -117,7 +89,7 @@ visual:
     value: https://www.wust.edu.cn/xywh/xh.htm
     source: https://www.wust.edu.cn/xywh/xh.htm
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
   badge_description:
@@ -128,7 +100,6 @@ visual:
     availability: found
     search_sources: []
     note: 根据校级章程或标识释义作简述；记录所读版本，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: a43b6545d09262d8
     title: 武汉科技大学校徽资源
@@ -288,6 +259,146 @@ visual:
     source_as_of: unspecified
     byte_size: 88628
     representation: raster
+  - archive_url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    archive_sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+    archive_member: 2 ▒Ω╓╛╥⌡═╝ú¿╥╘▒Ω╫╝╔½╬¬╡╫╔½╩▒ú¼╬±▒╪╩╣╙├╨ú╗╒╥⌡═╝ú⌐.png
+    archive_member_display: 2 标志阴图（以标准色为底色时，务必使用校徽阴图）.png
+    checked_at: '2026-10-02'
+    sha256: f19337aa64044094b66607978820aa8e7cca361142579933ce0e486a8960dc79
+    access_status: content_inspected
+    byte_size: 295469
+    format: png
+    vector: false
+    width: 3508
+    representation: raster
+    height: 2481
+    has_alpha: true
+    transparent_background: false
+    asset_id: f095dae246b183b26d00121d
+    kind: badge
+    title: 武汉科技大学官方附件内标识：2 标志阴图（以标准色为底色时，务必使用校徽阴图）.png
+    url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    publisher: 武汉科技大学
+    official: true
+    download_kind: archive_member
+    file_name: 2 标志阴图（以标准色为底色时，务必使用校徽阴图）.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉科技大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    archive_sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+    archive_member: 4 ▒Ω╫╝╫Θ║╧1.png
+    archive_member_display: 4 标准组合1.png
+    checked_at: '2026-10-02'
+    sha256: bee77755b019b3b5ece25b0858e1f09424d6ce547d112fc56d2cde7c03ba705c
+    access_status: content_inspected
+    byte_size: 213720
+    format: png
+    vector: false
+    width: 3509
+    representation: raster
+    height: 2481
+    has_alpha: true
+    transparent_background: true
+    asset_id: fb2e29a40511ea7f4b1add25
+    kind: combination
+    title: 武汉科技大学官方附件内标识：4 标准组合1.png
+    url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    publisher: 武汉科技大学
+    official: true
+    download_kind: archive_member
+    file_name: 4 标准组合1.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉科技大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    archive_sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+    archive_member: 4 ▒Ω╫╝╫Θ║╧2.png
+    archive_member_display: 4 标准组合2.png
+    checked_at: '2026-10-02'
+    sha256: aec4aa5fbfc77455d84b0e6034571809ff459eb8ca084c469079da16ddcdf726
+    access_status: content_inspected
+    byte_size: 246346
+    format: png
+    vector: false
+    width: 3509
+    representation: raster
+    height: 2481
+    has_alpha: true
+    transparent_background: true
+    asset_id: 819b825579662ac64cb37917
+    kind: combination
+    title: 武汉科技大学官方附件内标识：4 标准组合2.png
+    url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    publisher: 武汉科技大学
+    official: true
+    download_kind: archive_member
+    file_name: 4 标准组合2.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉科技大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    archive_sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+    archive_member: 1 ▒Ω╫╝▒Ω╓╛.png
+    archive_member_display: 1 标准标志.png
+    checked_at: '2026-10-02'
+    sha256: 44759ab7d69847940ea3c491c6abf4e5e21574ac65c4519cc3884a5a34503eb6
+    access_status: content_inspected
+    byte_size: 285576
+    format: png
+    vector: false
+    width: 3509
+    representation: raster
+    height: 2481
+    has_alpha: true
+    transparent_background: true
+    asset_id: 8c749da3bda4dd089f71d2b6
+    kind: badge
+    title: 武汉科技大学官方附件内标识：1 标准标志.png
+    url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    publisher: 武汉科技大学
+    official: true
+    download_kind: archive_member
+    file_name: 1 标准标志.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉科技大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#005937'
     rgb:
@@ -447,7 +558,230 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: bea99a149c96b929
-  vi_resources: []
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: null
+    label: 科技白
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.wust.edu.cn/xywh/xh.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方学校标识页明确校徽主色调由科技白、沁湖蓝、青山绿三色构成，分别给出CMYK。三色并列，不臆定唯一主色或从印刷色反推RGB。
+    source_sha256: bdafc234e5c3cc2d84f33ebfb248dc3ae19cb2b5309e0fb9bc684efde5e65591
+  - value: null
+    rgb: null
+    cmyk:
+    - 40
+    - 10
+    - 10
+    - 0
+    pantone: null
+    label: 沁湖蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.wust.edu.cn/xywh/xh.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方学校标识页明确校徽主色调由科技白、沁湖蓝、青山绿三色构成，分别给出CMYK。三色并列，不臆定唯一主色或从印刷色反推RGB。
+    source_sha256: bdafc234e5c3cc2d84f33ebfb248dc3ae19cb2b5309e0fb9bc684efde5e65591
+  - value: null
+    rgb: null
+    cmyk:
+    - 90
+    - 30
+    - 80
+    - 40
+    pantone: null
+    label: 青山绿
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.wust.edu.cn/xywh/xh.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校方学校标识页明确校徽主色调由科技白、沁湖蓝、青山绿三色构成，分别给出CMYK。三色并列，不臆定唯一主色或从印刷色反推RGB。
+    source_sha256: bdafc234e5c3cc2d84f33ebfb248dc3ae19cb2b5309e0fb9bc684efde5e65591
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: null
+    label: 科技白
+    role: reference
+    method: official_vi
+    official: true
+    source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 读取学校官方ZIP附件，逐张核对其标准色或辅助色色卡；容器哈希与成员哈希分别保留。色卡仅公布CMYK，屏幕HEX/RGB留空，不用图块像素或通用公式换算。
+    source_sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+    archive_member: 3 ▒Ω╫╝╔½.png
+    archive_member_display: 3 标准色.png
+    member_sha256: 70a701c5f28b70ad5bdaea038434bd43ecd6207a78206f5085f58edeffd5fd8e
+  - value: null
+    rgb: null
+    cmyk:
+    - 40
+    - 10
+    - 10
+    - 0
+    pantone: null
+    label: 沁湖蓝
+    role: secondary
+    method: official_vi
+    official: true
+    source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 读取学校官方ZIP附件，逐张核对其标准色或辅助色色卡；容器哈希与成员哈希分别保留。色卡仅公布CMYK，屏幕HEX/RGB留空，不用图块像素或通用公式换算。
+    source_sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+    archive_member: 3 ▒Ω╫╝╔½.png
+    archive_member_display: 3 标准色.png
+    member_sha256: 70a701c5f28b70ad5bdaea038434bd43ecd6207a78206f5085f58edeffd5fd8e
+  - value: null
+    rgb: null
+    cmyk:
+    - 90
+    - 30
+    - 80
+    - 40
+    pantone: null
+    label: 青山绿
+    role: primary
+    method: official_vi
+    official: true
+    source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 读取学校官方ZIP附件，逐张核对其标准色或辅助色色卡；容器哈希与成员哈希分别保留。色卡仅公布CMYK，屏幕HEX/RGB留空，不用图块像素或通用公式换算。
+    source_sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+    archive_member: 3 ▒Ω╫╝╔½.png
+    archive_member_display: 3 标准色.png
+    member_sha256: 70a701c5f28b70ad5bdaea038434bd43ecd6207a78206f5085f58edeffd5fd8e
+  vi_resources:
+  - title: 武汉科技大学官方视觉规范
+    url: https://www.wust.edu.cn/xywh/xh.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.wust.edu.cn/xywh/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校方学校标识页明确校徽主色调由科技白、沁湖蓝、青山绿三色构成，分别给出CMYK。三色并列，不臆定唯一主色或从印刷色反推RGB。
+  - title: 2023版校徽标准标志-最终版（含诠释）.zip
+    url: https://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://www.wust.edu.cn/xywh/xh.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+        error_type: URLError
+        status: access_or_parse_gap
+        url: https://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+      - resolved_url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+        status: file_read
+        url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+      resolved_url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    file_metadata:
+      byte_size: 3135849
+      format: ZIP
+      member_count: 7
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+    content_read: true
+    download_status: content_inspected
+  - title: 校名-武汉科技大学
+    url: https://www.wust.edu.cn/xywh/xm.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.wust.edu.cn/xywh/xm.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e96f3aa5767a6f7912f7c61a67841b448ba4eb8052bbc6d0f1fc7957997d918
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校名矢量图202312.pdf
+    url: https://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11699869
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.wust.edu.cn/xywh/xm.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 1e96f3aa5767a6f7912f7c61a67841b448ba4eb8052bbc6d0f1fc7957997d918
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 武汉科技大学官方视觉规范
+    url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - ZIP
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 读取学校官方ZIP附件，逐张核对其标准色或辅助色色卡；容器哈希与成员哈希分别保留。色卡仅公布CMYK，屏幕HEX/RGB留空，不用图块像素或通用公式换算。
+  landmarks: []
 culture:
   founded_year:
     value: 1898
@@ -464,17 +798,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1958
-    event: 组建武汉钢铁学院
-    source: https://www.wust.edu.cn/xywh.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 1995
-    event: 组建武汉冶金科技大学
-    source: https://www.wust.edu.cn/xywh.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -496,6 +819,17 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 1958
+    event: 组建武汉钢铁学院
+    source: https://www.wust.edu.cn/xywh.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1995
+    event: 组建武汉冶金科技大学
+    source: https://www.wust.edu.cn/xywh.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -530,321 +864,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
-  admissions_url:
-    value: https://www.wust.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.wust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://wust.91wllm.com/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 武汉科技大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://en.wust.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.wust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: https://xxgk.wust.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.wust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 武汉科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 武汉科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 湖北省武汉市青山区和平大道947号
-    availability: found
-    search_sources: []
-    source: https://www.wust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:湖北省武汉市青山区和平大道947号 邮编:430081鄂ICP备05003334-1鄂公网安备42010702000687号
-    - Copyright © 武汉科技大学 版权所有 地址:湖北省武汉市青山区和平大道947号 邮编:430081鄂ICP备05003334-1鄂公网安备42010702000687号
-  postal_code:
-    value: '430081'
-    availability: found
-    search_sources: []
-    source: https://www.wust.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:湖北省武汉市青山区和平大道947号 邮编:430081鄂ICP备05003334-1鄂公网安备42010702000687号
-    - Copyright © 武汉科技大学 版权所有 地址:湖北省武汉市青山区和平大道947号 邮编:430081鄂ICP备05003334-1鄂公网安备42010702000687号
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 107
-    score: 226.6
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
+    value: 武汉科技大学位于湖北省武汉市，教育部名单列为本科，主管部门为湖北省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 武汉科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 123
-    score: 238.4
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/wuhan-university-of-science-and-technology
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 武汉科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4142010488'
-    upstream_record_name: 武汉科技大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4142010488'
-    upstream_record_name: 武汉科技大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4142010488'
-    upstream_record_name: 武汉科技大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
+    availability: found
+    search_sources: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -30,5 +30,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.gdufs.edu.cn/AboutGDUFS/LogoandMotto.htm](https://www.gdufs.edu.cn/AboutGDUFS/LogoandMotto.htm)
+- [校徽校训-广东外语外贸大学](https://www.gdufs.edu.cn/AboutGDUFS/LogoandMotto.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gdufs.edu.cn/AboutGDUFS/LogoandMotto.htm)。
+- [广外校徽Logo.rar](https://www.gdufs.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1892682409&wbfileid=BDFF791A4BECB44836D7C7E10E169578)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gdufs.edu.cn/AboutGDUFS/LogoandMotto.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

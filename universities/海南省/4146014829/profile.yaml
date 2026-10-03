@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4146014829'
   name_zh: 海南比勒费尔德应用科学大学
@@ -9,12 +9,17 @@ identity:
   note: 境外高等教育机构在海南自由贸易港设立的实施理工农医类学科专业教育的学校
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Hainan Bielefeld University of Applied Sciences (BiUH)
+    availability: found
     search_sources: []
+    source: https://www.hainan-biuh.edu.cn/%e5%85%b3%e4%ba%8e%e6%b5%b7%e5%8d%97%e6%af%94%e7%a7%91%e5%a4%a7/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    source_sha256: d670f4cc9dcc38ef3ff297c253fd4bcac2b6069a07d751a9931108a17e27e62d
+    collector: read_overview_identity_facts
+    basis: 学校官网简介页直接记载的本校事实
+    previous_status: unresearched
   official_website:
     value: https://www.hainan-biuh.edu.cn/
     source: https://www.hainan-biuh.edu.cn/
@@ -43,14 +48,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -67,12 +64,20 @@ research:
   audit_key: '4146014829'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#024059'
+    availability: found
     search_sources: []
+    source: https://www.hainan-biuh.edu.cn/wp-content/themes/maw/public/assets/img/logo-full.svg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: f1685a6b570d69f094843804
+    source_sha256: b6cffbf07d6ca935b46dc7c0b7b4f3188baa80c5eabdd8e0cc068229e875b5a8
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；SVG填充属性/样式的色值频次，未按图形面积加权；仅作官网标识配色参考。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -94,7 +99,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: f1685a6b570d69f094843804
     kind: site_identity
@@ -245,14 +249,20 @@ visual:
     checked_at: '2026-10-01'
     availability: found
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2023
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E6%B5%B7%E5%8D%97%E6%AF%94%E5%8B%92%E8%B2%BB%E7%88%BE%E5%BE%B7%E6%87%89%E7%94%A8%E7%A7%91%E5%AD%B8%E5%A4%A7%E5%AD%B8&oldid=90568104
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: cf570936b677ee0176b59f3dbd6d7ffc334378eb5fe16a3fe51d692f7b693f3f
+    source_revision: 90568104
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
     value: null
     source: null
@@ -260,7 +270,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -282,6 +291,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -304,195 +314,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.hainan-biuh.edu.cn/admissions/
-    availability: found
-    search_sources: []
-    source: https://www.hainan-biuh.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - "招\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t生\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t信\n\t\t\t\
-      \t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t息"
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://www.hainan-biuh.edu.cn/en/homepage/
-    availability: found
-    search_sources: []
-    source: https://www.hainan-biuh.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - "E\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tN"
-  information_disclosure_url:
-    value: https://www.hainan-biuh.edu.cn/%e4%bf%a1%e6%81%af%e5%85%ac%e5%bc%80/
-    availability: found
-    search_sources: []
-    source: https://www.hainan-biuh.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 海南比勒费尔德应用科学大学位于海南省儋州市，教育部名单列为本科，主管部门为海南省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

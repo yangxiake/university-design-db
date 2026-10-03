@@ -25,6 +25,6 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.wzu.edu.cn/info/1322/24065.htm](https://www.wzu.edu.cn/info/1322/24065.htm)
-- [关于公布启用温州大学校标的通知](https://www.wzu.edu.cn/info/1322/24065.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.wzu.edu.cn/info/1322/24065.htm)。
+- [关于公布启用温州大学校标的通知-温州大学](https://www.wzu.edu.cn/info/1322/24065.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.wzu.edu.cn/info/1322/24065.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

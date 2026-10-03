@@ -33,5 +33,8 @@
   - 发布者：urongda 校徽大全；适用范围：未明确。
 - [苏州工学院-logo-512px.png](https://url90.ctfile.com/f/56298190-1507104007-b3981b?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4132010333)。
   - 发布者：urongda 校徽大全；适用范围：未明确。
+- [校标校徽](https://www.szut.edu.cn/dxwh/xbxh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.szut.edu.cn/dxwh/xbxh.htm)。
+- [苏州工学院校标视觉识别系统.zip](https://www.szut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2103112829&wbfileid=B8B9851BDD87E374D76636976DCCCAC7)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.szut.edu.cn/dxwh/xbxh.htm)。
+  - 文件容器已读取：ZIP；3326580字节；读取类型archive_structure；文件SHA256 `1441fbcffb77cf12d24a8e02f53c6ea578a6f393bd1049b33ae67b3128a6d671`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

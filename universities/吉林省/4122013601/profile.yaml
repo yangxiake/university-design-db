@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4122013601'
   name_zh: 长春工业大学人文信息学院
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: College of Humanities & Information Changchun University of Technology
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_7_jilin/a_27/a_27.html
+    source_sha256: 9357dfba780449dccd06087560d22319ef83941c538531b12011968fbe34b4b5
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.ccutchi.com/
     source: https://www.ccutchi.com/
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +62,18 @@ research:
   audit_key: '4122013601'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#DEDDDC'
+    availability: found
     search_sources: []
+    source: https://www.ccutchi.com/images/logo.png
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    method: manual_derived
+    asset_id: 2eaccba6d9fe0410094ad7a2
+    source_sha256: 5ab13c2c5cdbaa7554608a39ac42f706005c3e1484ce2281b45ce70ceee1933d
+    collector: ppt_core_neutral_sample
+    basis: 原标识为单色/灰度；已读位图中非白且不透明的中性像素高频色；不由反白图推造彩色标准。仅作为PPT中性设计建议色，不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +95,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 2eaccba6d9fe0410094ad7a2
     kind: site_identity
@@ -130,16 +131,41 @@ visual:
     byte_size: 87730
     representation: raster
     resolved_url: https://www.ccutchi.com/images/logo.png
-  color_palette: []
+  color_palette:
+  - value: '#DEDDDC'
+    rgb:
+    - 222
+    - 221
+    - 220
+    cmyk: null
+    pantone: null
+    label: PPT中性参考色
+    role: reference
+    official: false
+    availability: found
+    basis: 原标识为单色/灰度；已读位图中非白且不透明的中性像素高频色；不由反白图推造彩色标准。仅作为PPT中性设计建议色，不是学校官方VI标准色。
+    source: https://www.ccutchi.com/images/logo.png
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    method: manual_derived
+    asset_id: 2eaccba6d9fe0410094ad7a2
+    source_sha256: 5ab13c2c5cdbaa7554608a39ac42f706005c3e1484ce2281b45ce70ceee1933d
+    collector: ppt_core_neutral_sample
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1999
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_7_jilin/a_27/a_27.html
+    source_sha256: 9357dfba780449dccd06087560d22319ef83941c538531b12011968fbe34b4b5
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“创办时间”栏原值；社区二手记录，未独立确认前身、现名设立或升本口径。
   motto:
     value: null
     source: null
@@ -147,7 +173,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -169,6 +194,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -191,205 +217,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://zs.ccutchi.com/
-    availability: found
-    search_sources: []
-    source: https://www.ccutchi.com/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生信息网
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://www.ccutchi.com/xinxigongkai/
-    availability: found
-    search_sources: []
-    source: https://www.ccutchi.com/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开网
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 吉林省长春净月国家高新技术产业开发区 福祉大路1016号
-    availability: found
-    search_sources: []
-    source: https://www.ccutchi.com/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - '地址 : 吉林省长春净月国家高新技术产业开发区 福祉大路1016号邮编 : 130122联系电话 :0431-84535002'
-  postal_code:
-    value: '130122'
-    availability: found
-    search_sources: []
-    source: https://www.ccutchi.com/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - '地址 : 吉林省长春净月国家高新技术产业开发区 福祉大路1016号邮编 : 130122联系电话 :0431-84535002'
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '联系电话: 0431-84535002'
+    value: 长春工业大学人文信息学院位于吉林省长春市，教育部名单列为本科，主管部门为吉林省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.ccutchi.com/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - '地址 : 吉林省长春净月国家高新技术产业开发区 福祉大路1016号邮编 : 130122联系电话 :0431-84535002'
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

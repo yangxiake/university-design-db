@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4145013643'
   name_zh: 广西中医药大学赛恩斯新医药学院
@@ -9,12 +9,17 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Faculty of Chinese Medicine Science Guangxi University of Chinese Medicine
+    availability: found
     search_sources: []
+    source: http://www.gxzyxysy.com/__local/2/A5/BF/BB82E2411574BF4FECC2E8D1069_BCBB90B7_51721.pdf?e=.pdf
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    source_sha256: 7dd2e1e5c0c50ae1ed35004793a088d2b5a62d0654772307e5ffa51293377731
+    evidence: 学院英文名称 Faculty of Chinese Medicine Science Guangxi University of Chinese Medicine
+    collector: curated_ppt_core
+    basis: 学校发布的2015年办学章程修改意见稿第二条，英文全名按跨行正文合并空格；该学院在教育部名单独立列名，不误当母校院系标题。版本性质继续注明，未认定后续更改。
   official_website:
     value: https://www.gxzyxysy.com
     source: https://www.gxzyxysy.com
@@ -43,14 +48,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +63,20 @@ research:
   audit_key: '4145013643'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#782020'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/2372.jpg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 6fe7bf84042574510ad02dfa
+    source_sha256: d745f3ee653086cbf88b73b67f34e2be9b0df9578a1de8711de76bec4c8f5503
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,26 +98,153 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 4755ea94632cba7806c94c4b
+    kind: site_identity
+    title: 学校官网HTML/CSS页眉标识
+    url: https://www.gxzyxysy.com/images/logo2024.png
+    source: https://www.gxzyxysy.com
+    file_name: logo2024.png
+    upstream_path: null
+    publisher: 广西中医药大学赛恩斯新医药学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广西中医药大学赛恩斯新医药学院
+    format: null
+    width: null
+    height: null
+    vector: null
+    has_alpha: null
+    transparent_background: null
+    sha256: null
+    access_status: inspection_failed
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: dda04aaea995a1f588d649221f895abac47f0eefb18c122b2801c5c2c6c6791d
+    identity_basis:
+      src: images/logo2024.png
+      label: '   '
+      context: 'header  head wp  head-l   '
+      position: 1
+    usage_note: 已确认学校首页身份；文件由页眉标识元素或同校静态CSS标识规则明确引用。具体徽/名构成、现行VI版本及使用许可未独立确认；只保存链接与元数据。
+    inspection_attempts:
+    - url: https://www.gxzyxysy.com/images/logo2024.png
+      status: access_or_parse_gap
+      error_type: URLError
+      detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+    - url: http://www.gxzyxysy.com/images/logo2024.png
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
+    inspection_error:
+      status: access_or_parse_gap
+      error_type: timeout
+      detail: timed out
+  - asset_id: 6fe7bf84042574510ad02dfa
+    title: 广西中医药大学赛恩斯新医药学院教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/2372.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/2372/info.json
+    file_name: 2372.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广西中医药大学赛恩斯新医药学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: d0d6a2eb39c631c8c266dce2843cf51c131d6baff25669308bed6283c9c31daa
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: d745f3ee653086cbf88b73b67f34e2be9b0df9578a1de8711de76bec4c8f5503
+    access_status: content_inspected
+    byte_size: 85175
+    format: jpeg
+    vector: false
+    width: 640
+    representation: raster
+    height: 640
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际查看图形，当前校名或独立学校标识可见；平台来源，未认定本校直接发布或现行VI。
+  color_palette:
+  - value: '#782020'
+    rgb:
+    - 120
+    - 32
+    - 32
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2372.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2372/info.json
+    asset_id: 6fe7bf84042574510ad02dfa
+    source_sha256: d745f3ee653086cbf88b73b67f34e2be9b0df9578a1de8711de76bec4c8f5503
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#702020'
+    rgb:
+    - 112
+    - 32
+    - 32
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2372.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2372/info.json
+    asset_id: 6fe7bf84042574510ad02dfa
+    source_sha256: d745f3ee653086cbf88b73b67f34e2be9b0df9578a1de8711de76bec4c8f5503
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2002
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%88%97%E8%A1%A8&oldid=83920978
+    source_sha256: a62817f211ec4c04209b50f25b8415b07a724538030d2513b5234673c9db1881
+    source_revision: 83920978
+    checked_at: '2026-10-02'
+    verified: auto
+    source_type: community_website
+    collector: wikipedia_labelled_year_column
+    basis: 中文维基百科省级高校列表的明确建校/创办时间栏，按完整现校名匹配；社区数据，未独立确认前身与现名设立口径。
+    evidence: 2002年
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 明德自强，和而不同
+    availability: found
     search_sources: []
-  history_events: []
+    source: http://www.gxzyxysy.com/xygk/xxjj.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    source_sha256: 274d72946a4dd2af7bc54a30ebf34f0d72f40909de9eb03a132e35b190bc037c
+    collector: read_overview_identity_facts
+    basis: 学校官网简介页直接记载的本校事实
+    previous_status: unresearched
   flower:
     value: null
     source: null
@@ -134,6 +266,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -156,196 +289,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 广西中医药大学赛恩斯新医药学院位于广西壮族自治区南宁市，主管部门为广西壮族自治区教育厅。官网列示全日制在校生约12000人（统计时间2026-04）。
+    value: 广西中医药大学赛恩斯新医药学院位于广西壮族自治区南宁市，教育部名单列为本科，主管部门为广西壮族自治区教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://www.gxzyxysy.com/xygk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 12000
-    availability: found
-    search_sources: []
-    source: http://www.gxzyxysy.com/xygk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生约12000人；数据截至2026年4月
-    source_as_of: 2026-04
-    date_basis: 数据截至2026年4月
-    approximate: true
-    original_notation: 全日制在校生约12000人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -38,5 +38,12 @@
 
 - 现有VI入口：[https://sustech.edu.cn/zh/school_logo.html](https://sustech.edu.cn/zh/school_logo.html)
 - [学校标识](https://www.sustech.edu.cn/zh/school_logo.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.sustech.edu.cn/zh/school_logo.html)。
+- [学校标识](https://sustech.edu.cn/zh/school_logo.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sustech.edu.cn/zh/school_logo.html)。
+- [点击下载源文件](https://sustech.edu.cn/uploads/files/2021/09/13124642_22572.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sustech.edu.cn/zh/school_logo.html)。
+- [点击下载](https://sustech.edu.cn/uploads/files/2021/09/13124732_93173.pdf)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sustech.edu.cn/zh/school_logo.html)。
+- [点击下载源文件](https://sustech.edu.cn/uploads/校徽.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sustech.edu.cn/zh/school_logo.html)。
+- [点击下载源文件](https://sustech.edu.cn/uploads/files/2022/07/14150332_92031.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sustech.edu.cn/zh/school_logo.html)。
+- [点击下载源文件](https://sustech.edu.cn/uploads/南科大10周年logo.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sustech.edu.cn/zh/school_logo.html)。
+- [点击下载源文件](https://sustech.edu.cn/uploads/files/2022/11/11141704_45992.pdf)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://sustech.edu.cn/zh/school_logo.html)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

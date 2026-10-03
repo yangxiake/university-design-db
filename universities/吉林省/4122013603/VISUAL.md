@@ -9,6 +9,7 @@
 | 官网页眉标识（构成待核验） | logo_hgd.png | [文件](https://www.ccufe.edu.cn/wp-content/themes/ccufe_www/static/images/public/logo_hgd.png) · [来源](https://www.ccufe.edu.cn) | 官网 | 未知 | 未声明 | inspection_failed | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo_sm.png | [文件](https://www.ccufe.edu.cn/wp-content/themes/ccufe_www/static/images/public/logo_sm.png) · [来源](https://www.ccufe.edu.cn) | 官网 | 未知 | 未声明 | inspection_failed | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo_md.png | [文件](https://www.ccufe.edu.cn/wp-content/themes/ccufe_www/static/images/public/logo_md.png) · [来源](https://www.ccufe.edu.cn) | 官网 | 未知 | 未声明 | inspection_failed | 未独立声明 |
+| 校徽 | a_1_2.png | [文件](https://www.chinaschool.com.cn/i_region/i_7_jilin/a_29/a_1_2.png) · [来源](https://www.chinaschool.com.cn/i_region/i_7_jilin/a_29/a_29.html) | 社区 | png | 140 × 140 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -16,8 +17,8 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
-尚无附来源配色。
+| 社区校徽取色参考 | `#700020` | 112,0,32 | reference |  |  | 社区标识取色建议 | [依据](https://www.chinaschool.com.cn/i_region/i_7_jilin/a_29/a_1_2.png) |
+| 社区校徽取色参考 | `#680010` | 104,0,16 | reference |  |  | 社区标识取色建议 | [依据](https://www.chinaschool.com.cn/i_region/i_7_jilin/a_29/a_1_2.png) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 

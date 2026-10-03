@@ -4,12 +4,12 @@
 
 | 来源 | 使用方式 | 仓库许可 | 匹配学校 |
 | --- | --- | --- | ---: |
-| [xioajiumi/Chinese_Universities](https://github.com/xioajiumi/Chinese_Universities) | v3字段并集/逐文件资料 | MIT | 556 |
-| [damitheswitch/china-universities-dataset](https://github.com/damitheswitch/china-universities-dataset) | v3字段并集/逐文件资料 | MIT | 569 |
-| [Magicdover/China-Universities-2026](https://github.com/Magicdover/China-Universities-2026) | v3字段并集/逐文件资料 | MIT | 184 |
-| [HeyHuazi/SVGLOGO](https://github.com/HeyHuazi/SVGLOGO) | v3字段并集/逐文件资料 | MIT | 115 |
-| [CakeAL/beijing-univs-vis](https://github.com/CakeAL/beijing-univs-vis) | v3字段并集/逐文件资料 | not_declared | 45 |
-| [RoboMaster/university_logos](https://github.com/RoboMaster/university_logos) | v3字段并集/逐文件资料 | not_declared | 85 |
+| [xioajiumi/Chinese_Universities](https://github.com/xioajiumi/Chinese_Universities) | PPT主字段/逐文件资料 | MIT | 556 |
+| [damitheswitch/china-universities-dataset](https://github.com/damitheswitch/china-universities-dataset) | PPT主字段/逐文件资料 | MIT | 569 |
+| [Magicdover/China-Universities-2026](https://github.com/Magicdover/China-Universities-2026) | PPT主字段/逐文件资料 | MIT | 184 |
+| [HeyHuazi/SVGLOGO](https://github.com/HeyHuazi/SVGLOGO) | PPT主字段/逐文件资料 | MIT | 115 |
+| [CakeAL/beijing-univs-vis](https://github.com/CakeAL/beijing-univs-vis) | PPT主字段/逐文件资料 | not_declared | 45 |
+| [RoboMaster/university_logos](https://github.com/RoboMaster/university_logos) | PPT主字段/逐文件资料 | not_declared | 85 |
 | [tuna/THU-Beamer-Theme](https://github.com/tuna/THU-Beamer-Theme) | 社区资源入口 | LPPL-1.3c | 1 |
 | [CouesF/marp-theme-zju](https://github.com/CouesF/marp-theme-zju) | 社区资源入口 | not_declared | 1 |
 | [weijianwen/SJTU-logo-banner](https://github.com/weijianwen/SJTU-logo-banner) | 社区资源入口 | not_declared | 1 |
@@ -21,36 +21,26 @@
 | [inFaaa/PKU-Beamer-Theme](https://github.com/inFaaa/PKU-Beamer-Theme) | 社区资源入口 | not_declared | 1 |
 | [liu-qilong/college-beamer](https://github.com/liu-qilong/college-beamer) | 社区资源入口 | CC-BY-4.0 | 22 |
 | [FitchCode/AllShoolData](https://github.com/FitchCode/AllShoolData) | 仅网址线索 | not_declared | 0 |
-| [PotoYang/UniversityCareerWebPage](https://github.com/PotoYang/UniversityCareerWebPage) | MIT匹配子集 | MIT | 0 |
 | [lovefc/china_school_badge](https://github.com/lovefc/china_school_badge) | 社区资源入口 | Apache-2.0 | 294 |
 | [jtchen2k/hcu](https://github.com/jtchen2k/hcu) | 社区资源入口 | GPL-3.0 | 137 |
 | [DiamonWoo/Laosheng.top](https://github.com/DiamonWoo/Laosheng.top) | 仅网址线索 | CC-BY-NC-ND-3.0 | 0 |
-| [realJerryKing/university-insight](https://github.com/realJerryKing/university-insight) | MIT匹配快照 | MIT | 143 |
-| [Hipo/university-domains-list](https://github.com/Hipo/university-domains-list) | MIT匹配快照 | MIT | 271 |
+| [realJerryKing/university-insight](https://github.com/realJerryKing/university-insight) | PPT主字段子集 | MIT | 143 |
+| [Hipo/university-domains-list](https://github.com/Hipo/university-domains-list) | PPT主字段子集 | MIT | 271 |
+| [wanzhenchn/Visual_Identity_System_Chinese_University](https://github.com/wanzhenchn/Visual_Identity_System_Chinese_University) | 官方VI入口线索，实际回源核对 | not_declared | 97 |
 
-字段并集模式的匹配数是数据/文件/VI目录匹配学校数；资源入口模式是该仓库关联学校数。同校可由多个仓库提供资料，不能相加当作唯一学校覆盖。
+主字段模式的匹配数是数据/文件/VI目录匹配学校数；资源入口模式是该仓库关联学校数。同校可由多个仓库提供资料，不能相加当作唯一学校覆盖。
 
-## 导入规则
+## 当前字段裁剪
 
-- xioajiumi的582校2021数据：英文名、学校类型、2021排名/指标、校徽具体链接及完整字段匹配快照。
-- 同仓库logo.zip另有763个图像文件按2026完整校名匹配，存压缩包内文件路径、真实图像格式、尺寸、哈希及参考取色；吕梁学院.png实际为HTML网页，已排除。图像不再分发，历史校名不自动绑定现行学校。
-- damitheswitch的582校2026数据：英文名、类型/性质、国家/语言、检索标识、2026排名/指标与完整快照。其logo_url实际为Pexels照片，本库排除；不能将其README的“校徽”说明当作已验证事实。
-- Magicdover的188校全景数据：简称、近似坐标、学科与招生历史参考、校徽链接。主观梯队、宣传简介、就业评论仅保留MIT快照。
-- HeyHuazi读取学校YAML元数据并识别具体校徽/校名文件。RoboMaster按唯一完整英文名匹配后收具体文件链接；两者图形不镜像。
-- CakeAL的北京VI目录只保存有来源的资源链接、格式和校园认证条件，不复制完整无许可目录。
-- 就业目录保留MIT匹配子集，就业门户作为带历史版本的社区链接，不推出当前校园主页。
-- FitchCode没有许可；Laosheng.top采用CC-BY-NC-ND等站点条款，仅作官网网址线索，不镜像原数据。
-- lovefc校徽字体LICENSE为Apache-2.0，README另有保留作者与禁止倒卖说明，字体不镜像。jtchen2k校史项目只提供版本与参考入口，不导入占位描述。
-- hewguo/gaokao2025只参考README的数据字段结构，没有获得现成数据子集；未执行爬虫或复制代码。无许可Gist中学生/教职工/面积/双语简介字段仅参考结构，不导入内容。
-- realJerryKing原字段保留资料年份、约数、师资统计中双聘/兼职说明与核实状态；科研、生源、师资与就业估算资料在MIT快照中查询，不成为校方现行统计。
-- Hipo以完整官网主机名或现有英文全名唯一匹配，保留国家代码、历史英文名称、省级名称、域名与网址数组；不以母校域名包含关系绑定独立学院，不覆盖现行官方英文名称。
+2026-10-02按PPT用途裁剪已纳入的许可数据子集。原仓库、commit、许可不变；`FIELDS-SOURCE.yaml` 记录裁剪后的字段和子集SHA256。
 
-每个再分发的MIT子集保留LICENSE及SOURCE.yaml/FIELDS-SOURCE.yaml。profiles.jsonl与其他派生视图不改变社区数据原许可。仓库代码/数据许可不是校徽图形或学校商标的许可。逐字段落点及有效覆盖见[字段并集报告](../../docs/github-field-union-2026.md)。
+- xioajiumi：校名、英文名、所在地、官网候选与校徽链接；logo.zip保留包内路径、真实格式、尺寸、哈希和参考色，不再分发图像。
+- damitheswitch：校名、英文名、地区和官网候选。其Pexels照片未作为校徽；排名、语言、类型及坐标扩展已删除。
+- Magicdover：校名、简称、英文名、建校年、地区与主管部门；招生、就业、学科、坐标、主观梯队和宣传段落删除。
+- realJerryKing与Hipo：只留官网候选/身份匹配字段；动态师资、生源、科研及就业描述删除。
+- HeyHuazi、RoboMaster、北京VI目录和其他视觉仓库：只读取逐文件标识、VI、色值线索与演示主题，保留访问条件和独立许可。
+- wanzhenchn目录固定到 `a1c76a6061941ff2c37287a7b9021508afba0e4b`，仅提供97所学校VI入口线索；学校原页面/附件实际读取后才能采用。目录不是色值或授权证明。
 
-## 追加采集的图形时间说明
+素材按现行完整校名及学校标识码匹配。历史名称、验证页、通用照片及名称不符的图形不采用。图形本体不再分发；仓库代码许可不替代学校图形授权。无许可资源只保留出处与入口。
 
-[haowang02/CQU-Logo](https://github.com/haowang02/CQU-Logo)按固定提交收录重庆大学校徽、中文校名及中英组合版式，保留SVG/PDF/PNG和颜色/方向标签；README与选定图形只读取数据。MIT是仓库许可，学校图形权利另列。[MikeHuang2000/SCUT-PPT-Template-HMK](https://github.com/MikeHuang2000/SCUT-PPT-Template-HMK)收录华南理工大学社区模板4.0入口与文件结构元数据，未声明独立许可，保持仅链接与元数据。
-
-[urongda](https://www.urongda.com)为社区网站来源，使用完整当前校名和学校标识码路径匹配；没有Git提交，不放入许可数据快照。这里只保留预览图和文件入口的元数据，排除更名暂停的旧图，不复制官网介绍、云盘内容或目录全文；图形现行版本与许可未独立确认。
-
-压缩包内763个图像只收链接、成员路径与文件元数据；图形版本日期为unspecified。2021排名年份和ZIP内部文件时间均不能当作学校标识设计年份。
+字段范围见[ppt-core-fields.yaml](../ppt-core-fields.yaml)，实际学校资料以v4 `profile.yaml`为准。

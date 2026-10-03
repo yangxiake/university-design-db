@@ -32,5 +32,8 @@
   - 发布者：urongda 校徽大全；适用范围：未明确。
 - [南昌理工学院-logo-512px.png](https://url90.ctfile.com/f/56298190-8783141888-c6dc58?p=urongda)：["校徽文件入口"]；格式 PNG；访问条件 社区公开目录；云盘文件仅索引，可能有提取码或登录条件，未读取目标文件。社区记录[来源](https://www.urongda.com/logos/4136012795)。
   - 发布者：urongda 校徽大全；适用范围：未明确。
+- [学校标识 - 学校标识 - 南昌理工学院官方网站](https://www.nut.edu.cn/cms/item-view-id-3332.shtml)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nut.edu.cn/cms/item-view-id-3332.shtml)。
+- [校徽1.jpg](https://www.nut.edu.cn/attachment/cms/item/2021_05/28_09/a2bb3a4450a91f30.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nut.edu.cn/cms/item-view-id-3332.shtml)。
+- [点击下载mp3格式及伴奏带](https://www.nut.edu.cn/images/htzg.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nut.edu.cn/cms/item-view-id-3332.shtml)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -36,6 +36,21 @@
 |  | `#105088` | 16,80,136 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#105888` | 16,88,136 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#105890` | 16,88,144 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 钢铁红 | `#A31418` | 163,20,24 | secondary | [10, 100, 100, 30] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/20d35914ce9a4339986eb64d443f44cf.jpg) |
+| 金属灰 | `#BCBEC0` | 188,190,192 | secondary | [0, 0, 0, 30] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/20d35914ce9a4339986eb64d443f44cf.jpg) |
+| 渐变组合科技蓝 | `#005B94` | 0,91,148 | reference | [100, 70, 20, 0] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 渐变蓝端点 | `#1766A9` | 23,102,169 | reference | [87, 60, 14, 0] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 渐变青端点 | `#2BA3C0` | 43,163,192 | reference | [74, 22, 24, 0] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 渐变组合钢铁红 | `#A31418` | 163,20,24 | reference | [10, 100, 100, 30] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 渐变橙端点 | `#F18E1D` | 241,142,29 | reference | [7, 55, 89, 0] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 渐变蓝2端点 | `#295B95` | 41,91,149 | reference | [87, 67, 23, 0] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 渐变蓝3端点 | `#3563A3` | 53,99,163 | reference | [84, 62, 16, 0] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 渐变紫端点 | `#81277B` | 129,39,123 | reference | [62, 97, 23, 0] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 渐变红端点 | `#CB1934` | 203,25,52 | reference | [26, 99, 81, 0] |  | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg) |
+| 专金 | `#B59A4B` | 181,154,75 | reference | [37, 40, 79, 0] | P12-13 C | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg) |
+| 专色黑 | `#000000` | 0,0,0 | reference | [100, 100, 100, 100] | Black C | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg) |
+| 专色白 | `#FFFFFF` | 255,255,255 | reference | [0, 0, 0, 0] | White C | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg) |
+| 专银 | 未公布 | 未公布 | reference |  | 877C | 官方VI标准值 | [依据](https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -56,5 +71,8 @@
 - [基础形象系统-A2学校标准字体.ai](https://vi.ustb.edu.cn/docs/2024-11/unpub_a8edb92b8693432e8cfed320f4f14dcf.ai)：["校徽/校名介绍及资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.ustb.edu.cn/jcxt/xxbzzt/index.htm)。
 - [学校标准色](https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm)。
 - [基础形象系统-A3学校标准色.ai](https://vi.ustb.edu.cn/docs/2024-11/unpub_dde922b5adce4fd4bd87c6d62b17d2a8.ai)：["视觉识别规范/资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm)。
+- [北京科技大学官方视觉规范](https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://vi.ustb.edu.cn/images/2024-11/20d35914ce9a4339986eb64d443f44cf.jpg)。
+- [北京科技大学官方视觉规范](https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg)。
+- [北京科技大学官方视觉规范](https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

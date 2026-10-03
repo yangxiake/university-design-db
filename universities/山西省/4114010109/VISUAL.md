@@ -31,5 +31,12 @@
 
 - 现有VI入口：[https://www.tyust.edu.cn/xxgk/xxbsjxg.htm](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)
 - [学校标识及校歌-太原科技大学主站](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)。
+- [点击下载源文件](https://www.tyust.edu.cn/fj/bzxqzt0325.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)。
+- [点击下载源文件](https://www.tyust.edu.cn/fj/logo-lan0325.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)。
+- [点击下载源文件](https://www.tyust.edu.cn/fj/bzbzzt0325.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)。
+- [点击下载源文件](https://www.tyust.edu.cn/fj/xhzh0325.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)。
+- [点击下载源文件](https://www.tyust.edu.cn/fj/xxbz0325.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)。
+- [点击下载源文件](https://www.tyust.edu.cn/fj/xiaoxun0325.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)。
+- [点击下载校歌](https://www.tyust.edu.cn/fj/xiaoge20251107.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tyust.edu.cn/xxgk/xxbsjxg.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

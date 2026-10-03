@@ -25,6 +25,7 @@
 |  | `#C03820` | 192,56,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#C01000` | 192,16,0 | reference |  |  | 官网标识取色/推导建议 | [依据](http://www.xztu.edu.cn/images/logo1.png) |
 |  | `#B81000` | 184,16,0 | reference |  |  | 官网标识取色/推导建议 | [依据](http://www.xztu.edu.cn/images/logo1.png) |
+| 校徽标志色 | 未公布 | 未公布 | primary | [13, 87, 100, 4] |  | 官方VI标准值 | [依据](https://www.xztu.edu.cn/xxgk/xhxx.htm) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -32,5 +33,6 @@
 
 - 现有VI入口：[https://www.xztu.edu.cn/xxgk/xhxx.htm](https://www.xztu.edu.cn/xxgk/xhxx.htm)
 - [校徽校训](http://www.xztu.edu.cn/xxgk/xhxx.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.xztu.edu.cn/xxgk/xhxx.htm)。
+- [忻州师范学院官方视觉规范](https://www.xztu.edu.cn/xxgk/xhxx.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.xztu.edu.cn/xxgk/xhxx.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

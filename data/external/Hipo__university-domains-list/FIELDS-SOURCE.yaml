@@ -6,5 +6,11 @@ license: MIT
 data_as_of: '2026-09-26'
 imported_at: '2026-10-01'
 matched_records: 272
-sha256: 68556622ffcad87c2d13a38991e4aae6c9c469af3928b66f56bcb7e5613c8b33
-purpose: 可再分发社区匹配子集；含估算与历史信息，不代表官方统计。图像仅保存链接及元数据。
+sha256: 15f6830c10c9c31864528a7700ec5856b2068420a800f06464ec381ef22feb19
+purpose: 仅保留PPT身份主字段与素材入口；原上游commit与许可保持。
+retained_record_fields:
+- domains
+- name
+- web_pages
+projection_scope: data/ppt-core-fields.yaml
+projected_at: '2026-10-02'

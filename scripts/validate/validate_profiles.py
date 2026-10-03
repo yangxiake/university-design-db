@@ -17,6 +17,7 @@ sys.path.insert(0, str(ROOT / "scripts/ingest"))
 from yaml_io import load_yaml
 from render_official import render as render_official  # noqa: E402
 from profile_extensions import FACTS as EXTENDED_FACTS, COLLECTIONS, rgb  # noqa: E402
+from ppt_scope import FACT_FIELDS, LIST_FIELDS, SCOPE as PPT_SCOPE
 SCOPE = ROOT / "data/universities-scope-2026.csv"
 FIELDS = {
     "identity": {"name_en", "official_website"},
@@ -189,8 +190,8 @@ def validate_profile(path, row, release=False):
         profile = load_yaml(path.read_text(encoding="utf-8"))
     except (OSError, yaml.YAMLError) as exc:
         return [str(path) + ": " + str(exc)], 0, False
-    if not isinstance(profile, dict) or profile.get("schema_version") not in {2,3}:
-        return [str(path) + ": schema_version must be 2 or 3"], 0, False
+    if not isinstance(profile, dict) or profile.get("schema_version") not in {2,3,4}:
+        return [str(path) + ": schema_version must be 2, 3 or 4"], 0, False
     identity = profile.get("identity")
     if not isinstance(identity, dict):
         return [str(path) + ": identity object missing"], 0, False
@@ -244,12 +245,15 @@ def validate_profile(path, row, release=False):
         for key in fields:
             populated += int(check_fact(value[key], key, str(path) + "." + group + "." + key,
                                         errors, release))
-    if profile.get('schema_version') == 3:
-        for dotted, (value_type, description) in EXTENDED_FACTS.items():
+    if profile.get('schema_version') in {3,4}:
+        extension_facts = {k:v for k,v in EXTENDED_FACTS.items() if profile['schema_version'] == 3 or k in FACT_FIELDS}
+        for dotted, (value_type, description) in extension_facts.items():
             group,key=dotted.split('.')
             populated += int(check_fact(profile.get(group,{}).get(key),key,str(path)+'.'+dotted,
                                         errors,release,value_type=value_type))
         for dotted in COLLECTIONS:
+            if profile['schema_version'] == 4 and dotted not in LIST_FIELDS:
+                continue
             group,key=dotted.split('.')
             items=profile.get(group,{}).get(key)
             if not isinstance(items,list):
@@ -341,6 +345,13 @@ def check_template_metadata(meta,label,errors):
 
 
 def check_template_file(item,label,errors):
+    document=item.get('document_metadata')
+    if document is not None:
+        if (not isinstance(document,dict) or document.get('format')!='PDF' or type(document.get('page_count')) is not int or document.get('page_count',0)<=0 or
+                not re.fullmatch('[0-9a-f]{64}',str(document.get('sha256',''))) or type(document.get('byte_size')) is not int or document.get('byte_size',0)<=0):
+            errors.append(label+': PDF document metadata needs page count, SHA256 and byte size')
+        if item.get('content_read') is not True or item.get('download_status')!='pdf_read' or 'file_metadata' in item:
+            errors.append(label+': PDF document metadata contradicts read status or presentation metadata')
     inspection=item.get('file_inspection')
     if inspection is not None and (not isinstance(inspection,dict) or inspection.get('status') not in {'content_inspected','format_only','inspection_failed','target_page_read'} or not is_date(inspection.get('checked_at'))):
         errors.append(label+': invalid template inspection receipt')
@@ -389,8 +400,11 @@ def check_extended_entry(dotted, item, label, errors, release=False):
         if value is None:
             cmyk=item.get('cmyk')
             valid_cmyk=isinstance(cmyk,list) and len(cmyk)==4 and all(type(n) in {int,float} and 0<=n<=100 for n in cmyk)
-            if item.get('method')!='official_vi' or not item.get('label') or not (valid_cmyk or item.get('pantone')) or item.get('rgb') is not None:
-                errors.append(label+': color without HEX needs official named CMYK/Pantone evidence and no invented RGB')
+            notation=item.get('cmyk_text')or''
+            channels=re.findall(r'[CMYK]',notation)
+            valid_notation=bool(re.fullmatch(r'\s*(?:[CMYK]\s*:?\s*(?:100(?:\.0+)?|\d{1,2}(?:\.\d+)?)%?\s*)+',notation))and len(channels)==len(set(channels))
+            if item.get('method')!='official_vi' or not item.get('label') or not (valid_cmyk or valid_notation or item.get('pantone')) or item.get('rgb') is not None:
+                errors.append(label+': color without HEX needs official named CMYK/Pantone/partial-channel evidence and no invented RGB')
         elif not re.fullmatch(r'#[0-9A-Fa-f]{6}',str(value)):
             errors.append(label+': six-digit HEX required')
         elif item.get('rgb')!=rgb(value):
@@ -470,8 +484,8 @@ def main():
     populated = ready_count = 0
     for path in paths:
         code = path.parent.name
-        if args.automatic_draft and load_yaml(path.read_text()).get('schema_version')!=3:
-            errors.append(str(path)+': automatic edition requires schema_version 3')
+        if args.automatic_draft and load_yaml(path.read_text()).get('schema_version') != PPT_SCOPE['schema_version']:
+            errors.append(str(path)+': automatic edition requires schema_version ' + str(PPT_SCOPE['schema_version']))
         if code in found_codes or code not in by_code:
             errors.append(str(path) + ": duplicate or out-of-scope school code")
             continue

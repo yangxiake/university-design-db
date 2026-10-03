@@ -29,5 +29,7 @@
 - 现有VI入口：[http://www.lfnu.edu.cn/col/1387254021656/index.html](http://www.lfnu.edu.cn/col/1387254021656/index.html)
 - [廊坊师范学院校徽校名标识-资料下载-宣传部](https://www.lfnu.edu.cn/dwxcb/col/1386669163687/2024/03/19/1710845964471.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lfnu.edu.cn/dwxcb/col/1386669163687/2024/03/19/1710845964471.html)。
 - [廊坊师范学院1914版本校徽校名标识](http://www.lfnu.edu.cn/download.jsp?pathfile=/dwxcb/atm/7/20240319185818455.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lfnu.edu.cn/dwxcb/col/1386669163687/2024/03/19/1710845964471.html)。
+- [校歌校训校徽-廊坊师范学院](https://www.lfnu.edu.cn/col/1387254021656/index.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lfnu.edu.cn/col/1387254021656/index.html)。
+- [校徽](http://www.lfnu.edu.cn/atm/1387254909265/20180115110112249.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lfnu.edu.cn/col/1387254021656/index.html)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

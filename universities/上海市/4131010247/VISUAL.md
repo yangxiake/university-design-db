@@ -32,6 +32,7 @@
 |  | `#0058A8` | 0,88,168 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0058B0` | 0,88,176 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0060B0` | 0,96,176 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 同济蓝 | 未公布 | 未公布 | primary | [100, 60, 0, 0] |  | 官方VI标准值 | [依据](https://news.tongji.edu.cn/info/1008/94580.htm) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -39,5 +40,6 @@
 
 - 现有VI入口：[https://www.tongji.edu.cn/xxgk1/xxbs1.htm](https://www.tongji.edu.cn/xxgk1/xxbs1.htm)
 - [学校标识](https://www.tongji.edu.cn/xxgk1/xxbs1.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.tongji.edu.cn/xxgk1/xxbs1.htm)。
+- [同济大学官方视觉规范](https://news.tongji.edu.cn/info/1008/94580.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://news.tongji.edu.cn/info/1008/94580.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

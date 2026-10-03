@@ -4,11 +4,34 @@ import argparse
 import datetime as dt
 import json
 import pathlib
+import urllib.parse
 import yaml
 from profile_extensions import rgb,upsert,put_fact
 
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 TODAY=dt.date.today().isoformat()
+
+
+def enrich_screen_metadata(current, spec):
+    """Fill omitted print metadata only for the same automatic official RGB."""
+    if (current.get('verified') == 'human' or current.get('method') != 'official_vi'
+            or current.get('value') != spec.get('value') or not spec.get('value')):
+        return
+    for key in ('cmyk', 'cmyk_text', 'pantone', 'label'):
+        if current.get(key) is None and spec.get(key) is not None:
+            current[key] = spec[key]
+
+
+def merge_official_color(palette, entry):
+    """Enrich an older unlabeled receipt without counting it as a new color."""
+    key = lambda x: (x['source'], x['value'], x['method'], x.get('label'))
+    for previous in palette:
+        if (previous.get('label') is None and entry.get('label') is not None
+                and key(previous)[:3] == key(entry)[:3]):
+            if previous.get('verified') != 'human':
+                previous.update(entry)
+            return
+    upsert(palette, entry, key)
 
 
 def main():
@@ -33,18 +56,24 @@ def main():
                         entry.update(role='reference',source_field=None,current=False,basis=entry['basis']+'；已有新VI入口依据，保留为历史/取色参考。')
         for spec in d.get('colors',[]):
             entry=dict(value=spec['value'],rgb=rgb(spec['value']) if spec['value'] else None,cmyk=spec['cmyk'],pantone=spec['pantone'],label=spec['label'],
-                       role=spec['role'],method='official_vi',official=True,source=d['source'],verified='auto',checked_at=TODAY,availability='found',basis=d['basis'])
-            if d.get('source_sha256'):entry['source_sha256']=d['source_sha256']
+                       role=spec['role'],method='official_vi',official=True,source=d['source'],verified='auto',checked_at=TODAY,availability='found',basis=spec.get('basis', d['basis']))
+            if spec.get('cmyk_text'):entry['cmyk_text']=spec['cmyk_text']
+            for key in ('source_sha256','archive_member','archive_member_display','member_sha256'):
+                if d.get(key):entry[key]=d[key]
             if spec.get('field') and spec['value']:
                 key=spec['field'];current=p['visual'][key]
-                replace=current.get('verified')!='human' and (current['availability']=='unresearched' or current.get('method') in spec.get('replace_methods',[]))
+                replace=current.get('verified')!='human' and (current['availability']=='unresearched' or current.get('method') in spec.get('replace_methods',[]) or
+                    (current['availability']=='not_found' and current.get('source') is None and bool(current.get('search_sources'))))
                 if replace:
                     if current['availability']!='unresearched':retain(key,current,'official_VI_replaces_sample_reference')
-                    p['visual'][key]=dict(value=spec['value'],source=d['source'],method='official_vi',label=spec['label'],basis=d['basis'],
+                    p['visual'][key]=dict(value=spec['value'],source=d['source'],method='official_vi',label=spec['label'],basis=entry['basis'],
                                          cmyk=spec['cmyk'],pantone=spec['pantone'],verified='auto',checked_at=TODAY,availability='found',search_sources=[])
-                    if d.get('source_sha256'):p['visual'][key]['source_sha256']=d['source_sha256']
+                    for proof in ('source_sha256','archive_member','archive_member_display','member_sha256','cmyk_text'):
+                        if entry.get(proof):p['visual'][key][proof]=entry[proof]
+                if spec.get('enrich_existing_metadata'):
+                    enrich_screen_metadata(p['visual'][key], spec)
                 if p['visual'][key].get('value')==spec['value']:entry['source_field']='visual.'+key
-            upsert(p['visual']['color_palette'],entry,lambda x:(x['source'],x['value'],x['method'],x.get('label')))
+            merge_official_color(p['visual']['color_palette'], entry)
         for spec in d.get('conflicts',[]):
             key=spec['field'];current=p['visual'][key]
             if current.get('verified')=='human':continue
@@ -65,7 +94,9 @@ def main():
             from profile_extensions import empty_fact
             p['visual']['vi_url']=empty_fact()
         put_fact(p,'visual.vi_url',d['vi_url'],dict(source=d['source'],verified='auto',checked_at=TODAY))
-        upsert(p['visual']['vi_resources'],dict(title=d.get('vi_title') or d['name_zh']+'官方视觉规范',url=d['vi_url'],kinds=d.get('vi_kinds') or ['标识规范','标准色'],formats=['PDF'] if d['source'].endswith('.pdf') else ['HTML'],
+        suffix=pathlib.PurePosixPath(urllib.parse.urlparse(d['vi_url']).path).suffix.lower()
+        formats=d.get('vi_formats') or [{'.pdf':'PDF','.zip':'ZIP','.png':'PNG','.jpg':'JPEG','.jpeg':'JPEG','.svg':'SVG'}.get(suffix,'HTML')]
+        upsert(p['visual']['vi_resources'],dict(title=d.get('vi_title') or d['name_zh']+'官方视觉规范',url=d['vi_url'],kinds=d.get('vi_kinds') or ['标识规范','标准色'],formats=formats,
             access_requirement='公开网页/文件，无需登录；依来源规则使用',source=d['source'],repository=None,commit=None,official=True,verified='auto',checked_at=TODAY,
             availability='found',note=d['basis']),lambda x:(x['url'],x['source']))
         path.write_text(yaml.safe_dump(p,allow_unicode=True,sort_keys=False,width=100),encoding='utf-8')

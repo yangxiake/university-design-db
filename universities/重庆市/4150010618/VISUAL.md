@@ -28,5 +28,9 @@
 
 - 现有VI入口：[https://www.cqjtu.edu.cn/xxgk/xpxh.htm](https://www.cqjtu.edu.cn/xxgk/xpxh.htm)
 - [【校史故事365】徽心筑路 交通天下：意蕴深长的交大校徽](https://news.cqjtu.edu.cn/info/1125/64786.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.cqjtu.edu.cn/info/1125/64786.htm)。
+- [形象识别](https://www.cqjtu.edu.cn/xxgk/xpxh.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cqjtu.edu.cn/xxgk/xpxh.htm)。
+- [重庆交通大学-VI基础系统.zip](https://www.cqjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1309598030&wbfileid=15033818)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cqjtu.edu.cn/xxgk/xpxh.htm)。
+- [logo+文字组合+校训组合.zip](https://www.cqjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1309598030&wbfileid=15033817)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cqjtu.edu.cn/xxgk/xpxh.htm)。
+- [标志及全称标准字组合.zip](https://www.cqjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1309598030&wbfileid=15033816)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cqjtu.edu.cn/xxgk/xpxh.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

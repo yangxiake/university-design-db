@@ -36,5 +36,8 @@
 - [学校标识](https://xiaoban.ecust.edu.cn/10389/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xiaoban.ecust.edu.cn/10389/list.htm)。
 - [校名、校标素材下载](https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm)。
 - [校名 校标 组合素材 矢量格式.zip](https://xiaoban.ecust.edu.cn/_upload/article/files/d2/76/a11291914f8d8940cf0a3f5cbf13/9df32e97-74aa-4b87-b1f2-df1ca7faaba8.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xiaoban.ecust.edu.cn/2007/0306/c10389a83979/page.htm)。
+- [校名 校标 组合素材 矢量格式.zip](https://xiaoban.ecust.edu.cn/_upload/article/files/d2/76/a11291914f8d8940cf0a3f5cbf13/9df32e97-74aa-4b87-b1f2-df1ca7faaba8.zip)：["官方视觉资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://xiaoban.ecust.edu.cn/_upload/article/files/d2/76/a11291914f8d8940cf0a3f5cbf13/9df32e97-74aa-4b87-b1f2-df1ca7faaba8.zip)。
+  - 发布者：华东理工大学；适用范围：学校通用。
+  - 文件容器已读取：ZIP；406048字节；读取类型archive_structure；文件SHA256 `614b305e91c3892f95380ea45ef945d2c115830e979d743b000eaa7c1b392f02`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

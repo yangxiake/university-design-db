@@ -16,12 +16,16 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | `#C39315` | 195,147,21 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.ahnu.edu.cn/ahsf2023/images/logo2026081.png) |
+|  | `#C39315` | 195,147,21 | reference（历史参考） |  |  | 官网标识取色/推导建议 | [依据](https://www.ahnu.edu.cn/ahsf2023/images/logo2026081.png) |
 |  | `#0048A0` | 0,72,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.ahnu.edu.cn/ahsf2023/images/logo2026081.png) |
 |  | `#C09010` | 192,144,16 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.ahnu.edu.cn/ahsf2023/images/logo2026081.png) |
 |  | `#987820` | 152,120,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#182088` | 24,32,136 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#A08020` | 160,128,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 标准色1 | `#004EA2` | 0,78,162 | primary | [96, 70, 0, 0] |  | 官方VI标准值 | [依据](https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg) |
+| 标准色2 | `#6DC4EE` | 109,196,238 | primary | [55, 4, 1, 0] |  | 官方VI标准值 | [依据](https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg) |
+| 标准色3 | `#C39214` | 195,146,20 | primary | [27, 45, 98, 2] |  | 官方VI标准值 | [依据](https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg) |
+| 标准色4 | `#000000` | 0,0,0 | primary | [0, 0, 0, 100] |  | 官方VI标准值 | [依据](https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -32,6 +36,8 @@
 - [校徽+校名网页图.jpg](https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=9E6992B8C1E50457A6F64F633FC49045)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ahnu.edu.cn/xxgk/xxbs/xmxh.htm)。
 - [校徽+校名网页图.png](https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=7C876658FC1EDBDC0099A73FE5C8E074)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ahnu.edu.cn/xxgk/xxbs/xmxh.htm)。
 - [标准色](https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm)。
-- [标准色.zip](https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=E60E3524A76641DB292BE94DDEF868E2)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm)。
+- [标准色.zip](https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=E60E3524A76641DB292BE94DDEF868E2)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm)。
+  - 文件容器已读取：ZIP；61196113字节；读取类型archive_structure；文件SHA256 `66f63e58d9863a500ace664a6490dccea0f3d770a5df91c162278d27ccbfd880`。
+- [安徽师范大学官方视觉规范](https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

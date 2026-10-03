@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4133014943'
   name_zh: 宁波东方理工大学
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Eastern Institute of Technology, Ningbo
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q117406370&oldid=2514967274
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2514967274
+    source_sha256: e6d30a90acc3999a78b042c97fc2283c3e2e21c841fa957f428a206931c3bbe1
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.eitech.edu.cn/
     source: https://www.eitech.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -67,12 +65,22 @@ research:
   audit_key: '4133014943'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#92071C'
+    source: https://www.eitech.edu.cn/_upload/article/images/8e/09/9ac030e24973a30ea8f889aba402/cf4affa2-baea-4d21-86e0-ada318bff9fa.png
+    method: official_vi
+    label: 标准红
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。原图HEX92071C、RGB146/7/28一致；Pantone后缀按原图7622cp记录。
+    cmyk:
+    - 46
+    - 100
+    - 100
+    - 17
+    pantone: 7622cp
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 89745c61d535189f5c760e65cafe0ed1ecaef73db67279ff5f9f110995a94b2c
   color_secondary:
     value: null
     source: null
@@ -94,7 +102,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: f58985d874d3d5f2089f9812
     kind: site_identity
@@ -209,15 +216,306 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: '#92071C'
+    rgb:
+    - 146
+    - 7
+    - 28
+    cmyk:
+    - 46
+    - 100
+    - 100
+    - 17
+    pantone: 7622cp
+    label: 标准红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.eitech.edu.cn/_upload/article/images/8e/09/9ac030e24973a30ea8f889aba402/cf4affa2-baea-4d21-86e0-ada318bff9fa.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。原图HEX92071C、RGB146/7/28一致；Pantone后缀按原图7622cp记录。
+    source_sha256: 89745c61d535189f5c760e65cafe0ed1ecaef73db67279ff5f9f110995a94b2c
+    source_field: visual.color_primary
+  - value: '#AAA9A1'
+    rgb:
+    - 170
+    - 169
+    - 161
+    cmyk: null
+    pantone: null
+    label: 辅助灰
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/2c38d8f9-639d-4f82-9c59-8e62b6e11f77.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。仅采用图上明确HEX文本。
+    source_sha256: 7b4a2235b5c04f2dfcb176e8081e114340a7c4fe2c2163afa07009ae4ad4de61
+  - value: '#FDB837'
+    rgb:
+    - 253
+    - 184
+    - 55
+    cmyk: null
+    pantone: null
+    label: 辅助黄
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/ac45b1fa-cc6d-4a3a-882d-79d146304e68.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。仅采用图上明确HEX文本。
+    source_sha256: 0646efe8cb3af65c41bf98052914d99d158b698451f5d0d2663be1a60e2efe31
+  vi_resources:
+  - title: 宁波东方理工大学官方视觉规范
+    url: https://www.eitech.edu.cn/290/list.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.eitech.edu.cn/_upload/article/images/8e/09/9ac030e24973a30ea8f889aba402/cf4affa2-baea-4d21-86e0-ada318bff9fa.png
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。原图HEX92071C、RGB146/7/28一致；Pantone后缀按原图7622cp记录。
+  - title: 宁波东方理工大学官方视觉规范
+    url: https://www.eitech.edu.cn/290/list.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/2c38d8f9-639d-4f82-9c59-8e62b6e11f77.png
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。仅采用图上明确HEX文本。
+  - title: 宁波东方理工大学官方视觉规范
+    url: https://www.eitech.edu.cn/290/list.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/ac45b1fa-cc6d-4a3a-882d-79d146304e68.png
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。仅采用图上明确HEX文本。
+  - title: 学校标志组合
+    url: https://www.eitech.edu.cn/290/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/290/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ae85d7dcc9f2254d37628d9145b8802ca63b5e67ae300b56311d809faf16be8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 东方理工VI手册2026点击下载
+    url: https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/290/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ae85d7dcc9f2254d37628d9145b8802ca63b5e67ae300b56311d809faf16be8
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 学校标志组合
+    url: https://www.eitech.edu.cn/291/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/291/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5aa7477e56adbdba8d5d9d51d6010f88fcfc30165860acc7d04ae8b47e177ca9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 东方理工VI手册2026点击下载
+    url: https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/291/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5aa7477e56adbdba8d5d9d51d6010f88fcfc30165860acc7d04ae8b47e177ca9
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 学校标志组合
+    url: https://www.eitech.edu.cn/xxbs/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/xxbs/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6cf592aa700b80e20864f0cf79591e8cde16c9550e3a87ba928c60e7f6e6301b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 东方理工VI手册2026点击下载
+    url: https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/xxbs/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 6cf592aa700b80e20864f0cf79591e8cde16c9550e3a87ba928c60e7f6e6301b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 学校标志组合
+    url: https://www.eitech.edu.cn/289/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/289/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b28ce6acc2182e43231cd22169cc40077020a3752f9a08643ce01f2b9a29ff0d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 东方理工VI手册2026点击下载
+    url: https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/289/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b28ce6acc2182e43231cd22169cc40077020a3752f9a08643ce01f2b9a29ff0d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 学校标志组合
+    url: https://www.eitech.edu.cn/293/list.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/293/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 879d74a5230dd76f39b017274b17cb16bb8898ae00b73c260b3c7c4783fd004d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 东方理工VI手册2026点击下载
+    url: https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.eitech.edu.cn/293/list.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 879d74a5230dd76f39b017274b17cb16bb8898ae00b73c260b3c7c4783fd004d
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2025
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q117406370&oldid=2514967274
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2514967274
+    source_sha256: e6d30a90acc3999a78b042c97fc2283c3e2e21c841fa957f428a206931c3bbe1
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -225,7 +523,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -247,6 +544,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -269,205 +567,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://www.eitech.edu.cn/bkzs/list.htm
-    availability: found
-    search_sources: []
-    source: https://www.eitech.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://www.eitech.edu.cn/en/
-    availability: found
-    search_sources: []
-    source: https://www.eitech.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - EN
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 浙江省宁波市镇海区蛟川街道海江大道2911号
-    availability: found
-    search_sources: []
-    source: https://www.eitech.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:浙江省宁波市镇海区蛟川街道海江大道2911号
-  postal_code:
-    value: '315200'
-    availability: found
-    search_sources: []
-    source: https://www.eitech.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:315200
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: news@eitech.edu.cn
+    value: 宁波东方理工大学位于浙江省宁波市，教育部名单列为本科，主管部门为浙江省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.eitech.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮箱:news@eitech.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

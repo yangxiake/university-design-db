@@ -34,5 +34,9 @@
 - [学校标识-浙江海洋大学](http://www.zjou.edu.cn/xxgl/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.zjou.edu.cn/xxgl/xxbs.htm)。
 - [浙江海洋大学校名校徽组合（位图）.png](http://www.zjou.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1601756982&wbfileid=5D9E558571DA8DE587D2E91D4916924C)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.zjou.edu.cn/xxgl/xxbs.htm)。
 - [浙江海洋大学校名校徽组合（矢量图）.zip](http://www.zjou.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1601756982&wbfileid=9163079C3888DAF358FA10C89E1F0329)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.zjou.edu.cn/xxgl/xxbs.htm)。
+- [学校标识-浙江海洋大学](https://www.zjou.edu.cn/xxgl/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjou.edu.cn/xxgl/xxbs.htm)。
+- [浙江海洋大学校名校徽组合（位图）.png](https://www.zjou.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1601756982&wbfileid=5D9E558571DA8DE587D2E91D4916924C)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjou.edu.cn/xxgl/xxbs.htm)。
+- [浙江海洋大学校名校徽组合（矢量图）.zip](https://www.zjou.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1601756982&wbfileid=9163079C3888DAF358FA10C89E1F0329)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.zjou.edu.cn/xxgl/xxbs.htm)。
+  - 文件容器已读取：ZIP；1338428字节；读取类型archive_structure；文件SHA256 `07096ced040a59b0cd7893e292647a9355b908d9b166326dae0f835009052297`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4134010959'
   name_zh: 安徽三联学院
@@ -9,19 +9,28 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Anhui Sanlian University
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%AE%89%E5%BE%BD%E4%B8%89%E8%81%94%E5%AD%A6%E9%99%A2&oldid=74522299
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: ec351125eafd1c83c3ab35a5afeffc4c86d1c462d541a620581a1e48bc8c9bf6
+    source_revision: 74522299
+    collector: wikipedia_core_infobox
+    basis: 当前完整校名的中文维基百科大学信息框EnglishName/外文名称字段；社区记录，非校方命名证明。
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.slu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://www.slu.edu.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 已有来源的学校主站候选实际返回主首页，标题为当前学校完整名称或完整名称加官网/首页等明确后缀；排除院系、招生子站、新闻题名、母校与旧名。
+    evidence: 安徽三联学院
+    source_sha256: 56a0df034f97e838afc49fdddfb84fd06d9960f41b6c192d31cc8eb15963d336
   short_name_zh:
     value: null
     source: null
@@ -43,14 +52,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -76,12 +77,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#2090C8'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/1847.jpg
+    checked_at: '2026-10-03'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 376d6e6011d3f6e7a3f29cbb
+    source_sha256: c08d5536d1ee209ee3a7a0fcb82f960b056b19c26aa261f445d84dff02d8c917
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -103,9 +112,121 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: e3ff65c60ba90790f3a39091
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.slu.edu.cn/_upload/tpl/00/90/144/template144/images/logo.svg
+    source: https://www.slu.edu.cn/
+    file_name: logo.svg
+    upstream_path: null
+    publisher: 安徽三联学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 安徽三联学院
+    format: svg
+    width: 438.999
+    height: 112.025
+    vector: true
+    has_alpha: null
+    transparent_background: null
+    sha256: 9db0b206e41458609c0cbc35f5fd66eb7ed0de1148bcefb7b721f696c34b5b38
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /_upload/tpl/00/90/144/template144/images/logo.svg
+      label: '   '
+      context: 'head-left  sitelogo  logo   '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 57822
+    representation: vector
+    view_box: 0 0 438.999 112.025
+    encoding: utf-8-sig
+    intrinsic_width: '438.999'
+    intrinsic_height: '112.025'
+    resolved_url: https://www.slu.edu.cn/_upload/tpl/00/90/144/template144/images/logo.svg
+    inspection_attempts:
+    - url: https://www.slu.edu.cn/_upload/tpl/00/90/144/template144/images/logo.svg
+      status: content_inspected
+  - asset_id: 376d6e6011d3f6e7a3f29cbb
+    title: 安徽三联学院教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/1847.jpg
+    source: https://static-data.eol.cn/www/2.0/school/1847/info.json
+    file_name: 1847.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 安徽三联学院
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    source_type: community_website
+    source_sha256: 6500bd1b7e8b9d4dc6f8d133c740a7c6d47f3b6778d8a98570e46f8785365a91
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: c08d5536d1ee209ee3a7a0fcb82f960b056b19c26aa261f445d84dff02d8c917
+    access_status: content_inspected
+    byte_size: 26526
+    format: jpeg
+    vector: false
+    width: 200
+    representation: raster
+    height: 200
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 逐图查看实际文件，图形使用当前完整中文校名或本校独立标识；平台来源，未认定本校直接发布、现行VI或授权。
+  color_palette:
+  - value: '#2090C8'
+    rgb:
+    - 32
+    - 144
+    - 200
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1847.jpg
+    page_source: https://static-data.eol.cn/www/2.0/school/1847/info.json
+    asset_id: 376d6e6011d3f6e7a3f29cbb
+    source_sha256: c08d5536d1ee209ee3a7a0fcb82f960b056b19c26aa261f445d84dff02d8c917
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#2090D0'
+    rgb:
+    - 32
+    - 144
+    - 208
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/1847.jpg
+    page_source: https://static-data.eol.cn/www/2.0/school/1847/info.json
+    asset_id: 376d6e6011d3f6e7a3f29cbb
+    source_sha256: c08d5536d1ee209ee3a7a0fcb82f960b056b19c26aa261f445d84dff02d8c917
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources:
   - title: 安徽三联学院社区校徽目录
     url: https://www.urongda.com/logos/4134010959
@@ -240,22 +361,31 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1997
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%AE%89%E5%BE%BD%E4%B8%89%E8%81%94%E5%AD%A6%E9%99%A2&oldid=74522299
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: ec351125eafd1c83c3ab35a5afeffc4c86d1c462d541a620581a1e48bc8c9bf6
+    source_revision: 74522299
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 厚德博学砺能树人
+    availability: found
     search_sources: []
-  history_events: []
+    source: https://www.slu.edu.cn/xxjj/list.htm
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    source_sha256: 4bc670c875a6bc7ba82a4cfae3b059a33392b3255f1dfd9dcfd5be9131381bd1
+    collector: ppt_core_only
+    basis: 学校公开页面明确记载的主字段；未采集动态统计
   flower:
     value: null
     source: null
@@ -277,6 +407,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -311,185 +442,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 安徽三联学院位于安徽省合肥市，教育部名单列为本科，主管部门为安徽省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

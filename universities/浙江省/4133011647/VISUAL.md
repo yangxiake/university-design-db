@@ -38,5 +38,7 @@
 - 现有VI入口：[https://www.cuz.edu.cn/xxgk/xxbs1/xb.htm](https://www.cuz.edu.cn/xxgk/xxbs1/xb.htm)
 - [校标-浙江传媒学院](http://www.cuz.edu.cn/xxgk/xxbs1/xb.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.cuz.edu.cn/xxgk/xxbs1/xb.htm)。
 - [浙江传媒学院校标.pdf](http://www.cuz.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2090619750&wbfileid=B4B16617C3FC5F5DD2A2FE54EA0A737D)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.cuz.edu.cn/xxgk/xxbs1/xb.htm)。
+- [校标-浙江传媒学院](https://www.cuz.edu.cn/xxgk/xxbs1/xb.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cuz.edu.cn/xxgk/xxbs1/xb.htm)。
+- [浙江传媒学院校标.pdf](https://www.cuz.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2090619750&wbfileid=B4B16617C3FC5F5DD2A2FE54EA0A737D)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.cuz.edu.cn/xxgk/xxbs1/xb.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

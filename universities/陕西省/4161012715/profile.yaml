@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4161012715'
   name_zh: 西京学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Xijing University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q17062992&oldid=2474183243
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2474183243
+    source_sha256: ffbfd8fa8320258410af94ec1ef06d544f3a2c32eb282ae140dfb9a86c23f7f5
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.xijing.edu.cn/
     source: https://www.xijing.edu.cn/
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -67,25 +65,39 @@ research:
   audit_key: '4161012715'
 visual:
   color_primary:
-    value: '#D6FFFF'
-    source: https://www.xijing.edu.cn/images/fd-logo.png
+    value: '#006060'
+    source: https://www.xijing.edu.cn/__local/F/C2/0D/D72F12F74C5C3DECA48D6CEBA12_E63A691F_7331.jpg
+    method: official_vi
+    label: 西京绿
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。标准绿红的HEX与RGB0/96/96、208/18/27相符。
+    cmyk:
+    - 88
+    - 37
+    - 53
+    - 34
+    pantone: 330C
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.xijing.edu.cn/
-    image_sha256: 82191f088336d1cfbade94e7bd599e55b343ac96537a8256c928ea58a3d0c6ed
+    source_sha256: cf19e979a379aa588ff9378c9e86d57bb64140b3f6df2b941ffe3d26d8415d9a
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#D0121B'
+    source: https://www.xijing.edu.cn/__local/F/C2/0D/D72F12F74C5C3DECA48D6CEBA12_E63A691F_7331.jpg
+    method: official_vi
+    label: 金光红
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。标准绿红的HEX与RGB0/96/96、208/18/27相符。
+    cmyk:
+    - 15
+    - 100
+    - 100
+    - 0
+    pantone: 485C
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: cf19e979a379aa588ff9378c9e86d57bb64140b3f6df2b941ffe3d26d8415d9a
   vi_url:
     value: https://www.xijing.edu.cn/xjgk/xxbs.htm
     availability: found
@@ -101,7 +113,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 93792b3b8210084391ef7f5a
     kind: site_identity
@@ -146,15 +157,256 @@ visual:
     - 255
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: https://www.xijing.edu.cn/images/fd-logo.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
+  - value: '#006060'
+    rgb:
+    - 0
+    - 96
+    - 96
+    cmyk:
+    - 88
+    - 37
+    - 53
+    - 34
+    pantone: 330C
+    label: 西京绿
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/F/C2/0D/D72F12F74C5C3DECA48D6CEBA12_E63A691F_7331.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。标准绿红的HEX与RGB0/96/96、208/18/27相符。
+    source_sha256: cf19e979a379aa588ff9378c9e86d57bb64140b3f6df2b941ffe3d26d8415d9a
     source_field: visual.color_primary
+  - value: '#D0121B'
+    rgb:
+    - 208
+    - 18
+    - 27
+    cmyk:
+    - 15
+    - 100
+    - 100
+    - 0
+    pantone: 485C
+    label: 金光红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/F/C2/0D/D72F12F74C5C3DECA48D6CEBA12_E63A691F_7331.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。标准绿红的HEX与RGB0/96/96、208/18/27相符。
+    source_sha256: cf19e979a379aa588ff9378c9e86d57bb64140b3f6df2b941ffe3d26d8415d9a
+    source_field: visual.color_secondary
+  - value: '#EA6099'
+    rgb:
+    - 234
+    - 96
+    - 153
+    cmyk:
+    - 0
+    - 75
+    - 5
+    - 0
+    pantone: 211C
+    label: 辅助粉
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/0/45/BA/AC5FF3E64B643032C5EA4019CD5_0E22EDE0_4F04.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项辅助色的原图RGB/HEX一致。
+    source_sha256: bdead1735c2ca74db4e05ea0967d6c06ca9980e3b324765c64d4cade1ea6af21
+  - value: '#008CCF'
+    rgb:
+    - 0
+    - 140
+    - 207
+    cmyk:
+    - 80
+    - 30
+    - 0
+    - 0
+    pantone: 2925C
+    label: 辅助蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/0/45/BA/AC5FF3E64B643032C5EA4019CD5_0E22EDE0_4F04.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项辅助色的原图RGB/HEX一致。
+    source_sha256: bdead1735c2ca74db4e05ea0967d6c06ca9980e3b324765c64d4cade1ea6af21
+  - value: '#FFDA01'
+    rgb:
+    - 255
+    - 218
+    - 1
+    cmyk:
+    - 0
+    - 15
+    - 90
+    - 0
+    pantone: 803C
+    label: 辅助黄
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/0/45/BA/AC5FF3E64B643032C5EA4019CD5_0E22EDE0_4F04.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项辅助色的原图RGB/HEX一致。
+    source_sha256: bdead1735c2ca74db4e05ea0967d6c06ca9980e3b324765c64d4cade1ea6af21
+  - value: '#81B44B'
+    rgb:
+    - 129
+    - 180
+    - 75
+    cmyk:
+    - 55
+    - 10
+    - 85
+    - 0
+    pantone: 7489C
+    label: 辅助绿
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/0/45/BA/AC5FF3E64B643032C5EA4019CD5_0E22EDE0_4F04.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项辅助色的原图RGB/HEX一致。
+    source_sha256: bdead1735c2ca74db4e05ea0967d6c06ca9980e3b324765c64d4cade1ea6af21
+  - value: '#000000'
+    rgb:
+    - 0
+    - 0
+    - 0
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: Black C
+    label: 辅助黑
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/B/B8/FA/849BE9D77E0FB236322A1A58908_D80AC7D2_4B1F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助白原图RGB255/255/255与HEX006060冲突，分别保存两个候选；专金银只列Pantone，没有RGB或CMYK，不补推测值。
+    source_sha256: d634ff5a51d53cad8eca67dfffe3e33ebbfde97954d901c9f76bad16dc8368cd
+  - value: '#FFFFFF'
+    rgb:
+    - 255
+    - 255
+    - 255
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: White C
+    label: 辅助白RGB候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/B/B8/FA/849BE9D77E0FB236322A1A58908_D80AC7D2_4B1F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助白原图RGB255/255/255与HEX006060冲突，分别保存两个候选；专金银只列Pantone，没有RGB或CMYK，不补推测值。
+    source_sha256: d634ff5a51d53cad8eca67dfffe3e33ebbfde97954d901c9f76bad16dc8368cd
+  - value: '#006060'
+    rgb:
+    - 0
+    - 96
+    - 96
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: White C
+    label: 辅助白HEX候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/B/B8/FA/849BE9D77E0FB236322A1A58908_D80AC7D2_4B1F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助白原图RGB255/255/255与HEX006060冲突，分别保存两个候选；专金银只列Pantone，没有RGB或CMYK，不补推测值。
+    source_sha256: d634ff5a51d53cad8eca67dfffe3e33ebbfde97954d901c9f76bad16dc8368cd
+  - value: '#5C5A5A'
+    rgb:
+    - 92
+    - 90
+    - 90
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 79
+    pantone: Cool Gray C
+    label: 辅助灰
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/B/B8/FA/849BE9D77E0FB236322A1A58908_D80AC7D2_4B1F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助白原图RGB255/255/255与HEX006060冲突，分别保存两个候选；专金银只列Pantone，没有RGB或CMYK，不补推测值。
+    source_sha256: d634ff5a51d53cad8eca67dfffe3e33ebbfde97954d901c9f76bad16dc8368cd
+  - value: null
+    rgb: null
+    cmyk: null
+    pantone: 877C
+    label: 专银
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/B/B8/FA/849BE9D77E0FB236322A1A58908_D80AC7D2_4B1F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助白原图RGB255/255/255与HEX006060冲突，分别保存两个候选；专金银只列Pantone，没有RGB或CMYK，不补推测值。
+    source_sha256: d634ff5a51d53cad8eca67dfffe3e33ebbfde97954d901c9f76bad16dc8368cd
+  - value: null
+    rgb: null
+    cmyk: null
+    pantone: 876C
+    label: 专金
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.xijing.edu.cn/__local/B/B8/FA/849BE9D77E0FB236322A1A58908_D80AC7D2_4B1F.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助白原图RGB255/255/255与HEX006060冲突，分别保存两个候选；专金银只列Pantone，没有RGB或CMYK，不补推测值。
+    source_sha256: d634ff5a51d53cad8eca67dfffe3e33ebbfde97954d901c9f76bad16dc8368cd
   vi_resources:
   - title: 学校标识
     url: https://www.xijing.edu.cn/xjgk/xxbs.htm
@@ -172,6 +424,8 @@ visual:
     availability: found
     source_sha256: c83cd72ec8da94cb6113dd654a5d2015bcd4851ee87bba22e00d165b22d30547
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校徽使用
     url: https://www.xijing.edu.cn/xjgk/xhsy1/xhsygf.htm
     kinds:
@@ -188,6 +442,8 @@ visual:
     availability: found
     source_sha256: 5419cb91db7c821b49d7fc3c4c7396ef0973cb7cac8630870f9cc10ba40955fa
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 学校标识
     url: https://www.xijing.edu.cn/info/1025/1021.htm
     kinds:
@@ -204,6 +460,8 @@ visual:
     availability: found
     source_sha256: 49dbd3be358793673cc9c42392c1831d4b09235ce663045123e8cb8062eca5f0
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校徽使用
     url: https://www.xijing.edu.cn/xjgk/xhsy1/bzssygf.htm
     kinds:
@@ -220,6 +478,93 @@ visual:
     availability: found
     source_sha256: 86628ece75e9f79f5a93abc3a7756181934c8c7fe018ab925500d1de63928143
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 西京学院官方视觉规范
+    url: https://www.xijing.edu.cn/xjgk/xxbs/xhsy1/bzssygf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.xijing.edu.cn/__local/F/C2/0D/D72F12F74C5C3DECA48D6CEBA12_E63A691F_7331.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。标准绿红的HEX与RGB0/96/96、208/18/27相符。
+  - title: 西京学院官方视觉规范
+    url: https://www.xijing.edu.cn/xjgk/xxbs/xhsy1/bzssygf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.xijing.edu.cn/__local/0/45/BA/AC5FF3E64B643032C5EA4019CD5_0E22EDE0_4F04.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项辅助色的原图RGB/HEX一致。
+  - title: 西京学院官方视觉规范
+    url: https://www.xijing.edu.cn/xjgk/xxbs/xhsy1/bzssygf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.xijing.edu.cn/__local/B/B8/FA/849BE9D77E0FB236322A1A58908_D80AC7D2_4B1F.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助白原图RGB255/255/255与HEX006060冲突，分别保存两个候选；专金银只列Pantone，没有RGB或CMYK，不补推测值。
+  - title: 校徽使用
+    url: https://www.xijing.edu.cn/xjgk/xxbs/xhsy1/bzssygf.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xijing.edu.cn/xjgk/xxbs/xhsy1/bzssygf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7c89d735625ab471b6941ec1fdca69b702193c08893c8a3dc66701de35cd5627
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 校徽使用
+    url: https://www.xijing.edu.cn/xjgk/xhsy1/bzyzywxmsygf.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.xijing.edu.cn/xjgk/xhsy1/bzyzywxmsygf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 861177182fb8440f186b97a13178b425a34a06beea5a85ac6144e4595f83ccf4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
     value: 1994
@@ -236,7 +581,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -258,6 +602,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -280,216 +625,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.xijing.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.xijing.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.xijing.edu.cn/xjgk/xxgk.htm
-    availability: found
-    search_sources: []
-    source: https://www.xijing.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 陕西省西安市长安区西京路1号
-    availability: found
-    search_sources: []
-    source: https://www.xijing.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:陕西省西安市长安区西京路1号
-  postal_code:
-    value: '710123'
-    availability: found
-    search_sources: []
-    source: https://www.xijing.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:710123
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 西京学院位于陕西省西安市，主管部门为陕西省教育厅。官网列示全日制在校生16000余人（统计日期未注明）。
+    value: 西京学院位于陕西省西安市，教育部名单列为本科，主管部门为陕西省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.xijing.edu.cn/xjgk/xjgk.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 16000
-    availability: found
-    search_sources: []
-    source: https://www.xijing.edu.cn/xjgk/xjgk.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生16000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校生16000余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '招生咨询电话: 029-85628035'
-    availability: found
-    search_sources: []
-    source: https://www.xijing.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 招生咨询电话:029-85628035
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

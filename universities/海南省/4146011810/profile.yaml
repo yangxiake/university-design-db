@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4146011810'
   name_zh: 海南医科大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Hainan Medical University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q5639372&oldid=2511153780
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2511153780
+    source_sha256: 7cb536ebe6f5fa6edb8316afbb20d646db937cbdbb1ebea12baaa33535558d38
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.muhn.edu.cn
     source: https://www.muhn.edu.cn
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -67,12 +65,20 @@ research:
   audit_key: '4146011810'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#B82828'
+    availability: found
     search_sources: []
+    source: https://static-data.gaokao.cn/upload/logo/512.jpg
+    checked_at: '2026-10-03'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: f8cee59aeea083b051e88dec
+    source_sha256: 7d825cc3383c37ad43f3d403b15fe5c2c240bc52b13bdeebb1f73a6dde48bd84
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 7dd4b95838f91f9cc34d85fc
     kind: site_identity
@@ -167,7 +172,149 @@ visual:
     byte_size: 2304
     representation: raster
     resolved_url: https://www.muhn.edu.cn/images/tpls20250904.png
-  color_palette: []
+  - asset_id: f8cee59aeea083b051e88dec
+    title: 海南医科大学教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/512.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/512/info.json
+    file_name: 512.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 海南医科大学
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    source_type: community_website
+    source_sha256: c0c3238af03ef923507cf852f90d7c65164ce985e72ac288205b73b44b2d1aed
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: 7d825cc3383c37ad43f3d403b15fe5c2c240bc52b13bdeebb1f73a6dde48bd84
+    access_status: content_inspected
+    byte_size: 12623
+    format: jpeg
+    vector: false
+    width: 200
+    representation: raster
+    height: 200
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 逐图查看实际文件，图形使用当前完整中文校名或本校独立标识；平台来源，未认定本校直接发布、现行VI或授权。
+  - asset_id: 5e3839cc7e7cd098fd708a4f
+    kind: combination
+    title: 海南医科大学官网标识图形
+    url: https://www.muhn.edu.cn/__local/D/3D/36/95E520C837C23DED48EAEA2D9A0_16377EAC_2173A.png
+    source: https://www.muhn.edu.cn/info/4481/153152.htm
+    file_name: 95E520C837C23DED48EAEA2D9A0_16377EAC_2173A.png
+    upstream_path: null
+    publisher: 海南医科大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 海南医科大学
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    source_type: official_website
+    source_sha256: d9bbdbb1291afa2969aa8a776ff9b1313e74b1bb9f04dd8a2f973a78feab2625
+    visual_review: auto
+    visual_review_basis: 海南医科大学当前红色校徽与中英文校名组合；排除同页旧海南医学院及海南省医学科学院图形。
+    identity_basis: 已读取本校标识说明页、该页引用的实际文件及当前完整校名；图形另作内容检查。
+    usage_note: 仅保存官网链接与文件元数据；图形使用仍遵循学校说明和权利，不再分发图形。
+    sha256: ea9929486a247ef7e5fb9dac0c68820b508116d4ddd3736410dd6907b2928b4a
+    access_status: content_inspected
+    byte_size: 137018
+    format: png
+    vector: false
+    width: 563
+    representation: raster
+    height: 518
+    has_alpha: true
+    transparent_background: true
+  color_palette:
+  - value: '#B82828'
+    rgb:
+    - 184
+    - 40
+    - 40
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/512.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/512/info.json
+    asset_id: f8cee59aeea083b051e88dec
+    source_sha256: 7d825cc3383c37ad43f3d403b15fe5c2c240bc52b13bdeebb1f73a6dde48bd84
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#B82830'
+    rgb:
+    - 184
+    - 40
+    - 48
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/512.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/512/info.json
+    asset_id: f8cee59aeea083b051e88dec
+    source_sha256: 7d825cc3383c37ad43f3d403b15fe5c2c240bc52b13bdeebb1f73a6dde48bd84
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#B82828'
+    rgb:
+    - 184
+    - 40
+    - 40
+    cmyk: null
+    pantone: null
+    role: reference
+    label: 官网标识PPT建议色
+    method: badge_sample
+    official: false
+    basis: 从实际查看的本校标识图形取色；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
+    source: https://www.muhn.edu.cn/__local/D/3D/36/95E520C837C23DED48EAEA2D9A0_16377EAC_2173A.png
+    page_source: https://www.muhn.edu.cn/info/4481/153152.htm
+    asset_id: 5e3839cc7e7cd098fd708a4f
+    source_sha256: ea9929486a247ef7e5fb9dac0c68820b508116d4ddd3736410dd6907b2928b4a
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+  - value: '#B82020'
+    rgb:
+    - 184
+    - 32
+    - 32
+    cmyk: null
+    pantone: null
+    role: reference
+    label: 官网标识PPT建议色
+    method: badge_sample
+    official: false
+    basis: 从实际查看的本校标识图形取色；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
+    source: https://www.muhn.edu.cn/__local/D/3D/36/95E520C837C23DED48EAEA2D9A0_16377EAC_2173A.png
+    page_source: https://www.muhn.edu.cn/info/4481/153152.htm
+    asset_id: 5e3839cc7e7cd098fd708a4f
+    source_sha256: ea9929486a247ef7e5fb9dac0c68820b508116d4ddd3736410dd6907b2928b4a
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
   vi_resources:
   - title: 学校标识
     url: https://www.muhn.edu.cn/info/4481/153152.htm
@@ -185,7 +332,7 @@ visual:
     availability: found
     source_sha256: d9bbdbb1291afa2969aa8a776ff9b1313e74b1bb9f04dd8a2f973a78feab2625
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
-  - title: 学校标识
+  - title: 学校标识-海南医科大学（海南省医学科学院）
     url: https://www.muhn.edu.cn/xxgk/xxbs.htm
     kinds:
     - 校徽/校名介绍及资源
@@ -201,6 +348,8 @@ visual:
     availability: found
     source_sha256: 96385fcaf98af3b5f885438743b855c96355377e35cb261c618cd7130e7e0d1e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 新校徽校名-高清导图文件.rar
     url: https://www.muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1381228035&wbfileid=6E4BB01DAF460740F9CF74CAECB22EA9
     kinds:
@@ -217,6 +366,8 @@ visual:
     availability: found
     source_sha256: 96385fcaf98af3b5f885438743b855c96355377e35cb261c618cd7130e7e0d1e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 海南医科大学社区校徽目录
     url: https://www.urongda.com/logos/4146011810
     kinds:
@@ -312,14 +463,21 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1993
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q5639372&oldid=2511153780
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2511153780
+    source_sha256: 7cb536ebe6f5fa6edb8316afbb20d646db937cbdbb1ebea12baaa33535558d38
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -327,7 +485,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -349,6 +506,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -371,203 +529,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.muhn.edu.cn/zsw/
-    availability: found
-    search_sources: []
-    source: https://www.muhn.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生信息
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 海口市龙华区椰海大道234号
-    availability: found
-    search_sources: []
-    source: https://www.muhn.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:海口市龙华区椰海大道234号邮政编码:571199联系电话:0898-66893398
-  postal_code:
-    value: '571199'
-    availability: found
-    search_sources: []
-    source: https://www.muhn.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:海口市龙华区椰海大道234号邮政编码:571199联系电话:0898-66893398
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '联系电话: 0898-66893398'
+    value: 海南医科大学位于海南省海口市，教育部名单列为本科，主管部门为海南省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.muhn.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:海口市龙华区椰海大道234号邮政编码:571199联系电话:0898-66893398
-  email:
-    value: hy0209002@muhn.edu.cn；hy000001@muhn.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.muhn.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 书记信箱 hy0209002@muhn.edu.cn
-    - 校长信箱 hy000001@muhn.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

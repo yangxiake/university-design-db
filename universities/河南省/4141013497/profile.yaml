@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4141013497'
   name_zh: 郑州财经学院
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Zhengzhou College of Finance and Economics
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_16_henan/a_42/a_42.html
+    source_sha256: 84fe8b0c763841d9f55608f93c99a446f28edb50dc07c59c346564fb029c7c71
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://www.zzife.edu.cn
     source: https://www.zzife.edu.cn
@@ -43,14 +47,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +62,21 @@ research:
   audit_key: '4141013497'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#94070A'
+    availability: found
     search_sources: []
+    source: https://www.zzife.edu.cn/skin/school788/core/header/header.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 3fcc8fa826ba6c6c764ddd896cf850688019feb721656f07e0deb0f975facab0
+    homepage_source: https://www.zzife.edu.cn
+    homepage_sha256: 468984a44d95cfd06481f643cfb9b670bec651f85f4b5e746b47f822e9002d22
+    css_selector: .main-nav
+    css_declaration: '#94070a'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -93,7 +98,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: fc11c10f56a016e5385ebc60
     kind: site_identity
@@ -130,30 +134,57 @@ visual:
     byte_size: 27903
     representation: raster
     resolved_url: https://www.zzife.edu.cn/attachment/core/2023_01/27_11/023ec009ae1604b5.png
-  color_palette: []
+  color_palette:
+  - value: '#94070A'
+    rgb:
+    - 148
+    - 7
+    - 10
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://www.zzife.edu.cn/skin/school788/core/header/header.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 3fcc8fa826ba6c6c764ddd896cf850688019feb721656f07e0deb0f975facab0
+    homepage_source: https://www.zzife.edu.cn
+    homepage_sha256: 468984a44d95cfd06481f643cfb9b670bec651f85f4b5e746b47f822e9002d22
+    css_selector: .main-nav
+    css_declaration: '#94070a'
+    collector: ppt_site_reference
   vi_resources: []
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1998
+    availability: found
     search_sources: []
-  motto:
-    value: null
-    source: null
+    source: https://zh.wikipedia.org/w/index.php?title=%E6%B2%B3%E5%8D%97%E7%9C%81%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%88%97%E8%A1%A8&oldid=84318560
+    source_sha256: b6a19a4d1c905ee89cc90b7dc48b3a8886b5b0b133477a14a94f52f8607b1076
+    source_revision: 84318560
+    checked_at: '2026-10-02'
     verified: auto
-    checked_at: '2026-10-01'
-    availability: conflict
+    source_type: community_website
+    collector: wikipedia_labelled_year_column
+    basis: 中文维基百科省级高校列表的明确建校/创办时间栏，按完整现校名匹配；社区数据，未独立确认前身与现名设立口径。
+    evidence: 1998年
+  motto:
+    value: 厚德、砺志、笃学、敏行
+    source: https://www.zzife.edu.cn/html/965/
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-    candidates:
-    - value: 厚德、砺志、笃学、敏行
-      source: https://www.zzife.edu.cn/html/965/
-    - value: 笃学敏行
-      source: https://www.zzife.edu.cn/html/968/
-    note: 已访问官网页面给出不同候选；需核对名称、标点或历史口径
-  history_events: []
+    source_type: official_website
+    source_sha256: 954f9716b2cde358edb83585277ae38a8e8ede9cc9f20bec2629f02562cf30d3
+    basis: 文化页分别解释前后半句；采用简介列明的完整校训。
+    collector: ppt_core_source_reconciliation
   flower:
     value: null
     source: null
@@ -175,6 +206,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -197,222 +229,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://zb.zzife.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.zzife.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生信息网
-  career_url:
-    value: http://jyzx.zzife.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.zzife.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业信息网
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 中国.河南.郑州市惠济区天河路36号
-    availability: found
-    search_sources: []
-    source: https://www.zzife.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:中国.河南.郑州市惠济区天河路36号 招生热线:0371-86650005 86650006 豫ICP备:17041149号-1 郑公备:41010229000027
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 惠济校区
-    address: null
-    coordinates: null
-    source: https://www.zzife.edu.cn/html/965/
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 航空港校区
-    address: null
-    coordinates: null
-    source: https://www.zzife.edu.cn/html/965/
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 郑州财经学院位于河南省郑州市，主管部门为河南省教育厅。官网列示学校总占地面积1854亩（统计日期未注明）。简介列出惠济校区、航空港校区。
+    value: 郑州财经学院位于河南省郑州市，教育部名单列为本科，主管部门为河南省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.zzife.edu.cn/html/965/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 123.6
-    availability: found
-    search_sources: []
-    source: https://www.zzife.edu.cn/html/965/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 学校总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：学校总占地面积1854亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 学校总占地面积1854亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

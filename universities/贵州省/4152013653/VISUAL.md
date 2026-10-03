@@ -7,6 +7,7 @@
 | 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | LOGO-xin.png | [文件](https://mts.zmu.edu.cn/images/LOGO-xin.png) · [来源](https://mts.zmu.edu.cn) | 官网 | png | 656 × 101 | content_inspected | 未独立声明 |
+| 校徽 | a_1_2.png | [文件](https://www.chinaschool.com.cn/i_region/i_24_guizhou/a_25/a_1_2.png) · [来源](https://www.chinaschool.com.cn/i_region/i_24_guizhou/a_25/a_25.html) | 社区 | png | 140 × 140 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -14,8 +15,8 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
-尚无附来源配色。
+| 社区校徽取色参考 | `#0058A8` | 0,88,168 | reference |  |  | 社区标识取色建议 | [依据](https://www.chinaschool.com.cn/i_region/i_24_guizhou/a_25/a_1_2.png) |
+| 社区校徽取色参考 | `#0058B0` | 0,88,176 | reference |  |  | 社区标识取色建议 | [依据](https://www.chinaschool.com.cn/i_region/i_24_guizhou/a_25/a_1_2.png) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 

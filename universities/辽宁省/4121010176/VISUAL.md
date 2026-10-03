@@ -23,5 +23,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.syty.edu.cn/info/1123/2398.htm](https://www.syty.edu.cn/info/1123/2398.htm)
+- [学校标识](https://www.syty.edu.cn/info/1123/2398.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.syty.edu.cn/info/1123/2398.htm)。
+- [点击下载矢量图](https://www.syty.edu.cn/images/SYTYLogo.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.syty.edu.cn/info/1123/2398.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

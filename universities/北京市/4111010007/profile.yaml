@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4111010007'
   name_zh: 北京理工大学
@@ -68,34 +68,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - beijing-institute-of-technology
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: bit
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -113,12 +85,20 @@ research:
   audit_key: '4111010007'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#E5C4AB'
+    availability: found
     search_sources: []
+    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E5%8C%97%E4%BA%AC%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%20BIT.svg
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: a4726f20082a44e6
+    source_sha256: 43351c930cc4e130e7bbe72a3f4319059060b0a9029ef0bcab4117c902cedb5d
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；SVG填充属性/样式的色值频次，未按图形面积加权；仅作社区标识配色参考。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -142,7 +122,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: ae2c1da6bafe0147
     title: 北京理工大学校徽资源
@@ -623,6 +602,66 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
+  - value: '#0A308F'
+    rgb:
+    - 10
+    - 48
+    - 143
+    cmyk: null
+    pantone: 347C
+    label: 北理绿HEX原文候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 'AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。A4-02辅助色图北理绿色块写RGB: #0A308F，与绿色色块不相符；仅记录原HEX候选供核对，不将其当校级主色。CMYK只写C100Y100，不补零。'
+    cmyk_text: C100 Y100
+    source_sha256: ed826d44cabf3bb88831afcc183ff8e0b63cfe69125a1f121b065c6078068eae
+  - value: '#A13E0B'
+    rgb:
+    - 161
+    - 62
+    - 11
+    cmyk:
+    - 20
+    - 80
+    - 100
+    - 30
+    pantone: 1535C
+    label: 辅助褐色
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 'AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。A4-02辅助色图北理绿色块写RGB: #0A308F，与绿色色块不相符；仅记录原HEX候选供核对，不将其当校级主色。CMYK只写C100Y100，不补零。'
+    source_sha256: ed826d44cabf3bb88831afcc183ff8e0b63cfe69125a1f121b065c6078068eae
+  - value: '#005B30'
+    rgb:
+    - 0
+    - 91
+    - 48
+    cmyk:
+    - 100
+    - 40
+    - 100
+    - 30
+    pantone: 349C
+    label: 辅助墨绿色
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 'AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。A4-02辅助色图北理绿色块写RGB: #0A308F，与绿色色块不相符；仅记录原HEX候选供核对，不将其当校级主色。CMYK只写C100Y100，不补零。'
+    source_sha256: ed826d44cabf3bb88831afcc183ff8e0b63cfe69125a1f121b065c6078068eae
   vi_resources:
   - title: 视觉形象识别系统
     url: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/index.htm
@@ -654,6 +693,8 @@ visual:
     availability: found
     source_sha256: f94a34dbdc87abd78256617bb57c2ac2a01bdf0bddaf5e6d9ecb208bef02a8b4
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: A1 标志、校徽规范-01
     url: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/bzxhgf/index.htm
     kinds:
@@ -670,6 +711,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: A1 标志、校徽规范-01.ai
     url: https://www.bit.edu.cn/docs/2026-03/4b2a694f4ee5496083873317e69b4669.ai
     kinds:
@@ -686,6 +729,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-02.ai
     url: https://www.bit.edu.cn/docs/2026-03/023888b516cb4b939a6a1103cfb356ce.ai
     kinds:
@@ -702,6 +747,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-03.ai
     url: https://www.bit.edu.cn/docs/2026-03/951904edc9ee40d38e13774f3c679f81.ai
     kinds:
@@ -718,6 +765,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-04.ai
     url: https://www.bit.edu.cn/docs/2026-03/ce00255c8def4f77aa00659e66cd14e2.ai
     kinds:
@@ -734,6 +783,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-05.ai
     url: https://www.bit.edu.cn/docs/2026-03/c083888fcc234a0cb13bf8ffdf9e60e2.ai
     kinds:
@@ -750,6 +801,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-06.ai
     url: https://www.bit.edu.cn/docs/2026-03/32485e3d23a74f04a7526d65c2e78ca2.ai
     kinds:
@@ -766,6 +819,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-07.ai
     url: https://www.bit.edu.cn/docs/2026-03/22b7a453d6f244b1b27ad8db69d487ce.ai
     kinds:
@@ -782,6 +837,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-08.ai
     url: https://www.bit.edu.cn/docs/2026-03/0f667c27e58340519dfd04c7e7dcd872.ai
     kinds:
@@ -798,6 +855,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-09.ai
     url: https://www.bit.edu.cn/docs/2026-03/86ac67034b0a494cb26cc3c0fae2fe7a.ai
     kinds:
@@ -814,6 +873,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-10.ai
     url: https://www.bit.edu.cn/docs/2026-03/b2b8eb3ee6a542788133b5021a7ea726.ai
     kinds:
@@ -830,6 +891,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-11.ai
     url: https://www.bit.edu.cn/docs/2026-03/b1c017cb87b64ad7b2759488a29bb424.ai
     kinds:
@@ -846,6 +909,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A1 标志、校徽规范-12.ai
     url: https://www.bit.edu.cn/docs/2026-03/27a2a4a186c441fd87b09c5d99f7b832.ai
     kinds:
@@ -862,6 +927,8 @@ visual:
     availability: found
     source_sha256: 973afdcda0e7824aeb2bc305a5d21724704b67c1c4e602c145a2ecb9152d7d33
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4 学校标准色-01
     url: https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/xxbzs/index.htm
     kinds:
@@ -878,6 +945,8 @@ visual:
     availability: found
     source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: A4 学校标准色-01.ai
     url: https://www.bit.edu.cn/docs/2026-03/1f4ba86bcd734869be1d5c238d4ca354.ai
     kinds:
@@ -894,6 +963,8 @@ visual:
     availability: found
     source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4 学校标准色-02.ai
     url: https://www.bit.edu.cn/docs/2026-03/db815e51214c4b7d9d3c80c622a0828f.ai
     kinds:
@@ -910,6 +981,8 @@ visual:
     availability: found
     source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4 学校标准色-03.ai
     url: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
     kinds:
@@ -926,6 +999,8 @@ visual:
     availability: found
     source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: A4 学校标准色-04.ai
     url: https://www.bit.edu.cn/docs/2026-03/089dffec811a4d63a1669faaa355681a.ai
     kinds:
@@ -942,6 +1017,350 @@ visual:
     availability: found
     source_sha256: c48d5533761eb7b453fc8f845e33d3cd11f5655dd8fe2f46f26cca5893da485b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - url: https://www.bit.edu.cn/docs/2026-03/023888b516cb4b939a6a1103cfb356ce.ai
+    title: A1 标志、校徽规范-02.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/023888b516cb4b939a6a1103cfb356ce.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 966c88a9b93fac5ad93c767c5b9044645e3d42319658ace1af3b21ee33c91108
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 966c88a9b93fac5ad93c767c5b9044645e3d42319658ace1af3b21ee33c91108
+      byte_size: 1615856
+  - url: https://www.bit.edu.cn/docs/2026-03/089dffec811a4d63a1669faaa355681a.ai
+    title: A4 学校标准色-04.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/089dffec811a4d63a1669faaa355681a.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 303c7761f86a761117ab5c1902dfd484dd76d35b15375546c6c4d99bf16d50f0
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 303c7761f86a761117ab5c1902dfd484dd76d35b15375546c6c4d99bf16d50f0
+      byte_size: 1648765
+  - url: https://www.bit.edu.cn/docs/2026-03/0f667c27e58340519dfd04c7e7dcd872.ai
+    title: A1 标志、校徽规范-08.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/0f667c27e58340519dfd04c7e7dcd872.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 60a078bf806f72081c418ed9aca6209aabff973ed8057c4e1b79166eadc8ebe3
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 60a078bf806f72081c418ed9aca6209aabff973ed8057c4e1b79166eadc8ebe3
+      byte_size: 1645388
+  - url: https://www.bit.edu.cn/docs/2026-03/22b7a453d6f244b1b27ad8db69d487ce.ai
+    title: A1 标志、校徽规范-07.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/22b7a453d6f244b1b27ad8db69d487ce.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 38a3dc6a772f58312efec71567c5b3ea6f43810de35dccf83e1e52bfe34308f1
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 38a3dc6a772f58312efec71567c5b3ea6f43810de35dccf83e1e52bfe34308f1
+      byte_size: 1610136
+  - url: https://www.bit.edu.cn/docs/2026-03/27a2a4a186c441fd87b09c5d99f7b832.ai
+    title: A1 标志、校徽规范-12.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/27a2a4a186c441fd87b09c5d99f7b832.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: e97f403e242d7d243ea3873d52e5205835c952432f84b9b3659626e9a444a735
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: e97f403e242d7d243ea3873d52e5205835c952432f84b9b3659626e9a444a735
+      byte_size: 1755683
+  - title: 北京理工大学官方视觉规范
+    url: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 'AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。A4-02辅助色图北理绿色块写RGB: #0A308F，与绿色色块不相符；仅记录原HEX候选供核对，不将其当校级主色。CMYK只写C100Y100，不补零。'
+  - url: https://www.bit.edu.cn/docs/2026-03/32485e3d23a74f04a7526d65c2e78ca2.ai
+    title: A1 标志、校徽规范-06.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/32485e3d23a74f04a7526d65c2e78ca2.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: f97933d1573506bf46894b480e136a6972efdc7b68dce7864dea1673df6165f9
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: f97933d1573506bf46894b480e136a6972efdc7b68dce7864dea1673df6165f9
+      byte_size: 1605220
+  - url: https://www.bit.edu.cn/docs/2026-03/4b2a694f4ee5496083873317e69b4669.ai
+    title: A1 标志、校徽规范-01.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/4b2a694f4ee5496083873317e69b4669.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: cbb98d9c55bc5032d32e00727b0699ef940060fcbe9ff7586b0a824cffd8aa94
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: cbb98d9c55bc5032d32e00727b0699ef940060fcbe9ff7586b0a824cffd8aa94
+      byte_size: 1520563
+  - url: https://www.bit.edu.cn/docs/2026-03/86ac67034b0a494cb26cc3c0fae2fe7a.ai
+    title: A1 标志、校徽规范-09.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/86ac67034b0a494cb26cc3c0fae2fe7a.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: cb79f76442c680aa20b10f1dc3e07f5f0b60a13042d09dd1bc3507a7c1fd080c
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: cb79f76442c680aa20b10f1dc3e07f5f0b60a13042d09dd1bc3507a7c1fd080c
+      byte_size: 1680757
+  - url: https://www.bit.edu.cn/docs/2026-03/951904edc9ee40d38e13774f3c679f81.ai
+    title: A1 标志、校徽规范-03.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/951904edc9ee40d38e13774f3c679f81.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 7d446e8878ebb7a32d34a5a9423a420aba5d4eef07252f87e42a78a9451bbaf6
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 7d446e8878ebb7a32d34a5a9423a420aba5d4eef07252f87e42a78a9451bbaf6
+      byte_size: 1865984
+  - url: https://www.bit.edu.cn/docs/2026-03/b1c017cb87b64ad7b2759488a29bb424.ai
+    title: A1 标志、校徽规范-11.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/b1c017cb87b64ad7b2759488a29bb424.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 026f792da9a4e32c0bebd6df7e3494bdd6549a14def5fd896f4c9cad6b403aad
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 026f792da9a4e32c0bebd6df7e3494bdd6549a14def5fd896f4c9cad6b403aad
+      byte_size: 1788188
+  - url: https://www.bit.edu.cn/docs/2026-03/b2b8eb3ee6a542788133b5021a7ea726.ai
+    title: A1 标志、校徽规范-10.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/b2b8eb3ee6a542788133b5021a7ea726.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 920b8220060c0fee00073e90e418798772910a236129b06ec0143360044f7151
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 920b8220060c0fee00073e90e418798772910a236129b06ec0143360044f7151
+      byte_size: 1752824
+  - url: https://www.bit.edu.cn/docs/2026-03/c083888fcc234a0cb13bf8ffdf9e60e2.ai
+    title: A1 标志、校徽规范-05.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/c083888fcc234a0cb13bf8ffdf9e60e2.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: e7b4e29633418b445aae18ac9b357070b84d3a0258975f22286e210aa8069be4
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: e7b4e29633418b445aae18ac9b357070b84d3a0258975f22286e210aa8069be4
+      byte_size: 1694344
+  - url: https://www.bit.edu.cn/docs/2026-03/ce00255c8def4f77aa00659e66cd14e2.ai
+    title: A1 标志、校徽规范-04.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: https://www.bit.edu.cn/docs/2026-03/ce00255c8def4f77aa00659e66cd14e2.ai
+    publisher: 北京理工大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 019a83d69ed42b7ad9988d138f530fcb43792e90ac1a7acc0c9d011d00d28ca1
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 019a83d69ed42b7ad9988d138f530fcb43792e90ac1a7acc0c9d011d00d28ca1
+      byte_size: 1671527
+  landmarks: []
 culture:
   founded_year:
     value: 1940
@@ -957,6 +1376,27 @@ culture:
     verified: auto
     checked_at: '2026-09-30'
     availability: found
+    search_sources: []
+  flower:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  mascot:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  anthem:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
     search_sources: []
   history_events:
   - year: 1940
@@ -979,27 +1419,6 @@ culture:
     source: https://www.bit.edu.cn/gbxxgk/xxzc_sjb/index.htm
     verified: auto
     checked_at: '2026-10-01'
-  flower:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  mascot:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
 resources:
   official_templates_url:
     value: null
@@ -1045,609 +1464,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
-  admissions_url:
-    value: https://www.bit.edu.cn/zsjysjb/index.htm
-    availability: found
-    search_sources: []
-    source: https://www.bit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://job.bit.edu.cn/portal/home.html
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: http://english.bit.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.bit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - ENGLISH
-  information_disclosure_url:
-    value: https://xxgk.bit.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.bit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '985'
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: 北京海淀区中关村南大街5号
-    availability: found
-    search_sources: []
-    source: https://www.bit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 北京理工大学 版权所有地址:北京海淀区中关村南大街5号邮编:100081京ICP备10019879号-1京公网安备 11040202430169号
-  postal_code:
-    value: '100081'
-    availability: found
-    search_sources: []
-    source: https://www.bit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 北京理工大学 版权所有地址:北京海淀区中关村南大街5号邮编:100081京ICP备10019879号-1京公网安备 11040202430169号
-  coordinates:
-    value:
-      longitude: 116.317
-      latitude: 39.961
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 兵器科学与技术
-    - 机械工程
-    - 控制科学与工程
-    - 材料科学与工程
+    value: 北京理工大学位于北京市北京市，教育部名单列为本科，主管部门为工业和信息化部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 兵器科学与技术
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 机械工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 光学工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 控制科学与工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 信息与通信工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 材料科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 化学工程与技术
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 航空宇航科学与技术
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 管理科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 19
-    score: 474.0
-    indicators:
-      school_level: 32.3
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 14
-    score: 595.4
-    indicators:
-      faculty: 50.3
-      research: 67.8
-      resources: 18.3
-      discipline: 35.8
-      top_talent: 50.1
-      school_level: 33.3
-      international: 33.9
-      major_projects: 54.6
-      social_service: 18.7
-      talent_training: 232.5
-    upstream_url: https://www.shanghairanking.cn/institution/beijing-institute-of-technology
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 658
-    minimum_rank: 2300
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京理工大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4111010007'
-    upstream_record_name: 北京理工大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4111010007'
-    upstream_record_name: 北京理工大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4111010007'
-    upstream_record_name: 北京理工大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4111010007'
-    upstream_record_name: 北京理工大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4111010007'
-    upstream_record_name: 北京理工大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 就业概况
-    - 层次
-    - 师资概况
-    - 生源概况
-    - 科研概况
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4111010007'
-    upstream_record_name: Beijing Institute of Technology
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

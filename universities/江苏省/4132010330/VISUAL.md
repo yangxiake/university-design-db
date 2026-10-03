@@ -53,5 +53,6 @@
 - [关于发布南京体育学院品牌视觉识别系统的通知](https://www.nsi.edu.cn/xcb/5e/f9/c4433a89849/page.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nsi.edu.cn/xcb/5e/f9/c4433a89849/page.htm)。
 - [A基础部分--校徽标识组合、色彩文字规范](https://www.nsi.edu.cn/xcb/5e/f1/c4433a89841/page.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nsi.edu.cn/xcb/5e/f1/c4433a89841/page.htm)。
 - [基础部分A-校徽标识组合色彩文字规范.zip](https://www.nsi.edu.cn/_upload/article/files/e8/53/55ae73a44f84a12518574ac52568/c6ff4b67-6dd8-4e5a-9dae-57c7a9c124fd.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nsi.edu.cn/xcb/5e/f1/c4433a89841/page.htm)。
+- [校训校徽](https://www.nsi.edu.cn/2407/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.nsi.edu.cn/2407/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

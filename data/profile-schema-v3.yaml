@@ -134,6 +134,7 @@ entry_fields:
   - download_kind
   - archive_url
   - archive_member
+  - archive_member_display
   - archive_sha256
   - availability
   - verified
@@ -149,6 +150,7 @@ entry_fields:
   - value
   - rgb
   - cmyk
+  - cmyk_text
   - pantone
   - label
   - role
@@ -163,6 +165,10 @@ entry_fields:
   - repository
   - commit
   - asset_id
+  - source_sha256
+  - archive_member
+  - archive_member_display
+  - member_sha256
   visual.vi_resources:
   - title
   - url
@@ -186,6 +192,7 @@ entry_fields:
   - source_sha256
   - file_metadata
   - file_inspection
+  - document_metadata
   academics.subject_assessments:
   - subject
   - grade
@@ -249,6 +256,11 @@ entry_fields:
   - value
   - unit
   - basis
+  - population
+  - data_as_of
+  - publisher
+  - source_sha256
+  - evidence
   community.snapshots:
   - repository
   - commit

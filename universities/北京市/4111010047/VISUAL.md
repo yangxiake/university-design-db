@@ -11,6 +11,7 @@
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://www.cafa.edu.cn/library/image/logo.png) · [来源](https://www.cafa.edu.cn/) | 官网 | png | 194 × 70 | content_inspected | 未独立声明 |
 | 校徽 | central-academy-of-fine-arts-logo-1024px.png | [文件](https://cdn.urongda.com/images/normal/medium/central-academy-of-fine-arts-logo-1024px.png) · [来源](https://www.urongda.com/logos/4111010047) | 社区 | png | 1024 × 337 | content_inspected | 未独立声明 |
 | 校名文字 | 2018123204741973.jpg | [文件](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123204741973.jpg) · [来源](https://www.cafa.edu.cn/st/2018/10519466.htm) | 官网 | jpeg | 700 × 408 | content_inspected | 未独立声明 |
+| 组合标识 | 2018123204932598.jpg | [文件](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123204932598.jpg) · [来源](https://www.cafa.edu.cn/st/2018/10519466.htm) | 官网 | jpeg | 700 × 429 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -23,6 +24,8 @@
 | 深绿（C_02） | 未公布 | 未公布 | reference | [90, 21, 60, 65] |  | 官方VI标准值 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg) |
 | 白色（C_02） | 未公布 | 未公布 | reference | [0, 0, 0, 0] |  | 官方VI标准值 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg) |
 | 黑色（C_02） | 未公布 | 未公布 | reference | [63, 62, 59, 94] |  | 官方VI标准值 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123205129881.jpg) |
+| 官网标识PPT建议色 | `#E8B8C0` | 232,184,192 | reference |  |  | 校徽取样建议 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123204932598.jpg) |
+| 官网标识PPT建议色 | `#D87088` | 216,112,136 | reference |  |  | 校徽取样建议 | [依据](https://www.cafa.edu.cn/Library/dynamic.images/info/2018123204932598.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 

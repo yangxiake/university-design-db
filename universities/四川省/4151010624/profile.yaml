@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4151010624'
   name_zh: 中国民用航空飞行学院
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - civil-aviation-flight-university-of-china
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国民用航空飞行学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: aviation-flight
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国民用航空飞行学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -93,12 +65,22 @@ research:
   audit_key: '4151010624'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#CC3B3C'
+    source: https://vi.cafuc.edu.cn/__local/7/EF/75/41862E34E4923820B663C24F106_82C415C5_A1EB4.jpg
+    method: official_vi
+    label: 中飞院红
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。原图明确称主色，RGB204/59/60直接编码为HEX。
+    cmyk:
+    - 15
+    - 93
+    - 81
+    - 5
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 417a24723fd7d08d3721b14629dae2090871add693730c514a11c298245536e8
   color_secondary:
     value: null
     source: null
@@ -120,7 +102,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 929780d5d431ab60
     title: 中国民用航空飞行学院校徽资源
@@ -347,6 +328,487 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: d867dac18ccb6c76
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 25
+    - 60
+    - 25
+    pantone: null
+    label: 专色金
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/1/05/2F/098A0B14FDE91742462081F6367_1A00A561_B1083.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。原图仅CMYK，银色C8按原文记录。
+    source_sha256: a64a8aaa0591b033b4f44120e419ebe26626433a93f2704d320bf6bb7cbce909
+  - value: null
+    rgb: null
+    cmyk:
+    - 8
+    - 4
+    - 3
+    - 27
+    pantone: null
+    label: 专色银
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/1/05/2F/098A0B14FDE91742462081F6367_1A00A561_B1083.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。原图仅CMYK，银色C8按原文记录。
+    source_sha256: a64a8aaa0591b033b4f44120e419ebe26626433a93f2704d320bf6bb7cbce909
+  - value: '#5E638E'
+    rgb:
+    - 94
+    - 99
+    - 142
+    cmyk:
+    - 72
+    - 63
+    - 24
+    - 7
+    pantone: null
+    label: 中飞院蓝
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/3/F8/A5/001F1AF4E6E86120E89A1E374CB_B6F9BC6A_B4665.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: d0463b8b04323455722f6202d1c5aa463dd3a5f1f50650a086418d8c349e43d5
+  - value: '#DFB357'
+    rgb:
+    - 223
+    - 179
+    - 87
+    cmyk:
+    - 14
+    - 33
+    - 74
+    - 1
+    pantone: null
+    label: 中飞院金
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/3/F8/A5/001F1AF4E6E86120E89A1E374CB_B6F9BC6A_B4665.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: d0463b8b04323455722f6202d1c5aa463dd3a5f1f50650a086418d8c349e43d5
+  - value: '#220A08'
+    rgb:
+    - 34
+    - 10
+    - 8
+    cmyk:
+    - 76
+    - 88
+    - 87
+    - 72
+    pantone: null
+    label: 中飞院墨
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/3/F8/A5/001F1AF4E6E86120E89A1E374CB_B6F9BC6A_B4665.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: d0463b8b04323455722f6202d1c5aa463dd3a5f1f50650a086418d8c349e43d5
+  - value: '#CC3B3C'
+    rgb:
+    - 204
+    - 59
+    - 60
+    cmyk:
+    - 15
+    - 93
+    - 81
+    - 5
+    pantone: null
+    label: 中飞院红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/7/EF/75/41862E34E4923820B663C24F106_82C415C5_A1EB4.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。原图明确称主色，RGB204/59/60直接编码为HEX。
+    source_sha256: 417a24723fd7d08d3721b14629dae2090871add693730c514a11c298245536e8
+    source_field: visual.color_primary
+  - value: null
+    rgb: null
+    cmyk:
+    - 52
+    - 40
+    - 40
+    - 0
+    pantone: null
+    label: 辅助印刷色1
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 93
+    - 55
+    - 10
+    pantone: null
+    label: 辅助印刷色2
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 78
+    - 64
+    - 100
+    - 41
+    pantone: null
+    label: 辅助印刷色3
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 52
+    - 70
+    - 15
+    - 12
+    pantone: null
+    label: 辅助印刷色4
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 10
+    - 60
+    - 100
+    - 0
+    pantone: null
+    label: 辅助印刷色5
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 辅助印刷色6
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 89
+    - 30
+    - 0
+    pantone: null
+    label: 辅助印刷色7
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 76
+    - 52
+    - 100
+    - 16
+    pantone: null
+    label: 辅助印刷色8
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 34
+    - 78
+    - 21
+    - 14
+    pantone: null
+    label: 辅助印刷色9
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 4
+    - 52
+    - 93
+    - 0
+    pantone: null
+    label: 辅助印刷色10
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 30
+    pantone: null
+    label: 辅助印刷色11
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 90
+    - 65
+    - 10
+    - 0
+    pantone: null
+    label: 辅助印刷色12
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 73
+    - 38
+    - 100
+    - 1
+    pantone: null
+    label: 辅助印刷色13
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 14
+    - 86
+    - 82
+    - 0
+    pantone: null
+    label: 辅助印刷色14
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 4
+    - 33
+    - 80
+    - 0
+    pantone: null
+    label: 辅助印刷色15
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 20
+    pantone: null
+    label: 辅助印刷色16
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 76
+    - 20
+    - 8
+    - 0
+    pantone: null
+    label: 辅助印刷色17
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 63
+    - 0
+    - 59
+    - 0
+    pantone: null
+    label: 辅助印刷色18
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 84
+    - 77
+    - 0
+    pantone: null
+    label: 辅助印刷色19
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 16
+    - 48
+    - 0
+    pantone: null
+    label: 辅助印刷色20
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+    source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
   vi_resources:
   - title: 中国民用航空飞行学院官网视觉资源页 PPT模板发布/下载页
     url: https://vi.cafuc.edu.cn/
@@ -368,13 +830,13 @@ visual:
     use_scope: school
     content_read: true
     download_status: page_read
-  - title: 中国民用航空飞行学院官网视觉资源页 PPT模板发布/下载页
+  - title: 视觉形象识别系统
     url: https://vi.cafuc.edu.cn/index.htm
     kinds:
-    - PPT模板
+    - 视觉识别规范/资源
     formats:
     - HTML
-    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
     source: https://vi.cafuc.edu.cn/index.htm
     repository: null
     commit: null
@@ -383,9 +845,7 @@ visual:
     checked_at: '2026-10-02'
     availability: found
     source_sha256: 7ccbe05870398bb4717c5e0db3e830c1db20338b601e7c5423c98c57155004df
-    note: 发布范围：学校通用；按发布页说明使用。
-    publisher: 中国民用航空飞行学院官网视觉资源页
-    use_scope: school
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
     content_read: true
     download_status: page_read
   - title: 学校标志
@@ -404,6 +864,8 @@ visual:
     availability: found
     source_sha256: ef8e0dd339d738e1da28c0d0dd76a5706f7f5b81b1cc720ca7cb225870eb7185
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 彩虹色系校标
     url: https://vi.cafuc.edu.cn/info/1004/1099.htm
     kinds:
@@ -420,6 +882,8 @@ visual:
     availability: found
     source_sha256: 1cfff46b7ff9a229dd4009806cf5a887034333bc90eedb55de5b292f933c0afb
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: PPT模板
     url: https://vi.cafuc.edu.cn/info/1007/1124.htm
     kinds:
@@ -478,6 +942,125 @@ visual:
       attempts: *id001
       resolved_url: https://vi.cafuc.edu.cn/info/1007/1124.htm
       page_metadata: *id002
+  - title: 视觉形象识别系统
+    url: https://vi.cafuc.edu.cn
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.cafuc.edu.cn
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 7ccbe05870398bb4717c5e0db3e830c1db20338b601e7c5423c98c57155004df
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: PPT模板
+    url: https://vi.cafuc.edu.cn/info/1007/1124.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.cafuc.edu.cn/info/1007/1124.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 55bae56a68152813119bc947134b90fa0d79c75051f3db3d3a3e1a2ec5062458
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 标准色及色阶
+    url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 25fc5d0f2557943099752b8c1133ca3da56e1598f190e806b3b87ef37e6977a0
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 中国民用航空飞行学院官方视觉规范
+    url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.cafuc.edu.cn/__local/1/05/2F/098A0B14FDE91742462081F6367_1A00A561_B1083.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。原图仅CMYK，银色C8按原文记录。
+  - title: 中国民用航空飞行学院官方视觉规范
+    url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.cafuc.edu.cn/__local/3/F8/A5/001F1AF4E6E86120E89A1E374CB_B6F9BC6A_B4665.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  - title: 中国民用航空飞行学院官方视觉规范
+    url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.cafuc.edu.cn/__local/7/EF/75/41862E34E4923820B663C24F106_82C415C5_A1EB4.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。原图明确称主色，RGB204/59/60直接编码为HEX。
+  - title: 中国民用航空飞行学院官方视觉规范
+    url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+  landmarks: []
 culture:
   founded_year:
     value: 1956
@@ -494,7 +1077,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -516,6 +1098,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: https://vi.cafuc.edu.cn/
@@ -539,308 +1122,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.cafuc.edu.cn/zsjy.htm
-    availability: found
-    search_sources: []
-    source: https://www.cafuc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://www.cafuc.edu.cn/english1/Home.htm
-    availability: found
-    search_sources: []
-    source: https://www.cafuc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - ENGLISH
-  information_disclosure_url:
-    value: https://www.cafuc.edu.cn/zt/xxgk2020.htm
-    availability: found
-    search_sources: []
-    source: https://www.cafuc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 中国民用航空飞行学院
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国民用航空飞行学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 四川省广汉市南昌路四段46号
-    availability: found
-    search_sources: []
-    source: https://www.cafuc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:四川省广汉市南昌路四段46号
-  postal_code:
-    value: '618307'
-    availability: found
-    search_sources: []
-    source: https://www.cafuc.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮政编码:618307
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 中国民用航空飞行学院位于四川省德阳市，主管部门为交通运输部(中国民用航空局)。官网列示占地面积19000余亩（统计日期未注明）。
+    value: 中国民用航空飞行学院位于四川省德阳市，教育部名单列为本科，主管部门为交通运输部(中国民用航空局)。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.cafuc.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 1266.666667
-    availability: found
-    search_sources: []
-    source: https://www.cafuc.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地面积19000余亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 占地面积19000余亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 440
-    score: 97.3
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 中国民用航空飞行学院
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 365
-    score: 135.1
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/civil-aviation-flight-university-of-china
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 中国民用航空飞行学院
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4151010624'
-    upstream_record_name: 中国民用航空飞行学院
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4151010624'
-    upstream_record_name: 中国民用航空飞行学院
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

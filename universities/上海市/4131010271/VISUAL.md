@@ -16,16 +16,19 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | `#0062AC` | 0,98,172 | primary |  |  | 官方VI标准值 | [依据](https://shisu.edu.cn/about/identity-guidelines/index.html) |
+| 上外蓝 | `#0062AC` | 0,98,172 | primary | [100, 50, 0, 10] | 2945 C/U | 官方VI标准值 | [依据](https://shisu.edu.cn/about/identity-guidelines/index.html) |
 |  | `#0061A7` | 0,97,167 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos/%E4%B8%8A%E6%B5%B7%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%A4%A7%E5%AD%A6%20SISU.svg) |
 |  | `#0060A0` | 0,96,160 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0060A8` | 0,96,168 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0060B0` | 0,96,176 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 上外蓝 | `#0062AC` | 0,98,172 | primary | [100, 50, 0, 10] | 2945 C/U | 官方VI标准值 | [依据](https://www.shisu.edu.cn/about/identity-guidelines) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://shisu.edu.cn/about/identity-guidelines/index.html](https://shisu.edu.cn/about/identity-guidelines/index.html)
+- [上海外国语大学官方视觉规范](https://www.shisu.edu.cn/about/identity-guidelines)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://shisu.edu.cn/about/identity-guidelines/index.html)。
+- [上海外国语大学官方视觉规范](https://www.shisu.edu.cn/about/identity-guidelines)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.shisu.edu.cn/about/identity-guidelines)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

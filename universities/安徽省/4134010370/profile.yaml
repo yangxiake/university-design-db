@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4134010370'
   name_zh: 安徽师范大学
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - anhui-normal-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 安徽师范大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: anhui-2
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 安徽师范大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -94,25 +66,39 @@ research:
   audit_key: '4134010370'
 visual:
   color_primary:
-    value: '#C39315'
-    source: https://www.ahnu.edu.cn/ahsf2023/images/logo2026081.png
+    value: '#004EA2'
+    source: https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg
+    method: official_vi
+    label: 标准色1
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项均为校方标准色；primary/secondary供导出显示按原图编号排列，不声明独占校色。
+    cmyk:
+    - 96
+    - 70
+    - 0
+    - 0
+    pantone: null
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    method: manual_derived
-    label: 官网标识取样的PPT建议主色
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    role_note: AI检查图像身份后选用；取样可能受网页版本、抗锯齿及图片压缩影响，不是官方VI标准色。
-    page_source: https://www.ahnu.edu.cn
-    image_sha256: af012c50c9ef93a7ceca955041ddd5e97c2ec7c021351c1dda3cd0284ca9ba88
+    source_sha256: 9bc295b33efb845b92746f56dedb6dfd6c841d2eb5b43ad8adc576ce398c1644
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#6DC4EE'
+    source: https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg
+    method: official_vi
+    label: 标准色2
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项均为校方标准色；primary/secondary供导出显示按原图编号排列，不声明独占校色。
+    cmyk:
+    - 55
+    - 4
+    - 1
+    - 0
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 9bc295b33efb845b92746f56dedb6dfd6c841d2eb5b43ad8adc576ce398c1644
   vi_url:
     value: https://www.ahnu.edu.cn/xxgk/xxbs/xmxh.htm
     source: https://www.ahnu.edu.cn/xxgk/xxbs/xmxh.htm
@@ -128,7 +114,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: cb210689ed2456df
     title: 安徽师范大学校徽资源
@@ -232,15 +217,16 @@ visual:
     - 21
     cmyk: null
     pantone: null
-    role: primary
+    role: reference
     method: manual_derived
     official: false
     source: https://www.ahnu.edu.cn/ahsf2023/images/logo2026081.png
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡
-    source_field: visual.color_primary
+    basis: 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡；已有新VI入口依据，保留为历史/取色参考。
+    source_field: null
+    current: false
   - value: '#0048A0'
     rgb:
     - 0
@@ -329,6 +315,92 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: a275d55caaa28b27
+  - value: '#004EA2'
+    rgb:
+    - 0
+    - 78
+    - 162
+    cmyk:
+    - 96
+    - 70
+    - 0
+    - 0
+    pantone: null
+    label: 标准色1
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项均为校方标准色；primary/secondary供导出显示按原图编号排列，不声明独占校色。
+    source_sha256: 9bc295b33efb845b92746f56dedb6dfd6c841d2eb5b43ad8adc576ce398c1644
+    source_field: visual.color_primary
+  - value: '#6DC4EE'
+    rgb:
+    - 109
+    - 196
+    - 238
+    cmyk:
+    - 55
+    - 4
+    - 1
+    - 0
+    pantone: null
+    label: 标准色2
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项均为校方标准色；primary/secondary供导出显示按原图编号排列，不声明独占校色。
+    source_sha256: 9bc295b33efb845b92746f56dedb6dfd6c841d2eb5b43ad8adc576ce398c1644
+    source_field: visual.color_secondary
+  - value: '#C39214'
+    rgb:
+    - 195
+    - 146
+    - 20
+    cmyk:
+    - 27
+    - 45
+    - 98
+    - 2
+    pantone: null
+    label: 标准色3
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项均为校方标准色；primary/secondary供导出显示按原图编号排列，不声明独占校色。
+    source_sha256: 9bc295b33efb845b92746f56dedb6dfd6c841d2eb5b43ad8adc576ce398c1644
+  - value: '#000000'
+    rgb:
+    - 0
+    - 0
+    - 0
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: null
+    label: 标准色4
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项均为校方标准色；primary/secondary供导出显示按原图编号排列，不声明独占校色。
+    source_sha256: 9bc295b33efb845b92746f56dedb6dfd6c841d2eb5b43ad8adc576ce398c1644
   vi_resources:
   - title: 校名校徽
     url: https://www.ahnu.edu.cn/xxgk/xxbs/xmxh.htm
@@ -346,6 +418,8 @@ visual:
     availability: found
     source_sha256: 364b96438330ab7b8dca436854cbdc81234008affbe1f300a807bafe68023101
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校徽+校名网页图.jpg
     url: https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=9E6992B8C1E50457A6F64F633FC49045
     kinds:
@@ -362,6 +436,8 @@ visual:
     availability: found
     source_sha256: 364b96438330ab7b8dca436854cbdc81234008affbe1f300a807bafe68023101
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽+校名网页图.png
     url: https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=7C876658FC1EDBDC0099A73FE5C8E074
     kinds:
@@ -378,6 +454,8 @@ visual:
     availability: found
     source_sha256: 364b96438330ab7b8dca436854cbdc81234008affbe1f300a807bafe68023101
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 标准色
     url: https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm
     kinds:
@@ -394,13 +472,15 @@ visual:
     availability: found
     source_sha256: 47323b09f892cad3a903fab19a48ffeef29d1d99c29613d319f392640aaf3444
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 标准色.zip
     url: https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=E60E3524A76641DB292BE94DDEF868E2
     kinds:
     - 视觉识别规范/资源
     formats:
     - ZIP
-    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
     source: https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm
     repository: null
     commit: null
@@ -408,8 +488,46 @@ visual:
     verified: auto
     checked_at: '2026-10-02'
     availability: found
-    source_sha256: 47323b09f892cad3a903fab19a48ffeef29d1d99c29613d319f392640aaf3444
-    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - detail: '<urlopen error _ssl.c:1112: The handshake operation timed out>'
+        error_type: URLError
+        status: access_or_parse_gap
+        url: https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=E60E3524A76641DB292BE94DDEF868E2
+      - resolved_url: https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=E60E3524A76641DB292BE94DDEF868E2
+        status: file_read
+        url: http://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=E60E3524A76641DB292BE94DDEF868E2
+      resolved_url: https://www.ahnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1551458133&wbfileid=E60E3524A76641DB292BE94DDEF868E2
+    file_metadata:
+      byte_size: 61196113
+      format: ZIP
+      member_count: 4
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 66f63e58d9863a500ace664a6490dccea0f3d770a5df91c162278d27ccbfd880
+    content_read: true
+    download_status: content_inspected
+  - title: 安徽师范大学官方视觉规范
+    url: https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项均为校方标准色；primary/secondary供导出显示按原图编号排列，不声明独占校色。
+  landmarks: []
 culture:
   founded_year:
     value: 1928
@@ -426,7 +544,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -448,6 +565,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -482,340 +600,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
-  admissions_url:
-    value: http://zsjy.ahnu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ahnu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://jyw.wjhyfwy.com/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 安徽师范大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: 师范
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 安徽师范大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 安徽师范大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 安徽省芜湖市北京中路2号；安徽省芜湖市九华南路189号；安徽省芜湖市九华北路171号
-    availability: found
-    search_sources: []
-    source: https://www.ahnu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:安徽省芜湖市北京中路2号
-    - 地址:安徽省芜湖市九华南路189号
-    - 地址:安徽省芜湖市九华北路171号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
 overview:
   summary_zh:
-    value: 安徽师范大学位于安徽省芜湖市，主管部门为安徽省。官网列示普通本科生35100余人（统计日期未注明）。官网列示校园占地总面积201.74万平方米（统计日期未注明）。
+    value: 安徽师范大学位于安徽省芜湖市，教育部名单列为本科，主管部门为安徽省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.ahnu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 35100
-    availability: found
-    search_sources: []
-    source: https://www.ahnu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 普通本科生；近似/下界数，保留原标注：普通本科生35100余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 普通本科生35100余人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 201.74
-    availability: found
-    search_sources: []
-    source: https://www.ahnu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 校园占地总面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：校园占地总面积201.74万平方米；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 校园占地总面积201.74万平方米
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value:
-    - 博士学位授权一级学科：12个；统计时间undated
-    - 博士专业学位授权点：2个；统计时间undated
-    - 硕士学位授权一级学科：30个；统计时间undated
-    - 硕士专业学位授权点：26个；统计时间undated
-    availability: found
-    search_sources: []
-    source: https://www.ahnu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: (0553)5910027'
-    availability: found
-    search_sources: []
-    source: https://www.ahnu.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:241002 电话:(0553)5910027
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 126
-    score: 210.5
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 安徽师范大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 145
-    score: 220.6
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/anhui-normal-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 安徽师范大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4134010370'
-    upstream_record_name: 安徽师范大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4134010370'
-    upstream_record_name: 安徽师范大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4134010370'
-    upstream_record_name: Anhui Normal University
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

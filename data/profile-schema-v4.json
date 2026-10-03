@@ -1,0 +1,1220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "University PPT core profile v4",
+  "description": "2026-10-02 approved PPT core fields; dynamic extension data removed",
+  "$defs": {
+    "uri": {
+      "type": "string",
+      "pattern": "^https?://[^/\\s]+",
+      "format": "uri"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "fact": {
+      "type": "object",
+      "properties": {
+        "value": {},
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "checked_at": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "verified": {
+          "enum": [
+            "unverified",
+            "auto",
+            "human"
+          ]
+        },
+        "availability": {
+          "enum": [
+            "unresearched",
+            "found",
+            "not_found",
+            "conflict"
+          ]
+        },
+        "search_sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/uri"
+          }
+        }
+      },
+      "required": [
+        "value",
+        "source",
+        "checked_at",
+        "verified",
+        "availability",
+        "search_sources"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "availability": {
+                "const": "found"
+              }
+            },
+            "required": [
+              "availability"
+            ]
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "not": {
+                  "enum": [
+                    null,
+                    ""
+                  ]
+                }
+              },
+              "source": {
+                "$ref": "#/$defs/uri"
+              },
+              "checked_at": {
+                "$ref": "#/$defs/date"
+              },
+              "verified": {
+                "enum": [
+                  "auto",
+                  "human"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "availability": {
+                "const": "unresearched"
+              }
+            },
+            "required": [
+              "availability"
+            ]
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "source": {
+                "type": "null"
+              },
+              "checked_at": {
+                "type": "null"
+              },
+              "verified": {
+                "const": "unverified"
+              },
+              "search_sources": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "availability": {
+                "const": "not_found"
+              }
+            },
+            "required": [
+              "availability"
+            ]
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "source": {
+                "type": "null"
+              },
+              "checked_at": {
+                "$ref": "#/$defs/date"
+              },
+              "verified": {
+                "enum": [
+                  "auto",
+                  "human"
+                ]
+              },
+              "search_sources": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "availability": {
+                "const": "conflict"
+              }
+            },
+            "required": [
+              "availability"
+            ]
+          },
+          "then": {
+            "required": [
+              "candidates"
+            ],
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "source": {
+                "type": "null"
+              },
+              "checked_at": {
+                "$ref": "#/$defs/date"
+              },
+              "verified": {
+                "enum": [
+                  "auto",
+                  "human"
+                ]
+              },
+              "candidates": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "value": {},
+                    "source": {
+                      "$ref": "#/$defs/uri"
+                    }
+                  },
+                  "required": [
+                    "value",
+                    "source"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "entry": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "$ref": "#/$defs/uri"
+        },
+        "verified": {
+          "enum": [
+            "auto",
+            "human"
+          ]
+        },
+        "checked_at": {
+          "$ref": "#/$defs/date"
+        }
+      },
+      "required": [
+        "source",
+        "verified",
+        "checked_at"
+      ]
+    },
+    "logo": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/entry"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "asset_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "kind": {
+              "enum": [
+                "badge",
+                "wordmark",
+                "combination",
+                "anniversary",
+                "site_identity"
+              ]
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "url": {
+              "$ref": "#/$defs/uri"
+            },
+            "official": {
+              "type": "boolean"
+            },
+            "publisher": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rights_holder": {
+              "type": "string",
+              "minLength": 1
+            },
+            "usage_note": {
+              "type": "string",
+              "minLength": 1
+            },
+            "access_status": {
+              "enum": [
+                "indexed_not_fetched",
+                "content_inspected",
+                "inspection_failed"
+              ]
+            },
+            "width": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "height": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "vector": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "transparent_background": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "asset_id",
+            "kind",
+            "title",
+            "url",
+            "official",
+            "publisher",
+            "rights_holder",
+            "usage_note",
+            "access_status"
+          ]
+        },
+        {
+          "if": {
+            "properties": {
+              "access_status": {
+                "const": "content_inspected"
+              }
+            },
+            "required": [
+              "access_status"
+            ]
+          },
+          "then": {
+            "required": [
+              "sha256",
+              "byte_size"
+            ],
+            "properties": {
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "byte_size": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "download_kind": {
+                "const": "archive_member"
+              }
+            },
+            "required": [
+              "download_kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "archive_url",
+              "archive_member",
+              "archive_sha256"
+            ],
+            "properties": {
+              "archive_url": {
+                "$ref": "#/$defs/uri"
+              },
+              "archive_member": {
+                "type": "string",
+                "minLength": 1
+              },
+              "archive_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "palette": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/entry"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^#[0-9A-Fa-f]{6}$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "rgb": {
+              "anyOf": [
+                {
+                  "type": "array",
+                  "minItems": 3,
+                  "maxItems": 3,
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 255
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "method": {
+              "enum": [
+                "official_vi",
+                "badge_sample",
+                "manual_derived",
+                "community_theme",
+                "community_logo_sample"
+              ]
+            },
+            "official": {
+              "type": "boolean"
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1
+            },
+            "role": {
+              "enum": [
+                "primary",
+                "secondary",
+                "reference",
+                "accent"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "method",
+            "official",
+            "basis",
+            "role"
+          ]
+        },
+        {
+          "if": {
+            "properties": {
+              "method": {
+                "const": "official_vi"
+              }
+            },
+            "required": [
+              "method"
+            ]
+          },
+          "then": {
+            "properties": {
+              "official": {
+                "const": true
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "method": {
+                "not": {
+                  "const": "official_vi"
+                }
+              }
+            },
+            "required": [
+              "method"
+            ]
+          },
+          "then": {
+            "properties": {
+              "official": {
+                "const": false
+              },
+              "value": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "value": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "value"
+            ]
+          },
+          "then": {
+            "properties": {
+              "method": {
+                "const": "official_vi"
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rgb": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "label"
+            ],
+            "anyOf": [
+              {
+                "required": [
+                  "cmyk"
+                ],
+                "properties": {
+                  "cmyk": {
+                    "type": "array",
+                    "minItems": 4,
+                    "maxItems": 4,
+                    "items": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100
+                    }
+                  }
+                }
+              },
+              {
+                "required": [
+                  "pantone"
+                ],
+                "properties": {
+                  "pantone": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              {
+                "required": [
+                  "cmyk_text"
+                ],
+                "properties": {
+                  "cmyk_text": {
+                    "type": "string",
+                    "pattern": "^\\s*(?:[CMYK]\\s*:?\\s*(?:100(?:\\.0+)?|\\d{1,2}(?:\\.\\d+)?)%?\\s*)+$"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "vi": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/entry"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "url": {
+              "$ref": "#/$defs/uri"
+            },
+            "kinds": {
+              "description": "Historical directory records use a text label; newer records use a list of labels.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              ]
+            },
+            "formats": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "official": {
+              "type": "boolean"
+            },
+            "access_requirement": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "title",
+            "url",
+            "kinds",
+            "formats",
+            "official",
+            "access_requirement"
+          ]
+        }
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 4
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "name_en": {
+          "$ref": "#/$defs/fact"
+        },
+        "official_website": {
+          "$ref": "#/$defs/fact"
+        },
+        "short_name_zh": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "if": {
+                "properties": {
+                  "availability": {
+                    "const": "found"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 500
+                  }
+                },
+                "required": []
+              }
+            }
+          ]
+        },
+        "short_name_en": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "if": {
+                "properties": {
+                  "availability": {
+                    "const": "found"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 500
+                  }
+                },
+                "required": []
+              }
+            }
+          ]
+        },
+        "aliases": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "if": {
+                "properties": {
+                  "availability": {
+                    "const": "found"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 200
+                    }
+                  }
+                },
+                "required": []
+              }
+            }
+          ]
+        },
+        "school_code": {
+          "type": "string",
+          "pattern": "^[0-9]{10}$"
+        },
+        "name_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "province": {
+          "type": "string",
+          "minLength": 1
+        },
+        "city": {
+          "type": "string",
+          "minLength": 1
+        },
+        "authority": {
+          "type": "string",
+          "minLength": 1
+        },
+        "level": {
+          "type": "string",
+          "minLength": 1
+        },
+        "registry_source": {
+          "$ref": "#/$defs/uri"
+        },
+        "note": {
+          "type": "string",
+          "description": "教育部名单原始备注；空值不解释为公办"
+        }
+      },
+      "required": [
+        "name_en",
+        "official_website",
+        "short_name_zh",
+        "short_name_en",
+        "aliases",
+        "school_code",
+        "name_zh",
+        "province",
+        "city",
+        "authority",
+        "level",
+        "registry_source",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "visual": {
+      "type": "object",
+      "properties": {
+        "badge_description": {
+          "$ref": "#/$defs/fact"
+        },
+        "color_primary": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "if": {
+                "properties": {
+                  "availability": {
+                    "const": "found"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "string",
+                    "pattern": "^#[0-9A-Fa-f]{6}$"
+                  },
+                  "method": {
+                    "enum": [
+                      "official_vi",
+                      "badge_sample",
+                      "manual_derived"
+                    ]
+                  }
+                },
+                "required": [
+                  "method"
+                ]
+              }
+            }
+          ]
+        },
+        "color_secondary": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "if": {
+                "properties": {
+                  "availability": {
+                    "const": "found"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "string",
+                    "pattern": "^#[0-9A-Fa-f]{6}$"
+                  },
+                  "method": {
+                    "enum": [
+                      "official_vi",
+                      "badge_sample",
+                      "manual_derived"
+                    ]
+                  }
+                },
+                "required": [
+                  "method"
+                ]
+              }
+            }
+          ]
+        },
+        "vi_url": {
+          "$ref": "#/$defs/fact"
+        },
+        "logo_assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/logo"
+          }
+        },
+        "color_palette": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/palette"
+          }
+        },
+        "vi_resources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/vi"
+          }
+        },
+        "landmarks": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+              },
+              "source": {
+                "$ref": "#/$defs/uri"
+              },
+              "checked_at": {
+                "$ref": "#/$defs/date"
+              },
+              "verified": {
+                "enum": [
+                  "unverified",
+                  "auto",
+                  "human"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "source",
+              "checked_at",
+              "verified"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "badge_description",
+        "color_primary",
+        "color_secondary",
+        "vi_url",
+        "logo_assets",
+        "color_palette",
+        "vi_resources",
+        "landmarks"
+      ],
+      "additionalProperties": false
+    },
+    "culture": {
+      "type": "object",
+      "properties": {
+        "anthem": {
+          "$ref": "#/$defs/fact"
+        },
+        "flower": {
+          "$ref": "#/$defs/fact"
+        },
+        "founded_year": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "if": {
+                "properties": {
+                  "availability": {
+                    "const": "found"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "integer",
+                    "minimum": 1000
+                  },
+                  "basis": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "basis"
+                ]
+              }
+            }
+          ]
+        },
+        "mascot": {
+          "$ref": "#/$defs/fact"
+        },
+        "motto": {
+          "$ref": "#/$defs/fact"
+        },
+        "history_events": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": 1000,
+                "maximum": 2026
+              },
+              "event": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 200
+              },
+              "source": {
+                "$ref": "#/$defs/uri"
+              },
+              "checked_at": {
+                "$ref": "#/$defs/date"
+              },
+              "verified": {
+                "enum": [
+                  "unverified",
+                  "auto",
+                  "human"
+                ]
+              }
+            },
+            "required": [
+              "year",
+              "event",
+              "source",
+              "checked_at",
+              "verified"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "anthem",
+        "flower",
+        "founded_year",
+        "mascot",
+        "motto",
+        "history_events"
+      ],
+      "additionalProperties": false
+    },
+    "resources": {
+      "type": "object",
+      "properties": {
+        "official_template_publisher": {
+          "$ref": "#/$defs/fact"
+        },
+        "official_template_terms": {
+          "$ref": "#/$defs/fact"
+        },
+        "official_templates_url": {
+          "$ref": "#/$defs/fact"
+        },
+        "community_resources": {
+          "type": "array",
+          "items": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/entry"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "url": {
+                    "$ref": "#/$defs/uri"
+                  },
+                  "publisher": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "kind": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "official": {
+                    "const": false
+                  },
+                  "commit": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{40}$"
+                  },
+                  "usage_note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "title",
+                  "url",
+                  "publisher",
+                  "kind",
+                  "official",
+                  "commit",
+                  "usage_note"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "required": [
+        "official_template_publisher",
+        "official_template_terms",
+        "official_templates_url"
+      ],
+      "additionalProperties": false
+    },
+    "overview": {
+      "type": "object",
+      "properties": {
+        "summary_zh": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "if": {
+                "properties": {
+                  "availability": {
+                    "const": "found"
+                  }
+                },
+                "required": [
+                  "availability"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 500
+                  }
+                },
+                "required": []
+              }
+            }
+          ]
+        }
+      },
+      "required": [
+        "summary_zh"
+      ],
+      "additionalProperties": false
+    },
+    "classification": {
+      "type": "object",
+      "properties": {
+        "scope_tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "scope_category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_source": {
+          "$ref": "#/$defs/uri"
+        }
+      },
+      "required": [
+        "scope_tags",
+        "scope_category",
+        "scope_source"
+      ]
+    },
+    "research": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "unresearched",
+            "in_progress",
+            "auto_collected",
+            "needs_review",
+            "reviewed"
+          ]
+        }
+      },
+      "required": [
+        "status"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "identity",
+    "visual",
+    "culture",
+    "resources",
+    "overview",
+    "classification",
+    "research"
+  ],
+  "additionalProperties": false
+}

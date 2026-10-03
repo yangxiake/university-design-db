@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4144012574'
   name_zh: 广东东软学院
@@ -9,12 +9,17 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Neusoft Institute Guangdong
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E4%B8%9C%E4%B8%9C%E8%BD%AF%E5%AD%A6%E9%99%A2&oldid=88645049
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: fb05d2799f45ce8ff267158edab800d3406fff093a1a027c9ffcb2f3982c39cd
+    source_revision: 88645049
+    collector: wikipedia_core_infobox
+    basis: 当前完整校名的中文维基百科大学信息框EnglishName/外文名称字段；社区记录，非校方命名证明。
   official_website:
     value: https://www.nuit.edu.cn/
     source: https://www.nuit.edu.cn/
@@ -43,14 +48,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +63,20 @@ research:
   audit_key: '4144012574'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#082880'
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_39/a_1_2_0.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: a43ef3fd0b7e3c22a02a72d5
+    source_sha256: ac5cbc249c20cdb95dcfc32a41aa8cde94c6dafb47c4cec4aabea0af438570a8
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +98,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 1f55db558fa714f8997e8e7d
     kind: site_identity
@@ -140,7 +144,78 @@ visual:
       status: access_or_parse_gap
       error_type: HTTPError
       detail: 'HTTP Error 404: Not Found'
-  color_palette: []
+  - asset_id: a43ef3fd0b7e3c22a02a72d5
+    title: 广东东软学院社区校徽预览
+    kind: combination
+    url: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_39/a_1_2_0.png
+    source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_39/a_39.html
+    file_name: a_1_2_0.png
+    upstream_path: null
+    publisher: 大学志 chinaschool.com.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 广东东软学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: 22ca30bfe1e55b3fbab4e525e519d3b982b844cc8084da7cfe22f4e231dd020b
+    identity_basis: 页面标题为当前完整校名且图像alt精确标注同校校徽；社区关联证据，现行版本未独立确认。
+    usage_note: 社区学校资料页校徽预览；不是校方直接发布，不认定现行VI或图形授权。只保存链接与实际文件元数据，不再分发图形。
+    sha256: ac5cbc249c20cdb95dcfc32a41aa8cde94c6dafb47c4cec4aabea0af438570a8
+    access_status: content_inspected
+    byte_size: 13496
+    format: png
+    vector: false
+    width: 285
+    representation: raster
+    height: 80
+    has_alpha: true
+    transparent_background: true
+    visual_review: auto
+    visual_review_basis: 实际查看图形；校名字样对应当前学校，或该页专用图形具有独立学校标识。社区来源，未认定为官方现行VI。
+  color_palette:
+  - value: '#082880'
+    rgb:
+    - 8
+    - 40
+    - 128
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_39/a_1_2_0.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_39/a_39.html
+    asset_id: a43ef3fd0b7e3c22a02a72d5
+    source_sha256: ac5cbc249c20cdb95dcfc32a41aa8cde94c6dafb47c4cec4aabea0af438570a8
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
+  - value: '#082888'
+    rgb:
+    - 8
+    - 40
+    - 136
+    cmyk: null
+    pantone: null
+    label: 社区校徽取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_39/a_1_2_0.png
+    page_source: https://www.chinaschool.com.cn/i_region/i_19_guangdong/a_39/a_39.html
+    asset_id: a43ef3fd0b7e3c22a02a72d5
+    source_sha256: ac5cbc249c20cdb95dcfc32a41aa8cde94c6dafb47c4cec4aabea0af438570a8
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区校徽预览的PPT设计参考，不是校方官方VI标准。
   vi_resources:
   - title: 广东东软学院社区校徽目录
     url: https://www.urongda.com/logos/4144012574
@@ -237,14 +312,20 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2002
+    availability: found
     search_sources: []
+    source: https://www.nuit.edu.cn/gydr/xxjj/
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-01'
+    source_sha256: 8dfd746ca7ab9a6dc7ca2c548ebc629f58d229a77b0ffef608166780fb339ae2
+    collector: read_overview_identity_facts
+    basis: 官网以本校为主语明确记载创办/成立时间；不把筹建、更名或新校区年份代填。
+    previous_status: unresearched
   motto:
     value: 精勤博学，学以致用
     source: https://www.nuit.edu.cn/gydr/xxjj/
@@ -252,7 +333,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -274,6 +354,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -296,234 +377,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.nuit.edu.cn/zsxxw
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://career.nuit.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业指导
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.nuit.edu.cn/gydr/xxgk/
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 佛山市南海大学城
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/wzxgs/lxwms/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 联系地址:佛山市南海大学城
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 广东东软学院位于广东省佛山市，主管部门为广东省教育厅。官网列示全日制在校生12000余人（统计日期未注明）。官网列示教职工800余人（统计日期未注明）。官网列示占地面积59.60万平方米（统计日期未注明）。
+    value: 广东东软学院位于广东省佛山市，教育部名单列为本科，主管部门为广东省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.nuit.edu.cn/gydr/xxjj/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 12000
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/gydr/xxjj/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生12000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校生12000余人
-  faculty_count:
-    value: 800
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/gydr/xxjj/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工800余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工800余人
-  campus_area_hectares:
-    value: 59.6
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/gydr/xxjj/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位平方米，换算公顷（1公顷=15亩=10000平方米）；原标注：占地面积59.60万平方米；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 占地面积59.60万平方米
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '联系电话: 0757-86684618'
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/wzxgs/lxwms/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 联系电话:0757-86684618
-  email:
-    value: pinpaibu@nuit.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.nuit.edu.cn/wzxgs/lxwms/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网联系页明确列出的联系方式；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电子邮箱:pinpaibu@nuit.edu.cn
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

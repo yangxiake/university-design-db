@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4111010022'
   name_zh: 北京林业大学
@@ -68,34 +68,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - beijing-forestry-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: bjfu
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -113,12 +85,20 @@ research:
   audit_key: '4111010022'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#006534'
+    source: http://vi.bjfu.edu.cn/limit/20220407203736443639.ai
+    method: official_vi
+    label: 北林绿
+    basis: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。北林绿色卡RGB0/101/52及HTML#006534一致；CMYK原文排印为C0 M0
+      Y1 K00，未将异常短数字猜测补全。
+    cmyk: null
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 7c9e7280deec53fb348b3d542bc4cf511dce2bf73c5791ac43ecd5ce7c5c68ae
+    cmyk_text: C0 M0 Y1 K00
   color_secondary:
     value: null
     source: null
@@ -141,7 +121,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 7577d19fae094e91
     title: 北京林业大学校徽资源
@@ -510,6 +489,26 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 0909f9351b49a600
+  - value: '#006534'
+    rgb:
+    - 0
+    - 101
+    - 52
+    cmyk: null
+    pantone: null
+    label: 北林绿
+    role: primary
+    method: official_vi
+    official: true
+    source: http://vi.bjfu.edu.cn/limit/20220407203736443639.ai
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。北林绿色卡RGB0/101/52及HTML#006534一致；CMYK原文排印为C0 M0
+      Y1 K00，未将异常短数字猜测补全。
+    cmyk_text: C0 M0 Y1 K00
+    source_sha256: 7c9e7280deec53fb348b3d542bc4cf511dce2bf73c5791ac43ecd5ce7c5c68ae
+    source_field: visual.color_primary
   vi_resources:
   - title: 视觉形象识别系统
     url: https://vi.bjfu.edu.cn/contents/content.html#donwdef
@@ -654,22 +653,409 @@ visual:
     availability: found
     source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 北京林业大学视觉形象识别系统
+    url: http://vi.bjfu.edu.cn/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: f6b615bdc05309b7ae44316bd3045d65a84d6f66ce1c55b4790bd4ce51348be1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 北京林业大学视觉形象识别系统
+    url: http://vi.bjfu.edu.cn/contents/content.html
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 标准校标.ai
+    url: http://vi.bjfu.edu.cn/limit/20221001123755951998.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校标不可入侵范围.ai
+    url: http://vi.bjfu.edu.cn/limit/20221001123805293047.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校标的多种形式.ai
+    url: http://vi.bjfu.edu.cn/limit/20221001123814358107.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校标反白.ai
+    url: http://vi.bjfu.edu.cn/limit/20221001123823849203.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校标墨稿.ai
+    url: http://vi.bjfu.edu.cn/limit/20221001123832255364.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校标网格制图.ai
+    url: http://vi.bjfu.edu.cn/limit/20221001123840924476.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校标最小比例限定.ai
+    url: http://vi.bjfu.edu.cn/limit/20221001123849549576.ai
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: e94ba45c0bc6963b34f1a23e5249f6a4006602e75ea7a7b46c2d4a24e69bbd96
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 北京林业大学视觉形象识别系统
+    url: http://vi.bjfu.edu.cn/contents/content2.html
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content2.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dc075d516db05769480c75b39d85b0b905592285e8dfdb508e1e5f785d236aba
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 标准色色阶.ai
+    url: http://vi.bjfu.edu.cn/limit/20220407203736443639.ai
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - AI
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: http://vi.bjfu.edu.cn/contents/content2.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: dc075d516db05769480c75b39d85b0b905592285e8dfdb508e1e5f785d236aba
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 北京林业大学官方视觉规范
+    url: http://vi.bjfu.edu.cn/limit/20220407203736443639.ai
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - PDF
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: http://vi.bjfu.edu.cn/limit/20220407203736443639.ai
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。北林绿色卡RGB0/101/52及HTML#006534一致；CMYK原文排印为C0 M0
+      Y1 K00，未将异常短数字猜测补全。
+  - url: http://vi.bjfu.edu.cn/limit/20221001123755951998.ai
+    title: 标准校标.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: http://vi.bjfu.edu.cn/limit/20221001123755951998.ai
+    publisher: 北京林业大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: c04756dfdca2bc567069b87e44480e1b0bd14bb50e4d7d6c8a22a5d24737e12c
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: c04756dfdca2bc567069b87e44480e1b0bd14bb50e4d7d6c8a22a5d24737e12c
+      byte_size: 982866
+  - url: http://vi.bjfu.edu.cn/limit/20221001123805293047.ai
+    title: 校标不可入侵范围.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: http://vi.bjfu.edu.cn/limit/20221001123805293047.ai
+    publisher: 北京林业大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 3eb883a922e5ee9a850e846e35aaff45d64aa54ffea0bfa9ddcf90f98aad5093
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 3eb883a922e5ee9a850e846e35aaff45d64aa54ffea0bfa9ddcf90f98aad5093
+      byte_size: 166576
+  - url: http://vi.bjfu.edu.cn/limit/20221001123814358107.ai
+    title: 校标的多种形式.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: http://vi.bjfu.edu.cn/limit/20221001123814358107.ai
+    publisher: 北京林业大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 0a438fd52d5ec72e6f22ce8df4a662f394890aa4bcd1778e06f46c4f1173f72b
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 0a438fd52d5ec72e6f22ce8df4a662f394890aa4bcd1778e06f46c4f1173f72b
+      byte_size: 1008570
+  - url: http://vi.bjfu.edu.cn/limit/20221001123823849203.ai
+    title: 校标反白.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: http://vi.bjfu.edu.cn/limit/20221001123823849203.ai
+    publisher: 北京林业大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: f0b8c7d14216a28de2ea74ff004fbd73f9fa21f6fb03129e85a5d45c371b9a01
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: f0b8c7d14216a28de2ea74ff004fbd73f9fa21f6fb03129e85a5d45c371b9a01
+      byte_size: 153916
+  - url: http://vi.bjfu.edu.cn/limit/20221001123832255364.ai
+    title: 校标墨稿.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: http://vi.bjfu.edu.cn/limit/20221001123832255364.ai
+    publisher: 北京林业大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: c18bb0684340dfb71cca1b1aeb21271864afb07f08886972ad9bd7b511a3cb3d
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: c18bb0684340dfb71cca1b1aeb21271864afb07f08886972ad9bd7b511a3cb3d
+      byte_size: 107295
+  - url: http://vi.bjfu.edu.cn/limit/20221001123840924476.ai
+    title: 校标网格制图.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: http://vi.bjfu.edu.cn/limit/20221001123840924476.ai
+    publisher: 北京林业大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 9097b1fc0514438954d506027174db6aae4b28ef8ecafefe11f9a2876c192dbd
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 9097b1fc0514438954d506027174db6aae4b28ef8ecafefe11f9a2876c192dbd
+      byte_size: 139198
+  - url: http://vi.bjfu.edu.cn/limit/20221001123849549576.ai
+    title: 校标最小比例限定.ai
+    kinds:
+    - 官方视觉资源
+    formats:
+    - PDF
+    source: http://vi.bjfu.edu.cn/limit/20221001123849549576.ai
+    publisher: 北京林业大学
+    use_scope: school
+    access_requirement: 公开学校网页/文件，无需登录；按发布方规则使用
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。AI检查全部页的缩略图，并对色卡/身份页实读；已核对学校发布入口及本系列图形身份。链接扩展名为AI，实读的是PDF兼容内容；原生AI编辑能力未验证。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    source_sha256: 95273c5bc17d54991088613ad37b6a232b8d81b836e0e361d309072aba034e89
+    content_read: true
+    download_status: pdf_read
+    document_metadata:
+      format: PDF
+      page_count: 1
+      sha256: 95273c5bc17d54991088613ad37b6a232b8d81b836e0e361d309072aba034e89
+      byte_size: 202184
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
+    value: 1952
+    source: http://www.bjfu.edu.cn/xxgk/xxzc/index.htm
     verified: auto
-    checked_at: '2026-10-01'
-    availability: conflict
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-    candidates:
-    - value: 1952
-      source: http://www.bjfu.edu.cn/xxgk/xxzc/index.htm
-      basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
-    - value: 1902
-      source: http://www.bjfu.edu.cn/xxgk/xxjj/index.htm
-      basis: 官网将办学历史起点追溯至该年或明确记载该年前身；口径为前身起源，不等于现名或独立设置年份
-    note: 已访问官网页面给出不同候选；需核对名称、标点或历史口径
+    source_type: official_website
+    source_sha256: 5168e029218986bf1d63f9a0a2304046ff4fd703c4e633f352366fa1bfae51f3
+    basis: 学校前身北京林学院设立年；1902年为更早的林学教育源流。
+    collector: ppt_core_source_reconciliation
   motto:
     value: 知山知水，树木树人
     source: https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201506/t20150630_191851.html
@@ -678,12 +1064,6 @@ culture:
     availability: found
     search_sources: []
     note: AI核对公开检索返回的学校章程、信息公开或学校提交招生资料文字；未作人工签核，需打开原页复核。
-  history_events:
-  - year: 1969
-    event: 开始在云南多地辗转办学，期间历用丽江林学院等名称
-    source: http://www.bjfu.edu.cn/xxgk/xxzc/index.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -705,6 +1085,12 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events:
+  - year: 1969
+    event: 开始在云南多地辗转办学，期间历用丽江林学院等名称
+    source: http://www.bjfu.edu.cn/xxgk/xxzc/index.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: null
@@ -750,555 +1136,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: 2022版社区校史项目；可作前身与沿革的检索起点，不等同现行官方口径。英文缩写不当作英文全名，占位描述不导入。只保存版本及入口，年份需结合校方历史起点解读。
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: http://job.bjfu.edu.cn/frontpage/bjfu/html/index.html
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: http://english.bjfu.edu.cn/
-    availability: found
-    search_sources: []
-    source: http://www.bjfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: http://xxgk.bjfu.edu.cn/
-    availability: found
-    search_sources: []
-    source: http://www.bjfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 林业
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: 北京市海淀区清华东路35号
-    availability: found
-    search_sources: []
-    source: http://www.bjfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:北京市海淀区清华东路35号
-  postal_code:
-    value: '100083'
-    availability: found
-    search_sources: []
-    source: http://www.bjfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:100083电话:010-62338279Email:service@bjfu.edu.cn
-  coordinates:
-    value:
-      longitude: 116.348
-      latitude: 40.001
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: 北京林业大学位于北京市，主管部门为教育部。
+    value: 北京林业大学位于北京市北京市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://www.bjfu.edu.cn/xxgk/xxjj/index.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 风景园林学
-    - 林学
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value:
-    - 一级学科硕士学位授权点：25个；统计时间undated
-    - 硕士专业学位授权点：21个；统计时间undated
-    - 一级学科博士学位授权点：8个；统计时间undated
-    - 博士专业学位授权点：2个；统计时间undated
-    availability: found
-    search_sources: []
-    source: http://www.bjfu.edu.cn/xxgk/xxjj/index.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments:
-  - subject: 风景园林学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 林学
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 生物学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 农林经济管理
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 010-62338279'
-    availability: found
-    search_sources: []
-    source: http://www.bjfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:100083电话:010-62338279Email:service@bjfu.edu.cn
-  email:
-    value: service@bjfu.edu.cn
-    availability: found
-    search_sources: []
-    source: http://www.bjfu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:100083电话:010-62338279Email:service@bjfu.edu.cn
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 74
-    score: 275.0
-    indicators:
-      school_level: 28.5
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 83
-    score: 294.9
-    indicators:
-      faculty: 44
-      research: 23.4
-      resources: 5.8
-      discipline: 17.4
-      top_talent: 12.4
-      school_level: 30
-      international: 10.4
-      major_projects: 3.1
-      social_service: 2.5
-      talent_training: 145.9
-    upstream_url: https://www.shanghairanking.cn/institution/beijing-forestry-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 585
-    minimum_rank: 24000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 582
-    minimum_rank: 5200
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京林业大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4111010022'
-    upstream_record_name: 北京林业大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4111010022'
-    upstream_record_name: 北京林业大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4111010022'
-    upstream_record_name: 北京林业大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-special.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4111010022'
-    upstream_record_name: 北京林业大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4111010022'
-    upstream_record_name: 北京林业大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 师资概况
-    - 生源概况
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4111010022'
-    upstream_record_name: Beijing Forestry University
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

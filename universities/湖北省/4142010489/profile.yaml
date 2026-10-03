@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4142010489'
   name_zh: 长江大学
@@ -50,34 +50,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value:
-    - yangtze-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 长江大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: yangtze
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 长江大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -95,21 +67,39 @@ research:
   audit_key: '4142010489'
 visual:
   color_primary:
-    value: null
-    source: null
+    value: '#0C3388'
+    source: https://vis.yangtzeu.edu.cn/__local/3/B9/67/09905657FD2334ED9DF90F612D7_D92ECEF9_F83B.jpg
+    method: official_vi
+    label: 长大蓝
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。补充另一官方色卡图明确的RGB/HEX；此前只读HTML找到CMYK的局部not_found结论保留在变更日志中。
+    cmyk:
+    - 100
+    - 91
+    - 22
+    - 0
+    pantone: null
     verified: auto
-    checked_at: '2026-10-01'
-    availability: not_found
-    search_sources:
-    - https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
-    note: 2026年学校视觉形象识别系统管理规范页明确长大蓝CMYK C100 M91 Y22 K0、长大红C19 M99 Y100 K0及5种辅助色印刷参数，所查页未给出RGB或HEX；未将CMYK换算成官方屏幕色。
-  color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: a77c423243843536945a7cdeb30a13fd1e3cfb8a40e2d120937679d449d01f15
+  color_secondary:
+    value: '#D80C18'
+    source: https://vis.yangtzeu.edu.cn/__local/3/B9/67/09905657FD2334ED9DF90F612D7_D92ECEF9_F83B.jpg
+    method: official_vi
+    label: 长大红
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。补充另一官方色卡图明确的RGB/HEX；此前只读HTML找到CMYK的局部not_found结论保留在变更日志中。
+    cmyk:
+    - 19
+    - 99
+    - 100
+    - 0
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    search_sources: []
+    source_sha256: a77c423243843536945a7cdeb30a13fd1e3cfb8a40e2d120937679d449d01f15
   vi_url:
     value: https://vis.yangtzeu.edu.cn/
     source: https://vis.yangtzeu.edu.cn/
@@ -125,19 +115,6 @@ visual:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  landmarks:
-  - name: 东校区12号教学楼
-    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - name: 武汉校区图书馆
-    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - name: 天圆地方雕塑
-    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
-    verified: auto
-    checked_at: '2026-10-01'
   logo_assets:
   - asset_id: 757e213f065617da
     title: 长江大学校徽资源
@@ -309,6 +286,286 @@ visual:
     inspection_attempts:
     - url: https://vis.yangtzeu.edu.cn/imgs/logo_text.png
       status: content_inspected
+  - archive_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    archive_sha256: 659e04c76f02f59a14c99bd5d844d104adeb0d788e5e3324b10e3c97b747b737
+    archive_member: ╨ú╗╒╣µ╖╢/╨ú╗╒╣µ╖╢-jpg.jpg
+    archive_member_display: 校徽规范/校徽规范-jpg.jpg
+    checked_at: '2026-10-02'
+    sha256: cba8476b74fac15d300bf25f6f51208c8560a003ef7bffb98a581994d48890a7
+    access_status: content_inspected
+    byte_size: 872133
+    format: jpeg
+    vector: false
+    width: 1515
+    representation: raster
+    height: 1515
+    has_alpha: false
+    transparent_background: false
+    asset_id: 9845aeda3decda85e0318346
+    kind: badge
+    title: 长江大学官方附件内标识：校徽规范-jpg.jpg
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    publisher: 长江大学
+    official: true
+    download_kind: archive_member
+    file_name: 校徽规范-jpg.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    archive_sha256: 659e04c76f02f59a14c99bd5d844d104adeb0d788e5e3324b10e3c97b747b737
+    archive_member: ╨ú╗╒╣µ╖╢/╨ú╗╒╣µ╖╢-png.png
+    archive_member_display: 校徽规范/校徽规范-png.png
+    checked_at: '2026-10-02'
+    sha256: 2b272a49cb9378303cdcc2236fc6536e752b455437c5508074a8971adba1a034
+    access_status: content_inspected
+    byte_size: 166202
+    format: png
+    vector: false
+    width: 1516
+    representation: raster
+    height: 1516
+    has_alpha: true
+    transparent_background: true
+    asset_id: ccdbd3c5792388e484a2a9a9
+    kind: badge
+    title: 长江大学官方附件内标识：校徽规范-png.png
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    publisher: 长江大学
+    official: true
+    download_kind: archive_member
+    file_name: 校徽规范-png.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    archive_sha256: 8e69a24076d79290ae7c6f6c3fa230834d3b1a72e0cbc098e4c6a4bbb84e2c7f
+    archive_member: ╨ú╗╒╗∙┤í═╝╨╬▒Ω╫╝╗»╓╞═╝/╨ú╗╒╗∙┤í═╝╨╬▒Ω╫╝╗»╓╞═╝-jpg.jpg
+    archive_member_display: 校徽基础图形标准化制图/校徽基础图形标准化制图-jpg.jpg
+    checked_at: '2026-10-02'
+    sha256: 3ff1e065b0ca895a52328bf61c3f09fbc4b0f98e1a2e69529ec711f2d47e70bf
+    access_status: content_inspected
+    byte_size: 581034
+    format: jpeg
+    vector: false
+    width: 1020
+    representation: raster
+    height: 1020
+    has_alpha: false
+    transparent_background: false
+    asset_id: 5dc2a3e999c0b9d35535f3b7
+    kind: badge
+    title: 长江大学官方附件内标识：校徽基础图形标准化制图-jpg.jpg
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    publisher: 长江大学
+    official: true
+    download_kind: archive_member
+    file_name: 校徽基础图形标准化制图-jpg.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    archive_sha256: 8e69a24076d79290ae7c6f6c3fa230834d3b1a72e0cbc098e4c6a4bbb84e2c7f
+    archive_member: ╨ú╗╒╗∙┤í═╝╨╬▒Ω╫╝╗»╓╞═╝/╨ú╗╒╗∙┤í═╝╨╬▒Ω╫╝╗»╓╞═╝-png.png
+    archive_member_display: 校徽基础图形标准化制图/校徽基础图形标准化制图-png.png
+    checked_at: '2026-10-02'
+    sha256: c169829ee2a038221caa84a1316e35be55da04320ed4e456971d7c4b684f38e8
+    access_status: content_inspected
+    byte_size: 82971
+    format: png
+    vector: false
+    width: 1021
+    representation: raster
+    height: 1021
+    has_alpha: true
+    transparent_background: true
+    asset_id: b36e0bae78f2dc9279af093f
+    kind: badge
+    title: 长江大学官方附件内标识：校徽基础图形标准化制图-png.png
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    publisher: 长江大学
+    official: true
+    download_kind: archive_member
+    file_name: 校徽基础图形标准化制图-png.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    archive_sha256: bf7ed4b802537af35a1ef987cb508c0775b8bb23cad6075723b18d7b345436ea
+    archive_member: ╨ú▒Ω╣µ╖╢═╝í¬╜╠╓░╣ñ/╨ú▒Ω╣µ╖╢═╝í¬╜╠╓░╣ñ-jpg.jpg
+    archive_member_display: 校标规范图—教职工/校标规范图—教职工-jpg.jpg
+    checked_at: '2026-10-02'
+    sha256: d6e0d9ae66a9af025f27a1f7aae5aa509d6cf3666492e86baf214decf936de21
+    access_status: content_inspected
+    byte_size: 277259
+    format: jpeg
+    vector: false
+    width: 2250
+    representation: raster
+    height: 846
+    has_alpha: false
+    transparent_background: false
+    asset_id: b3606fbf5e0e0b642cfe9605
+    kind: wordmark
+    title: 长江大学官方附件内标识：校标规范图—教职工-jpg.jpg
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    publisher: 长江大学
+    official: true
+    download_kind: archive_member
+    file_name: 校标规范图—教职工-jpg.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    archive_sha256: bf7ed4b802537af35a1ef987cb508c0775b8bb23cad6075723b18d7b345436ea
+    archive_member: ╨ú▒Ω╣µ╖╢═╝í¬╜╠╓░╣ñ/╨ú▒Ω╣µ╖╢═╝í¬╜╠╓░╣ñ-png.png
+    archive_member_display: 校标规范图—教职工/校标规范图—教职工-png.png
+    checked_at: '2026-10-02'
+    sha256: bb2635dece396686c76949de32326a580c4264d500b0a23e1b68e9a28aaf1c97
+    access_status: content_inspected
+    byte_size: 57611
+    format: png
+    vector: false
+    width: 2250
+    representation: raster
+    height: 847
+    has_alpha: true
+    transparent_background: true
+    asset_id: 08adc908f72893b7d89544e5
+    kind: wordmark
+    title: 长江大学官方附件内标识：校标规范图—教职工-png.png
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    publisher: 长江大学
+    official: true
+    download_kind: archive_member
+    file_name: 校标规范图—教职工-png.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    archive_sha256: f963b737e18aae6383bac35a608c7def047a6b11c02136105538033ddbe43d9e
+    archive_member: ╨ú▒Ω╣µ╖╢═╝í¬╤º╔·/╨ú▒Ω╣µ╖╢═╝í¬╤º╔·-jpg.jpg
+    archive_member_display: 校标规范图—学生/校标规范图—学生-jpg.jpg
+    checked_at: '2026-10-02'
+    sha256: 5896914764d50ee037e24060b21098344a778ea577314bca2303f14797674b9a
+    access_status: content_inspected
+    byte_size: 314004
+    format: jpeg
+    vector: false
+    width: 2356
+    representation: raster
+    height: 886
+    has_alpha: false
+    transparent_background: false
+    asset_id: 88d7f2b5a16413b303a33889
+    kind: wordmark
+    title: 长江大学官方附件内标识：校标规范图—学生-jpg.jpg
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    publisher: 长江大学
+    official: true
+    download_kind: archive_member
+    file_name: 校标规范图—学生-jpg.jpg
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
+  - archive_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    archive_sha256: f963b737e18aae6383bac35a608c7def047a6b11c02136105538033ddbe43d9e
+    archive_member: ╨ú▒Ω╣µ╖╢═╝í¬╤º╔·/╨ú▒Ω╣µ╖╢═╝í¬╤º╔·-png.png
+    archive_member_display: 校标规范图—学生/校标规范图—学生-png.png
+    checked_at: '2026-10-02'
+    sha256: 0bca4afe3890f14153dd77b62be263b787c4ac5e8a5ae9fe5c9828deb35d5e3e
+    access_status: content_inspected
+    byte_size: 60564
+    format: png
+    vector: false
+    width: 2357
+    representation: raster
+    height: 887
+    has_alpha: true
+    transparent_background: true
+    asset_id: 898f82005d94b97da161b69a
+    kind: wordmark
+    title: 长江大学官方附件内标识：校标规范图—学生-png.png
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    publisher: 长江大学
+    official: true
+    download_kind: archive_member
+    file_name: 校标规范图—学生-png.png
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 长江大学
+    availability: found
+    verified: auto
+    source_type: official_website
+    identity_basis:
+      basis: AI实读官方压缩包该成员的图像，核对当前完整中文校名或同包当前校名对应的英文版；纯校徽、纯校名及徽名组合分别判读。反白文件以深灰背景查看原透明像素；未重绘图形、未认定版本年份或独立使用许可。
+    usage_note: AI读取并核对该成员图形身份；需下载上游压缩包后按archive_member获取。archive_member是ZIP解析器保留的成员名，archive_member_display供阅读；文件哈希用于核对。只发布链接与元数据，图形授权按学校规则。
   color_palette:
   - value: '#58B8E0'
     rgb:
@@ -364,6 +621,176 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 6dfcc32199fbeda6
+  - value: '#0C3388'
+    rgb:
+    - 12
+    - 51
+    - 136
+    cmyk:
+    - 100
+    - 91
+    - 22
+    - 0
+    pantone: null
+    label: 长大蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vis.yangtzeu.edu.cn/__local/3/B9/67/09905657FD2334ED9DF90F612D7_D92ECEF9_F83B.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。补充另一官方色卡图明确的RGB/HEX；此前只读HTML找到CMYK的局部not_found结论保留在变更日志中。
+    source_sha256: a77c423243843536945a7cdeb30a13fd1e3cfb8a40e2d120937679d449d01f15
+    source_field: visual.color_primary
+  - value: '#D80C18'
+    rgb:
+    - 216
+    - 12
+    - 24
+    cmyk:
+    - 19
+    - 99
+    - 100
+    - 0
+    pantone: null
+    label: 长大红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vis.yangtzeu.edu.cn/__local/3/B9/67/09905657FD2334ED9DF90F612D7_D92ECEF9_F83B.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。补充另一官方色卡图明确的RGB/HEX；此前只读HTML找到CMYK的局部not_found结论保留在变更日志中。
+    source_sha256: a77c423243843536945a7cdeb30a13fd1e3cfb8a40e2d120937679d449d01f15
+    source_field: visual.color_secondary
+  - value: '#41B6E6'
+    rgb:
+    - 65
+    - 182
+    - 230
+    cmyk:
+    - 67
+    - 14
+    - 8
+    - 0
+    pantone: null
+    label: 长江蓝
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vis.yangtzeu.edu.cn/__local/3/D2/36/2481825B661E20FEB5A42685DAD_A27BF73E_F36C.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。沃野绿RGB/HEX一通道有差异，作为辅助候选保留。
+    source_sha256: 394c07bfd63892e59bf9a8b83c7b70b9ab2d26806a23fa2f755757d2bd3340d4
+  - value: '#006427'
+    rgb:
+    - 0
+    - 100
+    - 39
+    cmyk:
+    - 89
+    - 50
+    - 100
+    - 16
+    pantone: null
+    label: 沃野绿RGB候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vis.yangtzeu.edu.cn/__local/3/D2/36/2481825B661E20FEB5A42685DAD_A27BF73E_F36C.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 原图RGB0/100/39编码#006427，与HEX006428差1个蓝通道；并列保留待核对。
+    source_sha256: 394c07bfd63892e59bf9a8b83c7b70b9ab2d26806a23fa2f755757d2bd3340d4
+  - value: '#006428'
+    rgb:
+    - 0
+    - 100
+    - 40
+    cmyk:
+    - 89
+    - 50
+    - 100
+    - 16
+    pantone: null
+    label: 沃野绿HEX候选
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vis.yangtzeu.edu.cn/__local/3/D2/36/2481825B661E20FEB5A42685DAD_A27BF73E_F36C.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 原图HEX006428与RGB0/100/39差1个蓝通道；并列保留待核对。
+    source_sha256: 394c07bfd63892e59bf9a8b83c7b70b9ab2d26806a23fa2f755757d2bd3340d4
+  - value: '#FFA300'
+    rgb:
+    - 255
+    - 163
+    - 0
+    cmyk:
+    - 3
+    - 46
+    - 92
+    - 0
+    pantone: null
+    label: 丹桂黄
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vis.yangtzeu.edu.cn/__local/3/D2/36/2481825B661E20FEB5A42685DAD_A27BF73E_F36C.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。沃野绿RGB/HEX一通道有差异，作为辅助候选保留。
+    source_sha256: 394c07bfd63892e59bf9a8b83c7b70b9ab2d26806a23fa2f755757d2bd3340d4
+  - value: '#F8A3BC'
+    rgb:
+    - 248
+    - 163
+    - 188
+    cmyk:
+    - 2
+    - 46
+    - 10
+    - 0
+    pantone: null
+    label: 樱花粉
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vis.yangtzeu.edu.cn/__local/3/D2/36/2481825B661E20FEB5A42685DAD_A27BF73E_F36C.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。沃野绿RGB/HEX一通道有差异，作为辅助候选保留。
+    source_sha256: 394c07bfd63892e59bf9a8b83c7b70b9ab2d26806a23fa2f755757d2bd3340d4
+  - value: '#DCDDDD'
+    rgb:
+    - 220
+    - 221
+    - 221
+    cmyk:
+    - 16
+    - 12
+    - 12
+    - 0
+    pantone: null
+    label: 科技灰
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vis.yangtzeu.edu.cn/__local/3/D2/36/2481825B661E20FEB5A42685DAD_A27BF73E_F36C.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。沃野绿RGB/HEX一通道有差异，作为辅助候选保留。
+    source_sha256: 394c07bfd63892e59bf9a8b83c7b70b9ab2d26806a23fa2f755757d2bd3340d4
   vi_resources:
   - title: 长江大学官网视觉资源页 PPT模板发布/下载页
     url: https://vis.yangtzeu.edu.cn/
@@ -417,13 +844,13 @@ visual:
         title: PPT模版-视觉形象识别
         sha256: 032f87518f630c18c3fa5d29f4d019d3d6be3fe3ca014d048b10d972d70dd30a
         byte_size: 17414
-  - title: 长江大学官网视觉资源页 PPT模板发布/下载页
+  - title: 校徽规范
     url: https://vis.yangtzeu.edu.cn/index.htm
     kinds:
-    - PPT模板
+    - 校徽/校名介绍及资源
     formats:
     - HTML
-    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
     source: https://vis.yangtzeu.edu.cn/index.htm
     repository: null
     commit: null
@@ -432,9 +859,7 @@ visual:
     checked_at: '2026-10-02'
     availability: found
     source_sha256: 558a11c71bd86b96147c940a73dcc61d6068106c11197d1dfb27312d3588398a
-    note: 发布范围：学校通用；按发布页说明使用。
-    publisher: 长江大学官网视觉资源页
-    use_scope: school
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
     content_read: true
     download_status: page_read
   - title: PPT模版
@@ -479,6 +904,8 @@ visual:
     availability: found
     source_sha256: 4ae091bedc2ba617bdfa2099050df1eaa7cacb6f81519891c230dc6713ddd7dc
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校徽规范.zip
     url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
     kinds:
@@ -495,6 +922,8 @@ visual:
     availability: found
     source_sha256: 4ae091bedc2ba617bdfa2099050df1eaa7cacb6f81519891c230dc6713ddd7dc
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校徽基础图形标准化制图.zip
     url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
     kinds:
@@ -511,6 +940,8 @@ visual:
     availability: found
     source_sha256: 4ae091bedc2ba617bdfa2099050df1eaa7cacb6f81519891c230dc6713ddd7dc
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校标规范
     url: https://vis.yangtzeu.edu.cn/jcbf/xbgf.htm
     kinds:
@@ -527,6 +958,8 @@ visual:
     availability: found
     source_sha256: 068c47cb4f8977b1e5e1ceaaa206b0fa84be4537d1f0ad70be26791cea154b36
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 校标规范图—教职工.zip
     url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
     kinds:
@@ -543,6 +976,8 @@ visual:
     availability: found
     source_sha256: 068c47cb4f8977b1e5e1ceaaa206b0fa84be4537d1f0ad70be26791cea154b36
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 校标规范图—学生.zip
     url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
     kinds:
@@ -559,14 +994,273 @@ visual:
     availability: found
     source_sha256: 068c47cb4f8977b1e5e1ceaaa206b0fa84be4537d1f0ad70be26791cea154b36
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: '>标准色规范及释义'
+    url: https://vis.yangtzeu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.yangtzeu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 43fb5458b89489f7778403d9c853dea94393b3aefa0fd5c87e91482f7eb588d1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 标准色.zip
+    url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826468
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vis.yangtzeu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 43fb5458b89489f7778403d9c853dea94393b3aefa0fd5c87e91482f7eb588d1
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 长江大学官方视觉规范
+    url: https://vis.yangtzeu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vis.yangtzeu.edu.cn/__local/3/B9/67/09905657FD2334ED9DF90F612D7_D92ECEF9_F83B.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。补充另一官方色卡图明确的RGB/HEX；此前只读HTML找到CMYK的局部not_found结论保留在变更日志中。
+  - title: 长江大学官方视觉规范
+    url: https://vis.yangtzeu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vis.yangtzeu.edu.cn/__local/3/D2/36/2481825B661E20FEB5A42685DAD_A27BF73E_F36C.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。沃野绿RGB/HEX一通道有差异，作为辅助候选保留。
+  - url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    title: 校徽规范.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    publisher: 长江大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+        status: file_read
+        url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+      resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826342
+    file_metadata:
+      byte_size: 1322737
+      format: ZIP
+      member_count: 4
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 659e04c76f02f59a14c99bd5d844d104adeb0d788e5e3324b10e3c97b747b737
+    content_read: true
+    download_status: content_inspected
+  - url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    title: 校徽基础图形标准化制图.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    publisher: 长江大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+        status: file_read
+        url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+      resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826343
+    file_metadata:
+      byte_size: 1030454
+      format: ZIP
+      member_count: 4
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 8e69a24076d79290ae7c6f6c3fa230834d3b1a72e0cbc098e4c6a4bbb84e2c7f
+    content_read: true
+    download_status: content_inspected
+  - url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    title: 校标规范图—教职工.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    publisher: 长江大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+        status: file_read
+        url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+      resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826464
+    file_metadata:
+      byte_size: 613670
+      format: ZIP
+      member_count: 4
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: bf7ed4b802537af35a1ef987cb508c0775b8bb23cad6075723b18d7b345436ea
+    content_read: true
+    download_status: content_inspected
+  - url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    title: 校标规范图—学生.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    publisher: 长江大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+        status: file_read
+        url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+      resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826465
+    file_metadata:
+      byte_size: 633358
+      format: ZIP
+      member_count: 4
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: f963b737e18aae6383bac35a608c7def047a6b11c02136105538033ddbe43d9e
+    content_read: true
+    download_status: content_inspected
+  - url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826468
+    title: 标准色.zip
+    kinds:
+    - 官方视觉资源
+    formats:
+    - ZIP
+    source: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826468
+    publisher: 长江大学
+    use_scope: school
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    note: 公开官方附件已下载并读取容器/文档结构；不再分发原文件。本记录不表示压缩包全部图形已逐文件核验，也不表示文件是可直接使用的PPT模板。
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    repository: null
+    commit: null
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826468
+        status: file_read
+        url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826468
+      resolved_url: https://vis.yangtzeu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2115325600&wbfileid=15826468
+    file_metadata:
+      byte_size: 582039
+      format: ZIP
+      member_count: 4
+      presentation_members: []
+      read_kind: archive_structure
+      sha256: 295ec2f47f631d24b4ef597908c6844195e993c7eac6ebf5b7f5fb7e22b18331
+    content_read: true
+    download_status: content_inspected
+  landmarks:
+  - name: 东校区12号教学楼
+    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 武汉校区图书馆
+    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - name: 天圆地方雕塑
+    source: https://xcb.yangtzeu.edu.cn/info/1010/1608.htm
+    verified: auto
+    checked_at: '2026-10-01'
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2003
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q13527910&oldid=2516560862
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2516560862
+    source_sha256: 1eef7d5dd35e098a0d14dccb4c12beca73640576bd85a7b86102fd2882cba9f6
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -574,7 +1268,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -596,6 +1289,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: https://vis.yangtzeu.edu.cn/
@@ -631,338 +1325,14 @@ resources:
     verified: auto
     checked_at: '2026-10-01'
     usage_note: CSS中文校名与本校全称匹配。社区校徽字体索引，LICENSE为Apache-2.0，但README另有保留作者及禁止倒卖说明。只收链接，未镜像字体或校徽；使用前核对上游条款及校徽权利。
-  admissions_url:
-    value: https://www.yangtzeu.edu.cn/zsjy1.htm
-    availability: found
-    search_sources: []
-    source: https://www.yangtzeu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://yangtzeu.91wllm.com/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 长江大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: https://english.yangtzeu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.yangtzeu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://xxgk.yangtzeu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.yangtzeu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 长江大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 长江大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
 overview:
   summary_zh:
-    value: 长江大学位于湖北省荆州市，主管部门为湖北省。官网列示普通本科生36641人（统计日期未注明）。官网列示在职教职工3037人（统计日期未注明）。官网列示校园占地面积4967亩（统计日期未注明）。
+    value: 长江大学位于湖北省荆州市，教育部名单列为本科，主管部门为湖北省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.yangtzeu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 36641
-    availability: found
-    search_sources: []
-    source: https://www.yangtzeu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 普通本科生；原标注：普通本科生36641人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 普通本科生36641人
-  faculty_count:
-    value: 3037
-    availability: found
-    search_sources: []
-    source: https://www.yangtzeu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在职教职工；原标注：在职教职工3037人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 在职教职工3037人
-  campus_area_hectares:
-    value: 331.133333
-    availability: found
-    search_sources: []
-    source: https://www.yangtzeu.edu.cn/xxgk/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 校园占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；原标注：校园占地面积4967亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 校园占地面积4967亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 190
-    score: 168.4
-    indicators:
-      school_level: null
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 长江大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 184
-    score: 199.4
-    indicators: {}
-    upstream_url: https://www.shanghairanking.cn/institution/yangtze-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 长江大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4142010489'
-    upstream_record_name: 长江大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4142010489'
-    upstream_record_name: 长江大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4142010489'
-    upstream_record_name: Yangtze University
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

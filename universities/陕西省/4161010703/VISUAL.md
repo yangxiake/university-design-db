@@ -16,12 +16,21 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | `#AB763D` | 171,118,61 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.xauat.edu.cn/images/logo0715.png) |
+|  | `#AB763D` | 171,118,61 | reference（历史参考） |  |  | 官网标识取色/推导建议 | [依据](https://www.xauat.edu.cn/images/logo0715.png) |
 |  | `#A87038` | 168,112,56 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.xauat.edu.cn/images/logo0715.png) |
 |  | `#F8E8D0` | 248,232,208 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.xauat.edu.cn/images/logo0715.png) |
 |  | `#E0D0C0` | 224,208,192 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#F0E0C0` | 240,224,192 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#886840` | 136,104,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 标准金棕 | `#A5733C` | 165,115,60 | primary | [30, 55, 80, 15] | 7574C | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
+| 标准米白 | `#EBE6D7` | 235,230,215 | primary | [5, 10, 15, 0] | 7527C | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
+| 标准浅黄 | `#F5F0D2` | 245,240,210 | primary | [5, 5, 20, 0] | 7506C | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
+| 自强红 | `#B92D0F` | 185,45,15 | secondary | [35, 95, 100, 0] | 7574C | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
+| 笃实黄原文候选 | `#EBE6D7` | 235,230,215 | reference | [5, 10, 15, 0] | 7527C | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
+| 创新蓝原文候选 | `#F5F0D2` | 245,240,210 | reference | [5, 5, 20, 0] | 7506C | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
+| 求源绿 | `#3C6E2D` | 60,110,45 | secondary | [80, 50, 100, 10] | 7742C | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
+| 专金 | `#FFD700` | 255,215,0 | reference | [50, 20, 20, 0] |  | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
+| 专银 | `#C0C0C0` | 192,192,192 | reference | [0, 0, 0, 60] |  | 官方VI标准值 | [依据](https://www.xauat.edu.cn/wj/bssc.pdf) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -33,5 +42,9 @@
 - [【 西安建筑科技大学视觉形象识别系统手册下载 】](https://www.xauat.edu.cn/wj/bssc.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xauat.edu.cn/xywh/xxbs.htm)。
 - [【 校庆视觉形象识别系统手册CDR 格式下载】](https://www.xauat.edu.cn/wj/cdr0506.zip)：["视觉识别规范/资源", "校庆专用"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xauat.edu.cn/xywh/xxbs.htm)。
 - [【 西安建筑科技大学办学130年并校70周年校庆视觉形象识别系统手册】](https://www.xauat.edu.cn/wj/sc0508.pdf)：["视觉识别规范/资源", "校庆专用"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xauat.edu.cn/xywh/xxbs.htm)。
+- [【 西安建筑科技大学徽标矢量文件CDR 格式下载 】](https://www.xauat.edu.cn/wj/bswj.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xauat.edu.cn/xywh/xxbs.htm)。
+- [【 西安建筑科技大学办学130年并校70周年校庆标识文件（PNG）格式下载 】](https://www.xauat.edu.cn/wj/png0506.rar)：["校徽/校名介绍及资源", "校庆专用"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xauat.edu.cn/xywh/xxbs.htm)。
+- [【校歌下载】](https://www.xauat.edu.cn/wj/xg.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.xauat.edu.cn/xywh/xxbs.htm)。
+- [西安建筑科技大学官方视觉规范](https://www.xauat.edu.cn/wj/bssc.pdf)：["标识规范", "标准色"]；格式 PDF；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.xauat.edu.cn/wj/bssc.pdf)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

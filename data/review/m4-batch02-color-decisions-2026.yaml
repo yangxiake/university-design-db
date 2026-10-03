@@ -1,0 +1,3480 @@
+- school_code: '4111010003'
+  name_zh: 清华大学
+  source: https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf
+  source_sha256: 9f083e270fbea1a2e0580dde7f3c35346f0abef7d8427d7071091d4a11fb5497
+  vi_url: https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf
+  basis: 校方视觉形象识别手册PDF第15页色卡：RGB 102/8/116、CMYK 65/100/0/20、PANTONE 259C。AI实读整页并核对数字；补充既有RGB事实缺少的印刷及专色信息。
+  colors:
+  - value: '#660874'
+    cmyk:
+    - 65
+    - 100
+    - 0
+    - 20
+    pantone: 259C
+    label: 清华紫
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+- school_code: '4133010335'
+  name_zh: 浙江大学
+  source: https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp
+  source_sha256: c14ebcb2f65c6010da1837b0fc168e3fc1246728337d4c5ada0d1eeeff7e2ff1
+  vi_url: https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.psp
+  basis: 2023-03-23校方英文Logo页逐项标注signature truth-seeking blue与supported innovation red的RGB、CMYK；HEX由原RGB直接编码，未从CMYK转换。
+  colors:
+  - value: '#003F88'
+    cmyk:
+    - 100
+    - 70
+    - 0
+    - 25
+    pantone: null
+    label: 求是蓝
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#B01F24'
+    cmyk:
+    - 35
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 创新红
+    role: secondary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+- school_code: '4142010486'
+  name_zh: 武汉大学
+  source: https://www.whu.edu.cn/xxgk/wdbs.htm
+  source_sha256: 2127274b187b73514d13409d23da00f8bed90a6a923687e5457179256481f781
+  vi_url: https://www.whu.edu.cn/xxgk/wdbs.htm
+  basis: 武汉大学学校标识页文本明确并列标准色珞珈蓝、珞珈绿与校旗红色色值。蓝绿字段按既有顺序展示，不声明主次等级；旗帜专用红不自动选为校级主题主色。
+  colors:
+  - value: '#002554'
+    cmyk:
+    - 100
+    - 79
+    - 12
+    - 59
+    pantone: null
+    label: 珞珈蓝
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#115740'
+    cmyk:
+    - 89
+    - 19
+    - 72
+    - 60
+    pantone: null
+    label: 珞珈绿
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#DE2910'
+    cmyk:
+    - 0
+    - 82
+    - 93
+    - 13
+    pantone: null
+    label: 校旗红色
+    role: reference
+- school_code: '4135010384'
+  name_zh: 厦门大学
+  source: https://news.xmu.edu.cn/info/1003/22405.htm
+  source_sha256: 0748d5591c0d87a291275c40b86439e6d60f3af2b8e34e2968bcbe7b6cc46296
+  vi_url: https://news.xmu.edu.cn/info/1003/22405.htm
+  basis: 2010年校方校徽发布说明明确校徽主体普蓝色C100-M80-Y10-K10；本来源没有RGB/HEX，保留为印刷证据，不换算屏幕颜色。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 80
+    - 10
+    - 10
+    pantone: null
+    label: 校徽普蓝色
+    role: primary
+- school_code: '4143010532'
+  name_zh: 湖南大学
+  source: https://eeit100.hnu.edu.cn/info/1013/1003.htm
+  source_sha256: 405e42217ed9a7e86190e038919499498c8c1733709af1fcbcbe96372f06d34f
+  vi_url: https://eeit100.hnu.edu.cn/info/1013/1003.htm
+  basis: 2019年电气与信息工程学院百年标识说明明确主色为湖大校徽的标准色红色，CMYK 40/100/100/10。只采纳其中明确引用的校级校徽色，不将院庆标识或其他用途色提升为校级VI；本页未给RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 40
+    - 100
+    - 100
+    - 10
+    pantone: null
+    label: 湖大校徽红色
+    role: primary
+  fact_statuses:
+  - field: color_primary
+    availability: not_found
+    search_sources:
+    - https://eeit100.hnu.edu.cn/info/1013/1003.htm
+    note: 已读此官方来源，发现CMYK印刷标准，但未找到RGB/HEX屏幕主色；结论仅限此来源，后续继续补查。
+- school_code: '4131010247'
+  name_zh: 同济大学
+  source: https://news.tongji.edu.cn/info/1008/94580.htm
+  source_sha256: 4541ca735c81138bbe1c9de80dd841e41bf54dfc579a0e3ed50f6cf766ea2f9e
+  vi_url: https://news.tongji.edu.cn/info/1008/94580.htm
+  basis: 同济大学120周年标识征集公告的学校校徽、校名标识参考部分明确同济蓝标准色C100 M60 Y0 K0。只采纳该校级标准色声明，未将征集方案当作现行校庆标识；未公布RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 0
+    pantone: null
+    label: 同济蓝
+    role: primary
+- school_code: '4123010225'
+  name_zh: 东北林业大学
+  source: https://xxb.nefu.edu.cn/info/1049/3176.htm
+  source_sha256: ec4bd1c782eeb1e41e3c2516d715a13c942a62b61f880376c30d7425d4517237
+  vi_url: https://xxb.nefu.edu.cn/info/1049/3176.htm
+  basis: 2022年东北林业大学章程第七十六条明确学校标准色C90 M45 Y100 K10；未公布RGB/HEX，不转换屏幕值。
+  colors:
+  - value: null
+    cmyk:
+    - 90
+    - 45
+    - 100
+    - 10
+    pantone: null
+    label: 学校标准色
+    role: primary
+- school_code: '4131010272'
+  name_zh: 上海财经大学
+  source: https://www.sufe.edu.cn/xxzc/list.htm
+  source_sha256: c5a25dfbbf0550ce85f8990ebf86cbc599570ce19bb0e558a59d9447320b933b
+  vi_url: https://www.sufe.edu.cn/xxzc/list.htm
+  basis: 校方学校章程第八十六条明确校徽标准色上财红，基准CMYK(50,100,100,20)；未给RGB/HEX。
+  colors:
+  - value: null
+    cmyk:
+    - 50
+    - 100
+    - 100
+    - 20
+    pantone: null
+    label: 上财红
+    role: primary
+  fact_statuses:
+  - field: color_primary
+    availability: not_found
+    search_sources:
+    - https://www.sufe.edu.cn/xxzc/list.htm
+    note: 已读此官方来源，发现CMYK印刷标准，但未找到RGB/HEX屏幕主色；结论仅限此来源，后续继续补查。
+- school_code: '4132010295'
+  name_zh: 江南大学
+  source: https://news.jiangnan.edu.cn/info/1132/88886.htm
+  source_sha256: c7b9700ca6da55b04aafa50da53a06d0c86a737785b8d58e4efb103879cd478d
+  vi_url: https://news.jiangnan.edu.cn/info/1132/88886.htm
+  basis: 2023年校方学校章程第六十二条明确校标标准色江南绿C100 M10 Y10 K60；只保留原印刷色，不换算屏幕值。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 10
+    - 10
+    - 60
+    pantone: null
+    label: 江南绿
+    role: primary
+  fact_statuses:
+  - field: color_primary
+    availability: not_found
+    search_sources:
+    - https://news.jiangnan.edu.cn/info/1132/88886.htm
+    note: 已读此官方来源，发现CMYK印刷标准，但未找到RGB/HEX屏幕主色；结论仅限此来源，后续继续补查。
+- school_code: '4152010657'
+  name_zh: 贵州大学
+  source: https://www.gzu.edu.cn/_upload/article/files/5c/ad/b3ed42ae4fc89063a59e37706359/662e301c-a9aa-4b90-a552-2c41b2b3be06.pdf
+  source_sha256: bafc9b6587f8f4809bf7aa1b3d1968868396cd54850be49e3b128210b10cfd99
+  vi_url: https://www.gzu.edu.cn/_upload/article/files/5c/ad/b3ed42ae4fc89063a59e37706359/662e301c-a9aa-4b90-a552-2c41b2b3be06.pdf
+  basis: 2024年贵州大学章程PDF第33页（印刷页31）明确学校形象识别系统标准色贵大红，印刷色标CMYK 30.100.100.10；AI实读原页，未公布RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 30
+    - 100
+    - 100
+    - 10
+    pantone: null
+    label: 贵大红
+    role: primary
+- school_code: '4141010459'
+  name_zh: 郑州大学
+  source: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+  source_sha256: df8dabaeb6a6b4ba53fdab9968004fa0bf73ef3219f686ba2888bf3e12c8efc8
+  vi_url: https://www.zzu.edu.cn/wj/xxsbxt.pdf
+  basis: 校方52页视觉形象识别系统PDF第33页公布两种并列标准色，第34页公布8种辅助色的RGB、CMYK及Pantone。AI核对原页，HEX直接编码原RGB；并列标准色按文档顺序映射字段，不宣称等级。辅助色仅供配合使用，不自动提升为第二标准色。
+  colors:
+  - value: '#880000'
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 50
+    pantone: null
+    label: 标准红
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#1B4142'
+    cmyk:
+    - 90
+    - 70
+    - 70
+    - 30
+    pantone: null
+    label: 标准蓝绿
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#90001A'
+    cmyk:
+    - 0
+    - 100
+    - 70
+    - 50
+    pantone: '483'
+    label: 辅助色 PANTONE 483
+    role: reference
+  - value: '#004338'
+    cmyk:
+    - 100
+    - 10
+    - 60
+    - 70
+    pantone: '561'
+    label: 辅助色 PANTONE 561
+    role: reference
+  - value: '#005C60'
+    cmyk:
+    - 100
+    - 30
+    - 50
+    - 40
+    pantone: '3155'
+    label: 辅助色 PANTONE 3155
+    role: reference
+  - value: '#004464'
+    cmyk:
+    - 100
+    - 60
+    - 40
+    - 60
+    pantone: '468'
+    label: 辅助色 PANTONE 468
+    role: reference
+  - value: '#4F2A1A'
+    cmyk:
+    - 60
+    - 80
+    - 90
+    - 50
+    pantone: '7519'
+    label: 辅助色 PANTONE 7519
+    role: reference
+  - value: '#E27E00'
+    cmyk:
+    - 10
+    - 70
+    - 100
+    - 10
+    pantone: '1525'
+    label: 辅助色 PANTONE 1525
+    role: reference
+  - value: '#BC7E00'
+    cmyk:
+    - 10
+    - 50
+    - 100
+    - 30
+    pantone: '146'
+    label: 辅助色 PANTONE 146
+    role: reference
+  - value: '#EFEADE'
+    cmyk:
+    - 10
+    - 0
+    - 0
+    - 10
+    pantone: '7528'
+    label: 辅助色 PANTONE 7528
+    role: reference
+- school_code: '4143010533'
+  name_zh: 中南大学
+  source: https://www.csu.edu.cn/__local/6/D7/27/7BC1337365A0206E70BCC8D7A1E_41227B61_B1431.png
+  source_sha256: e101433e908cb055db7b73df27e8cd6c488badf91e08094aec330ee0062a5180
+  vi_url: https://www.csu.edu.cn/zjzn/xxbs/bzs.htm
+  vi_title: 中南大学标准色
+  basis: 官网标准色页明确引用的原色卡实读：RGB 22/92/145，CMYK 90/50/10/0。HEX由原RGB编码。页面注明RGB以Adobe Photoshop文件系统、CMYK以CorelDRAW
+    X4为标准；不通过印刷色反推RGB。
+  colors:
+  - value: '#165C91'
+    cmyk:
+    - 90
+    - 50
+    - 10
+    - 0
+    pantone: null
+    label: 中南大学标准蓝
+    role: primary
+    field: color_primary
+    enrich_existing_metadata: true
+    replace_methods:
+    - manual_derived
+    - community_theme
+- school_code: '4142010486'
+  name_zh: 武汉大学
+  source: https://www.whu.edu.cn/__local/D/AC/E1/2668A1E536E02CAFAA1614E71ED_8966C248_14831.png?e=.png
+  source_sha256: 94fae273979138e1898ec6027c480e236afd459e1039fe736ff9c8646cbd8c20
+  vi_url: https://www.whu.edu.cn/xxgk/wdbs.htm
+  vi_title: 武汉大学标准及辅助色
+  basis: 学校标识页标准色与辅助色栏目明确引用的原图实读，逐项核对HEX、RGB、CMYK和Pantone。两种并列标准色的专色编号及7种辅助色单独保留，辅助色不提升为标准主色。色值采用原图文本，不依据示色色块取样。
+  colors:
+  - value: '#002554'
+    cmyk:
+    - 100
+    - 79
+    - 12
+    - 59
+    pantone: 655c
+    label: 珞珈蓝
+    role: primary
+  - value: '#115740'
+    cmyk:
+    - 89
+    - 19
+    - 72
+    - 60
+    pantone: 343c
+    label: 珞珈绿
+    role: primary
+  - value: '#F8A3BC'
+    cmyk:
+    - 0
+    - 39
+    - 17
+    - 0
+    pantone: 189C
+    label: 珞樱粉
+    role: reference
+  - value: '#41B6E6'
+    cmyk:
+    - 67
+    - 2
+    - 0
+    - 0
+    pantone: 298C
+    label: 东湖蓝
+    role: reference
+  - value: '#FFA300'
+    cmyk:
+    - 0
+    - 41
+    - 100
+    - 0
+    pantone: 137C
+    label: 秋桂黄
+    role: reference
+  - value: '#33058D'
+    cmyk:
+    - 94
+    - 100
+    - 0
+    - 0
+    pantone: 2371C
+    label: 春藤紫
+    role: reference
+  - value: '#00797C'
+    cmyk:
+    - 100
+    - 5
+    - 43
+    - 25
+    pantone: 3557C
+    label: 黉瓦绿
+    role: reference
+  - value: '#E10800'
+    cmyk:
+    - 0
+    - 88
+    - 100
+    - 0
+    pantone: 2347C
+    label: 霜叶红
+    role: reference
+  - value: '#C1C6C8'
+    cmyk:
+    - 10
+    - 2
+    - 4
+    - 14
+    pantone: 428C
+    label: 晨雾灰
+    role: reference
+- school_code: '4165010755'
+  name_zh: 新疆大学
+  source: https://www.xju.edu.cn/xxgk/xdbs.htm
+  source_sha256: 14aa691826ab333d45b660784b2fef617f8f0f84cc1381ef8cb760d06c8e39e5
+  vi_url: https://www.xju.edu.cn/xxgk/xdbs.htm
+  colors:
+  - value: '#961E19'
+    cmyk:
+    - 45
+    - 97
+    - 100
+    - 15
+    label: 新大红
+    role: primary
+    pantone: null
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  basis: 学校标识页直接公布新大红标准RGB R150/G30/B25、印制CMYK C45/M97/Y100/K15；HEX按原RGB编码。
+- school_code: '4132010307'
+  name_zh: 南京农业大学
+  source: https://www.njau.edu.cn/xxwxh/list.htm
+  source_sha256: dbb4fe4ff84a7b96387f777a2f48998708261fc4481268d50c8aba74f2a7e10e
+  vi_url: https://www.njau.edu.cn/xxwxh/list.htm
+  colors:
+  - value: null
+    cmyk:
+    - 80
+    - 0
+    - 100
+    - 0
+    label: 主楼图案深绿色
+    role: reference
+    pantone: null
+  - value: null
+    cmyk:
+    - 10
+    - 10
+    - 80
+    - 0
+    label: 麦穗渐变金黄起点
+    role: reference
+    pantone: null
+  - value: null
+    cmyk:
+    - 30
+    - 50
+    - 60
+    - 40
+    label: 麦穗渐变金黄终点
+    role: reference
+    pantone: null
+  - value: null
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 0
+    label: 轮廓及1902字样蓝色
+    role: reference
+    pantone: null
+  basis: 学校校徽制作说明逐项公布深绿、金黄渐变两端及圆形轮廓蓝色的CMYK。属于校徽各部分规范，不宣称其中唯一校级主题主色；未给RGB/HEX，不从图像取色冒充标准色。
+- school_code: '4131010271'
+  name_zh: 上海外国语大学
+  source: https://www.shisu.edu.cn/about/identity-guidelines
+  source_sha256: ef58291626417fa18632e70688294b521575ee7164d6904eb9dcdd15bdfcc0b6
+  vi_url: https://www.shisu.edu.cn/about/identity-guidelines
+  colors:
+  - value: '#0062AC'
+    cmyk:
+    - 100
+    - 50
+    - 0
+    - 10
+    label: 上外蓝
+    role: primary
+    pantone: 2945 C/U
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  basis: '校方视觉识别指南文本明确上外蓝Pantone 2945 C/U、CMYK(100,50,0,10)、RGB 0/98/172及HEX #0062AC。'
+- school_code: '4112010063'
+  name_zh: 天津中医药大学
+  source: https://www.tjutcm.edu.cn/tzgk/xxbs.htm
+  source_sha256: e0c3084973aa5d6669ab1e5956391079e6b672047105858d86367ab1db377b70
+  vi_url: https://www.tjutcm.edu.cn/tzgk/xxbs.htm
+  basis: 学校校标使用通知明确校标主色植物绿色C100/M0/Y100/K20；未公布RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 0
+    - 100
+    - 20
+    label: 植物绿色
+    role: primary
+    pantone: null
+- school_code: '4112010792'
+  name_zh: 天津城建大学
+  source: https://www.tcu.edu.cn/xxgk/xbxx.htm
+  source_sha256: a1e71ee509c4870af4168614802cfa791d1833c6ace42220d69ab6c022a6bd9c
+  vi_url: https://www.tcu.edu.cn/xxgk/xbxx.htm
+  basis: 学校校徽说明明确城建蓝四色印刷标准C100/M70/Y10/K30；本来源没有RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 70
+    - 10
+    - 30
+    label: 城建蓝
+    role: primary
+    pantone: null
+- school_code: '4114010124'
+  name_zh: 忻州师范学院
+  source: https://www.xztu.edu.cn/xxgk/xhxx.htm
+  source_sha256: 5d529a47e8612d408315bb75c6fc6250244e3d99c71d12cfab3b57fc9837c708
+  vi_url: https://www.xztu.edu.cn/xxgk/xhxx.htm
+  basis: 校徽说明明确标志色C13/M87/Y100/K4，未给独立颜色名与RGB；按校徽用途保留。
+  colors:
+  - value: null
+    cmyk:
+    - 13
+    - 87
+    - 100
+    - 4
+    label: 校徽标志色
+    role: primary
+    pantone: null
+- school_code: '4123010219'
+  name_zh: 黑龙江科技大学
+  source: https://www.usth.edu.cn/xxgk/xxbs.htm
+  source_sha256: 487c9227ece9df63dcd95d1f2b6d552c94152bc95e14f0cac2e8200dbd902a51
+  vi_url: https://www.usth.edu.cn/xxgk/xxbs.htm
+  basis: 校方标识说明明确科大蓝C100/M95/Y25/K0；未给RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 95
+    - 25
+    - 0
+    label: 科大蓝
+    role: primary
+    pantone: null
+- school_code: '4133010354'
+  name_zh: 嘉兴大学
+  source: https://www.zjxu.edu.cn/xqzl/xxbs.htm
+  source_sha256: 9a5842283700823548092f491aa3529a1f9a4e2edd5dac8e8a4cfdfbd0804dfc
+  vi_url: https://www.zjxu.edu.cn/xqzl/xxbs.htm
+  basis: 嘉兴大学校标说明明确校标标准配色色谱C10/M100/Y70/K10；未给RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 10
+    - 100
+    - 70
+    - 10
+    label: 校标标准红
+    role: primary
+    pantone: null
+- school_code: '4145010603'
+  name_zh: 南宁师范大学
+  source: https://www.nnnu.edu.cn/xxgk/xxbs.htm
+  source_sha256: 5e3c43ec75312a73bc12a58f198c970ccfedc0e2431a995d823e151842142ffd
+  vi_url: https://www.nnnu.edu.cn/xxgk/xxbs.htm
+  basis: 南宁师范大学文化标识页校徽说明第5项给出色彩数值C10/M100/Y100/K10；仅按校徽规范保留，不转换RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 10
+    label: 校徽红色
+    role: primary
+    pantone: null
+- school_code: '4145013524'
+  name_zh: 北海艺术设计学院
+  source: https://www.sszss.com/xhxxxg.htm?site_id=2
+  source_sha256: 8c52b1f49f2e33cd9aeb6e4f619f20c1a71a3ace26ae890dd103df0745f6a4b7
+  vi_url: https://www.sszss.com/xhxxxg.htm?site_id=2
+  basis: 校徽说明明确校徽标准色中国红，CMYK C0/M100/Y100/K10；未给RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 10
+    label: 中国红
+    role: primary
+    pantone: null
+- school_code: '4114013597'
+  name_zh: 山西科技学院
+  source: https://www.sxist.edu.cn/xygk/xxbs.htm
+  source_sha256: c17d54ee9a0c5a5db30e2da11bd0cccd14c4549ae66e47a5260cb000d5731364
+  vi_url: https://www.sxist.edu.cn/xygk/xxbs.htm
+  basis: 学校标识页公布两种校旗标准版的红底C0/M100/Y100/K10、黄字C10/M0/Y100/K0；仅为旗帜用途，不自动提升为校级主色。
+  colors:
+  - value: null
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 10
+    label: 校旗红底
+    role: reference
+    pantone: null
+  - value: null
+    cmyk:
+    - 10
+    - 0
+    - 100
+    - 0
+    label: 校旗黄字
+    role: reference
+    pantone: null
+- school_code: '4134010357'
+  name_zh: 安徽大学
+  source: http://www.ahu.edu.cn/149/list.htm
+  source_sha256: 06534838f65993f4f5a7514dfd0e77867299c7bb8a63f3835fb293f661ac7e83
+  vi_url: http://www.ahu.edu.cn/149/list.htm
+  basis: 2012年校旗规范公布红底C0/M100/Y100/K0、黄色校名C0/M0/Y100/K0；仅为旗帜用途，不自动替代学校主题主色。
+  colors:
+  - value: null
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 0
+    label: 校旗红底
+    role: reference
+    pantone: null
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 100
+    - 0
+    label: 校旗黄字
+    role: reference
+    pantone: null
+- school_code: '4136013432'
+  name_zh: 赣东学院
+  source: https://www.gdc.edu.cn/50/list.htm
+  source_sha256: 7dbdba4fc0f59678386ef3f8fd3a78d39eaefe1ef8d7293d1185d75e8f11f0e3
+  vi_url: https://www.gdc.edu.cn/50/list.htm
+  basis: 学校校旗规范明确玉茗紫C62/M100/Y40/K2及徽名黄色C4/M12/Y48/K0；用途为校旗，未给RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 62
+    - 100
+    - 40
+    - 2
+    label: 校旗玉茗紫
+    role: reference
+    pantone: null
+  - value: null
+    cmyk:
+    - 4
+    - 12
+    - 48
+    - 0
+    label: 校旗徽名黄色
+    role: reference
+    pantone: null
+- school_code: '4142010488'
+  name_zh: 武汉科技大学
+  source: https://www.wust.edu.cn/xywh/xh.htm
+  source_sha256: bdafc234e5c3cc2d84f33ebfb248dc3ae19cb2b5309e0fb9bc684efde5e65591
+  vi_url: https://www.wust.edu.cn/xywh/xh.htm
+  basis: 校方学校标识页明确校徽主色调由科技白、沁湖蓝、青山绿三色构成，分别给出CMYK。三色并列，不臆定唯一主色或从印刷色反推RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    label: 科技白
+    role: primary
+    pantone: null
+  - value: null
+    cmyk:
+    - 40
+    - 10
+    - 10
+    - 0
+    label: 沁湖蓝
+    role: primary
+    pantone: null
+  - value: null
+    cmyk:
+    - 90
+    - 30
+    - 80
+    - 40
+    label: 青山绿
+    role: primary
+    pantone: null
+- school_code: '4121013201'
+  name_zh: 沈阳工学院
+  source: https://www.situ.edu.cn/xxgk/xxbs.htm
+  source_sha256: 001905f8ae6003d481e629c11ef522b4e7b295d6b1a9a3e7c80649d823725bf1
+  vi_url: https://www.situ.edu.cn/xxgk/xxbs.htm
+  basis: 校方学校标识页校色段按蓝、黄顺序给出RGB 27/42/96、236/198/38与CMYK 100/98/46/6、0/25/90/0；按展示顺序记录并列校色，不声明主次等级。
+  colors:
+  - value: '#1B2A60'
+    cmyk:
+    - 100
+    - 98
+    - 46
+    - 6
+    label: 校色蓝
+    role: primary
+    pantone: null
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#ECC626'
+    cmyk:
+    - 0
+    - 25
+    - 90
+    - 0
+    label: 校色黄
+    role: primary
+    pantone: null
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+- school_code: '4132010850'
+  name_zh: 南京工业职业技术大学
+  source: https://www.niit.edu.cn/4055/list.htm
+  source_sha256: 1389380882bc206733a6a9e2eb17bac4299950a6c81a7c13be5830f19530193e
+  vi_url: https://www.niit.edu.cn/4055/list.htm
+  basis: 学校文化标识页明示标准色值C100/M75/Y15/K0和R4/G85/B146；HEX直接编码原RGB。
+  colors:
+  - value: '#045592'
+    cmyk:
+    - 100
+    - 75
+    - 15
+    - 0
+    label: 校标标准蓝
+    role: primary
+    pantone: null
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+- school_code: '4145010595'
+  name_zh: 桂林电子科技大学
+  source: https://www.guet.edu.cn/xxsb/list.htm
+  source_sha256: 65bedee8e623e4a00eb9e1c2393a585b31616af78fe93ec144cc5e01fde9ebfc
+  vi_url: https://www.guet.edu.cn/xxsb/list.htm
+  basis: 学校文化标识栏目2023年桂电蓝条目直接给出RGB(0,95,165)，HEX直接编码RGB；未从校旗图片取样。
+  colors:
+  - value: '#005FA5'
+    cmyk: null
+    label: 桂电蓝
+    role: primary
+    pantone: null
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+- school_code: '4143010542'
+  name_zh: 湖南师范大学
+  source: https://www.hunnu.edu.cn/xxgk1/xxbs1.htm
+  source_sha256: 35f5f5e7842bdf84628835e9f0ebe685d020d6ac525550cfc123edc24545f307
+  vi_url: https://www.hunnu.edu.cn/xxgk1/xxbs1.htm
+  basis: 校方标识页同时公布麓山枫红CMYK20/100/100/0、RGB200/22/30、Pantone P49-8C和WEB C8161D。原RGB编码为C8161E，与WEB最后一通道不一致，保留两种候选且暂停屏幕主色自动选择。
+  colors:
+  - value: '#C8161E'
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    label: 麓山枫红RGB候选
+    role: primary
+    pantone: P49-8C
+  - value: '#C8161D'
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    label: 麓山枫红WEB候选
+    role: primary
+    pantone: P49-8C
+  conflicts:
+  - field: color_primary
+    label: 麓山枫红
+    replace_methods:
+    - manual_derived
+    - community_theme
+    reason: 同一官方页面RGB(200,22,30)对应#C8161E，原WEB标注#C8161D；未自行选择一项。
+    candidates:
+    - value: '#C8161E'
+      notation: RGB 200/22/30
+    - value: '#C8161D'
+      notation: WEB C8161D
+- school_code: '4122010200'
+  name_zh: 东北师范大学
+  source: https://sjxxsbxt.nenu.edu.cn/__local/7/86/D7/F9459E7770B09D7AE0A1B033BBA_35FE54A9_25E0.png
+  source_sha256: 8167fc1233db33a62c5e39c6639e98e3f51b3bb4713b5bf4833e5c4b582066fa
+  vi_url: https://sjxxsbxt.nenu.edu.cn/jcyybf/xxscxtgf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。仅公布CMYK，不在缺少ICC印刷配置时换算屏幕RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 20
+    label: 标准蓝
+    pantone: null
+    role: primary
+- school_code: '4122010200'
+  name_zh: 东北师范大学
+  source: https://sjxxsbxt.nenu.edu.cn/__local/F/C1/C2/72A28457AB88783864A3800F226_F2608784_7452.png
+  source_sha256: e0b916c22baa165ad1438d1d06f776db3c77efe2ace42c52ae0abb492cc43c1d
+  vi_url: https://sjxxsbxt.nenu.edu.cn/jcyybf/xxscxtgf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助色与使用示例一致；灰色K值原图为70。
+  colors:
+  - value: null
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 15
+    label: 辅助红
+    pantone: null
+    role: reference
+  - value: null
+    cmyk:
+    - 100
+    - 0
+    - 40
+    - 75
+    label: 辅助绿
+    pantone: null
+    role: reference
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 70
+    label: 辅助灰
+    pantone: null
+    role: reference
+- school_code: '4122010200'
+  name_zh: 东北师范大学
+  source: https://sjxxsbxt.nenu.edu.cn/__local/B/27/1E/4761C965DE7134E1B6E599740C9_D4F7C8B4_1D93.png
+  source_sha256: 281eabefd2c26e116c379c3cae381053061e7cfe8d67265cfef1817193443ac2
+  vi_url: https://sjxxsbxt.nenu.edu.cn/jcyybf/xxscxtgf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。专金/专银只公布Pantone，未从色块取样生成RGB。
+  colors:
+  - value: null
+    cmyk: null
+    label: 专金
+    pantone: 873C
+    role: reference
+  - value: null
+    cmyk: null
+    label: 专银
+    pantone: 877C
+    role: reference
+- school_code: '4133010349'
+  name_zh: 绍兴大学
+  source: https://www.usx.edu.cn/__local/0/15/D2/2272CEE7E3E163DA91007BD004D_E5BD6ECB_29732.jpg
+  source_sha256: b73138ff746e9b5ba3c53c016ccf3f7f7a21f10951c8a35b26e9ba0832065b20
+  vi_url: https://www.usx.edu.cn/xxsbxt/jcsbxt/bzs.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三项校方标准色，HEX直接编码RGB142/21/55、51/94/105、35/24/21；Pantone保留原图记法。
+  colors:
+  - value: '#8E1537'
+    cmyk:
+    - 48
+    - 100
+    - 75
+    - 16
+    label: 脊梁红
+    pantone: P1955 C
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#335E69'
+    cmyk:
+    - 84
+    - 60
+    - 54
+    - 9
+    label: 瓷水青
+    pantone: P8762 C
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#231815'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    label: 书文墨
+    pantone: P179-16 C
+    role: primary
+- school_code: '4133010349'
+  name_zh: 绍兴大学
+  source: https://www.usx.edu.cn/__local/D/77/3E/B1A18F56C33ECFEFA88CE3EA9AC_D8D1B849_2E3CA.jpg
+  source_sha256: 5cb05453b4b3fe05b4dc2015ba7a3f975f03dd3de51f91ffcebdfb47934f0aed
+  vi_url: https://www.usx.edu.cn/xxsbxt/jcsbxt/bzs.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助金银色RGB与印刷值分别保存。
+  colors:
+  - value: '#BF9262'
+    cmyk:
+    - 0
+    - 33
+    - 53
+    - 32
+    label: 金色
+    pantone: P29-11 C
+    role: reference
+  - value: '#B5B5B6'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    label: 银色
+    pantone: P179-6 C
+    role: reference
+- school_code: '4133014943'
+  name_zh: 宁波东方理工大学
+  source: https://www.eitech.edu.cn/_upload/article/images/8e/09/9ac030e24973a30ea8f889aba402/cf4affa2-baea-4d21-86e0-ada318bff9fa.png
+  source_sha256: 89745c61d535189f5c760e65cafe0ed1ecaef73db67279ff5f9f110995a94b2c
+  vi_url: https://www.eitech.edu.cn/290/list.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。原图HEX92071C、RGB146/7/28一致；Pantone后缀按原图7622cp记录。
+  colors:
+  - value: '#92071C'
+    cmyk:
+    - 46
+    - 100
+    - 100
+    - 17
+    label: 标准红
+    pantone: 7622cp
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+- school_code: '4133014943'
+  name_zh: 宁波东方理工大学
+  source: https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/2c38d8f9-639d-4f82-9c59-8e62b6e11f77.png
+  source_sha256: 7b4a2235b5c04f2dfcb176e8081e114340a7c4fe2c2163afa07009ae4ad4de61
+  vi_url: https://www.eitech.edu.cn/290/list.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。仅采用图上明确HEX文本。
+  colors:
+  - value: '#AAA9A1'
+    cmyk: null
+    label: 辅助灰
+    pantone: null
+    role: reference
+- school_code: '4133014943'
+  name_zh: 宁波东方理工大学
+  source: https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/ac45b1fa-cc6d-4a3a-882d-79d146304e68.png
+  source_sha256: 0646efe8cb3af65c41bf98052914d99d158b698451f5d0d2663be1a60e2efe31
+  vi_url: https://www.eitech.edu.cn/290/list.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。仅采用图上明确HEX文本。
+  colors:
+  - value: '#FDB837'
+    cmyk: null
+    label: 辅助黄
+    pantone: null
+    role: reference
+- school_code: '4134010370'
+  name_zh: 安徽师范大学
+  source: https://www.ahnu.edu.cn/__local/F/89/E8/9EA74B68AE914810A86869AE188_7EFD9A02_3EEFD.jpg
+  source_sha256: 9bc295b33efb845b92746f56dedb6dfd6c841d2eb5b43ad8adc576ce398c1644
+  vi_url: https://www.ahnu.edu.cn/xxgk/xxbs/bzs.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项均为校方标准色；primary/secondary供导出显示按原图编号排列，不声明独占校色。
+  colors:
+  - value: '#004EA2'
+    cmyk:
+    - 96
+    - 70
+    - 0
+    - 0
+    label: 标准色1
+    pantone: null
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#6DC4EE'
+    cmyk:
+    - 55
+    - 4
+    - 1
+    - 0
+    label: 标准色2
+    pantone: null
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#C39214'
+    cmyk:
+    - 27
+    - 45
+    - 98
+    - 2
+    label: 标准色3
+    pantone: null
+    role: primary
+  - value: '#000000'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    label: 标准色4
+    pantone: null
+    role: primary
+- school_code: '4142010495'
+  name_zh: 武汉纺织大学
+  source: https://vi.wtu.edu.cn/__local/B/36/FC/E1C91F1C351BA76A5F49C8DC414_4E9D1FBC_59417.jpg
+  source_sha256: 1a7c83a0c750c17eb563964ed8e86fa91bae479e7e7005e4a49551cf06a2a0fe
+  vi_url: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。蓝红均为标准色；RGB与HEX相符，导出顺序不表示级别。
+  colors:
+  - value: '#003378'
+    cmyk:
+    - 100
+    - 72
+    - 0
+    - 38
+    label: 纺大蓝
+    pantone: null
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#A61625'
+    cmyk:
+    - 41
+    - 100
+    - 98
+    - 8
+    label: 纺大红
+    pantone: null
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+- school_code: '4142010495'
+  name_zh: 武汉纺织大学
+  source: https://vi.wtu.edu.cn/__local/4/F5/F1/2A37CFFC5C2C8F04A4DD269C835_5B28C652_35A64.jpg
+  source_sha256: 20944e6d5c930cadaac7d223f26d5b2f36a9598c69d5295cd91cb2a16100e061
+  vi_url: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。染纺灰原图HEX9DAFBE与原RGB91/193/216（对应5BC1D8）冲突，两项保留为辅助候选；其他项RGB/HEX一致，辅助候选不影响蓝红标准色。
+  colors:
+  - value: '#9DAFBE'
+    cmyk:
+    - 44
+    - 26
+    - 19
+    - 0
+    label: 染纺灰HEX候选
+    pantone: null
+    role: reference
+  - value: '#5BC1D8'
+    cmyk:
+    - 44
+    - 26
+    - 19
+    - 0
+    label: 染纺灰RGB候选
+    pantone: null
+    role: reference
+  - value: '#5BC1D8'
+    cmyk:
+    - 62
+    - 8
+    - 18
+    - 0
+    label: 松石青
+    pantone: null
+    role: reference
+  - value: '#0080CB'
+    cmyk:
+    - 82
+    - 44
+    - 2
+    - 0
+    label: 锦湖蓝
+    pantone: null
+    role: reference
+  - value: '#B8A8D0'
+    cmyk:
+    - 33
+    - 36
+    - 4
+    - 0
+    label: 经纬紫
+    pantone: null
+    role: reference
+  - value: '#F7CCD7'
+    cmyk:
+    - 3
+    - 28
+    - 7
+    - 0
+    label: 锦绣粉
+    pantone: null
+    role: reference
+- school_code: '4142010495'
+  name_zh: 武汉纺织大学
+  source: https://vi.wtu.edu.cn/__local/8/BB/15/16B2488792562A8261BD8199264_2F4C5913_543E4.jpg
+  source_sha256: a06b1a4092bd9f92f725ffedbad2a776fa31836b3ffdc8b3d1d6fd3dc5154843
+  vi_url: https://vi.wtu.edu.cn/jcbf/A_02scgf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。特殊工艺用色，原图提供RGB/HEX及CMYK，均作为参考色。
+  colors:
+  - value: '#B09D60'
+    cmyk:
+    - 20
+    - 25
+    - 60
+    - 25
+    label: 黄旦金（专金）
+    pantone: null
+    role: reference
+  - value: '#B5B5B6'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    label: 经纬银（专银）
+    pantone: null
+    role: reference
+  - value: '#BE8A3A'
+    cmyk:
+    - 30
+    - 50
+    - 85
+    - 0
+    label: 飞梭铜（专铜）
+    pantone: null
+    role: reference
+- school_code: '4161010698'
+  name_zh: 西安交通大学
+  source: https://vi.xjtu.edu.cn/__local/8/40/72/4D466B8FF3382519683C94EF558_1FB1E738_B50.png
+  source_sha256: 461f5a37ebdacf31598180f1a3aaea83311dbd1a218add93cecc228222c6728a
+  vi_url: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三种标准色均来自图中RGB文本，未将页面图像像素当色值。
+  colors:
+  - value: '#C8161E'
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    label: 标准红
+    pantone: null
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#004E97'
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 20
+    label: 标准蓝
+    pantone: null
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#DCDCDD'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 20
+    label: 标准灰
+    pantone: null
+    role: primary
+- school_code: '4161010698'
+  name_zh: 西安交通大学
+  source: https://vi.xjtu.edu.cn/__local/A/C1/71/0DBC36442E57BF702F1E4A72591_203EA1D5_B46.png
+  source_sha256: d5902e10219e4e1e3a5e9df64fe5eb822ff52c07b5a845773717cf3f970d7aec
+  vi_url: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助色只公布CMYK，不转换RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 20
+    - 100
+    - 80
+    - 10
+    label: 辅助红
+    pantone: null
+    role: reference
+  - value: null
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 10
+    label: 辅助蓝
+    pantone: null
+    role: reference
+  - value: null
+    cmyk:
+    - 57
+    - 75
+    - 96
+    - 16
+    label: 辅助棕
+    pantone: null
+    role: reference
+- school_code: '4161012715'
+  name_zh: 西京学院
+  source: https://www.xijing.edu.cn/__local/F/C2/0D/D72F12F74C5C3DECA48D6CEBA12_E63A691F_7331.jpg
+  source_sha256: cf19e979a379aa588ff9378c9e86d57bb64140b3f6df2b941ffe3d26d8415d9a
+  vi_url: https://www.xijing.edu.cn/xjgk/xxbs/xhsy1/bzssygf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。标准绿红的HEX与RGB0/96/96、208/18/27相符。
+  colors:
+  - value: '#006060'
+    cmyk:
+    - 88
+    - 37
+    - 53
+    - 34
+    label: 西京绿
+    pantone: 330C
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+  - value: '#D0121B'
+    cmyk:
+    - 15
+    - 100
+    - 100
+    - 0
+    label: 金光红
+    pantone: 485C
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+- school_code: '4161012715'
+  name_zh: 西京学院
+  source: https://www.xijing.edu.cn/__local/0/45/BA/AC5FF3E64B643032C5EA4019CD5_0E22EDE0_4F04.jpg
+  source_sha256: bdead1735c2ca74db4e05ea0967d6c06ca9980e3b324765c64d4cade1ea6af21
+  vi_url: https://www.xijing.edu.cn/xjgk/xxbs/xhsy1/bzssygf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。四项辅助色的原图RGB/HEX一致。
+  colors:
+  - value: '#EA6099'
+    cmyk:
+    - 0
+    - 75
+    - 5
+    - 0
+    label: 辅助粉
+    pantone: 211C
+    role: reference
+  - value: '#008CCF'
+    cmyk:
+    - 80
+    - 30
+    - 0
+    - 0
+    label: 辅助蓝
+    pantone: 2925C
+    role: reference
+  - value: '#FFDA01'
+    cmyk:
+    - 0
+    - 15
+    - 90
+    - 0
+    label: 辅助黄
+    pantone: 803C
+    role: reference
+  - value: '#81B44B'
+    cmyk:
+    - 55
+    - 10
+    - 85
+    - 0
+    label: 辅助绿
+    pantone: 7489C
+    role: reference
+- school_code: '4161012715'
+  name_zh: 西京学院
+  source: https://www.xijing.edu.cn/__local/B/B8/FA/849BE9D77E0FB236322A1A58908_D80AC7D2_4B1F.jpg
+  source_sha256: d634ff5a51d53cad8eca67dfffe3e33ebbfde97954d901c9f76bad16dc8368cd
+  vi_url: https://www.xijing.edu.cn/xjgk/xxbs/xhsy1/bzssygf.htm
+  basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助白原图RGB255/255/255与HEX006060冲突，分别保存两个候选；专金银只列Pantone，没有RGB或CMYK，不补推测值。
+  colors:
+  - value: '#000000'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    label: 辅助黑
+    pantone: Black C
+    role: reference
+  - value: '#FFFFFF'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    label: 辅助白RGB候选
+    pantone: White C
+    role: reference
+  - value: '#006060'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    label: 辅助白HEX候选
+    pantone: White C
+    role: reference
+  - value: '#5C5A5A'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 79
+    label: 辅助灰
+    pantone: Cool Gray C
+    role: reference
+  - value: null
+    cmyk: null
+    label: 专银
+    pantone: 877C
+    role: reference
+  - value: null
+    cmyk: null
+    label: 专金
+    pantone: 876C
+    role: reference
+- school_code: '4111010025'
+  name_zh: 首都医科大学
+  source: https://www.ccmu.edu.cn/xxgk/xxbz/index.htm
+  source_sha256: bf14370eea9efb29ec29f742798d62ac302f5d59a1a69782b7b375eaac91392f
+  vi_url: https://www.ccmu.edu.cn/xxgk/xxbz/index.htm
+  basis: 官网学校标识页明确公布校色/校徽主色的CMYK数值；未提供屏幕RGB，保留印刷标准不推算HEX。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 70
+    - 0
+    - 0
+    label: 校色
+    role: primary
+    pantone: null
+- school_code: '4144010588'
+  name_zh: 广东技术师范大学
+  source: https://www.gpnu.edu.cn/xxgk/xhxxxg.htm
+  source_sha256: ff5108d9fb3d5b56ca46d363ce6badd1fbf746c11a0a9f84be9862c3b59478e2
+  vi_url: https://www.gpnu.edu.cn/xxgk/xhxxxg.htm
+  basis: 官网学校标识页明确公布校色/校徽主色的CMYK数值；未提供屏幕RGB，保留印刷标准不推算HEX。
+  colors:
+  - value: null
+    cmyk:
+    - 95
+    - 45
+    - 95
+    - 5
+    label: 校徽主色绿
+    role: primary
+    pantone: null
+  - value: null
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 0
+    label: 校徽主色红
+    role: primary
+    pantone: null
+- school_code: '4111010003'
+  name_zh: 清华大学
+  source: https://vi.tsinghua.edu.cn/__local/7/67/A7/C96592E94FC276177D47D8B1130_66B521D0_A117.jpg
+  source_sha256: 424187ad7fa4ed8d916ccc90f096172512ab63a9b84463a569e1a263ec1bd5ac
+  vi_url: https://vi.tsinghua.edu.cn/gk/xxbz/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。渐变端点只适用于手册所示组合。
+  colors:
+  - value: '#660874'
+    cmyk:
+    - 65
+    - 100
+    - 0
+    - 20
+    pantone: 259C
+    label: 清华紫
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#D93379'
+    cmyk:
+    - 10
+    - 90
+    - 20
+    - 0
+    pantone: 7424C
+    label: 清华紫渐变组合粉红端点
+    role: reference
+- school_code: '4111010003'
+  name_zh: 清华大学
+  source: https://vi.tsinghua.edu.cn/__local/A/03/43/E2B3988EFF8FC54AE523E77998F_3D9ABE84_1B205.jpg
+  source_sha256: 4bb4ac8073eada0def457c6b85e3419b91e3af6358effb3980880c92493338d5
+  vi_url: https://vi.tsinghua.edu.cn/gk/xxbz/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。专金与专银仅标注PANTONE，不补造屏幕色。
+  colors:
+  - value: '#000000'
+    cmyk:
+    - 100
+    - 100
+    - 100
+    - 100
+    pantone: Black C
+    label: 专色黑
+    role: reference
+  - value: '#FFFFFF'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: White C
+    label: 专色白
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: 871C
+    label: 专金
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: 877C
+    label: 专银
+    role: reference
+- school_code: '4111010008'
+  name_zh: 北京科技大学
+  source: https://vi.ustb.edu.cn/images/2024-11/20d35914ce9a4339986eb64d443f44cf.jpg
+  source_sha256: fd76d39eabe109dea5465c3d8b0459616c78dd2d18caae3a3a1ac0e3a40da65e
+  vi_url: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#A31418'
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 30
+    pantone: null
+    label: 钢铁红
+    role: secondary
+  - value: '#BCBEC0'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 30
+    pantone: null
+    label: 金属灰
+    role: secondary
+- school_code: '4111010008'
+  name_zh: 北京科技大学
+  source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+  source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  vi_url: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+  colors:
+  - value: '#005B94'
+    cmyk:
+    - 100
+    - 70
+    - 20
+    - 0
+    pantone: null
+    label: 渐变组合科技蓝
+    role: reference
+  - value: '#1766A9'
+    cmyk:
+    - 87
+    - 60
+    - 14
+    - 0
+    pantone: null
+    label: 渐变蓝端点
+    role: reference
+  - value: '#2BA3C0'
+    cmyk:
+    - 74
+    - 22
+    - 24
+    - 0
+    pantone: null
+    label: 渐变青端点
+    role: reference
+  - value: '#A31418'
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 30
+    pantone: null
+    label: 渐变组合钢铁红
+    role: reference
+  - value: '#F18E1D'
+    cmyk:
+    - 7
+    - 55
+    - 89
+    - 0
+    pantone: null
+    label: 渐变橙端点
+    role: reference
+  - value: '#295B95'
+    cmyk:
+    - 87
+    - 67
+    - 23
+    - 0
+    pantone: null
+    label: 渐变蓝2端点
+    role: reference
+  - value: '#3563A3'
+    cmyk:
+    - 84
+    - 62
+    - 16
+    - 0
+    pantone: null
+    label: 渐变蓝3端点
+    role: reference
+  - value: '#81277B'
+    cmyk:
+    - 62
+    - 97
+    - 23
+    - 0
+    pantone: null
+    label: 渐变紫端点
+    role: reference
+  - value: '#CB1934'
+    cmyk:
+    - 26
+    - 99
+    - 81
+    - 0
+    pantone: null
+    label: 渐变红端点
+    role: reference
+- school_code: '4111010008'
+  name_zh: 北京科技大学
+  source: https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg
+  source_sha256: eb4c4c04307383fb35420239a1381582fc4a987a373fc8b560251d7a1e86852d
+  vi_url: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#B59A4B'
+    cmyk:
+    - 37
+    - 40
+    - 79
+    - 0
+    pantone: P12-13 C
+    label: 专金
+    role: reference
+  - value: '#000000'
+    cmyk:
+    - 100
+    - 100
+    - 100
+    - 100
+    pantone: Black C
+    label: 专色黑
+    role: reference
+  - value: '#FFFFFF'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: White C
+    label: 专色白
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: 877C
+    label: 专银
+    role: reference
+- school_code: '4111010045'
+  name_zh: 中央音乐学院
+  source: https://www.ccom.edu.cn/images/scgf/scgf04.jpg
+  source_sha256: 99876295f838c3ea6f70ad748ebb5e9fa44b4c8e995367603ab10048702f026c
+  vi_url: https://www.ccom.edu.cn/xysh/yybs/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#8F002F'
+    cmyk:
+    - 20
+    - 100
+    - 60
+    - 40
+    pantone: 7420C / 200U
+    label: 音乐红
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+- school_code: '4111010045'
+  name_zh: 中央音乐学院
+  source: https://www.ccom.edu.cn/images/scgf/scgf01.jpg
+  source_sha256: 3aebd74ef4ee524440815189d7a08f1013ec21b1ca77a153a0922c4539cb7b68
+  vi_url: https://www.ccom.edu.cn/xysh/yybs/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#D92825'
+    cmyk:
+    - 10
+    - 95
+    - 90
+    - 0
+    pantone: 1797C / 1795U
+    label: 辅助红
+    role: secondary
+  - value: '#552277'
+    cmyk:
+    - 80
+    - 100
+    - 20
+    - 0
+    pantone: 526C / 526U
+    label: 辅助紫
+    role: secondary
+  - value: '#666666'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 60
+    pantone: null
+    label: 辅助灰60
+    role: secondary
+  - value: '#999999'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 辅助灰40
+    role: secondary
+  - value: '#CCCCCC'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 20
+    pantone: null
+    label: 辅助灰20
+    role: secondary
+  - value: '#D5B445'
+    cmyk:
+    - 20
+    - 30
+    - 80
+    - 0
+    pantone: null
+    label: 辅助金黄
+    role: secondary
+  - value: '#F5E6B4'
+    cmyk:
+    - 5
+    - 10
+    - 35
+    - 0
+    pantone: 461C / 461U
+    label: 辅助淡黄
+    role: secondary
+  - value: '#FFF5D7'
+    cmyk:
+    - 0
+    - 5
+    - 20
+    - 0
+    pantone: 7499C / 7499U
+    label: 辅助浅黄
+    role: secondary
+- school_code: '4121010150'
+  name_zh: 大连交通大学
+  source: http://www.djtu.edu.cn/Upload/image/20190606/8ef15fc6-129c-4a94-9d4b-ac279ddac24d.jpg
+  source_sha256: e79729debe72988af05b9033121b686851a39bdabfbf456a483bc37ce232f7b6
+  vi_url: http://www.djtu.edu.cn/vi-color.html
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#25598B'
+    cmyk:
+    - 80
+    - 50
+    - 10
+    - 30
+    pantone: P108-7C
+    label: 交大蓝
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+- school_code: '4121010150'
+  name_zh: 大连交通大学
+  source: http://www.djtu.edu.cn/Upload/image/20190606/3278fe54-1c9e-43f7-aa1c-46cffa6989a0.jpg
+  source_sha256: 8409f77507a3f0cc5cded50da2f428f360f007bcd18a44a912ace6ed2153023f
+  vi_url: http://www.djtu.edu.cn/vi-color.html
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#C6A86F'
+    cmyk:
+    - 0
+    - 20
+    - 50
+    - 30
+    pantone: 874C/U
+    label: 专金
+    role: reference
+  - value: '#B5B5B6'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: 877C/U
+    label: 专银
+    role: reference
+- school_code: '4121010150'
+  name_zh: 大连交通大学
+  source: http://www.djtu.edu.cn/Upload/image/20190606/fff854b5-e71d-43af-86ca-be463c87713a.jpg
+  source_sha256: 8a692f4afb0034f88f3dc14c0a45fdfbe023543432e512c262b38d5102e0995e
+  vi_url: http://www.djtu.edu.cn/vi-color.html
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助红与辅助深蓝有RGB/HEX矛盾，未择一替代；不影响另图标准色交大蓝。
+  colors:
+  - value: '#FFF000'
+    cmyk:
+    - 0
+    - 0
+    - 100
+    - 0
+    pantone: Yellow C
+    label: 辅助黄
+    role: secondary
+  - value: '#EC6C1F'
+    cmyk:
+    - 0
+    - 70
+    - 90
+    - 0
+    pantone: 159C
+    label: 辅助橙
+    role: secondary
+  - value: '#0096E0'
+    cmyk:
+    - 100
+    - 10
+    - 0
+    - 0
+    pantone: 1005C/U
+    label: 辅助青
+    role: secondary
+  - value: '#00A56F'
+    cmyk:
+    - 80
+    - 5
+    - 70
+    - 0
+    pantone: 2249C
+    label: 辅助绿
+    role: secondary
+  - value: '#8F0108'
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 40
+    pantone: 682C
+    label: 辅助红RGB候选
+    role: reference
+    basis: '原图RGB 143/1/8与HEX #231815不一致；保留RGB直接编码的候选值，待核对。'
+  - value: '#231815'
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 40
+    pantone: 682C
+    label: 辅助红HEX候选
+    role: reference
+    basis: '原图HEX #231815与RGB 143/1/8不一致；保留原HEX候选值，待核对。'
+  - value: '#0E357F'
+    cmyk:
+    - 100
+    - 90
+    - 20
+    - 0
+    pantone: 661C
+    label: 辅助深蓝RGB候选
+    role: reference
+    basis: '原图RGB 14/53/127与HEX #0D347E不一致，保留候选待核对。'
+  - value: '#0D347E'
+    cmyk:
+    - 100
+    - 90
+    - 20
+    - 0
+    pantone: 661C
+    label: 辅助深蓝HEX候选
+    role: reference
+    basis: '原图HEX #0D347E与RGB 14/53/127不一致，保留候选待核对。'
+- school_code: '4132010298'
+  name_zh: 南京林业大学
+  source: https://www.njfu.edu.cn/bcms/DFS//network/c1148/i188700/162118442917869u68z.jpg
+  source_sha256: 732de3f0bcf4176e9309fa95a66ce119251bf3981a8a40d376d2d94ad3aa1313
+  vi_url: https://www.njfu.edu.cn/xywh/bzs/index.html
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。南林绿按原图RGB 52/110/80与CMYK 100/45/85/0分别记录；辅助色原图仅标C70Y100及K75，缺少通道不补零。
+  colors:
+  - value: '#346E50'
+    cmyk:
+    - 100
+    - 45
+    - 85
+    - 0
+    pantone: null
+    label: 南林绿
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#6BB240'
+    cmyk: null
+    pantone: null
+    label: 辅助绿
+    role: secondary
+    cmyk_text: C70 Y100
+  - value: '#555555'
+    cmyk: null
+    pantone: null
+    label: 辅助灰
+    role: secondary
+    cmyk_text: K75
+- school_code: '4134010373'
+  name_zh: 淮北师范大学
+  source: https://www.chnu.edu.cn/upload/main/contentmanage/node/image/de9eb585a8554f559d0585d7b5ddab67.png
+  source_sha256: acddfa6ad2df0b265c9fd8198a35ea250ca224afc2d03e310c4053e9b6ee5559
+  vi_url: https://www.chnu.edu.cn/abutus/sjsbxt/jcbf/bzs
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。主色图有三种样式；中间标准蓝RGB在辅助色图再次一致标注，作为展示入口。深色样式RGB原文疑似笔误。
+  colors:
+  - value: '#367000'
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 50
+    pantone: null
+    label: 深标准色原文RGB待核对
+    role: reference
+    basis: 原图深蓝色块写R54 G112 B0，编码#367000与显示色调不同；保留原文候选供核验，未设为主色。
+  - value: '#005AA0'
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 20
+    pantone: null
+    label: 标准蓝
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#0099DD'
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 0
+    pantone: null
+    label: 浅标准蓝
+    role: primary
+- school_code: '4134010373'
+  name_zh: 淮北师范大学
+  source: https://www.chnu.edu.cn/upload/main/contentmanage/node/image/f74fad6658764430927d1677766ea529.png
+  source_sha256: bffff308961baa21993819992bf04a94c3d43119fb8f34f30d40824e2752c16a
+  vi_url: https://www.chnu.edu.cn/abutus/sjsbxt/jcbf/bzs
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#005AA0'
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 20
+    pantone: null
+    label: 标准蓝
+    role: primary
+  - value: null
+    cmyk: null
+    pantone: 871C
+    label: 专金
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: 877C
+    label: 专银
+    role: reference
+  - value: '#000000'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: null
+    label: 辅助黑
+    role: reference
+  - value: '#FFFFFF'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: null
+    label: 辅助白
+    role: reference
+- school_code: '4137010423'
+  name_zh: 中国海洋大学
+  source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/33b2a486-63be-4499-b566-36a10b2369ba.jpg
+  source_sha256: b09c0ccef2639843564472a211383aeac4c64ae0c994b28f587923db2d996afa
+  vi_url: https://news.ouc.edu.cn/2021/0610/c321a105824/page.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。三种基本标准色并列，字段顺序仅用于展示，不宣称蓝色等级高于红色。
+  colors:
+  - value: '#004098'
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 0
+    pantone: P102-8 C
+    label: 海大海蓝
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#00A0E9'
+    cmyk:
+    - 100
+    - 0
+    - 0
+    - 0
+    pantone: P115-8 C
+    label: 海大天蓝
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#C81528'
+    cmyk:
+    - 20
+    - 100
+    - 90
+    - 0
+    pantone: P53-8 C
+    label: 海大红
+    role: primary
+- school_code: '4137010423'
+  name_zh: 中国海洋大学
+  source: https://news.ouc.edu.cn/_upload/article/images/92/35/7f16d29e4fd7b5fac91cf59e7a06/1c4424d2-5c0e-47aa-a8e3-9b1d876dd203.jpg
+  source_sha256: fec0edd3ed645dbbd11bc2c22db54b7adcd0821b8fc38ce86ef2c235b02aa470
+  vi_url: https://news.ouc.edu.cn/2021/0610/c321a105824/page.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#F9D2D4'
+    cmyk:
+    - 0
+    - 25
+    - 10
+    - 0
+    pantone: P65-2 C
+    label: 樱绽粉
+    role: secondary
+  - value: '#794F2F'
+    cmyk:
+    - 0
+    - 50
+    - 60
+    - 60
+    pantone: 7567 C
+    label: 文脉棕
+    role: secondary
+  - value: '#CCAD69'
+    cmyk:
+    - 0
+    - 20
+    - 55
+    - 27
+    pantone: P16-4 C
+    label: 专金
+    role: reference
+  - value: '#CFD0D0'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 27
+    pantone: P179-4 C
+    label: 专银
+    role: reference
+- school_code: '4137010439'
+  name_zh: 山东第一医科大学
+  source: https://vi.sdfmu.edu.cn/__local/B/90/8B/ECFD2A5A73D1AE7B7B57D94BEAA_E24E322E_1F489.jpg
+  source_sha256: e9de0404e931fefbf53cb56fcaf94e6d0e29e33fd2878d78fe82950c66b823ae
+  vi_url: https://vi.sdfmu.edu.cn/jcbf/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。标准色原图RGB与HEX矛盾，主色字段标记conflict。
+  colors:
+  - value: '#801979'
+    cmyk:
+    - 60
+    - 100
+    - 15
+    - 0
+    pantone: null
+    label: 标准紫RGB候选
+    role: reference
+    basis: '学校标准色原图RGB 128/25/121与HEX #800E74矛盾；该值由原RGB编码，待核对。'
+  - value: '#800E74'
+    cmyk:
+    - 60
+    - 100
+    - 15
+    - 0
+    pantone: null
+    label: 标准紫HEX候选
+    role: reference
+    basis: '学校标准色原图HEX #800E74与RGB 128/25/121矛盾；保留原HEX候选，待核对。'
+  conflicts:
+  - field: color_primary
+    label: 学校标准紫数值待核对
+    replace_methods:
+    - manual_derived
+    - community_theme
+    reason: '同一官方标准色色卡写RGB 128/25/121（#801979）及HEX #800E74，未自动选定。'
+    candidates:
+    - value: '#801979'
+      basis: 原图RGB 128/25/121直接编码
+    - value: '#800E74'
+      basis: 原图HEX 800E74
+- school_code: '4137010439'
+  name_zh: 山东第一医科大学
+  source: https://vi.sdfmu.edu.cn/__local/6/E0/7D/B116AF79A147D33EE98F64DDAC5_EB651165_28BA9.jpg
+  source_sha256: 9400acf4a36e2bc8682d2339885b67ac5bd03fb4cfc278441bad4b2f25316584
+  vi_url: https://vi.sdfmu.edu.cn/jcbf/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#0081CC'
+    cmyk:
+    - 100
+    - 30
+    - 0
+    - 0
+    pantone: null
+    label: 辅助蓝
+    role: secondary
+  - value: '#00A9BA'
+    cmyk:
+    - 85
+    - 0
+    - 30
+    - 0
+    pantone: null
+    label: 辅助青
+    role: secondary
+  - value: '#72AF2D'
+    cmyk:
+    - 60
+    - 10
+    - 100
+    - 0
+    pantone: null
+    label: 辅助绿
+    role: secondary
+  - value: '#F6AC2D'
+    cmyk:
+    - 0
+    - 40
+    - 85
+    - 0
+    pantone: null
+    label: 辅助橙
+    role: secondary
+  - value: '#C8161D'
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 辅助红
+    role: secondary
+- school_code: '4137010439'
+  name_zh: 山东第一医科大学
+  source: https://vi.sdfmu.edu.cn/__local/D/33/52/E107369AF7844FF52052DD45384_EDA52D08_2725F.jpg
+  source_sha256: f61d1d148167ae5432a8492f6a94f87345a688b571cc5e318cbec256474654dc
+  vi_url: https://vi.sdfmu.edu.cn/jcbf/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助金与辅助银的RGB/HEX也有矛盾。
+  colors:
+  - value: '#BD9F68'
+    cmyk:
+    - 25
+    - 35
+    - 60
+    - 10
+    pantone: null
+    label: 辅助金RGB候选
+    role: reference
+    basis: 原图RGB189/159/104与HEX BB9E6E不一致，保留候选待核对。
+  - value: '#BB9E6E'
+    cmyk:
+    - 25
+    - 35
+    - 60
+    - 10
+    pantone: null
+    label: 辅助金HEX候选
+    role: reference
+    basis: 原图HEX BB9E6E与RGB189/159/104不一致，保留候选待核对。
+  - value: '#B5B5B6'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 辅助银RGB候选
+    role: reference
+    basis: 原图RGB181/181/182与HEX B5B6B7不一致，保留候选待核对。
+  - value: '#B5B6B7'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 辅助银HEX候选
+    role: reference
+    basis: 原图HEX B5B6B7与RGB181/181/182不一致，保留候选待核对。
+  - value: '#42403E'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 90
+    pantone: null
+    label: 辅助黑灰
+    role: secondary
+  - value: '#1D2088'
+    cmyk:
+    - 100
+    - 100
+    - 0
+    - 0
+    pantone: null
+    label: 辅助紫蓝
+    role: secondary
+  - value: '#2C4198'
+    cmyk:
+    - 90
+    - 80
+    - 0
+    - 0
+    pantone: null
+    label: 辅助深蓝
+    role: secondary
+- school_code: '4137010446'
+  name_zh: 曲阜师范大学
+  source: https://www.qfnu.edu.cn/images/xxbs_pic4.jpg
+  source_sha256: 946d58dd3573d738e8de713362511e0af9d642cf87eb8c62a60d305d7c5103d9
+  vi_url: https://www.qfnu.edu.cn/ljxx/xxbs.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。米白CMYK原图印有M810，超出0–100范围，保留原文不强行修正；其RGB248/233/214明确。
+  colors:
+  - value: '#702C07'
+    cmyk:
+    - 36
+    - 80
+    - 100
+    - 48
+    pantone: null
+    label: 标识标准棕
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#F8E9D6'
+    cmyk: null
+    pantone: null
+    label: 标识米白
+    role: secondary
+    cmyk_text: C4 M810 Y18 K0
+  - value: '#000000'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: null
+    label: 标识黑
+    role: reference
+- school_code: '4137010446'
+  name_zh: 曲阜师范大学
+  source: https://www.qfnu.edu.cn/images/xxbs_pic5.jpg
+  source_sha256: 64bdd024a9e261bfe7c5c85d31fd4c5e833d75a29abbe61b520d55358ed928ae
+  vi_url: https://www.qfnu.edu.cn/ljxx/xxbs.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。辅助色只提供CMYK。专用金色未给可记录的数值或专色编号，不从色块取值。
+  colors:
+  - value: null
+    cmyk:
+    - 90
+    - 73
+    - 14
+    - 0
+    pantone: null
+    label: 曲园蓝
+    role: secondary
+  - value: null
+    cmyk:
+    - 85
+    - 40
+    - 60
+    - 0
+    pantone: null
+    label: 曲园绿
+    role: secondary
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 19
+    pantone: null
+    label: 儒雅灰
+    role: secondary
+  - value: null
+    cmyk:
+    - 35
+    - 100
+    - 75
+    - 0
+    pantone: null
+    label: 曲园红
+    role: secondary
+- school_code: '4142010489'
+  name_zh: 长江大学
+  source: https://vis.yangtzeu.edu.cn/__local/3/B9/67/09905657FD2334ED9DF90F612D7_D92ECEF9_F83B.jpg
+  source_sha256: a77c423243843536945a7cdeb30a13fd1e3cfb8a40e2d120937679d449d01f15
+  vi_url: https://vis.yangtzeu.edu.cn/jcbf/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。补充另一官方色卡图明确的RGB/HEX；此前只读HTML找到CMYK的局部not_found结论保留在变更日志中。
+  colors:
+  - value: '#0C3388'
+    cmyk:
+    - 100
+    - 91
+    - 22
+    - 0
+    pantone: null
+    label: 长大蓝
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#D80C18'
+    cmyk:
+    - 19
+    - 99
+    - 100
+    - 0
+    pantone: null
+    label: 长大红
+    role: primary
+    field: color_secondary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+- school_code: '4142010489'
+  name_zh: 长江大学
+  source: https://vis.yangtzeu.edu.cn/__local/3/D2/36/2481825B661E20FEB5A42685DAD_A27BF73E_F36C.jpg
+  source_sha256: 394c07bfd63892e59bf9a8b83c7b70b9ab2d26806a23fa2f755757d2bd3340d4
+  vi_url: https://vis.yangtzeu.edu.cn/jcbf/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。沃野绿RGB/HEX一通道有差异，作为辅助候选保留。
+  colors:
+  - value: '#41B6E6'
+    cmyk:
+    - 67
+    - 14
+    - 8
+    - 0
+    pantone: null
+    label: 长江蓝
+    role: secondary
+  - value: '#006427'
+    cmyk:
+    - 89
+    - 50
+    - 100
+    - 16
+    pantone: null
+    label: 沃野绿RGB候选
+    role: reference
+    basis: 原图RGB0/100/39编码#006427，与HEX006428差1个蓝通道；并列保留待核对。
+  - value: '#006428'
+    cmyk:
+    - 89
+    - 50
+    - 100
+    - 16
+    pantone: null
+    label: 沃野绿HEX候选
+    role: reference
+    basis: 原图HEX006428与RGB0/100/39差1个蓝通道；并列保留待核对。
+  - value: '#FFA300'
+    cmyk:
+    - 3
+    - 46
+    - 92
+    - 0
+    pantone: null
+    label: 丹桂黄
+    role: secondary
+  - value: '#F8A3BC'
+    cmyk:
+    - 2
+    - 46
+    - 10
+    - 0
+    pantone: null
+    label: 樱花粉
+    role: secondary
+  - value: '#DCDDDD'
+    cmyk:
+    - 16
+    - 12
+    - 12
+    - 0
+    pantone: null
+    label: 科技灰
+    role: secondary
+- school_code: '4142010517'
+  name_zh: 湖北民族大学
+  source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LNUCiMzG4M4G4MQzLsMm7anmffUzAq2LmUiUlrknRQknRG0gihFp2hmCIa0L1h7UYhRU1yZMz7YnRV2nmvsM4UZoRCPUz98Umv4Uz7YM8QFLmNPnRV2LmVFM7LaUYbaptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+  source_sha256: 794de2c1c93db18d25134092de0b8372adf5b7a3c1a765e6b0415b500916772e
+  vi_url: https://www.hbmzu.edu.cn/xxgk/xxbs1.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#0061AE'
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 0
+    pantone: null
+    label: 民大蓝
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+- school_code: '4142010517'
+  name_zh: 湖北民族大学
+  source: https://www.hbmzu.edu.cn/virtual_attach_file.vsb?afc=5LR7CPU8LDM4GsUQmLiLNV7nlrRL4MqVU8M7LlUaLRlPo7L0gihFp2hmCIa0MYyDMkhkoky4MRQ7M4GDnlM2U8rRU4UaUzM7LR7inlVfL4WFLNUbnmnRLNnFMzf7L1baptveo4Oeq2Wx_jrN_khXptQ0gY84gY84gtA8pUpcc&oid=2055143672&e=.png
+  source_sha256: 0d14d6696de1af8cd856f5ec414f05e60cc5b947f613b9de4c491d0196223ab0
+  vi_url: https://www.hbmzu.edu.cn/xxgk/xxbs1.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。仅印刷参数与专色，未换算屏幕颜色。
+  colors:
+  - value: null
+    cmyk: null
+    pantone: 875C
+    label: 专色金
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: 877C
+    label: 专色银
+    role: reference
+  - value: null
+    cmyk:
+    - 0
+    - 70
+    - 100
+    - 0
+    pantone: null
+    label: 辅助色1
+    role: secondary
+  - value: null
+    cmyk:
+    - 40
+    - 0
+    - 100
+    - 0
+    pantone: null
+    label: 辅助色2
+    role: secondary
+  - value: null
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 辅助色3
+    role: secondary
+  - value: null
+    cmyk:
+    - 0
+    - 20
+    - 60
+    - 20
+    pantone: null
+    label: 辅助色4
+    role: secondary
+  - value: null
+    cmyk:
+    - 60
+    - 50
+    - 75
+    - 0
+    pantone: null
+    label: 辅助色5
+    role: secondary
+  - value: null
+    cmyk:
+    - 0
+    - 35
+    - 90
+    - 0
+    pantone: null
+    label: 辅助色6
+    role: secondary
+- school_code: '4142010929'
+  name_zh: 湖北医药学院
+  source: https://vi.hbmu.edu.cn/_upload/article/images/3c/c6/290b8cc44698a43320d791b84a47/46e2f6e7-c329-4ba8-8103-6d209f1dd250.jpg
+  source_sha256: 04758b5d8ce211a8196f32239e846843cf929d61b8e2f5bc10ec03db85558be8
+  vi_url: https://vi.hbmu.edu.cn/2023/0921/c1398a18959/page.psp
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#1B8375'
+    cmyk:
+    - 82
+    - 38
+    - 60
+    - 0
+    pantone: null
+    label: 森林绿
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#201918'
+    cmyk:
+    - 80
+    - 80
+    - 80
+    - 66
+    pantone: null
+    label: 标准黑
+    role: primary
+- school_code: '4142010929'
+  name_zh: 湖北医药学院
+  source: https://vi.hbmu.edu.cn/_upload/article/images/3c/c6/290b8cc44698a43320d791b84a47/7b7f0544-91ae-45a0-ad3f-a1cd6484bb97.jpg
+  source_sha256: 0b66c9ff6676dff12b3c35916c2378cb48afaaf5b2b456df7353c207efb67f54
+  vi_url: https://vi.hbmu.edu.cn/2023/0921/c1398a18959/page.psp
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#1B8375'
+    cmyk:
+    - 82
+    - 38
+    - 60
+    - 0
+    pantone: null
+    label: 建筑辅助森林绿
+    role: secondary
+  - value: '#7EAF9B'
+    cmyk:
+    - 56
+    - 20
+    - 44
+    - 0
+    pantone: null
+    label: 建筑辅助浅绿
+    role: secondary
+  - value: '#D1E0D7'
+    cmyk:
+    - 22
+    - 7
+    - 18
+    - 0
+    pantone: null
+    label: 建筑辅助淡绿
+    role: secondary
+  - value: '#757F78'
+    cmyk:
+    - 62
+    - 47
+    - 52
+    - 0
+    pantone: null
+    label: 建筑辅助深灰
+    role: secondary
+  - value: '#A7AFA9'
+    cmyk:
+    - 40
+    - 27
+    - 32
+    - 0
+    pantone: null
+    label: 建筑辅助灰
+    role: secondary
+  - value: '#ECEADD'
+    cmyk:
+    - 10
+    - 8
+    - 15
+    - 0
+    pantone: null
+    label: 建筑辅助米白
+    role: secondary
+- school_code: '4142010929'
+  name_zh: 湖北医药学院
+  source: https://vi.hbmu.edu.cn/_upload/article/images/3c/c6/290b8cc44698a43320d791b84a47/7f2237cf-d196-4514-b322-c9e0196c6b42.jpg
+  source_sha256: 7be50a01a3b559ea5357febef183779ce05777fa21486bb680c9e1256d965136
+  vi_url: https://vi.hbmu.edu.cn/2023/0921/c1398a18959/page.psp
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。专色仅PANTONE编号。
+  colors:
+  - value: null
+    cmyk: null
+    pantone: 873C/U
+    label: 专金
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: 877C/U
+    label: 专银
+    role: reference
+- school_code: '4142010929'
+  name_zh: 湖北医药学院
+  source: https://vi.hbmu.edu.cn/_upload/article/images/3c/c6/290b8cc44698a43320d791b84a47/bf874e52-c6fb-42a7-9f6b-04eb38b3fe2f.jpg
+  source_sha256: a87c48c56c1332ad475ace6c7a86a50d97baf2a36b2683b4dda7cb766ee0e68c
+  vi_url: https://vi.hbmu.edu.cn/2023/0921/c1398a18959/page.psp
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#88E8CA'
+    cmyk:
+    - 47
+    - 0
+    - 33
+    - 0
+    pantone: null
+    label: 设计辅助色1
+    role: secondary
+  - value: '#59E272'
+    cmyk:
+    - 59
+    - 0
+    - 71
+    - 0
+    pantone: null
+    label: 设计辅助色2
+    role: secondary
+  - value: '#24B996'
+    cmyk:
+    - 72
+    - 3
+    - 53
+    - 0
+    pantone: null
+    label: 设计辅助色3
+    role: secondary
+  - value: '#205E61'
+    cmyk:
+    - 87
+    - 58
+    - 60
+    - 12
+    pantone: null
+    label: 设计辅助色4
+    role: secondary
+  - value: '#F8C661'
+    cmyk:
+    - 6
+    - 28
+    - 67
+    - 0
+    pantone: null
+    label: 设计辅助色5
+    role: secondary
+  - value: '#FF9515'
+    cmyk:
+    - 0
+    - 54
+    - 88
+    - 0
+    pantone: null
+    label: 设计辅助色6
+    role: secondary
+  - value: '#E25534'
+    cmyk:
+    - 13
+    - 80
+    - 81
+    - 0
+    pantone: null
+    label: 设计辅助色7
+    role: secondary
+  - value: '#775033'
+    cmyk:
+    - 56
+    - 70
+    - 86
+    - 21
+    pantone: null
+    label: 设计辅助色8
+    role: secondary
+- school_code: '4151010624'
+  name_zh: 中国民用航空飞行学院
+  source: https://vi.cafuc.edu.cn/__local/1/05/2F/098A0B14FDE91742462081F6367_1A00A561_B1083.jpg
+  source_sha256: a64a8aaa0591b033b4f44120e419ebe26626433a93f2704d320bf6bb7cbce909
+  vi_url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。原图仅CMYK，银色C8按原文记录。
+  colors:
+  - value: null
+    cmyk:
+    - 0
+    - 25
+    - 60
+    - 25
+    pantone: null
+    label: 专色金
+    role: reference
+  - value: null
+    cmyk:
+    - 8
+    - 4
+    - 3
+    - 27
+    pantone: null
+    label: 专色银
+    role: reference
+- school_code: '4151010624'
+  name_zh: 中国民用航空飞行学院
+  source: https://vi.cafuc.edu.cn/__local/3/F8/A5/001F1AF4E6E86120E89A1E374CB_B6F9BC6A_B4665.jpg
+  source_sha256: d0463b8b04323455722f6202d1c5aa463dd3a5f1f50650a086418d8c349e43d5
+  vi_url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  colors:
+  - value: '#5E638E'
+    cmyk:
+    - 72
+    - 63
+    - 24
+    - 7
+    pantone: null
+    label: 中飞院蓝
+    role: secondary
+  - value: '#DFB357'
+    cmyk:
+    - 14
+    - 33
+    - 74
+    - 1
+    pantone: null
+    label: 中飞院金
+    role: secondary
+  - value: '#220A08'
+    cmyk:
+    - 76
+    - 88
+    - 87
+    - 72
+    pantone: null
+    label: 中飞院墨
+    role: secondary
+- school_code: '4151010624'
+  name_zh: 中国民用航空飞行学院
+  source: https://vi.cafuc.edu.cn/__local/7/EF/75/41862E34E4923820B663C24F106_82C415C5_A1EB4.jpg
+  source_sha256: 417a24723fd7d08d3721b14629dae2090871add693730c514a11c298245536e8
+  vi_url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。原图明确称主色，RGB204/59/60直接编码为HEX。
+  colors:
+  - value: '#CC3B3C'
+    cmyk:
+    - 15
+    - 93
+    - 81
+    - 5
+    pantone: null
+    label: 中飞院红
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+- school_code: '4151010624'
+  name_zh: 中国民用航空飞行学院
+  source: https://vi.cafuc.edu.cn/__local/C/14/ED/B7C2661123087AD7E7A1199F900_D4A843CF_AD3FF.jpg
+  source_sha256: 92ad164d7dbfd57be1f4acbc2f366f652ef2d71efcb6a7363ae04cbd88416ee7
+  vi_url: https://vi.cafuc.edu.cn/jcxt/scgf.htm
+  basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。按图中4行5列逐项保留20种CMYK，不从色块取RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 52
+    - 40
+    - 40
+    - 0
+    pantone: null
+    label: 辅助印刷色1
+    role: secondary
+  - value: null
+    cmyk:
+    - 100
+    - 93
+    - 55
+    - 10
+    pantone: null
+    label: 辅助印刷色2
+    role: secondary
+  - value: null
+    cmyk:
+    - 78
+    - 64
+    - 100
+    - 41
+    pantone: null
+    label: 辅助印刷色3
+    role: secondary
+  - value: null
+    cmyk:
+    - 52
+    - 70
+    - 15
+    - 12
+    pantone: null
+    label: 辅助印刷色4
+    role: secondary
+  - value: null
+    cmyk:
+    - 10
+    - 60
+    - 100
+    - 0
+    pantone: null
+    label: 辅助印刷色5
+    role: secondary
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 40
+    pantone: null
+    label: 辅助印刷色6
+    role: secondary
+  - value: null
+    cmyk:
+    - 100
+    - 89
+    - 30
+    - 0
+    pantone: null
+    label: 辅助印刷色7
+    role: secondary
+  - value: null
+    cmyk:
+    - 76
+    - 52
+    - 100
+    - 16
+    pantone: null
+    label: 辅助印刷色8
+    role: secondary
+  - value: null
+    cmyk:
+    - 34
+    - 78
+    - 21
+    - 14
+    pantone: null
+    label: 辅助印刷色9
+    role: secondary
+  - value: null
+    cmyk:
+    - 4
+    - 52
+    - 93
+    - 0
+    pantone: null
+    label: 辅助印刷色10
+    role: secondary
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 30
+    pantone: null
+    label: 辅助印刷色11
+    role: secondary
+  - value: null
+    cmyk:
+    - 90
+    - 65
+    - 10
+    - 0
+    pantone: null
+    label: 辅助印刷色12
+    role: secondary
+  - value: null
+    cmyk:
+    - 73
+    - 38
+    - 100
+    - 1
+    pantone: null
+    label: 辅助印刷色13
+    role: secondary
+  - value: null
+    cmyk:
+    - 14
+    - 86
+    - 82
+    - 0
+    pantone: null
+    label: 辅助印刷色14
+    role: secondary
+  - value: null
+    cmyk:
+    - 4
+    - 33
+    - 80
+    - 0
+    pantone: null
+    label: 辅助印刷色15
+    role: secondary
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 20
+    pantone: null
+    label: 辅助印刷色16
+    role: secondary
+  - value: null
+    cmyk:
+    - 76
+    - 20
+    - 8
+    - 0
+    pantone: null
+    label: 辅助印刷色17
+    role: secondary
+  - value: null
+    cmyk:
+    - 63
+    - 0
+    - 59
+    - 0
+    pantone: null
+    label: 辅助印刷色18
+    role: secondary
+  - value: null
+    cmyk:
+    - 0
+    - 84
+    - 77
+    - 0
+    pantone: null
+    label: 辅助印刷色19
+    role: secondary
+  - value: null
+    cmyk:
+    - 0
+    - 16
+    - 48
+    - 0
+    pantone: null
+    label: 辅助印刷色20
+    role: secondary
+- school_code: '4161010703'
+  name_zh: 西安建筑科技大学
+  source: https://www.xauat.edu.cn/wj/bssc.pdf
+  vi_url: https://www.xauat.edu.cn/wj/bssc.pdf
+  source_sha256: a31604fef1edfbca801bd52e38ab31e2a44a180fee7b3a7d2942bce85a624eec
+  basis: AI实读26页扫描PDF，第9页（印刷页06）三个基本色、第10页（印刷页07）辅助色。辅助黄蓝及部分专色数值疑似重复/笔误，按原文保存参考，不根据色块或常识纠正。
+  colors:
+  - value: '#A5733C'
+    cmyk:
+    - 30
+    - 55
+    - 80
+    - 15
+    pantone: 7574C
+    label: 标准金棕
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#EBE6D7'
+    cmyk:
+    - 5
+    - 10
+    - 15
+    - 0
+    pantone: 7527C
+    label: 标准米白
+    role: primary
+  - value: '#F5F0D2'
+    cmyk:
+    - 5
+    - 5
+    - 20
+    - 0
+    pantone: 7506C
+    label: 标准浅黄
+    role: primary
+  - value: '#B92D0F'
+    cmyk:
+    - 35
+    - 95
+    - 100
+    - 0
+    pantone: 7574C
+    label: 自强红
+    role: secondary
+  - value: '#EBE6D7'
+    cmyk:
+    - 5
+    - 10
+    - 15
+    - 0
+    pantone: 7527C
+    label: 笃实黄原文候选
+    role: reference
+    basis: PDF第10页笃实黄RGB235/230/215及PANTONE7527C与第9页标准米白数值重复，但色块不同；原文保留待核验。
+  - value: '#F5F0D2'
+    cmyk:
+    - 5
+    - 5
+    - 20
+    - 0
+    pantone: 7506C
+    label: 创新蓝原文候选
+    role: reference
+    basis: PDF第10页创新蓝RGB245/240/210及PANTONE7506C与第9页标准浅黄数值重复，但色块不同；原文保留待核验。
+  - value: '#3C6E2D'
+    cmyk:
+    - 80
+    - 50
+    - 100
+    - 10
+    pantone: 7742C
+    label: 求源绿
+    role: secondary
+  - value: '#FFD700'
+    cmyk:
+    - 50
+    - 20
+    - 20
+    - 0
+    pantone: null
+    label: 专金
+    role: reference
+  - value: '#C0C0C0'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 60
+    pantone: null
+    label: 专银
+    role: reference
+- school_code: '4132010286'
+  name_zh: 东南大学
+  source: https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf
+  vi_url: https://www.seu.edu.cn/_upload/article/files/a9/1e/7846a39b48bba1097b7ede1af967/fb5d8ecf-3721-45af-97e6-2f365f465aa4.pdf
+  source_sha256: 8fe21f099030092f3f982e295f360047d4356603f98c096170b5a8d50e2ea90c
+  basis: AI实读学校标识PDF一页色卡，RGB/HEX与CMYK均按原文记录。
+  colors:
+  - value: '#4D7C2C'
+    cmyk:
+    - 70
+    - 30
+    - 100
+    - 20
+    pantone: null
+    label: 东大绿
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#FDD000'
+    cmyk:
+    - 0
+    - 20
+    - 100
+    - 0
+    pantone: null
+    label: 辅助黄
+    role: secondary
+  - value: '#231815'
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 100
+    pantone: null
+    label: 辅助黑
+    role: reference
+- school_code: '4111010007'
+  name_zh: 北京理工大学
+  source: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
+  source_sha256: ed826d44cabf3bb88831afcc183ff8e0b63cfe69125a1f121b065c6078068eae
+  vi_url: https://www.bit.edu.cn/docs/2026-03/2c2ba8636a614e98b2db71c9b8d3af79.ai
+  basis: 'AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。A4-02辅助色图北理绿色块写RGB: #0A308F，与绿色色块不相符；仅记录原HEX候选供核对，不将其当校级主色。CMYK只写C100Y100，不补零。'
+  colors:
+  - value: '#0A308F'
+    cmyk: null
+    pantone: 347C
+    label: 北理绿HEX原文候选
+    role: reference
+    cmyk_text: C100 Y100
+  - value: '#A13E0B'
+    cmyk:
+    - 20
+    - 80
+    - 100
+    - 30
+    pantone: 1535C
+    label: 辅助褐色
+    role: secondary
+  - value: '#005B30'
+    cmyk:
+    - 100
+    - 40
+    - 100
+    - 30
+    pantone: 349C
+    label: 辅助墨绿色
+    role: secondary
+  vi_formats:
+  - PDF
+- school_code: '4111010022'
+  name_zh: 北京林业大学
+  source: http://vi.bjfu.edu.cn/limit/20220407203736443639.ai
+  source_sha256: 7c9e7280deec53fb348b3d542bc4cf511dce2bf73c5791ac43ecd5ce7c5c68ae
+  vi_url: http://vi.bjfu.edu.cn/limit/20220407203736443639.ai
+  basis: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。北林绿色卡RGB0/101/52及HTML#006534一致；CMYK原文排印为C0 M0
+    Y1 K00，未将异常短数字猜测补全。
+  colors:
+  - value: '#006534'
+    cmyk: null
+    pantone: null
+    label: 北林绿
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+    cmyk_text: C0 M0 Y1 K00
+  vi_formats:
+  - PDF
+- school_code: '4111011415'
+  name_zh: 中国地质大学(北京)
+  source: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/01.ai
+  source_sha256: f52d815c1a9a463cc17dadd635dfbac7a069e4226a42b5f1bfcaf69589814c60
+  vi_url: https://bm.cugb.edu.cn/vis/upload/resources/file/scgf/01.ai
+  basis: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。标准色页印刷页39只有CMYK；未从蓝色色块转换出RGB。
+  colors:
+  - value: null
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 20
+    pantone: null
+    label: 标准蓝
+    role: primary
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: null
+    label: 标准白
+    role: primary
+  vi_formats:
+  - PDF
+- school_code: '4137010435'
+  name_zh: 青岛农业大学
+  source: https://www.qau.edu.cn/userfiles/image/wmw/2020/04/20200424175214004.pdf
+  source_sha256: 217f632d5d432967ecf78f9aed6a48ba8b682949c507137b1fe4fcc21b11dec4
+  vi_url: https://www.qau.edu.cn/userfiles/image/wmw/2020/04/20200424175214004.pdf
+  basis: AI实读学校公开PDF兼容附件色卡；数值按原文记录，屏幕HEX由原RGB编码；未从印刷值转换。59页官方VIS手册第10页A-4-1色卡；农大绿RGB0/116/87明确。辅助黑仅写K100，不补造其他CMYK通道。
+  colors:
+  - value: '#007457'
+    cmyk:
+    - 100
+    - 40
+    - 80
+    - 0
+    pantone: null
+    label: 农大绿
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: '#004190'
+    cmyk:
+    - 100
+    - 80
+    - 10
+    - 0
+    pantone: null
+    label: 辅助蓝
+    role: secondary
+  - value: '#FCC700'
+    cmyk:
+    - 0
+    - 25
+    - 100
+    - 0
+    pantone: null
+    label: 辅助黄
+    role: secondary
+  - value: '#E60012'
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 辅助红
+    role: secondary
+  - value: '#B9B6B5'
+    cmyk:
+    - 10
+    - 10
+    - 10
+    - 30
+    pantone: null
+    label: 辅助灰
+    role: secondary
+  - value: '#231815'
+    cmyk: null
+    pantone: null
+    label: 辅助黑
+    role: secondary
+    cmyk_text: K100
+  - value: null
+    cmyk: null
+    pantone: 877 C
+    label: 专色银
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: 873 C
+    label: 专色金
+    role: reference
+- school_code: '4141010475'
+  name_zh: 河南大学
+  source: http://www.henu.edu.cn/xxbs/xuexiaobiaoshi.zip
+  source_sha256: fb5624e09f01c550a47cc57361fc888cb295c3793ba5074e70456888e0478629
+  archive_member: ╤º╨ú▒Ω╩╢/╨ú╗╒▒Ω╫╝░µ/╨ú╗╒╔½▓╩╔½╓╡.jpg
+  archive_member_display: 学校标识/校徽标准版/校徽色彩色值.jpg
+  member_sha256: e6305cf14489a6267efdd6c31a59fca8744878a6e17710878a4e04ce1a408a02
+  vi_url: http://www.henu.edu.cn/xxbs/xuexiaobiaoshi.zip
+  vi_formats:
+  - ZIP
+  basis: 读取学校官方ZIP附件，逐张核对其标准色或辅助色色卡；容器哈希与成员哈希分别保留。色卡仅公布CMYK，屏幕HEX/RGB留空，不用图块像素或通用公式换算。
+  colors:
+  - value: null
+    cmyk:
+    - 80
+    - 65
+    - 0
+    - 0
+    pantone: null
+    label: 校徽蓝色
+    role: primary
+  - value: null
+    cmyk:
+    - 80
+    - 20
+    - 100
+    - 0
+    pantone: null
+    label: 校徽绿色
+    role: secondary
+- school_code: '4142010488'
+  name_zh: 武汉科技大学
+  source: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+  source_sha256: e99ded49b9229942abf893e872a5bce3a1928d20b20ea2bc3469a7d212b65fdb
+  archive_member: 3 ▒Ω╫╝╔½.png
+  archive_member_display: 3 标准色.png
+  member_sha256: 70a701c5f28b70ad5bdaea038434bd43ecd6207a78206f5085f58edeffd5fd8e
+  vi_url: http://www.wust.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1895816955&wbfileid=11698948
+  vi_formats:
+  - ZIP
+  basis: 读取学校官方ZIP附件，逐张核对其标准色或辅助色色卡；容器哈希与成员哈希分别保留。色卡仅公布CMYK，屏幕HEX/RGB留空，不用图块像素或通用公式换算。
+  colors:
+  - value: null
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: null
+    label: 科技白
+    role: reference
+  - value: null
+    cmyk:
+    - 40
+    - 10
+    - 10
+    - 0
+    pantone: null
+    label: 沁湖蓝
+    role: secondary
+  - value: null
+    cmyk:
+    - 90
+    - 30
+    - 80
+    - 40
+    pantone: null
+    label: 青山绿
+    role: primary
+- school_code: '4137010433'
+  name_zh: 山东理工大学
+  source: https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip
+  source_sha256: d75b32b9fde48da68510d148c5ac1be422451615711bbd949b63fec27a45e889
+  archive_member: │ú╙├▒Ω╩╢╧┬╘╪/╕¿╓·╔½╝░╓≈╔½╕¿╓·╔½╫Θ║╧.png
+  archive_member_display: 常用标识下载/辅助色及主色辅助色组合.png
+  member_sha256: d18a2896b444bd4d75c888fbaf3c9a939d739aecc05f1ec8e641c7d55eb463e2
+  vi_url: https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip
+  vi_formats:
+  - ZIP
+  basis: 读取学校官方ZIP附件，逐张核对其标准色或辅助色色卡；容器哈希与成员哈希分别保留。色卡仅公布CMYK，屏幕HEX/RGB留空，不用图块像素或通用公式换算。
+  colors:
+  - value: null
+    cmyk:
+    - 55
+    - 75
+    - 0
+    - 0
+    pantone: null
+    label: 辅助紫
+    role: reference
+  - value: null
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 辅助红
+    role: reference
+  - value: null
+    cmyk:
+    - 0
+    - 35
+    - 100
+    - 0
+    pantone: null
+    label: 辅助黄
+    role: reference
+  - value: null
+    cmyk:
+    - 100
+    - 75
+    - 0
+    - 0
+    pantone: null
+    label: 辅助蓝
+    role: reference
+  - value: null
+    cmyk:
+    - 80
+    - 10
+    - 0
+    - 0
+    pantone: null
+    label: 辅助天蓝
+    role: reference
+  - value: null
+    cmyk:
+    - 75
+    - 0
+    - 100
+    - 0
+    pantone: null
+    label: 辅助绿
+    role: reference
+- school_code: '4132010287'
+  name_zh: 南京航空航天大学
+  source: https://vi.nuaa.edu.cn/_upload/article/images/3a/0e/ae1857284e5aaf563b82a7e0c43b/3d08268c-b8eb-47c4-88ca-995f48afdc57.png
+  source_sha256: 8f707332cd123027e54c63ff680cc321cce90b3e98cd2f6a7faa090bd4364b31
+  vi_url: https://vi.nuaa.edu.cn/12427/list.htm
+  basis: AI实读学校VIS基础系统A-09标准色及辅助色原图；南航蓝RGB29/32/136、CMYK100/100/0/0。辅助色只公布局部CMYK或Pantone，保留原文，HEX留空；蓝色专色编号图像分辨率不足，未录入。
+  colors:
+  - value: '#1D2088'
+    cmyk:
+    - 100
+    - 100
+    - 0
+    - 0
+    pantone: 294 C / 294 U
+    label: 南航蓝
+    role: primary
+    field: color_primary
+    replace_methods:
+    - manual_derived
+    - community_theme
+    enrich_existing_metadata: true
+  - value: null
+    cmyk: null
+    pantone: Black C
+    label: 黑色
+    role: secondary
+    cmyk_text: K100
+  - value: null
+    cmyk: null
+    pantone: 冷灰3C
+    label: 浅灰色
+    role: secondary
+    cmyk_text: K30
+  - value: null
+    cmyk: null
+    pantone: 875C
+    label: 专色金
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: 485C
+    label: 专色红
+    role: reference
+  - value: null
+    cmyk: null
+    pantone: null
+    label: 蓝色
+    role: secondary
+    cmyk_text: C85 M50
+  - value: null
+    cmyk: null
+    pantone: 290C
+    label: 浅蓝色
+    role: secondary
+    cmyk_text: C30

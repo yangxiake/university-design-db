@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4161010698'
   name_zh: 西安交通大学
@@ -67,34 +67,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - xian-jiaotong-university
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: xjtu
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -112,19 +84,39 @@ research:
   audit_key: '4161010698'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#C8161E'
+    source: https://vi.xjtu.edu.cn/__local/8/40/72/4D466B8FF3382519683C94EF558_1FB1E738_B50.png
+    method: official_vi
+    label: 标准红
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三种标准色均来自图中RGB文本，未将页面图像像素当色值。
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 461f5a37ebdacf31598180f1a3aaea83311dbd1a218add93cecc228222c6728a
   color_secondary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#004E97'
+    source: https://vi.xjtu.edu.cn/__local/8/40/72/4D466B8FF3382519683C94EF558_1FB1E738_B50.png
+    method: official_vi
+    label: 标准蓝
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三种标准色均来自图中RGB文本，未将页面图像像素当色值。
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 20
+    pantone: null
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
+    source_sha256: 461f5a37ebdacf31598180f1a3aaea83311dbd1a218add93cecc228222c6728a
   vi_url:
     value: https://vi.xjtu.edu.cn/yybf/PPTmb.htm
     source: https://vi.xjtu.edu.cn/yybf/PPTmb.htm
@@ -139,7 +131,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 00f4c5297f3c6caf
     title: 西安交通大学校徽资源
@@ -549,6 +540,125 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: e128694d16c5ed18
+  - value: '#C8161E'
+    rgb:
+    - 200
+    - 22
+    - 30
+    cmyk:
+    - 20
+    - 100
+    - 100
+    - 0
+    pantone: null
+    label: 标准红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vi.xjtu.edu.cn/__local/8/40/72/4D466B8FF3382519683C94EF558_1FB1E738_B50.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三种标准色均来自图中RGB文本，未将页面图像像素当色值。
+    source_sha256: 461f5a37ebdacf31598180f1a3aaea83311dbd1a218add93cecc228222c6728a
+    source_field: visual.color_primary
+  - value: '#004E97'
+    rgb:
+    - 0
+    - 78
+    - 151
+    cmyk:
+    - 100
+    - 60
+    - 0
+    - 20
+    pantone: null
+    label: 标准蓝
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vi.xjtu.edu.cn/__local/8/40/72/4D466B8FF3382519683C94EF558_1FB1E738_B50.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三种标准色均来自图中RGB文本，未将页面图像像素当色值。
+    source_sha256: 461f5a37ebdacf31598180f1a3aaea83311dbd1a218add93cecc228222c6728a
+    source_field: visual.color_secondary
+  - value: '#DCDCDD'
+    rgb:
+    - 220
+    - 220
+    - 221
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 20
+    pantone: null
+    label: 标准灰
+    role: primary
+    method: official_vi
+    official: true
+    source: https://vi.xjtu.edu.cn/__local/8/40/72/4D466B8FF3382519683C94EF558_1FB1E738_B50.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三种标准色均来自图中RGB文本，未将页面图像像素当色值。
+    source_sha256: 461f5a37ebdacf31598180f1a3aaea83311dbd1a218add93cecc228222c6728a
+  - value: null
+    rgb: null
+    cmyk:
+    - 20
+    - 100
+    - 80
+    - 10
+    pantone: null
+    label: 辅助红
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.xjtu.edu.cn/__local/A/C1/71/0DBC36442E57BF702F1E4A72591_203EA1D5_B46.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助色只公布CMYK，不转换RGB。
+    source_sha256: d5902e10219e4e1e3a5e9df64fe5eb822ff52c07b5a845773717cf3f970d7aec
+  - value: null
+    rgb: null
+    cmyk:
+    - 100
+    - 80
+    - 0
+    - 10
+    pantone: null
+    label: 辅助蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.xjtu.edu.cn/__local/A/C1/71/0DBC36442E57BF702F1E4A72591_203EA1D5_B46.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助色只公布CMYK，不转换RGB。
+    source_sha256: d5902e10219e4e1e3a5e9df64fe5eb822ff52c07b5a845773717cf3f970d7aec
+  - value: null
+    rgb: null
+    cmyk:
+    - 57
+    - 75
+    - 96
+    - 16
+    pantone: null
+    label: 辅助棕
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.xjtu.edu.cn/__local/A/C1/71/0DBC36442E57BF702F1E4A72591_203EA1D5_B46.png
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助色只公布CMYK，不转换RGB。
+    source_sha256: d5902e10219e4e1e3a5e9df64fe5eb822ff52c07b5a845773717cf3f970d7aec
   vi_resources:
   - title: 西安交通大学官网视觉资源页 PPT模板发布/下载页
     url: http://vi.xjtu.edu.cn/
@@ -1252,6 +1362,1281 @@ visual:
     availability: found
     source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  - title: 西安交通大学官方视觉规范
+    url: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.xjtu.edu.cn/__local/8/40/72/4D466B8FF3382519683C94EF558_1FB1E738_B50.png
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。三种标准色均来自图中RGB文本，未将页面图像像素当色值。
+  - title: 西安交通大学官方视觉规范
+    url: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.xjtu.edu.cn/__local/A/C1/71/0DBC36442E57BF702F1E4A72591_203EA1D5_B46.png
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 实际读取官网色彩规范页引用的原始色卡并逐项视觉核对。辅助色只公布CMYK，不转换RGB。
+  - title: 视觉形象识别系统
+    url: https://vi.xjtu.edu.cn/
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 交大校徽.cdr
+    url: https://vi.xjtu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1042
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - CDR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 交大校标.png
+    url: https://vi.xjtu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1043
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 色彩规范-视觉形象识别系统
+    url: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: A3-1交大校徽red.png
+    url: https://vi.xjtu.edu.cn/__local/B/EB/3B/AFB38DB59C846E6E60396FC5DC9_03247126_4D625.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-2交大校徽blue.png
+    url: https://vi.xjtu.edu.cn/__local/E/4B/35/53AC3D037EE86A4811A4F066653_C31DE3A6_4D62A.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-3交大校徽gray.png
+    url: https://vi.xjtu.edu.cn/__local/2/55/6A/060332F018A71DF9C50B9473558_E04AF6E7_4D5DD.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A1-3交大校徽red.png
+    url: https://vi.xjtu.edu.cn/images/a1-3jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A2-1中文校名.png
+    url: https://vi.xjtu.edu.cn/images/a2-1zwxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A2-2英文校名.png
+    url: https://vi.xjtu.edu.cn/images/a2-2ywxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-1交大校徽red.png
+    url: https://vi.xjtu.edu.cn/images/a3-1jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-2交大校徽blue.png
+    url: https://vi.xjtu.edu.cn/images/a3-2jdxhblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-3交大校徽gray.png
+    url: https://vi.xjtu.edu.cn/images/a3-3jdxhgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-2校标red.png
+    url: https://vi.xjtu.edu.cn/images/a4-2xbred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-3校标blue.png
+    url: https://vi.xjtu.edu.cn/images/a4-3xbblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-4校标black.png
+    url: https://vi.xjtu.edu.cn/images/a4-4xbblack.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-5校标white.png
+    url: https://vi.xjtu.edu.cn/images/a4-5xbwhite.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-6校标gray.png
+    url: https://vi.xjtu.edu.cn/images/a4-6xbgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/scgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 04e922982ba1a956e4bbb25052b3ce9d687ba5ad328adb043977af5f67c70d75
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校徽规范
+    url: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: A1-3交大校徽red.png
+    url: https://vi.xjtu.edu.cn/__local/B/EB/3B/AFB38DB59C846E6E60396FC5DC9_03247126_4D625.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A1-3交大校徽red.png
+    url: https://vi.xjtu.edu.cn/images/a1-3jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A2-1中文校名.png
+    url: https://vi.xjtu.edu.cn/images/a2-1zwxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A2-2英文校名.png
+    url: https://vi.xjtu.edu.cn/images/a2-2ywxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-1交大校徽red.png
+    url: https://vi.xjtu.edu.cn/images/a3-1jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-2交大校徽blue.png
+    url: https://vi.xjtu.edu.cn/images/a3-2jdxhblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-3交大校徽gray.png
+    url: https://vi.xjtu.edu.cn/images/a3-3jdxhgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-2校标red.png
+    url: https://vi.xjtu.edu.cn/images/a4-2xbred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-3校标blue.png
+    url: https://vi.xjtu.edu.cn/images/a4-3xbblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-4校标black.png
+    url: https://vi.xjtu.edu.cn/images/a4-4xbblack.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-5校标white.png
+    url: https://vi.xjtu.edu.cn/images/a4-5xbwhite.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-6校标gray.png
+    url: https://vi.xjtu.edu.cn/images/a4-6xbgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 5481e044c80efd3f4109aa95bcb19e2e7955fda0893b67424c5ad3c1bc025981
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: PPT模板
+    url: https://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    kinds:
+    - PPT模板
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 94cae574dcdeafa2b424f300bd2af3471cdf710ff44b3fc155c01bd4d9679f20
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 新蓝白PPT模板
+    url: https://vi.xjtu.edu.cn/2022newblue.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vi.xjtu.edu.cn/2022newblue.pptx
+        status: file_read
+        url: https://vi.xjtu.edu.cn/2022newblue.pptx
+      resolved_url: https://vi.xjtu.edu.cn/2022newblue.pptx
+    file_metadata:
+      aspect_ratio: '16:9'
+      byte_size: 2302511
+      editable_text_runs: 89
+      external_relationship_count: 2
+      font_names:
+      - Angsana New
+      - Arial
+      - Arial Black
+      - Calibri
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 宋体
+      - 微软雅黑
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Medium
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 맑은 고딕
+      format: PPTX
+      height_emu: 6858000
+      macro_enabled: false
+      media_count: 6
+      read_kind: ooxml_structure
+      sha256: be66af0c9787cde6adaf8635b50545acd7b4c528da6c53f89edbf6fbcd2e99e4
+      slide_count: 9
+      textless_slides: 0
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      width_emu: 12192000
+    content_read: true
+    download_status: content_inspected
+  - title: 深蓝亮黄PPT模板
+    url: https://vi.xjtu.edu.cn/sllhuangppt.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vi.xjtu.edu.cn/sllhuangppt.pptx
+        status: file_read
+        url: https://vi.xjtu.edu.cn/sllhuangppt.pptx
+      resolved_url: https://vi.xjtu.edu.cn/sllhuangppt.pptx
+    file_metadata:
+      aspect_ratio: '16:9'
+      byte_size: 13266837
+      editable_text_runs: 115
+      external_relationship_count: 0
+      font_names:
+      - Angsana New
+      - Arial
+      - Arial Black
+      - Calibri
+      - Century Gothic
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Ebrima
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Iskoola Pota
+      - Javanese Text
+      - Kalinga
+      - Kartika
+      - Latha
+      - Leelawadee UI
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft JhengHei
+      - Microsoft New Tai Lue
+      - Microsoft Tai Le
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Myanmar Text
+      - Nirmala UI
+      - Nyala
+      - Open Sans
+      - 'Open Sans '
+      - Palatino
+      - Phagspa
+      - Plantagenet Cherokee
+      - Raavi
+      - Segoe UI
+      - Shruti
+      - Stencil
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 华文宋体
+      - 字魂59号-创粗黑
+      - 宋体
+      - 微软雅黑
+      - 思源黑体 CN
+      - 思源黑体 CN Regular
+      - 新細明體
+      - 楷体
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 맑은 고딕
+      format: PPTX
+      height_emu: 6858000
+      macro_enabled: false
+      media_count: 11
+      read_kind: ooxml_structure
+      sha256: 83d33dc5ab264b4f96994a0d45ea222670a27b958b73146ed8781758691b06a4
+      slide_count: 12
+      textless_slides: 0
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      width_emu: 12192000
+    content_read: true
+    download_status: content_inspected
+  - title: 蓝色简约PPT模板
+    url: https://vi.xjtu.edu.cn/2021simpleblue.pptx
+    kinds:
+    - PPT模板
+    formats:
+    - PPTX
+    access_requirement: 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准
+    source: https://vi.xjtu.edu.cn/yybf/PPTmb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: null
+    note: 实际读取文件并保存哈希及结构元数据；未把标识资源包计为PPT模板，未经幻灯片渲染验收。
+    file_inspection:
+      status: content_inspected
+      checked_at: '2026-10-02'
+      attempts:
+      - resolved_url: https://vi.xjtu.edu.cn/2021simpleblue.pptx
+        status: file_read
+        url: https://vi.xjtu.edu.cn/2021simpleblue.pptx
+      resolved_url: https://vi.xjtu.edu.cn/2021simpleblue.pptx
+    file_metadata:
+      aspect_ratio: '16:9'
+      byte_size: 5586234
+      editable_text_runs: 88
+      external_relationship_count: 0
+      font_names:
+      - Angsana New
+      - Arial
+      - Arial Black
+      - Calibri
+      - Cordia New
+      - DaunPenh
+      - DokChampa
+      - Estrangelo Edessa
+      - Euphemia
+      - Gautami
+      - Iskoola Pota
+      - Kalinga
+      - Kartika
+      - Latha
+      - MV Boli
+      - Mangal
+      - Microsoft Himalaya
+      - Microsoft Uighur
+      - Microsoft Yi Baiti
+      - Mongolian Baiti
+      - MoolBoran
+      - Nyala
+      - Palatino
+      - Plantagenet Cherokee
+      - Raavi
+      - Shruti
+      - Stencil
+      - Sylfaen
+      - Times New Roman
+      - Tunga
+      - Vrinda
+      - 华文宋体
+      - 宋体
+      - 微软雅黑
+      - 思源黑体 CN Bold
+      - 思源黑体 CN Normal
+      - 思源黑体 CN Regular
+      - 新細明體
+      - 游ゴシック
+      - 游ゴシック Light
+      - 等线
+      - 等线 Light
+      - 黑体
+      - 맑은 고딕
+      format: PPTX
+      height_emu: 6858000
+      macro_enabled: false
+      media_count: 7
+      read_kind: ooxml_structure
+      sha256: fb2fe79e8ab436e42f19f5c6543d009c9a06d9ea428ccad63e6d96d3c0fdbf5e
+      slide_count: 11
+      textless_slides: 0
+      theme_colors:
+      - '#0563C1'
+      - '#44546A'
+      - '#4472C4'
+      - '#5B9BD5'
+      - '#70AD47'
+      - '#954F72'
+      - '#A5A5A5'
+      - '#E7E6E6'
+      - '#ED7D31'
+      - '#FFC000'
+      width_emu: 12192000
+    content_read: true
+    download_status: content_inspected
+  - title: 视觉形象识别系统
+    url: https://vi.xjtu.edu.cn/index.htm
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 交大校徽.cdr
+    url: https://vi.xjtu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1042
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - CDR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 交大校标.png
+    url: https://vi.xjtu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1043
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/index.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: d6f79d39dd5c15dbecfd2bdd77ce88180b52cd37c59b2db683bc5eea34f82d81
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 校标组合规范
+    url: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: A4-2校标red.png
+    url: https://vi.xjtu.edu.cn/__local/2/F0/6C/8BC0384167B36D7F6D79CAB84CC_572344C2_9A84.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-3校标blue.png
+    url: https://vi.xjtu.edu.cn/__local/E/F0/B5/EBD4E65EA96FE834B31D3A9739D_79371B80_897E.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-4校标black.png
+    url: https://vi.xjtu.edu.cn/__local/2/C0/EB/9E1129FEDBC72B40D90F864C338_3472D34E_1473.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-5校标white.png
+    url: https://vi.xjtu.edu.cn/__local/C/7D/A0/5377BBA0311998F41CB7F8A94DC_68713383_BC2A.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-6校标gray.png
+    url: https://vi.xjtu.edu.cn/__local/A/4C/9B/53C7042E6524858DF32C2E16A26_F81BD03B_B1F1.png?e=.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A1-3交大校徽red.png
+    url: https://vi.xjtu.edu.cn/images/a1-3jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A2-1中文校名.png
+    url: https://vi.xjtu.edu.cn/images/a2-1zwxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A2-2英文校名.png
+    url: https://vi.xjtu.edu.cn/images/a2-2ywxm.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-1交大校徽red.png
+    url: https://vi.xjtu.edu.cn/images/a3-1jdxhred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-2交大校徽blue.png
+    url: https://vi.xjtu.edu.cn/images/a3-2jdxhblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A3-3交大校徽gray.png
+    url: https://vi.xjtu.edu.cn/images/a3-3jdxhgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-2校标red.png
+    url: https://vi.xjtu.edu.cn/images/a4-2xbred.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-3校标blue.png
+    url: https://vi.xjtu.edu.cn/images/a4-3xbblue.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-4校标black.png
+    url: https://vi.xjtu.edu.cn/images/a4-4xbblack.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-5校标white.png
+    url: https://vi.xjtu.edu.cn/images/a4-5xbwhite.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: A4-6校标gray.png
+    url: https://vi.xjtu.edu.cn/images/a4-6xbgray.png
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PNG
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://vi.xjtu.edu.cn/jcbf/xbzhgf.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 2ea8dbc5507043233a7f924728a7ce3fda005963c5947f7d041bcc24ee4eab5b
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  landmarks: []
 culture:
   founded_year:
     value: 1896
@@ -1269,6 +2654,27 @@ culture:
     availability: found
     search_sources: []
     note: AI核对公开检索返回的学校章程、信息公开或学校提交招生资料文字；未作人工签核，需打开原页复核。
+  flower:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  mascot:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
+  anthem:
+    value: null
+    source: null
+    verified: unverified
+    checked_at: null
+    availability: unresearched
+    search_sources: []
   history_events:
   - year: 1896
     event: 前身南洋公学在上海创建
@@ -1295,27 +2701,6 @@ culture:
     source: http://www.xjtu.edu.cn/jdgk/xsyg.htm
     verified: auto
     checked_at: '2026-10-01'
-  flower:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  mascot:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  anthem:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
 resources:
   official_templates_url:
     value: https://vi.xjtu.edu.cn/yybf/PPTmb.htm
@@ -1378,773 +2763,14 @@ resources:
     - TeX/TikZ
     content_read: true
     usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
-  admissions_url:
-    value: http://www.xjtu.edu.cn/index/zsw.htm
-    availability: found
-    search_sources: []
-    source: http://www.xjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生网
-  career_url:
-    value: http://job.xjtu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://xxgk.xjtu.edu.cn/
-    availability: found
-    search_sources: []
-    source: http://www.xjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 综合
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '985'
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: 陕西省西安市咸宁西路28号
-    availability: found
-    search_sources: []
-    source: http://www.xjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:陕西省西安市咸宁西路28号 邮编:710049
-  postal_code:
-    value: '710049'
-    availability: found
-    search_sources: []
-    source: http://www.xjtu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:陕西省西安市咸宁西路28号 邮编:710049
-  coordinates:
-    value:
-      longitude: 108.965
-      latitude: 34.247
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses:
-  - name: 兴庆校区
-    address: null
-    coordinates: null
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 雁塔校区
-    address: null
-    coordinates: null
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 曲江校区
-    address: null
-    coordinates: null
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 中国西部科技创新港校区
-    address: null
-    coordinates: null
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
 overview:
   summary_zh:
-    value: 西安交通大学位于陕西省西安市，主管部门为教育部。官网列示本科生25595名（统计日期未注明）。官网列示专任教师3971人（统计日期未注明）。官网列示占地面积约5000亩（统计日期未注明）。简介列出兴庆校区、雁塔校区、曲江校区、中国西部科技创新港校区。
+    value: 西安交通大学位于陕西省西安市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 25595
-    availability: found
-    search_sources: []
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 本科生；原标注：本科生25595名；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 本科生25595名
-  faculty_count:
-    value: 3971
-    availability: found
-    search_sources: []
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；原标注：专任教师3971人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 专任教师3971人
-  campus_area_hectares:
-    value: 333.333333
-    availability: found
-    search_sources: []
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地面积约5000亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 占地面积约5000亩
-academics:
-  double_first_class_disciplines:
-    value:
-    - 机械工程
-    - 电气工程
-    - 动力工程及工程热物理
-    - 管理科学与工程
-    - 工商管理
-    - 力学
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value:
-    - 博士学位授权一级学科：45个；统计时间undated
-    - 硕士学位授权一级学科：45个；统计时间undated
-    - 博士专业学位授权点：10个；统计时间undated
-    - 硕士专业学位授权点：32个；统计时间undated
-    availability: found
-    search_sources: []
-    source: http://www.xjtu.edu.cn/jdgk/jdjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 官网简介列出的授权点数量及层次，非全部授权学科名单；未标注日期用undated
-  subject_assessments:
-  - subject: 机械工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 电气工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 动力工程及工程热物理
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 管理科学与工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 工商管理
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 力学
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 信息与通信工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 核科学与技术
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 数学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 材料科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 控制科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 计算机科学与技术
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 生物医学工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 临床医学
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 10
-    score: 537.9
-    indicators:
-      school_level: 34.5
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 10
-    score: 620.8
-    indicators:
-      faculty: 52.3
-      research: 73.4
-      resources: 15.9
-      discipline: 45.6
-      top_talent: 46.8
-      school_level: 33.2
-      international: 30.2
-      major_projects: 32.9
-      social_service: 20.1
-      talent_training: 270.5
-    upstream_url: https://www.shanghairanking.cn/institution/xian-jiaotong-university
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 655
-    minimum_rank: 2900
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  - year: 2025
-    region: 重庆市
-    curriculum: 历史类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 625
-    minimum_rank: 1300
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 西安交通大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4161010698'
-    upstream_record_name: 西安交通大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4161010698'
-    upstream_record_name: 西安交通大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4161010698'
-    upstream_record_name: 西安交通大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/universities.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4161010698'
-    upstream_record_name: 西安交通大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4161010698'
-    upstream_record_name: 西安交通大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 就业概况
-    - 层次
-    - 师资概况
-    - 生源概况
-    - 科研概况
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4161010698'
-    upstream_record_name: Xi'an Jiaotong University
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -10,6 +10,12 @@
 | 校徽 | 江苏大学 UJS.svg | [文件](https://raw.githubusercontent.com/Magicdover/China-Universities-2026/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B1%9F%E8%8B%8F%E5%A4%A7%E5%AD%A6%20UJS.svg) · [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B1%9F%E8%8B%8F%E5%A4%A7%E5%AD%A6%20UJS.svg) | 社区 | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://www.ujs.edu.cn/images/logo.png) · [来源](https://www.ujs.edu.cn) | 官网 | png | 238 × 63 | content_inspected | 未独立声明 |
 | 校徽 | 江苏大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/江苏大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 236 × 236 | content_inspected | 未独立声明 |
+| 校徽 | 1 校标标准色.png | [压缩包](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) 内 `学校标识透明底色文件/1 校标标准色.png` · [来源](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) | 官网 | png | 1272 × 1272 | content_inspected | 未独立声明 |
+| 校名文字 | 2 标准彩色校名（横板）.png | [压缩包](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) 内 `学校标识透明底色文件/2 标准彩色校名（横板）.png` · [来源](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) | 官网 | png | 1564 × 555 | content_inspected | 未独立声明 |
+| 校名文字 | 3 标准彩色校名（竖板）.png | [压缩包](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) 内 `学校标识透明底色文件/3 标准彩色校名（竖板）.png` · [来源](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) | 官网 | png | 1857 × 5977 | content_inspected | 未独立声明 |
+| 组合标识 | 4 常用校标组合（横板）.png | [压缩包](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) 内 `学校标识透明底色文件/4 常用校标组合（横板）.png` · [来源](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) | 官网 | png | 1599 × 421 | content_inspected | 未独立声明 |
+| 组合标识 | 5 常用校标组合（竖版）.png | [压缩包](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) 内 `学校标识透明底色文件/5 常用校标组合（竖版）.png` · [来源](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) | 官网 | png | 1804 × 6533 | content_inspected | 未独立声明 |
+| 组合标识 | 6 常用校标组合（双排）.png | [压缩包](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) 内 `学校标识透明底色文件/6 常用校标组合（双排）.png` · [来源](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip) | 官网 | png | 1115 × 1071 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -29,7 +35,8 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.ujs.edu.cn/xxgk/xxbs.htm](https://www.ujs.edu.cn/xxgk/xxbs.htm)
-- [学校标识](https://www.ujs.edu.cn/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ujs.edu.cn/xxgk/xxbs.htm)。
-- [附件【常用校标组合】](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ujs.edu.cn/xxgk/xxbs.htm)。
+- [江大校标](https://www.ujs.edu.cn/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ujs.edu.cn/xxgk/xxbs.htm)。
+- [附件【常用校标组合】](https://www.ujs.edu.cn/xuexiaobiaoshishiliangwenjianjitoumingdisewenjian.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.ujs.edu.cn/xxgk/xxbs.htm)。
+  - 文件容器已读取：ZIP；20878801字节；读取类型archive_structure；文件SHA256 `af6a088b1101635f2768871ac80af3847e256f6e290a64abe0fa2a48a33601b9`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

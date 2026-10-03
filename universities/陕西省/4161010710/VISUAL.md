@@ -13,6 +13,7 @@
 | 官网页眉标识（构成待核验） | logo.png | [文件](http://www.chd.edu.cn/images/logo.png) · [来源](http://www.chd.edu.cn/) | 官网 | png | 242 × 85 | content_inspected | 未独立声明 |
 | 校徽 | 长安大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/长安大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 230 × 230 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://chd.edu.cn/images/logo.png) · [来源](https://chd.edu.cn/info/1012/1167.htm) | 官网 | png | 242 × 85 | content_inspected | 未独立声明 |
+| 组合标识 | 微信图片_20231228151222.png | [压缩包](https://chd.edu.cn/files/logo.zip) 内 `长安大学校徽logo/微信图片_20231228151222.png` · [来源](https://chd.edu.cn/files/logo.zip) | 官网 | png | 1657 × 450 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -35,7 +36,8 @@
 
 - 现有VI入口：[https://chd.edu.cn/info/1012/1167.htm](https://chd.edu.cn/info/1012/1167.htm)
 - [学校标识](https://chd.edu.cn/info/1012/1167.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://chd.edu.cn/info/1012/1167.htm)。
-- [点击下载校名](https://chd.edu.cn/files/logo.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://chd.edu.cn/info/1012/1167.htm)。
+- [点击下载校名](https://chd.edu.cn/files/logo.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://chd.edu.cn/info/1012/1167.htm)。
+  - 文件容器已读取：ZIP；2602980字节；读取类型archive_structure；文件SHA256 `d99289d975e6a2203ebc8b7234d06abcb788a84267078889903bd17fe1db2bc5`。
 - [点击下载校徽](https://chd.edu.cn/files/xiaohui.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://chd.edu.cn/info/1012/1167.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

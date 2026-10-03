@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4135013469'
   name_zh: 厦门大学嘉庚学院
@@ -43,14 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +58,20 @@ research:
   audit_key: '4135013469'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#306090'
+    availability: found
     search_sources: []
+    source: https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Xiamen_University_Tan_Kah_Kee_College/png/logo_white_800x800.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: c6879f3993a98abe
+    source_sha256: b815810062ba1dc957d20e621e7211704c6f7a244aa3efc2b791e0902a5b37a7
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -93,7 +93,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: c6879f3993a98abe
     title: 厦门大学嘉庚学院校徽资源
@@ -1267,6 +1266,25 @@ visual:
       media_count: 25
       external_relationship_count: 0
       macro_enabled: false
+  - title: 学校标识
+    url: https://www.jgxy.xmu.edu.cn/info/3dno774z.html
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.jgxy.xmu.edu.cn/info/3dno774z.html
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: c83e62aedde6136c19cc27c5e1ee7f698990398b4605ffb74ae123e6f27a4d01
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
     value: 2003
@@ -1277,19 +1295,16 @@ culture:
     search_sources: []
     basis: 官网overview页直接记载学校创办年份；未将更名年份或院系年份当作建校年
   motto:
-    value: null
-    source: null
+    value: 止于至善
+    source: https://www.jgxy.xmu.edu.cn/info/3dno774z.html
     verified: auto
-    checked_at: '2026-10-01'
-    availability: conflict
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-    candidates:
-    - value: 自强不息，止于至善
-      source: https://www.jgxy.xmu.edu.cn/info/3dno774z.html
-    - value: 止于至善
-      source: https://www.jgxy.xmu.edu.cn/info/3dno774z.html
-    note: 已访问官网页面给出不同候选；需核对名称、标点或历史口径
-  history_events: []
+    source_type: official_website
+    source_sha256: ac85ae93c1cc1af56fb729f2994d71c0a6f9a6d5c7445390a6cd700b68bde9a8
+    basis: 本页区分母体厦门大学校训与嘉庚学院自己的校训；采用后者。
+    collector: ppt_core_source_reconciliation
   flower:
     value: null
     source: null
@@ -1311,6 +1326,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: https://www.jgxy.xmu.edu.cn/xxgk2/mb.html
@@ -1334,216 +1350,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.jgxy.xmu.edu.cn/zsjy.html
-    availability: found
-    search_sources: []
-    source: https://www.jgxy.xmu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://www.jgxy.xmu.edu.cn/info/x4zdxkjn.html
-    availability: found
-    search_sources: []
-    source: https://www.jgxy.xmu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 福建漳州招商局经济技术开发区厦门大学漳州校区
-    availability: found
-    search_sources: []
-    source: https://www.jgxy.xmu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:福建漳州招商局经济技术开发区厦门大学漳州校区邮编:363123
-  postal_code:
-    value: '363123'
-    availability: found
-    search_sources: []
-    source: https://www.jgxy.xmu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:福建漳州招商局经济技术开发区厦门大学漳州校区邮编:363123
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 厦门大学嘉庚学院位于福建省漳州市，主管部门为福建省教育厅。官网列示在校本科生21000多人（统计时间2026-09-17）。
+    value: 厦门大学嘉庚学院位于福建省漳州市，教育部名单列为本科，主管部门为福建省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.jgxy.xmu.edu.cn/info/x64ew42j.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 21000
-    availability: found
-    search_sources: []
-    source: https://www.jgxy.xmu.edu.cn/info/x64ew42j.html
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校本科生；近似/下界数，保留原标注：在校本科生21000多人；数据统计截至2026年9月17日
-    source_as_of: '2026-09-17'
-    date_basis: 数据统计截至2026年9月17日
-    approximate: true
-    original_notation: 在校本科生21000多人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: jgxy@xujc.com
-    availability: found
-    search_sources: []
-    source: https://www.jgxy.xmu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮箱:jgxy@xujc.com厦门大学ICP:D200017
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

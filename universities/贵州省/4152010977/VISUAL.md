@@ -25,5 +25,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.lpssy.edu.cn/xxbs/list.htm](https://www.lpssy.edu.cn/xxbs/list.htm)
+- [学校标识](https://www.lpssy.edu.cn/xxbs/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lpssy.edu.cn/xxbs/list.htm)。
+- [校徽.jpg](https://www.lpssy.edu.cn/_upload/article/images/a8/61/93efaf25420792f6c6db6b5d0cf5/1050f877-3b55-4c10-a977-4394a0ed0db8.jpg)：["校徽/校名介绍及资源"]；格式 JPG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lpssy.edu.cn/xxbs/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

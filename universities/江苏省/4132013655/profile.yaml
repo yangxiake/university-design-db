@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4132013655'
   name_zh: 南京航空航天大学金城学院
@@ -9,12 +9,16 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Nanhang Jincheng College
+    availability: found
     search_sources: []
+    source: https://www.chinaschool.com.cn/i_region/i_10_jiangsu/a_54/a_54.html
+    source_sha256: 5365cbc2d6af1c2590ad83b89dd971f636fa564c5aba12f0430888abaf4c45c0
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-02'
+    collector: chinaschool_core
+    basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
     value: https://nhjcxy.edu.cn/
     availability: found
@@ -47,14 +51,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -84,12 +80,21 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#D23626'
+    availability: found
     search_sources: []
+    source: https://nhjcxy.edu.cn/lib/template2/scheme/css/style1.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: a67464322600534ef42e9c84548c5d50aec494179a4739fd30c1f33657d554f4
+    homepage_source: https://nhjcxy.edu.cn/
+    homepage_sha256: 52ef9aa98b5a735607119e6ea6d49afbf7359c3b202484636fa54d7a560c997e
+    css_selector: .big-nav
+    css_declaration: '#d23626'
+    collector: ppt_site_reference
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
   color_secondary:
     value: null
     source: null
@@ -112,7 +117,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 53172d151f940f61ae4c7c11
     kind: site_identity
@@ -152,7 +156,30 @@ visual:
     inspection_attempts:
     - url: https://nhjcxy.edu.cn/lib/template2/scheme/images/nhjc-logo-header.png
       status: content_inspected
-  color_palette: []
+  color_palette:
+  - value: '#D23626'
+    rgb:
+    - 210
+    - 54
+    - 38
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 已确认学校主页实际存在的页眉/主导航元素，其静态CSS规则明确背景色。按该颜色提供PPT设计建议，不认定学校官方VI标准；未执行脚本或宣称渲染后的最终视觉。
+    source: https://nhjcxy.edu.cn/lib/template2/scheme/css/style1.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: a67464322600534ef42e9c84548c5d50aec494179a4739fd30c1f33657d554f4
+    homepage_source: https://nhjcxy.edu.cn/
+    homepage_sha256: 52ef9aa98b5a735607119e6ea6d49afbf7359c3b202484636fa54d7a560c997e
+    css_selector: .big-nav
+    css_declaration: '#d23626'
+    collector: ppt_site_reference
   vi_resources:
   - title: 学校标识
     url: https://nhjcxy.edu.cn/xxgk/xxbs/C090105index_1.htm
@@ -186,22 +213,32 @@ visual:
     availability: found
     source_sha256: 5883c10be133032484bd675487ecc19bbc46ef8d2e81c94b37325a1e23506873
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 1999
+    availability: found
     search_sources: []
+    source: https://nhjcxy.edu.cn/xxgk/xxjj/C090101index_1.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    source_sha256: 6bc4b0d0d7a58ae675f9440d3cbb25a5def66eefcd82a4f6aedcabfa1e1dca4f
+    collector: read_overview_identity_facts
+    basis: 官网overview页直接记载学校始建年份；未将更名年份或院系年份当作建校年
+    previous_status: unresearched
   motto:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 修学储能、经世致用
+    availability: found
     search_sources: []
-  history_events: []
+    source: https://nhjcxy.edu.cn/xxgk/xxjj/C090101index_1.htm
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-02'
+    source_sha256: 6bc4b0d0d7a58ae675f9440d3cbb25a5def66eefcd82a4f6aedcabfa1e1dca4f
+    collector: read_overview_identity_facts
+    basis: 学校官网简介页直接记载的本校事实
+    previous_status: unresearched
   flower:
     value: null
     source: null
@@ -223,6 +260,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -245,225 +283,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://zsc.nhjcxy.edu.cn
-    availability: found
-    search_sources: []
-    source: https://nhjcxy.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生工作
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: https://xb.nhjcxy.edu.cn/xxgk/xxgksxzn/C530502index_1.htm
-    availability: found
-    search_sources: []
-    source: https://nhjcxy.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 南京市江宁区禄口街道航金大道88号
-    availability: found
-    search_sources: []
-    source: https://nhjcxy.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:南京市江宁区禄口街道航金大道88号
-    - 'Copyright©南京航空航天大学金城学院版权所有 备案号: 苏ICP备19056187号-2地址:南京市江宁区禄口街道航金大道88号'
-  postal_code:
-    value: '211156'
-    availability: found
-    search_sources: []
-    source: https://nhjcxy.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 邮编:211156
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 南京航空航天大学金城学院位于江苏省南京市，主管部门为江苏省教育厅。官网列示全日制在校本科生2.3万人（统计日期未注明）。官网列示校园占地面积1600余亩（统计日期未注明）。
-    availability: found
-    search_sources: []
-    source: https://nhjcxy.edu.cn/xxgk/xxjj/C090101index_1.htm
-    source_type: official_website
+    value: 南京航空航天大学金城学院位于江苏省南京市，教育部名单列为本科，主管部门为江苏省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
     verified: auto
     checked_at: '2026-10-02'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 23000
     availability: found
     search_sources: []
-    source: https://nhjcxy.edu.cn/xxgk/xxjj/C090101index_1.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    collector: official_overview
-    basis: 全日制在校本科生；原标注：全日制在校本科生2.3万人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: false
-    original_notation: 全日制在校本科生2.3万人
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: 106.666667
-    availability: found
-    search_sources: []
-    source: https://nhjcxy.edu.cn/xxgk/xxjj/C090101index_1.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    collector: official_overview
-    basis: 校园占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：校园占地面积1600余亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 校园占地面积1600余亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 025-87190002；电话: 025-87190011'
-    availability: found
-    search_sources: []
-    source: https://nhjcxy.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-02'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 电话:025-87190002(学校办公室)
-    - 电话:025-87190011(招生处)
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -52,13 +52,14 @@ ENTRY_FIELDS = {
     'visual.logo_assets': ['asset_id','kind','title','url','source','file_name','upstream_path','publisher','official',
         'repository','commit','repository_license','asset_license','rights_holder','format','width','height','vector',
         'representation','view_box','encoding','intrinsic_width','intrinsic_height','has_alpha','transparent_background','sha256','byte_size','access_status',
-        'download_kind','archive_url','archive_member','archive_sha256',
+        'download_kind','archive_url','archive_member','archive_member_display','archive_sha256',
         'availability','verified','checked_at','usage_note','variant','dimensions_in_filename','source_type','identity_basis','resolved_url'],
-    'visual.color_palette': ['value','rgb','cmyk','pantone','label','role','method','official','current','basis','source',
-        'verified','checked_at','availability','repository','commit','asset_id'],
+    'visual.color_palette': ['value','rgb','cmyk','cmyk_text','pantone','label','role','method','official','current','basis','source',
+        'verified','checked_at','availability','repository','commit','asset_id','source_sha256',
+        'archive_member','archive_member_display','member_sha256'],
     'visual.vi_resources': ['title','url','kinds','formats','access_requirement','campus_district','source',
         'repository','commit','official','verified','checked_at','availability','note','publisher','use_scope',
-        'edition_year','content_read','download_status','source_sha256','file_metadata','file_inspection'],
+        'edition_year','content_read','download_status','source_sha256','file_metadata','file_inspection','document_metadata'],
     'academics.subject_assessments': ['subject','grade','availability','candidates','round','assessment_year','publisher','completeness'],
     'rankings.entries': ['publisher','ranking_name','year','scope','rank','score','indicators','upstream_url'],
     'admissions.cutoffs': ['year','region','curriculum','batch','enrollment_type','minimum_score',
@@ -67,7 +68,8 @@ ENTRY_FIELDS = {
         'major_group','subject_requirements','minimum_score','minimum_rank','score_difference','reference_only'],
     'admissions.plans': ['year','region','curriculum','batch','enrollment_type','major_name','major_code',
         'planned_count','tuition','duration_years','subject_requirements','major_group'],
-    'employment.outcomes': ['graduation_year','metric','value','unit','basis'],
+    'employment.outcomes': ['graduation_year','metric','value','unit','basis','population','data_as_of',
+        'publisher','source_sha256','evidence'],
     'community.snapshots': ['repository','commit','data_path','school_code','upstream_record_name',
         'upstream_fields','source','license','data_as_of','verified','checked_at'],
 }
@@ -78,8 +80,23 @@ def empty_fact():
                 availability='unresearched', search_sources=[])
 
 
+def official_name_variants(identity):
+    """Use an alias only when already supported by this school's official site."""
+    from research_all_schools import same_school
+    names=[identity['name_zh']]
+    home=identity.get('official_website',{}).get('value')
+    alias=identity.get('short_name_zh',{})
+    if (home and alias.get('availability')=='found' and alias.get('source_type')=='official_website'
+            and alias.get('verified') in {'auto','human'} and isinstance(alias.get('value'),str)
+            and len(alias['value'])>=2 and same_school(alias.get('source') or '',home)):
+        names.append(alias['value'])
+    return list(dict.fromkeys(names))
+
+
 def migrate(profile):
     """Add typed fields while preserving all existing facts, lists and metadata."""
+    if profile.get('schema_version') == 4:
+        return profile
     for dotted in FACTS:
         group, key = dotted.split('.')
         profile.setdefault(group, {}).setdefault(key, empty_fact())
@@ -107,6 +124,10 @@ def upsert(items, entry, identity):
 
 
 def put_fact(profile, dotted, value, metadata, **extra):
+    if profile.get('schema_version') == 4:
+        from ppt_scope import is_core_field
+        if not is_core_field(dotted):
+            raise ValueError('Field excluded by PPT core scope: ' + dotted)
     if value is None or value == '' or value == []:
         return False
     group, key = dotted.split('.')

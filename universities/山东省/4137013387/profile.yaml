@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4137013387'
   name_zh: 山东外国语职业技术大学
@@ -9,19 +9,29 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Shandong Vocational and Technical University of International Studies
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q7487925&oldid=2548493626
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548493626
+    source_sha256: 1eef7d5dd35e098a0d14dccb4c12beca73640576bd85a7b86102fd2882cba9f6
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.swut.cn/
+    availability: found
     search_sources: []
+    source: https://www.swut.cn/
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    basis: 已有来源的学校主站候选实际返回主首页，标题为当前学校完整名称或完整名称加官网/首页等明确后缀；排除院系、招生子站、新闻题名、母校与旧名。
+    evidence: 山东外国语职业技术大学
+    source_sha256: 7ab095ea92c8d511712ec02fdbacf76aa64ce552c9856c0d2cd2924fad8f6034
   short_name_zh:
     value: null
     source: null
@@ -43,14 +53,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -74,12 +76,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#005898'
+    availability: found
     search_sources: []
+    source: https://cdn.urongda.com/images/normal/medium/shandong-vocational-and-technical-university-of-international-studies-logo-1024px.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: 4e79e45a6313685c0e51936d
+    source_sha256: d8d600a1b4bffaf219c298162777c8c4f732970ca47d262b6af8bbeeb6883e3e
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区预览图取色，不是学校VI标准或指定主色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -101,7 +111,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 4e79e45a6313685c0e51936d
     kind: badge
@@ -135,6 +144,82 @@ visual:
     height: 1147
     has_alpha: true
     transparent_background: true
+  - asset_id: b7977a3cb88b503943140bfe
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.swut.cn/attachment/core/2025_07/02_13/70b7b70f5d514760.png
+    source: https://www.swut.cn/
+    file_name: 70b7b70f5d514760.png
+    upstream_path: null
+    publisher: 山东外国语职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东外国语职业技术大学
+    format: png
+    width: 611
+    height: 102
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: cd5f7298417f8a3c344f3357011677413cb321e809ab5b676f871710abb30e90
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /attachment/core/2025_07/02_13/70b7b70f5d514760.png
+      label: '  logo1 '
+      context: 'navbar main-nav  container  navbar-header  navbar-brand navbar-logo '
+      position: 1
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 67616
+    representation: raster
+    resolved_url: https://www.swut.cn/attachment/core/2025_07/02_13/70b7b70f5d514760.png
+    inspection_attempts:
+    - url: https://www.swut.cn/attachment/core/2025_07/02_13/70b7b70f5d514760.png
+      status: content_inspected
+  - asset_id: 56767ad592a169a211c9ae08
+    kind: site_identity
+    title: 学校官网页眉标识
+    url: https://www.swut.cn/skin/swut/core/header/images/logo1.png
+    source: https://www.swut.cn/
+    file_name: logo1.png
+    upstream_path: null
+    publisher: 山东外国语职业技术大学
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 山东外国语职业技术大学
+    format: png
+    width: 611
+    height: 102
+    vector: false
+    has_alpha: true
+    transparent_background: true
+    sha256: cd5f7298417f8a3c344f3357011677413cb321e809ab5b676f871710abb30e90
+    access_status: content_inspected
+    availability: found
+    verified: auto
+    checked_at: '2026-10-02'
+    source_type: official_website
+    identity_basis:
+      src: /skin/swut/cms/../core/header/images/logo1.png
+      label: '  logo2 '
+      context: 'navbar main-nav  container  navbar-header  navbar-brand navbar-logo '
+      position: 2
+    usage_note: 官网首页标题匹配教育部完整校名、页眉标识元素匹配且排除页脚/二维码/政务/校庆图。official表示校方网页发布；site_identity的具体校徽/校名构成及现行VI版本尚未核验。图形授权未单独声明；只索引文件与元数据。
+    byte_size: 67616
+    representation: raster
+    resolved_url: https://www.swut.cn/skin/swut/core/header/images/logo1.png
+    inspection_attempts:
+    - url: https://www.swut.cn/skin/swut/core/header/images/logo1.png
+      status: content_inspected
   color_palette:
   - value: '#005898'
     rgb:
@@ -172,6 +257,74 @@ visual:
     checked_at: '2026-10-02'
     availability: found
     basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区预览图取色，不是学校VI标准或指定主色。
+  - value: '#005898'
+    rgb:
+    - 0
+    - 88
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.swut.cn/attachment/core/2025_07/02_13/70b7b70f5d514760.png
+    page_source: https://www.swut.cn/
+    asset_id: b7977a3cb88b503943140bfe
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#005090'
+    rgb:
+    - 0
+    - 80
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.swut.cn/attachment/core/2025_07/02_13/70b7b70f5d514760.png
+    page_source: https://www.swut.cn/
+    asset_id: b7977a3cb88b503943140bfe
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#005898'
+    rgb:
+    - 0
+    - 88
+    - 152
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.swut.cn/skin/swut/core/header/images/logo1.png
+    page_source: https://www.swut.cn/
+    asset_id: 56767ad592a169a211c9ae08
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+  - value: '#005090'
+    rgb:
+    - 0
+    - 80
+    - 144
+    cmyk: null
+    pantone: null
+    role: reference
+    method: manual_derived
+    official: false
+    basis: 官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。
+    source: https://www.swut.cn/skin/swut/core/header/images/logo1.png
+    page_source: https://www.swut.cn/
+    asset_id: 56767ad592a169a211c9ae08
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
   vi_resources:
   - title: 山东外国语职业技术大学社区校徽目录
     url: https://www.urongda.com/logos/4137013387
@@ -306,14 +459,21 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2005
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q7487925&oldid=2548493626
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548493626
+    source_sha256: 1eef7d5dd35e098a0d14dccb4c12beca73640576bd85a7b86102fd2882cba9f6
+    wikidata_property: P571
+    collector: ppt_core_wikidata
+    basis: Wikidata P571成立时间；社区结构化记录，未独立确认为学校现名设立年或前身起点。
   motto:
     value: null
     source: null
@@ -321,7 +481,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -343,6 +502,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -365,185 +525,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 山东外国语职业技术大学位于山东省日照市，教育部名单列为本科，主管部门为山东省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
     search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

@@ -26,5 +26,6 @@
 
 - 现有VI入口：[https://www.lshhxy.edu.cn/xxgk/xhxx.htm](https://www.lshhxy.edu.cn/xxgk/xhxx.htm)
 - [关于新版校名、校训标准字及新校徽规范使用的通知](http://www.lshhxy.edu.cn/xxgk/xhxx.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.lshhxy.edu.cn/xxgk/xhxx.htm)。
+- [关于新版校名、校训标准字及新校徽规范使用的通知](https://www.lshhxy.edu.cn/xxgk/xhxx.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.lshhxy.edu.cn/xxgk/xhxx.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

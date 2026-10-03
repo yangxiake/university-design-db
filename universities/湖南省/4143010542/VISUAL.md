@@ -24,15 +24,15 @@
 |  | `#B83028` | 184,48,40 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#B82820` | 184,40,32 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#C03028` | 192,48,40 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
-
-主色来源存在差异：官网同页的 RGB R200 G22 B30 与 WEB C8161D 相差一个 HEX 单位
-- `#C8161E`：[来源](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm)；官网 RGB R200 G22 B30 换算为 HEX
-- `#C8161D`：[来源](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm)；官网直接列出的 WEB 色值
+| 麓山枫红RGB候选 | `#C8161E` | 200,22,30 | primary | [20, 100, 100, 0] | P49-8C | 官方VI标准值 | [依据](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm) |
+| 麓山枫红WEB候选 | `#C8161D` | 200,22,29 | primary | [20, 100, 100, 0] | P49-8C | 官方VI标准值 | [依据](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm) |
+| 官网HEX的PPT屏幕建议色 | `#C8161D` | 200,22,29 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.hunnu.edu.cn/xxgk1/xxbs1.htm](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm)
+- [湖南师范大学官方视觉规范](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.hunnu.edu.cn/xxgk1/xxbs1.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

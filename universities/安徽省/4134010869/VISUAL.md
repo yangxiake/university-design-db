@@ -8,6 +8,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | logo_fold.svg | [文件](https://www.uta.edu.cn/_upload/tpl/02/e1/737/template737/images/logo_fold.svg) · [来源](https://www.uta.edu.cn/) | 官网 | svg | 55.665 × 55.665 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://www.uta.edu.cn/_upload/tpl/02/e1/737/template737/images/logo.png) · [来源](https://www.uta.edu.cn/) | 官网 | 未知 | 未声明 | inspection_failed | 未独立声明 |
+| 校徽 | 1805.jpg | [文件](https://static-data.gaokao.cn/upload/logo/1805.jpg) · [来源](https://static-data.eol.cn/www/2.0/school/1805/info.json) | 社区 | jpeg | 200 × 200 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -15,8 +16,8 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
-尚无附来源配色。
+| 平台标识取色参考 | `#0058A0` | 0,88,160 | reference |  |  | 社区标识取色建议 | [依据](https://static-data.gaokao.cn/upload/logo/1805.jpg) |
+| 平台标识取色参考 | `#005098` | 0,80,152 | reference |  |  | 社区标识取色建议 | [依据](https://static-data.gaokao.cn/upload/logo/1805.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 

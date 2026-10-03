@@ -1,109 +1,45 @@
-# 南昌大学：资料档案
+# 南昌大学：PPT资料档案
 
 学校标识码：`4136010403`；江西省 / 南昌市；本科；主管部门：江西省。
 
-逐字段资料来自官方或标注的社区来源。自动采集状态不表示全部字段完整，历史记录不等于现行数据。
+仅保留PPT主字段与素材依据。自动采集状态、来源和设计建议分别标记。
 
-## 有来源的信息
+## 已取得的主字段与可选补充
 
-| 字段 | 值 | 来源类型 | 采集日期 | 来源 |
-| --- | --- | --- | --- | --- |
-| 英文名称 | Nanchang University | official_or_curated | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
-| 官网 | https://www.ncu.edu.cn/ | official_or_curated | 2026-09-30 | [来源](https://www.ncu.edu.cn/) |
-| 创办年份 | 1921 | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
-| 创办年份口径 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | | |
-| 创办年份资料时间 | 2026-06-09 | | | |
-| 校训 | 格物致新、厚德泽人 | official_or_curated | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
-| 校歌 | 《前景无限》 | official_or_curated | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
-| 中文简称 | 南大(昌) | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
-| 中文简称资料时间 | 2026-06-09 | | | |
-| 英文简称 | NCU | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
-| 英文简称资料时间 | 2026-06-09 | | | |
-| 学校别名及曾用名，需保留时期说明 | ["昌大", "NCU"] | community_dataset | 2026-10-01 | [来源](https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/skills/%E9%AB%98%E6%A0%A1%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/references/aliases.json) |
-| 学校别名及曾用名，需保留时期说明口径 | 社区检索别名；不是学校正式中文简称或全部历史校名 | | | |
-| 学校别名及曾用名，需保留时期说明资料时间 | 2026-06-09 | | | |
-| 社区检索标识，不能当作正式校名 | ["nanchang-university"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
-| 社区检索标识，不能当作正式校名资料时间 | 2026 | | | |
-| 综合、理工、师范等院校类型 | 综合 | community_dataset | 2026-10-01 | [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
-| 综合、理工、师范等院校类型资料时间 | 2021 | | | |
-| 所在国家或地区 | China | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
-| 所在国家或地区资料时间 | 2026 | | | |
-| 院校群与历史项目标签，非排名 | ["双一流", "211"] | community_dataset | 2026-10-01 | [来源](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
-| 院校群与历史项目标签，非排名资料时间 | 2026 | | | |
-| 经纬度及坐标系、位置精度 | {"crs": "unspecified", "latitude": 28.659, "location_kind": "community_map_point", "longitude": 115.799, "precision": "approximate"} | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
-| 经纬度及坐标系、位置精度口径 | 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。 | | | |
-| 经纬度及坐标系、位置精度资料时间 | 2026-06-09 | | | |
-| 中文简介，短摘要 | 南昌大学位于江西省南昌市，主管部门为江西省。官网列示全日制本科学生37060余人（统计日期未注明）。官网列示教职工4216人（统计日期未注明）。官网列示占地面积4260余亩（统计日期未注明）。简介列出前湖校区、青山湖校区、东湖校区。 | official_website | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxjj.htm) |
-| 中文简介，短摘要口径 | 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文 | | | |
-| 中文简介，短摘要资料时间 | mixed | | | |
-| 学生人数，需统计日期和口径 | 37060 | official_website | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxjj.htm) |
-| 学生人数，需统计日期和口径口径 | 全日制本科学生；近似/下界数，保留原标注：全日制本科学生37060余人；页面未标注此项统计日期；采集日不等于统计日 | | | |
-| 学生人数，需统计日期和口径资料时间 | 统计日期未标注 | | | |
-| 教职工人数，需统计日期和口径 | 4216 | official_website | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxjj.htm) |
-| 教职工人数，需统计日期和口径口径 | 教职工；原标注：教职工4216人；页面未标注此项统计日期；采集日不等于统计日 | | | |
-| 教职工人数，需统计日期和口径资料时间 | 统计日期未标注 | | | |
-| 校园面积，公顷，需日期和口径 | 284.0 | official_website | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxjj.htm) |
-| 校园面积，公顷，需日期和口径口径 | 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地面积4260余亩；页面未标注此项统计日期；采集日不等于统计日 | | | |
-| 校园面积，公顷，需日期和口径资料时间 | 统计日期未标注 | | | |
-| 双一流建设学科，注明名单年份及是否节选 | ["材料科学与工程"] | community_dataset | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
-| 双一流建设学科，注明名单年份及是否节选口径 | 社区整理双一流学科名单，可能节选；不是教育部原表替代品。 | | | |
-| 双一流建设学科，注明名单年份及是否节选资料时间 | 2026-06-09 | | | |
-| 招生入口 | https://www.ncu.edu.cn/zsjy.htm | official_website | 2026-10-01 | [来源](https://www.ncu.edu.cn/) |
-| 招生入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-| 就业入口 | http://jy.ncu.edu.cn/index | community_dataset | 2026-10-01 | [来源](https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md) |
-| 就业入口资料时间 | 2019-10-21 | | | |
-| 英文网站入口 | http://english.ncu.edu.cn/ | official_website | 2026-10-01 | [来源](https://www.ncu.edu.cn/) |
-| 英文网站入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-| 信息公开入口 | https://www.ncu.edu.cn/xxgk/xxgk.htm | official_website | 2026-10-01 | [来源](https://www.ncu.edu.cn/) |
-| 信息公开入口口径 | 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。 | | | |
-
-## 官网列示校区
-
-| 校区 | 地址 | 来源 |
-| --- | --- | --- |
-| 前湖校区 | 尚未确认 | [来源](https://www.ncu.edu.cn/xxgk/xxjj.htm) |
-| 青山湖校区 | 尚未确认 | [来源](https://www.ncu.edu.cn/xxgk/xxjj.htm) |
-| 东湖校区 | 尚未确认 | [来源](https://www.ncu.edu.cn/xxgk/xxjj.htm) |
-
-## 视觉资料
-
-- [校徽、校名文件与调色板](VISUAL.md)
-- [官方PPT入口](OFFICIAL.md)
-- [社区主题与参考资料](COMMUNITY.md)
-
-## 排名历史
-
-| 发布方/榜单 | 年份 | 范围 | 名次 | 分数 | 来源 |
-| --- | --- | --- | --- | --- | --- |
-| ShanghaiRanking / 软科中国大学排名 | 2021 | 中国大学主榜 | 78 | 268.9 | [社区记录](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) |
-| ShanghaiRanking / 软科中国大学排名 | 2026 | 中国大学主榜 | 74 | 314.5 | [社区记录](https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json) |
-
-## 学科评估记录
-
-| 学科 | 轮次 | 等级 | 来源 |
+| 字段 | 值 | 采集日期 | 来源 |
 | --- | --- | --- | --- |
-| 材料科学与工程 | 4 | A- | [社区节选](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
-| 食品科学与工程 | 4 | A- | [社区节选](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+| 英文校名 | Nanchang University | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
+| 建校年及历史起点口径 | 1921 | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+| 口径 / 方法 | 社区founded字段；上游未区分前身创立、合并或现行学校设立年份，保留其历史起点口径。 | | |
+| 屏幕主色；官方标准与设计建议分别标记 | #12368F | 2026-10-01 | [来源](https://www.ncu.edu.cn/images/logoft.png) |
+| 口径 / 方法 | 官网页眉标识图片：滤去透明、近白和低饱和背景后，对高频RGB色簇取通道中位数；不是VI标准色色卡 | | |
+| 学校官网及取证入口 | https://www.ncu.edu.cn/ | 2026-09-30 | [来源](https://www.ncu.edu.cn/) |
+| 中文简称；用于检索 | 南大(昌) | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+| 英文简称；用于检索 | NCU | 2026-10-01 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+| 曾用名或别名；用于同校检索 | ["昌大", "NCU"] | 2026-10-01 | [来源](https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/skills/%E9%AB%98%E6%A0%A1%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/references/aliases.json) |
+| 口径 / 方法 | 社区检索别名；不是学校正式中文简称或全部历史校名 | | |
+| 从主字段生成的短简介；不另采动态统计 | 南昌大学位于江西省南昌市，教育部名单列为本科，主管部门为江西省。 | 2026-10-02 | [来源](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls) |
+| 口径 / 方法 | 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。 | | |
+| 校训 | 格物致新、厚德泽人 | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
+| 官方VI入口 | https://www.ncu.edu.cn/xxgk/xxxh.htm | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxxh.htm) |
+| 校徽简述 | 青花瓷盘式蓝色徽志的核心为樟树，枝干意象体现学科协调发展与百年树人。 | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
+| 校歌 | 《前景无限》 | 2026-10-01 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
 
-## 录取历史参考
+## 制作PPT所需素材
 
-社区参考值带地区、年份、科类和批次；请查招生官方记录后用于实际报考。
+- [校徽、校名标识、色卡与VI手册](VISUAL.md)
+- [官方模板入口与使用条件](OFFICIAL.md)
+- [开源演示主题与参考标识](COMMUNITY.md)
 
-| 年份 | 地区 | 科类 | 批次 | 最低分 | 最低位次 | 来源 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2025 | 重庆市 | 物理类 | 普通类本科批 | 575 | 29000 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
-| 2025 | 重庆市 | 历史类 | 普通类本科批 | 570 | 6800 | [来源](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js) |
+## 校史节点
 
-## 可追溯社区快照
+| 年份 | 事件 | 来源 |
+| --- | --- | --- |
+| 1993 | 江西大学与江西工业大学合并组建南昌大学 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
+| 2005 | 与江西医学院合并组建新的南昌大学 | [来源](https://www.ncu.edu.cn/xxgk/xxzc.htm) |
 
-- [xioajiumi/Chinese_Universities](../../../data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl)：`e088fddc329a`；资料年份/版本 2021，保留原字段及许可。
-- [damitheswitch/china-universities-dataset](../../../data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl)：`5eaa2a93f86a`；资料年份/版本 2026，保留原字段及许可。
-- [Magicdover/China-Universities-2026](../../../data/external/Magicdover__China-Universities-2026/matched-fields.jsonl)：`419bdc7ce695`；资料年份/版本 2026-06-09，保留原字段及许可。
-- [realJerryKing/university-insight](../../../data/external/realJerryKing__university-insight/matched-fields.jsonl)：`ea2eb0a4a83d`；资料年份/版本 2026-06-09，保留原字段及许可。
-- [Hipo/university-domains-list](../../../data/external/Hipo__university-domains-list/matched-fields.jsonl)：`603e10f51b67`；资料年份/版本 2026-09-26，保留原字段及许可。
+## 必备字段缺口
 
-## 尚未确认的信息
+主字段已有附来源记录；使用前查看取值方法。
 
-校花：尚未采集、吉祥物：尚未采集、官方PPT入口：尚未采集、官方资源发布方：尚未采集、官方资源使用说明：尚未采集、公办、民办等办学性质，不从空备注推断：尚未采集、授课语言，社区资料不等于全部专业语言：尚未采集、通讯地址，不能代替全部校区地址：尚未采集、邮政编码：尚未采集、英文简介，短摘要：尚未采集、学位授权，需年份与层次口径：尚未采集、就业概况，需对应毕业届次：尚未采集、就业质量报告入口：尚未采集、公开办公或招生电话：尚未采集、公开办公邮箱：尚未采集。
-
-完整字段与出处见[profile.yaml](profile.yaml)。
+模板、辅色、校歌等可选项不作为全校必须存在的资料。机器字段与出处见[profile.yaml](profile.yaml)。

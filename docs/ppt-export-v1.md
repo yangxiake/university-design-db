@@ -1,6 +1,6 @@
 # PPT精简数据 v1
 
-此导出由1412份`profile.yaml`生成。`export_version: 1`是导出结构版本；`profile_schema_version: 3`是原档案结构版本。导出用于取PPT材料，完整学科、招生、统计及历史数据仍见`indexes/profiles.jsonl`和原档案。
+此导出由1412份`profile.yaml`生成。`export_version: 1`是导出结构版本；`profile_schema_version: 4`是原档案结构版本。导出用于取PPT材料，完整主字段仍见`indexes/profiles.jsonl`和原档案；高维护成本扩展数据已剔除。
 
 ## 文件与层级
 
@@ -89,6 +89,8 @@ logos = json.loads(row['logos_json'])
 ```
 
 CSV便查列只摘取值和状态；完整引用依据以结构列或JSONL为准。CSV和JSONL均从档案重新生成，既有索引字段继续兼容。
+
+ZIP内标识保留`archive_member`原始成员字符串和`archive_member_display`可读路径；下载后按原始字符串查找，再核对容器与成员各自的SHA-256。可读路径可能恢复了中文编码，不能拿它替代程序查找路径。配色中的`cmyk_text`为原文局部/异常印刷记法，`cmyk`为空时不能默认补齐通道。官方PDF的`document_metadata`只说明PDF页数、字节数与哈希，不等同PPTX结构或AI可编辑性。
 
 ## 生成与验证
 

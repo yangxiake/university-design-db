@@ -28,5 +28,11 @@
 - [视觉形象管理系统](http://www.jzun.edu.cn/visual/channels/1426.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.jzun.edu.cn/visual/channels/1426.htm)。
 - [校标规范](http://www.jzun.edu.cn/visual/upload/files/2026-06-12/校标规范.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.jzun.edu.cn/visual/channels/1426.htm)。
 - [校标基础图形标准化制图](http://www.jzun.edu.cn/visual/upload/files/2026-06-12/校标基础图形标准化制图.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.jzun.edu.cn/visual/channels/1426.htm)。
+- [校标规范](https://www.jzun.edu.cn/visual/)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jzun.edu.cn/visual/)。
+- [荆州学院视觉形象管理系统](https://www.jzun.edu.cn/visual/channels/1432.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jzun.edu.cn/visual/channels/1432.htm)。
+- [标准色规范及释义](https://www.jzun.edu.cn/visual/upload/files/2026-06-12/标准色规范及释义.rar)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jzun.edu.cn/visual/channels/1432.htm)。
+- [校标规范](https://www.jzun.edu.cn/visual/channels/1426.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jzun.edu.cn/visual/channels/1426.htm)。
+- [校标规范](https://www.jzun.edu.cn/visual/upload/files/2026-06-12/校标规范.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jzun.edu.cn/visual/channels/1426.htm)。
+- [校标基础图形标准化制图](https://www.jzun.edu.cn/visual/upload/files/2026-06-12/校标基础图形标准化制图.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.jzun.edu.cn/visual/channels/1426.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

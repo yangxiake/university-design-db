@@ -35,5 +35,8 @@
 - [学校标识](http://www.wnu.edu.cn/xb/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.wnu.edu.cn/xb/xxgk/xxbs.htm)。
 - [校徽、校标、校旗、院旗](http://www.wnu.edu.cn/info/1678/19039.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.wnu.edu.cn/info/1678/19039.htm)。
 - [校徽矢量图.pptx](http://www.wnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1061575194&wbfileid=2999455)：["校徽/校名介绍及资源"]；格式 PPTX；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.wnu.edu.cn/info/1678/19039.htm)。
+- [学校标识](https://www.wnu.edu.cn/xb/xxgk/xxbs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.wnu.edu.cn/xb/xxgk/xxbs.htm)。
+- [校徽、校标、校旗、院旗](https://www.wnu.edu.cn/info/1678/19039.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.wnu.edu.cn/info/1678/19039.htm)。
+- [校徽矢量图.pptx](https://www.wnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1061575194&wbfileid=2999455)：["校徽/校名介绍及资源"]；格式 PPTX；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.wnu.edu.cn/info/1678/19039.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

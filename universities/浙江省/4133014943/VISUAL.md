@@ -17,11 +17,27 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | `#92070B` | 146,7,11 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.eitech.edu.cn/_upload/tpl/00/31/49/template49/images/wap_logo2.svg) |
 |  | `#F3B33D` | 243,179,61 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.eitech.edu.cn/_upload/tpl/00/31/49/template49/images/logo.svg) |
+| 标准红 | `#92071C` | 146,7,28 | primary | [46, 100, 100, 17] | 7622cp | 官方VI标准值 | [依据](https://www.eitech.edu.cn/_upload/article/images/8e/09/9ac030e24973a30ea8f889aba402/cf4affa2-baea-4d21-86e0-ada318bff9fa.png) |
+| 辅助灰 | `#AAA9A1` | 170,169,161 | reference |  |  | 官方VI标准值 | [依据](https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/2c38d8f9-639d-4f82-9c59-8e62b6e11f77.png) |
+| 辅助黄 | `#FDB837` | 253,184,55 | reference |  |  | 官方VI标准值 | [依据](https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/ac45b1fa-cc6d-4a3a-882d-79d146304e68.png) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.eitech.edu.cn/xxbs/list.htm](https://www.eitech.edu.cn/xxbs/list.htm)
+- [宁波东方理工大学官方视觉规范](https://www.eitech.edu.cn/290/list.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.eitech.edu.cn/_upload/article/images/8e/09/9ac030e24973a30ea8f889aba402/cf4affa2-baea-4d21-86e0-ada318bff9fa.png)。
+- [宁波东方理工大学官方视觉规范](https://www.eitech.edu.cn/290/list.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/2c38d8f9-639d-4f82-9c59-8e62b6e11f77.png)。
+- [宁波东方理工大学官方视觉规范](https://www.eitech.edu.cn/290/list.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.eitech.edu.cn/_upload/article/images/40/5e/c94ecd874059912b9b31bcdce1a8/ac45b1fa-cc6d-4a3a-882d-79d146304e68.png)。
+- [学校标志组合](https://www.eitech.edu.cn/290/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/290/list.htm)。
+- [东方理工VI手册2026点击下载](https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/290/list.htm)。
+- [学校标志组合](https://www.eitech.edu.cn/291/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/291/list.htm)。
+- [东方理工VI手册2026点击下载](https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/291/list.htm)。
+- [学校标志组合](https://www.eitech.edu.cn/xxbs/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/xxbs/list.htm)。
+- [东方理工VI手册2026点击下载](https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/xxbs/list.htm)。
+- [学校标志组合](https://www.eitech.edu.cn/289/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/289/list.htm)。
+- [东方理工VI手册2026点击下载](https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/289/list.htm)。
+- [学校标志组合](https://www.eitech.edu.cn/293/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/293/list.htm)。
+- [东方理工VI手册2026点击下载](https://www.eitech.edu.cn/_upload/article/files/5c/f8/86fd60f340bf8f2e4de0eeb41ff5/b85a3055-e0df-4088-ba03-de12ee4ede6d.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.eitech.edu.cn/293/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

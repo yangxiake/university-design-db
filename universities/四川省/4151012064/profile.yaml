@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4151012064'
   name_zh: 成都航空职业技术大学
@@ -9,12 +9,18 @@ identity:
   note: ''
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Chengdu Aeronautic Polytechnic University
+    availability: found
     search_sources: []
+    source: https://www.wikidata.org/w/index.php?title=Q112677134&oldid=2548501472
+    source_type: wikidata
+    checked_at: '2026-10-02'
+    verified: auto
+    source_revision: 2548501472
+    source_sha256: 86b55e75f07bd6315dce62084a94538918524c01c4d23d95080498780bafd8f3
+    wikidata_property: label:en
+    collector: ppt_core_wikidata
+    basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
     value: https://www.cap.edu.cn
     source: https://www.cap.edu.cn
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 职业本科
   scope_tags:
@@ -68,12 +66,20 @@ research:
   audit_key: '4151012064'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0058A8'
+    availability: found
     search_sources: []
+    source: https://cdn.urongda.com/images/normal/medium/chengdu-aeronautic-polytechnic-university-logo-1024px.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: badge_sample
+    source_type: community_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: community_logo_sample
+    asset_id: b8370318c9a1acb99b0d03aa
+    source_sha256: c6a245ba17ec62c53d8e6032a7dac8eb78046c834ed06d15ce1f9dfb755140ed
+    basis: 从已读取的社区标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；社区预览图取色，不是学校VI标准或指定主色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -95,7 +101,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 7531485a7cd3aab5bb415a3b
     kind: site_identity
@@ -332,6 +337,79 @@ visual:
     content_read: false
     download_status: indexed_not_fetched
     note: 当前校名及学校标识码精确匹配；目录可能自称官方文件，本库保持社区来源，未替代校方版本或授权核验。
+  - title: 标识系统
+    url: https://www.cap.edu.cn/info/1781/65781.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cap.edu.cn/info/1781/65781.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4b235556acf0466b04fec45746fd1ab283179899f4ca5ae2bc168d19e745afe4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 成航VIS基础部分.pdf
+    url: https://www.cap.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1975163105&wbfileid=DCDB4F400B49A89EC5D30FD384107D74
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cap.edu.cn/info/1781/65781.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4b235556acf0466b04fec45746fd1ab283179899f4ca5ae2bc168d19e745afe4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 成航VI系统-中英文字体包.rar
+    url: https://www.cap.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1975163105&wbfileid=BBDB08A3DA304B697FB049406DFEA2FD
+    kinds:
+    - 视觉识别规范/资源
+    formats:
+    - RAR
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cap.edu.cn/info/1781/65781.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 4b235556acf0466b04fec45746fd1ab283179899f4ca5ae2bc168d19e745afe4
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 标识系统
+    url: https://www.cap.edu.cn/xywh1/bsxt.htm
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - HTML
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.cap.edu.cn/xywh1/bsxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 73af5f091ff731cb5e5858f53831b45ca76217bbab8d520a0019eaea49663631
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  landmarks: []
 culture:
   founded_year:
     value: 1965
@@ -348,7 +426,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -370,6 +447,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -392,234 +470,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 成都市龙泉驿区车城东七路699号(龙泉驿校区)、成都市新都区顺飞路899号(新都校区)
-    availability: found
-    search_sources: []
-    source: https://www.cap.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:成都市龙泉驿区车城东七路699号(龙泉驿校区)、成都市新都区顺飞路899号(新都校区)邮编:610100(龙泉驿校区)、610506(新都校区)邮箱:bgs@cap.edu.cn电话:028-88459369(党政办)
-      88459388(招生办) 88459389(招生办) 88459017(就业办)
-  postal_code:
-    value: '610100'
-    availability: found
-    search_sources: []
-    source: https://www.cap.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:成都市龙泉驿区车城东七路699号(龙泉驿校区)、成都市新都区顺飞路899号(新都校区)邮编:610100(龙泉驿校区)、610506(新都校区)邮箱:bgs@cap.edu.cn电话:028-88459369(党政办)
-      88459388(招生办) 88459389(招生办) 88459017(就业办)
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses:
-  - name: 龙泉驿校区
-    address: null
-    coordinates: null
-    source: https://www.cap.edu.cn/xxgk1/xxjj1.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
-  - name: 新都校区
-    address: null
-    coordinates: null
-    source: https://www.cap.edu.cn/xxgk1/xxjj1.htm
-    basis: 官网简介明确列出的校区；地址/坐标未推断
-    verified: auto
-    checked_at: '2026-10-02'
+  community_resources: []
 overview:
   summary_zh:
-    value: 成都航空职业技术大学位于四川省成都市，主管部门为四川省。官网列示在校生12000余人（统计日期未注明）。官网列示专任教师近700人（统计日期未注明）。简介列出龙泉驿校区、新都校区。
+    value: 成都航空职业技术大学位于四川省成都市，教育部名单列为本科，主管部门为四川省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.cap.edu.cn/xxgk1/xxjj1.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 12000
-    availability: found
-    search_sources: []
-    source: https://www.cap.edu.cn/xxgk1/xxjj1.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；近似/下界数，保留原标注：在校生12000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校生12000余人
-  faculty_count:
-    value: 700
-    availability: found
-    search_sources: []
-    source: https://www.cap.edu.cn/xxgk1/xxjj1.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 专任教师；近似/下界数，保留原标注：专任教师近700人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 专任教师近700人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 028-88459369'
-    availability: found
-    search_sources: []
-    source: https://www.cap.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:成都市龙泉驿区车城东七路699号(龙泉驿校区)、成都市新都区顺飞路899号(新都校区)邮编:610100(龙泉驿校区)、610506(新都校区)邮箱:bgs@cap.edu.cn电话:028-88459369(党政办)
-      88459388(招生办) 88459389(招生办) 88459017(就业办)
-  email:
-    value: bgs@cap.edu.cn
-    availability: found
-    search_sources: []
-    source: https://www.cap.edu.cn
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:成都市龙泉驿区车城东七路699号(龙泉驿校区)、成都市新都区顺飞路899号(新都校区)邮编:610100(龙泉驿校区)、610506(新都校区)邮箱:bgs@cap.edu.cn电话:028-88459369(党政办)
-      88459388(招生办) 88459389(招生办) 88459017(就业办)
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

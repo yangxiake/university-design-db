@@ -33,11 +33,19 @@
 |  | `#0060A0` | 0,96,160 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0068A0` | 0,104,160 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0860A0` | 8,96,160 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 中南大学标准蓝 | `#165C91` | 22,92,145 | primary | [90, 50, 10, 0] |  | 官方VI标准值 | [依据](https://www.csu.edu.cn/__local/6/D7/27/7BC1337365A0206E70BCC8D7A1E_41227B61_B1431.png) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.csu.edu.cn/zjzn/xxbs/xh.htm](https://www.csu.edu.cn/zjzn/xxbs/xh.htm)
+- [中南大学标准色](https://www.csu.edu.cn/zjzn/xxbs/bzs.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.csu.edu.cn/__local/6/D7/27/7BC1337365A0206E70BCC8D7A1E_41227B61_B1431.png)。
+- [学校标识](https://www.csu.edu.cn/zjzn/xxbs/bzs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.csu.edu.cn/zjzn/xxbs/bzs.htm)。
+- [学校标识](https://www.csu.edu.cn/zjzn/xxbs/vis.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.csu.edu.cn/zjzn/xxbs/vis.htm)。
+- [中南大学校徽校训校风标准制图.rar](https://www.csu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1681206034&wbfileid=4679227)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.csu.edu.cn/zjzn/xxbs/vis.htm)。
+- [中南大学VIS视觉识别系统（2016版）.rar](https://www.csu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1681206034&wbfileid=4679223)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.csu.edu.cn/zjzn/xxbs/vis.htm)。
+- [学校标识](https://www.csu.edu.cn/zjzn/xxbs/xh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.csu.edu.cn/zjzn/xxbs/xh.htm)。
+- [学校标识](https://www.csu.edu.cn/zjzn/xxbs/xm.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.csu.edu.cn/zjzn/xxbs/xm.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

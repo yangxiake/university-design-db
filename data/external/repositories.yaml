@@ -7,7 +7,7 @@ supplemental_repositories:
   data_as_of: '2026-06-09'
   dataset: data/universities.json
   aliases: skills/高校信息检索/references/aliases.json
-  notes: 完整匹配子集保留科研/生源/师资/就业原字段及年份与估算说明；社区检索别名可用于检索。未将笼统就业率、估算院士人数写入官方统计。
+  notes: 精确校名匹配后只保留官网及检索别名；科研、生源、师资和就业等动态字段已剔除。
 - repository: Hipo/university-domains-list
   commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
   license: MIT
@@ -28,7 +28,7 @@ repositories:
   english_key: name_eng
   website_key: link
   data_as_of: '2021'
-  notes: 基础导入补英文名/网站候选；字段扩展导入类型、2021排名及逐文件校徽链接，保留历史社区口径。
+  notes: 补英文名、网站候选及逐文件校徽链接；保留社区来源与版本，排名等动态字段已剔除。
 - repository: damitheswitch/china-universities-dataset
   field_mode: basic_2026
   commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
@@ -38,7 +38,7 @@ repositories:
   english_key: name
   website_key: website
   data_as_of: '2026'
-  notes: 补英文名/网站候选，并导入类型、性质、授课语言、检索标识及2026排名社区记录；Pexels照片不当作校徽。
+  notes: 补英文名与网站候选；排名、授课语言等非PPT主字段已剔除，Pexels照片不当作校徽。
 - repository: Magicdover/China-Universities-2026
   commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
   license: MIT
@@ -51,7 +51,7 @@ repositories:
   - data/uni-special.js
   - data/uni-extra.js
   - data/uni-extra2.js
-  notes: 静态数据字面量解析，不执行上游JS。校徽仅逐文件链接；学科及招生数值保留社区、年份与参考口径。
+  notes: 静态数据字面量解析，不执行上游JS；仅保留英文名、简称、建校年及教育部身份对应项。校徽只存文件链接；学科及招生数值已剔除。
 - repository: HeyHuazi/SVGLOGO
   commit: 142498f527ac2dd3116cc1feccb9670879839f74
   license: MIT
@@ -234,11 +234,6 @@ repositories:
   license: null
   website_leads: 全国高校信息(json数据格式).json
   notes: 仅链接线索，未镜像无许可数据文件；历史校名不做模糊映射。
-- repository: PotoYang/UniversityCareerWebPage
-  commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-  license: MIT
-  career_directory: README.md
-  data_as_of: '2019-10-21'
 - repository: lovefc/china_school_badge
   commit: 04f59e07f4b809acc60493324af5ca4aa610153d
   license: Apache-2.0
@@ -728,6 +723,14 @@ visual_metadata_repositories:
   kind: tikz_logo_source
   mode: metadata_only
   receipts: data/review/cnlogo-metadata-2026.json
+- repository: wanzhenchn/Visual_Identity_System_Chinese_University
+  commit: a1c76a6061941ff2c37287a7b9021508afba0e4b
+  license: null
+  field_mode: official_vi_discovery_links
+  data_as_of: '2026-10-02'
+  readme: README.md
+  readme_sha256: 4ae30714b0bed0cbe8ef1445c7c6f3dabc2433b9f38a638e91d40ddc0579570c
+  notes: 未声明许可，仅提取完整校名和学校官方资源候选网址；97所匹配，89个选定官网入口。使用学校原页面和文件实际读取的证据入档，不镜像README或图形，不以目录证明校方标准色或授权。
 community_visual_websites:
 - publisher: urongda 校徽大全
   url: https://www.urongda.com
@@ -735,3 +738,5 @@ community_visual_websites:
   mode: metadata_only
   identity_rule: exact MOE code route and full current name; suspended/renamed previews excluded
   license: No independent logo redistribution license adopted
+field_policy: Only PPT core identity, founding year, motto, logos, colors and presentation resources;
+  no dynamic extension datasets.

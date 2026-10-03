@@ -22,5 +22,6 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.gzyszxy.cn/archives/2181](https://www.gzyszxy.cn/archives/2181)
+- [校徽校训](https://www.gzyszxy.cn/archives/2181)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.gzyszxy.cn/archives/2181)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

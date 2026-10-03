@@ -23,5 +23,7 @@
 
 - 现有VI入口：[https://www.zjtu.edu.cn/list/xhxx/](https://www.zjtu.edu.cn/list/xhxx/)
 - [关于启用黄河交通学院新校徽和新校名等标识的通知](https://news.zjtu.edu.cn/content/ggtz/201405/1160.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://news.zjtu.edu.cn/content/ggtz/201405/1160.html)。
+- [校徽校训 - 黄河交通学院](https://www.zjtu.edu.cn/list/xhxx/)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjtu.edu.cn/list/xhxx/)。
+- [校徽校训 - 黄河交通学院](https://www.zjtu.edu.cn/list/xhxx/index.html)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zjtu.edu.cn/list/xhxx/index.html)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

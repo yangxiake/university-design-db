@@ -36,8 +36,8 @@ review_policy:
   unknowns_and_conflicts_retained: true
 selection_inputs_role: historical_only_not_a_current_filter
 external_repository_manifest: data/external/repositories.yaml
-profile_schema: data/profile-schema-v3.yaml
-profile_schema_version: 3
+profile_schema: data/profile-schema-v4.yaml
+profile_schema_version: 4
 field_union_report: docs/github-field-union-2026.md
 visual_guide_research:
   decisions: data/review/visual-guides-decisions-2026.yaml
@@ -72,8 +72,7 @@ visual_gap_research:
   layout_sources: data/review/logo-layout-sources-2026.yaml
   layout_receipts: data/review/logo-layout-metadata-2026.json
   color_decisions: data/review/visual-gap-color-decisions-2026.yaml
-
-executable_profile_schema: data/profile-schema-v3.json
+executable_profile_schema: data/profile-schema-v4.json
 ppt_export:
   version: 1
   schema: data/ppt-export-schema-v1.json
@@ -88,7 +87,8 @@ viewer:
   catalog: viewer/data/catalog.json
   regional_bundles: viewer/data/provinces
   source: indexes/ppt-profiles.jsonl
-  policy: Derived metadata only; original-source image URLs; browser preview status does not rewrite historical inspection facts.
+  policy: Derived metadata only; original-source image URLs; browser preview status does not rewrite historical
+    inspection facts.
 targeted_collection_batches:
   m4_01:
     baseline: data/review/m4-batch01-baseline-2026.json
@@ -99,4 +99,38 @@ targeted_collection_batches:
     color_decisions: data/review/m4-batch01-color-decisions-2026.yaml
     resource_decisions: data/review/m4-batch01-resource-decisions-2026.yaml
     report: docs/m4-batch01-progress-2026.md
-    policy: Official source links and metadata only; login pages are access gaps; PDF/image school identity and color roles require documented AI review before fact imports; CMYK-only colors retain null screen values.
+    policy: Official source links and metadata only; login pages are access gaps; PDF/image school identity
+      and color roles require documented AI review before fact imports; CMYK-only colors retain null screen
+      values.
+  m4_02:
+    baseline: data/review/m4-batch02-baseline-2026.json
+    report: docs/m4-batch02-progress-2026.md
+    coverage: data/review/m4-batch02-coverage-2026.json
+    remaining_fields: data/review/remaining-field-gaps-2026.csv
+    official_vi_receipts:
+    - data/review/m4-batch02-sources-2026.jsonl
+    - data/review/m4-batch02-current-vi-sources-2026.jsonl
+    - data/review/m4-batch02-related-vi-sources-2026.jsonl
+    - data/review/m4-batch02-extra-vi-sources-2026.jsonl
+    - data/review/m4-batch02-final-vi-sources-2026.jsonl
+    color_decisions: data/review/m4-batch02-color-decisions-2026.yaml
+    graphic_decisions:
+    - data/review/m4-batch02-logo-reviews-2026.jsonl
+    - data/review/m4-batch02-archive-logo-decisions-2026.jsonl
+    - data/review/m4-batch02-late-archive-logo-decisions-2026.jsonl
+    homepage_reviewed_proofs: data/review/m4-batch02-reviewed-homepage-proofs-2026.jsonl
+    policy: Actual official sources and reviewed graph/color identities; source/ZIP member hashes distinct;
+      partial CMYK notation preserved; negative search states can be resolved by positive evidence; report
+      URLs do not imply employment outcomes; contact-purpose corrections retain prior evidence.
+collection_scope: data/ppt-core-fields.yaml
+removed_dynamic_data_groups:
+- institution
+- location
+- statistics
+- academics
+- employment
+- contacts
+- rankings
+- admissions
+- community
+core_coverage_report: data/review/ppt-core-coverage-2026.json

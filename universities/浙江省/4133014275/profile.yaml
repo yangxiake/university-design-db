@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4133014275'
   name_zh: 浙江外国语学院
@@ -43,14 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 其他本科
   scope_tags:
@@ -101,7 +93,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 72b271bce51e2fa78f10956e
     kind: site_identity
@@ -277,13 +268,13 @@ visual:
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: 91ea8b660a846e3c
   vi_resources:
-  - title: 浙江外国语学院官网视觉资源页 PPT模板发布/下载页
+  - title: 形象识别系统
     url: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
     kinds:
-    - PPT模板
+    - 视觉识别规范/资源
     formats:
     - HTML
-    access_requirement: 校方公开HTML页已读取；页面内附件或外部下载目标另行索引
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
     source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
     repository: null
     commit: null
@@ -292,9 +283,7 @@ visual:
     checked_at: '2026-10-02'
     availability: found
     source_sha256: b34bff01eb046630811b512518605056ace0785cd046e8094919fc52e5a9042f
-    note: 发布范围：学校通用；按发布页说明使用。
-    publisher: 浙江外国语学院官网视觉资源页
-    use_scope: school
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
     content_read: true
     download_status: page_read
   - title: 浙江外国语学院PPT模板（蓝色16：9）.pptx
@@ -303,7 +292,7 @@ visual:
     - PPT模板
     formats:
     - PPTX
-    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
     source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
     repository: null
     commit: null
@@ -312,26 +301,16 @@ visual:
     checked_at: '2026-10-02'
     availability: found
     source_sha256: b34bff01eb046630811b512518605056ace0785cd046e8094919fc52e5a9042f
-    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
-    publisher: 浙江外国语学院官网视觉资源页
-    use_scope: school
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
     content_read: false
     download_status: indexed_not_fetched
-    file_inspection:
-      status: inspection_failed
-      checked_at: '2026-10-02'
-      attempts:
-      - url: https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150817
-        status: access_or_parse_gap
-        error_type: ValueError
-        detail: download_returned_html_or_verification_page
   - title: 浙江外国语学院PPT模板（紫色16：9）.pptx
     url: https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150818
     kinds:
     - PPT模板
     formats:
     - PPTX
-    access_requirement: 已读取校方发布页；附件目标尚未读取，格式按原链接文件名，动态端点或网盘可能需要登录/提取码
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
     source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
     repository: null
     commit: null
@@ -340,20 +319,10 @@ visual:
     checked_at: '2026-10-02'
     availability: found
     source_sha256: b34bff01eb046630811b512518605056ace0785cd046e8094919fc52e5a9042f
-    note: 发布范围：学校通用。仅索引入口；未编译、未打开模板，不保证当前可下载或模板中字体与图形的独立授权。
-    publisher: 浙江外国语学院官网视觉资源页
-    use_scope: school
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
     content_read: false
     download_status: indexed_not_fetched
-    file_inspection:
-      status: inspection_failed
-      checked_at: '2026-10-02'
-      attempts:
-      - url: https://www.zisu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1687734104&wbfileid=13150818
-        status: access_or_parse_gap
-        error_type: ValueError
-        detail: download_returned_html_or_verification_page
-  - title: 学校标识
+  - title: 校标
     url: https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm
     kinds:
     - 校徽/校名介绍及资源
@@ -369,7 +338,9 @@ visual:
     availability: found
     source_sha256: be2a8a086c625b59574d39eb25c6b870f3195f979b347b762e5917aa6e556d25
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
-  - title: 学校标识
+    content_read: true
+    download_status: page_read
+  - title: 校名
     url: https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm
     kinds:
     - 校徽/校名介绍及资源
@@ -385,6 +356,99 @@ visual:
     availability: found
     source_sha256: 14d0aadb9bfacbcadbb4c50de9ad1fda61526fd11e657401c4348c63bc110641
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
+  - title: 下载PSD图像文件
+    url: https://www.zisu.edu.cn/xiaobiaopdf.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: be2a8a086c625b59574d39eb25c6b870f3195f979b347b762e5917aa6e556d25
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 下载CDR图形文件
+    url: https://www.zisu.edu.cn/xiaobiao.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xb.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: be2a8a086c625b59574d39eb25c6b870f3195f979b347b762e5917aa6e556d25
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 下载PDF图像文件
+    url: https://www.zisu.edu.cn/xiaomingpdf.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 14d0aadb9bfacbcadbb4c50de9ad1fda61526fd11e657401c4348c63bc110641
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 下载CDR图形文件
+    url: https://www.zisu.edu.cn/xiaomingcdr.zip
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - ZIP
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xm.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: 14d0aadb9bfacbcadbb4c50de9ad1fda61526fd11e657401c4348c63bc110641
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 一、基础部分.pdf
+    url: https://www.zisu.edu.cn/images/20140505_154215_998_286.pdf
+    kinds:
+    - 校徽/校名介绍及资源
+    formats:
+    - PDF
+    access_requirement: 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验
+    source: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_sha256: b34bff01eb046630811b512518605056ace0785cd046e8094919fc52e5a9042f
+    note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  landmarks: []
 culture:
   founded_year:
     value: 1955
@@ -401,7 +465,6 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -423,6 +486,7 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: https://www.zisu.edu.cn/xqzl1/xxbs/xxsbxt.htm
@@ -446,220 +510,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: http://zs.zisu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.zisu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://jy.zisu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.zisu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 就业网
-  english_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  information_disclosure_url:
-    value: http://ysxy.zisu.edu.cn/xxgk/
-    availability: found
-    search_sources: []
-    source: https://www.zisu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开网
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 浙江省杭州市西湖区留和路299号
-    availability: found
-    search_sources: []
-    source: https://www.zisu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:浙江省杭州市西湖区留和路299号
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 浙江外国语学院位于浙江省杭州市，主管部门为浙江省。官网列示全日制在校生规模10000余人（统计日期未注明）。官网列示教职工900余人（统计日期未注明）。
+    value: 浙江外国语学院位于浙江省杭州市，教育部名单列为本科，主管部门为浙江省。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.zisu.edu.cn/xqzl1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 10000
-    availability: found
-    search_sources: []
-    source: https://www.zisu.edu.cn/xqzl1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 全日制在校生；近似/下界数，保留原标注：全日制在校生规模10000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 全日制在校生规模10000余人
-  faculty_count:
-    value: 900
-    availability: found
-    search_sources: []
-    source: https://www.zisu.edu.cn/xqzl1/xxjj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工900余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工900余人
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: '电话: 0571-88213110'
-    availability: found
-    search_sources: []
-    source: https://www.zisu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 校园安全报警电话:0571-88213110
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

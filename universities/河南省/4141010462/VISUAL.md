@@ -28,5 +28,7 @@
 - 现有VI入口：[https://www.zzuli.edu.cn/161/list.htm](https://www.zzuli.edu.cn/161/list.htm)
 - [校徽校训](http://www.zzuli.edu.cn/161/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.zzuli.edu.cn/161/list.htm)。
 - [郑州轻工业大学logo（AI）.rar](http://www.zzuli.edu.cn/_upload/article/files/51/49/f14ace1f49f9bb57c9af38b75c27/5db45d82-e682-46e8-9c1e-6d4da1bd81e0.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.zzuli.edu.cn/161/list.htm)。
+- [校徽校训](https://www.zzuli.edu.cn/161/list.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zzuli.edu.cn/161/list.htm)。
+- [郑州轻工业大学logo（AI）.rar](https://www.zzuli.edu.cn/_upload/article/files/51/49/f14ace1f49f9bb57c9af38b75c27/5db45d82-e682-46e8-9c1e-6d4da1bd81e0.rar)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.zzuli.edu.cn/161/list.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

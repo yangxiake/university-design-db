@@ -14,10 +14,10 @@ from html.parser import HTMLParser
 
 import yaml
 from pypdf import PdfReader
-from PIL import Image
 from collect_official_extensions import decode, fetch
 from research_all_schools import Policy, same_school
 from inspect_template_files import collect as collect_template
+from expand_repository_fields import inspect_bytes
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 
@@ -73,7 +73,7 @@ def collect(target):
         attempt = dict(requested_url=url)
         result['attempts'].append(attempt)
         try:
-            final, body, charset, mime = fetch(url, target['home'], policy, 50_000_000)
+            final, body, charset, mime = fetch(url, target['home'], policy, 50_000_000, timeout=target.get('timeout', 10))
             sha = hashlib.sha256(body).hexdigest()
             metadata = dict(resolved_url=final, source_sha256=sha, byte_size=len(body), mime=mime)
             if body.startswith(b'%PDF-'):
@@ -101,10 +101,9 @@ def collect(target):
                 metadata.update(format='HTML', title=page.title.strip()[:180], identity_match=True,
                                 identity_review='text_matched', links=refs(page.links), images=refs(page.images))
             elif mime.startswith('image/'):
-                with Image.open(io.BytesIO(body)) as picture:
-                    picture.verify()
-                    metadata.update(format=picture.format, width=picture.width, height=picture.height,
-                                    identity_match=False, identity_review='requires_visual_review')
+                picture = inspect_bytes(body, final)
+                metadata.update(format=picture['format'].upper(), width=picture.get('width'), height=picture.get('height'),
+                                vector=picture.get('vector'), identity_match=False, identity_review='requires_visual_review')
             else:
                 raise ValueError('Expected an official HTML, PDF or image source')
             cache = ROOT / 'tmp/targeted-vi'
@@ -126,10 +125,13 @@ def main():
     parser.add_argument('--targets', required=True)
     parser.add_argument('--output', required=True)
     parser.add_argument('--workers', type=int, default=4)
+    parser.add_argument('--timeout', type=int, default=10, help='Bounded request/read timeout (1-60 seconds)')
     parser.add_argument('--retry-errors', action='store_true')
     parser.add_argument('--format', choices=['PPTX', 'ZIP'], help='Collect only selected file formats')
     parser.add_argument('--school-code', action='append', help='Read only selected schools')
     args = parser.parse_args()
+    if not 1 <= args.timeout <= 60:
+        parser.error('--timeout must be between 1 and 60 seconds')
     targets = yaml.safe_load((ROOT / args.targets).read_text())
     if args.format:
         targets = [t for t in targets if t.get('format') == args.format]
@@ -137,6 +139,7 @@ def main():
         targets = [t for t in targets if t['school_code'] in args.school_code]
     paths = {p.parent.name: p for p in (ROOT / 'universities').glob('*/*/profile.yaml')}
     for target in targets:
+        target['timeout'] = args.timeout
         p = yaml.load(paths[target['school_code']].read_text(), Loader=yaml.CSafeLoader)
         if p['identity']['name_zh'] != target['name_zh'] or not same_school(target['url'], target['home']):
             raise ValueError('School or source domain mismatch')

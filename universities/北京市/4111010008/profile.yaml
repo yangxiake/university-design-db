@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4111010008'
   name_zh: 北京科技大学
@@ -67,34 +67,6 @@ identity:
     source_as_of: '2026-06-09'
     note: 社区数据原值；没有认定为校方现行声明。
     basis: 社区检索别名；不是学校正式中文简称或全部历史校名
-  slug_aliases:
-    value:
-    - university-of-science-and-technology-beijing
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  external_identifiers:
-  - namespace: damitheswitch/china-universities-dataset
-    value: ustb
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
 classification:
   scope_category: 双一流建设高校
   scope_tags:
@@ -147,7 +119,6 @@ visual:
     availability: found
     search_sources: []
     note: 依据校级章程或标识释义作简短改写；仅概括所读图形特征，不代替完整VI手册。
-  landmarks: []
   logo_assets:
   - asset_id: 4c674d402b523ad7
     title: 北京科技大学校徽资源
@@ -735,6 +706,314 @@ visual:
     repository: xioajiumi/Chinese_Universities
     commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
     asset_id: a5aa9d00ad5386c3
+  - value: '#A31418'
+    rgb:
+    - 163
+    - 20
+    - 24
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 30
+    pantone: null
+    label: 钢铁红
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/20d35914ce9a4339986eb64d443f44cf.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: fd76d39eabe109dea5465c3d8b0459616c78dd2d18caae3a3a1ac0e3a40da65e
+  - value: '#BCBEC0'
+    rgb:
+    - 188
+    - 190
+    - 192
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 30
+    pantone: null
+    label: 金属灰
+    role: secondary
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/20d35914ce9a4339986eb64d443f44cf.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: fd76d39eabe109dea5465c3d8b0459616c78dd2d18caae3a3a1ac0e3a40da65e
+  - value: '#005B94'
+    rgb:
+    - 0
+    - 91
+    - 148
+    cmyk:
+    - 100
+    - 70
+    - 20
+    - 0
+    pantone: null
+    label: 渐变组合科技蓝
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#1766A9'
+    rgb:
+    - 23
+    - 102
+    - 169
+    cmyk:
+    - 87
+    - 60
+    - 14
+    - 0
+    pantone: null
+    label: 渐变蓝端点
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#2BA3C0'
+    rgb:
+    - 43
+    - 163
+    - 192
+    cmyk:
+    - 74
+    - 22
+    - 24
+    - 0
+    pantone: null
+    label: 渐变青端点
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#A31418'
+    rgb:
+    - 163
+    - 20
+    - 24
+    cmyk:
+    - 10
+    - 100
+    - 100
+    - 30
+    pantone: null
+    label: 渐变组合钢铁红
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#F18E1D'
+    rgb:
+    - 241
+    - 142
+    - 29
+    cmyk:
+    - 7
+    - 55
+    - 89
+    - 0
+    pantone: null
+    label: 渐变橙端点
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#295B95'
+    rgb:
+    - 41
+    - 91
+    - 149
+    cmyk:
+    - 87
+    - 67
+    - 23
+    - 0
+    pantone: null
+    label: 渐变蓝2端点
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#3563A3'
+    rgb:
+    - 53
+    - 99
+    - 163
+    cmyk:
+    - 84
+    - 62
+    - 16
+    - 0
+    pantone: null
+    label: 渐变蓝3端点
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#81277B'
+    rgb:
+    - 129
+    - 39
+    - 123
+    cmyk:
+    - 62
+    - 97
+    - 23
+    - 0
+    pantone: null
+    label: 渐变紫端点
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#CB1934'
+    rgb:
+    - 203
+    - 25
+    - 52
+    cmyk:
+    - 26
+    - 99
+    - 81
+    - 0
+    pantone: null
+    label: 渐变红端点
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+    source_sha256: b17b847a228ad963171702f05db89f43d2f26f690c13c0683fa8b361f90f87a7
+  - value: '#B59A4B'
+    rgb:
+    - 181
+    - 154
+    - 75
+    cmyk:
+    - 37
+    - 40
+    - 79
+    - 0
+    pantone: P12-13 C
+    label: 专金
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: eb4c4c04307383fb35420239a1381582fc4a987a373fc8b560251d7a1e86852d
+  - value: '#000000'
+    rgb:
+    - 0
+    - 0
+    - 0
+    cmyk:
+    - 100
+    - 100
+    - 100
+    - 100
+    pantone: Black C
+    label: 专色黑
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: eb4c4c04307383fb35420239a1381582fc4a987a373fc8b560251d7a1e86852d
+  - value: '#FFFFFF'
+    rgb:
+    - 255
+    - 255
+    - 255
+    cmyk:
+    - 0
+    - 0
+    - 0
+    - 0
+    pantone: White C
+    label: 专色白
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: eb4c4c04307383fb35420239a1381582fc4a987a373fc8b560251d7a1e86852d
+  - value: null
+    rgb: null
+    cmyk: null
+    pantone: 877C
+    label: 专银
+    role: reference
+    method: official_vi
+    official: true
+    source: https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+    source_sha256: eb4c4c04307383fb35420239a1381582fc4a987a373fc8b560251d7a1e86852d
   vi_resources:
   - title: 视觉形象识别系统
     url: https://vi.ustb.edu.cn/
@@ -834,6 +1113,8 @@ visual:
     availability: found
     source_sha256: f9e36668646e62fff3f775a3d129963c2964c868b53526a9e158f8f6300050f0
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 学校标志
     url: https://vi.ustb.edu.cn/jcxt/xxbz/index.htm
     kinds:
@@ -850,6 +1131,8 @@ visual:
     availability: found
     source_sha256: 5b0d9d62adb1f938e53107cac09442ca02e8647beaf8633bf3504c8815ce7f6c
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 基础形象系统-A1学校标识（LOGO）.ai
     url: https://vi.ustb.edu.cn/docs/2024-11/unpub_22cf0b5c4594402aba20e5d42c23ae6d.ai
     kinds:
@@ -866,6 +1149,8 @@ visual:
     availability: found
     source_sha256: 5b0d9d62adb1f938e53107cac09442ca02e8647beaf8633bf3504c8815ce7f6c
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 学校标准字体
     url: https://vi.ustb.edu.cn/jcxt/xxbzzt/index.htm
     kinds:
@@ -914,6 +1199,8 @@ visual:
     availability: found
     source_sha256: 0d7be9b09f338f2e24f747b8aa6eb8c53e1f1854090606199de2877cb140dd1e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 基础形象系统-A3学校标准色.ai
     url: https://vi.ustb.edu.cn/docs/2024-11/unpub_dde922b5adce4fd4bd87c6d62b17d2a8.ai
     kinds:
@@ -930,6 +1217,57 @@ visual:
     availability: found
     source_sha256: 0d7be9b09f338f2e24f747b8aa6eb8c53e1f1854090606199de2877cb140dd1e
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  - title: 北京科技大学官方视觉规范
+    url: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.ustb.edu.cn/images/2024-11/20d35914ce9a4339986eb64d443f44cf.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  - title: 北京科技大学官方视觉规范
+    url: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.ustb.edu.cn/images/2024-11/3628bc25307d484fb9bd2f6e504b5730.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。本图规定渐变组合，按特定应用参考保存。
+  - title: 北京科技大学官方视觉规范
+    url: https://vi.ustb.edu.cn/jcxt/xxbzs/index.htm
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://vi.ustb.edu.cn/images/2024-11/44d7370557e549ec86df25b5fcbe5468.jpg
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: AI逐项实读学校视觉规范页所引用的原始色卡图；数值按图中文字记录，RGB直接编码为HEX，不从CMYK、专色或色块像素推导。
+  landmarks: []
 culture:
   founded_year:
     value: 1952
@@ -947,22 +1285,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events:
-  - year: 1952
-    event: 多所高校相关系科合并成立北京钢铁工业学院
-    source: https://www.ustb.edu.cn/xxgk/dxzc/index.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 1960
-    event: 更名为北京钢铁学院
-    source: https://www.ustb.edu.cn/xxgk/dxzc/index.htm
-    verified: auto
-    checked_at: '2026-10-01'
-  - year: 1988
-    event: 更名为北京科技大学
-    source: https://www.ustb.edu.cn/xxgk/dxzc/index.htm
-    verified: auto
-    checked_at: '2026-10-01'
   flower:
     value: null
     source: null
@@ -984,6 +1306,22 @@ culture:
     checked_at: '2026-10-01'
     availability: found
     search_sources: []
+  history_events:
+  - year: 1952
+    event: 多所高校相关系科合并成立北京钢铁工业学院
+    source: https://www.ustb.edu.cn/xxgk/dxzc/index.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1960
+    event: 更名为北京钢铁学院
+    source: https://www.ustb.edu.cn/xxgk/dxzc/index.htm
+    verified: auto
+    checked_at: '2026-10-01'
+  - year: 1988
+    event: 更名为北京科技大学
+    source: https://www.ustb.edu.cn/xxgk/dxzc/index.htm
+    verified: auto
+    checked_at: '2026-10-01'
 resources:
   official_templates_url:
     value: https://info.ustb.edu.cn/xzzx/zysc/index.htm
@@ -1047,564 +1385,14 @@ resources:
     - TeX/TikZ
     content_read: true
     usage_note: README与文件首行中文学校名均精确匹配教育部名称。源码为社区转换，需用户自行使用LaTeX/TikZ导出后用于PPT；本库没有编译或保证图形现行版本。代码许可不等于校徽图形许可；只保存固定版本源码入口、格式和内容哈希，不再分发代码或校徽。
-  admissions_url:
-    value: https://www.ustb.edu.cn/zsjy/index.htm
-    availability: found
-    search_sources: []
-    source: https://www.ustb.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: http://job.ustb.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://github.com/PotoYang/UniversityCareerWebPage/blob/0fbc54deee6a4a3aec67ffd77e41bccec898804e/README.md
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: PotoYang/UniversityCareerWebPage
-    upstream_commit: 0fbc54deee6a4a3aec67ffd77e41bccec898804e
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2019-10-21'
-    note: 社区数据原值；没有认定为校方现行声明。
-  english_website:
-    value: http://en.ustb.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ustb.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: http://xxgk.ustb.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ustb.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: 理工
-    availability: found
-    search_sources: []
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  nature:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  country:
-    value: China
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value:
-    - 双一流
-    - '211'
-    availability: found
-    search_sources: []
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-location:
-  address:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value:
-      longitude: 116.359
-      latitude: 39.991
-      crs: unspecified
-      precision: approximate
-      location_kind: community_map_point
-    availability: found
-    search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    basis: 上游地图定位点；未声明WGS84/GCJ02，不能用于精密定位或推断完整校区位置。
-  campuses: []
 overview:
   summary_zh:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campus_area_hectares:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-academics:
-  double_first_class_disciplines:
-    value:
-    - 科学技术史
-    - 冶金工程
-    - 材料科学与工程
-    - 矿业工程
+    value: 北京科技大学位于北京市北京市，教育部名单列为本科，主管部门为教育部。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-    list_year: 2022
-    completeness: upstream_selection
-    basis: 社区整理双一流学科名单，可能节选；不是教育部原表替代品。
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments:
-  - subject: 科学技术史
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 冶金工程
-    grade: A+
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 材料科学与工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 矿业工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 安全科学与工程
-    grade: A
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 机械工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - subject: 控制科学与工程
-    grade: A-
-    round: 4
-    assessment_year: 2017
-    publisher: 教育部学位与研究生教育发展中心
-    completeness: upstream_selection
-    availability: found
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区数据原值；没有认定为校方现行声明。
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries:
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2021
-    scope: 中国大学主榜
-    rank: 33
-    score: 379.4
-    indicators:
-      school_level: 32.2
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: xioajiumi/Chinese_Universities
-    upstream_commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2021'
-    note: 社区数据原值；没有认定为校方现行声明。
-  - publisher: ShanghaiRanking
-    ranking_name: 软科中国大学排名
-    year: 2026
-    scope: 中国大学主榜
-    rank: 35
-    score: 429.3
-    indicators:
-      faculty: 48.2
-      research: 40
-      resources: 9
-      discipline: 25.5
-      top_talent: 28.9
-      school_level: 32.4
-      international: 19.5
-      major_projects: 17.2
-      social_service: 9
-      talent_training: 199.6
-    upstream_url: https://www.shanghairanking.cn/institution/university-of-science-and-technology-beijing
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: damitheswitch/china-universities-dataset
-    upstream_commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026'
-    note: 社区数据原值；没有认定为校方现行声明。
-admissions:
-  cutoffs:
-  - year: 2025
-    region: 重庆市
-    curriculum: 物理类
-    batch: 普通类本科批
-    enrollment_type: 上游参考整理
-    minimum_score: 600
-    minimum_rank: 17000
-    major_group: null
-    score_difference: null
-    enrolled_count: null
-    reference_only: true
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    verified: auto
-    checked_at: '2026-10-01'
-    source_type: community_dataset
-    upstream_repository: Magicdover/China-Universities-2026
-    upstream_commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    upstream_record_name: 北京科技大学
-    upstream_license: MIT
-    source_as_of: '2026-06-09'
-    note: 社区2025重庆录取参考值，未逐条提供招生官方证据；不作为实际志愿填报依据。
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots:
-  - repository: xioajiumi/Chinese_Universities
-    commit: e088fddc329a6f0148ca72fd3b4d0fe069f13e3a
-    data_path: data/external/xioajiumi__Chinese_Universities/matched-fields.jsonl
-    school_code: '4111010008'
-    upstream_record_name: 北京科技大学
-    upstream_fields:
-    - link
-    - location
-    - logo
-    - name
-    - name_eng
-    - note
-    - rank
-    - school_level
-    - total_score
-    - type
-    source: https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json
-    license: MIT
-    data_as_of: '2021'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: damitheswitch/china-universities-dataset
-    commit: 5eaa2a93f86ac322d53a36da9977d9a4c80f1f56
-    data_path: data/external/damitheswitch__china-universities-dataset/matched-fields.jsonl
-    school_code: '4111010008'
-    upstream_record_name: 北京科技大学
-    upstream_fields:
-    - category
-    - city
-    - country
-    - languages_of_instruction
-    - logo_url
-    - name
-    - name_zh
-    - province
-    - shanghairanking
-    - slug
-    - slug_aliases
-    - uni_type
-    - website
-    source: https://github.com/damitheswitch/china-universities-dataset/blob/5eaa2a93f86ac322d53a36da9977d9a4c80f1f56/data/universities.json
-    license: MIT
-    data_as_of: '2026'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Magicdover/China-Universities-2026
-    commit: 419bdc7ce6956fc88c2b70b3979f170b6666f111
-    data_path: data/external/Magicdover__China-Universities-2026/matched-fields.jsonl
-    school_code: '4111010008'
-    upstream_record_name: 北京科技大学
-    upstream_fields:
-    - a
-    - abbr
-    - admin
-    - aminus
-    - aplus
-    - city
-    - emp
-    - en
-    - enAbbr
-    - firstClass
-    - founded
-    - id
-    - intro
-    - lat
-    - lng
-    - name
-    - province
-    - score
-    - tags
-    - tier
-    - type
-    source: https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/data/uni-211.js
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: HeyHuazi/SVGLOGO
-    commit: 142498f527ac2dd3116cc1feccb9670879839f74
-    data_path: data/external/HeyHuazi__SVGLOGO/matched-fields.jsonl
-    school_code: '4111010008'
-    upstream_record_name: 北京科技大学
-    upstream_fields:
-    - file
-    - title
-    - url
-    - wordmark
-    source: https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/_meta.yaml
-    license: MIT
-    data_as_of: '2026-08-27'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: realJerryKing/university-insight
-    commit: ea2eb0a4a83deb83075675f6e319ed30685b33d5
-    data_path: data/external/realJerryKing__university-insight/matched-fields.jsonl
-    school_code: '4111010008'
-    upstream_record_name: 北京科技大学
-    upstream_fields:
-    - 一流学科
-    - 城市
-    - 层次
-    - 师资概况
-    - 生源概况
-    - 类型
-    - 网址
-    source: https://github.com/realJerryKing/university-insight/blob/ea2eb0a4a83deb83075675f6e319ed30685b33d5/data/universities.json
-    license: MIT
-    data_as_of: '2026-06-09'
-    verified: auto
-    checked_at: '2026-10-01'
-  - repository: Hipo/university-domains-list
-    commit: 603e10f51b67c6553b9bca9aecc0db4c2417ed10
-    data_path: data/external/Hipo__university-domains-list/matched-fields.jsonl
-    school_code: '4111010008'
-    upstream_record_name: University of Science and Technology Beijing
-    upstream_fields:
-    - alpha_two_code
-    - country
-    - domains
-    - name
-    - state-province
-    - web_pages
-    source: https://github.com/Hipo/university-domains-list/blob/603e10f51b67c6553b9bca9aecc0db4c2417ed10/world_universities_and_domains.json
-    license: MIT
-    data_as_of: '2026-09-26'
-    verified: auto
-    checked_at: '2026-10-01'
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

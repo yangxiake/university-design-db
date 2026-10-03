@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4145013524'
   name_zh: 北海艺术设计学院
@@ -9,12 +9,18 @@ identity:
   note: 民办
   registry_source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
   name_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: Beihai University of Art and Design
+    availability: found
     search_sources: []
+    source: https://sheffield.ac.uk/international/entry-requirements/china/ranking-list
+    source_type: community_website
+    verified: auto
+    checked_at: '2026-10-03'
+    evidence: Beihai University of Art and Design 北海艺术设计学院
+    collector: curated_ppt_core
+    retrieval: hash_matched_same_source
+    source_sha256: 2a1342b65fcc10bc7508748a2f5b9e8706e50b456598ced10c9ea31e6a862fc7
+    basis: 英国谢菲尔德大学当前中国院校目录逐行对照的英文称谓；完整中文校名精确匹配，第三方大学发布，非本校命名证明。
   official_website:
     value: https://www.sszss.com/?site_id=2
     source: https://www.sszss.com/?site_id=2
@@ -43,14 +49,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -66,12 +64,20 @@ research:
   audit_key: '4145013524'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#D82030'
+    availability: found
     search_sources: []
+    source: https://www.sszss.com/r/sszss/default/img/logo2019.png
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: manual_derived
+    asset_id: 4c168f71dadc3d7af6a4cbe0
+    source_sha256: 198ea8003e5ac64536fb2e602c4c3fbdaf148273621f963b982222cc99d36cf5
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；官网页眉标识文件的自动取色建议；官网标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；未认定为学校VI标准色。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -83,7 +89,7 @@ visual:
     value: https://www.sszss.com/xhxxxg.htm?site_id=2
     source: https://www.sszss.com/xhxxxg.htm?site_id=2
     verified: auto
-    checked_at: '2026-10-01'
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
   badge_description:
@@ -93,7 +99,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 4c168f71dadc3d7af6a4cbe0
     kind: site_identity
@@ -236,15 +241,56 @@ visual:
     verified: auto
     checked_at: '2026-10-01'
     availability: found
-  vi_resources: []
+  - value: null
+    rgb: null
+    cmyk:
+    - 0
+    - 100
+    - 100
+    - 10
+    pantone: null
+    label: 中国红
+    role: primary
+    method: official_vi
+    official: true
+    source: https://www.sszss.com/xhxxxg.htm?site_id=2
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 校徽说明明确校徽标准色中国红，CMYK C0/M100/Y100/K10；未给RGB。
+    source_sha256: 8c52b1f49f2e33cd9aeb6e4f619f20c1a71a3ace26ae890dd103df0745f6a4b7
+  vi_resources:
+  - title: 北海艺术设计学院官方视觉规范
+    url: https://www.sszss.com/xhxxxg.htm?site_id=2
+    kinds:
+    - 标识规范
+    - 标准色
+    formats:
+    - HTML
+    access_requirement: 公开网页/文件，无需登录；依来源规则使用
+    source: https://www.sszss.com/xhxxxg.htm?site_id=2
+    repository: null
+    commit: null
+    official: true
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    note: 校徽说明明确校徽标准色中国红，CMYK C0/M100/Y100/K10；未给RGB。
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2000
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E5%88%97%E8%A1%A8&oldid=83920978
+    source_sha256: a62817f211ec4c04209b50f25b8415b07a724538030d2513b5234673c9db1881
+    source_revision: 83920978
+    checked_at: '2026-10-02'
+    verified: auto
+    source_type: community_website
+    collector: wikipedia_labelled_year_column
+    basis: 中文维基百科省级高校列表的明确建校/创办时间栏，按完整现校名匹配；社区数据，未独立确认前身与现名设立口径。
+    evidence: 2000年
   motto:
     value: null
     source: null
@@ -252,7 +298,6 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -274,6 +319,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -296,230 +342,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://www.sszss.com/bkzs/index.htm?site_id=2
-    availability: found
-    search_sources: []
-    source: https://www.sszss.com/?site_id=2
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业处
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://www.sszss.com/english.htm?site_id=2
-    availability: found
-    search_sources: []
-    source: https://www.sszss.com/?site_id=2
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - English
-  information_disclosure_url:
-    value: https://www.sszss.com/xxgk/index.htm?site_id=2
-    availability: found
-    search_sources: []
-    source: https://www.sszss.com/?site_id=2
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 信息公开
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 广西壮族自治区北海市银海区新世纪大道1号
-    availability: found
-    search_sources: []
-    source: https://www.sszss.com/?site_id=2
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:广西壮族自治区北海市银海区新世纪大道1号 邮编:536000
-  postal_code:
-    value: '536000'
-    availability: found
-    search_sources: []
-    source: https://www.sszss.com/?site_id=2
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 地址:广西壮族自治区北海市银海区新世纪大道1号 邮编:536000
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 北海艺术设计学院位于广西壮族自治区北海市，主管部门为广西壮族自治区教育厅。官网列示在校生15,000多人（统计日期未注明）。官网列示教职工1800多人（统计日期未注明）。官网列示学校总占地面积1800多亩（统计日期未注明）。
+    value: 北海艺术设计学院位于广西壮族自治区北海市，教育部名单列为本科，主管部门为广西壮族自治区教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.sszss.com/xygkerj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: 15000
-    availability: found
-    search_sources: []
-    source: https://www.sszss.com/xygkerj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 在校生；近似/下界数，保留原标注：在校生15,000多人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 在校生15,000多人
-  faculty_count:
-    value: 1800
-    availability: found
-    search_sources: []
-    source: https://www.sszss.com/xygkerj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工1800多人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工1800多人
-  campus_area_hectares:
-    value: 120.0
-    availability: found
-    search_sources: []
-    source: https://www.sszss.com/xygkerj.htm
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 学校总占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：学校总占地面积1800多亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 学校总占地面积1800多亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

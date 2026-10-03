@@ -9,6 +9,19 @@
 | 校徽 | 36456722.png | [文件](https://www.shanghairanking.cn/_uni/logo/36456722.png) · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/Chinese_Universities.json) | 社区 | png | 未声明 | indexed_not_fetched | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://www.sdut.edu.cn/images/logo.png) · [来源](https://www.sdut.edu.cn/) | 官网 | png | 308 × 70 | content_inspected | 未独立声明 |
 | 校徽 | 山东理工大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/山东理工大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 230 × 229 | content_inspected | 未独立声明 |
+| 校名文字 | 中文标准字（蓝、白）.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/中文标准字（蓝、白）.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 4961 × 3508 | content_inspected | 未独立声明 |
+| 组合标识 | 山理工校标与中英文标准字组合（竖排）.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/山理工校标与中英文标准字组合（竖排）.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 3508 × 4961 | content_inspected | 未独立声明 |
+| 组合标识 | 校标与中文标准字组合（居中）.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/校标与中文标准字组合（居中）.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 4961 × 3508 | content_inspected | 未独立声明 |
+| 组合标识 | 校标与中文标准字组合（竖排）.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/校标与中文标准字组合（竖排）.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 3508 × 4961 | content_inspected | 未独立声明 |
+| 组合标识 | 校标与中文标准字组合（蓝、白）.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/校标与中文标准字组合（蓝、白）.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 4961 × 3508 | content_inspected | 未独立声明 |
+| 组合标识 | 校标与中英文标准字组合（居中）.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/校标与中英文标准字组合（居中）.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 3508 × 4961 | content_inspected | 未独立声明 |
+| 组合标识 | 校标与中英文标准字组合（蓝、白）.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/校标与中英文标准字组合（蓝、白）.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 4961 × 3508 | content_inspected | 未独立声明 |
+| 组合标识 | 校标与英文组合.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/校标与英文组合.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 4961 × 3508 | content_inspected | 未独立声明 |
+| 校徽 | 白色校标.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/白色校标.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 3367 × 3367 | content_inspected | 未独立声明 |
+| 校徽 | 红色校标.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/红色校标.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 3367 × 3367 | content_inspected | 未独立声明 |
+| 校名文字 | 英文标准字.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/英文标准字.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 4961 × 3508 | content_inspected | 未独立声明 |
+| 校徽 | 蓝色校标.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/蓝色校标.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 3367 × 3367 | content_inspected | 未独立声明 |
+| 组合标识 | 辅助色及主色辅助色组合.png | [压缩包](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) 内 `常用标识下载/辅助色及主色辅助色组合.png` · [来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) | 官网 | png | 3508 × 4961 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -19,6 +32,12 @@
 |  | `#0080C0` | 0,128,192 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0078C0` | 0,120,192 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#0080C8` | 0,128,200 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 辅助紫 | 未公布 | 未公布 | reference | [55, 75, 0, 0] |  | 官方VI标准值 | [依据](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) |
+| 辅助红 | 未公布 | 未公布 | reference | [20, 100, 100, 0] |  | 官方VI标准值 | [依据](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) |
+| 辅助黄 | 未公布 | 未公布 | reference | [0, 35, 100, 0] |  | 官方VI标准值 | [依据](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) |
+| 辅助蓝 | 未公布 | 未公布 | reference | [100, 75, 0, 0] |  | 官方VI标准值 | [依据](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) |
+| 辅助天蓝 | 未公布 | 未公布 | reference | [80, 10, 0, 0] |  | 官方VI标准值 | [依据](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) |
+| 辅助绿 | 未公布 | 未公布 | reference | [75, 0, 100, 0] |  | 官方VI标准值 | [依据](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -28,5 +47,6 @@
 - [校名校标](https://www.sdut.edu.cn/xxgk/dxwh/xxbss/xmxb.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.sdut.edu.cn/xxgk/dxwh/xxbss/xmxb.htm)。
 - [VI系统](https://www.sdut.edu.cn/xxgk/dxwh/xxbss/VIxt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.sdut.edu.cn/xxgk/dxwh/xxbss/VIxt.htm)。
 - [常用标识下载](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.sdut.edu.cn/xxgk/dxwh/xxbss/VIxt.htm)。
+- [山东理工大学官方视觉规范](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip)：["标识规范", "标准色"]；格式 ZIP；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.sdut.edu.cn/wj/changyongbiaoshixiazai.zip)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

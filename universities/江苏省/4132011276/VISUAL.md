@@ -25,5 +25,10 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.njit.edu.cn/xywh/sjxxsbxt.htm](https://www.njit.edu.cn/xywh/sjxxsbxt.htm)
+- [视觉形象识别系统-南京工程学院](https://www.njit.edu.cn/xywh/sjxxsbxt.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.njit.edu.cn/xywh/sjxxsbxt.htm)。
+- [南工程VIS基础系统.pdf](https://www.njit.edu.cn/__local/4/A5/21/2973BAD47B974EB0090AC568EC9_20731215_DD2AE0.pdf)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.njit.edu.cn/xywh/sjxxsbxt.htm)。
+- [南工程VIS基础系统.zip](https://www.njit.edu.cn/__local/1/FB/89/704093AA36E5FEF7882B793C331_2D072520_257678E.zip)：["视觉识别规范/资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.njit.edu.cn/xywh/sjxxsbxt.htm)。
+- [南京工程学院办学110周年暨合并组建25周年视觉形象识别手册.pdf](https://www.njit.edu.cn/__local/A/37/D2/65D2CE890F6CBB42440CE4566F0_EAC636C7_7A3D92.pdf)：["视觉识别规范/资源", "校庆专用"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.njit.edu.cn/xywh/sjxxsbxt.htm)。
+- [南京工程学院办学110周年暨合并组建25周年视觉形象识别手册.zip](https://www.njit.edu.cn/__local/6/20/1B/A92F10627AE2C66051F172715FB_5346EFDD_C4330DB.zip)：["视觉识别规范/资源", "校庆专用"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.njit.edu.cn/xywh/sjxxsbxt.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

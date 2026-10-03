@@ -5,7 +5,7 @@
 - 范围学校：1412
 - 已建单校档案：1412
 - 尚未建档：0
-- 已有附来源主色与建校年的档案：244（含自动采集与建议色，不表示所有字段完备）
+- 已有附来源主色与建校年的档案：1364（含自动采集与建议色，不表示所有字段完备）
 - 已人工签核档案：0
 - 主色和建校年均已人工确认的档案：0
 
@@ -23,17 +23,17 @@
 
 | 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| identity.name_en | 691 | 717 | 0 | 0 | 4 |
-| identity.official_website | 241 | 1171 | 0 | 0 | 0 |
-| visual.color_primary | 1015 | 386 | 0 | 6 | 5 |
-| visual.color_secondary | 1390 | 21 | 0 | 0 | 1 |
-| visual.vi_url | 790 | 622 | 0 | 0 | 0 |
+| identity.name_en | 2 | 1410 | 0 | 0 | 0 |
+| identity.official_website | 206 | 1206 | 0 | 0 | 0 |
+| visual.color_primary | 48 | 1364 | 0 | 0 | 0 |
+| visual.color_secondary | 1379 | 32 | 0 | 0 | 1 |
+| visual.vi_url | 781 | 631 | 0 | 0 | 0 |
 | visual.badge_description | 1110 | 302 | 0 | 0 | 0 |
-| culture.founded_year | 683 | 717 | 0 | 0 | 12 |
-| culture.motto | 551 | 838 | 0 | 0 | 23 |
+| culture.founded_year | 0 | 1412 | 0 | 0 | 0 |
+| culture.motto | 524 | 878 | 0 | 0 | 10 |
 | culture.flower | 1407 | 5 | 0 | 0 | 0 |
 | culture.mascot | 1407 | 5 | 0 | 0 | 0 |
-| culture.anthem | 1262 | 150 | 0 | 0 | 0 |
+| culture.anthem | 1261 | 151 | 0 | 0 | 0 |
 | resources.official_templates_url | 1388 | 24 | 0 | 0 | 0 |
 | resources.official_template_publisher | 1388 | 24 | 0 | 0 | 0 |
 | resources.official_template_terms | 1405 | 5 | 0 | 2 | 0 |
@@ -44,17 +44,17 @@
 
 | 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| identity.name_en | 0 | 143 | 0 | 0 | 1 |
+| identity.name_en | 0 | 144 | 0 | 0 | 0 |
 | identity.official_website | 0 | 144 | 0 | 0 | 0 |
-| visual.color_primary | 71 | 68 | 0 | 3 | 2 |
-| visual.color_secondary | 131 | 12 | 0 | 0 | 1 |
-| visual.vi_url | 48 | 96 | 0 | 0 | 0 |
+| visual.color_primary | 0 | 144 | 0 | 0 | 0 |
+| visual.color_secondary | 127 | 16 | 0 | 0 | 1 |
+| visual.vi_url | 41 | 103 | 0 | 0 | 0 |
 | visual.badge_description | 79 | 65 | 0 | 0 | 0 |
-| culture.founded_year | 2 | 140 | 0 | 0 | 2 |
-| culture.motto | 10 | 127 | 0 | 0 | 7 |
+| culture.founded_year | 0 | 144 | 0 | 0 | 0 |
+| culture.motto | 9 | 134 | 0 | 0 | 1 |
 | culture.flower | 142 | 2 | 0 | 0 | 0 |
 | culture.mascot | 142 | 2 | 0 | 0 | 0 |
-| culture.anthem | 113 | 31 | 0 | 0 | 0 |
+| culture.anthem | 112 | 32 | 0 | 0 | 0 |
 | resources.official_templates_url | 135 | 9 | 0 | 0 | 0 |
 | resources.official_template_publisher | 135 | 9 | 0 | 0 | 0 |
 | resources.official_template_terms | 139 | 3 | 0 | 2 | 0 |
@@ -74,9 +74,9 @@
 
 | 方法 | 学校数 | 含义 |
 | --- | ---: | --- |
-| official_vi | 43 | 学校发布的RGB/HEX标准值 |
-| badge_sample | 1 | 校徽像素取样，PPT建议色 |
-| manual_derived | 342 | 官网标识取色或人工推导，PPT建议色 |
+| official_vi | 73 | 学校发布的RGB/HEX标准值 |
+| badge_sample | 720 | 校徽像素取样，PPT建议色 |
+| manual_derived | 571 | 官网标识取色或人工推导，PPT建议色 |
 
 ## 社区资料
 
@@ -87,30 +87,11 @@
 
 资源索引见indexes/community-resources.csv。社区配色不计入学校主题色统计。
 
-## v3字段并集与视觉文件
+## PPT主字段验收
 
-- 逐文件校徽/校名资源：1170所、3227条
-- 结构化配色：1018所、4769条（包含建议色，不等于官方标准覆盖）
-- 历史排名：569所、1117条
-- 学科评估节选：136所、764条
-- 重庆2025社区录取参考：166所、277条
-
-新增27个事实字段和12个集合的逐项填充及上游字段落点见[字段并集报告](github-field-union-2026.md)。
-
-## 官网联系与门户补采
-
-| 字段 | 有来源学校数 |
-| --- | ---: |
-| institution.nature | 435 |
-| location.address | 709 |
-| location.postal_code | 523 |
-| contacts.phone | 386 |
-| contacts.email | 241 |
-| resources.admissions_url | 829 |
-| resources.information_disclosure_url | 817 |
-| resources.english_website | 451 |
-
-字段保存原标签、短证据与口径；门户是官网导航链接。实际访问状态、官网标识文件与取色覆盖见[官网扩展报告](official-extension-progress-2026.md)。
+当前为v4主字段结构；招生、就业、排名、人数、面积和联系方式等扩展数据已剔除。
+全校必备完成状态以[主字段覆盖](ppt-core-coverage-2026.md)和[data/review/ppt-core-coverage-2026.json](../data/review/ppt-core-coverage-2026.json)为准。
+模板、VI、辅色与其他文化素材为可选材料，不以每校存在为前提。
 
 ## 附来源网址候选
 

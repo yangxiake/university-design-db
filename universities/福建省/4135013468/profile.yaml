@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 identity:
   school_code: '4135013468'
   name_zh: 阳光学院
@@ -43,14 +43,6 @@ identity:
     checked_at: null
     availability: unresearched
     search_sources: []
-  slug_aliases:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  external_identifiers: []
 classification:
   scope_category: 民办本科
   scope_tags:
@@ -67,12 +59,21 @@ research:
   audit_key: '4135013468'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#ED5713'
+    availability: found
     search_sources: []
+    source: https://www.ygu.edu.cn/style/public.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 91d28a195472cc30c69155b4a8e75cce76bab74bc507a4722da9d345666a1418
+    homepage_source: https://www.ygu.edu.cn/
+    homepage_sha256: 171e8a15cfb6602718496c25d973c9afe7d6e9f9ca2a1eb5e41c4a4a0f81d2e7
+    css_selector: .head2
+    css_declaration: '#ED5713'
+    collector: ppt_site_reference
+    basis: 主页实际存在的页眉/主导航元素及已读取静态CSS明确背景色；仅作PPT建议，非官方VI。按原抓取摘要复查解码文本，不认定解码文本哈希等同原始CSS文件。
   color_secondary:
     value: null
     source: null
@@ -95,7 +96,6 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  landmarks: []
   logo_assets:
   - asset_id: 2291b690319b5aefc094bee4
     kind: site_identity
@@ -132,7 +132,30 @@ visual:
     byte_size: 8288
     representation: raster
     resolved_url: https://www.ygu.edu.cn/images/logo0418.png
-  color_palette: []
+  color_palette:
+  - value: '#ED5713'
+    rgb:
+    - 237
+    - 87
+    - 19
+    cmyk: null
+    pantone: null
+    label: 官网页眉/导航PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 主页实际存在的页眉/主导航元素及已读取静态CSS明确背景色；仅作PPT建议，非官方VI。按原抓取摘要复查解码文本，不认定解码文本哈希等同原始CSS文件。
+    source: https://www.ygu.edu.cn/style/public.css
+    source_type: official_website
+    checked_at: '2026-10-02'
+    verified: auto
+    method: manual_derived
+    source_sha256: 91d28a195472cc30c69155b4a8e75cce76bab74bc507a4722da9d345666a1418
+    homepage_source: https://www.ygu.edu.cn/
+    homepage_sha256: 171e8a15cfb6602718496c25d973c9afe7d6e9f9ca2a1eb5e41c4a4a0f81d2e7
+    css_selector: .head2
+    css_declaration: '#ED5713'
+    collector: ppt_site_reference
   vi_resources:
   - title: 学校校徽与反白稿
     url: https://www.ygu.edu.cn/xxgk/xxlnybs.htm
@@ -150,6 +173,8 @@ visual:
     availability: found
     source_sha256: 0496eafe271229d0e4539dd9f275f14dcd6dc9bfeed75e94034c82d6a6f7056d
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 学校校徽与反白稿
     url: https://www.ygu.edu.cn/info/1026/3397.htm
     kinds:
@@ -166,6 +191,8 @@ visual:
     availability: found
     source_sha256: 66f9d57b4b0628aa79d68264d10cad1d4fe110f8741dc728fbb9bebf6721f97a
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 阳光学院校徽及中英文校名组合规范-彩色稿_01_副本.jpg
     url: https://www.ygu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2110836161&wbfileid=17547024
     kinds:
@@ -182,6 +209,8 @@ visual:
     availability: found
     source_sha256: 66f9d57b4b0628aa79d68264d10cad1d4fe110f8741dc728fbb9bebf6721f97a
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 阳光学院校徽及中英文校名组合规范-彩色稿_副本.png
     url: https://www.ygu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2110836161&wbfileid=17547023
     kinds:
@@ -198,6 +227,8 @@ visual:
     availability: found
     source_sha256: 66f9d57b4b0628aa79d68264d10cad1d4fe110f8741dc728fbb9bebf6721f97a
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 中英文校名全称横式
     url: https://www.ygu.edu.cn/info/1026/3396.htm
     kinds:
@@ -214,6 +245,8 @@ visual:
     availability: found
     source_sha256: 5ba2b913c604c3cf8bcf13c4fd419ee26c34c409db4ea2a5ae5540ee3777af77
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: true
+    download_status: page_read
   - title: 阳光学院校徽及中英文校名组合规范-彩色稿_02_副本.jpg
     url: https://www.ygu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2110836161&wbfileid=17547025
     kinds:
@@ -230,6 +263,8 @@ visual:
     availability: found
     source_sha256: 5ba2b913c604c3cf8bcf13c4fd419ee26c34c409db4ea2a5ae5540ee3777af77
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
   - title: 阳光学院校徽及中英文校名组合规范-彩色稿_副本.png
     url: https://www.ygu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2110836161&wbfileid=17547026
     kinds:
@@ -246,14 +281,22 @@ visual:
     availability: found
     source_sha256: 5ba2b913c604c3cf8bcf13c4fd419ee26c34c409db4ea2a5ae5540ee3777af77
     note: 第三方目录只用于发现网址；已读取校方页并核对完整学校身份及标识/模板标题。图形与模板使用须遵守校方规范；库内仅保留入口和元数据。
+    content_read: false
+    download_status: indexed_not_fetched
+  landmarks: []
 culture:
   founded_year:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: 2001
+    availability: found
     search_sources: []
+    source: https://zh.wikipedia.org/w/index.php?title=%E9%98%B3%E5%85%89%E5%AD%A6%E9%99%A2&oldid=92814241
+    source_type: community_website
+    checked_at: '2026-10-02'
+    verified: auto
+    source_sha256: dcbce14b0032d264c2d1d8154ce69f28041b806a0a4205602d2855a19ff4873e
+    source_revision: 92814241
+    collector: wikipedia_core_infobox
+    basis: 中文维基百科大学信息框Established/建校字段原值；社区记录，未独立确认现名设立与前身起点口径。
   motto:
     value: 刚健笃实，辉光日新
     source: https://www.ygu.edu.cn/xxgk/xxjj.htm
@@ -261,7 +304,6 @@ culture:
     checked_at: '2026-09-30'
     availability: found
     search_sources: []
-  history_events: []
   flower:
     value: null
     source: null
@@ -283,6 +325,7 @@ culture:
     checked_at: null
     availability: unresearched
     search_sources: []
+  history_events: []
 resources:
   official_templates_url:
     value: null
@@ -305,215 +348,15 @@ resources:
     checked_at: null
     availability: unresearched
     search_sources: []
-  admissions_url:
-    value: https://zsb.ygu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ygu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - 招生就业
-  career_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  english_website:
-    value: https://yangoenglish.ygu.edu.cn/
-    availability: found
-    search_sources: []
-    source: https://www.ygu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页导航中标明用途的同校网址；只确认链接出处，目标页访问状态另记。
-    evidence:
-    - ENGLISH
-  information_disclosure_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-institution:
-  school_type:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  nature:
-    value: 民办
-    availability: found
-    search_sources: []
-    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
-    source_type: official_registry
-    verified: auto
-    checked_at: '2026-10-01'
-    source_as_of: '2026-06-17'
-    basis: 教育部2026全国高等学校名单的本科院校备注明确记为“民办”。空备注未据此推断为公办。
-  country:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  languages_of_instruction:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  groups:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-location:
-  address:
-    value: 福州经济技术开发区登龙路99号 (福州校本部)
-    availability: found
-    search_sources: []
-    source: https://www.ygu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    basis: 学校官网首页页脚或末尾明确标注的通讯信息；保留原标签，未认定为全部校区或统一总机。
-    evidence:
-    - 学校地址:福州经济技术开发区登龙路99号 (福州校本部)
-  postal_code:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  coordinates:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  campuses: []
+  community_resources: []
 overview:
   summary_zh:
-    value: 阳光学院位于福建省福州市，主管部门为福建省教育厅。官网列示教职工1000余人（统计日期未注明）。官网列示占地面积共1700余亩（统计日期未注明）。
+    value: 阳光学院位于福建省福州市，教育部名单列为本科，主管部门为福建省教育厅。
+    source: https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/W020260618416094865984.xls
+    verified: auto
+    checked_at: '2026-10-02'
     availability: found
     search_sources: []
-    source: https://www.ygu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 根据教育部身份表与官网结构化统计/校区事实重新组织的短摘要；不复制简介原文
-    source_as_of: mixed
-  summary_en:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-statistics:
-  student_count:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  faculty_count:
-    value: 1000
-    availability: found
-    search_sources: []
-    source: https://www.ygu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 教职工；近似/下界数，保留原标注：教职工1000余人；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 教职工1000余人
-  campus_area_hectares:
-    value: 113.333333
-    availability: found
-    search_sources: []
-    source: https://www.ygu.edu.cn/
-    source_type: official_website
-    verified: auto
-    checked_at: '2026-10-01'
-    collector: official_overview
-    basis: 占地面积；原单位亩，换算公顷（1公顷=15亩=10000平方米）；近似/下界数，保留原标注：占地面积共1700余亩；页面未标注此项统计日期；采集日不等于统计日
-    source_as_of: undated
-    date_basis: 页面未标注此项统计日期；采集日不等于统计日
-    approximate: true
-    original_notation: 占地面积共1700余亩
-academics:
-  double_first_class_disciplines:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  degree_authorizations:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  subject_assessments: []
-employment:
-  summary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  report_url:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  outcomes: []
-contacts:
-  phone:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-  email:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
-    search_sources: []
-rankings:
-  entries: []
-admissions:
-  cutoffs: []
-  major_cutoffs: []
-  plans: []
-community:
-  snapshots: []
+    source_type: official_registry
+    basis: 仅由教育部身份主字段生成；不含招生、就业、排名、人数或面积。
+    collector: ppt_core_identity_summary

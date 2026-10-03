@@ -11,7 +11,7 @@ import urllib.parse
 
 import yaml
 from collect_official_extensions import Page,MARK,EXCLUDED_MARK,decode,fetch,inspect_official_asset,apply_record
-from collect_homepage_identity import ownership_evidence
+from collect_homepage_identity import ownership_evidence, reviewed_homepage_caches
 from discover_official_pages import matches_school_title,safe_url
 from research_all_schools import Policy,SCHOOL_NAMES,same_school
 
@@ -74,14 +74,20 @@ def css_candidates(text,base):
     return found
 
 
-def collect(identity):
+def collect(identity,cached_home=None):
     code,name,home=identity['school_code'],identity['name_zh'],identity['official_website']['value']
     result=dict(school_code=code,name_zh=name,checked_at=TODAY,home=home,status='access_or_identity_gap',pages=[],assets=[],claims=[])
     policy=Policy();parsed=urllib.parse.urlparse(home)
     for url in dict.fromkeys([home,parsed._replace(scheme='http' if parsed.scheme=='https' else 'https').geturl()]):
         attempt=dict(requested_url=url);result['pages'].append(attempt)
         try:
-            final,body,charset,mime=fetch(url,home,policy)
+            if cached_home and url==cached_home['url']:
+                body=pathlib.Path(cached_home['path']).read_bytes()
+                if hashlib.sha256(body).hexdigest()!=cached_home['sha256']:raise ValueError('homepage_cache_hash_mismatch')
+                final,charset,mime=cached_home['url'],None,'text/html'
+                attempt.update(retrieval='hash_matched_previous_homepage',retrieved_at=cached_home['checked_at'])
+            else:
+                final,body,charset,mime=fetch(url,home,policy)
             if mime not in {'text/html','application/xhtml+xml'}:raise ValueError('not_html')
             page=HeaderPage();page.feed(decode(body,charset));page.finish()
             if not (matches_school_title(name,page.title,SCHOOL_NAMES) or ownership_evidence(name,[t for _,t in page.lines],SCHOOL_NAMES)):raise ValueError('homepage_identity_gap')
@@ -124,20 +130,22 @@ def main():
     parser.add_argument('--collect-only',action='store_true');parser.add_argument('--import-only',action='store_true')
     parser.add_argument('--output',default='data/review/header-css-marks-2026.jsonl',help='Separate batch ledger; earlier evidence stays intact')
     parser.add_argument('--school-code',action='append',help='Read selected schools into this ledger')
+    parser.add_argument('--homepage-cache-receipts',help='Use hash-matched, reviewed canonical homepage caches')
     args=parser.parse_args();paths={p.parent.name:p for p in (ROOT/'universities').glob('*/*/profile.yaml')}
     output=ROOT/args.output
     targets=[]
     for code,path in paths.items():
         p=yaml.load(path.read_text(),Loader=yaml.CSafeLoader)
-        if not p['visual']['logo_assets'] and p['identity']['official_website'].get('value'):targets.append(p['identity'])
+        if not any(a.get('access_status') == 'content_inspected' for a in p['visual']['logo_assets']) and p['identity']['official_website'].get('value'):targets.append(p['identity'])
     if args.school_code:targets=[i for i in targets if i['school_code'] in args.school_code]
+    caches=reviewed_homepage_caches(ROOT/args.homepage_cache_receipts,[yaml.load(p.read_text(),Loader=yaml.CSafeLoader)['identity']for p in paths.values()])if args.homepage_cache_receipts else{}
     records={r['school_code']:r for r in map(json.loads,output.read_text().splitlines())} if output.exists() else {}
     def save():
         temporary=output.with_suffix('.pending');temporary.write_text(''.join(json.dumps(records[c],ensure_ascii=False)+'\n' for c in sorted(records)));temporary.replace(output)
     if not args.import_only:
         pending=[i for i in targets if i['school_code'] not in records]
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-            futures={pool.submit(collect,i):i['school_code'] for i in pending}
+            futures={pool.submit(collect,i,caches.get(i['school_code'])):i['school_code'] for i in pending}
             for n,f in enumerate(concurrent.futures.as_completed(futures),1):
                 records[futures[f]]=f.result()
                 if n%15==0:save();print('Read %s/%s header candidates'%(n,len(pending)),flush=True)

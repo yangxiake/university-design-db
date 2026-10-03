@@ -22,7 +22,7 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | `#1D4144` | 29,65,68 | primary |  |  | 官网标识取色/推导建议 | [依据](https://www.zzu.edu.cn/template_files/1/img/mobile-nav-logo.png) |
+|  | `#1D4144` | 29,65,68 | reference（历史参考） |  |  | 官网标识取色/推导建议 | [依据](https://www.zzu.edu.cn/template_files/1/img/mobile-nav-logo.png) |
 |  | `#284345` | 40,67,69 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%83%91%E5%B7%9E%E5%A4%A7%E5%AD%A6%20ZZU.svg) |
 |  | `#7F0405` | 127,4,5 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E9%83%91%E5%B7%9E%E5%A4%A7%E5%AD%A6%20ZZU.svg) |
 |  | `#284345` | 40,67,69 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/HeyHuazi/SVGLOGO/blob/142498f527ac2dd3116cc1feccb9670879839f74/static/library/school/ZZU.svg) |
@@ -33,6 +33,16 @@
 |  | `#681018` | 104,16,24 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#601010` | 96,16,16 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#986060` | 152,96,96 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 标准红 | `#880000` | 136,0,0 | primary | [10, 100, 100, 50] |  | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 标准蓝绿 | `#1B4142` | 27,65,66 | primary | [90, 70, 70, 30] |  | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 辅助色 PANTONE 483 | `#90001A` | 144,0,26 | reference | [0, 100, 70, 50] | 483 | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 辅助色 PANTONE 561 | `#004338` | 0,67,56 | reference | [100, 10, 60, 70] | 561 | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 辅助色 PANTONE 3155 | `#005C60` | 0,92,96 | reference | [100, 30, 50, 40] | 3155 | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 辅助色 PANTONE 468 | `#004464` | 0,68,100 | reference | [100, 60, 40, 60] | 468 | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 辅助色 PANTONE 7519 | `#4F2A1A` | 79,42,26 | reference | [60, 80, 90, 50] | 7519 | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 辅助色 PANTONE 1525 | `#E27E00` | 226,126,0 | reference | [10, 70, 100, 10] | 1525 | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 辅助色 PANTONE 146 | `#BC7E00` | 188,126,0 | reference | [10, 50, 100, 30] | 146 | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
+| 辅助色 PANTONE 7528 | `#EFEADE` | 239,234,222 | reference | [10, 0, 0, 10] | 7528 | 官方VI标准值 | [依据](https://www.zzu.edu.cn/wj/xxsbxt.pdf) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -41,5 +51,6 @@
 - 现有VI入口：[https://www5.zzu.edu.cn/xuan/info/1017/1157.htm](https://www5.zzu.edu.cn/xuan/info/1017/1157.htm)
 - [关于进一步规范使用郑州大学校徽的通知-党委宣传部](https://www5.zzu.edu.cn/xuan/info/1017/1157.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www5.zzu.edu.cn/xuan/info/1017/1157.htm)。
 - [郑州大学视觉形象识别系统.pdf](https://www5.zzu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1322915452&wbfileid=11835002)：["视觉识别规范/资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www5.zzu.edu.cn/xuan/info/1017/1157.htm)。
+- [郑州大学官方视觉规范](https://www.zzu.edu.cn/wj/xxsbxt.pdf)：["标识规范", "标准色"]；格式 PDF；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.zzu.edu.cn/wj/xxsbxt.pdf)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

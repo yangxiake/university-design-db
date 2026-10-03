@@ -20,7 +20,7 @@
 
 | 色名 | HEX | RGB | 用途 | CMYK | Pantone | 取值方法 | 来源 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | `#660874` | 102,8,116 | primary |  |  | 官方VI标准值 | [依据](https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf) |
+| 清华紫 | `#660874` | 102,8,116 | primary | [65, 100, 0, 20] | 259C | 官方VI标准值 | [依据](https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf) |
 |  | `#743481` | 116,52,129 | reference |  |  | 社区主题配色 | [依据](https://github.com/tuna/THU-Beamer-Theme/blob/061f088d1c7e4b2d2f1f581f3745945ecbb63f25/Tsinghua.sty) |
 |  | `#82318E` | 130,49,142 | reference |  |  | 社区主题配色 | [依据](https://github.com/tuna/THU-Beamer-Theme/blob/061f088d1c7e4b2d2f1f581f3745945ecbb63f25/Tsinghua.sty) |
 |  | `#F6BB60` | 246,187,96 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/Magicdover/China-Universities-2026/blob/419bdc7ce6956fc88c2b70b3979f170b6666f111/assets/logos-new/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg) |
@@ -29,6 +29,12 @@
 |  | `#803088` | 128,48,136 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#803090` | 128,48,144 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#883090` | 136,48,144 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
+| 清华紫 | `#660874` | 102,8,116 | primary | [65, 100, 0, 20] | 259C | 官方VI标准值 | [依据](https://vi.tsinghua.edu.cn/__local/7/67/A7/C96592E94FC276177D47D8B1130_66B521D0_A117.jpg) |
+| 清华紫渐变组合粉红端点 | `#D93379` | 217,51,121 | reference | [10, 90, 20, 0] | 7424C | 官方VI标准值 | [依据](https://vi.tsinghua.edu.cn/__local/7/67/A7/C96592E94FC276177D47D8B1130_66B521D0_A117.jpg) |
+| 专色黑 | `#000000` | 0,0,0 | reference | [100, 100, 100, 100] | Black C | 官方VI标准值 | [依据](https://vi.tsinghua.edu.cn/__local/A/03/43/E2B3988EFF8FC54AE523E77998F_3D9ABE84_1B205.jpg) |
+| 专色白 | `#FFFFFF` | 255,255,255 | reference | [0, 0, 0, 0] | White C | 官方VI标准值 | [依据](https://vi.tsinghua.edu.cn/__local/A/03/43/E2B3988EFF8FC54AE523E77998F_3D9ABE84_1B205.jpg) |
+| 专金 | 未公布 | 未公布 | reference |  | 871C | 官方VI标准值 | [依据](https://vi.tsinghua.edu.cn/__local/A/03/43/E2B3988EFF8FC54AE523E77998F_3D9ABE84_1B205.jpg) |
+| 专银 | 未公布 | 未公布 | reference |  | 877C | 官方VI标准值 | [依据](https://vi.tsinghua.edu.cn/__local/A/03/43/E2B3988EFF8FC54AE523E77998F_3D9ABE84_1B205.jpg) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -124,5 +130,12 @@
   - 发布者：清华大学官网视觉资源页；适用范围：学校通用；版本年：2023。
   - 文件读取结果：target_page_read；错误与已尝试网址见profile.yaml。
 - [校徽](https://vi.tsinghua.edu.cn/gk/xxbz/xh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.tsinghua.edu.cn/gk/xxbz/xh.htm)。
+- [清华大学官方视觉规范](https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf)：["标识规范", "标准色"]；格式 PDF；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf)。
+- [标准色](https://vi.tsinghua.edu.cn/info/1150/1205.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.tsinghua.edu.cn/info/1150/1205.htm)。
+- [色彩规范-清华大学视觉形象识别](https://vi.tsinghua.edu.cn/gk/xxbz/scgf.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.tsinghua.edu.cn/gk/xxbz/scgf.htm)。
+- [清华大学官方视觉规范](https://vi.tsinghua.edu.cn/gk/xxbz/scgf.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://vi.tsinghua.edu.cn/__local/7/67/A7/C96592E94FC276177D47D8B1130_66B521D0_A117.jpg)。
+- [清华大学官方视觉规范](https://vi.tsinghua.edu.cn/gk/xxbz/scgf.htm)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://vi.tsinghua.edu.cn/__local/A/03/43/E2B3988EFF8FC54AE523E77998F_3D9ABE84_1B205.jpg)。
+- [校徽](https://vi.tsinghua.edu.cn/gk/xxbz/scgf/bzs.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.tsinghua.edu.cn/gk/xxbz/scgf/bzs.htm)。
+- [标准色色阶-清华大学视觉形象识别](https://vi.tsinghua.edu.cn/gk/xxbz/scgf/bzssj.htm)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.tsinghua.edu.cn/gk/xxbz/scgf/bzssj.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

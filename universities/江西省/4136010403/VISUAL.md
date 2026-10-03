@@ -12,6 +12,19 @@
 | 校徽 | blue | [文件](https://raw.githubusercontent.com/RoboMaster/university_logos/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Nanchang_University/svg/logo_blue.svg) · [来源](https://github.com/RoboMaster/university_logos/blob/3d645fc89869707bd7df8dba0f7e4bbcc4a60e14/Nanchang_University/svg/logo_blue.svg) | 社区 | svg | 未声明 | content_inspected | 未独立声明 |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://www.ncu.edu.cn/images/logo.png) · [来源](https://www.ncu.edu.cn/) | 官网 | png | 533 × 150 | content_inspected | 未独立声明 |
 | 校徽 | 南昌大学.png | [压缩包](https://raw.githubusercontent.com/xioajiumi/Chinese_Universities/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) 内 `img2/南昌大学.png` · [来源](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) | 社区 | png | 472 × 472 | content_inspected | 未独立声明 |
+| 校名文字 | 白色.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `白色.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 2842 × 500 | content_inspected | 未独立声明 |
+| 组合标识 | 标准.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `标准.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 4116 × 1158 | content_inspected | 未独立声明 |
+| 组合标识 | 标准-透明，反白.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `标准-透明，反白.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 4116 × 1158 | content_inspected | 未独立声明 |
+| 校徽 | 标准-图.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `标准-图.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 1216 × 1263 | content_inspected | 未独立声明 |
+| 校名文字 | 标准-中英文.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `标准-中英文.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 2901 × 1158 | content_inspected | 未独立声明 |
+| 校徽 | 反白-图.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `反白-图.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 1337 × 1313 | content_inspected | 未独立声明 |
+| 校名文字 | 反白-中英文.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `反白-中英文.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 2932 × 1158 | content_inspected | 未独立声明 |
+| 校名文字 | 南昌大学NANCHANG UNIVERSITY.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `南昌大学NANCHANG UNIVERSITY.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 2650 × 216 | content_inspected | 未独立声明 |
+| 校名文字 | 南昌大学NANCHANG UNIVERSITY-白.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `南昌大学NANCHANG UNIVERSITY-白.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 2209 × 189 | content_inspected | 未独立声明 |
+| 组合标识 | 竖版白.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `竖版白.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 300 × 1112 | content_inspected | 未独立声明 |
+| 组合标识 | 竖版标.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `竖版标.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 428 × 2004 | content_inspected | 未独立声明 |
+| 组合标识 | ͼ+NANCHANG UNIVERSITY.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `ͼ+NANCHANG UNIVERSITY.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 2834 × 212 | content_inspected | 未独立声明 |
+| 组合标识 | 图+NANCHANG UNIVERSITY-白.png | [压缩包](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) 内 `图+NANCHANG UNIVERSITY-白.png` · [来源](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip) | 官网 | png | 1589 × 166 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -36,5 +49,8 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://www.ncu.edu.cn/xxgk/xxxh.htm](https://www.ncu.edu.cn/xxgk/xxxh.htm)
+- [校徽](https://www.ncu.edu.cn/xxgk/xxxh.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.ncu.edu.cn/xxgk/xxxh.htm)。
+- [南昌大学2022新版全套校徽](https://www.ncu.edu.cn/images/nanchangdaxue2022banquantaoxiaohui.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://www.ncu.edu.cn/xxgk/xxxh.htm)。
+  - 文件容器已读取：ZIP；5968991字节；读取类型archive_structure；文件SHA256 `617fe4fc559079856b5c7de51ade9134202cc9a38f6a333281514d02350aa9b9`。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

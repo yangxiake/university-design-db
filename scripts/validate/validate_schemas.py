@@ -23,7 +23,7 @@ def diagnostics(validator, record, school_code):
 
 def main():
     errors = []
-    canonical = schema_validator('profile-schema-v3.json')
+    canonical = schema_validator('profile-schema-v4.json')
     export = schema_validator('ppt-export-schema-v1.json')
     paths = sorted((ROOT / 'universities').glob('*/*/profile.yaml'))
     for path in paths:

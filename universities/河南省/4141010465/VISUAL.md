@@ -32,7 +32,7 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://xcb.zut.edu.cn/info/2407/15281.htm](https://xcb.zut.edu.cn/info/2407/15281.htm)
-- [中原工学院校徽、校徽校名组合、标准字](https://xcb.zut.edu.cn/info/2407/15281.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.zut.edu.cn/info/2407/15281.htm)。
+- [中原工学院校徽、校徽校名组合、标准字-宣传部](https://xcb.zut.edu.cn/info/2407/15281.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.zut.edu.cn/info/2407/15281.htm)。
 - [校徽色稿和反白稿标准.pdf](https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=7960610993657EADFFAC425589A15097)：["校徽/校名介绍及资源"]；格式 PDF；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.zut.edu.cn/info/2407/15281.htm)。
 - [标徽校名组合反白稿.png](https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=153683360F94027E73E7DAEDE0C82B8D)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.zut.edu.cn/info/2407/15281.htm)。
 - [校徽.png](https://xcb.zut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1067773383&wbfileid=368CECDD885DD3503FC18F78ED538B8F)：["校徽/校名介绍及资源"]；格式 PNG；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://xcb.zut.edu.cn/info/2407/15281.htm)。

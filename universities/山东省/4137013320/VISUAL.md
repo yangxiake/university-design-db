@@ -7,6 +7,8 @@
 | 类型 | 版式/文件名 | 文件 | 发布来源 | 格式 | 尺寸 | 内容检查 | 图形许可 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 官网页眉标识（构成待核验） | logo.png | [文件](https://www.qdhhc.edu.cn/images/logo.png) · [来源](https://www.qdhhc.edu.cn/) | 官网 | png | 291 × 57 | content_inspected | 未独立声明 |
+| 校徽 | cut20200706090333.png | [文件](https://www.qdhhc.edu.cn/photo/product/cut20200706090333.png) · [来源](https://www.qdhhc.edu.cn/dangwei/Pinpai.aspx?funId=431) | 官网 | png | 2424 × 1678 | content_inspected | 未独立声明 |
+| 组合标识 | cut20200706091618.png | [文件](https://www.qdhhc.edu.cn/photo/product/cut20200706091618.png) · [来源](https://www.qdhhc.edu.cn/dangwei/Pinpai.aspx?funId=431) | 官网 | png | 1017 × 704 | content_inspected | 未独立声明 |
 
 仓库许可和学校标识图形的授权分开记录。content_inspected只说明读取了文件结构，不代表人工确认其现行版本。官网页眉标识的具体构成尚未核验；official表示校方网页发布，不代表VI授权。SVG的viewBox是内部坐标，不等于像素尺寸。
 
@@ -16,10 +18,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 浅蓝色（并列标准色） | `#6880AE` | 104,128,174 | secondary | [65, 46, 14, 0] |  | 官方VI标准值 | [依据](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf) |
 | 珠山红（辅助色） | `#D93643` | 217,54,67 | accent | [10, 91, 66, 0] |  | 官方VI标准值 | [依据](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf) |
-
-主色来源存在差异：PDF第33页蓝色色卡RGB R15 G50 B133对应#0F3285，但图中直接印出HEX#0C3386；两值均保留，不自动纠正手册。
-- `#0F3285`：[来源](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf)；PDF第33页RGB15/50/133精确换写。
-- `#0C3386`：[来源](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf)；PDF第33页直接印出的HEX。
+| 官网标识PPT建议色 | `#083080` | 8,48,128 | reference |  |  | 校徽取样建议 | [依据](https://www.qdhhc.edu.cn/photo/product/cut20200706090333.png) |
+| 官网标识PPT建议色 | `#003080` | 0,48,128 | reference |  |  | 校徽取样建议 | [依据](https://www.qdhhc.edu.cn/photo/product/cut20200706090333.png) |
+| 官网标识PPT建议色 | `#002880` | 0,40,128 | reference |  |  | 校徽取样建议 | [依据](https://www.qdhhc.edu.cn/photo/product/cut20200706091618.png) |
+| 官网标识PPT建议色 | `#003080` | 0,48,128 | reference |  |  | 校徽取样建议 | [依据](https://www.qdhhc.edu.cn/photo/product/cut20200706091618.png) |
+| 官网HEX的PPT屏幕建议色 | `#0C3386` | 12,51,134 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.qdhhc.edu.cn/downFile/2020070810132602RZVN.pdf) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 

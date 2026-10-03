@@ -39,12 +39,12 @@
 
 - 现有VI入口：[https://vi.sjtu.edu.cn/](https://vi.sjtu.edu.cn/)
 - [上海交通大学官方视觉规范](https://vi.sjtu.edu.cn/index.php/articles/base/3)：["标识规范", "标准色"]；格式 HTML；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](https://vi.sjtu.edu.cn/img/vi/A3-%E8%89%B2%E5%BD%A9%E8%A7%84%E8%8C%83/A3-01%E6%A0%87%E5%87%86%E8%89%B2%E8%A7%84%E8%8C%83%EF%BC%88%E5%90%AB%E8%89%B2%E9%98%B6%EF%BC%89.jpg)。
-- [标准色规范.ai](http://vi.sjtu.edu.cn/index.php/downloads/files/150)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
+- [标准色规范.ai](http://vi.sjtu.edu.cn/index.php/downloads/files/150)：["视觉识别规范/资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
 - [辅助色规范.ai](http://vi.sjtu.edu.cn/index.php/downloads/files/151)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
 - [辅助色规范2.ai](http://vi.sjtu.edu.cn/index.php/downloads/files/152)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
 - [色彩配比及品牌色彩占位.ai](http://vi.sjtu.edu.cn/index.php/downloads/files/115)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
 - [品牌专用色彩搭配表.ai](http://vi.sjtu.edu.cn/index.php/downloads/files/125)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
-- [A3-色彩规范-01标准色规范（含色阶）.ai](https://vi.sjtu.edu.cn/index.php/downloads/attachments/34)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
+- [A3-色彩规范-01标准色规范（含色阶）.ai](https://vi.sjtu.edu.cn/index.php/downloads/attachments/34)：["视觉识别规范/资源"]；格式 AI；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
 - [A3-色彩规范-02-01辅助色彩规范（含色阶）.ai](https://vi.sjtu.edu.cn/index.php/downloads/attachments/35)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
 - [A3-色彩规范-02-02辅助色彩规范（含色阶）.ai](https://vi.sjtu.edu.cn/index.php/downloads/attachments/36)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
 - [A3-色彩规范-04色彩配比及品牌色彩占位.ai](https://vi.sjtu.edu.cn/index.php/downloads/attachments/37)：["色彩规范"]；格式 AI；访问条件 官网明确提供的附件链接；本轮未读取附件内容或核验其当前下载状态，格式按原链接标签。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
@@ -100,5 +100,6 @@
 - [常用校标PNG格式下载.rar](https://vi.sjtu.edu.cn/index.php/downloads/attachments/127)：["校徽/校名介绍及资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/4)。
 - [上海交通大学视觉形象识别系统管理办法 （试行）](https://vi.sjtu.edu.cn/index.php/articles/bulletin/16)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/bulletin/16)。
 - [上海交通大学视觉形象识别系统使用手册.pptx](https://vi.sjtu.edu.cn/index.php/downloads/attachments/139)：["视觉识别规范/资源"]；格式 PPTX；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/bulletin/16)。
+- [标准色规范（含色阶）](https://vi.sjtu.edu.cn/index.php/articles/base/3)：["视觉识别规范/资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://vi.sjtu.edu.cn/index.php/articles/base/3)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

@@ -32,6 +32,8 @@
 |  | `#3850A0` | 56,80,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.henu.edu.cn/images/logo.png) |
 |  | `#4060A8` | 64,96,168 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.henu.edu.cn/images/container10_logo.png) |
 |  | `#4058A0` | 64,88,160 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.henu.edu.cn/images/container10_logo.png) |
+| 校徽蓝色 | 未公布 | 未公布 | primary | [80, 65, 0, 0] |  | 官方VI标准值 | [依据](http://www.henu.edu.cn/xxbs/xuexiaobiaoshi.zip) |
+| 校徽绿色 | 未公布 | 未公布 | secondary | [80, 20, 100, 0] |  | 官方VI标准值 | [依据](http://www.henu.edu.cn/xxbs/xuexiaobiaoshi.zip) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 
@@ -40,5 +42,9 @@
 - 现有VI入口：[http://www.henu.edu.cn/zjhd/xhxxxf.htm](http://www.henu.edu.cn/zjhd/xhxxxf.htm)
 - [校徽校训校风-河南大学](https://www.henu.edu.cn/zjhd/xhxxxf.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.henu.edu.cn/zjhd/xhxxxf.htm)。
 - [标识下载](https://www.henu.edu.cn/xxbs/xuexiaobiaoshi.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://www.henu.edu.cn/zjhd/xhxxxf.htm)。
+- [校徽校训校风-河南大学](http://www.henu.edu.cn/zjhd/xhxxxf.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](http://www.henu.edu.cn/zjhd/xhxxxf.htm)。
+- [标识下载](http://www.henu.edu.cn/xxbs/xuexiaobiaoshi.zip)：["校徽/校名介绍及资源"]；格式 ZIP；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](http://www.henu.edu.cn/zjhd/xhxxxf.htm)。
+  - 文件容器已读取：ZIP；7085713字节；读取类型archive_structure；文件SHA256 `fb5624e09f01c550a47cc57361fc888cb295c3793ba5074e70456888e0478629`。
+- [河南大学官方视觉规范](http://www.henu.edu.cn/xxbs/xuexiaobiaoshi.zip)：["标识规范", "标准色"]；格式 ZIP；访问条件 公开网页/文件，无需登录；依来源规则使用。官网记录[来源](http://www.henu.edu.cn/xxbs/xuexiaobiaoshi.zip)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。

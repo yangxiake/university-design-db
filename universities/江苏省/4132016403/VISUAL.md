@@ -20,10 +20,7 @@
 |  | `#000040` | 0,0,64 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#281058` | 40,16,88 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
 |  | `#381860` | 56,24,96 | reference |  |  | 社区标识取色建议 | [依据](https://github.com/xioajiumi/Chinese_Universities/blob/e088fddc329a6f0148ca72fd3b4d0fe069f13e3a/logo.zip) |
-
-主色来源存在差异：官网同页的 RGB 0,0,66 与 HEX #010544 不一致，待校方确认数字设计用色
-- `#000042`：[来源](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity)；官网 RGB 0,0,66 换算为 HEX
-- `#010544`：[来源](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity)；官网直接列出的 HEX
+| 官网HEX的PPT屏幕建议色 | `#010544` | 1,5,68 | reference |  |  | 官网标识取色/推导建议 | [依据](https://www.xjtlu.edu.cn/zh/about/overview/xjtlu-identity) |
 
 建议色和社区主题色不能表述为学校官方标准色；CMYK、Pantone没有来源时留空。仅公布印刷色的规范保留CMYK/Pantone，HEX与RGB标为未公布，不自动转换。current=false的条目是保留的历史参考。
 

@@ -30,11 +30,8 @@
 ## VI资源与下载条件
 
 - 现有VI入口：[https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm)
-- [河北医科大学官网视觉资源页 PPT模板发布/下载页](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm)：["PPT模板"]；格式 HTML；访问条件 校方公开HTML页已读取；页面内附件或外部下载目标另行索引。官网记录[来源](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm)。
-  - 发布者：河北医科大学官网视觉资源页；适用范围：学校通用。
-- [教学版PPT模板.ppt](https://www.hebmu.edu.cn/resources/43/201809/1536714464189007202.ppt)：["PPT模板"]；格式 PPT；访问条件 公开文件在本次采集时已读取；未渲染或运行，后续可用性及使用条件以原发布页为准。官网记录[来源](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm)。
-  - 发布者：河北医科大学官网视觉资源页；适用范围：学校通用。
-  - 文件容器已读取：OLE；16513536字节；读取类型format_header_only；文件SHA256 `f9931e189b321934e0eaa4251b1a815fc59a66cbaee4f56495828b65ee8ee297`。
+- [关于规范使用学校标识的通知](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm)：["校徽/校名介绍及资源"]；格式 HTML；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm)。
+- [教学版PPT模板.ppt](https://www.hebmu.edu.cn/resources/43/201809/1536714464189007202.ppt)：["PPT模板"]；格式 PPT；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm)。
 - [形象识别系统内容](https://www.hebmu.edu.cn/resources/43//201712/1514539138649073998.rar)：["视觉识别规范/资源"]；格式 RAR；访问条件 公开校方页面；附件链接仅按页面索引，下载状态与文件内容未经本轮核验。官网记录[来源](https://m.hebmu.edu.cn/w/2017/12/29/C3D0447D71534D9BA0B3251469AD3E6D.htm)。
 
 更完整的身份、文化、学科和历史数据见[PROFILE.md](PROFILE.md)，机器数据见[profile.yaml](profile.yaml)。
