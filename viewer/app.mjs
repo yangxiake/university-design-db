@@ -191,15 +191,17 @@ function logoCard(asset,recommended) {
   }
   if(mode==='auto') {placeholder.textContent='等待载入图形';setTimeout(()=>{if(card.isConnected)startImage();},0);}
   else if(mode==='manual'){placeholder.textContent='文件尚未成功读取；可尝试网页预览。';placeholder.append(button('尝试载入图形',startImage,'quiet'));}
-  else {placeholder.textContent=mode==='archive'?'ZIP 压缩包成员\n使用下方原包入口和成员路径获取':mode==='unsupported'?'此格式未提供网页图形预览':'暂无可用的图形网址'; previewStatus.textContent='网页预览：未提供直接图像预览';}
+  else {placeholder.textContent=mode==='archive'?'ZIP 压缩包成员\n使用下方原包入口和成员路径获取':mode==='document'?`公开 PDF 第 ${asset.document_page} 页中的标识\n请从下方原 PDF 获取`:mode==='unsupported'?'此格式未提供网页图形预览':'暂无可用的图形网址'; previewStatus.textContent='网页预览：未提供直接图像预览';}
   const yesNo=v=>v===true?'是':v===false?'否':'未记录';
   body.append(metadata([['文件读取',ACCESS[asset.access_status] || asset.access_status],['格式',asset.format?.toUpperCase()],
     ['尺寸',asset.width && asset.height?`${asset.width} × ${asset.height}`:'未记录完整实测尺寸'],['矢量表示',yesNo(asset.vector)],
     ['透明背景',yesNo(asset.transparent_background)],['版式/文件',asset.file_name],
-    ...(asset.archive_member?[['包内路径',asset.archive_member_display || asset.archive_member]]:[])]));
+    ...(asset.archive_member?[['包内路径',asset.archive_member_display || asset.archive_member]]:[]),
+    ...(mode==='document'?[['PDF页码',`${asset.document_page} / ${asset.document_page_count}`]]:[])]));
+  if(mode==='document')body.append(el('p',asset.usage_note,'section-desc'));
   if(asset.archive_member_display && asset.archive_member_display!==asset.archive_member)body.append(el('p','可读路径已恢复中文编码；程序读取请使用复制资料中的 archive_member 原值。','section-desc'));
   if(asset.preview_background_hint)body.append(el('p',asset.preview_background_hint.basis,'section-desc'));
-  const links=el('div','','small-links');links.append(link(mode==='archive'?'原压缩包 ↗':'原文件 ↗',asset.archive_url || asset.url),link('发布来源 ↗',asset.source));body.append(links,provenance(asset));card.append(box,body);return card;
+  const links=el('div','','small-links');links.append(link(mode==='archive'?'原压缩包 ↗':mode==='document'?'原 PDF ↗':'原文件 ↗',asset.archive_url || asset.url),link('发布来源 ↗',asset.source));body.append(links,provenance(asset));card.append(box,body);return card;
 }
 function renderColors(school) {
   const colors=school.colors;const sec=section('colors','配色证据','官方数字色、印刷色与设计参考分开显示。CMYK/Pantone没有数字屏幕值时，不自动换算HEX。');

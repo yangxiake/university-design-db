@@ -64,12 +64,18 @@ research:
   audit_key: '4133014206'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0028A0'
+    availability: found
     search_sources: []
+    source: https://gx211.cn/UploadImage/FckUpImg/201601061041.jpg
+    source_sha256: dc6431a6deb8304fa96c13d8066137fdc762933bc116c578502e53908baed2b6
+    source_type: community_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    collector: other_source_current_mark
+    asset_id: b05dff2315482698f8adef17
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；从已逐图确认的现行标识取得，仅作PPT建议色，不是官方VI标准。
   color_secondary:
     value: null
     source: null
@@ -131,7 +137,56 @@ visual:
     intrinsic_width: 295px
     intrinsic_height: 54px
     resolved_url: https://www.tjzj.edu.cn/static/cn/img/logo.svg
-  color_palette: []
+  - asset_id: b05dff2315482698f8adef17
+    kind: badge
+    title: 同济大学浙江学院现行标识公开预览
+    url: https://gx211.cn/UploadImage/FckUpImg/201601061041.jpg
+    source: https://gx211.cn/collegemanage/content2491_17.shtml
+    source_sha256: 500ee2bae922c1baddaa4a6d04cf0c9f334b5438daefc9e6fa6cd7452d3df1cf
+    file_name: 201601061041.jpg
+    publisher: 中国高校之窗
+    official: false
+    rights_holder: 同济大学浙江学院
+    asset_license: null
+    repository: null
+    commit: null
+    repository_license: null
+    source_type: community_website
+    availability: found
+    verified: auto
+    checked_at: '2026-10-03'
+    identity_basis: 逐图查看后确认图中可读的完整校名或组合校名为同济大学浙江学院；未改名学校的同名图形，不采用母校单独校徽。
+    usage_note: 公开来源预览原图，已逐图确认完整现行校名；不把目录自述的官网来源或付费矢量格式当作校方发布或实测格式。图形权利仍归学校，仅索引，不镜像原图；屏幕取色仅作PPT参考。
+    sha256: dc6431a6deb8304fa96c13d8066137fdc762933bc116c578502e53908baed2b6
+    access_status: content_inspected
+    byte_size: 34894
+    format: jpeg
+    vector: false
+    width: 209
+    representation: raster
+    height: 107
+    has_alpha: false
+    transparent_background: false
+  color_palette:
+  - value: '#0028A0'
+    rgb:
+    - 0
+    - 40
+    - 160
+    cmyk: null
+    pantone: null
+    label: 现行标识屏幕取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://gx211.cn/UploadImage/FckUpImg/201601061041.jpg
+    page_source: https://gx211.cn/collegemanage/content2491_17.shtml
+    source_sha256: dc6431a6deb8304fa96c13d8066137fdc762933bc116c578502e53908baed2b6
+    asset_id: b05dff2315482698f8adef17
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；从已逐图确认的现行标识取得，仅作PPT建议色，不是官方VI标准。
   vi_resources: []
   landmarks: []
 culture:

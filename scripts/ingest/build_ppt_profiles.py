@@ -22,6 +22,8 @@ LOGO_FIELDS = (
     'download_kind', 'archive_url', 'archive_member', 'archive_member_display', 'archive_sha256',
     'repository', 'commit', 'repository_license', 'asset_license', 'rights_holder',
     'usage_note', 'source_type', 'source_as_of', 'source_sha256', 'upstream_path',
+    'document_page', 'document_page_count', 'document_image_index', 'document_image_sha256',
+    'document_image_dimensions', 'document_mark_region',
 )
 CSV_FIELDS = (
     'export_version', 'school_code', 'name_zh', 'province', 'city', 'scope_tags',

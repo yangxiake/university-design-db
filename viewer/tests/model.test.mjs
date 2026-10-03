@@ -30,6 +30,11 @@ test('province, tags and screen status are exact identity filters',()=>{
 test('archive member never becomes a direct PNG preview',()=>{
   assert.equal(previewMode({download_kind:'archive_member',format:'png',url:'https://example.edu/logo.zip',access_status:'content_inspected'}),'archive');
 });
+test('PDF page mark opens its document and never tries an image preview',()=>{
+  const asset={download_kind:'document_page',format:'pdf',url:'https://example.edu/brochure.pdf',access_status:'content_inspected'};
+  assert.equal(previewMode(asset),'document');
+  assert.equal(previewMode({...asset,url:'javascript:alert(1)'}),'no_url');
+});
 test('history read success and current browser preview are separate states',()=>{
   const asset={format:'svg',url:'https://example.edu/logo.svg',access_status:'content_inspected'};
   assert.equal(previewMode(asset),'auto');assert.equal(previewMode({...asset,access_status:'inspection_failed'}),'manual');

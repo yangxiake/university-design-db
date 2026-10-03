@@ -53,6 +53,8 @@ ENTRY_FIELDS = {
         'repository','commit','repository_license','asset_license','rights_holder','format','width','height','vector',
         'representation','view_box','encoding','intrinsic_width','intrinsic_height','has_alpha','transparent_background','sha256','byte_size','access_status',
         'download_kind','archive_url','archive_member','archive_member_display','archive_sha256',
+        'document_page','document_page_count','document_image_index','document_image_sha256',
+        'document_image_dimensions','document_mark_region',
         'availability','verified','checked_at','usage_note','variant','dimensions_in_filename','source_type','identity_basis','resolved_url'],
     'visual.color_palette': ['value','rgb','cmyk','cmyk_text','pantone','label','role','method','official','current','basis','source',
         'verified','checked_at','availability','repository','commit','asset_id','source_sha256',

@@ -76,12 +76,18 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#00774F'
+    availability: found
     search_sources: []
+    source: https://www.sj51.net/wp-content/uploads/2025/12/2025121816394915.png
+    source_sha256: 2654da42ebb13d272b157afc30c8dadc05f8bd4c3516b3eefff5d0d91eb682c9
+    source_type: community_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    collector: other_source_current_mark
+    asset_id: b6044522d76d998adf7e841a
+    basis: 原图非灰度像素中出现次数最多的实际RGB；未缩小取样。；从已逐图确认的现行标识取得，仅作PPT建议色，不是官方VI标准。
   color_secondary:
     value: null
     source: null
@@ -103,8 +109,57 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: b6044522d76d998adf7e841a
+    kind: combination
+    title: 湖北大学知行学院现行标识公开预览
+    url: https://www.sj51.net/wp-content/uploads/2025/12/2025121816394915.png
+    source: https://www.sj51.net/131316.html
+    source_sha256: e089046b54bf7e26fbd8ff31a76d79dd76def0f66a18e653b7e12f33da0c0f9f
+    file_name: 2025121816394915.png
+    publisher: 设计无忧网
+    official: false
+    rights_holder: 湖北大学知行学院
+    asset_license: null
+    repository: null
+    commit: null
+    repository_license: null
+    source_type: community_website
+    availability: found
+    verified: auto
+    checked_at: '2026-10-03'
+    identity_basis: 逐图查看后确认图中可读的完整校名或组合校名为湖北大学知行学院；未改名学校的同名图形，不采用母校单独校徽。
+    usage_note: 公开来源预览原图，已逐图确认完整现行校名；不把目录自述的官网来源或付费矢量格式当作校方发布或实测格式。图形权利仍归学校，仅索引，不镜像原图；屏幕取色仅作PPT参考。
+    sha256: 2654da42ebb13d272b157afc30c8dadc05f8bd4c3516b3eefff5d0d91eb682c9
+    access_status: content_inspected
+    byte_size: 53774
+    format: png
+    vector: false
+    width: 1050
+    representation: raster
+    height: 768
+    has_alpha: false
+    transparent_background: false
+  color_palette:
+  - value: '#00774F'
+    rgb:
+    - 0
+    - 119
+    - 79
+    cmyk: null
+    pantone: null
+    label: 现行标识屏幕取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.sj51.net/wp-content/uploads/2025/12/2025121816394915.png
+    page_source: https://www.sj51.net/131316.html
+    source_sha256: 2654da42ebb13d272b157afc30c8dadc05f8bd4c3516b3eefff5d0d91eb682c9
+    asset_id: b6044522d76d998adf7e841a
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 原图非灰度像素中出现次数最多的实际RGB；未缩小取样。；从已逐图确认的现行标识取得，仅作PPT建议色，不是官方VI标准。
   vi_resources: []
   landmarks: []
 culture:

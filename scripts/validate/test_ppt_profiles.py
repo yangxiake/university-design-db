@@ -139,6 +139,21 @@ class PPTExportTests(unittest.TestCase):
         self.assertEqual(result['status'], 'no_candidate')
         self.assertEqual(result['lookup_status']['vi_url'], self.profile['visual']['vi_url'])
 
+    def test_pdf_mark_preserves_file_and_page_provenance(self):
+        path = ROOT / 'universities/河北省/4113013592/profile.yaml'
+        profile = load_yaml(path.read_text())
+        asset = next(a for a in profile['visual']['logo_assets'] if a.get('download_kind') == 'document_page')
+        exported = logos_for(profile['visual'])['candidates'][0]
+        for key in ('document_page', 'document_image_sha256', 'document_mark_region', 'sha256', 'format'):
+            self.assertEqual(exported[key], asset[key])
+        errors = []
+        check_extended_entry('visual.logo_assets', asset, 'PDF mark', errors)
+        self.assertEqual(errors, [])
+        for key, value in [('document_page', 3), ('document_mark_region', [0, 0, 99999, 20]), ('vector', True)]:
+            invalid = dict(asset, **{key: value}); errors = []
+            check_extended_entry('visual.logo_assets', invalid, 'PDF mark', errors)
+            self.assertTrue(errors)
+
     def test_white_hint_is_not_a_palette(self):
         asset = {'asset_id': 'a', 'access_status': 'content_inspected', 'file_name': 'logo_white.svg'}
         visual = self.visual(assets=[asset])

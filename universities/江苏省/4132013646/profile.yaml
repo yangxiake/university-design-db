@@ -74,12 +74,18 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#3A6956'
+    availability: found
     search_sources: []
+    source: https://www.sj51.net/wp-content/uploads/2025/12/2025122508534043.png
+    source_sha256: 0dcd4d6557e2bcb947a7f11922afe00a33e0b62356a282e9ca2b73e159e19576
+    source_type: community_website
+    checked_at: '2026-10-03'
+    verified: auto
+    method: manual_derived
+    collector: other_source_current_mark
+    asset_id: 9ef7fa906afd92df4b74af24
+    basis: 原图非灰度像素中出现次数最多的实际RGB；未缩小取样。；从已逐图确认的现行标识取得，仅作PPT建议色，不是官方VI标准。
   color_secondary:
     value: null
     source: null
@@ -101,8 +107,57 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 9ef7fa906afd92df4b74af24
+    kind: combination
+    title: 南京大学金陵学院现行标识公开预览
+    url: https://www.sj51.net/wp-content/uploads/2025/12/2025122508534043.png
+    source: https://www.sj51.net/131515.html
+    source_sha256: 4b2a2818b8c7b6d29c6ccd49e88b9837c8f4d376d851faf008c48dbc3722608a
+    file_name: 2025122508534043.png
+    publisher: 设计无忧网
+    official: false
+    rights_holder: 南京大学金陵学院
+    asset_license: null
+    repository: null
+    commit: null
+    repository_license: null
+    source_type: community_website
+    availability: found
+    verified: auto
+    checked_at: '2026-10-03'
+    identity_basis: 逐图查看后确认图中可读的完整校名或组合校名为南京大学金陵学院；未改名学校的同名图形，不采用母校单独校徽。
+    usage_note: 公开来源预览原图，已逐图确认完整现行校名；不把目录自述的官网来源或付费矢量格式当作校方发布或实测格式。图形权利仍归学校，仅索引，不镜像原图；屏幕取色仅作PPT参考。
+    sha256: 0dcd4d6557e2bcb947a7f11922afe00a33e0b62356a282e9ca2b73e159e19576
+    access_status: content_inspected
+    byte_size: 53870
+    format: png
+    vector: false
+    width: 1050
+    representation: raster
+    height: 768
+    has_alpha: false
+    transparent_background: false
+  color_palette:
+  - value: '#3A6956'
+    rgb:
+    - 58
+    - 105
+    - 86
+    cmyk: null
+    pantone: null
+    label: 现行标识屏幕取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://www.sj51.net/wp-content/uploads/2025/12/2025122508534043.png
+    page_source: https://www.sj51.net/131515.html
+    source_sha256: 0dcd4d6557e2bcb947a7f11922afe00a33e0b62356a282e9ca2b73e159e19576
+    asset_id: 9ef7fa906afd92df4b74af24
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 原图非灰度像素中出现次数最多的实际RGB；未缩小取样。；从已逐图确认的现行标识取得，仅作PPT建议色，不是官方VI标准。
   vi_resources: []
   landmarks: []
 culture:

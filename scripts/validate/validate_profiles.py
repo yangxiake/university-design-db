@@ -395,6 +395,17 @@ def check_extended_entry(dotted, item, label, errors, release=False):
                 errors.append(label+': archive asset needs a safe member name and archive URL')
             if not re.fullmatch(r'[0-9a-f]{64}',str(item.get('archive_sha256',''))):
                 errors.append(label+': archive asset needs a pinned archive hash')
+        if item.get('download_kind')=='document_page':
+            page,total=item.get('document_page'),item.get('document_page_count')
+            size,region=item.get('document_image_dimensions'),item.get('document_mark_region')
+            valid_region=(isinstance(size,list) and len(size)==2 and all(type(v) is int and v>0 for v in size)
+                and isinstance(region,list) and len(region)==4 and all(type(v) is int for v in region)
+                and 0<=region[0]<region[2]<=size[0] and 0<=region[1]<region[3]<=size[1])
+            if (item.get('format')!='pdf' or item.get('representation')!='document_embedded_raster' or item.get('vector') is not False
+                or type(page) is not int or type(total) is not int or not 1<=page<=total
+                or type(item.get('document_image_index')) is not int or item['document_image_index']<0 or not valid_region
+                or not re.fullmatch(r'[0-9a-f]{64}',str(item.get('document_image_sha256','')))):
+                errors.append(label+': PDF mark needs a real page, embedded image hash, bounded region and raster representation')
     elif dotted=='visual.color_palette':
         value=item.get('value')
         if value is None:

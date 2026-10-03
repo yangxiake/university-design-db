@@ -2,7 +2,7 @@
 
 为个人和 AI 助手制作高校主题 PPT 整理可检索的学校事实、视觉线索和资源入口。
 
-最新主字段资料更新：[v0.4.1-20261003](https://github.com/yangxiake/university-design-db/releases/tag/v0.4.1-20261003)。交接、覆盖和使用方法见[本批说明](docs/releases/2026-10-03-core-completion.md)。这是附来源的自动整理预发布版，尚未全量补齐；本轮仅收现行已确认资料，剩余缺口逐校保留。
+最新主字段资料更新：[v0.4.2-20261003](https://github.com/yangxiake/university-design-db/releases/tag/v0.4.2-20261003)。交接、覆盖和使用方法见[本批说明](docs/releases/2026-10-03-other-sources.md)。这是附来源的自动整理预发布版，尚未全量补齐；仅收现行已确认资料，剩余32所、59项缺口逐校保留。
 
 **当前范围：教育部 2026 年名单中的全部 1,412 所本科院校，均已建档。** 含普通本科、职业本科、民办与合作办学院校；不再采用旧版 933 所选校过滤。资料持续自动补采，本轮不要求人工签核。建档数量与字段覆盖率分别统计，见[覆盖率报告](docs/coverage-2026.md)。
 
@@ -40,6 +40,8 @@
 校徽图形只保存逐文件链接和内容元数据。社区仓库的代码/数据许可与学校标识的图形授权分别记录；文件可访问、格式已检查、图形为学校现行版本是不同状态。
 
 `download_kind=archive_member` 表示校徽位于上游压缩包，需按 `archive_url` 和 `archive_member` 读取，主URL不是PNG直链。`checked_at` 是读取日期；`source_revision`、上游提交与哈希用于追溯当时版本。
+
+`download_kind=document_page` 表示标识位于原PDF的指定页和嵌入图区域，需要从原PDF提取。保留`document_page`、`document_image_sha256`与`document_mark_region`，不将PDF当作独立透明图片或矢量标识。
 
 ## 分类和层级
 

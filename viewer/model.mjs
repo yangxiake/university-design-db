@@ -41,6 +41,7 @@ export function matchesSchool(school, f={}) {
 export function previewMode(asset) {
   if (asset.download_kind === 'archive_member') return 'archive';
   if (!safeUrl(asset.resolved_url || asset.url)) return 'no_url';
+  if (asset.download_kind === 'document_page' && String(asset.format || '').toLowerCase() === 'pdf') return 'document';
   if (!['svg','png','jpeg','jpg','gif','webp','bmp','ico','avif'].includes(String(asset.format || '').toLowerCase())) return 'unsupported';
   return asset.access_status === 'content_inspected' ? 'auto' : 'manual';
 }
