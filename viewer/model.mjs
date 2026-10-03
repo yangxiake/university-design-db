@@ -46,7 +46,9 @@ export function previewMode(asset) {
 }
 export function previewBackground(asset, choice='auto') {
   if (choice !== 'auto') return choice;
-  return asset.preview_background_hint?.value === 'dark' ? 'dark' : 'light';
+  const hint=asset.preview_background_hint?.value;
+  if(['dark','light'].includes(hint))return hint;
+  return asset.transparent_background===true && ['site_identity','wordmark'].includes(asset.kind)?'dark':'light';
 }
 export function resourceGroup(resource) {
   if (!resource.category.includes('template')) return 'visual';
@@ -55,4 +57,81 @@ export function resourceGroup(resource) {
 export function formatSize(bytes) {
   if (!Number.isFinite(bytes)) return '未记录';
   return bytes < 1024 ? `${bytes} B` : bytes < 1024*1024 ? `${(bytes/1024).toFixed(1)} KB` : `${(bytes/1024/1024).toFixed(1)} MB`;
+}
+
+const SHA = /^[a-f0-9]{64}$/i;
+const IMAGE_FORMATS = new Set(['svg','png','jpeg','jpg','gif','webp','bmp','ico','avif']);
+function fileLocation(entry) {
+  const url = safeUrl(entry.resolved_url || entry.url || entry.download_url);
+  if (!url) return '';
+  const u = new URL(url); u.hash='';
+  return u.href + (entry.archive_member ? `|member:${entry.archive_member}` : '');
+}
+function fileIdentity(entry, index) {
+  const hash=SHA.test(entry.sha256 || '')?entry.sha256.toLowerCase():'';
+  if(!hash && !fileLocation(entry))return `record:${index}`;
+  if (entry.download_kind==='document_page') return JSON.stringify(['document',hash || fileLocation(entry),
+    entry.document_page,entry.document_image_index,entry.document_image_sha256,entry.document_mark_region]);
+  return hash?`sha:${hash}`:fileLocation(entry)?`url:${fileLocation(entry)}`:`record:${index}`;
+}
+function fileGroups(entries) {
+  const hashes=new Map();
+  for(const entry of entries) {
+    const location=fileLocation(entry);
+    if(location && SHA.test(entry.sha256 || '') && entry.download_kind!=='document_page') {
+      if(!hashes.has(location))hashes.set(location,new Set());hashes.get(location).add(entry.sha256.toLowerCase());
+    }
+  }
+  return grouped(entries,(entry,index)=>{
+    const known=hashes.get(fileLocation(entry));
+    if(!SHA.test(entry.sha256 || '') && entry.download_kind!=='document_page' && known?.size===1)return `sha:${[...known][0]}`;
+    return fileIdentity(entry,index);
+  });
+}
+function grouped(entries, keyOf) {
+  const groups=new Map();
+  entries.forEach((entry,index)=>{const key=keyOf(entry,index);if(!groups.has(key))groups.set(key,{key,entries:[]});groups.get(key).entries.push(entry);});
+  return [...groups.values()];
+}
+export function groupLogoAssets(assets) {
+  // Same bytes share sources; different files remain selectable versions within their type.
+  const versions=fileGroups(assets);
+  const families=new Map();
+  for(const version of versions) {
+    const kinds=[...new Set(version.entries.map(a=>a.kind))].sort();
+    const kind=kinds.length===1?kinds[0]:'mixed';
+    const key=kind==='mixed'?`mixed:${version.key}`:kind;
+    if(!families.has(key))families.set(key,{key,kind,versions:[]});
+    families.get(key).versions.push(version);
+  }
+  return [...families.values()];
+}
+export function groupColors(colors) {
+  return grouped(colors,(c,index)=>{
+    const hex=/^#[a-f0-9]{6}$/i.test(c.value || '')?c.value.toUpperCase():null;
+    const rgb=c.rgb || (hex?[1,3,5].map(i=>parseInt(hex.slice(i,i+2),16)):null);
+    if(!hex && !c.cmyk && !c.cmyk_text && !c.pantone)return `record:${index}`;
+    // Inconsistent RGB, print notations and Pantone are not discarded as duplicate HEX.
+    return JSON.stringify([hex,rgb,c.cmyk || null,c.cmyk_text || null,c.pantone || null]);
+  });
+}
+export function groupResources(resources) {
+  return grouped(resources,(r,index)=>{
+    const url=safeUrl(r.url);
+    return url?JSON.stringify([url,resourceGroup(r),r.edition_year || null]):`record:${index}`;
+  });
+}
+export function groupPresentations(files) {return fileGroups(files);}
+export function previewSources(entries, localFiles={}) {
+  const sources=[];const seen=new Set();
+  const add=(url,local)=>{if(url && !seen.has(url)){seen.add(url);sources.push({url,local});}};
+  for(const a of entries) {
+    const sha=(a.sha256 || '').toLowerCase(), cached=localFiles[sha];
+    if(a.download_kind!=='document_page' && SHA.test(sha) && cached && IMAGE_FORMATS.has(cached.format)
+      && cached.format===String(a.format || '').toLowerCase())add(`../tmp/viewer-previews/${sha}.${cached.format}`,true);
+  }
+  for(const a of entries)if(['auto','manual'].includes(previewMode(a))) {
+    add(safeUrl(a.resolved_url || a.url),false);add(safeUrl(a.url),false);
+  }
+  return sources;
 }

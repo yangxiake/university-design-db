@@ -53,7 +53,8 @@ def main():
     node = shutil.which(args.node)
     if not node:
         parser.error('Node.js 24 is required; install it or pass --node /absolute/path/to/node')
-    jobs = JOBS + [('viewer model tests', [node, '--test', 'viewer/tests/model.test.mjs'])]
+    tests = sorted(str(p.relative_to(ROOT)) for p in (ROOT / 'viewer/tests').glob('*.test.mjs'))
+    jobs = JOBS + [('viewer model tests', [node, '--test', *tests])]
     before = snapshot()
     failed = []
     with ThreadPoolExecutor(max_workers=args.jobs) as pool:
