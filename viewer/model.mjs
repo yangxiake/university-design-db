@@ -1,6 +1,5 @@
-export const TAGS = {double_first:'双一流', vocational_undergraduate:'职业本科', private:'民办',
-  cooperative:'合作办学', all_undergraduate:'全量本科', name_ends_university:'校名以大学结尾',
-  short_name:'短校名', moe_note_blank:'教育部备注为空', hainan_education_institution:'海南教育机构'};
+// Only school attributes intended for display; collection tags stay in the data.
+export const TAGS = {double_first:'双一流', vocational_undergraduate:'职业本科', private:'民办', cooperative:'合作办学'};
 export const KINDS = {badge:'纯校徽', wordmark:'校名文字', combination:'徽名组合',
   site_identity:'官网页眉标识（构成待核验）', anniversary:'纪念标识'};
 export const COLOR_STATUS = {official_vi:'官方数字主色', official_print_only:'主色仅有印刷值',

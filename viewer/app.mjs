@@ -3,7 +3,8 @@ import {TAGS,KINDS,COLOR_STATUS,ACCESS,METHODS,safeUrl,matchesSchool,materialMat
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;
-const fields = ['query','province','tag','type','source','format','kind','transparent','status','colorStatus'];
+const fields = ['query','province','type','source','format','kind','transparent','status','colorStatus'];
+const advancedFields = ['source','format','kind','transparent','status','colorStatus'];
 const state = {catalog:null,selected:null,page:0,rows:[],loadId:0,bundles:new Map(),background:'auto'};
 const availability = {unresearched:'尚未调查',not_found:'已检索，尚未找到',conflict:'来源冲突，暂停选择'};
 function el(tag, text='', className='') {
@@ -70,11 +71,14 @@ function restoreFilters() {
     $(key).value=key==='query' || [...$(key).options].some(o=>o.value===value)?value:'';}
   if (!$('type').value) $('type').value='all';
   updateFilterControls();
+  document.querySelector('.advanced').open=advancedFields.some(key=>$(key).value);
 }
 function updateFilterControls() {
   const type=$('type').value;
   for (const key of ['kind','transparent']) {$(key).disabled=!['all','logo'].includes(type); if ($(key).disabled) $(key).value='';}
   for (const key of ['format','status']) {$(key).disabled=type==='color'; if ($(key).disabled) $(key).value='';}
+  const count=advancedFields.filter(key=>$(key).value).length;
+  $('filter-summary').textContent=count?`已启用 ${count} 项条件`:'来源、格式与标识样式';
 }
 function refreshResults(updateUrl=true) {
   if (!state.catalog) return;
@@ -89,7 +93,7 @@ function refreshResults(updateUrl=true) {
 }
 function renderList() {
   const pages=Math.max(1,Math.ceil(state.rows.length/PAGE_SIZE)); state.page=Math.min(state.page,pages-1);
-  $('result-count').textContent=`${state.rows.length.toLocaleString()} 所匹配学校 / ${state.catalog.school_count.toLocaleString()} 所本科院校`;
+  $('result-count').textContent=`找到 ${state.rows.length.toLocaleString()} 所学校`;
   const list=$('school-list'); list.replaceChildren();
   if (!state.rows.length) list.append(el('p','暂无匹配学校。可减少素材条件或重置筛选。','empty'));
   for (const school of state.rows.slice(state.page*PAGE_SIZE,(state.page+1)*PAGE_SIZE)) {
@@ -103,8 +107,8 @@ function renderList() {
   $('prev').disabled=state.page===0; $('next').disabled=!state.rows.length || state.page>=pages-1;
 }
 function welcome() {
-  const node=el('div','','welcome'); node.append(el('span','从学校开始','section-kicker'),el('h2','让资料成为你的下一页 PPT。'),
-    el('p','选择学校后，逐项查看标识文件、配色方法、模板格式和来源。未找到资料与预览失败会分别显示。'));
+  const node=el('div','','welcome'); node.append(el('span','从学校开始','section-kicker'),el('h2','选择学校，开始查找素材。'),
+    el('p','选择学校后，比较校徽和校名标识，复制配色，或查看 PPT 模板。每项资料均保留来源说明。'));
   if (state.catalog) {const actions=el('div','','welcome-actions');
     for (const [code,label] of [['4111010003','清华大学'],['4111010001','北京大学'],['4131010276','华东政法大学']])
       actions.append(button(label,()=>{for(const key of fields)$(key).value=key==='type'?'all':'';refreshResults(false);selectSchool(code);}));
@@ -275,18 +279,21 @@ async function initialize() {
   try {
     const response=await fetch('data/catalog.json');if(!response.ok)throw new Error('Catalog request failed');
     state.catalog=await response.json();
-    for(const [key,values,label] of [['province',state.catalog.provinces,v=>v],['tag',state.catalog.tags,v=>TAGS[v] || v],['format',state.catalog.formats,v=>v]])
+    const formats=state.catalog.formats.filter(value=>!['HTML','HTML/未知','PPTX示例','未知（未读取目标）'].includes(value));
+    for(const [key,values,label] of [['province',state.catalog.provinces,v=>v],['format',formats,v=>({'LATEX/BEAMER':'LaTeX / Beamer','MARKDOWN/MARP':'Markdown / Marp'}[v] || v)]])
       for(const value of values){const option=el('option',label(value));option.value=value;$(key).append(option);}
     const totals=$('totals');totals.replaceChildren();
     for(const [number,label] of [[state.catalog.school_count,'所本科院校'],[state.catalog.schools.filter(s=>s.inspected_logo_count).length,'所已读取标识'],[state.catalog.schools.reduce((n,s)=>n+s.presentation_count,0),'份PPTX结构记录']]){const span=el('span');span.append(el('strong',number.toLocaleString()),label);totals.append(span);}
-    restoreFilters();refreshResults(false);const code=new URL(location.href).searchParams.get('school');if(code)await selectSchool(code,false);else welcome();
+    const code=new URL(location.href).searchParams.get('school');
+    restoreFilters();refreshResults(false);if(code)await selectSchool(code,false);else welcome();
+    writeUrl();
   } catch { $('totals').textContent='检索目录载入失败';$('result-count').textContent='请先启动本地HTTP服务';
     $('detail').replaceChildren(el('p',location.protocol==='file:'?'请通过本地HTTP地址打开目录。运行 python3 -m http.server 8765 --bind 127.0.0.1，然后访问 http://127.0.0.1:8765/viewer/。':'目录载入失败，请确认服务目录为资料库根目录，并已生成 viewer/data。','empty'),button('重新载入',()=>location.reload())); }
 }
 $('filters').addEventListener('submit',event=>event.preventDefault());
 let debounce;$('query').addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(()=>refreshResults(),130);});
 $('filters').addEventListener('change',event=>{if(event.target.id!=='query')refreshResults();});
-$('filters').addEventListener('reset',()=>setTimeout(()=>{clearTimeout(debounce);state.selected=null;state.loadId++;refreshResults();welcome();},0));
+$('filters').addEventListener('reset',()=>setTimeout(()=>{clearTimeout(debounce);state.selected=null;state.loadId++;document.querySelector('.advanced').open=false;refreshResults();welcome();},0));
 $('prev').addEventListener('click',()=>{state.page--;renderList();$('school-list').scrollTop=0;});
 $('next').addEventListener('click',()=>{state.page++;renderList();$('school-list').scrollTop=0;});
 window.addEventListener('popstate',()=>{if(!state.catalog)return;const code=new URL(location.href).searchParams.get('school');state.selected=null;state.loadId++;restoreFilters();refreshResults(false);if(code)selectSchool(code,false);else welcome();});
