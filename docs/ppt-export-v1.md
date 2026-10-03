@@ -37,11 +37,11 @@
 ### 配色
 
 - `official_digital`：校方VI有HEX/RGB的色卡；角色与具体用途看`role/basis`，不把所有官方色都称为主色。
-- `official_print_only`：只有CMYK/Pantone证据，屏幕值留空。
+- `official_print_only`：校方色卡只有CMYK/Pantone证据，该色卡的屏幕值留空。
 - `references`：图片取色、社区主题等建议色，方法和来源独立保留。
 - `screen_status=official_vi`：使用原主色事实中的校方数字值。
-- `screen_status=official_print_only`：原主色仅有印刷证据，`screen_primary=null`；采样值仍在原事实或参考列表中。
-- `screen_status=design_reference`：原主色事实是取样等建议值，`screen_primary`保留其方法，不能认作官方色。
+- `screen_status=official_print_only`：官方主色仅有印刷证据且原主色没有独立屏幕建议，`screen_primary=null`。
+- `screen_status=design_reference`：原主色事实是取样或官网CSS等独立来源的建议值，`screen_primary`保留其方法，不能认作官方色。已有官方印刷主色时仍另列原始印刷值，建议色不由其换算，也不替代官方标准。
 - `screen_status=conflict`：主色自动选择为空，来源候选完整保存。辅色冲突另列，不删除已明确的主色。
 - 原主色尚未调查或未找到时保持该状态，即使有其他参考色卡也不自动指定一个主色。
 

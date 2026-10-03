@@ -62,12 +62,22 @@ research:
   audit_key: '4132013990'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#A72126'
+    availability: found
     search_sources: []
+    source: https://hs.nufe.edu.cn/_upload/tpl/00/03/3/template3/css/base.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: 8032815c37748612dfcf8ddb8ada3339e44f6c6e2dabb08891cc2aa887d4845a
+    homepage_source: https://hs.nufe.edu.cn
+    homepage_sha256: f12a2f066aec069c87a6077f6ad4ab7e24371432973aa9ab31e725b726c582a8
+    css_selector: .wp-header
+    css_declaration: background:#a72126 url(../images/header-bg.jpg) no-repeat 66% center;
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网页眉背景声明中的实色回退值#A72126；该规则同时指定背景图，因此此值仅作为明确CSS参考，不等同完整页眉的呈现色；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
   color_secondary:
     value: null
     source: null
@@ -125,7 +135,31 @@ visual:
     byte_size: 15936
     representation: raster
     resolved_url: https://hs.nufe.edu.cn/_upload/tpl/00/03/3/template3/images/logo.png
-  color_palette: []
+  color_palette:
+  - value: '#A72126'
+    rgb:
+    - 167
+    - 33
+    - 38
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网页眉背景声明中的实色回退值#A72126；该规则同时指定背景图，因此此值仅作为明确CSS参考，不等同完整页眉的呈现色；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
+    source: https://hs.nufe.edu.cn/_upload/tpl/00/03/3/template3/css/base.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: 8032815c37748612dfcf8ddb8ada3339e44f6c6e2dabb08891cc2aa887d4845a
+    homepage_source: https://hs.nufe.edu.cn
+    homepage_sha256: f12a2f066aec069c87a6077f6ad4ab7e24371432973aa9ab31e725b726c582a8
+    css_selector: .wp-header
+    css_declaration: background:#a72126 url(../images/header-bg.jpg) no-repeat 66% center;
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:

@@ -98,10 +98,10 @@ def rows_for(profile,path):
     logo=max(visual['logo_assets'],key=logo_score,default={});color=visual['color_primary']
     print_primary=next((c for c in visual['color_palette'] if c.get('method')=='official_vi' and c.get('role')=='primary' and c.get('value') is None),None)
     if print_primary and color.get('method')!='official_vi' and color['availability']!='conflict':
-        # A sampled header may be gold although the published standard is blue.
-        # Keep the sample in canonical facts, but do not recommend it in place
-        # of a print-only official primary in this derived starter index.
-        color=dict(print_primary,availability='official_print_only',basis=print_primary['basis']+'；屏幕主色未公布，其他取色建议另见VISUAL.md。')
+        if color['availability']=='found' and color.get('value'):
+            color=dict(color,basis=color['basis']+'；独立来源的PPT设计参考，官方印刷值另列；此参考不是印刷色换算值或校方数字标准。')
+        else:
+            color=dict(print_primary,availability='official_print_only',basis=print_primary['basis']+'；无独立屏幕建议值，不换算CMYK/Pantone。')
     starter=dict(base,official_website=identity['official_website'].get('value'),profile_path=path.relative_to(ROOT).as_posix(),
         visual_path=path.with_name('VISUAL.md').relative_to(ROOT).as_posix(),logo_url=logo.get('url'),logo_kind=logo.get('kind'),
         logo_format=logo.get('format'),logo_official=logo.get('official'),logo_access_status=logo.get('access_status'),logo_source=logo.get('source'),logo_asset_id=logo.get('asset_id'),

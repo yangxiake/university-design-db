@@ -22,12 +22,16 @@ identity:
     collector: ppt_core_wikidata
     basis: 同校Wikidata条目英文标签；社区名称记录，非校方命名证明。
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://ky.zstu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://ky.zstu.edu.cn/
+    source_sha256: 6e0dd98c879a9d10b0709d17e22a595970e7f6708826dd84781183176ca0cf19
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    collector: core_completion_homepage
+    basis: 实际读取学校主页并核对当前完整校名主体，所引用徽名组合另经实际像素内容检查。
   short_name_zh:
     value: null
     source: null
@@ -74,12 +78,20 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#007038'
+    availability: found
     search_sources: []
+    source: https://ky.zstu.edu.cn/images/logo0826122.png
+    checked_at: '2026-10-03'
+    verified: auto
+    method: badge_sample
+    source_type: official_website
+    collector: ppt_core_palette_selection
+    previous_status: unresearched
+    original_palette_method: badge_sample
+    asset_id: 98f5fdb52f10a06ed44ed361
+    source_sha256: ad178b5e3325dc6d7863ba83607fdefb6bda98032cd4625a19cdc8a48b7002e5
+    basis: 从已读取的官网标识文件及已有取色记录选择PPT设计建议主色；社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；从核对过当前校名的官网组合标识取色，属于PPT参考，不是学校VI标准。；不是学校官方VI标准色。
   color_secondary:
     value: null
     source: null
@@ -101,8 +113,80 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 98f5fdb52f10a06ed44ed361
+    kind: combination
+    title: 浙江理工大学科技与艺术学院官网徽名组合
+    url: https://ky.zstu.edu.cn/images/logo0826122.png
+    source: https://ky.zstu.edu.cn/
+    file_name: logo0826122.png
+    upstream_path: null
+    publisher: 浙江理工大学科技与艺术学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 浙江理工大学科技与艺术学院
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    source_type: official_website
+    source_sha256: 6e0dd98c879a9d10b0709d17e22a595970e7f6708826dd84781183176ca0cf19
+    variant: 反白文字
+    visual_review: auto
+    visual_review_basis: 校徽环周含本学院名称，旁侧文字完整写有浙江理工大学科技与艺术学院及KEYI COLLEGE OF ZHEJIANG SCI-TECH UNIVERSITY；实际是本学院徽名组合
+    identity_basis: 学校主页身份匹配当前名称，已实际读取并查看引用的原始图形，完整校名一致。
+    usage_note: 仅保存官网链接和原始文件元数据，不再分发图形。反白文字使用深色背景预览；整体徽名组合不能只截母校图形称学院专用校徽。
+    sha256: ad178b5e3325dc6d7863ba83607fdefb6bda98032cd4625a19cdc8a48b7002e5
+    access_status: content_inspected
+    byte_size: 57576
+    format: png
+    vector: false
+    width: 877
+    representation: raster
+    height: 210
+    has_alpha: true
+    transparent_background: true
+  color_palette:
+  - value: '#007038'
+    rgb:
+    - 0
+    - 112
+    - 56
+    cmyk: null
+    pantone: null
+    label: 官网标识PPT建议色
+    role: reference
+    method: badge_sample
+    official: false
+    source: https://ky.zstu.edu.cn/images/logo0826122.png
+    page_source: https://ky.zstu.edu.cn/
+    asset_id: 98f5fdb52f10a06ed44ed361
+    source_sha256: ad178b5e3325dc6d7863ba83607fdefb6bda98032cd4625a19cdc8a48b7002e5
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；从核对过当前校名的官网组合标识取色，属于PPT参考，不是学校VI标准。
+  - value: '#78B090'
+    rgb:
+    - 120
+    - 176
+    - 144
+    cmyk: null
+    pantone: null
+    label: 官网标识PPT建议色
+    role: reference
+    method: badge_sample
+    official: false
+    source: https://ky.zstu.edu.cn/images/logo0826122.png
+    page_source: https://ky.zstu.edu.cn/
+    asset_id: 98f5fdb52f10a06ed44ed361
+    source_sha256: ad178b5e3325dc6d7863ba83607fdefb6bda98032cd4625a19cdc8a48b7002e5
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；从核对过当前校名的官网组合标识取色，属于PPT参考，不是学校VI标准。
   vi_resources: []
   landmarks: []
 culture:

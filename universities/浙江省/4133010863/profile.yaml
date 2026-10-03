@@ -64,12 +64,22 @@ research:
   audit_key: '4133010863'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#0E64A4'
+    availability: found
     search_sources: []
+    source: https://www.nbpu.edu.cn/_upload/tpl/00/be/190/template190/css/style.css?version=1.0.3
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: bd855bb4ad47a845db0cf0e4efcb6d311ab1eb59ffa51d9726863117006b103d
+    homepage_source: https://www.nbpu.edu.cn/
+    homepage_sha256: 711ed7b618d9901e64b3f19732894fbf48a851f8b1b0f4f526d9650b31de28fd
+    css_selector: :root
+    css_declaration: '--mainColor: #0E64A4;'
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 学校自有样式表的mainColor变量明确为#0E64A4，新闻区域样式引用该变量；不采用通用Swiper等组件默认值；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
   color_secondary:
     value: null
     source: null
@@ -127,7 +137,31 @@ visual:
     byte_size: 46901
     representation: raster
     resolved_url: https://www.nbpu.edu.cn/_upload/tpl/00/be/190/template190/images/logo.png
-  color_palette: []
+  color_palette:
+  - value: '#0E64A4'
+    rgb:
+    - 14
+    - 100
+    - 164
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 学校自有样式表的mainColor变量明确为#0E64A4，新闻区域样式引用该变量；不采用通用Swiper等组件默认值；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
+    source: https://www.nbpu.edu.cn/_upload/tpl/00/be/190/template190/css/style.css?version=1.0.3
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: bd855bb4ad47a845db0cf0e4efcb6d311ab1eb59ffa51d9726863117006b103d
+    homepage_source: https://www.nbpu.edu.cn/
+    homepage_sha256: 711ed7b618d9901e64b3f19732894fbf48a851f8b1b0f4f526d9650b31de28fd
+    css_selector: :root
+    css_declaration: '--mainColor: #0E64A4;'
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:

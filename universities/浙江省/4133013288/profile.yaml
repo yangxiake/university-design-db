@@ -65,12 +65,22 @@ research:
   audit_key: '4133013288'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#3A4A9D'
+    availability: found
     search_sources: []
+    source: https://www.zsit.edu.cn/css/newmobile.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: 8d3f930f53924b919c1375aadeae2f27808cac999f3537f59f17ae70b47c61c6
+    homepage_source: https://www.zsit.edu.cn/
+    homepage_sha256: 1b0f1902d6f20731f5057177b894528b14ca91a7600c52a52c36c1ed6815b68c
+    css_selector: .mobile-nav
+    css_declaration: 'background: rgba(58, 74, 157, 1);'
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网移动导航背景的明确不透明RGBA值(58,74,157,1)，精确写成RGB#3A4A9D；未换算印刷色或透明叠加色；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
   color_secondary:
     value: null
     source: null
@@ -128,7 +138,31 @@ visual:
     byte_size: 14505
     representation: raster
     resolved_url: https://www.zsit.edu.cn/imgs/logo.png
-  color_palette: []
+  color_palette:
+  - value: '#3A4A9D'
+    rgb:
+    - 58
+    - 74
+    - 157
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网移动导航背景的明确不透明RGBA值(58,74,157,1)，精确写成RGB#3A4A9D；未换算印刷色或透明叠加色；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
+    source: https://www.zsit.edu.cn/css/newmobile.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: 8d3f930f53924b919c1375aadeae2f27808cac999f3537f59f17ae70b47c61c6
+    homepage_source: https://www.zsit.edu.cn/
+    homepage_sha256: 1b0f1902d6f20731f5057177b894528b14ca91a7600c52a52c36c1ed6815b68c
+    css_selector: .mobile-nav
+    css_declaration: 'background: rgba(58, 74, 157, 1);'
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:

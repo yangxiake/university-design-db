@@ -62,12 +62,22 @@ research:
   audit_key: '4132013991'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#004F8A'
+    availability: found
     search_sources: []
+    source: https://www.justsit.edu.cn/_upload/tpl/00/02/2/template2/style.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: d6416864bc3d5d6fa1c4d9904fd97ae55f4da007de5a845d159891884e5cf3af
+    homepage_source: https://www.justsit.edu.cn/
+    homepage_sha256: c8e85a7b9a7cd91033bbb91e2895ff392d525aa66538b337eb12ef483908bd4b
+    css_selector: .top
+    css_declaration: background:#004f8a;
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网首页top页眉区域明确背景色#004F8A，当前页面包含对应元素；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
   color_secondary:
     value: null
     source: null
@@ -89,8 +99,104 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 999ae479192d71ad8ac52179
+    title: 江苏科技大学苏州理工学院教育在线标识预览
+    kind: badge
+    url: https://static-data.gaokao.cn/upload/logo/2554.jpg
+    source: https://static-data.gaokao.cn/www/2.0/school/2554/info.json
+    file_name: 2554.jpg
+    upstream_path: null
+    publisher: 教育在线 gaokao.cn
+    official: false
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 江苏科技大学苏州理工学院
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    source_type: community_website
+    source_sha256: bbc32556c801c908dc22d5b5b18e5254516c6f0b04924e35e965add47df78e63
+    identity_basis: 学校目录与详情的当前完整中文名、平台ID一致；图形另外逐图核对校名，不凭ID认定归属。
+    usage_note: 教育在线学校资料缓存链接；不认定校方现行VI或图形授权，仅保存实际文件元数据，不再分发图形。
+    sha256: d4c0023b0ffc7b9703c779191eda712c9ec2cc1b9766f8ac8bb16b05e6f69171
+    access_status: content_inspected
+    byte_size: 13369
+    format: jpeg
+    vector: false
+    width: 200
+    representation: raster
+    height: 200
+    has_alpha: false
+    transparent_background: false
+    visual_review: auto
+    visual_review_basis: 实际图形环周英文完整写有SUZHOU INSTITUTE OF TECHNOLOGY JIANGSU UNIVERSITY OF SCIENCE AND
+      TECHNOLOGY，中文为江苏科技大学苏州理工学院；属于本学院专用标识。复核修正此前误判为母校徽名的决定。
+  color_palette:
+  - value: '#004F8A'
+    rgb:
+    - 0
+    - 79
+    - 138
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网首页top页眉区域明确背景色#004F8A，当前页面包含对应元素；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
+    source: https://www.justsit.edu.cn/_upload/tpl/00/02/2/template2/style.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: d6416864bc3d5d6fa1c4d9904fd97ae55f4da007de5a845d159891884e5cf3af
+    homepage_source: https://www.justsit.edu.cn/
+    homepage_sha256: c8e85a7b9a7cd91033bbb91e2895ff392d525aa66538b337eb12ef483908bd4b
+    css_selector: .top
+    css_declaration: background:#004f8a;
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+  - value: '#003078'
+    rgb:
+    - 0
+    - 48
+    - 120
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2554.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2554/info.json
+    asset_id: 999ae479192d71ad8ac52179
+    source_sha256: d4c0023b0ffc7b9703c779191eda712c9ec2cc1b9766f8ac8bb16b05e6f69171
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
+  - value: '#003070'
+    rgb:
+    - 0
+    - 48
+    - 112
+    cmyk: null
+    pantone: null
+    label: 平台标识取色参考
+    role: reference
+    method: community_logo_sample
+    official: false
+    source: https://static-data.gaokao.cn/upload/logo/2554.jpg
+    page_source: https://static-data.gaokao.cn/www/2.0/school/2554/info.json
+    asset_id: 999ae479192d71ad8ac52179
+    source_sha256: d4c0023b0ffc7b9703c779191eda712c9ec2cc1b9766f8ac8bb16b05e6f69171
+    verified: auto
+    checked_at: '2026-10-02'
+    availability: found
+    basis: 社区标识图像缩小取样并按8级量化，过滤透明及灰度像素；仅作PPT建议色。；实际读取平台标识文件所得PPT设计参考，不是学校官方VI标准。
   vi_resources: []
   landmarks: []
 culture:

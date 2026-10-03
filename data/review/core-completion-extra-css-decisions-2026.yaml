@@ -1,0 +1,51 @@
+- school_code: '4113013404'
+  name_zh: 河北大学工商学院
+  value: '#E71616'
+  source: https://icc.hbu.edu.cn/dfiles/6147/r/cms/www/default/css/index_2019.css
+  source_sha256: 6d7b2a0438aae058080f4451e7bcbde7a4b3619c7318d7193a2ef1d152e1fd4c
+  selector: .header .topline
+  declaration: 'background: #e71616;'
+  color_literal: '#e71616'
+  homepage_tokens:
+  - header
+  - topline
+  reason: 学校主页顶部线条的明示背景色；页面与另行读取的当前全名徽名组合确认学校身份。
+  checked_at: '2026-10-03'
+  verified: auto
+  decision: accept
+  homepage_source: https://icc.hbu.edu.cn/
+  homepage_sha256: 1e3233ea3b9c3293311674e619275266a01e4b3f475ec38d8e50a5b8a0556a36
+- school_code: '4142013240'
+  name_zh: 武汉纺织大学外经贸学院
+  value: '#003466'
+  source: https://www.whcibe.com/style.css
+  source_sha256: f89824975943d2f996e66ce5688cc5fc99eeb96971b05a257b203693da39bc7d
+  selector: .header1
+  declaration: 'border-top: 10px solid rgb(0, 52, 102);'
+  color_literal: rgb(0, 52, 102)
+  homepage_tokens:
+  - header1
+  reason: 官网实际header1页眉顶部边框明示RGB(0,52,102)，精确写成HEX；不宣称首页未出现的header2背景被渲染。
+  checked_at: '2026-10-03'
+  verified: auto
+  decision: accept
+  homepage_source: https://www.whcibe.com/
+  homepage_sha256: 43bfe53395d1d51c9973b357b340d6725d2288112da93d84ff6e624a53307e46
+- school_code: '4132013905'
+  name_zh: 南京工业大学浦江学院
+  value: '#2197D5'
+  source_kind: homepage_inline
+  source: https://www.njpji.edu.cn/
+  source_sha256: 85790d5de75290c06d221db0371aed1fa1ef05f1062aef81da0581d8ea89e861
+  selector: '#w_common_text-1622698457538 span'
+  declaration: color:#2197d5
+  color_literal: '#2197d5'
+  homepage_tokens:
+  - w_common_text-1622698457538
+  evidence: 浦江要闻
+  reason: 官网浦江要闻及多个并列栏目标题的内联样式明确此值，选择学校网站实际声明的栏目强调色。
+  checked_at: '2026-10-03'
+  verified: auto
+  decision: accept
+  homepage_source: https://www.njpji.edu.cn/
+  homepage_sha256: 85790d5de75290c06d221db0371aed1fa1ef05f1062aef81da0581d8ea89e861

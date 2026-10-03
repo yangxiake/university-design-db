@@ -21,15 +21,19 @@ from report_ppt_core import required_gaps
 
 
 class PPTCoreTests(unittest.TestCase):
-    def test_print_only_primary_is_a_screen_gap_despite_recorded_sample(self):
+    def test_print_only_gap_requires_no_independent_screen_reference(self):
         p = load_yaml((ROOT / 'universities/北京市/4111010003/profile.yaml').read_text(encoding='utf-8'))
         p['visual']['color_primary'] = dict(value='#123456', availability='found', method='badge_sample')
         p['visual']['color_palette'] = [dict(value=None, rgb=None, cmyk=[100, 0, 0, 0],
                                            method='official_vi', official=True, role='primary')]
         gaps, recorded_gaps, status = required_gaps(p)
-        self.assertEqual(status, 'official_print_only')
-        self.assertIn('visual.color_primary', gaps)
+        self.assertEqual(status, 'design_reference')
+        self.assertNotIn('visual.color_primary', gaps)
         self.assertNotIn('visual.color_primary', recorded_gaps)
+        p['visual']['color_primary'] = dict(value=None, availability='unresearched')
+        self.assertEqual(required_gaps(p)[2], 'official_print_only')
+        self.assertIn('visual.color_primary', required_gaps(p)[0])
+        p['visual']['color_primary'] = dict(value='#123456', availability='found')
         p['visual']['color_primary']['method'] = 'official_vi'
         self.assertNotIn('visual.color_primary', required_gaps(p)[0])
 

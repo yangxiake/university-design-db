@@ -21,12 +21,16 @@ identity:
     collector: wikipedia_core_infobox
     basis: 当前完整校名的中文维基百科大学信息框EnglishName/外文名称字段；社区记录，非校方命名证明。
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://icc.hbu.edu.cn/
+    availability: found
     search_sources: []
+    source: https://icc.hbu.edu.cn/
+    source_sha256: 1e3233ea3b9c3293311674e619275266a01e4b3f475ec38d8e50a5b8a0556a36
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    collector: core_completion_homepage
+    basis: 实际读取工商学院主页，页面与引用的徽名组合均指向河北大学工商学院完整名称；学校自有hbu.edu.cn子域名。
   short_name_zh:
     value: null
     source: null
@@ -73,12 +77,22 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#E71616'
+    availability: found
     search_sources: []
+    source: https://icc.hbu.edu.cn/dfiles/6147/r/cms/www/default/css/index_2019.css
+    source_sha256: 6d7b2a0438aae058080f4451e7bcbde7a4b3619c7318d7193a2ef1d152e1fd4c
+    homepage_source: https://icc.hbu.edu.cn/
+    homepage_sha256: 1e3233ea3b9c3293311674e619275266a01e4b3f475ec38d8e50a5b8a0556a36
+    css_selector: .header .topline
+    css_declaration: 'background: #e71616;'
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 学校主页顶部线条的明示背景色#E71616；页面主体及另行读取的当前全名徽名组合确认学校身份；仅为PPT设计参考，不是学校官方VI标准；保留原始网页与样式哈希。
   color_secondary:
     value: null
     source: null
@@ -100,8 +114,66 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: db5888e59890daf2b9aea99f
+    kind: combination
+    title: 河北大学工商学院官网反白徽名组合
+    url: https://icc.hbu.edu.cn/dfiles/6147/r/cms/www/default/images/logo.jpg
+    source: https://icc.hbu.edu.cn/
+    file_name: logo.jpg
+    upstream_path: null
+    publisher: 河北大学工商学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 河北大学工商学院
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    source_type: official_website
+    source_sha256: 1e3233ea3b9c3293311674e619275266a01e4b3f475ec38d8e50a5b8a0556a36
+    variant: 反白
+    visual_review: auto
+    visual_review_basis: 反白徽名组合包含河北大学工商学院全称及Industrial and Commercial College,Hebei University；母校徽章与本学院完整名称构成组合，不能只截母校徽章当作学院专用校徽
+    identity_basis: 实际读取学校页面与引用的原始文件，按当前完整校名检查图形；保存原始字节哈希。
+    usage_note: 仅保存官网链接和原始文件元数据，不再分发图形；使用遵循学校规定。反白标识需深色背景预览。
+    sha256: c34856e889e06750d8aebb671a79f0b02029ab31701d93b6c975fd5b2b237a41
+    access_status: content_inspected
+    byte_size: 92088
+    format: png
+    vector: false
+    width: 1621
+    representation: raster
+    height: 272
+    has_alpha: true
+    transparent_background: true
+  color_palette:
+  - value: '#E71616'
+    rgb:
+    - 231
+    - 22
+    - 22
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 学校主页顶部线条的明示背景色#E71616；页面主体及另行读取的当前全名徽名组合确认学校身份；仅为PPT设计参考，不是学校官方VI标准；保留原始网页与样式哈希。
+    source: https://icc.hbu.edu.cn/dfiles/6147/r/cms/www/default/css/index_2019.css
+    source_sha256: 6d7b2a0438aae058080f4451e7bcbde7a4b3619c7318d7193a2ef1d152e1fd4c
+    homepage_source: https://icc.hbu.edu.cn/
+    homepage_sha256: 1e3233ea3b9c3293311674e619275266a01e4b3f475ec38d8e50a5b8a0556a36
+    css_selector: .header .topline
+    css_declaration: 'background: #e71616;'
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:

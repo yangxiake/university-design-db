@@ -62,12 +62,22 @@ research:
   audit_key: '4132013905'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#2197D5'
+    availability: found
     search_sources: []
+    source: https://www.njpji.edu.cn/
+    source_sha256: 85790d5de75290c06d221db0371aed1fa1ef05f1062aef81da0581d8ea89e861
+    homepage_source: https://www.njpji.edu.cn/
+    homepage_sha256: 85790d5de75290c06d221db0371aed1fa1ef05f1062aef81da0581d8ea89e861
+    css_selector: '#w_common_text-1622698457538 span'
+    css_declaration: color:#2197d5
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网浦江要闻及多个并列栏目标题的内联样式明确此值，选择学校网站实际声明的栏目强调色。；仅为PPT设计参考，不是学校官方VI标准；保留原始网页与样式哈希。
   color_secondary:
     value: null
     source: null
@@ -90,7 +100,31 @@ visual:
     availability: unresearched
     search_sources: []
   logo_assets: []
-  color_palette: []
+  color_palette:
+  - value: '#2197D5'
+    rgb:
+    - 33
+    - 151
+    - 213
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网浦江要闻及多个并列栏目标题的内联样式明确此值，选择学校网站实际声明的栏目强调色。；仅为PPT设计参考，不是学校官方VI标准；保留原始网页与样式哈希。
+    source: https://www.njpji.edu.cn/
+    source_sha256: 85790d5de75290c06d221db0371aed1fa1ef05f1062aef81da0581d8ea89e861
+    homepage_source: https://www.njpji.edu.cn/
+    homepage_sha256: 85790d5de75290c06d221db0371aed1fa1ef05f1062aef81da0581d8ea89e861
+    css_selector: '#w_common_text-1622698457538 span'
+    css_declaration: color:#2197d5
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:

@@ -67,12 +67,22 @@ research:
   audit_key: '4143013921'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#BC3331'
+    availability: found
     search_sources: []
+    source: https://www.hnmeida.com.cn/css/common.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: 7bbbcf7cd2751d33eea4e13993eb6335c9852f11a55ed83abded810d433ab953
+    homepage_source: https://www.hnmeida.com.cn
+    homepage_sha256: 8e461405660b6aaf021b75e22745d83da9f5157fb2ec6a12a6488eb444477589
+    css_selector: .nav li a:hover
+    css_declaration: color:#bc3331;
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网导航链接悬停状态明确文字色#BC3331；仅参考已声明的交互强调色，不宣称静态导航默认色；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
   color_secondary:
     value: null
     source: null
@@ -132,7 +142,31 @@ visual:
     resolved_url: https://www.hnmeida.com.cn/images/zhiyedaxuedaibiao.png
     visual_review: auto
     visual_review_basis: 已查看实际官网徽名组合，当前完整中文校名和英文校名同时可见。
-  color_palette: []
+  color_palette:
+  - value: '#BC3331'
+    rgb:
+    - 188
+    - 51
+    - 49
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网导航链接悬停状态明确文字色#BC3331；仅参考已声明的交互强调色，不宣称静态导航默认色；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
+    source: https://www.hnmeida.com.cn/css/common.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: 7bbbcf7cd2751d33eea4e13993eb6335c9852f11a55ed83abded810d433ab953
+    homepage_source: https://www.hnmeida.com.cn
+    homepage_sha256: 8e461405660b6aaf021b75e22745d83da9f5157fb2ec6a12a6488eb444477589
+    css_selector: .nav li a:hover
+    css_declaration: color:#bc3331;
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources:
   - title: 校徽-湖南工艺美术职业大学
     url: https://www.hnmeida.com.cn/info/1014/2409.htm

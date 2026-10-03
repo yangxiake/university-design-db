@@ -65,12 +65,22 @@ research:
   audit_key: '4137012818'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#F49105'
+    availability: found
     search_sources: []
+    source: https://www.bzpt.edu.cn/css/index.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: d2cd1310edc389106cb909cfe31dce0f0889157f46c6c71decbc2af4df5f16b7
+    homepage_source: https://www.bzpt.edu.cn/
+    homepage_sha256: 6549c9c1702883c4549fa7a518cc6638ebb5aa84d7f7d9022f1073c78b9596fd
+    css_selector: .homea .left__a .slide-a .txt time
+    css_declaration: 'background: #f49105;'
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网首页新闻日期块的明确背景色#F49105，作为网站强调色供PPT参考；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
   color_secondary:
     value: null
     source: null
@@ -128,7 +138,31 @@ visual:
     byte_size: 413884
     representation: raster
     resolved_url: https://www.bzpt.edu.cn/images/zzgw-logo-new.png
-  color_palette: []
+  color_palette:
+  - value: '#F49105'
+    rgb:
+    - 244
+    - 145
+    - 5
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网首页新闻日期块的明确背景色#F49105，作为网站强调色供PPT参考；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
+    source: https://www.bzpt.edu.cn/css/index.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: d2cd1310edc389106cb909cfe31dce0f0889157f46c6c71decbc2af4df5f16b7
+    homepage_source: https://www.bzpt.edu.cn/
+    homepage_sha256: 6549c9c1702883c4549fa7a518cc6638ebb5aa84d7f7d9022f1073c78b9596fd
+    css_selector: .homea .left__a .slide-a .txt time
+    css_declaration: 'background: #f49105;'
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:

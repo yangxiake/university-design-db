@@ -25,8 +25,11 @@ def release_files():
              'data/review/ppt-core-queue-2026.csv', 'docs/data-guide.md', 'docs/ppt-guide.md',
              'docs/ppt-export-v1.md', 'docs/viewer-guide.md', 'docs/schema.md', 'docs/quality-checks.md',
              'docs/ppt-core-coverage-2026.md', 'docs/handoff-2026-10-03.md',
+             'docs/core-completion-remaining-2026.md',
              'docs/releases/2026-10-03-ppt-core.md']
     files.extend(ROOT / name for name in names)
+    files.extend(p for p in (ROOT / 'docs/releases').glob('*.md')
+                 if p.relative_to(ROOT).as_posix() in tracked)
     return sorted(set(files), key=lambda p: p.relative_to(ROOT).as_posix())
 
 

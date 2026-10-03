@@ -67,12 +67,22 @@ research:
   audit_key: '4123012053'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#035178'
+    availability: found
     search_sources: []
+    source: https://www.hict.org.cn/css/jianzhu.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: a37ca57d6b676a3e72f51ed259659c68c5910ba56e3af1e92c9adcfa0a472409
+    homepage_source: https://www.hict.org.cn/
+    homepage_sha256: e0d2bbcae416457b02ed724ff2233f5e430b5886c5050b185a1576a8b8324a65
+    css_selector: .xw-date-num
+    css_declaration: 'color: #035178;'
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网新闻日期使用明确文字色#035178；当前主页包含xw-date-num元素，样式表另有同色栏目标题与导航规则；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
   color_secondary:
     value: null
     source: null
@@ -132,7 +142,31 @@ visual:
     resolved_url: https://www.hict.org.cn/images/index4/xiaobiao.png
     visual_review: auto
     visual_review_basis: 已查看实际官网徽名组合，当前完整中文校名和英文校名同时可见。
-  color_palette: []
+  color_palette:
+  - value: '#035178'
+    rgb:
+    - 3
+    - 81
+    - 120
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网新闻日期使用明确文字色#035178；当前主页包含xw-date-num元素，样式表另有同色栏目标题与导航规则；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
+    source: https://www.hict.org.cn/css/jianzhu.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: a37ca57d6b676a3e72f51ed259659c68c5910ba56e3af1e92c9adcfa0a472409
+    homepage_source: https://www.hict.org.cn/
+    homepage_sha256: e0d2bbcae416457b02ed724ff2233f5e430b5886c5050b185a1576a8b8324a65
+    css_selector: .xw-date-num
+    css_declaration: 'color: #035178;'
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:

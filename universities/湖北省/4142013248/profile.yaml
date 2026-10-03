@@ -62,12 +62,22 @@ research:
   audit_key: '4142013248'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#006D83'
+    availability: found
     search_sources: []
+    source: https://kjxy.huat.edu.cn/dfiles/12837/css/lanrenzhijia.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: 7e352b1e57dac49a36a425dce158f851bac0b591c1e25c292b7004a432401fe8
+    homepage_source: https://kjxy.huat.edu.cn/
+    homepage_sha256: 148d51f59fd8762db38f90721aec4e61a80316b545599677f20d53388c6d2930
+    css_selector: .mid_left
+    css_declaration: background:#006d83;
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网首页左侧内容面板的明确背景色#006D83，作为网站配色供PPT参考；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
   color_secondary:
     value: null
     source: null
@@ -125,7 +135,31 @@ visual:
     byte_size: 5706
     representation: raster
     resolved_url: https://kjxy.huat.edu.cn/dfiles/12837/images/logo.jpg
-  color_palette: []
+  color_palette:
+  - value: '#006D83'
+    rgb:
+    - 0
+    - 109
+    - 131
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网首页左侧内容面板的明确背景色#006D83，作为网站配色供PPT参考；作为PPT设计参考，不是学校官方VI标准；未宣称浏览器最终合成颜色。
+    source: https://kjxy.huat.edu.cn/dfiles/12837/css/lanrenzhijia.css
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    source_sha256: 7e352b1e57dac49a36a425dce158f851bac0b591c1e25c292b7004a432401fe8
+    homepage_source: https://kjxy.huat.edu.cn/
+    homepage_sha256: 148d51f59fd8762db38f90721aec4e61a80316b545599677f20d53388c6d2930
+    css_selector: .mid_left
+    css_declaration: background:#006d83;
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:

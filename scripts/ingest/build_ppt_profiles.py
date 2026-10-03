@@ -89,11 +89,13 @@ def colors_for(visual):
     elif primary['availability'] == 'found' and primary.get('method') == 'official_vi':
         selected = primary
         status, reason = 'official_vi', '已记录校方数字色；具体标准色用途以basis为准。'
-    elif print_primary:
-        status, reason = 'official_print_only', '官方主色仅有印刷值，屏幕色留空；设计参考色另列。'
     elif primary['availability'] == 'found':
         selected = primary
-        status, reason = 'design_reference', '已记录的PPT设计参考色；不是校方公布的标准色。'
+        status = 'design_reference'
+        reason = ('采用独立来源的PPT设计参考色；官方印刷色另列，建议色不由CMYK/Pantone换算，也不是校方标准色。'
+                  if print_primary else '已记录的PPT设计参考色；不是校方公布的标准色。')
+    elif print_primary:
+        status, reason = 'official_print_only', '官方主色仅有印刷值且无独立屏幕建议，屏幕色留空；不换算CMYK/Pantone。'
     else:
         status, reason = primary['availability'], '尚无可选择的屏幕主色；保留原调查状态与全部配色证据。'
     return dict(screen_primary=selected, screen_status=status, reason=reason,

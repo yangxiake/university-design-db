@@ -68,7 +68,7 @@ def main():
         lines.append('| %s | %s | %s |' % (SCOPE['required_facts'][field], usable, len(rows) - usable))
     lines += ['| 可读校徽 / 校名标识 | %s | %s |' % (inspected, len(rows) - inspected), '',
               '主字段可用：%s所；%s所学校尚有%s项主字段缺口。' % (complete, report['schools_with_main_field_gaps'], report['missing_main_field_items']), '',
-              '按档案是否已有来源记录统计为%s所。%s所只有官方印刷主色，屏幕值为空，不能计入屏幕PPT就绪，也不换算或补造HEX。主色来源记录共%s所，其中可用屏幕主色%s所。' % (
+              '按档案是否已有来源记录统计为%s所。%s所仅有官方印刷主色且没有独立来源屏幕建议，屏幕值为空，不计入屏幕PPT就绪，也不换算或补造HEX。主色来源记录共%s所，其中可用屏幕主色%s所。' % (
                   recorded_complete, report['print_only_screen_gaps'], fields['visual.color_primary']['found'], report['screen_primary_schools']), '',
               '主色可以是有依据的PPT设计建议色，方法与来源保留；不能把取样颜色称为校方官方标准。英文名、建校年和校训采用社区数据时明确标记社区来源；不冒充校方直接发布。', '',
               '下一批只读取[主字段补采队列](../data/review/ppt-core-queue-2026.csv)。[字段定义](../data/ppt-core-fields.yaml)是范围依据；[当前PPT数据](../indexes/ppt-profiles.jsonl)保留逐项来源。', '']

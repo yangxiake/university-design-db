@@ -17,8 +17,8 @@
 
 | 素材 | 有记录学校 | 条目 |
 | --- | ---: | ---: |
-| 标识 | 1374 | 3790 |
-| 配色（含建议色） | 1364 | 5802 |
+| 标识 | 1379 | 3795 |
+| 配色（含建议色） | 1376 | 5817 |
 | 校方色值 | 124 | 449 |
 
 逐校必备缺口见[主字段覆盖](ppt-core-coverage-2026.md)；机器读取用 `indexes/ppt-profiles.jsonl`。`indexes/core-facts.csv`、`logo-assets.csv` 和 `color-palettes.csv` 支持按字段筛选。

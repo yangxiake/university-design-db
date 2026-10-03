@@ -33,7 +33,7 @@
 - `community_theme`：社区主题作者使用的色值。
 - `availability=conflict`：保留来源中互不一致的候选数字，不自动选择。详情见 [`indexes/color-conflicts.csv`](../indexes/color-conflicts.csv)。
 
-素材索引的 `color_status=official_print_only` 表示已知校方标准主色只公开印刷色。这时索引留空屏幕主色，页眉取色仍在原档案中作为参考；不会用金色页眉的采样色替代校方公布的蓝色印刷标准。
+素材索引的 `color_status=official_print_only` 表示已知校方标准主色只公开印刷色，且没有独立来源的屏幕建议值。这时索引留空屏幕主色。有独立来源的图片取色或官网CSS建议时，可作为PPT设计参考展示，同时保留官方印刷值；方法、来源与说明明确区分，不换算印刷色，也不把建议色称为校方标准色。
 
 不要使用固定公式把CMYK直接转换成“官方RGB”；印刷与屏幕还涉及设备和色彩配置。并列基调色也不等于校方指定的主辅层级。
 

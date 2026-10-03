@@ -274,12 +274,23 @@ decisions:
   name_zh: 江苏科技大学苏州理工学院
   asset_id: 999ae479192d71ad8ac52179
   sha256: d4c0023b0ffc7b9703c779191eda712c9ec2cc1b9766f8ac8bb16b05e6f69171
-  decision: exclude
+  decision: accept
   kind: badge
   reviewer: ai_visual_review
   verified: auto
-  checked_at: '2026-10-02'
-  reason: 图片仅含母校徽名，缺少独立学院名称或本学院专用标识。
+  checked_at: '2026-10-03'
+  reason: 实际图形环周英文完整写有SUZHOU INSTITUTE OF TECHNOLOGY JIANGSU UNIVERSITY OF SCIENCE AND TECHNOLOGY，中文为江苏科技大学苏州理工学院；属于本学院专用标识。复核修正此前误判为母校徽名的决定。
+  previous_decisions:
+  - school_code: '4132013991'
+    name_zh: 江苏科技大学苏州理工学院
+    asset_id: 999ae479192d71ad8ac52179
+    sha256: d4c0023b0ffc7b9703c779191eda712c9ec2cc1b9766f8ac8bb16b05e6f69171
+    decision: exclude
+    kind: badge
+    reviewer: ai_visual_review
+    verified: auto
+    checked_at: '2026-10-02'
+    reason: 图片仅含母校徽名，缺少独立学院名称或本学院专用标识。
 - school_code: '4132013994'
   name_zh: 南京审计大学金审学院
   asset_id: f866543a0f1b41f41b822387

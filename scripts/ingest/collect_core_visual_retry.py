@@ -17,7 +17,6 @@ from profile_extensions import put_fact
 from yaml_io import load_yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-OUTPUT = ROOT / 'data/review/core-handoff-visual-sources-2026.jsonl'
 
 
 def sourced_leads(profiles):
@@ -67,23 +66,32 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workers', type=int, default=6)
     parser.add_argument('--collect-only', action='store_true')
+    parser.add_argument('--output', default='data/review/core-handoff-visual-sources-2026.jsonl')
+    parser.add_argument('--retry-errors', action='store_true')
     parser.add_argument('--decisions', help='Hash-bound decisions for the actual images read')
     args = parser.parse_args()
+    output = ROOT / args.output
     paths = {p.parent.name: p for p in (ROOT / 'universities').glob('*/*/profile.yaml')}
     profiles = {code: load_yaml(p.read_text()) for code, p in paths.items()}
-    records = {r['school_code']: r for r in map(json.loads, OUTPUT.read_text().splitlines())} if OUTPUT.exists() else {}
+    records = {r['school_code']: r for r in map(json.loads, output.read_text().splitlines())} if output.exists() else {}
     if args.collect_only:
         leads = sourced_leads(profiles)
         jobs = [(p['identity'], leads.get(code, [])) for code, p in profiles.items()
-                if code not in records and not any(a.get('access_status') == 'content_inspected' for a in p['visual']['logo_assets'])]
+                if (code not in records or (args.retry_errors and not any(
+                    a.get('access_status') == 'content_inspected' for a in records[code].get('assets', []))))
+                and not any(a.get('access_status') == 'content_inspected' for a in p['visual']['logo_assets'])]
         print('Core visual retry schools:', len(jobs), flush=True)
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
             futures = [pool.submit(retry, identity, urls) for identity, urls in jobs]
             for future in concurrent.futures.as_completed(futures):
-                record = future.result(); records[record['school_code']] = record
-                temporary = OUTPUT.with_suffix('.pending')
+                record = future.result()
+                previous = records.get(record['school_code'])
+                if previous:
+                    record['previous_attempts'] = previous
+                records[record['school_code']] = record
+                temporary = output.with_suffix('.pending')
                 temporary.write_text(''.join(json.dumps(records[c], ensure_ascii=False) + '\n' for c in sorted(records)))
-                temporary.replace(OUTPUT)
+                temporary.replace(output)
                 print(record['name_zh'], record['status'], flush=True)
         return
     if not args.decisions:

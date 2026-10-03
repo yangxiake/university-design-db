@@ -5,7 +5,7 @@
 - 范围学校：1412
 - 已建单校档案：1412
 - 尚未建档：0
-- 已有附来源主色与建校年的档案：1364（含自动采集与建议色，不表示所有字段完备）
+- 已有附来源主色与建校年的档案：1376（含自动采集与建议色，不表示所有字段完备）
 - 已人工签核档案：0
 - 主色和建校年均已人工确认的档案：0
 
@@ -23,9 +23,9 @@
 
 | 字段 | 未调查 | 已找到（自动） | 已找到（人工） | 未找到 | 冲突 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| identity.name_en | 2 | 1410 | 0 | 0 | 0 |
-| identity.official_website | 206 | 1206 | 0 | 0 | 0 |
-| visual.color_primary | 48 | 1364 | 0 | 0 | 0 |
+| identity.name_en | 1 | 1411 | 0 | 0 | 0 |
+| identity.official_website | 203 | 1209 | 0 | 0 | 0 |
+| visual.color_primary | 36 | 1376 | 0 | 0 | 0 |
 | visual.color_secondary | 1379 | 32 | 0 | 0 | 1 |
 | visual.vi_url | 781 | 631 | 0 | 0 | 0 |
 | visual.badge_description | 1110 | 302 | 0 | 0 | 0 |
@@ -75,8 +75,8 @@
 | 方法 | 学校数 | 含义 |
 | --- | ---: | --- |
 | official_vi | 73 | 学校发布的RGB/HEX标准值 |
-| badge_sample | 720 | 校徽像素取样，PPT建议色 |
-| manual_derived | 571 | 官网标识取色或人工推导，PPT建议色 |
+| badge_sample | 721 | 校徽像素取样，PPT建议色 |
+| manual_derived | 582 | 官网标识取色或人工推导，PPT建议色 |
 
 ## 社区资料
 

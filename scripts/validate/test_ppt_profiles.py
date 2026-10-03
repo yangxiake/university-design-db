@@ -12,6 +12,7 @@ import unittest
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts/ingest'))
 from build_ppt_profiles import assert_scope, check_output, colors_for, csv_row, logos_for, record_for, serialize
+from build_ppt_indexes import rows_for
 from yaml_io import load_yaml
 from validate_profiles import check_extended_entry, check_fact
 from validate_schemas import diagnostics, schema_validator
@@ -74,18 +75,36 @@ class PPTExportTests(unittest.TestCase):
         self.assertEqual(result['screen_status'], 'official_vi')
         self.assertEqual(result['screen_primary'], primary)
 
-    def test_print_primary_blocks_sampled_screen_color(self):
+    def test_print_primary_preserves_independent_screen_reference(self):
         primary = self.fact(method='badge_sample', basis='Header sample')
+        printing = dict(self.fact(method='official_vi', basis='Published CMYK'),
+                        value=None, rgb=None, cmyk=[100, 0, 0, 0], official=True, role='primary')
+        result = colors_for(self.visual(primary, [printing]))
+        self.assertEqual(result['screen_status'], 'design_reference')
+        self.assertEqual(result['screen_primary'], primary)
+        self.assertIn('独立来源', result['reason'])
+        self.assertEqual(result['primary_fact'], primary)
+        self.assertEqual(result['official_print_only'], [printing])
+        starter, _, _ = rows_for(self.profile, self.path)
+        self.assertEqual(starter['color_primary'], primary['value'])
+        self.assertEqual(starter['color_method'], 'badge_sample')
+        self.assertEqual(starter['official_print_color_entries'], 1)
+
+    def test_print_primary_without_independent_reference_keeps_empty_screen(self):
+        primary = dict(value=None, availability='unresearched')
         printing = dict(self.fact(method='official_vi', basis='Published CMYK'),
                         value=None, rgb=None, cmyk=[100, 0, 0, 0], official=True, role='primary')
         result = colors_for(self.visual(primary, [printing]))
         self.assertEqual(result['screen_status'], 'official_print_only')
         self.assertIsNone(result['screen_primary'])
-        self.assertEqual(result['primary_fact'], primary)
         self.assertEqual(result['official_print_only'], [printing])
+        starter, _, _ = rows_for(self.profile, self.path)
+        self.assertIsNone(starter['color_primary'])
+        self.assertEqual(starter['color_status'], 'official_print_only')
 
     def test_partial_print_notation_exports_without_screen_conversion(self):
-        self.profile['visual']['color_primary'] = self.fact(method='badge_sample', basis='Header sample')
+        self.profile['visual']['color_primary'] = dict(value=None, source=None, availability='unresearched',
+            verified='unverified', checked_at=None, search_sources=[])
         self.profile['visual']['color_palette'] = [dict(
             self.fact(method='official_vi', basis='Published partial CMYK'),
             value=None, rgb=None, cmyk=None, cmyk_text='C85 M50', pantone=None,

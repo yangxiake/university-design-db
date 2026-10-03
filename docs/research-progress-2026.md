@@ -12,11 +12,11 @@
 
 | 字段状态 | 条数 |
 | --- | ---: |
-| access_limited | 2920 |
+| access_limited | 2915 |
 | conflict | 11 |
-| found | 6567 |
-| needs_interpretation | 6458 |
-| needs_source | 5222 |
+| found | 6580 |
+| needs_interpretation | 6456 |
+| needs_source | 5216 |
 | not_found | 2 |
 
 逐校台账：[学校状态](../data/review/school-research-status-2026.csv)、[逐字段待办](../data/review/field-research-status-2026.csv)、[页面访问记录](../data/review/page-visits-2026.csv)。

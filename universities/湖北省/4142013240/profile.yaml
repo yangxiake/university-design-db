@@ -20,12 +20,16 @@ identity:
     collector: chinaschool_core
     basis: 大学志同校资料页“中文名”精确匹配后，“外文名”栏原值；该栏注明整理自百科，属于社区二手记录，非校方命名证明。
   official_website:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: https://www.whcibe.com/
+    availability: found
     search_sources: []
+    source: https://www.whcibe.com/
+    source_sha256: 43bfe53395d1d51c9973b357b340d6725d2288112da93d84ff6e624a53307e46
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    collector: core_completion_homepage
+    basis: 实际读取学校主页并核对当前完整校名主体，所引用徽名组合另经实际像素内容检查。
   short_name_zh:
     value: null
     source: null
@@ -76,12 +80,22 @@ research:
   website_candidates_updated_at: '2026-10-01'
 visual:
   color_primary:
-    value: null
-    source: null
-    verified: unverified
-    checked_at: null
-    availability: unresearched
+    value: '#003466'
+    availability: found
     search_sources: []
+    source: https://www.whcibe.com/style.css
+    source_sha256: f89824975943d2f996e66ce5688cc5fc99eeb96971b05a257b203693da39bc7d
+    homepage_source: https://www.whcibe.com/
+    homepage_sha256: 43bfe53395d1d51c9973b357b340d6725d2288112da93d84ff6e624a53307e46
+    css_selector: .header1
+    css_declaration: 'border-top: 10px solid rgb(0, 52, 102);'
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
+    basis: 官网实际header1页眉顶部边框明示RGB(0,52,102)，精确写成HEX；不宣称首页未出现的header2背景被渲染。；仅为PPT设计参考，不是学校官方VI标准；保留原始网页与样式哈希。
   color_secondary:
     value: null
     source: null
@@ -103,8 +117,66 @@ visual:
     checked_at: null
     availability: unresearched
     search_sources: []
-  logo_assets: []
-  color_palette: []
+  logo_assets:
+  - asset_id: 987ec3910d4f51196d4b2f99
+    kind: combination
+    title: 武汉纺织大学外经贸学院官网徽名组合
+    url: https://www.whcibe.com/images/logo.png
+    source: https://www.whcibe.com/
+    file_name: logo.png
+    upstream_path: null
+    publisher: 武汉纺织大学外经贸学院
+    official: true
+    repository: null
+    commit: null
+    repository_license: null
+    asset_license: null
+    rights_holder: 武汉纺织大学外经贸学院
+    verified: auto
+    checked_at: '2026-10-03'
+    availability: found
+    source_type: official_website
+    source_sha256: 43bfe53395d1d51c9973b357b340d6725d2288112da93d84ff6e624a53307e46
+    variant: 反白文字
+    visual_review: auto
+    visual_review_basis: 反白组合包含武汉纺织大学外经贸学院完整中文名及College of International Business and Economics,WTU；从当前学校主页引用的原始透明图形核对
+    identity_basis: 学校主页身份匹配当前名称，已实际读取并查看引用的原始图形，完整校名一致。
+    usage_note: 仅保存官网链接和原始文件元数据，不再分发图形。反白文字使用深色背景预览；整体徽名组合不能只截母校图形称学院专用校徽。
+    sha256: 044c011fb03a435ce78a855f96f164258cf9083e264dafd7a0af9dc914f70acf
+    access_status: content_inspected
+    byte_size: 14620
+    format: png
+    vector: false
+    width: 370
+    representation: raster
+    height: 50
+    has_alpha: true
+    transparent_background: true
+  color_palette:
+  - value: '#003466'
+    rgb:
+    - 0
+    - 52
+    - 102
+    cmyk: null
+    pantone: null
+    label: 官网样式PPT建议色
+    role: reference
+    official: false
+    availability: found
+    basis: 官网实际header1页眉顶部边框明示RGB(0,52,102)，精确写成HEX；不宣称首页未出现的header2背景被渲染。；仅为PPT设计参考，不是学校官方VI标准；保留原始网页与样式哈希。
+    source: https://www.whcibe.com/style.css
+    source_sha256: f89824975943d2f996e66ce5688cc5fc99eeb96971b05a257b203693da39bc7d
+    homepage_source: https://www.whcibe.com/
+    homepage_sha256: 43bfe53395d1d51c9973b357b340d6725d2288112da93d84ff6e624a53307e46
+    css_selector: .header1
+    css_declaration: 'border-top: 10px solid rgb(0, 52, 102);'
+    source_type: official_website
+    verified: auto
+    checked_at: '2026-10-03'
+    method: manual_derived
+    collector: curated_site_reference
+    retrieval: hash_matched_source_review
   vi_resources: []
   landmarks: []
 culture:
