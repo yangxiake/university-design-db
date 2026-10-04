@@ -2,6 +2,7 @@ import {TAGS,KINDS,COLOR_STATUS,ACCESS,METHODS,safeUrl,matchesSchool,materialMat
   previewMode,previewBackground,resourceGroup,formatSize,groupLogoAssets,groupColors,groupResources,
   groupPresentations,previewSources} from './model.mjs?v=20261003-ui4.1';
 import {createPreviewLoader} from './preview-loader.mjs?v=20261003-ui4.2';
+import {installDisclosureMotion,syncSectionNavigation} from './interactions.mjs?v=20261003-ui5.1';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;
@@ -115,6 +116,7 @@ function renderList() {
   for (const school of state.rows.slice(state.page*PAGE_SIZE,(state.page+1)*PAGE_SIZE)) {
     const card=button('',()=>selectSchool(school.school_code),'school-card'+(state.selected?.school_code===school.school_code?' selected':''));
     card.setAttribute('aria-label',`查看${school.name_zh}资料`); card.append(el('h3',school.name_zh),el('div',`${school.province} · ${school.school_code}`,'school-meta'));
+    card.setAttribute('aria-pressed',String(state.selected?.school_code===school.school_code));
     const counts=el('div','','school-counts');
     counts.append(el('span',`标识记录 ${school.logo_count}`),el('span',`色卡记录 ${school.color_count}`),el('span',`模板入口 ${school.template_count}`));
     card.append(counts,el('div',COLOR_STATUS[school.color_status],'school-status')); list.append(card);
@@ -154,7 +156,7 @@ async function selectSchool(code,push=true) {
     if(loadId!==state.loadId)return;
     const school=bundle.schools[code]; if(!school)throw new Error('School missing in regional bundle');
     state.selected=school;renderSchool(school);renderList();if(push)writeUrl(true);
-    if(matchMedia('(max-width:760px)').matches)$('detail').scrollIntoView({behavior:'smooth',block:'start'});
+    if(matchMedia('(max-width:760px)').matches)$('detail').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
   } catch {if(loadId!==state.loadId)return;
     $('detail').replaceChildren(el('p','单校资料载入失败。已取得的检索目录仍可使用。','empty'),button('重新载入',()=>selectSchool(code,push)));}
 }
@@ -164,12 +166,12 @@ function renderSchool(school) {
   const header=el('header','','detail-header'); header.append(el('div',`${school.province} / ${school.city} / ${school.school_code}`,'breadcrumb'),el('h2',school.name_zh));
   const tags=el('div','','tags'); for(const tag of school.scope_tags) if(['double_first','private','cooperative','vocational_undergraduate'].includes(tag))tags.append(el('span',TAGS[tag] || tag,'tag'));header.append(tags);
   const actions=el('div','','actions');const site=school.identity.official_website;
-  if(site.availability==='found')actions.append(link('学校官网 ↗',site.value,'button'));
-  else actions.append(chip(`官网：${availability[site.availability] || site.availability}`));
-  actions.append(button('复制该校资料',()=>copy(JSON.stringify(school,null,2))),button('下载单校 JSON',()=>{
+  actions.append(button('复制该校资料',()=>copy(JSON.stringify(school,null,2)),'button primary'),button('下载单校 JSON',()=>{
     const url=URL.createObjectURL(new Blob([JSON.stringify(school,null,2)+'\n'],{type:'application/json'}));
     const a=el('a');a.href=url;a.download=`${school.school_code}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }));
+  if(site.availability==='found')actions.append(link('学校官网 ↗',site.value,'button'));
+  else actions.append(chip(`官网：${availability[site.availability] || site.availability}`));
   if(/^universities\/[^/]+\/\d{10}\/profile\.yaml$/.test(school.profile_path)) {const a=el('a','完整档案','button');a.href='../'+school.profile_path;actions.append(a);}
   header.append(actions);
   const jsonDetails=el('details','','source-details');jsonDetails.append(el('summary','查看 / 手动复制单校 JSON'));
@@ -179,6 +181,7 @@ function renderSchool(school) {
   const nav=el('nav','','subnav');nav.setAttribute('aria-label','单校资料分区');
   for(const [id,label] of [['logos','标识'],['colors','配色'],['templates','模板'],['content','介绍']]) {const a=el('a',label);a.href='#'+id;nav.append(a);}
   $('detail').replaceChildren(header,nav,renderLogos(school),renderColors(school),renderTemplates(school),renderContent(school));
+  syncSectionNavigation();
 }
 function renderLogos(school) {
   const assets=school.logos.candidates.filter(a=>visible({type:'logo',official:a.official,formats:a.format?[a.format.toUpperCase()]:[],kind:a.kind,transparent:a.transparent_background,status:a.access_status}));
@@ -345,4 +348,6 @@ $('filters').addEventListener('reset',()=>setTimeout(()=>{clearTimeout(debounce)
 $('prev').addEventListener('click',()=>{state.page--;renderList();$('school-list').scrollTop=0;});
 $('next').addEventListener('click',()=>{state.page++;renderList();$('school-list').scrollTop=0;});
 window.addEventListener('popstate',()=>{if(!state.catalog)return;const code=new URL(location.href).searchParams.get('school');state.selected=null;state.loadId++;restoreFilters();refreshResults(false);if(code)selectSchool(code,false);else welcome();});
+window.addEventListener('hashchange',()=>syncSectionNavigation());
+installDisclosureMotion();
 initialize();
