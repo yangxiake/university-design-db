@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: http:; connect-src 'self'; object-src 'none'; base-uri 'none'">
+  <title>高校 PPT 素材目录</title>
+  <link rel="stylesheet" href="styles.css?v=20261003-ui5.2">
+  <script type="module" src="app.mjs?v=20261004-pages1"></script>
+  <meta name="repository-base" content="https://github.com/yangxiake/university-design-db/blob/4b53432da145a9f12a1553fc3b6beee645aca49e/">
+</head>
+<body>
+<a class="skip" href="#detail">跳到学校资料</a>
+<header class="hero">
+  <div class="hero-inner"><div class="hero-copy"><div class="eyebrow">UNIVERSITY DESIGN DATABASE</div>
+    <h1>高校 PPT 素材目录<span class="hero-dot">.</span></h1>
+    <p>查找学校标识、配色和 PPT 素材。</p></div>
+    <div id="totals" class="hero-stats" aria-live="polite">正在载入检索目录…</div>
+  </div>
+</header>
+<main class="shell">
+  <form id="filters" class="filters" role="search" aria-label="学校与素材检索">
+    <div class="search-heading"><h2>搜索学校与素材</h2><p>支持校名、英文简称与学校标识码</p></div>
+    <div class="filter-primary">
+      <label class="search-label">学校<input id="query" name="query" type="search" placeholder="输入校名、英文简称或学校标识码" autocomplete="off"></label>
+      <label>地区<select id="province" name="province"><option value="">全部地区</option></select></label>
+      <label>素材类型<select id="type" name="type"><option value="all">全部素材</option><option value="logo">学校标识</option><option value="color">配色</option><option value="template">PPT 模板与主题</option><option value="presentation">已读取 PPTX</option><option value="visual_file">PPT 等视觉文件</option></select></label>
+    </div>
+    <details class="advanced"><summary>更多筛选 <span id="filter-summary">来源、格式与标识样式</span></summary>
+      <div class="filter-grid">
+        <label>素材来源<select id="source" name="source"><option value="">全部来源</option><option value="official">校方资料</option><option value="reference">社区与设计参考</option></select></label>
+        <label>文件格式<select id="format" name="format"><option value="">全部格式</option></select></label>
+        <label>标识样式<select id="kind" name="kind"><option value="">全部样式</option><option value="badge">校徽</option><option value="wordmark">校名文字</option><option value="combination">校徽与校名</option><option value="site_identity">官网标识（构成待核验）</option><option value="anniversary">纪念标识</option></select></label>
+        <label>透明背景<select id="transparent" name="transparent"><option value="">不限背景</option><option value="yes">透明</option><option value="no">非透明</option><option value="unknown">未记录</option></select></label>
+        <label>文件记录<select id="status" name="status"><option value="">全部记录</option><option value="content_inspected">文件已读取</option><option value="indexed_not_fetched">文件未读取</option><option value="inspection_failed">曾读取失败</option><option value="page_read">发布页已读取</option><option value="target_page_read">链接指向网页</option><option value="source_text_read">源码已读取</option><option value="format_only">仅识别格式</option></select></label>
+        <label>配色依据<select id="colorStatus" name="colorStatus"><option value="">全部配色</option><option value="official_vi">官方数字主色</option><option value="official_print_only">仅有印刷主色</option><option value="design_reference">设计参考主色</option><option value="conflict">主色来源冲突</option><option value="unresearched">主色待调查</option><option value="not_found">已检索未找到主色</option></select></label>
+      </div>
+      <p class="filter-note">标识与模板按发布方筛选，色卡按标准色证据筛选。多个素材条件须同时匹配同一条记录。</p>
+    </details>
+    <div class="filter-footer"><span id="result-count" role="status"></span><button type="reset" class="quiet">重置筛选</button></div>
+  </form>
+  <div class="workspace">
+    <aside class="school-panel" aria-label="学校检索结果">
+      <div class="panel-heading">学校目录<span>点击查看素材</span></div>
+      <div id="school-list" class="school-list"></div>
+      <div class="pagination"><button id="prev" class="quiet" type="button">上一页</button><span id="page-info"></span><button id="next" class="quiet" type="button">下一页</button></div>
+    </aside>
+    <article id="detail" class="detail" tabindex="-1"><div class="welcome"><span class="section-kicker">从学校开始</span><h2>选择学校，开始查找素材。</h2><p>在左侧选择学校，比较校徽和校名标识，复制配色，或查看 PPT 模板。每项资料均保留来源说明。</p></div></article>
+  </div>
+  <footer class="site-footer"><p>教育部 2026 本科范围 · 每校一份身份档案 · 自动采集资料保留来源及空缺</p><a href="https://github.com/yangxiake/university-design-db/blob/4b53432da145a9f12a1553fc3b6beee645aca49e/docs/ppt-export-v1.md">数据与使用说明</a><a href="https://github.com/yangxiake/university-design-db/blob/4b53432da145a9f12a1553fc3b6beee645aca49e/README.md">资料库说明</a></footer>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
