@@ -1,128 +1,133 @@
-# 高校 PPT 资料库
+# University Design DB
 
-为个人和 AI 助手制作高校主题 PPT 整理可检索的学校事实、视觉线索和资源入口。
+中国高校校徽、配色、视觉规范与演示素材的开放资料库。
 
-**在线使用：[高校 PPT 素材目录](https://yangxiake.github.io/university-design-db/)。** 搜索学校，查看标识、配色和模板入口，复制单校资料给 AI；无需安装本地环境。
+**[打开在线目录](https://yangxiake.github.io/university-design-db/)** · [数据使用指南](docs/data-guide.md) · [贡献指南](CONTRIBUTING.md) · [版本记录](CHANGELOG.md)
 
-仓库已[公开发布到 GitHub](https://github.com/yangxiake/university-design-db)，无需登录即可查看代码、数据和下载 Release 资料包。也可下载后通过本地 HTTP 服务打开素材目录。main 更新后由 GitHub Actions 自动检查、构建并部署在线站点；部署方法见[GitHub Pages 说明](docs/github-pages.md)。
+## 为什么整理这些资料
 
-最新资料包：[v0.4.5-20261004](https://github.com/yangxiake/university-design-db/releases/tag/v0.4.5-20261004)，统一按钮、控件状态和展开动画，调整卡片对齐、间距及手机布局，见[界面协调性更新](docs/releases/2026-10-04-viewer-consistency.md)。保留上一版的[预览与资源合并改进](docs/releases/2026-10-03-viewer-preview.md)，网页搜索已移除内部分类标签。主字段资料沿用[v0.4.2补采批次](docs/releases/2026-10-03-other-sources.md)，这是附来源的自动整理预发布版，尚未全量补齐；仅收现行已确认资料，剩余32所、59项缺口逐校保留。
+高校的校徽、标准色、校名标识、VI（Visual Identity）和演示模板，常常分散在学校官网、宣传部门、新闻中心、院系网站、PDF 附件、公开下载页和社区项目中。找到文件后，还需要判断版本、核对色值依据，并区分校方发布与社区整理；同一学校的不同页面也可能给出互相矛盾的资料。
 
-**当前范围：教育部 2026 年名单中的全部 1,412 所本科院校，均已建档。** 含普通本科、职业本科、民办与合作办学院校；不再采用旧版 933 所选校过滤。按用户要求，剩余缺口补采已暂停，当前优化素材目录界面与检索。建档数量与字段覆盖率分别统计，见[覆盖率报告](docs/coverage-2026.md)。
+University Design DB 将与高校视觉设计和演示制作有关的公开资料整理为可检索、可追溯、可继续核验的结构化记录。资料保留原始来源、检查日期和不确定状态，便于使用者回到出处判断用途。
 
-## 找学校与资料
+## 在线目录
 
-直接打开[在线素材目录](https://yangxiake.github.io/university-design-db/)：检索1412所学校，比较标识、查看配色证据和模板条件，并复制单校资料给AI。离线使用时，下载仓库后在根目录运行`python3 -m http.server 8765 --bind 127.0.0.1`，打开`http://127.0.0.1:8765/viewer/`；完整用法见[素材目录说明](docs/viewer-guide.md)。
+[在线目录](https://yangxiake.github.io/university-design-db/)无需下载仓库或安装环境，可以：
 
-1. 在[总索引](indexes/catalog.csv)按校名、学校标识码、地区查找，也可浏览[地区](indexes/by-province.csv)、[类别](indexes/by-category.csv)、[标签](indexes/by-tag.csv)、[状态](indexes/by-status.csv)。
-2. 打开索引中的 `profile_path`，读取唯一事实源 `profile.yaml`。`PROFILE.md` 是逐校便读档案，`VISUAL.md` 汇总逐文件校徽、校名与配色，`OFFICIAL.md` 展示官方 PPT 入口；有社区资源的学校另有 `COMMUNITY.md`。
-3. 每字段先看 `availability`、`source`、`verified`、`checked_at`。自动采集标记为 `auto`，可按来源和用途使用；冲突、未调查和检索后未找到均显式保留。
+- 按中文校名、带来源的中英文别名或学校标识码搜索，结合地区、素材类型及来源等条件筛选。
+- 查看校徽、校名文字和徽名组合，切换文件版本，查看格式、透明背景、读取记录及原始出处。
+- 查看校方数字色、仅印刷色和设计参考色，展开取值依据，复制已有的 HEX 色值。
+- 打开官方或社区的 PPT、VI 与视觉文件入口，查看已读取 PPTX 的结构信息。
+- 查看单校资料，复制或下载 JSON，分享保留学校和筛选条件的地址。
 
-示例：[清华大学](universities/北京市/4111010003/profile.yaml)、[北京大学](universities/北京市/4111010001/profile.yaml)、[西湖大学](universities/浙江省/4133014626/profile.yaml)。PPT 和 AI 助手的完整使用方法见[数据指南](docs/data-guide.md)。
+图形从原来源加载，网络或原站限制可能影响预览。ZIP 成员和 PDF 内嵌标识提供原文件入口及定位信息；目录不提供 PPT 逐页渲染。操作和状态说明见[在线目录使用指南](docs/viewer-guide.md)。
 
-制作PPT优先读取[精简JSONL](indexes/ppt-profiles.jsonl)或[配套CSV](indexes/ppt-profiles.csv)，包含全部1412所身份、标识推荐依据、分层配色、模板及短简介；字段与查询命令见[PPT导出v1说明](docs/ppt-export-v1.md)。也可从[单校素材索引](indexes/ppt-starter.csv)开始，接着查[模板与素材入口](indexes/ppt-resources.csv)。学校通用、院系专用、社区PPTX/Marp/Beamer和TikZ标识源码分别标注；读取方法见[PPT使用指南](docs/ppt-guide.md)。
+## 可查资料
 
-[下一阶段计划](docs/next-phase-plan-2026.md)明确统一校验、PPT精简数据、素材检索预览、针对性补采、版本交付和来源变更维护的顺序与验收标准。
+| 资料 | 内容 |
+| --- | --- |
+| 学校身份 | 中文与英文校名、学校标识码、省市、官网及带来源的简称、别名 |
+| 学校标识 | 校徽、Wordmark / 校名文字、徽名组合及逐文件来源与格式信息 |
+| 配色 | 校方公布的数字色和印刷色、标识取色或社区设计参考、冲突候选与取值依据 |
+| 视觉与演示资源 | 官方 VI、视觉文件、学校或院系 PPT 入口、社区 Beamer / Marp 等主题 |
+| 演示用基础资料 | 建校年及历史起点口径、校训、由学校身份生成的短简介等少量字段 |
+| 来源与状态 | 来源类型、检查日期、自动或人工核对标记、文件读取记录、版本和取得时的哈希 |
 
-**当前采集范围已收窄为PPT主字段。** 必备：学校身份与英文名、可读校徽/校名标识、附来源主题主色、建校年。校训、模板、VI、校史节点等为可选补充。招生、就业、排名、人数、面积、地址与联系方式等高维护成本数据已从现行档案和索引剔除，结构升级为v4。
+字段有记录不代表已经人工审定，资源入口也不代表文件已经读取或获得使用授权。详细字段见[数据结构](docs/schema.md)。
 
-逐校完成状态见[主字段覆盖报告](docs/ppt-core-coverage-2026.md)，补采只按[主字段队列](data/review/ppt-core-queue-2026.csv)推进；范围定义见[ppt-core-fields.yaml](data/ppt-core-fields.yaml)。最新图形、色值与文件证据见[M4第二批报告](docs/m4-batch02-progress-2026.md)。
+## 覆盖与项目状态
 
-## 开源来源与视觉资料
+范围以[教育部 2026 年普通高校名单](https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A03/202606/t20260618_1441074.html)中 `level=本科` 的记录为准，包含普通本科、职业本科、民办与合作办学院校，共 **1,412 所**，分布于 31 个省级分组。专科院校和名单外军校不纳入当前单校档案范围。
 
-仅保留对PPT身份、配色和模板有帮助的上游字段，固定提交并保留许可。字段比较见[开源来源与核心映射](docs/github-field-union-2026.md)。未取得独立图形授权的资源保留原链接，代码许可不作为校徽授权。
+以下数量由当前档案及其导出核对，按学校计数：
 
-- [校徽文件索引](indexes/logo-assets.csv)：具体文件URL、实际格式、宽高、矢量/透明信息、文件哈希、访问状态和权利说明。
-- [调色板索引](indexes/color-palettes.csv)：HEX、RGB、用途与取值方法；官方标准、社区主题、取色建议分别标明。没有依据的CMYK/Pantone保持空值。
-- [色值冲突索引](indexes/color-conflicts.csv)：主色与辅色/并列色的各来源候选、差异原因，保留RGB和HEX不一致等问题。
-- [核心资料目录](indexes/enriched-catalog.csv)与[主字段事实索引](indexes/core-facts.csv)：按学校和字段查询附来源记录。
-- [AI用JSONL全集](indexes/profiles.jsonl)：从1412份档案生成，每行一校；可用`school_code`稳定关联各索引。
-- [官方视觉规范补采进度](docs/visual-completion-progress-2026.md)：新增标准色色卡、仅印刷色规范、数字冲突及补确认的官网入口。
-- [实际模板文件](indexes/ppt-template-files.csv)：已读取PPTX的页数、画幅、声明字体、可编辑文本节点与哈希；压缩包内模板逐文件列出。
-- [校徽、配色与PPT缺口补采](docs/visual-gap-progress-2026.md)：官网页头/CSS、当前校名社区目录、组合版式和实际文件读取的增量与剩余缺口。
+| 状态 | 学校数 | 含义 |
+| --- | ---: | --- |
+| 已建身份档案 | 1,412 | 每校一份 v4 `profile.yaml`，与本科范围表逐一对应 |
+| 已记录英文校名 | 1,411 | 有来源记录，包含校方与社区来源 |
+| 已记录建校年及口径 | 1,412 | 保留前身、创办等历史起点依据 |
+| 至少一个标识文件已读取 | 1,383 | 文件内容已检查，来源可能为校方或社区 |
+| 其中至少一个校方来源标识已读取 | 1,023 | 校方发布身份与现行版本、图形授权仍须分别判断 |
+| 已选择有依据的屏幕主色 | 1,383 | 73 所为校方数字主色，1,310 所为设计参考 |
+| 整校人工签核 | 0 | 当前全部档案的调查状态为 `auto_collected` |
 
-校徽图形只保存逐文件链接和内容元数据。社区仓库的代码/数据许可与学校标识的图形授权分别记录；文件可访问、格式已检查、图形为学校现行版本是不同状态。
+按现有[演示主字段规则](data/ppt-core-fields.yaml)，1,380 所具备英文名、建校年、已读取标识和可用屏幕主色；32 所仍有 59 项缺口。这只衡量该组字段，不表示 VI、模板或其他资料全部收集完成，也不表示逐校视觉审定完成。
 
-`download_kind=archive_member` 表示校徽位于上游压缩包，需按 `archive_url` 和 `archive_member` 读取，主URL不是PNG直链。`checked_at` 是读取日期；`source_revision`、上游提交与哈希用于追溯当时版本。
+缺失、待解释、不可访问、冲突和未核验的资料可以保留，这是来源管理的一部分。字段的实际状态为 `unresearched`、`not_found`、`conflict`、`found`，核对与访问状态另列。逐字段统计见[主字段覆盖](docs/ppt-core-coverage-2026.md)、[完整覆盖报告](docs/coverage-2026.md)和[导出覆盖数据](indexes/ppt-profiles-coverage.json)。
 
-`download_kind=document_page` 表示标识位于原PDF的指定页和嵌入图区域，需要从原PDF提取。保留`document_page`、`document_image_sha256`与`document_mark_region`，不将PDF当作独立透明图片或矢量标识。
+## 来源与核验
 
-## 分类和层级
+视觉资料优先查阅学校官方网站、校方正式 VI 文件，以及校方发布的 PDF、附件和宣传资料；学校身份与范围以教育主管部门公开资料为依据。直接来源不足时，使用可追溯的公开项目和社区资源，并保留来源类型、固定版本或检查日期。
+
+各项证据分别记录，不能统称为“已验证”：
+
+| 判断 | 查看什么 |
+| --- | --- |
+| URL 当时可以访问 | 来源访问回执与检查日期；不保证持续可用 |
+| 文件可以取得、格式已检查 | `access_status`、`download_status`、文件元数据；`content_inspected` 表示实际读取内容 |
+| 来源属于校方 | `source`、`source_type`、资源的 `official` 标记及学校身份依据 |
+| 标识为现行正式版本 | 原发布说明、版本和适用范围；文件可读不能单独证明这一点 |
+| 色值来自校方规范 | `method=official_vi` 及原数字证据；取样、网页 CSS 与社区主题另作参考 |
+| 事实经过人工核对 | `verified=human` 及复核记录；`auto` 是自动核对，`unverified` 是未核对 |
+
+仅有 CMYK / Pantone 的印刷色保留空的屏幕值；RGB 与 HEX 矛盾时保留候选。社区项目经过整理，不会因此变成学校官方发布。查阅失败或检索未找到，也不能推断学校没有该资料。规则见[来源采集与核查说明](docs/source-collection.md)。
+
+## 数据组织
 
 ```text
-universities-index.csv                  教育部普通高校原表：2952 所，含专科
-data/universities-scope-2026.csv        本科范围：1412 所，唯一范围表
-data/source-manifest.yaml              官方附件、哈希、范围与采集政策
-data/external/                         已匹配的许可数据子集、上游版本和许可
-data/review/                           检索台账、候选、来源差异与补采队列
 universities/<省级地区>/<学校标识码>/
-   profile.yaml                        单校唯一事实源
-   PROFILE.md                          PPT主字段便读档案
-   VISUAL.md                           逐文件视觉资源与配色
-   OFFICIAL.md                         官方资源生成视图
-   COMMUNITY.md                        有社区资源时生成的便读视图
-indexes/                              从范围表与档案派生的检索索引
-viewer/                               素材检索页面、匹配规则和测试
-   data/catalog.json                  轻量检索目录，含来源和格式等筛选描述
-   data/provinces/<地区>.json           按需载入的地区资料，保留完整PPT导出记录
-docs/                                 需求、字段、覆盖率、采集说明
-scripts/                              采集、导入、生成与校验脚本
+├── profile.yaml     单校结构化资料的主要事实源
+├── PROFILE.md       便读档案
+├── VISUAL.md        标识、配色与视觉资源
+├── OFFICIAL.md      官方演示资源
+└── COMMUNITY.md     有社区资源时生成
 ```
 
-省级分组和学校身份取自教育部原表，标识码作为稳定身份键。主类别互斥，标签可重叠：双一流、职业本科、合作办学、民办等可交叉查询。空备注不推断为公办。旧选校输入保留在 `data/selection-source/`，仅作历史记录。
+学校标识码用于关联资料。CSV、JSONL、分类索引和网页数据由档案派生，不建立重复的单校事实副本。
 
-## 本地生成与校验
+- [`data/`](data/)：本科范围、Schema、来源清单、第三方许可子集与检索记录。
+- [`indexes/catalog.csv`](indexes/catalog.csv)：单校路径与检索入口；另有地区、类别、标签和状态索引。
+- [`indexes/profiles.jsonl`](indexes/profiles.jsonl)：完整档案的程序读取格式。
+- [`indexes/ppt-profiles.jsonl`](indexes/ppt-profiles.jsonl) / [CSV](indexes/ppt-profiles.csv)：适用于演示制作的精简导出，可用于程序、自动化处理或 AI 上下文。
+- [`viewer/`](viewer/)：静态在线目录；[`docs/`](docs/README.md)：使用、维护和历史记录；[`scripts/`](scripts/)：导入、生成、检查与构建工具。
 
-需 Python 3.9+；统一质量检查还使用Node.js 24运行网页匹配规则测试，无npm依赖。安装 `requirements-quality.txt`，包含生成、图像解析测试和JSON Schema校验依赖。GitHub CI使用Python 3.9与3.13；检查已有数据时不联网采集。只浏览素材目录无需Node.js。
+示例：[清华大学](universities/北京市/4111010003/profile.yaml)、[北京大学](universities/北京市/4111010001/profile.yaml)、[西湖大学](universities/浙江省/4133014626/profile.yaml)。读取方式见[数据指南](docs/data-guide.md)与[演示数据导出说明](docs/ppt-export-v1.md)。
+
+## 本地使用
+
+下载仓库后，在根目录运行：
+
+```bash
+python3 -m http.server 8765 --bind 127.0.0.1
+```
+
+打开 <http://127.0.0.1:8765/viewer/>。浏览目录只需 Python 提供静态 HTTP 服务；图形预览和原资源下载仍可能需要网络。
+
+## 开发与维护
+
+检查和数据生成使用 Python 3.9+；网页规则测试使用 Node.js 24，没有 npm 依赖。
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-quality.txt
-.venv/bin/python scripts/ingest/render_official.py
-.venv/bin/python scripts/ingest/render_community.py
-.venv/bin/python scripts/ingest/render_enriched.py
-.venv/bin/python scripts/ingest/build_indexes.py
-.venv/bin/python scripts/ingest/build_ppt_indexes.py
-.venv/bin/python scripts/ingest/build_ppt_profiles.py
-.venv/bin/python scripts/ingest/build_viewer.py
-.venv/bin/python scripts/validate/report_field_union.py
-.venv/bin/python scripts/validate/report_visual_completion.py
-.venv/bin/python scripts/validate/report_visual_gaps.py
-.venv/bin/python scripts/validate/report_coverage.py
-.venv/bin/python scripts/validate/report_ppt_core.py
-.venv/bin/python scripts/validate/report_research.py
-.venv/bin/python scripts/validate/build_review_queue.py
 .venv/bin/python scripts/check.py
 ```
 
-统一检查执行档案语义、两套JSON Schema、Python与网页规则测试、七项生成一致性及仓库只读检查。失败会显示学校标识码/字段或过期文件位置。提交、PR和手动触发均运行[GitHub Actions](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)，实现与验收说明见[质量检查文档](docs/quality-checks.md)。
+统一检查验证现有数据、Schema、测试和派生文件一致性，不联网采集。GitHub Actions 对推送和 PR 运行 Python 3.9 / 3.13 检查；main 更新后先检查，再构建并部署 Pages。
 
-主字段补采流程（只采缺项）：
+详细操作见[开发指南](docs/DEVELOPMENT.md)、[质量检查](docs/quality-checks.md)与[Pages 部署](docs/github-pages.md)。报告资料错误或提交 PR 见[贡献指南](CONTRIBUTING.md)；版本变化见[CHANGELOG](CHANGELOG.md)。
 
-```bash
-.venv/bin/python scripts/ingest/collect_ppt_core.py --resume --collect-only
-.venv/bin/python scripts/ingest/collect_ppt_core.py --import-only
-.venv/bin/python scripts/ingest/collect_wikidata_core.py --include-label-only --apply
-.venv/bin/python scripts/ingest/collect_wikipedia_core.py --collect-only
-.venv/bin/python scripts/ingest/collect_wikipedia_core.py --import-only
-.venv/bin/python scripts/ingest/collect_chinaschool_core.py --collect-only
-.venv/bin/python scripts/ingest/collect_chinaschool_core.py --import-only
-.venv/bin/python scripts/ingest/collect_homepage_identity.py
-.venv/bin/python scripts/ingest/collect_header_css_marks.py
-.venv/bin/python scripts/ingest/fill_ppt_reference_colors.py
-.venv/bin/python scripts/ingest/collect_ppt_site_colors.py --collect-only
-.venv/bin/python scripts/ingest/collect_ppt_site_colors.py --import-only
-.venv/bin/python scripts/validate/report_ppt_core.py
-```
+## 项目边界
 
-官网来源优先；社区来源与取样建议明确标记。只填尚未取得的字段，保留已有冲突和人工决定。标识、VI、模板按已有公开入口补查；不再运行旧版全字段扩展、统计和就业采集器。上游数据按[固定版本清单](data/external/repositories.yaml)读取；导入主字段子集后运行 `prune_ppt_data.py` 约束当前档案。采集完成后重建七项派生内容并执行统一检查。
+项目围绕高校视觉设计、演示文稿、学校品牌素材和视觉资料检索。建校年等基础字段服务于这些用途；当前不维护完整高校百科，也不持续收集招生分数、排名、就业率、在校人数、校园面积、联系电话、完整学科数据库或新闻资讯。
 
-`inspect_template_files.py --retry-errors`重试未读取的模板文件；资源重新导入后运行`--import-only`恢复已有结构元数据，再生成PPT索引。读取有文件/展开大小及时间上限；公开文件仅存于忽略目录，仓库只发布URL、结构统计和哈希。
+## 许可证
 
-`collect_header_css_marks.py`补查已确认官网的静态页头标识与CSS文件引用，支持`--collect-only`和`--import-only`。`collect_community_logo_gaps.py --retry-errors`只重试网络失败及尚未读到预览文件的社区目录；更名暂停、名称不匹配和不存在的页面不自动采纳。社区网页没有Git提交，以页面与图像哈希、学校标识码和现行完整校名追溯。
+| 内容 | 许可 |
+| --- | --- |
+| 原创代码（`scripts/` 与 `viewer/`） | [MIT License](LICENSE) |
+| 原创数据整理、分类、索引与简短说明 | [CC BY 4.0](docs/DATA-LICENSE.md) |
+| 第三方数据子集 | 保留[上游许可与来源](data/external/README.md) |
+| 学校校徽、字体、照片、PPT、VI 文件、模板等第三方素材 | 遵循原权利人的版权与许可条件 |
 
-## 来源与许可
-
-学校官网、教育部门及校方正式文件优先。公开 GitHub 数据按完整校名匹配到教育部标识码，记录来源类型、上游版本和日期。社区英文名不自动等同现行官方译名；社区配色仅写入资源参考，官方 VI 标准色、标识取样建议色分别标记方法。访问失败会尝试不同域名或页面入口，仍失败时保留记录，不能将其写成“学校没有”。
-
-原创脚本按 [MIT](LICENSE)，原创数据整理按 [CC BY 4.0](LICENSE-DATA.md)。[第三方数据说明](data/external/README.md)列出独立许可；本库许可不替学校或社区作者授权校徽、字体、照片与模板。贡献方法见[贡献指南](CONTRIBUTING.md)。
+本项目的 MIT 或 CC BY 4.0 不会自动重新授权第三方素材。归属、署名和使用边界见[数据许可说明](docs/DATA-LICENSE.md)。

@@ -63,7 +63,7 @@ python scripts/ingest/collect_targeted_vi.py --targets data/review/m4-batch01-ta
 python scripts/ingest/import_visual_refresh.py --decisions data/review/m4-batch01-color-decisions-2026.yaml --changes data/review/m4-batch01-visual-changes-2026.jsonl
 python scripts/ingest/import_targeted_resources.py --decisions data/review/m4-batch01-resource-decisions-2026.yaml --receipts data/review/m4-batch01-sources-2026.jsonl
 python scripts/ingest/collect_header_css_marks.py --import-only --output data/review/m4-batch01-header-recovery-2026.jsonl
-# 顺序重建README所列七项派生数据后：
+# 按 docs/DEVELOPMENT.md 顺序重建七项派生数据后：
 python scripts/validate/report_targeted_batch.py
 python scripts/check.py
 ```

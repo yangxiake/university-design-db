@@ -18,7 +18,7 @@ def release_files():
         files.extend(p for p in (ROOT / folder).rglob('*') if p.is_file()
                      and p.relative_to(ROOT).as_posix() in tracked
                      and not p.relative_to(ROOT).as_posix().startswith('viewer/tests/'))
-    names = ['LICENSE', 'LICENSE-DATA.md', 'data/ppt-core-fields.yaml',
+    names = ['LICENSE', 'docs/DATA-LICENSE.md', 'data/ppt-core-fields.yaml',
              'data/universities-scope-2026.csv', 'data/source-manifest.yaml',
              'data/profile-schema-v4.json', 'data/profile-schema-v4.yaml',
              'data/ppt-export-schema-v1.json', 'data/review/ppt-core-coverage-2026.json',
@@ -51,7 +51,8 @@ def main():
     if len([p for p in files if p.name == 'profile.yaml']) != 1412:
         parser.error('Expected 1412 canonical school profiles')
     entries = {p.relative_to(ROOT).as_posix(): p.read_bytes() for p in files}
-    entries['README.md'] = ('# 高校PPT主字段资料包\n\n'
+    entries['README.md'] = ('# University Design DB\n\n'
+        '中国高校校徽、配色、视觉规范与演示素材的开放资料库。\n\n'
         '版本：%s。来源提交：%s。数据日期：%s。\n\n'
         '共1412所本科院校，PPT主字段可用%s所，剩余%s项缺口。仅印刷主色不计入屏幕可用。自动整理版，保留来源、核对状态与使用边界。\n\n'
         '制作PPT先读取`indexes/ppt-profiles.jsonl`或CSV；机器可读唯一事实源为各校`profile.yaml`。\n\n'
@@ -59,7 +60,7 @@ def main():
         '主字段范围、剩余缺口和使用方法见`data/ppt-core-fields.yaml`、`docs/ppt-core-coverage-2026.md`和`docs/data-guide.md`。\n\n'
         '校徽和模板为上游链接；本包不包含第三方图形、照片或字体。取样/CSS配色为PPT建议，不等于校方官方标准。\n\n'
         '本包不含采集日志和开发环境。可复现脚本及完整源仓库：https://github.com/yangxiake/university-design-db/tree/%s 。\n\n'
-        '脚本许可MIT；原创数据整理CC BY 4.0；上游资料遵循其独立许可与学校权利。详见`LICENSE-DATA.md`和`data/external/`。\n'
+        '原创代码许可MIT；原创数据整理CC BY 4.0；上游资料遵循其独立许可与学校权利。详见`docs/DATA-LICENSE.md`和`data/external/`。\n'
         % (args.version, revision, coverage['checked_at'], coverage['main_fields_complete_schools'],
            coverage['missing_main_field_items'], args.version)).encode('utf-8')
     manifest = dict(version=args.version, source_commit=revision, schema_version=4, coverage=coverage,

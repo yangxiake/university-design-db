@@ -1,6 +1,6 @@
 # 在线素材目录
 
-在线入口：[高校 PPT 素材目录](https://yangxiake.github.io/university-design-db/)。浏览器直接搜索学校、筛选素材、查看配色与模板入口，并复制或下载单校 JSON 给 AI。地址参数保存学校和筛选，分享单校地址时会保留这些条件。
+在线入口：[University Design DB](https://yangxiake.github.io/university-design-db/)。浏览器直接搜索学校、筛选素材、查看配色与模板入口，并复制或下载单校 JSON。地址参数保存学校和筛选，分享单校地址时会保留这些条件。
 
 本项目使用公开仓库的 GitHub Pages 和标准 GitHub 托管运行器，使用 GitHub 提供的免费域名。无需购买服务器或自定义域名，说明见[创建 Pages 站点](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)。
 

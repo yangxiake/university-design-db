@@ -1,5 +1,7 @@
 # M4 全库扩展补采状态
 
+历史批次报告，保留当时的全字段统计与证据。v4 已移除其中的动态扩展字段；当前范围见[数据结构](schema.md)，当前主字段覆盖见[覆盖报告](ppt-core-coverage-2026.md)。
+
 日期：2026-10-02。基线提交：`fca234d83e52cf664afd820f7e2691d6f00b98fd`。范围1412所本科院校，军校不额外纳入。事实为自动采集，未作人工签核。
 
 ## 当前覆盖
@@ -92,6 +94,8 @@
 
 ## 台账
 
+下表保留批次报告当时记录。四项未保留的台账已取消链接，其数量不是本次重新验证结果。
+
 | 台账 | 记录数 | 实际状态 |
 | --- | ---: | --- |
 | [m4-batch02-additional-color-images-sources-2026.jsonl](../data/review/m4-batch02-additional-color-images-sources-2026.jsonl) | 205 | `{"source_read": 198, "access_gap": 7}` |
@@ -101,23 +105,23 @@
 | [m4-batch02-contact-corrections-2026.jsonl](../data/review/m4-batch02-contact-corrections-2026.jsonl) | 20 | `{}` |
 | [m4-batch02-current-vi-sources-2026.jsonl](../data/review/m4-batch02-current-vi-sources-2026.jsonl) | 541 | `{"source_read": 456, "access_gap": 85}` |
 | [m4-batch02-directory-sources-2026.jsonl](../data/review/m4-batch02-directory-sources-2026.jsonl) | 89 | `{"source_read": 35, "access_gap": 54}` |
-| [m4-batch02-employment-reports-2026.jsonl](../data/review/m4-batch02-employment-reports-2026.jsonl) | 930 | `{"no_labelled_report_link": 410, "labelled_school_report_links": 125, "source_access_or_identity_gap": 395}` |
+| `m4-batch02-employment-reports-2026.jsonl`（当前仓库未保留，回执未能复核） | 930 | `{"no_labelled_report_link": 410, "labelled_school_report_links": 125, "source_access_or_identity_gap": 395}` |
 | [m4-batch02-extra-vi-replay-2026.jsonl](../data/review/m4-batch02-extra-vi-replay-2026.jsonl) | 32 | `{"visual_page_indexed": 31, "no_dedicated_visual_heading": 1}` |
 | [m4-batch02-extra-vi-sources-2026.jsonl](../data/review/m4-batch02-extra-vi-sources-2026.jsonl) | 145 | `{"source_read": 67, "access_gap": 58, "content_inspected": 15, "inspection_failed": 5}` |
 | [m4-batch02-headers-2026.jsonl](../data/review/m4-batch02-headers-2026.jsonl) | 45 | `{"no_inspected_header_mark": 25, "access_or_identity_gap": 18, "header_marks_read": 2}` |
 | [m4-batch02-homepage-recovery-2026.jsonl](../data/review/m4-batch02-homepage-recovery-2026.jsonl) | 232 | `{"identity_or_access_gap": 223, "ownership_confirmed": 8, "school_portal_not_main_homepage": 1}` |
 | [m4-batch02-homepage-search-recovery-2026.jsonl](../data/review/m4-batch02-homepage-search-recovery-2026.jsonl) | 224 | `{"identity_or_access_gap": 207, "school_portal_not_main_homepage": 2, "nonstandard_main_host_requires_independent_evidence": 5, "ownership_confirmed": 10}` |
 | [m4-batch02-homepages-2026.jsonl](../data/review/m4-batch02-homepages-2026.jsonl) | 241 | `{"identity_or_access_gap": 232, "ownership_confirmed": 7, "school_portal_not_main_homepage": 2}` |
-| [m4-batch02-institution-facts-2026.jsonl](../data/review/m4-batch02-institution-facts-2026.jsonl) | 146 | `{"unambiguous_fact": 146}` |
+| `m4-batch02-institution-facts-2026.jsonl`（当前仓库未保留，回执未能复核） | 146 | `{"unambiguous_fact": 146}` |
 | [m4-batch02-linked-vi-sources-2026.jsonl](../data/review/m4-batch02-linked-vi-sources-2026.jsonl) | 19 | `{"source_read": 18, "access_gap": 1}` |
 | [m4-batch02-logo-reviews-2026.jsonl](../data/review/m4-batch02-logo-reviews-2026.jsonl) | 18 | `{}` |
-| [m4-batch02-moe-disciplines-2022.jsonl](../data/review/m4-batch02-moe-disciplines-2022.jsonl) | 144 | `{"school_self_determined_not_in_ministry_list": 2, "official_discipline_list_read": 142}` |
+| `m4-batch02-moe-disciplines-2022.jsonl`（当前仓库未保留，回执未能复核） | 144 | `{"school_self_determined_not_in_ministry_list": 2, "official_discipline_list_read": 142}` |
 | [m4-batch02-new-home-extensions-2026.jsonl](../data/review/m4-batch02-new-home-extensions-2026.jsonl) | 25 | `{"homepage_access_gap": 13, "researched_partial": 12}` |
 | [m4-batch02-new-home-headers-2026.jsonl](../data/review/m4-batch02-new-home-headers-2026.jsonl) | 14 | `{"no_inspected_header_mark": 4, "header_marks_read": 4, "access_or_identity_gap": 6}` |
 | [m4-batch02-new-home-overviews-2026.jsonl](../data/review/m4-batch02-new-home-overviews-2026.jsonl) | 25 | `{"researched_partial": 14, "overview_access_or_identity_gap": 11}` |
 | [m4-batch02-overview-identity-facts-2026.jsonl](../data/review/m4-batch02-overview-identity-facts-2026.jsonl) | 31 | `{"unambiguous_fact": 31}` |
 | [m4-batch02-overviews-2026.jsonl](../data/review/m4-batch02-overviews-2026.jsonl) | 355 | `{"researched_partial": 99, "overview_access_or_identity_gap": 256}` |
-| [m4-batch02-registry-facts-2026.jsonl](../data/review/m4-batch02-registry-facts-2026.jsonl) | 1400 | `{}` |
+| `m4-batch02-registry-facts-2026.jsonl`（当前仓库未保留，回执未能复核） | 1400 | `{}` |
 | [m4-batch02-related-replay-2026.jsonl](../data/review/m4-batch02-related-replay-2026.jsonl) | 169 | `{"visual_page_indexed": 151, "no_dedicated_visual_heading": 14, "school_identity_gap": 4}` |
 | [m4-batch02-related-vi-sources-2026.jsonl](../data/review/m4-batch02-related-vi-sources-2026.jsonl) | 278 | `{"inspection_failed": 11, "content_inspected": 39, "source_read": 183, "access_gap": 45}` |
 | [m4-batch02-sources-2026.jsonl](../data/review/m4-batch02-sources-2026.jsonl) | 44 | `{"source_read": 43, "access_gap": 1}` |

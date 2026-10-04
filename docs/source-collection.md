@@ -41,7 +41,7 @@
 
 复核者打开每条 `source`，核对学校身份、语句主语、年份口径、标准色取值方法以及资源使用范围；确认后才能改为 `verified: human`。访问失败不等于资料不存在；只有记录实际检索入口和日期时，才能将单字段记为 `not_found`。来源冲突保留多个候选，不能随意择一。
 
-运行结果与缺口见 [覆盖率报告](coverage-2026.md)，逐校工作入口见 [复核队列](../data/review/review-queue-2026.csv)。本轮验收采用自动资料校验，不要求人工签核；人工审定版本可在后续另行制作。
+运行结果与缺口见 [覆盖率报告](coverage-2026.md)，逐校工作入口见 [复核队列](../data/review/review-queue-2026.csv)。自动资料版本使用结构与语义校验；人工审定版本还需逐项复核，不把自动资料标为人工签核。
 
 ## 当前主字段采集
 
@@ -84,3 +84,26 @@
 标准色保留原RGB、HEX、CMYK与Pantone。原文只写局部印刷通道时，`cmyk`留空，`cmyk_text`保存原记法；遇到内部数值矛盾或疑似排印错误不补零、不猜色。新的正向规范证据可以解决有检索台账的`not_found`，原先负向判断保留于替换记录。
 
 `replay_overview_identity_facts.py`从已读简介补英文名、建校年与文化字段。当前只处理主字段；原动态字段补采记录已清理。
+
+## 其他主字段来源与文件重试
+
+以下是按缺口选择的独立流程，不是必须依次执行的全库采集命令。会访问来源或写入资料的操作，应先确定目标及其证据规则；采集与导入完成后按[开发指南](DEVELOPMENT.md)重建派生文件、更新覆盖并检查。
+
+```bash
+.venv/bin/python scripts/ingest/collect_wikidata_core.py --include-label-only --apply
+.venv/bin/python scripts/ingest/collect_wikipedia_core.py --collect-only
+.venv/bin/python scripts/ingest/collect_wikipedia_core.py --import-only
+.venv/bin/python scripts/ingest/collect_chinaschool_core.py --collect-only
+.venv/bin/python scripts/ingest/collect_chinaschool_core.py --import-only
+.venv/bin/python scripts/ingest/collect_homepage_identity.py
+.venv/bin/python scripts/ingest/collect_header_css_marks.py
+.venv/bin/python scripts/ingest/fill_ppt_reference_colors.py
+.venv/bin/python scripts/ingest/collect_ppt_site_colors.py --collect-only
+.venv/bin/python scripts/ingest/collect_ppt_site_colors.py --import-only
+```
+
+`collect_community_logo_gaps.py --retry-errors` 只重试网络失败及未读预览文件的目录。更名暂停、身份不匹配和不存在的页面不自动采纳；无 Git 提交的来源以页面、图像哈希和现行学校身份追溯。
+
+`inspect_template_files.py --retry-errors` 重试已索引但未读取的模板文件。资源重新导入后使用 `--import-only` 恢复已有结构元数据，再生成演示索引。文件、展开大小与读取时间均受限；公开文件缓存不入库。具体读取规则见[演示资料指南](ppt-guide.md)。
+
+专项报告按变更内容选用：`report_field_union.py`、`report_visual_completion.py`、`report_visual_gaps.py`、`report_research.py` 位于 `scripts/validate/`。这些脚本生成来源映射、视觉覆盖或访查报告；历史批次不因新的报告日期自动成为当前事实。

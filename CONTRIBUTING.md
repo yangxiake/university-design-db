@@ -1,27 +1,55 @@
-# 贡献与复核
+# 贡献指南
 
-欢迎纠正来源、补充官方资料或提交单校复核记录。请先用`indexes/catalog.csv`确定学校标识码；若该校尚无档案，运行`.venv/bin/python scripts/ingest/seed_profiles.py --school-code <标识码>`创建v3档案，再修改唯一的`profile.yaml`。不要手改派生索引、PROFILE/VISUAL/OFFICIAL/COMMUNITY视图、profiles.jsonl或viewer/data。
+University Design DB 接受资料纠错、来源更新和代码改进。当前范围为教育部 2026 年名单中的 1,412 所本科院校，档案结构为 v4。先按[总索引](indexes/catalog.csv)确认学校标识码，避免把母校、院系、前身或同名学校的资料混在一起。
 
-正向事实优先使用学校官网、学校章程、官方 VI 和官方资源页；教育部名单仅支撑其原有列。社区数据可补充带明确版本和来源类型的事实；不得把社区信息称为学校官方声明。提交时填写短事实、直接来源 URL、访问日期和适当的历史或取色方法。无法找到的字段记检索入口与日期；互相矛盾的来源记录候选值。请勿复制学校整篇介绍或上传校徽、字体、照片、模板文件。
+## 报告问题
 
-人工复核者须亲自打开来源、确认页面所说内容与字段口径一致、查看官方资源适用对象与使用规则，再把相关字段的 `verified` 改成 `human`。一校核查完毕后设置 `research.status: reviewed`、`checked_at` 和 `reviewed_by`。提交者不得将仅由 AI 自动提取的内容标成人工复核。
+在 [Issues](https://github.com/yangxiake/university-design-db/issues) 报告错误校名、错误校徽、过期标识、错误配色、失效 URL 或官方来源变化。请提供：
 
-先安装`requirements-quality.txt`和Node.js 24（无需npm依赖）。修改后运行：
+- 学校全名、标识码，以及有问题的字段、文件或页面地址。
+- 当前记录、建议更正内容与原始来源 URL；涉及版本变化时说明发布单位和日期。
+- 链接失效时注明访问日期和看到的结果；网页问题提供复现步骤和浏览器。
+
+不必先准备代码 PR。来源不充分时可以只提交线索，资料保持待核验状态。
+
+## 新增或更新资料
+
+修改 `universities/<省级地区>/<学校标识码>/profile.yaml`。这是单校唯一事实源；便读视图、CSV / JSONL、索引与 `viewer/data/` 通过生成器更新，操作见[开发指南](docs/DEVELOPMENT.md)。当前范围内全部学校已有档案；新增学校身份或更换年度名单应先在 Issue 中说明范围与标识码延续关系。
+
+- 尽量提供原始发布页或文件 URL，注明校方、主管部门、第三方项目或社区来源，保留检查日期与可取得的版本、哈希。
+- 不只提交来源不明的图片；校徽、字体、照片、模板和整篇学校介绍不上传到仓库。提交入口、必要元数据和简短事实。
+- 标识须对应现行学校身份。旧名、前身、母校图形和未宣布采用的征集稿不能充当当前学校标识。
+- 配色说明依据与用途：`official_vi` 必须有校方数字规范证据；图形取色、网页 CSS、社区主题作为设计参考。印刷色不擅自换算为官方屏幕值。
+- 建校年注明前身起点、创办、合并或更名等口径。英文名与简称保留发布主体和适用时期。
+- 冲突资料保存候选、来源和差异，不猜一个答案。访问失败保留回执；`not_found` 需要实际检索入口和日期，不能代表永久不存在。
+- 第三方数据子集及其派生字段继续遵循上游许可；仓库代码许可不代替图形授权。见[数据许可](docs/DATA-LICENSE.md)和[第三方来源](data/external/README.md)。
+
+字段以[当前 Schema](docs/schema.md)、[v4 约束](data/profile-schema-v4.json)和[字段范围](data/ppt-core-fields.yaml)为准。新增字段先说明视觉或演示用途，再同步 Schema、语义校验与相关导出。招生、排名、就业、人数、面积等不在当前范围内。
+
+## 人工复核
+
+亲自打开来源，核对学校身份、事实口径、标识版本、色值方法与资源适用范围后，才能将相应事实的 `verified` 改为 `human`。仅由 AI 提取或自动检查的资料保持 `auto`。
+
+只有完成整校复核后才设置 `research.status: reviewed`，并填写检查日期与 `reviewed_by`。部分字段复核不等于整校签核。`validate_profiles.py --release` 是人工审定版本的额外门槛，普通资料更新使用统一自动资料检查。
+
+## 代码与 PR
+
+从当前 main 创建分支，提交聚焦的修改。PR 说明问题、最终变化和实际执行的验证；资料变动列出学校标识码与直接来源。
+
+需要 Python 3.9+ 和 Node.js 24，无 npm 依赖。在仓库根目录初始化环境并检查：
 
 ```bash
-.venv/bin/python scripts/ingest/render_official.py
-.venv/bin/python scripts/ingest/render_community.py
-.venv/bin/python scripts/ingest/render_enriched.py
-.venv/bin/python scripts/ingest/build_indexes.py
-.venv/bin/python scripts/ingest/build_ppt_indexes.py
-.venv/bin/python scripts/ingest/build_ppt_profiles.py
-.venv/bin/python scripts/ingest/build_viewer.py
-.venv/bin/python scripts/validate/report_field_union.py
-.venv/bin/python scripts/validate/report_coverage.py
-.venv/bin/python scripts/validate/build_review_queue.py
+python3 -m venv .venv
+.venv/bin/pip install -r requirements-quality.txt
 .venv/bin/python scripts/check.py
 ```
 
-本轮自动采集版本无需人工签核。`validate_profiles.py --release` 保留为未来人工审定版本的可选检查。年度教育部名单变更时先更新 `source-manifest.yaml` 和构建脚本，再维护学校标识码的延续关系；不得把旧年度名称、地区或办学性质静默覆盖成新年度事实。
+资料修改后先按[开发指南](docs/DEVELOPMENT.md)重建相关派生文件和覆盖报告，再运行检查。网页或构建代码变化时还运行：
 
-新增字段按`data/profile-schema-v3.yaml`维护类型和来源口径，同时更新`data/profile-schema-v3.json`及自定义语义校验。PPT导出字段另由`data/ppt-export-schema-v1.json`约束。提交时GitHub Actions会校验数据和派生文件，检查本身不修补事实。社区校徽要给具体文件URL、学校身份、版本、访问状态及独立图形许可；素材不上传。排名、招生、就业与人数/面积不能丢掉年份、地区或统计口径。社区取色记community_logo_sample，不能填写成official_vi。兼容数据子集保留原LICENSE；快照及其派生字段同样遵循上游许可。
+```bash
+.venv/bin/python scripts/build_pages.py --output-dir tmp/pages-pr-check
+```
+
+输出目录必须为空；重复运行时换用新的 `tmp/` 子目录。预览与项目子路径验证见[Pages 说明](docs/github-pages.md)。
+
+GitHub Actions 对 PR 运行离线质量检查；main 推送还会在两套 Python 检查通过后构建、部署 Pages。关卡见[质量检查](docs/quality-checks.md)。检查通过表示结构和规则一致，不表示资料全量完备、图形均为现行正式版本或素材已获授权。
