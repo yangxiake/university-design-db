@@ -2,13 +2,15 @@
 
 ## 打开和使用
 
-在下载后的仓库根目录运行：
+在线使用：[高校 PPT 素材目录](https://yangxiake.github.io/university-design-db/)，无需安装Python或Node.js。公开站点通过GitHub Pages托管，维护者将通过质量检查的main版本同步到发布分支；详情和页脚的完整档案、说明链接固定到本次部署的源提交。
+
+本地使用时，在下载后的仓库根目录运行：
 
 ```bash
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-浏览器打开`http://127.0.0.1:8765/viewer/`。静态页面没有npm依赖，也不需要Node.js。通过HTTP读取JSON，直接双击HTML的`file:`方式无法正常载入数据。仓库与Release资料包已[公开发布到GitHub](https://github.com/yangxiake/university-design-db)，无需登录即可查看与下载。页面可部署到支持静态文件的HTTP服务；当前通过上述本地服务打开，尚未开通在线预览站点。
+浏览器打开`http://127.0.0.1:8765/viewer/`。静态页面没有npm依赖，也不需要Node.js。通过HTTP读取JSON，直接双击HTML的`file:`方式无法正常载入数据。本机地址只能由本机访问，服务停止后需重新启动。仓库与Release资料包已[公开发布到GitHub](https://github.com/yangxiake/university-design-db)，无需登录即可查看与下载。公开站点部署方法见[GitHub Pages说明](github-pages.md)。
 
 1. 搜索校名、带来源的中英文别名或10位学校标识码，可叠加地区和素材类型。网页不提供采集分类标签筛选；“短校名”“教育部备注为空”等内部标签仍保留在数据文件中。旧地址中的`tag`参数不再参与网页筛选，首次打开会移除该参数。
 2. 展开“更多筛选”，选择来源、常用文件格式、标识样式、透明背景、文件记录或配色依据。多个素材条件必须匹配同一记录。HTML、未知格式与示例标记不再作为文件格式选项，原记录仍可在详情及单校JSON中查阅。折叠时显示已启用的条件数；重置筛选会清空条件并收起此区。

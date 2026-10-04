@@ -15,7 +15,7 @@ Python 3.9+和Node.js 24，Python依赖安装到本地虚拟环境，网页规�
 | --- | --- |
 | 档案语义 | 1412个唯一身份及范围对应、事实来源、非未来日期、建校年口径、RGB/HEX一致、官方标记、文件读取与结构关系 |
 | JSON Schema | v4单校档案及v1 PPT导出结构、数据类型、状态条件、来源日期、印刷色与屏幕空值规则 |
-| Python测试 | 当前134项，含主字段范围、当前身份、文件缓存、CSS取色及印刷色与独立屏幕建议并存的导出、覆盖口径；本机预览哈希、ZIP成员与SVG检查 |
+| Python测试 | 当前140项，含主字段范围、当前身份、文件缓存、CSS取色及印刷色与独立屏幕建议并存的导出、覆盖口径；本机预览哈希、ZIP成员与SVG检查；在线部署文件范围、来源链接、路径、符号链接边界及同提交质量检查要求 |
 | 网页规则测试 | 31项：同记录条件匹配、搜索、来源、透明状态、预览背景、资源合并、PDF区域与ZIP成员身份、危险URL，预览排队、共享请求、取消、重试和超时；展开动画快速反转、减少动画偏好与动画中切换偏好 |
 | 七项生成一致性 | OFFICIAL、COMMUNITY、PROFILE/VISUAL和完整索引、分类索引、既有PPT索引、PPT导出、viewer地区数据 |
 | 仓库检查 | `git diff --check`及检查前后文件哈希一致 |
@@ -27,6 +27,8 @@ Python 3.9+和Node.js 24，Python依赖安装到本地虚拟环境，网页规�
 工作流为[Data quality](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)。推送、PR及手动触发运行，Python矩阵为3.9、3.13，两套均使用Node.js 24；安装依赖后执行同一本地检查入口。标准校验不调用联网采集脚本。工作流只获仓库读取权限，官方checkout/setup-python/setup-node操作固定到完整提交SHA。
 
 jsonschema固定为4.25.1，以兼容Python 3.9最低版本，版本依据见[PyPI元数据](https://pypi.org/project/jsonschema/4.25.1/)。每套运行单独显示结果，超时或任何检查失败都不计为通过。
+
+网站通过GitHub自带的分支发布机制提供。`scripts/publish_pages.py`要求源仓库干净、HEAD已推送到main、仓库公开且同一提交的`Data quality`检查成功，才构建并推送静态发布分支。脚本不会强制推送或更改现有登录权限，部署版本在站点清单中保留源提交。发布内容与同步方法见[GitHub Pages说明](github-pages.md)。
 
 ## M1/M2验收（2026-10-02）
 

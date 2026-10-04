@@ -5,6 +5,7 @@ import {createPreviewLoader} from './preview-loader.mjs?v=20261003-ui4.2';
 import {installDisclosureMotion,syncSectionNavigation} from './interactions.mjs?v=20261003-ui5.1';
 
 const $ = id => document.getElementById(id);
+const repositoryBase=document.querySelector('meta[name="repository-base"]')?.content;
 const PAGE_SIZE = 24;
 const fields = ['query','province','type','source','format','kind','transparent','status','colorStatus'];
 const advancedFields = ['source','format','kind','transparent','status','colorStatus'];
@@ -172,7 +173,7 @@ function renderSchool(school) {
   }));
   if(site.availability==='found')actions.append(link('学校官网 ↗',site.value,'button'));
   else actions.append(chip(`官网：${availability[site.availability] || site.availability}`));
-  if(/^universities\/[^/]+\/\d{10}\/profile\.yaml$/.test(school.profile_path)) {const a=el('a','完整档案','button');a.href='../'+school.profile_path;actions.append(a);}
+  if(/^universities\/[^/]+\/\d{10}\/profile\.yaml$/.test(school.profile_path)) {const a=el('a','完整档案','button');a.href=repositoryBase?new URL(school.profile_path,repositoryBase).href:'../'+school.profile_path;actions.append(a);}
   header.append(actions);
   const jsonDetails=el('details','','source-details');jsonDetails.append(el('summary','查看 / 手动复制单校 JSON'));
   const jsonText=el('textarea','','json-data');jsonText.readOnly=true;jsonText.rows=8;
@@ -338,8 +339,8 @@ async function initialize() {
     const code=new URL(location.href).searchParams.get('school');
     restoreFilters();refreshResults(false);if(code)await selectSchool(code,false);else welcome();
     writeUrl();
-  } catch { $('totals').textContent='检索目录载入失败';$('result-count').textContent='请先启动本地HTTP服务';
-    $('detail').replaceChildren(el('p',location.protocol==='file:'?'请通过本地HTTP地址打开目录。运行 python3 -m http.server 8765 --bind 127.0.0.1，然后访问 http://127.0.0.1:8765/viewer/。':'目录载入失败，请确认服务目录为资料库根目录，并已生成 viewer/data。','empty'),button('重新载入',()=>location.reload())); }
+  } catch { $('totals').textContent='检索目录载入失败';$('result-count').textContent=location.protocol==='file:'?'请先启动本地HTTP服务':'可重新载入检索目录';
+    $('detail').replaceChildren(el('p',location.protocol==='file:'?'请通过本地HTTP地址打开目录。运行 python3 -m http.server 8765 --bind 127.0.0.1，然后访问 http://127.0.0.1:8765/viewer/。':'目录暂时无法载入，请检查网络后重新尝试。','empty'),button('重新载入',()=>location.reload())); }
 }
 $('filters').addEventListener('submit',event=>event.preventDefault());
 let debounce;$('query').addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(()=>refreshResults(),130);});

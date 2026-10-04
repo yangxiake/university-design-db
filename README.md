@@ -2,15 +2,17 @@
 
 为个人和 AI 助手制作高校主题 PPT 整理可检索的学校事实、视觉线索和资源入口。
 
-仓库现已[公开发布到 GitHub](https://github.com/yangxiake/university-design-db)，无需登录即可查看代码、数据和下载 Release 资料包。素材目录可下载后通过本地 HTTP 服务打开，使用方法见下文。
+**在线使用：[高校 PPT 素材目录](https://yangxiake.github.io/university-design-db/)。** 搜索学校，查看标识、配色和模板入口，复制单校资料给 AI；无需安装本地环境。
 
-最新版本：[v0.4.5-20261004](https://github.com/yangxiake/university-design-db/releases/tag/v0.4.5-20261004)，统一按钮、控件状态和展开动画，调整卡片对齐、间距及手机布局，见[界面协调性更新](docs/releases/2026-10-04-viewer-consistency.md)。保留上一版的[预览与资源合并改进](docs/releases/2026-10-03-viewer-preview.md)，网页搜索已移除内部分类标签。主字段资料沿用[v0.4.2补采批次](docs/releases/2026-10-03-other-sources.md)，这是附来源的自动整理预发布版，尚未全量补齐；仅收现行已确认资料，剩余32所、59项缺口逐校保留。
+仓库已[公开发布到 GitHub](https://github.com/yangxiake/university-design-db)，无需登录即可查看代码、数据和下载 Release 资料包。也可下载后通过本地 HTTP 服务打开素材目录。在线站点从发布分支提供，维护者可同步通过检查的main版本；部署方法见[GitHub Pages 说明](docs/github-pages.md)。
+
+最新资料包：[v0.4.5-20261004](https://github.com/yangxiake/university-design-db/releases/tag/v0.4.5-20261004)，统一按钮、控件状态和展开动画，调整卡片对齐、间距及手机布局，见[界面协调性更新](docs/releases/2026-10-04-viewer-consistency.md)。保留上一版的[预览与资源合并改进](docs/releases/2026-10-03-viewer-preview.md)，网页搜索已移除内部分类标签。主字段资料沿用[v0.4.2补采批次](docs/releases/2026-10-03-other-sources.md)，这是附来源的自动整理预发布版，尚未全量补齐；仅收现行已确认资料，剩余32所、59项缺口逐校保留。
 
 **当前范围：教育部 2026 年名单中的全部 1,412 所本科院校，均已建档。** 含普通本科、职业本科、民办与合作办学院校；不再采用旧版 933 所选校过滤。按用户要求，剩余缺口补采已暂停，当前优化素材目录界面与检索。建档数量与字段覆盖率分别统计，见[覆盖率报告](docs/coverage-2026.md)。
 
 ## 找学校与资料
 
-浏览器中使用[素材目录](viewer/index.html)：检索1412所学校，比较标识、查看配色证据和模板条件，并复制单校资料给AI。下载仓库后先在根目录运行`python3 -m http.server 8765 --bind 127.0.0.1`，打开`http://127.0.0.1:8765/viewer/`；完整用法见[素材目录说明](docs/viewer-guide.md)。
+直接打开[在线素材目录](https://yangxiake.github.io/university-design-db/)：检索1412所学校，比较标识、查看配色证据和模板条件，并复制单校资料给AI。离线使用时，下载仓库后在根目录运行`python3 -m http.server 8765 --bind 127.0.0.1`，打开`http://127.0.0.1:8765/viewer/`；完整用法见[素材目录说明](docs/viewer-guide.md)。
 
 1. 在[总索引](indexes/catalog.csv)按校名、学校标识码、地区查找，也可浏览[地区](indexes/by-province.csv)、[类别](indexes/by-category.csv)、[标签](indexes/by-tag.csv)、[状态](indexes/by-status.csv)。
 2. 打开索引中的 `profile_path`，读取唯一事实源 `profile.yaml`。`PROFILE.md` 是逐校便读档案，`VISUAL.md` 汇总逐文件校徽、校名与配色，`OFFICIAL.md` 展示官方 PPT 入口；有社区资源的学校另有 `COMMUNITY.md`。
