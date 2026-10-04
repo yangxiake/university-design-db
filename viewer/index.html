@@ -6,8 +6,8 @@
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: http:; connect-src 'self'; object-src 'none'; base-uri 'none'">
   <title>高校 PPT 素材目录</title>
-  <link rel="stylesheet" href="styles.css?v=20261003-ui5.2">
-  <script type="module" src="app.mjs?v=20261004-pages1"></script>
+  <link rel="stylesheet" href="styles.css?v=20261004-v2">
+  <script type="module" src="app.mjs?v=20261004-v2"></script>
 </head>
 <body>
 <a class="skip" href="#detail">跳到学校资料</a>
@@ -20,13 +20,15 @@
 </header>
 <main class="shell">
   <form id="filters" class="filters" role="search" aria-label="学校与素材检索">
-    <div class="search-heading"><h2>搜索学校与素材</h2><p>支持校名、英文简称与学校标识码</p></div>
+    <h2 class="sr-only">搜索学校与素材</h2>
     <div class="filter-primary">
-      <label class="search-label">学校<input id="query" name="query" type="search" placeholder="输入校名、英文简称或学校标识码" autocomplete="off"></label>
-      <label>地区<select id="province" name="province"><option value="">全部地区</option></select></label>
-      <label>素材类型<select id="type" name="type"><option value="all">全部素材</option><option value="logo">学校标识</option><option value="color">配色</option><option value="template">PPT 模板与主题</option><option value="presentation">已读取 PPTX</option><option value="visual_file">PPT 等视觉文件</option></select></label>
+      <label class="search-label"><span class="sr-only">学校</span><svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="query" name="query" type="search" placeholder="搜索校名、英文简称或学校标识码" autocomplete="off"></label>
+      <label><span class="sr-only">地区</span><select id="province" name="province"><option value="">全部地区</option></select></label>
+      <label><span class="sr-only">素材类型</span><select id="type" name="type"><option value="all">全部素材</option><option value="logo">学校标识</option><option value="color">配色</option><option value="template">PPT 模板与主题</option><option value="presentation">已读取 PPTX</option><option value="visual_file">PPT 等视觉文件</option></select></label>
+      <button id="filter-toggle" class="button secondary" type="button" aria-expanded="false" aria-controls="advanced-filters"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14M7 3v4M13 8v4M8 13v4"/></svg>筛选<span id="filter-summary" class="filter-badge" hidden></span></button>
     </div>
-    <details class="advanced"><summary>更多筛选 <span id="filter-summary">来源、格式与标识样式</span></summary>
+    <details id="advanced-filters" class="advanced"><summary hidden>高级筛选条件</summary>
+      <div class="advanced-content">
       <div class="filter-grid">
         <label>素材来源<select id="source" name="source"><option value="">全部来源</option><option value="official">校方资料</option><option value="reference">社区与设计参考</option></select></label>
         <label>文件格式<select id="format" name="format"><option value="">全部格式</option></select></label>
@@ -36,19 +38,23 @@
         <label>配色依据<select id="colorStatus" name="colorStatus"><option value="">全部配色</option><option value="official_vi">官方数字主色</option><option value="official_print_only">仅有印刷主色</option><option value="design_reference">设计参考主色</option><option value="conflict">主色来源冲突</option><option value="unresearched">主色待调查</option><option value="not_found">已检索未找到主色</option></select></label>
       </div>
       <p class="filter-note">标识与模板按发布方筛选，色卡按标准色证据筛选。多个素材条件须同时匹配同一条记录。</p>
+      </div>
     </details>
-    <div class="filter-footer"><span id="result-count" role="status"></span><button type="reset" class="quiet">重置筛选</button></div>
+    <div id="active-filters" class="active-filters" hidden><ul id="filter-chips" class="filter-chips" aria-label="已启用的筛选条件"></ul><button type="reset" class="button ghost small">清除全部</button></div>
+    <div class="filter-footer"><span id="result-count" role="status">正在载入学校目录…</span><span class="filter-hint">按学校查找，按来源核对</span></div>
   </form>
+  <div class="mobile-school-bar"><button id="school-picker-button" class="button secondary" type="button" aria-haspopup="dialog" aria-controls="school-picker"><span id="school-picker-label">选择学校</span><span aria-hidden="true">↓</span></button></div>
   <div class="workspace">
-    <aside class="school-panel" aria-label="学校检索结果">
-      <div class="panel-heading">学校目录<span>点击查看素材</span></div>
+    <div id="school-panel-home"><aside id="school-panel" class="school-panel" aria-label="学校检索结果" aria-busy="true">
+      <div class="panel-heading">学校目录<span id="sidebar-count">载入中</span></div>
       <div id="school-list" class="school-list"></div>
       <div class="pagination"><button id="prev" class="quiet" type="button">上一页</button><span id="page-info"></span><button id="next" class="quiet" type="button">下一页</button></div>
-    </aside>
+    </aside></div>
     <article id="detail" class="detail" tabindex="-1"><div class="welcome"><span class="section-kicker">从学校开始</span><h2>选择学校，开始查找素材。</h2><p>在左侧选择学校，比较校徽和校名标识，复制配色，或查看 PPT 模板。每项资料均保留来源说明。</p></div></article>
   </div>
   <footer class="site-footer"><p>教育部 2026 本科范围 · 每校一份身份档案 · 自动采集资料保留来源及空缺</p><a href="../docs/ppt-export-v1.md">数据与使用说明</a><a href="../README.md">资料库说明</a></footer>
 </main>
+<dialog id="school-picker" class="school-picker" aria-labelledby="school-picker-title" aria-modal="true"><div class="picker-heading"><h2 id="school-picker-title">选择学校</h2><button id="school-picker-close" class="button ghost small" type="button" aria-label="关闭学校目录">关闭 ×</button></div><div id="school-picker-body"></div></dialog>
 <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 </body>
 </html>

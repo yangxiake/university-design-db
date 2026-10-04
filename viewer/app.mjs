@@ -2,7 +2,7 @@ import {TAGS,KINDS,COLOR_STATUS,ACCESS,METHODS,safeUrl,matchesSchool,materialMat
   previewMode,previewBackground,resourceGroup,formatSize,groupLogoAssets,groupColors,groupResources,
   groupPresentations,previewSources} from './model.mjs?v=20261003-ui4.1';
 import {createPreviewLoader} from './preview-loader.mjs?v=20261003-ui4.2';
-import {installDisclosureMotion,syncSectionNavigation} from './interactions.mjs?v=20261003-ui5.1';
+import {installDisclosureMotion,installSectionTabs,installDialogFocus,syncSectionNavigation} from './interactions.mjs?v=20261004-v2';
 
 const $ = id => document.getElementById(id);
 const repositoryBase=document.querySelector('meta[name="repository-base"]')?.content;
@@ -66,8 +66,8 @@ function toast(message) {
   $('toast').textContent=message; $('toast').hidden=false;
   clearTimeout(toast.timer); toast.timer=setTimeout(()=>{$('toast').hidden=true;},3500);
 }
-async function copy(value) {
-  try {await navigator.clipboard.writeText(value); toast('已复制，引用时请保留来源。');}
+async function copy(value,message='已复制，引用时请保留来源。') {
+  try {await navigator.clipboard.writeText(value); toast(message);}
   catch {toast('浏览器未允许复制；可下载单校资料，或选中文本手动复制。');}
 }
 function section(id,title,desc) {
@@ -89,14 +89,22 @@ function restoreFilters() {
     $(key).value=key==='query' || [...$(key).options].some(o=>o.value===value)?value:'';}
   if (!$('type').value) $('type').value='all';
   updateFilterControls();
-  document.querySelector('.advanced').open=advancedFields.some(key=>$(key).value);
+  disclosure.setOpen($('advanced-filters'),advancedFields.some(key=>$(key).value),$('filter-toggle'),false);
 }
 function updateFilterControls() {
   const type=$('type').value;
   for (const key of ['kind','transparent']) {$(key).disabled=!['all','logo'].includes(type); if ($(key).disabled) $(key).value='';}
   for (const key of ['format','status']) {$(key).disabled=type==='color'; if ($(key).disabled) $(key).value='';}
   const count=advancedFields.filter(key=>$(key).value).length;
-  $('filter-summary').textContent=count?`已启用 ${count} 项条件`:'来源、格式与标识样式';
+  $('filter-summary').textContent=count;$('filter-summary').hidden=!count;
+  const names={query:'学校',province:'地区',type:'素材类型',source:'来源',format:'格式',kind:'标识样式',transparent:'背景',status:'文件记录',colorStatus:'配色依据'};
+  const chips=$('filter-chips');chips.replaceChildren();
+  for(const key of fields){const field=$(key),value=field.value;if(!value || key==='type' && value==='all')continue;
+    const label=`${names[key]}：${key==='query'?value:field.selectedOptions[0].textContent}`;
+    const item=el('li'),remove=button('',()=>{field.value=key==='type'?'all':'';clearTimeout(debounce);refreshResults();},'filter-chip');
+    remove.setAttribute('aria-label',`移除${label}`);remove.append(el('span',label));const cross=el('span','×');cross.setAttribute('aria-hidden','true');remove.append(cross);item.append(remove);chips.append(item);
+  }
+  $('active-filters').hidden=!chips.children.length;
 }
 function refreshResults(updateUrl=true) {
   if (!state.catalog) return;
@@ -112,14 +120,17 @@ function refreshResults(updateUrl=true) {
 function renderList() {
   const pages=Math.max(1,Math.ceil(state.rows.length/PAGE_SIZE)); state.page=Math.min(state.page,pages-1);
   $('result-count').textContent=`找到 ${state.rows.length.toLocaleString()} 所学校`;
+  $('sidebar-count').textContent=`${state.rows.length.toLocaleString()} 所`;
+  $('school-picker-label').textContent=state.selected?state.selected.name_zh:`选择学校 · ${state.rows.length.toLocaleString()} 所`;
+  $('school-panel').setAttribute('aria-busy','false');
   const list=$('school-list'); list.replaceChildren();
   if (!state.rows.length) list.append(el('p','暂无匹配学校。可减少素材条件或重置筛选。','empty'));
   for (const school of state.rows.slice(state.page*PAGE_SIZE,(state.page+1)*PAGE_SIZE)) {
     const card=button('',()=>selectSchool(school.school_code),'school-card'+(state.selected?.school_code===school.school_code?' selected':''));
-    card.setAttribute('aria-label',`查看${school.name_zh}资料`); card.append(el('h3',school.name_zh),el('div',`${school.province} · ${school.school_code}`,'school-meta'));
+    card.title=school.name_zh;card.setAttribute('aria-label',`查看${school.name_zh}资料`); card.append(el('h3',school.name_zh),el('div',`${school.province} · ${school.school_code}`,'school-meta'));
     card.setAttribute('aria-pressed',String(state.selected?.school_code===school.school_code));
     const counts=el('div','','school-counts');
-    counts.append(el('span',`标识记录 ${school.logo_count}`),el('span',`色卡记录 ${school.color_count}`),el('span',`模板入口 ${school.template_count}`));
+    counts.append(el('span',`标识 ${school.logo_count}`),el('span',`色卡 ${school.color_count}`),el('span',`模板 ${school.template_count}`));
     card.append(counts,el('div',COLOR_STATUS[school.color_status],'school-status')); list.append(card);
   }
   $('page-info').textContent=state.rows.length?`${state.page+1} / ${pages}`:'0 / 0';
@@ -127,6 +138,7 @@ function renderList() {
 }
 function welcome() {
   clearPreviews();
+  $('detail').setAttribute('aria-busy','false');
   const node=el('div','','welcome'); node.append(el('span','从学校开始','section-kicker'),el('h2','选择学校，开始查找素材。'),
     el('p','选择学校后，比较校徽和校名标识，复制配色，或查看 PPT 模板。每项资料均保留来源说明。'));
   if (state.catalog) {const actions=el('div','','welcome-actions');
@@ -151,37 +163,44 @@ async function selectSchool(code,push=true) {
   if (!row) {state.selected=null; $('detail').replaceChildren(el('p','此标识码不在当前本科范围内。请从目录重新选择学校。','empty'));return;}
   const loadId=++state.loadId;
   state.selected=null;
-  $('detail').replaceChildren(el('p',`正在载入${row.name_zh}的资料…`,'empty'));
+  $('detail').setAttribute('aria-busy','true');
+  const loading=el('p',`正在载入${row.name_zh}的资料…`,'loading-state');loading.setAttribute('role','status');$('detail').replaceChildren(loading);
   try {
     const bundle=await getBundle(row.province);
     if(loadId!==state.loadId)return;
     const school=bundle.schools[code]; if(!school)throw new Error('School missing in regional bundle');
     state.selected=school;renderSchool(school);renderList();if(push)writeUrl(true);
-    if(matchMedia('(max-width:760px)').matches)$('detail').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+    $('detail').setAttribute('aria-busy','false');
+    if(matchMedia('(max-width:899px)').matches){if($('school-picker').open)$('school-picker').close('school-selected');$('detail').focus({preventScroll:true});$('detail').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}
   } catch {if(loadId!==state.loadId)return;
+    $('detail').setAttribute('aria-busy','false');
     $('detail').replaceChildren(el('p','单校资料载入失败。已取得的检索目录仍可使用。','empty'),button('重新载入',()=>selectSchool(code,push)));}
 }
 function visible(descriptor) {return materialMatches(descriptor,filters());}
 function renderSchool(school) {
   clearPreviews();
-  const header=el('header','','detail-header'); header.append(el('div',`${school.province} / ${school.city} / ${school.school_code}`,'breadcrumb'),el('h2',school.name_zh));
-  const tags=el('div','','tags'); for(const tag of school.scope_tags) if(['double_first','private','cooperative','vocational_undergraduate'].includes(tag))tags.append(el('span',TAGS[tag] || tag,'tag'));header.append(tags);
+  const header=el('header','','detail-header'); header.append(el('div',`${[...new Set([school.province,school.city])].filter(Boolean).join(' / ')} / ${school.school_code}`,'breadcrumb'));
+  const title=el('div','','school-title-row');title.append(el('h2',school.name_zh));
+  const tags=el('div','','tags'); for(const tag of school.scope_tags) if(['double_first','private','cooperative','vocational_undergraduate'].includes(tag))tags.append(el('span',TAGS[tag] || tag,'tag'));title.append(tags);header.append(title);
+  if(school.identity.name_en.availability==='found')header.append(el('p',school.identity.name_en.value,'school-english'));
   const actions=el('div','','actions');const site=school.identity.official_website;
-  actions.append(button('复制该校资料',()=>copy(JSON.stringify(school,null,2)),'button primary'),button('下载单校 JSON',()=>{
+  actions.append(button('复制资料',()=>copy(JSON.stringify(school,null,2)),'button primary'),button('下载 JSON',()=>{
     const url=URL.createObjectURL(new Blob([JSON.stringify(school,null,2)+'\n'],{type:'application/json'}));
     const a=el('a');a.href=url;a.download=`${school.school_code}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
-  }));
-  if(site.availability==='found')actions.append(link('学校官网 ↗',site.value,'button'));
-  else actions.append(chip(`官网：${availability[site.availability] || site.availability}`));
-  if(/^universities\/[^/]+\/\d{10}\/profile\.yaml$/.test(school.profile_path)) {const a=el('a','完整档案','button');a.href=repositoryBase?new URL(school.profile_path,repositoryBase).href:'../'+school.profile_path;actions.append(a);}
+  },'button secondary'));
+  const actionLinks=el('div','','action-links');
+  if(site.availability==='found')actionLinks.append(link('学校官网 ↗',site.value));
+  else actionLinks.append(chip(`官网：${availability[site.availability] || site.availability}`));
+  if(/^universities\/[^/]+\/\d{10}\/profile\.yaml$/.test(school.profile_path)) {const a=el('a','完整档案 ↗');a.href=repositoryBase?new URL(school.profile_path,repositoryBase).href:'../'+school.profile_path;actionLinks.append(a);}actions.append(actionLinks);
   header.append(actions);
-  const jsonDetails=el('details','','source-details');jsonDetails.append(el('summary','查看 / 手动复制单校 JSON'));
+  const jsonDetails=el('details','','source-details json-disclosure');jsonDetails.append(el('summary','查看 / 手动复制单校 JSON'));
   const jsonText=el('textarea','','json-data');jsonText.readOnly=true;jsonText.rows=8;
   jsonText.setAttribute('aria-label','单校 JSON 资料');jsonText.value=JSON.stringify(school,null,2);
   jsonDetails.append(jsonText);header.append(jsonDetails);
-  const nav=el('nav','','subnav');nav.setAttribute('aria-label','单校资料分区');
-  for(const [id,label] of [['logos','标识'],['colors','配色'],['templates','模板'],['content','介绍']]) {const a=el('a',label);a.href='#'+id;nav.append(a);}
-  $('detail').replaceChildren(header,nav,renderLogos(school),renderColors(school),renderTemplates(school),renderContent(school));
+  const panels=[renderLogos(school),renderColors(school),renderTemplates(school),renderContent(school)];
+  const nav=el('nav','','subnav');nav.setAttribute('aria-label','单校资料分区');nav.setAttribute('role','tablist');
+  for(const [index,[id,label,selector]] of [['logos','标识','.asset-card'],['colors','配色','.color-card'],['templates','模板','.template-card, .template-group > .file-card'],['content','介绍',null]].entries()) {const a=el('a',label);a.href='#'+id;a.id='tab-'+id;a.setAttribute('role','tab');a.setAttribute('aria-controls',id);if(selector)a.append(el('span',panels[index].querySelectorAll(selector).length,'tab-count'));nav.append(a);panels[index].setAttribute('role','tabpanel');panels[index].setAttribute('aria-labelledby',a.id);panels[index].tabIndex=0;}
+  $('detail').replaceChildren(header,nav,...panels);
   syncSectionNavigation();
 }
 function renderLogos(school) {
@@ -215,13 +234,14 @@ function logoCard(family,school) {
     const box=el('div','','asset-preview');box.dataset.background=previewBackground(asset,state.background);box.dataset.assetHint=JSON.stringify({preview_background_hint:asset.preview_background_hint,kind:asset.kind,transparent_background:asset.transparent_background});
     const placeholder=el('div','','preview-placeholder');box.append(placeholder);
     const body=el('div','','asset-body');body.append(el('h4',({badge:'校徽',wordmark:'校名文字',combination:'校徽与校名',site_identity:'官网标识',anniversary:'纪念标识'}[family.kind] || '标识文件')));
+    const chips=el('div','','chips');chips.append(chip(asset.official?'校方发布':'社区来源',asset.official?'official':'reference'),chip(asset.format?.toUpperCase() || '未知格式'));
+    if(version.entries.length>1)chips.append(chip(`${version.entries.length} 条来源`));body.append(chips);
     if(versions.length>1){const label=el('label','文件版本','version-choice'),choice=el('select');choice.setAttribute('aria-label',`${school.name_zh}${KINDS[family.kind] || '标识'}文件版本`);
       versions.forEach((v,i)=>{const a=primary(v),size=a.width&&a.height?`${a.width}×${a.height}`:`版本 ${i+1}`;const option=el('option',`${a.format?.toUpperCase() || '未知格式'} · ${a.official?'校方':'社区'} · ${a.variant || size}${a.download_kind==='archive_member'?' · 包内文件':''}`);option.value=v.key;choice.append(option);});
       choice.value=version.key;choice.addEventListener('change',()=>{version=versions.find(v=>v.key===choice.value);chosenVersions.set(key,version.key);showVersion();});label.append(choice);body.append(label);
     }
-    const chips=el('div','','chips');chips.append(chip(asset.official?'校方发布':'社区来源',asset.official?'official':'reference'),chip(asset.format?.toUpperCase() || '未知格式'));
-    if(version.entries.length>1)chips.append(chip(`${version.entries.length} 条来源`));body.append(chips);
-    body.append(el('p',[asset.width&&asset.height?`${asset.width} × ${asset.height}`:'尺寸未记录',asset.transparent_background===true?'透明背景':asset.transparent_background===false?'非透明背景':'背景未记录'].join(' · '),'file-facts'));
+    const facts=[asset.width&&asset.height?`${asset.width} × ${asset.height}`:null,asset.transparent_background===true?'透明背景':null].filter(Boolean);
+    if(facts.length)body.append(el('p',facts.join(' · '),'file-facts'));
     const status=el('div','等待预览…','preview-status');body.append(status);
     const links=el('div','','small-links'),fileLink=link(mode==='archive'?'原压缩包 ↗':mode==='document'?'原 PDF ↗':'原文件 ↗',asset.archive_url || asset.url);
     links.append(fileLink,link('发布来源 ↗',asset.source));
@@ -252,14 +272,14 @@ function logoCard(family,school) {
 function renderColors(school) {
   const colors=school.colors;const sec=section('colors','配色证据','官方数字色、印刷色与设计参考分开显示。CMYK/Pantone没有数字屏幕值时，不自动换算HEX。');
   sec.append(el('p',`${COLOR_STATUS[colors.screen_status]} · ${colors.reason}`,colors.screen_status==='conflict'?'callout warning':'callout'));
-  if(colors.screen_primary){const selected=el('div','','actions');selected.append(el('span',`当前屏幕选择 ${colors.screen_primary.value}`,'hex'),button('复制色值',()=>copy(colors.screen_primary.value),'quiet'));sec.append(selected,provenance(colors.screen_primary));}
+  if(colors.screen_primary){const selected=el('div','','selected-color');selected.append(el('span','当前屏幕选择'),el('span',colors.screen_primary.value,'hex'),button('复制',()=>copy(colors.screen_primary.value,`已复制 ${colors.screen_primary.value}`),'button ghost small'));sec.append(selected,provenance(colors.screen_primary));}
   for(const conflict of colors.conflicts) {
     const block=el('div','','color-section');block.append(el('h4',conflict.field==='visual.color_primary'?'主色来源冲突':'辅色 / 并列色来源冲突'));
     const grid=el('div','','color-grid');for(const group of groupColors(conflict.fact.candidates.map(c=>({...c,checked_at:conflict.fact.checked_at,verified:conflict.fact.verified,method:'conflict',basis:c.basis || conflict.fact.note || '保留来源候选，未自动选择。'}))))grid.append(colorCard(group));block.append(grid);sec.append(block);
   }
   for(const [key,label] of [['official_digital','校方数字色'],['official_print_only','校方印刷色'],['references','设计与社区参考色']]) {
     const entries=colors[key].filter(c=>visible({type:'color',official:c.method==='official_vi',formats:[],status:c.value==null?'print_only':c.method}));
-    if(!entries.length)continue;const groups=groupColors(entries),block=el('div','','color-section');block.append(el('h4',`${label} · ${groups.length} 种色值`));const grid=el('div','','color-grid');for(const group of groups)grid.append(colorCard(group));block.append(grid);sec.append(block);
+    if(!entries.length)continue;const groups=groupColors(entries),block=el('div','','color-section');block.dataset.evidence=key;block.append(el('h4',`${label} · ${groups.length} 种色值`));const grid=el('div','','color-grid');for(const group of groups)grid.append(colorCard(group));block.append(grid);sec.append(block);
   }
   if(!['official_digital','official_print_only','references'].some(k=>colors[k].length) && !colors.conflicts.length)sec.append(el('p','结构化配色集合为空。当前调查状态与原主色事实仍保留。','empty'),provenance(colors.primary_fact));
   return sec;
@@ -267,17 +287,13 @@ function renderColors(school) {
 function colorCard(group) {
   const entries=group.entries,color=entries[0];
   const card=el('div','','color-card');const valid=/^#[0-9a-f]{6}$/i.test(color.value || '');
-  const swatch=el('div',valid?'':'仅印刷证据','swatch'+(valid?'':' print-only'));if(valid)swatch.style.backgroundColor=color.value;
+  const swatch=valid?button('',()=>copy(color.value,`已复制 ${color.value}`),'swatch'):el('div','仅印刷证据','swatch print-only');if(valid){swatch.style.backgroundColor=color.value;swatch.setAttribute('aria-label',`复制 ${color.label || '色值'} ${color.value}`);swatch.title=`复制 ${color.value}`;}
   const body=el('div','','color-body');body.append(el('h5',color.label || {primary:'主色记录',secondary:'辅色 / 并列记录',reference:'参考色',accent:'强调色'}[color.role] || '来源候选'));
-  body.append(el('div',valid?color.value:'屏幕值为空','hex'),el('p',[...new Set(entries.map(c=>!valid && c.method==='official_vi'?'校方VI印刷证据':METHODS[c.method] || '来源存在冲突'))].join(' · ')));
+  body.append(chip([...new Set(entries.map(c=>!valid && c.method==='official_vi'?'校方VI印刷证据':METHODS[c.method] || '来源存在冲突'))].join(' · '),color.method==='official_vi'?'official':'reference'));
   if(entries.length>1)body.append(chip(`${entries.length} 条来源合并`));
-  if(color.rgb)body.append(el('p','RGB '+color.rgb.join(' / ')));
-  if(color.cmyk)body.append(el('p','CMYK '+color.cmyk.join(' / ')));
-  if(color.cmyk_text)body.append(el('p','原印刷记法：'+color.cmyk_text));
-  if(color.archive_member)body.append(el('p','包内依据：'+(color.archive_member_display || color.archive_member)));
-  if(color.pantone)body.append(el('p','Pantone '+color.pantone));
-  if(valid)body.append(button('复制 HEX',()=>copy(color.value),'quiet'));
-  body.append(entries.length>1?sourceCollection(entries,`查看全部配色依据 · ${entries.length}`,c=>[metadata([['用途',c.role],['取值方式',METHODS[c.method] || c.method],['色值',c.value],['RGB',c.rgb?.join(' / ')]])]):provenance(color));card.append(swatch,body);return card;
+  const values=el('div','','color-value-row');values.append(el('span',valid?color.value:'无屏幕色值','hex'));
+  if(valid)values.append(button('复制',()=>copy(color.value,`已复制 ${color.value}`),'button ghost small'));body.append(values);
+  body.append(sourceCollection(entries,`配色数值与依据 · ${entries.length}`,c=>[metadata([['用途',c.role],['取值方式',c.method==='official_vi' && c.value==null?'校方VI印刷证据':METHODS[c.method] || c.method],['HEX',c.value],['RGB',c.rgb?.join(' / ')],['CMYK',c.cmyk?.join(' / ')],['原印刷记法',c.cmyk_text],['Pantone',c.pantone],...(c.archive_member?[['包内依据',c.archive_member_display || c.archive_member]]:[])])]));card.append(swatch,body);return card;
 }
 function renderTemplates(school) {
   const sec=section('templates','模板与视觉文件','按适用范围选择。PPTX结构读取不等于逐页预览；声明字体不代表已安装，模板内部主题色不自动成为学校VI。');
@@ -307,12 +323,11 @@ function renderTemplates(school) {
 function presentationCard(group) {
   const file=group.entries.find(f=>!f.archive_member) || group.entries[0];
   const card=el('div','','file-card');card.append(el('h6',file.archive_member || file.title));
-  card.append(el('p',`PPTX · ${file.slide_count} 页 · ${file.aspect_ratio} · ${formatSize(file.byte_size)}`),
-    el('p','文件结构已读取；幻灯片画面尚未渲染。'),el('p','声明字体：'+(file.font_names.join('、') || '未记录')),
-    el('p',`非空文本节点 ${file.editable_text_runs ?? '未记录'}；不保证所有元素可编辑。`));
-  if(file.archive_member)card.append(el('p','压缩包成员：'+file.archive_member));
-  if(file.theme_colors.length)card.append(el('p','模板内部色值：'+file.theme_colors.join(' / ')));
-  card.append(link(file.archive_member?'原压缩包 ↗':'原PPTX入口 ↗',file.download_url),group.entries.length>1?sourceCollection(group.entries,`相同文件的全部来源 · ${group.entries.length}`,f=>[el('p',f.archive_member || f.title),link('原文件 / 原包 ↗',f.download_url)]):provenance(file));return card;
+  card.append(el('p',`PPTX · ${file.slide_count} 页 · ${file.aspect_ratio} · ${formatSize(file.byte_size)}`),link(file.archive_member?'原压缩包 ↗':'原PPTX入口 ↗',file.download_url));
+  card.append(sourceCollection(group.entries,`文件结构、主题与来源 · ${group.entries.length}`,f=>[
+    el('p','文件结构已读取；幻灯片画面尚未渲染。'),el('p',`PPTX · ${f.slide_count} 页 · ${f.aspect_ratio} · ${formatSize(f.byte_size)}`),
+    el('p','声明字体：'+(f.font_names.join('、') || '未记录')),el('p',`非空文本节点 ${f.editable_text_runs ?? '未记录'}；不保证所有元素可编辑。`),
+    ...(f.archive_member?[el('p','压缩包成员：'+f.archive_member)]:[]),...(f.theme_colors.length?[el('p','模板内部色值：'+f.theme_colors.join(' / '))]:[]),link('原文件 / 原包 ↗',f.download_url)]));return card;
 }
 function renderContent(school) {
   const sec=section('content','介绍与引用','短简介、校训与建校年份保留来源和历史起点。采集日期不等于原资料的统计或发表日期。');
@@ -335,7 +350,7 @@ async function initialize() {
     for(const [key,values,label] of [['province',state.catalog.provinces,v=>v],['format',formats,v=>({'LATEX/BEAMER':'LaTeX / Beamer','MARKDOWN/MARP':'Markdown / Marp'}[v] || v)]])
       for(const value of values){const option=el('option',label(value));option.value=value;$(key).append(option);}
     const totals=$('totals');totals.replaceChildren();
-    for(const [number,label] of [[state.catalog.school_count,'所本科院校'],[state.catalog.schools.filter(s=>s.inspected_logo_count).length,'所已读取标识'],[state.catalog.schools.reduce((n,s)=>n+s.presentation_count,0),'份PPTX结构记录']]){const span=el('span');span.append(el('strong',number.toLocaleString()),label);totals.append(span);}
+    for(const [number,label] of [[state.catalog.school_count,'所本科院校'],[state.catalog.schools.filter(s=>s.inspected_logo_count).length,'所已读取标识'],[state.catalog.schools.reduce((n,s)=>n+s.template_count,0),'个 PPT 模板入口']]){const span=el('span');span.append(el('strong',number.toLocaleString()),label);totals.append(span);}
     const code=new URL(location.href).searchParams.get('school');
     restoreFilters();refreshResults(false);if(code)await selectSchool(code,false);else welcome();
     writeUrl();
@@ -344,11 +359,23 @@ async function initialize() {
 }
 $('filters').addEventListener('submit',event=>event.preventDefault());
 let debounce;$('query').addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(()=>refreshResults(),130);});
-$('filters').addEventListener('change',event=>{if(event.target.id!=='query')refreshResults();});
-$('filters').addEventListener('reset',()=>setTimeout(()=>{clearTimeout(debounce);state.selected=null;state.loadId++;document.querySelector('.advanced').open=false;refreshResults();welcome();},0));
+$('filters').addEventListener('change',event=>{if(event.target.id==='query')return;
+  if(event.target.id==='type') {const id={logo:'logos',color:'colors',template:'templates',presentation:'templates',visual_file:'templates'}[$('type').value];if(id){const url=new URL(location.href);url.hash=id;history.replaceState(null,'',url);}}
+  refreshResults();
+});
+$('filters').addEventListener('reset',()=>setTimeout(()=>{clearTimeout(debounce);state.selected=null;state.loadId++;disclosure.setOpen($('advanced-filters'),false,$('filter-toggle'),false);refreshResults();welcome();},0));
 $('prev').addEventListener('click',()=>{state.page--;renderList();$('school-list').scrollTop=0;});
 $('next').addEventListener('click',()=>{state.page++;renderList();$('school-list').scrollTop=0;});
 window.addEventListener('popstate',()=>{if(!state.catalog)return;const code=new URL(location.href).searchParams.get('school');state.selected=null;state.loadId++;restoreFilters();refreshResults(false);if(code)selectSchool(code,false);else welcome();});
 window.addEventListener('hashchange',()=>syncSectionNavigation());
-installDisclosureMotion();
+const disclosure=installDisclosureMotion();installSectionTabs();
+$('filter-toggle').addEventListener('click',()=>disclosure.toggle($('advanced-filters'),$('filter-toggle')));
+const mobile=matchMedia('(max-width:899px)'),picker=$('school-picker');
+installDialogFocus(picker);
+function placeSchoolPanel(){if(!mobile.matches && picker.open)picker.close();(mobile.matches?$('school-picker-body'):$('school-panel-home')).append($('school-panel'));}
+placeSchoolPanel();mobile.addEventListener('change',placeSchoolPanel);
+$('school-picker-button').addEventListener('click',()=>{picker.returnValue='';picker.showModal();($('school-list').querySelector('.selected') || $('school-picker-close')).focus();});
+$('school-picker-close').addEventListener('click',()=>picker.close());
+picker.addEventListener('close',()=>{if(mobile.matches && picker.returnValue!=='school-selected')$('school-picker-button').focus({preventScroll:true});});
+picker.addEventListener('click',event=>{if(event.target!==picker)return;const rect=picker.getBoundingClientRect();if(event.clientX<rect.left || event.clientX>rect.right || event.clientY<rect.top || event.clientY>rect.bottom)picker.close();});
 initialize();
