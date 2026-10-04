@@ -4,7 +4,7 @@
 
 **在线使用：[高校 PPT 素材目录](https://yangxiake.github.io/university-design-db/)。** 搜索学校，查看标识、配色和模板入口，复制单校资料给 AI；无需安装本地环境。
 
-仓库已[公开发布到 GitHub](https://github.com/yangxiake/university-design-db)，无需登录即可查看代码、数据和下载 Release 资料包。也可下载后通过本地 HTTP 服务打开素材目录。在线站点从发布分支提供，维护者可同步通过检查的main版本；部署方法见[GitHub Pages 说明](docs/github-pages.md)。
+仓库已[公开发布到 GitHub](https://github.com/yangxiake/university-design-db)，无需登录即可查看代码、数据和下载 Release 资料包。也可下载后通过本地 HTTP 服务打开素材目录。main 更新后由 GitHub Actions 自动检查、构建并部署在线站点；部署方法见[GitHub Pages 说明](docs/github-pages.md)。
 
 最新资料包：[v0.4.5-20261004](https://github.com/yangxiake/university-design-db/releases/tag/v0.4.5-20261004)，统一按钮、控件状态和展开动画，调整卡片对齐、间距及手机布局，见[界面协调性更新](docs/releases/2026-10-04-viewer-consistency.md)。保留上一版的[预览与资源合并改进](docs/releases/2026-10-03-viewer-preview.md)，网页搜索已移除内部分类标签。主字段资料沿用[v0.4.2补采批次](docs/releases/2026-10-03-other-sources.md)，这是附来源的自动整理预发布版，尚未全量补齐；仅收现行已确认资料，剩余32所、59项缺口逐校保留。
 

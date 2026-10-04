@@ -24,11 +24,11 @@ Python 3.9+和Node.js 24，Python依赖安装到本地虚拟环境，网页规�
 
 ## GitHub Actions
 
-工作流为[Data quality](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)。推送、PR及手动触发运行，Python矩阵为3.9、3.13，两套均使用Node.js 24；安装依赖后执行同一本地检查入口。标准校验不调用联网采集脚本。工作流只获仓库读取权限，官方checkout/setup-python/setup-node操作固定到完整提交SHA。
+工作流为[Data quality](https://github.com/yangxiake/university-design-db/actions/workflows/quality.yml)。推送、PR及手动触发运行，也支持部署工作流通过 `workflow_call` 复用。Python矩阵为3.9、3.13，两套均使用Node.js 24；安装依赖后执行同一本地检查入口。标准校验不调用联网采集脚本。工作流只获仓库读取权限，官方checkout/setup-python/setup-node操作固定到完整提交SHA。
 
 jsonschema固定为4.25.1，以兼容Python 3.9最低版本，版本依据见[PyPI元数据](https://pypi.org/project/jsonschema/4.25.1/)。每套运行单独显示结果，超时或任何检查失败都不计为通过。
 
-网站通过GitHub自带的分支发布机制提供。`scripts/publish_pages.py`要求源仓库干净、HEAD已推送到main、仓库公开且同一提交的`Data quality`检查成功，才构建并推送静态发布分支。脚本不会强制推送或更改现有登录权限，部署版本在站点清单中保留源提交。发布内容与同步方法见[GitHub Pages说明](github-pages.md)。
+网站由[Deploy GitHub Pages](https://github.com/yangxiake/university-design-db/actions/workflows/deploy-pages.yml)自动部署。它先复用同一提交的两套质量检查；全部通过后用 `scripts/build_pages.py` 生成静态产物，并上传 Pages artifact，最后在 `github-pages` environment 部署。检查或构建失败时不会进入部署。只有部署任务获得 `pages: write` 和 `id-token: write`，所有任务均无源码写权限。发布内容与同步方法见[GitHub Pages说明](github-pages.md)。
 
 ## M1/M2验收（2026-10-02）
 

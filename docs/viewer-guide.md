@@ -2,7 +2,7 @@
 
 ## 打开和使用
 
-在线使用：[高校 PPT 素材目录](https://yangxiake.github.io/university-design-db/)，无需安装Python或Node.js。公开站点通过GitHub Pages托管，维护者将通过质量检查的main版本同步到发布分支；详情和页脚的完整档案、说明链接固定到本次部署的源提交。
+在线使用：[高校 PPT 素材目录](https://yangxiake.github.io/university-design-db/)，无需安装Python或Node.js。公开站点通过GitHub Pages托管，main 更新后由 GitHub Actions 自动检查、构建和部署；详情和页脚的完整档案、说明链接固定到本次部署的源提交。
 
 本地使用时，在下载后的仓库根目录运行：
 
